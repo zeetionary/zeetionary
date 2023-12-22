@@ -1881,6 +1881,26 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bogey.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boggle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bogof_one.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bogus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boil.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boiling.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boiling_point.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boiler.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boiler_suit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boisterous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bold.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boldness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boldly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bollard.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bolster.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bolt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bomb.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
@@ -3960,20 +3980,20 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bogey": (_) => MaterialPage(child: EnglishEntrybogey()),
   "/english-boggle": (_) => MaterialPage(child: EnglishEntryboggle()),
   "/english-bogof": (_) => MaterialPage(child: EnglishEntrybogof()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bogus": (_) => MaterialPage(child: EnglishEntrybogus()),
+  "/english-boil": (_) => MaterialPage(child: EnglishEntryboil()),
+  "/english-boiling": (_) => MaterialPage(child: EnglishEntryboiling()),
+  "/english-boiling point": (_) => MaterialPage(child: EnglishEntryboilingpoint()),
+  "/english-boiler": (_) => MaterialPage(child: EnglishEntryboiler()),
+  "/english-boiler-suit": (_) => MaterialPage(child: EnglishEntryboilersuit()),
+  "/english-boisterous": (_) => MaterialPage(child: EnglishEntryboisterous()),
+  "/english-bold": (_) => MaterialPage(child: EnglishEntrybold()),
+  "/english-boldness": (_) => MaterialPage(child: EnglishEntryboldness()),
+  "/english-boldly": (_) => MaterialPage(child: EnglishEntryboldly()),
+  "/english-bollard": (_) => MaterialPage(child: EnglishEntrybollard()),
+  "/english-bolster": (_) => MaterialPage(child: EnglishEntrybolster()),
+  "/english-bolt": (_) => MaterialPage(child: EnglishEntrybolt()),
+  "/english-bomb": (_) => MaterialPage(child: EnglishEntrybomb()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

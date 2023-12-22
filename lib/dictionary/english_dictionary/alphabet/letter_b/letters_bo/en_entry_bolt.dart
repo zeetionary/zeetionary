@@ -5,219 +5,168 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bite" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "bolt" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bite - /baɪt/
+// replace bolt - /bəʊlt/
 
 enum TtsState { playing }
 
-class EnglishEntrybite extends StatelessWidget {
+class EnglishEntrybolt extends StatelessWidget {
 // blank divider
-  EnglishEntrybite({super.key});
+  EnglishEntrybolt({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbite(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolt(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bite"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bolt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites1(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Does your dog bite?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites2(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts1(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She bit into a ripe juicy pear."); // DOPSUM: CHANGE TEXT
+        .speak("He slid back the bolt on the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites3(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts2(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Most European spiders don't bite."); // DOPSUM: CHANGE TEXT
+        .speak("I closed the window and drew the bolt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites4(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The fish aren't biting today."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites5(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The recession is beginning to bite."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites6(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He took a bite out of the apple."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites7(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts3(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He has to wear a brace to correct his bite."); // DOPSUM: CHANGE TEXT
+        "Use a bolt and nut to fasten the parts together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites8(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He didn't eat a bite of his dinner."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites9(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts4(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We just have time for a bite to eat before the movie."); // DOPSUM: CHANGE TEXT
+        "Thunder rumbled after a bright bolt of lightning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites10(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("There was a bite mark on his arm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites11(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts5(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Cheese will add extra bite to any pasta dish."); // DOPSUM: CHANGE TEXT
+        "The archer loaded a bolt into his crossbow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites12(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts6(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("There's a bite in the air tonight."); // DOPSUM: CHANGE TEXT
+        .speak("Don't forget to bolt the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites13(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The performance had no bite to it."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbites14(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts7(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The fishermen waited all afternoon for a bite."); // DOPSUM: CHANGE TEXT
+        "The various parts of the car are then bolted together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites15(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts8(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The plane swooped down low and the horses bolted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites16(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts9(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When he saw the police arrive, he bolted down an alley."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites17(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts10(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't bolt your food!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites18(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts11(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Many Democrats bolted the party to vote Republican."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites19(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts12(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolts1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites20(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts13(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolts1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites21(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts14(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolts1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbites22(String languageCode) async {
-    // DOPSUM: CHANGE speakbite
+  Future<void> speakbolts15(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbites2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolts1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbolts16(String languageCode) async {
+    // DOPSUM: CHANGE speakbolt
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbolts1616"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 16, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 22, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -234,22 +183,22 @@ class EnglishEntrybite extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bite"),
+                            EntryTitle(word: "bolt"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /baɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /bəʊlt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbite("en-GB"),
+                              onPressed: () => speakbolt("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /baɪt/"),
+                            const IPAofEnglish(text: "IpaUS: /bəʊlt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbite("en-US"),
+                              onPressed: () => speakbolt("en-US"),
                             ),
                           ],
                         ),
@@ -267,7 +216,7 @@ class EnglishEntrybite extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 16
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 22
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -276,12 +225,12 @@ class EnglishEntrybite extends StatelessWidget {
                   VideoIconForTab(), // 12
                   VideoIconForTab(), // 13
                   VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
-                  // VideoIconForTab(), // 18
-                  // VideoIconForTab(), // 19
-                  // VideoIconForTab(), // 20
+                  VideoIconForTab(), // 15
+                  VideoIconForTab(), // 16
+                  VideoIconForTab(), // 17
+                  VideoIconForTab(), // 18
+                  VideoIconForTab(), // 19
+                  VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -295,287 +244,223 @@ class EnglishEntrybite extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قەپ، گاز، گازگرتن، گەزین، گەستن، قەپ‌گرتن، قەپاڵ، ددان لێ‌گیرکردن، چزوو، تیکە، پاروو، تەزوو، تەز، ھێز، تین، ستین، بڕشت، قەوەت، (چێشت و تام) تیژی، دۆخی
+کوردی: قفڵ، قوفڵ، کلۆم، (بەرە)زمانەی قفڵ، چەفت، پێچ، کێلۆن، بورغی، بورغوو، چەخماخە، هەورەتریشقە، دەرچوون، ڕەڤیان، هەڵاتن، (کەوان) تیر، تاقە، تۆپ، ڕاست، قیت، شەق، ڕەپ
 
-١. (کردار) قەپگرتن، گازگرتن"""),
+١. (ناو) کێلۆنە دەرگا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Does your dog bite?"),
+                                  text: "He slid back the bolt on the door."),
                               const ExampleSentenceKurdish(
-                                  text: "سەگەکەت گاز دەگرێت؟"),
+                                  text: "کێلۆنی دەرگاکەی کردەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites1("en-GB"),
+                                onPressed: () => speakbolts1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites1("en-US"),
+                                onPressed: () => speakbolts1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She bit into a ripe juicy pear."),
+                                  text:
+                                      "I closed the window and drew the bolt (= slid the bolt across)."),
                               const ExampleSentenceKurdish(
-                                  text: "گازی لە ھەرمێیەکی ئاوداری گەییو گرت."),
+                                  text: "پەنجەرەکەم گرت و کێلۆنەکەم داخست."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites2("en-GB"),
+                                onPressed: () => speakbolts2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites2("en-US"),
+                                onPressed: () => speakbolts2("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) گازگرتنی مێروو، مار، ھتد"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Most European spiders don't bite."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites3("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) کە ماسییەک دەبێت بە قولابێکەوە بە قەپگرتن لە سەرەکەی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The fish aren't biting today."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماسییەکان ئەمڕۆ نابنە قولابەکەوە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites4("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (کردار) ھەبوونی کاریگەرییەکی ناخۆش"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The recession is beginning to bite."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەیرانەکە دەست بە خەستبوونەوە دەکات."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites5("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (ناو) قەپگرتن، گازگرتن"),
+                                  "٢. (ناو) بورغوو؛ پارچە ئاسنێک کە لەگەڵ نەتێک بەکاردێت بۆ بەستنی شت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He took a bite (= bit a piece) out of the apple."),
+                                      "Use a bolt and nut to fasten the parts together."),
                               const ExampleSentenceKurdish(
-                                  text: "قەپێکی لە سێوەکە گرت."),
+                                  text:
+                                      "بورغوو و نەت بەکاربێنە بۆ بەستنی پارچەکان پێکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites6("en-GB"),
+                                onPressed: () => speakbolts3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites6("en-US"),
+                                onPressed: () => speakbolts3("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) شێوازی پێکەوەلکانی بەشی سەرەوە و خوارەوەی ددان"),
+                                  "٣. (ناو) هەورەتریشقەیەکی لەناکاو لە ئاسماندا لە شێوەی هێڵێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He has to wear a brace to correct his bite."),
+                                      "Thunder rumbled after a bright bolt of lightning."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی."),
+                                      "تریشقە گرماندی لە دوای چەخماخەیەکی هەورەبرووسکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites7("en-GB"),
+                                onPressed: () => speakbolts4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites7("en-US"),
+                                onPressed: () => speakbolts4("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (ناو) پاروویەک لە خواردن"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He didn't eat a bite of his dinner (= he ate nothing)."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاروویەک لە نانی ئێوارەی نەخوارد."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites8("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٨. (ناو) خواردنێکی کەم"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We just have time for a bite to eat before the movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites9("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٩. (ناو) برین بە گازی ئاژەڵ"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There was a bite mark on his arm."),
-                              const ExampleSentenceKurdish(
-                                  text: "برینی گازێک لەسەر باڵی بوو."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakbites10("10speakbites10en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "١٠. (ناو) تامێکی بەھێزی خۆش"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cheese will add extra bite to any pasta dish."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites11("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "١١. (ناو) سەرمایەک لە ھەوادا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There's a bite in the air tonight."),
-                              const ExampleSentenceKurdish(
-                                  text: "کزەیەک ھەیە لە ھەوادا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites12("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٢. (ناو) خاسیەتێک کە وا دەکات شتێک بەھێز یان کاریگەر بێت"),
+                                  "٤. (ناو) تیرێکی کورتی قورس کە لە کەوانێکەوە دەهاوێژرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The performance had no bite to it."),
+                                  text:
+                                      "The archer loaded a bolt into his crossbow."),
                               const ExampleSentenceKurdish(
-                                  text: "نمایشەکە ھیچ تایبەتییەکی نەبوو."),
+                                  text:
+                                      "تیرهاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites13("en-GB"),
+                                onPressed: () => speakbolts5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites13("en-US"),
+                                onPressed: () => speakbolts5("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٣. (ناو) ماسییەک قەپ لە قولابێک بگرێت پێوە ببێت"),
+                                  "٥. (کردار) بەستنی دەرگایەک یان پەنجەرەیەک بە کێلۆنێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Don't forget to bolt the door."),
+                              const ExampleSentenceKurdish(
+                                  text: "بیرت نەچێت دەرگاکە کێلۆن بدە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolts6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolts6("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (کردار) بەستنی شت پێکەوە بە بورغوو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The fishermen waited all afternoon for a bite."),
+                                      "The various parts of the car are then bolted together."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت."),
+                                      "پارچە جیاوازەکانی ئۆتۆمبێلەکە دواتر پێکەوە دەبەسترێن بە بورغوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbites14("en-GB"),
+                                onPressed: () => speakbolts7("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbites14("en-US"),
+                                onPressed: () => speakbolts7("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) ڕاکردنی ئاژەڵێک، بەتایبەتی ئەسپ، بەهۆی ئەوەی ترساوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The plane swooped down low and the horses bolted."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فڕۆکەکە نزمبووەوە و ئەسپەکان هەڵهاتن."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolts8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolts8("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) ڕاکردن، بەتایبەتی بۆ هەڵهاتن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "When he saw the police arrive, he bolted down an alley."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا هەڵهات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolts9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolts9("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (ناو) خواردنی شتێک بە خێرایی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Don't bolt your food!"),
+                              const ExampleSentenceKurdish(
+                                  text: "خواردنەکە هەڵمەلووشە!"),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolts10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolts10("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (کردار) وەستان لە پشتگیری گرووپێک یان پارتێکی سیاسی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Many Democrats bolted the party to vote Republican."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە هێنا بۆ دەنگدان بە کۆمارییەکان."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolts11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolts11("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -593,12 +478,12 @@ class EnglishEntrybite extends StatelessWidget {
                     YoutubeEmbeddedtwelve(),
                     YoutubeEmbeddedthirteen(),
                     YoutubeEmbeddeddfourteen(),
-                    // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddeddsixteen(),
-                    // YoutubeEmbeddeddseventeen(),
-                    // YoutubeEmbeddeddeighteen(),
-                    // YoutubeEmbeddeddnineteen(),
-                    // YoutubeEmbeddedtwenty(),
+                    YoutubeEmbeddedfifteen(),
+                    YoutubeEmbeddeddsixteen(),
+                    YoutubeEmbeddeddseventeen(),
+                    YoutubeEmbeddeddeighteen(),
+                    YoutubeEmbeddeddnineteen(),
+                    YoutubeEmbeddedtwenty(),
                     // YoutubeEmbeddedmulti(),
                   ],
                 ),
@@ -627,42 +512,48 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bite (derived forms: bit, bitten, bites, biting)
-1. To grip, cut off, or tear with or as if with the teeth or jaws (= seize with teeth)
-"Gunny invariably tried to bite her";
+- Verb: bolt (Derived forms: bolts, bolting, bolted)
+1. Move or jump suddenly
+"She bolted from her seat"
+ 
+2. Secure or lock with a bolt
+"bolt the door"
+ 
+3. Swallow hastily
+ 
+4. Run away; usually includes taking something or somebody along (= abscond, absquatulate [N. Amer], decamp, run off, go off, make off, make away)
+"the accountant bolted with the cash from the safe";
 
-2. Cause a sharp or stinging pain or discomfort (= sting, burn)
-"The sun bit his face";
+5. Leave suddenly and as if in a hurry (= run off, run out, bolt out, beetle off)
+"The listeners bolted when he discussed his strange ideas"; "When she started to tell silly stories, I bolted out";
+ 
+6. Eat hastily without proper chewing (= gobble)
+"Don't bolt your food!";
 
-3. Penetrate or cut, as with a knife
-"The fork bit into the surface"
- 
-4. Deliver a sting to (= sting, prick)
-"A bee bit my arm yesterday";
+7. Make or roll into bolts
+"bolt fabric"
 
-- Noun: bite (derived forms: bites)
-1. A wound resulting from biting by an animal or a person
+- Noun: bolt (Derived forms: bolts)
+1. A discharge of lightning accompanied by thunder (= thunderbolt, bolt of lightning)
  
-2. A small amount of solid food; a mouthful (= morsel, bit)
-"all they had left was a bite of bread";
+2. A sliding bar in a breech-loading firearm that ejects an empty cartridge and replaces it and closes the breech
+ 
+3. The part of a lock that is engaged or withdrawn with a key (= deadbolt)
+ 
+4. The act of moving with great haste (= dash)
+"he made a bolt for the door";
 
-3. A painful wound caused by the thrust of an insect's stinger into skin (= sting, insect bite)
+5. A roll of cloth or wallpaper of a definite length
  
-4. A light informal meal (= collation, snack)
+6. A screw that screws into a nut to form a fastener
  
-5. (angling) an instance of a fish taking the bait
-"after fishing for an hour he still had not had a bite"
- 
-6. Wit having a sharp and caustic quality (= pungency)
-"the bite of satire";
- 
-7. A strong odour or taste property (= pungency, sharpness, raciness)
-"the sulphurous bite of garlic";
- 
-8. The act of gripping or chewing off with the teeth and jaws (= chomp)
- 
-9. A portion removed from the whole
-"the government's weekly bite from my paycheque"
+7. A sudden abandonment (as from a political party)
+
+- Adverb: bolt
+1. In a rigid manner (= rigidly, stiffly)
+"he sat bolt upright";
+
+2. Directly (= bang, slap, slapdash, smack [informal])
 """,
           )
         ],
@@ -676,12 +567,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "tXjHb5QmDV0";
+  static String myVideoId = "HB0CZ_5sPPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 955, // DOPSUM: CHANGE IT
+      startAt: 137, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -701,12 +592,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "DO9U_XxN-Kc";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 252, // DOPSUM: CHANGE IT
+      startAt: 132, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -726,12 +617,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "MnExgQ81fhU";
+  static String myVideoId = "XnbCSboujF4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 53, // DOPSUM: CHANGE IT
+      startAt: 278, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -751,12 +642,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "dqcSk-EDrRo";
+  static String myVideoId = "U2ggYjdzfsg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 454, // DOPSUM: CHANGE IT
+      startAt: 104, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -776,12 +667,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "X3n5Pk8fkLg";
+  static String myVideoId = "YGe49FRUJaM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 170, // DOPSUM: CHANGE IT
+      startAt: 145, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -801,12 +692,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "XI9kKiyIMf0";
+  static String myVideoId = "RxgKjz4mPYI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 604, // DOPSUM: CHANGE IT
+      startAt: 140, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -826,12 +717,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "5_uSZcXMV7s";
+  static String myVideoId = "xVQxvthAcLU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 118, // DOPSUM: CHANGE IT
+      startAt: 310, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -851,12 +742,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wtPYJMwuDO8";
+  static String myVideoId = "0zXfDafyyao";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 408, // DOPSUM: CHANGE IT
+      startAt: 1004, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -876,12 +767,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "WbRNKL2F4y4";
+  static String myVideoId = "jzA49U11R1g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 169, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -901,12 +792,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "nFbEHbo7ki4";
+  static String myVideoId = "0pK4JDFLazs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 406, // DOPSUM: CHANGE IT
+      startAt: 88, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -926,12 +817,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "Kfhdp5U_J-E";
+  static String myVideoId = "no27rp47seA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 536, // DOPSUM: CHANGE IT
+      startAt: 52, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -951,12 +842,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "DBxdTkddHaE";
+  static String myVideoId = "ByzxfIMRmNo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 930, // DOPSUM: CHANGE IT
+      startAt: 409, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -976,12 +867,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "VYRWjZ8B93g";
+  static String myVideoId = "5h2xYwtnBXM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 319, // DOPSUM: CHANGE IT
+      startAt: 985, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1001,12 +892,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddeddfourteen extends StatelessWidget {
   YoutubeEmbeddeddfourteen({super.key});
 
-  static String myVideoId = "RSfJD7kjpbQ";
+  static String myVideoId = "zqrqgKDJ1G8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 245, // DOPSUM: CHANGE IT
+      startAt: 669, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1026,12 +917,12 @@ class YoutubeEmbeddeddfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "2y9BJ-plK_g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 773, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1051,12 +942,12 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddeddsixteen extends StatelessWidget {
   YoutubeEmbeddeddsixteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "Ecy1FBdCRbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 334, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1076,12 +967,12 @@ class YoutubeEmbeddeddsixteen extends StatelessWidget {
 class YoutubeEmbeddeddseventeen extends StatelessWidget {
   YoutubeEmbeddeddseventeen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "igNcDEEl5to";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 28, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1101,12 +992,12 @@ class YoutubeEmbeddeddseventeen extends StatelessWidget {
 class YoutubeEmbeddeddeighteen extends StatelessWidget {
   YoutubeEmbeddeddeighteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "1VPfZ_XzisU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 59, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1126,12 +1017,12 @@ class YoutubeEmbeddeddeighteen extends StatelessWidget {
 class YoutubeEmbeddeddnineteen extends StatelessWidget {
   YoutubeEmbeddeddnineteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "jHTpW7euAns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1151,12 +1042,12 @@ class YoutubeEmbeddeddnineteen extends StatelessWidget {
 class YoutubeEmbeddedtwenty extends StatelessWidget {
   YoutubeEmbeddedtwenty({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "NpBGnd1K9zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1173,6 +1064,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// more than one video, only first autoplay
-
-// end bite// TODO Implement this library.
+// end bolt

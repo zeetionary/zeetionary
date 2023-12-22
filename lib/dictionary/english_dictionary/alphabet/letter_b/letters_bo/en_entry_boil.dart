@@ -5,85 +5,214 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bob" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "boil" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bob - /bɒb/
+// replace boil - /bɔɪl/
 
 enum TtsState { playing }
 
-class EnglishEntrybob extends StatelessWidget {
+class EnglishEntryboil extends StatelessWidget {
 // blank divider
-  EnglishEntrybob({super.key});
+  EnglishEntryboil({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbob(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboil(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bob"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boil"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Tiny boats bobbed up and down in the harbour."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbobs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils1(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She got her hair bobbed in a new style."); // DOPSUM: CHANGE TEXT
+        "Boil plenty of water, then add the spaghetti."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils2(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Water boils at 100°C."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils3(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The kettle's boiling."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils4(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She acknowledged me with a quick bob of her head."); // DOPSUM: CHANGE TEXT
+        "I'll boil the kettle and make some tea."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils5(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She wears her hair in a bob."); // DOPSUM: CHANGE TEXT
+        .speak("She put some potatoes on to boil."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils6(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("That coat cost me ten bob in 1956."); // DOPSUM: CHANGE TEXT
+        .speak("She can scarcely boil an egg."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils7(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbobs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was boiling with rage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbobs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbob
+  Future<void> speakboils8(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbobs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Bring the soup to the boil, then allow it to simmer for five minutes."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils9(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The doctor lanced the boil."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils10(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils11(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils12(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils13(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils14(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils15(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils16(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils17(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils18(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils19(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils20(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils21(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils22(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboils23(String languageCode) async {
+    // DOPSUM: CHANGE speakboil
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboils2323"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -106,22 +235,22 @@ class EnglishEntrybob extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bob"),
+                            EntryTitle(word: "boil"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɒb/"),
+                            const IPAofEnglish(text: "IpaUK: /bɔɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbob("en-GB"),
+                              onPressed: () => speakboil("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɑːb/"),
+                            const IPAofEnglish(text: "IpaUS: /bɔɪl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbob("en-US"),
+                              onPressed: () => speakboil("en-US"),
                             ),
                           ],
                         ),
@@ -167,103 +296,166 @@ class EnglishEntrybob extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھەڵبەزودابەز، تەکان، لەقین، ڕاوەشان، جووڵە، داھاتنەوە، کوڕنش (کەم)، شێوازێکی داھێنانی قژی ژنان، قاش‌کردن، قورسایی، سەنگ، قورسە، شاقوڵ، شاغوڵ، گوڵنگ، گووفک، کلکی بڕاو، کلکی کوڵ (ئەسپ)، ھێشوو، بۆڵ
+کوردی: کوڵ، کوڵان، خاڵی کوڵان، زیپکە، پیزۆکە، زیتکە، بزرک، کوڵک، کوان، دمەڵ، زیەم
 
-١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"""),
+١. (کردار) کوڵان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Tiny boats bobbed up and down in the harbour."),
+                                      "Boil plenty of water, then add the spaghetti."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەلەمە بچووکەکان ھەڵبەز و دابەزیان بوو لە بەندەرەکەدا."),
+                                      "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbobs1("en-GB"),
+                                onPressed: () => speakboils1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbobs1("en-US"),
+                                onPressed: () => speakboils1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Water boils at 100°C."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboils2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboils2("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بڕینی قژی کەسێک بە شێوەیەک کە لە ھەموو لایەکەوە ھەمان درێژی ھەیە"),
+                                  "٢. (کردار) کوڵان یان کوڵاندنی کترییەک، مەنجەڵێک، هتد تاوەکو ئاوەکەی ناوی دەکوڵێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She got her hair bobbed in a new style."),
+                                  text: "The kettle's boiling."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "پرچی داھێنا بە ھەمان درێژی بەشێوەیەکی ستایلی تازە."),
+                                  text: "کترییەکە دەکوڵێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbobs2("en-GB"),
+                                onPressed: () => speakboils3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbobs2("en-US"),
+                                onPressed: () => speakboils3("en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) جوڵەی خێرای سەروو و خوار"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She acknowledged me with a quick bob of her head."),
+                                      "I'll boil the kettle and make some tea."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاماژەی کرد کە ئاگادارە لێرەم بە لەقاندنێکی خێرای سەری."),
+                                      "کترییەکە دەکوڵێنم و هەندێک چا ئامادە دەکەم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbobs3("en-GB"),
+                                onPressed: () => speakboils4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbobs3("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) جۆرە پرچبڕینێک کە لە ھەموو لایەکەوە بە کورتی یان مام‌ناوەندی دەبڕدرێت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wears her hair in a bob."),
-                              const ExampleSentenceKurdish(
-                                  text: "پرچی بە شێوەی بۆبی دادەھێنێت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs4("en-US"),
+                                onPressed: () => speakboils4("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) دراوێکی بەریتانی کە لە ڕابردوودا بەکاردەھات"),
+                                  "٣. (کردار) خواردن ئامادەکردن یان شۆردن لە ئاوی کوڵاو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "That coat cost me ten bob in 1956."),
+                                  text: "She put some potatoes on to boil."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "پاڵتاوەکە ١٠ بۆبی تێچوو لەسەرم لە ١٩٥٦."),
+                                  text: "هەندێک پەتاتەی کوڵاند."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbobs5("en-GB"),
+                                onPressed: () => speakboils5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbobs5("en-US"),
+                                onPressed: () => speakboils5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She can scarcely boil an egg."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە ئەستەم دەتوانێت هێلکەش بکوڵێنێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboils6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboils6("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (کردار) زۆر تووڕەبوون"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He was boiling with rage."),
+                              const ExampleSentenceKurdish(
+                                  text: "خەریک بوو دەتەقی لە داخدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboils7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboils7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) خاڵی کوڵان"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Bring the soup to the boil, then allow it to simmer for five minutes."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شۆرباکە بهێنە کوڵان و دواتر بهێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboils8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboils8("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) هەڵئاوسانێکی بەئازار"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The doctor lanced the boil."),
+                              const ExampleSentenceKurdish(
+                                  text: "دکتۆرەکە زیپکەکەی تەقاند."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboils9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboils9("en-US"),
                               ),
                             ],
                           ),
@@ -318,36 +510,29 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bob (derived forms: bobs, bobbed, bobbing)
-1. Move up and down repeatedly in a quick, short movement (= jig)
-"her rucksack bobbed gently on her back";
+- Verb: boil (Derived forms: boiled, boiling, boils)
+1. Come to the boiling point and change from a liquid to vapour
+"Water boils at 100 degrees Celsius"
+ 
+2. Immerse or be immersed in a boiling liquid, often for cooking purposes
+"boil potatoes"; "boil wool"
+ 
+3. Bring to, or maintain at, the boiling point
+"boil this liquid until it evaporates"
+ 
+4. Be agitated (= churn, moil [N. Amer], roil)
+"the sea was boiling in the storm";
+ 
+5. Be in an agitated emotional state (= seethe)
+"The customer was boiling with anger";
 
-2. (sport) ride a bobsleigh (= bobsled [N. Amer], bobsleigh [Brit])
-"The boys bobbed down the hill screaming with pleasure";
+- Noun: boil  
+1. A painful sore with a hard core filled with pus (= furuncle)
  
-3. Remove or shorten the tail of an animal (= dock, tail)
- 
-4.Make a curtsy; usually done only by girls and women; as a sign of respect (= curtsy)
-"She bobbed when she shook the Queen's hand";
+2. The temperature at which a liquid boils at sea level (= boiling point)
+"they brought the water to a boil";
 
-5. Cut hair in the style of a bob
-"Bernice bobs her hair these days!"
-
-- Noun: bob (derived forms: bobs, bobbed, bobbing)
-1. [UK, informal] A former monetary unit in Great Britain (= British shilling, shilling)
- 
-2. A hair style for women and children; a short haircut all around
- 
-3. A long racing sled (for 2 or more people) with a steering mechanism (= bobsled [N. Amer], bobsleigh [Brit])
- 
-4. A hanging weight, especially a metal ball on a string
- 
-5. A small float usually made of cork; attached to a fishing line (= bobber, cork, bobfloat)
- 
-6. A short or shortened tail of certain animals (= bobtail, dock)
- 
-7. A short abrupt inclination (as of the head)
-"he gave me a short bob of acknowledgement"
+3. The state, action or process of boiling
 """,
           )
         ],
@@ -361,12 +546,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "1Pk5sw2YbEA";
+  static String myVideoId = "DPZzrlFCD_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 169, // DOPSUM: CHANGE IT
+      startAt: 42, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -386,12 +571,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "kNUmSJqdbhY";
+  static String myVideoId = "fsQVfQt0HOk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1977, // DOPSUM: CHANGE IT
+      startAt: 66, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -411,12 +596,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "wHEkXRiQhgM";
+  static String myVideoId = "zqUopiAYdRg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -436,12 +621,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "iaIqwPCsQZ4";
+  static String myVideoId = "rEdl2Uetpvo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 183, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -461,12 +646,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "mRVH1hpjak0";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 377, // DOPSUM: CHANGE IT
+      startAt: 255, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -486,12 +671,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "5Ew04a_z3k8";
+  static String myVideoId = "3cxHwQl9pNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 500, // DOPSUM: CHANGE IT
+      startAt: 81, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -511,12 +696,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ZQy89tZ-mRU";
+  static String myVideoId = "h0IPcqF2q9U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 439, // DOPSUM: CHANGE IT
+      startAt: 213, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -536,12 +721,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "h0jMpNZukjg";
+  static String myVideoId = "X5oD_thIk3c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 747, // DOPSUM: CHANGE IT
+      startAt: 157, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -561,12 +746,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "C67cIgsYOVg";
+  static String myVideoId = "dXt1ftcdxNg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 622, // DOPSUM: CHANGE IT
+      startAt: 368, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -586,12 +771,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "LG0y9swWgm4";
+  static String myVideoId = "zDdAPHuRGN0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1304, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -611,12 +796,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "MWhwWywwE54";
+  static String myVideoId = "veTo6eWJQrM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 121, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -636,12 +821,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "b9O6iCM4vCg";
+  static String myVideoId = "jX1dYKV-a_c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 201, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -660,4 +845,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bob
+// end boil

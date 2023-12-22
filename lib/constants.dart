@@ -26,7 +26,6 @@ class Constants {
   // ];
 }
 
-
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 //   const ZeetionaryAppbar({super.key});
 
@@ -38,7 +37,6 @@ class Constants {
 //   @override
 //   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 // }
-
 
 // class ZeetionaryAppbarTwo extends ConsumerStatefulWidget {
 //   const ZeetionaryAppbarTwo({super.key});
@@ -1017,6 +1015,114 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
             },
           ),
           Text(widget.text),
+        ],
+      ),
+    );
+  }
+}
+
+// class EntryTitle extends ConsumerStatefulWidget {
+//   final String word;
+
+//   const EntryTitle({super.key, required this.word});
+
+//   @override
+//   ConsumerState<ConsumerStatefulWidget> createState() => _EntryTitleState();
+// }
+
+// class _EntryTitleState extends ConsumerState<EntryTitle>
+//     with SingleTickerProviderStateMixin {
+//   late AnimationController _controller;
+
+//   @override
+//   Widget build(BuildContext context) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+// divider
+// divider
+// divider
+// divider
+// divider
+
+class MyExpansionTile extends ConsumerStatefulWidget {
+  static const String defaultTitle = "ڕستەی زیاتر"; // Shared title
+  final List<Widget> children;
+
+  const MyExpansionTile({
+    super.key,
+    required this.children,
+  });
+
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _MyExpansionTileState();
+}
+
+class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
+    with SingleTickerProviderStateMixin {
+  bool _isExpanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+    return Card(
+      color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+      elevation: 3,
+      shadowColor: Colors.grey.withOpacity(0.5),
+      margin: const EdgeInsets.all(8.0),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
+        side: BorderSide(color: Colors.blue.withOpacity(0.7)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          InkWell(
+            onTap: () {
+              setState(() {
+                _isExpanded = !_isExpanded;
+              });
+            },
+            child: ListTile(
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Icon(
+                    _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+                  ),
+                  Row(
+                    children: [
+                      const Text(
+                        MyExpansionTile.defaultTitle,
+                        textDirection: TextDirection.rtl,
+                        style: TextStyle(
+                          fontSize: 14.0, // Adjust the font size
+                          fontWeight: FontWeight.bold, // Adjust the font weight
+                          // color: Colors.black, // Adjust the text color
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Icon(
+                        Icons.book,
+                        color: Colors.blue.withOpacity(0.9),
+                        size: 20.0,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (_isExpanded)
+            Padding(
+              padding: const EdgeInsets.only(right: 4.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: widget.children,
+              ),
+            ),
         ],
       ),
     );

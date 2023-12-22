@@ -5,88 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bling-bling" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bolster" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bling-bling - /blɪŋ blɪŋ/
+// replace bolster - /ˈbəʊlstə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntryblingbling extends StatelessWidget {
+class EnglishEntrybolster extends StatelessWidget {
 // blank divider
-  EnglishEntryblingbling({super.key});
+  EnglishEntrybolster({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblingbling(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolster(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bling-bling"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bolster"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings1(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters1(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "That gold chain is a little too bling for my taste."); // DOPSUM: CHANGE TEXT
+        "More money is needed to bolster the industry."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings2(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters2(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I wore my diamond earrings to add some bling."); // DOPSUM: CHANGE TEXT
+        "They need to do something to bolster their image."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings3(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters3(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblingblings33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolsters33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings4(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters4(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblingblings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolsters44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings5(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters5(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblingblings55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolsters55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings6(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters6(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblingblings66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolsters66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblingblings7(String languageCode) async {
-    // DOPSUM: CHANGE speakblingbling
+  Future<void> speakbolsters7(String languageCode) async {
+    // DOPSUM: CHANGE speakbolster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblingblings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbolsters77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +103,22 @@ class EnglishEntryblingbling extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bling-bling (also: bling)"),
+                            EntryTitle(word: "bolster"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blɪŋ blɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbəʊlstə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblingbling("en-GB"),
+                              onPressed: () => speakbolster("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blɪŋ blɪŋ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbəʊlstər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblingbling("en-US"),
+                              onPressed: () => speakbolster("en-US"),
                             ),
                           ],
                         ),
@@ -136,13 +136,13 @@ class EnglishEntryblingbling extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -164,42 +164,62 @@ class EnglishEntryblingbling extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) خشڵ و جلی مۆدەی درەوشاوە کە بۆ سەرنجڕاکێشان دەپۆشرێن"""),
+کوردی: پاڵپشت، باڵشت، بالنج، پشتی، (بیناسازی) پاڵپشت(ـە)، ئەسکەنەی قورسی دابڕینی خشت
+
+١. (کردار) بەهێزکردنی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "That gold chain is a little too bling for my taste."),
+                                      "More money is needed to bolster the industry."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو زنجیرە ئاڵتوونییە کەمێک زۆر درەوشایەوە بۆ ئەوەی من دەمەوێت."),
+                                      "پارەی زیاتر پێویستە بۆ بەهێزکردنی پیشەسازییەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblingblings1("en-GB"),
+                                onPressed: () => speakbolsters1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblingblings1("en-US"),
+                                onPressed: () => speakbolsters1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They need to do something to bolster their image."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت شتێک بکەن بۆ ئەوەی وێنایان جوان بکەن."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbolsters2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbolsters2("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) خشڵی گرانبەھا و جلی مۆدەی درەوشاوە کە بۆ سەرنجڕاکێشان دەپۆشرێن"),
+                                  "٢. (ناو) سەرینێک کە لە شێوەی سەرینی کوردییە و دەخرێتە ژێر سەرینەکانی دیکە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I wore my diamond earrings to add some bling."),
+                                      "The hotel room had comfortable beds with bolsters."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوارە ئەڵماسییەکەم لە گوێ دەکەم بۆ زیادکردنی ھەندێک درەوشاوەیی (بۆ سەرنجڕاکێشان)."),
+                                      "ژووری هوتێلەکە جێخەوی ئاسوودەبەخشی هەبوو لەگەڵ سەرینی پاڵپشتیکار."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblingblings2("en-GB"),
+                                onPressed: () => speakbolsters2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblingblings2("en-US"),
+                                onPressed: () => speakbolsters2("en-US"),
                               ),
                             ],
                           ),
@@ -216,8 +236,8 @@ class EnglishEntryblingbling extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -254,9 +274,17 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bling-bling
-Usage: informal
-1. Flashy, ostentatious jewellery (= bling [informal])
+- Verb: bolster (Derived forms: bolsters, bolstering, bolstered)
+1. Support and strengthen (= bolster up)
+"bolster morale";
+
+2. Prop up with a pillow or bolster
+ 
+3. Add padding to (= pad)
+"bolster the seat of the chair";
+
+- Noun: bolster (Derived forms: bolsters)
+1. A pillow that is often put across a bed underneath the regular pillows (= long pillow)
 """,
           )
         ],
@@ -270,12 +298,12 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "MzSktgpfD84";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 335, // DOPSUM: CHANGE IT
+      startAt: 1252, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -295,12 +323,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "BztMgcNgobk";
+  static String myVideoId = "4brrubUsqB0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1042, // DOPSUM: CHANGE IT
+      startAt: 324, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -320,12 +348,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "qO4QyM4eg-8";
+  static String myVideoId = "XvVASCnsal8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1431, // DOPSUM: CHANGE IT
+      startAt: 433, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -345,12 +373,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "OIo2Ie1HwHY";
+  static String myVideoId = "jLIUkk6Esr0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1479, // DOPSUM: CHANGE IT
+      startAt: 968, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -370,12 +398,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "W9ojqSfsWKI";
+  static String myVideoId = "pLwHTqU2r_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1936, // DOPSUM: CHANGE IT
+      startAt: 974, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -395,12 +423,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "XjpOpVkg_oA";
+  static String myVideoId = "yRFPjBuRRCg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 602, // DOPSUM: CHANGE IT
+      startAt: 1525, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -420,12 +448,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "qZ5ddfbur5U";
+  static String myVideoId = "m9VT2qhHLj8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 714, // DOPSUM: CHANGE IT
+      startAt: 186, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -445,12 +473,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "722Q-KVyZ1o";
+  static String myVideoId = "lEgPVrSZa6w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 215, // DOPSUM: CHANGE IT
+      startAt: 768, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -470,12 +498,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "MHffUVUfpn0";
+  static String myVideoId = "p1Zb90MFf20";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 848, // DOPSUM: CHANGE IT
+      startAt: 4502, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -495,12 +523,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "5N00HFAUtAo";
+  static String myVideoId = "DE4YiRlKajs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1111, // DOPSUM: CHANGE IT
+      startAt: 5325, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -520,12 +548,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "TA5bDK2RTBQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 6925, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -545,12 +573,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "fBXnxlLR0PY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 683, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,4 +597,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bling-bling
+// end bolster

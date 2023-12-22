@@ -1800,6 +1800,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "blindly",
     "blindness",
     "blindfold",
+    "bling",
     "bling-bling",
     "blink",
     "blinker",
@@ -1909,20 +1910,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "boggy",
     "bogy",
     "BOGOF",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bogus",
+    "boil",
+    "boiler",
+    "boiler suit",
+    "boiling",
+    "boiling hot",
+    "boiling point",
+    "boisterous",
+    "bold",
+    "boldly",
+    "boldness",
+    "bollard",
+    "bolster",
+    "bolt",
+    "bomb",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9310,6 +9312,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bling-bling");
                   }
+                  if (wordsEnglish == "bling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bling-bling");
+                  }
                   if (wordsEnglish == "blink") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-blink");
@@ -9468,7 +9474,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "blood vessel") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-blood vessel");
+                    Routemaster.of(context).push("/english-blood-vessel");
                   }
                   if (wordsEnglish == "bloody") {
                     saveToHistory(wordsEnglish);
@@ -9750,62 +9756,66 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bogof");
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bogus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bogus");
+                  }
+                  if (wordsEnglish == "boil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boil");
+                  }
+                  if (wordsEnglish == "boiling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boiling");
+                  }
+                  if (wordsEnglish == "boiling hot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boiling");
+                  }
+                  if (wordsEnglish == "boiling point") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boiling-point");
+                  }
+                  if (wordsEnglish == "boiler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boiler");
+                  }
+                  if (wordsEnglish == "boiler suit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boiler-suit");
+                  }
+                  if (wordsEnglish == "boisterous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boisterous");
+                  }
+                  if (wordsEnglish == "bold") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bold");
+                  }
+                  if (wordsEnglish == "boldness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boldness");
+                  }
+                  if (wordsEnglish == "boldly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boldly");
+                  }
+                  if (wordsEnglish == "bollard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bollard");
+                  }
+                  if (wordsEnglish == "bolster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bolster");
+                  }
+                  if (wordsEnglish == "bolt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bolt");
+                  }
+                  if (wordsEnglish == "bomb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bomb");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

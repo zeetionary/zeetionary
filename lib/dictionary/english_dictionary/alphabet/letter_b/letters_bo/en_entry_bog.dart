@@ -224,9 +224,9 @@ class EnglishEntrybog extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Sam was on the bog when I arrived.رس"),
+                                  text: "Sam was on the bog when I arrived."),
                               const ExampleSentenceKurdish(
-                                  text: "سام لەسەر ئاو بوو کە ڕۆشتم."),
+                                  text: "سام لە سەرئاو بوو کە ڕۆشتم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbogs4("en-GB"),

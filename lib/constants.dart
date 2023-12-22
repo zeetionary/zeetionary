@@ -1048,6 +1048,8 @@ class MyExpansionTile extends ConsumerStatefulWidget {
   static const String defaultTitle = "ڕستەی زیاتر"; // Shared title
   final List<Widget> children;
 
+  // https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
+
   const MyExpansionTile({
     super.key,
     required this.children,

@@ -474,7 +474,7 @@ class EnglishEntrybook extends StatelessWidget {
                                               "Have you read the latest book by J. K. Rowling?"),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "تازەترین کتێبی جەی کەت ڕۆولینگت خوێندووتەوە؟"),
+                                              "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbooks5("en-GB"),

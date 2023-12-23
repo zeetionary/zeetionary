@@ -136,7 +136,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     final currentTheme = ref.watch(themeNotifierProvider);
 
     return Text(
-      'Zeetionary',
+      'Dictionary',
       style: TextStyle(
         fontSize: 30.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
@@ -439,72 +439,120 @@ class YouTubeContainerDesign extends ConsumerWidget {
       children: [
         const DividerDefinition(),
         Container(
-          margin: const EdgeInsets.only(
-              top: 20.0), // Move it down by adjusting the top margin
+          margin: const EdgeInsets.only(top: 20.0),
           padding: const EdgeInsets.all(8.0),
           decoration: BoxDecoration(
+            // Add to the BoxDecoration of the outer Container:
+            boxShadow: [
+              BoxShadow(
+                color: currentTheme.primaryColor.withOpacity(0.06),
+                offset: const Offset(0, 4),
+                blurRadius: 8,
+              ),
+            ],
             border: Border.all(
               color: currentTheme.primaryColor.withOpacity(0.1),
-              width: 3.0, // Adjust the width as needed
+              width: 3.0,
             ),
+            borderRadius: BorderRadius.circular(
+                15.0), // Apply border radius to the container
           ),
-          child: YoutubePlayer(
-            controller: _controller,
-            liveUIColor: Colors.amber,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(
+                15.0), // Apply border radius to the video player
+            child: YoutubePlayer(
+              controller: _controller,
+              liveUIColor: Colors.amber,
+            ),
           ),
         ),
       ],
     );
-    // Scaffold(
-    //   body: YoutubePlayer(
-    //     controller: _controller,
-    //     liveUIColor: Colors.amber,
-    //   ),
-    // );
-
-    // Scaffold(
-    //   body: Container(
-    //     padding: EdgeInsets.all(8.0),
-    //     decoration: BoxDecoration(
-    //       border: Border.all(
-    //         color: Pallete.tabsbackgroundColor,
-    //         width: 2.0, // Adjust the width as needed
-    //       ),
-    //     ),
-    //     child: YoutubePlayer(
-    //       controller: _controller,
-    //       liveUIColor: Colors.amber,
-    //     ),
-    //   ),
-    // );
-
-    // color: Pallete.tabsbackgroundColor,
-
-    // Scaffold(
-    //   body: Container(
-    //     margin: const EdgeInsets.only(
-    //         top: 40.0), // Move it down by adjusting the top margin
-    //     padding: const EdgeInsets.all(10.0),
-    //     decoration: BoxDecoration(
-    //       color: Pallete.tabsbackgroundColor,
-    //       // color: Colors.blue, // Background color
-    //       borderRadius: BorderRadius.circular(10.0), // Rounded corners
-    //       boxShadow: const [
-    //         BoxShadow(
-    //           color: Colors.grey,
-    //           blurRadius: 5.0,
-    //           spreadRadius: 2.0,
-    //         ),
-    //       ],
-    //     ),
-    //     child: YoutubePlayer(
-    //       controller: _controller,
-    //       liveUIColor: Colors.amber,
-    //     ),
-    //   ),
-    // );
   }
 }
+
+// class YouTubeContainerDesign extends ConsumerWidget {
+//   const YouTubeContainerDesign({
+//     super.key,
+//     required YoutubePlayerController controller,
+//   }) : _controller = controller;
+
+//   final YoutubePlayerController _controller;
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+//     return Column(
+//       children: [
+//         const DividerDefinition(),
+//         Container(
+//           margin: const EdgeInsets.only(
+//               top: 20.0), // Move it down by adjusting the top margin
+//           padding: const EdgeInsets.all(8.0),
+//           decoration: BoxDecoration(
+//             border: Border.all(
+//               color: currentTheme.primaryColor.withOpacity(0.1),
+//               width: 3.0, // Adjust the width as needed
+//             ),
+//           ),
+//           child: YoutubePlayer(
+//             controller: _controller,
+//             liveUIColor: Colors.amber,
+//           ),
+//         ),
+//       ],
+//     );
+//     // Scaffold(
+//     //   body: YoutubePlayer(
+//     //     controller: _controller,
+//     //     liveUIColor: Colors.amber,
+//     //   ),
+//     // );
+
+//     // Scaffold(
+//     //   body: Container(
+//     //     padding: EdgeInsets.all(8.0),
+//     //     decoration: BoxDecoration(
+//     //       border: Border.all(
+//     //         color: Pallete.tabsbackgroundColor,
+//     //         width: 2.0, // Adjust the width as needed
+//     //       ),
+//     //     ),
+//     //     child: YoutubePlayer(
+//     //       controller: _controller,
+//     //       liveUIColor: Colors.amber,
+//     //     ),
+//     //   ),
+//     // );
+
+//     // color: Pallete.tabsbackgroundColor,
+
+//     // Scaffold(
+//     //   body: Container(
+//     //     margin: const EdgeInsets.only(
+//     //         top: 40.0), // Move it down by adjusting the top margin
+//     //     padding: const EdgeInsets.all(10.0),
+//     //     decoration: BoxDecoration(
+//     //       color: Pallete.tabsbackgroundColor,
+//     //       // color: Colors.blue, // Background color
+//     //       borderRadius: BorderRadius.circular(10.0), // Rounded corners
+//     //       boxShadow: const [
+//     //         BoxShadow(
+//     //           color: Colors.grey,
+//     //           blurRadius: 5.0,
+//     //           spreadRadius: 2.0,
+//     //         ),
+//     //       ],
+//     //     ),
+//     //     child: YoutubePlayer(
+//     //       controller: _controller,
+//     //       liveUIColor: Colors.amber,
+//     //     ),
+//     //   ),
+//     // );
+//   }
+// }
 
 // class YouTubeContainerDesign extends ConsumerWidget {
 //   const YouTubeContainerDesign({

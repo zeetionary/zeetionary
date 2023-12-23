@@ -5,87 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bookmaker" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bookmark" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bookmaker - /ˈbʊkmeɪkə(r)/
+// replace bookmark - /ˈbʊkmɑːk/
 
 enum TtsState { playing }
 
-class EnglishEntrybookmaker extends StatelessWidget {
+class EnglishEntrybookmark extends StatelessWidget {
 // blank divider
-  EnglishEntrybookmaker({super.key});
+  EnglishEntrybookmark({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbookmaker(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmark(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bookmaker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bookmark"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks1(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakbookmakers111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The bookstore gave away free bookmarks with each purchase."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks2(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bookmark icon in the browser simplifies navigation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks3(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Do you want to bookmark this site?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks4(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookmarks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks5(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookmarks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks6(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookmarks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookmakers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
+  Future<void> speakbookmarks7(String languageCode) async {
+    // DOPSUM: CHANGE speakbookmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookmakers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookmarks77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +104,22 @@ class EnglishEntrybookmaker extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bookmaker (also: bookie)"),
+                            EntryTitle(word: "bookmark"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʊkmeɪkə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊkmɑːk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbookmaker("en-GB"),
+                              onPressed: () => speakbookmark("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʊkmeɪkər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʊkmɑːrk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbookmaker("en-US"),
+                              onPressed: () => speakbookmark("en-US"),
                             ),
                           ],
                         ),
@@ -135,11 +137,11 @@ class EnglishEntrybookmaker extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -156,32 +158,73 @@ class EnglishEntrybookmaker extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    const SingleChildScrollView(
+                    SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          DividerDefinition(),
-                          DefinitionKurdish(text: """
-کوردی: گرێوکەر، گرێوچی، گرێوباز، مەرج‌بەست، بڵاوکەرەوە، وەشان‌کار
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+کوردی: پەڕتووکنیشانەکەر، جێنیشانەکەر، جێدۆز، شوێندۆزی وێبگە، وێبگەنیشانەکەر
 
-١. (ناو) کەسێک کە گرەو وەردەگرێت لەسەر پێشبڕکێ و دواتر پارە دەدات بە لایەنی براوە"""),
-                          // Row(
-                          //   children: [
-                          //     const ExampleSentenceEnglish(
-                          //         text:
-                          //             "speakbookmakers111111111111111111111111111111111"),
-                          //     const ExampleSentenceKurdish(
-                          //         text: "رستە_رستە_رستە_رستە."),
-                          //     const CustomSizedBoxForTTS(),
-                          //     CustomIconButtonBritish(
-                          //       onPressed: () => speakbookmakers1("en-GB"),
-                          //     ),
-                          //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakbookmakers1("en-US"),
-                          //     ),
-                          //   ],
-                          // ),
+١. (ناو) پارچە پاڕەیەکی درێژ و باریک کە دەیخەیتە نێوان پەڕەکانی کتێبێک کە دەوەستیت لە خوێندن بۆ ئەوەی دواتر بە ئاسانی شوێنەکە بدۆزیتەوە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bookstore gave away free bookmarks with each purchase."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ هەر کڕینێکدا دەبەخشی."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbookmarks1("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbookmarks1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) تۆماری فایل و پەڕەی سەر ئینتەرنێت کە ڕێگەت پێدەدات دواتر بە ئاسانی بیاندۆزیتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bookmark icon in the browser simplifies navigation."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە هاتووچۆ ئاسان دەکات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbookmarks2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbookmarks2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) تۆمارکردنی ناونیشانی فایلێک یان پەڕەیەک لەسەر ئینتەرنێت بۆ ئەوەی دواتر بە ئاسانی بیدۆزیتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Do you want to bookmark this site?"),
+                              const ExampleSentenceKurdish(
+                                  text: "دەتەوێت ئەم سایتە بوکمارک بکەیت؟"),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbookmarks3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbookmarks3("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -194,7 +237,7 @@ class EnglishEntrybookmaker extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -233,10 +276,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookmaker (Derived forms: bookmakers)
-1. A maker of books; someone who edits, publishes or binds books
+Noun: bookmark (Derived forms: bookmarks)
+1. A marker (a piece of paper or ribbon) placed between the pages of a book to mark the reader's place (= bookmarker)
  
-2. A gambler who accepts and pays off bets (especially on horse races) (= bookie [informal], turf accountant [Brit])
+2. A link to a website, kept in a list for quick access in future (= favorite [US], favourite [Brit, Cdn])
+
+- Verb: bookmark (Derived forms: bookmarks, bookmarking, bookmarked)
+1. (computing) create a link to a web page (etc.) for quick future access (= favorite [N. Amer], favourite [Brit, Cdn])
+"if you don't find what you want now remember to bookmark the page and return later"; "List of most bookmarkd blogs";
 """,
           )
         ],
@@ -250,12 +297,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "UymP39GFm_E";
+  static String myVideoId = "https://youtu.be/Am1lDj2mUVY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 3593, // DOPSUM: CHANGE IT
+      startAt: 467, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -275,12 +322,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "FCM-3jZ8dXY";
+  static String myVideoId = "https://youtu.be/ki4Fbctwnjs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4328, // DOPSUM: CHANGE IT
+      startAt: 229, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -300,12 +347,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "4B0mGYZqElo";
+  static String myVideoId = "https://youtu.be/v_pjQkiXOng?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 519, // DOPSUM: CHANGE IT
+      startAt: 406, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -325,12 +372,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "KFOgIijPWGY";
+  static String myVideoId = "https://youtu.be/Rvey9g0VgY0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 349, // DOPSUM: CHANGE IT
+      startAt: 269, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +397,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "7xl6OCWmeeQ";
+  static String myVideoId = "https://youtu.be/5CRD9pmqa7s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 408, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +422,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "dyoQr6KdJLU";
+  static String myVideoId = "https://youtu.be/1IIDuRKUIiU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 352, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +447,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "a6voK4rDiUM";
+  static String myVideoId = "https://youtu.be/cNwNlKoD8fQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 581, // DOPSUM: CHANGE IT
+      startAt: 3, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +472,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "3cEdjH4TBh4";
+  static String myVideoId = "https://youtu.be/4sWffp2ErdU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 34, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +497,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "CryUohi4Afs";
+  static String myVideoId = "https://youtu.be/IA6_cktOUiA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 795, // DOPSUM: CHANGE IT
+      startAt: 147, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +522,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "iL4rmbwFwEY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 101, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,4 +596,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bookmaker
+// end bookmark

@@ -1931,20 +1931,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bombshell",
     "bona fide",
     "bond",
-    // "bone",
-    // "bone dry",
-    // "bone idle",
-    // "bone marrow",
-    // "bonfire",
-    // "bonnet",
-    // "bonus",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bone",
+    "bone dry",
+    "bone idle",
+    "bone marrow",
+    "bonfire",
+    "bonnet",
+    "bonus",
+    "bony",
+    "boo",
+    "boob",
+    // "booby prize",
+    // "booby trap",
+    // "book",
+    // "bookcase",
+    // "book club",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9840,65 +9841,65 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bond");
                   }
-                  // if (wordsEnglish == "bone") {
+                  if (wordsEnglish == "bone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bone");
+                  }
+                  if (wordsEnglish == "bone dry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bone-dry");
+                  }
+                  if (wordsEnglish == "bone idle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bone-idle");
+                  }
+                  if (wordsEnglish == "bone marrow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bone-marrow");
+                  }
+                  if (wordsEnglish == "bonfire") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bonfire");
+                  }
+                  if (wordsEnglish == "bonnet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bonnet");
+                  }
+                  if (wordsEnglish == "bonus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bonus");
+                  }
+                  if (wordsEnglish == "bony") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bony");
+                  }
+                  if (wordsEnglish == "boo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boo");
+                  }
+                  if (wordsEnglish == "boob") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boob");
+                  }
+                  // if (wordsEnglish == "booby prize") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bone");
+                  //   Routemaster.of(context).push("/english-booby-prize");
                   // }
-                  // if (wordsEnglish == "bone dry") {
+                  // if (wordsEnglish == "booby trap") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bone-dry");
+                  //   Routemaster.of(context).push("/english-booby-trap");
                   // }
-                  // if (wordsEnglish == "bone idle") {
+                  // if (wordsEnglish == "book") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bone-idle");
+                  //   Routemaster.of(context).push("/english-book");
                   // }
-                  // if (wordsEnglish == "bone marrow") {
+                  // if (wordsEnglish == "bookcase") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bone-marrow");
+                  //   Routemaster.of(context).push("/english-bookcase");
                   // }
-                  // if (wordsEnglish == "bonfire") {
+                  // if (wordsEnglish == "book club") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bonfire");
-                  // }
-                  // if (wordsEnglish == "bonnet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bonnet");
-                  // }
-                  // if (wordsEnglish == "bonus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bonus");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-book-club");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

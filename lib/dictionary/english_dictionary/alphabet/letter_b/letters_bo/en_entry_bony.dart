@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bone marrow" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bony" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bone marrow - /ˈbəʊn mærəʊ/
+// replace bony - /ˈbəʊni/
 
 enum TtsState { playing }
 
-class EnglishEntrybonemarrow extends StatelessWidget {
+class EnglishEntrybony extends StatelessWidget {
 // blank divider
-  EnglishEntrybonemarrow({super.key});
+  EnglishEntrybony({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbonemarrow(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbony(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bone marrow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bony"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows1(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A bone marrow transplant can be risky."); // DOPSUM: CHANGE TEXT
+        .speak("She looked frail, her face bony."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows2(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This fish is too bony to eat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows3(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows4(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows5(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows6(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbonemarrows7(String languageCode) async {
-    // DOPSUM: CHANGE speakbonemarrow
+  Future<void> speakbonys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbonemarrows77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bone marrow"),
+                            EntryTitle(word: "bony"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbəʊn mærəʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbəʊni/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbonemarrow("en-GB"),
+                              onPressed: () => speakbony("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbəʊn mærəʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbəʊni/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbonemarrow("en-US"),
+                              onPressed: () => speakbony("en-US"),
                             ),
                           ],
                         ),
@@ -135,12 +136,12 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -163,23 +164,40 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مۆخی ئێسک، ئێسکەمۆخ، مەغزی ئێسقان
+کوردی: ئێسک‌وپروسک، ئێسکن، ئێسک‌ئاسا، لاواز، ڕەقەڵ، پڕلەدڕوو (ماسی)
 
-١. (ناو) مادەیەکی نەرم کە بۆشاییەکانی ئێسک پڕدەکاتەوە"""),
+١. (ھاوەڵناو) کەسێک زۆر باریک کو ئێسکەکانی لەژێر پێستی دەبینرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "A bone marrow transplant can be risky."),
+                                  text: "She looked frail, her face bony."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت."),
+                                  text: "لاواز بوو و ڕووخساری ڕەقەڵ بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbonemarrows1("en-GB"),
+                                onPressed: () => speakbonys1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbonemarrows1("en-US"),
+                                onPressed: () => speakbonys1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) ماسییەک کە پڕ لە ئێسکە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "This fish is too bony to eat."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbonys2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbonys2("en-US"),
                               ),
                             ],
                           ),
@@ -196,7 +214,7 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -234,10 +252,15 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bone marrow (= Derived forms: bone marrows)
-1. The fatty network of connective tissue that fills the cavities of bones (= marrow)
+- Adjective: bony (Derived forms: bonier, boniest)
+1. Being very thin (= scraggy, scraggly, boney, scrawny, skinny, underweight, weedy)
+"pale bony hands";
  
-2. Very tender and very nutritious tissue from marrowbones (= marrow)
+2. Composed of or containing bone (= osseous, osteal)
+"bony tissue";
+
+3. Having bones especially many or prominent bones (= boney)
+"her bony wrist"; "bony fish"; "a bony shad fillet";
 """,
           )
         ],
@@ -251,12 +274,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "U61yzVVlUoE";
+  static String myVideoId = "zZM57oTu9Ng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 275, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -276,12 +299,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Gi3HnqetpLw";
+  static String myVideoId = "helhqdNlWhg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 627, // DOPSUM: CHANGE IT
+      startAt: 40, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -301,12 +324,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "XbRLMbDtiaA";
+  static String myVideoId = "8hTarWb0C9M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -326,12 +349,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "bg2II5DIJ0E";
+  static String myVideoId = "x629nYBuLpY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 110, // DOPSUM: CHANGE IT
+      startAt: 937, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -351,12 +374,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "Usl-x_MW95w";
+  static String myVideoId = "vgK51uFNOZY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 31, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,12 +399,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "Xddvic-OHu0";
+  static String myVideoId = "HdwzJLTLFqc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +424,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "lLHaIw3DVgk";
+  static String myVideoId = "l0MF_AdmPLY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 740, // DOPSUM: CHANGE IT
+      startAt: 570, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +449,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wmN1zGJQpUk";
+  static String myVideoId = "fk6C_gBjdV8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 26, // DOPSUM: CHANGE IT
+      startAt: 46, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +474,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "B3gnVL0n5cU";
+  static String myVideoId = "OncyTg9Dlec";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 246, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +499,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "D04Yxki_Ug8";
+  static String myVideoId = "pQK-VnQWbrg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2486, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -501,12 +524,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "HqFlxIEBGPI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,4 +573,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bone marrow
+// end bony

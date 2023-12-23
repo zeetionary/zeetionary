@@ -5,84 +5,160 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bone" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "boob" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bone - /bəʊn/
+// replace boob - /buːb/
 
 enum TtsState { playing }
 
-class EnglishEntrybone extends StatelessWidget {
+class EnglishEntryboob extends StatelessWidget {
 // blank divider
-  EnglishEntrybone({super.key});
+  EnglishEntryboob({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbone(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboob(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bone"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boob"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones1(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs1(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He survived the accident with no broken bones."); // DOPSUM: CHANGE TEXT
+        "She wore a low-cut dress, revealing her boobs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones2(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs2(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The swimsuit showcased her toned boobs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs3(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The comedian joked about his obsession with boobs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs4(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The dress emphasized her cleavage and boobs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs5(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You know her - blonde hair and big boobs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs6(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I made a bit of a boob deleting that file."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs7(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Don't be such a boob; think before you act."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs8(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("This fish has a lot of bones in it."); // DOPSUM: CHANGE TEXT
+        .speak("I boobed by forgetting the meeting."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones3(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs9(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The child was so thin that you could see her bones."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones4(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs10(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Can you bone a chicken?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones5(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs11(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's been trying to bone her for weeks."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones6(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs12(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbones66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbones7(String languageCode) async {
-    // DOPSUM: CHANGE speakbone
+  Future<void> speakboobs13(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbones77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboobs1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs14(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboobs1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs15(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboobs1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakboobs16(String languageCode) async {
+    // DOPSUM: CHANGE speakboob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboobs1616"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +181,22 @@ class EnglishEntrybone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bone"),
+                            EntryTitle(word: "boob"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bəʊn/"),
+                            const IPAofEnglish(text: "IpaUK: /buːb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbone("en-GB"),
+                              onPressed: () => speakboob("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bəʊn/"),
+                            const IPAofEnglish(text: "IpaUS: /buːb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbone("en-US"),
+                              onPressed: () => speakboob("en-US"),
                             ),
                           ],
                         ),
@@ -166,39 +242,23 @@ class EnglishEntrybone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئێسک، ئێسقان، هەستی، ئێسکان، سوخان، پەڵان، پێشە، (موسیقا) چەقەنە، (قومار) مۆرە، زار، قووڵ‌ترین بەشی شتێ، ناوەند، چەق، دڵ، ناخ، بابەت، ئێسک‌وپروسکی مردوو، ئێسک و گۆشت؛ لەش، جەستە؛ کەلاک، تەرم؛ داڕشتە یان چوارچێوەی بنەڕەتی
+کوردی: لێ‌داقڵیشان، خەتا یان هەڵەی گەوجانە، مرۆی گەوج، مەمک، بەرومەمک، بەردوویک، مەمکۆڵان، سنگ‌وبەرۆکی ژن
 
-١. (ناو) ئێسک، هەریەک لە بەشە سەختەکانی جەستەی مرۆڤ کە ئێسکەپەیکەری مرۆڤێک یان ئاژەڵێک پێکدێنێت"""),
+١. (ناو) مەمکی ژن؛ هەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He survived the accident with no broken bones."),
+                                      "She wore a low-cut dress, revealing her boobs."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی هیچ ئێسک شکاوییەکی هەبێت."),
+                                      "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbones1("en-GB"),
+                                onPressed: () => speakboobs1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbones1("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This fish has a lot of bones in it."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ماسییە زۆر ئێسکی تێدایە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones2("en-US"),
+                                onPressed: () => speakboobs1("en-US"),
                               ),
                             ],
                           ),
@@ -207,55 +267,135 @@ class EnglishEntrybone extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The child was so thin that you could see her bones."),
+                                      "The swimsuit showcased her toned boobs."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی."),
+                                  text: "جلەمەلەکە مەمکە توندەکانی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbones3("en-GB"),
+                                onPressed: () => speakboobs2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbones3("en-US"),
+                                onPressed: () => speakboobs2("en-US"),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The comedian joked about his obsession with boobs."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک."),
+                                      const CustomSizedBoxForTTS(),
+                                      CustomIconButtonBritish(
+                                        onPressed: () => speakboobs3("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakboobs3("en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The dress emphasized her cleavage and boobs."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو."),
+                                      const CustomSizedBoxForTTS(),
+                                      CustomIconButtonBritish(
+                                        onPressed: () => speakboobs4("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakboobs4("en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "You know her - blonde hair and big boobs."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە."),
+                                      const CustomSizedBoxForTTS(),
+                                      CustomIconButtonBritish(
+                                        onPressed: () => speakboobs5("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakboobs5("en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) لێکردنەوەی ئێسک لە مریشک و ماسی"),
+                              text: "٢. (ناو) هەڵەیەکی گەمژانە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Can you bone a chicken?"),
+                                  text:
+                                      "I made a bit of a boob deleting that file."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟"),
+                                  text:
+                                      "هەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbones4("en-GB"),
+                                onPressed: () => speakboobs6("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbones4("en-US"),
+                                onPressed: () => speakboobs6("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) سێکسکردن لەگەڵ کەسێک"),
+                              text: "٣. (ناو) کەسێکی گەمژە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He's been trying to bone her for weeks."),
+                                      "Don't be such a boob; think before you act."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چەندین هەفتەیە هەوڵ دەدات سێکسی لەگەڵ بکات."),
+                                      "هێندە گەمژە مەبە، پێش ئەوەی هەنگاو بنێیت بیربکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbones5("en-GB"),
+                                onPressed: () => speakboobs7("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbones5("en-US"),
+                                onPressed: () => speakboobs7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (کردار) کردنی هەڵەیەکی گەمژانە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I boobed by forgetting the meeting."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboobs8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboobs8("en-US"),
                               ),
                             ],
                           ),
@@ -310,24 +450,17 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bone (Derived forms: bones)
-1. Rigid connective tissue that makes up the skeleton of vertebrates (=os)
+- Noun: boob (Derived forms: boobs)
+Usage: informal
+1. An ignorant or foolish person (= dumbbell [informal], dummy [informal], dope [informal], booby, pinhead [informal], div [Brit, informal], poon [Austral, informal], divvy [Brit, informal])
  
-2. The porous calcified substance from which bones are made (= osseous tissue)
+2. [vulgar] Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= breast, bosom)
  
-3. A shade of white the colour of bleached bones (= ivory, pearl, off-white)
+3. [Brit, informal] An embarrassing mistake (= blunder, blooper [N. Amer, informal], bloomer [informal], bungle, pratfall [informal], foul-up, flub [N. Amer, informal], botch, boner [N. Amer, informal], boo-boo [informal], goof [informal], blue [Austral, NZ, informal])
 
-- Verb: bone (Derived forms: boned, boning, bones)
-1. [informal] Study intensively, as before an exam (= cram [informal], grind away, bone up [informal], swot [Brit, informal], get up [informal], mug up [Brit, informal], swot up [Brit, informal], revise [Brit])
-"I had to bone up on my Latin verbs before the final exam";
- 
-2. Remove the bones from (= debone)
-"bone the turkey before roasting it";
- 
-3. [vulgar] (of a man) have sexual intercourse with
-
-- Adjective: bone  bown
-1. Consisting of or made up of bone
+- Verb: boob (Derived forms: boobed, boobs, boobing)
+Usage: informal
+1. Commit a faux pas or a fault or make a serious mistake (= drop the ball, sin, blunder, goof [informal])
 """,
           )
         ],
@@ -341,12 +474,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "bg2II5DIJ0E";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 766, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +499,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "2BF691qi2sI";
+  static String myVideoId = "zZM57oTu9Ng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +524,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "A2rEZKPfAIs";
+  static String myVideoId = "pTysrwci0pU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 688, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +549,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Np0hJGKrIWg";
+  static String myVideoId = "ct-CdyT4HkM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 61, // DOPSUM: CHANGE IT
+      startAt: 230, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +574,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "TDUcQhOzO1Q";
+  static String myVideoId = "L6QJS8djygk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 317, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +599,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "xm4rDou3Lwc";
+  static String myVideoId = "PbKYAks6044";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 356, // DOPSUM: CHANGE IT
+      startAt: 279, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +624,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RG9TMn1FJzc";
+  static String myVideoId = "d25HklopoSs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 42, // DOPSUM: CHANGE IT
+      startAt: 617, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +649,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "r1wyy_3_4mk";
+  static String myVideoId = "CniX_zqMgJc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +674,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "rLGOtKHy06o";
+  static String myVideoId = "YSHnnPunShg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 142, // DOPSUM: CHANGE IT
+      startAt: 44, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +699,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "P0CnZlX0gXU";
+  static String myVideoId = "hBgC1eMTxeQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5098, // DOPSUM: CHANGE IT
+      startAt: 209, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +724,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "yO0MXJjtJ4o";
+  static String myVideoId = "ecNTBwXwRq4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 241, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +749,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "DamG5XDy-Do";
+  static String myVideoId = "DLxeuTMIV9k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 929, // DOPSUM: CHANGE IT
+      startAt: 459, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -640,4 +773,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bone
+// end boob

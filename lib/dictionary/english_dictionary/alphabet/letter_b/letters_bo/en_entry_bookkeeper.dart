@@ -5,88 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bookcase" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bookkeeper" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bookcase - /ˈbʊkkeɪs/
+// replace bookkeeper - /ˈbʊkkiːpə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybookcase extends StatelessWidget {
+class EnglishEntrybookkeeper extends StatelessWidget {
 // blank divider
-  EnglishEntrybookcase({super.key});
+  EnglishEntrybookkeeper({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbookcase(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeeper(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bookcase"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bookkeeper"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases1(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers1(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I chose a book from the bookcase."); // DOPSUM: CHANGE TEXT
+        .speak("My first job was as a bookkeeper."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases2(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers2(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I found this book in your bookcase."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases3(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers3(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookcases33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases4(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers4(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookcases44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases5(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers5(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookcases55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases6(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers6(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookcases66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbookcases7(String languageCode) async {
-    // DOPSUM: CHANGE speakbookcase
+  Future<void> speakbookkeepers7(String languageCode) async {
+    // DOPSUM: CHANGE speakbookkeeper
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbookcases77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbookkeepers77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +102,22 @@ class EnglishEntrybookcase extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bookcase"),
+                            EntryTitle(word: "bookkeeper"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʊkkeɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊkkiːpə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbookcase("en-GB"),
+                              onPressed: () => speakbookkeeper("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʊkkeɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʊkkiːpər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbookcase("en-US"),
+                              onPressed: () => speakbookkeeper("en-US"),
                             ),
                           ],
                         ),
@@ -136,12 +135,12 @@ class EnglishEntrybookcase extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -164,37 +163,21 @@ class EnglishEntrybookcase extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جێ‌کتێب، کتێب‌خانە، قەفەسە
+کوردی: حساب‌ڕاگر، هەژمارنووس، هەژمارڕاگر، حساب‌نووس، سەرحیساب
 
-١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی هەیە"""),
+١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "I chose a book from the bookcase."),
+                                  text: "My first job was as a bookkeeper."),
                               const ExampleSentenceKurdish(
-                                  text: "کتێبێکم لە جێ‌کتێبەکە هەڵگرت."),
+                                  text: "یەکەم کارم وەک هەژمارنووسێک بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbookcases1("en-GB"),
+                                onPressed: () => speakbookkeepers1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbookcases1("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I found this book in your bookcase."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookcases2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookcases2("en-US"),
+                                onPressed: () => speakbookkeepers1("en-US"),
                               ),
                             ],
                           ),
@@ -211,7 +194,7 @@ class EnglishEntrybookcase extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -249,8 +232,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookcase (Derived forms: bookcases)
-1. A piece of furniture with shelves for storing books
+- Noun: bookkeeper (Derived forms: bookkeepers)
+1. Someone who records the transactions of a business
 """,
           )
         ],
@@ -264,12 +247,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "uJ9De7KWw4Y";
+  static String myVideoId = "1GgD0CpMkyA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 1032, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -289,7 +272,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "V3NGBo2M1Ps";
+  static String myVideoId = "vypbp80ksbE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -314,12 +297,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "XmH8rBorj2Y";
+  static String myVideoId = "svg6SDb_yUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -339,12 +322,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "CX8TuEdKv1k";
+  static String myVideoId = "LCdoqN6iTjY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -364,12 +347,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "wyKMxKWXj8I";
+  static String myVideoId = "9eUqqUBNxPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 601, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -389,12 +372,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "aWoycQK9Msg";
+  static String myVideoId = "EgCiITbak7A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 799, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +397,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "3ItiOFfnzWI";
+  static String myVideoId = "CYU49XGHvAA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 210, // DOPSUM: CHANGE IT
+      startAt: 282, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +422,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "VYhwyZieKVc";
+  static String myVideoId = "yG6tFUVPV7g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 126, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +447,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "Ht0XeMZrKfs";
+  static String myVideoId = "j0Gix4nmF8U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 284, // DOPSUM: CHANGE IT
+      startAt: 159, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +472,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "FV1vTgTFRQk";
+  static String myVideoId = "x1ELZC9SdEM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 486, // DOPSUM: CHANGE IT
+      startAt: 122, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +497,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/LgDQG-ZKRFg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 767, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -563,4 +546,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bookcase
+// end bookkeeper

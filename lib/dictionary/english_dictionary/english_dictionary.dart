@@ -1941,14 +1941,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bony",
     "boo",
     "boob",
-    // "booby prize",
-    // "booby trap",
-    // "book",
-    // "bookcase",
-    // "book club",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "booby prize",
+    "booby trap",
+    "book",
+    "bookcase",
+    "book club",
+    "bookkeeper",
+    "bookkeeping",
+    "bookmaker",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9881,38 +9881,38 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-boob");
                   }
-                  // if (wordsEnglish == "booby prize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booby-prize");
-                  // }
-                  // if (wordsEnglish == "booby trap") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booby-trap");
-                  // }
-                  // if (wordsEnglish == "book") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-book");
-                  // }
-                  // if (wordsEnglish == "bookcase") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookcase");
-                  // }
-                  // if (wordsEnglish == "book club") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-book-club");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "booby prize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booby-prize");
+                  }
+                  if (wordsEnglish == "booby trap") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booby-trap");
+                  }
+                  if (wordsEnglish == "book") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-book");
+                  }
+                  if (wordsEnglish == "bookcase") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookcase");
+                  }
+                  if (wordsEnglish == "book club") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-book-club");
+                  }
+                  if (wordsEnglish == "bookkeeper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookkeeper");
+                  }
+                  if (wordsEnglish == "bookkeeping") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookkeeping");
+                  }
+                  if (wordsEnglish == "bookmaker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookmaker");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

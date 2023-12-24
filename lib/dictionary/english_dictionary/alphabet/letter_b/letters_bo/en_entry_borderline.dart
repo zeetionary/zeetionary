@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "black ice" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "borderline" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace black ice - /ˌblæk ˈaɪs/
+// replace borderline - /ˈbɔːdəlaɪn/
 
 enum TtsState { playing }
 
-class EnglishEntryblackice extends StatelessWidget {
+class EnglishEntryborderline extends StatelessWidget {
 // blank divider
-  EnglishEntryblackice({super.key});
+  EnglishEntryborderline({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblackice(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderline(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("black ice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("borderline"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices1(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines1(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Motorists have been warned about black ice on the roads."); // DOPSUM: CHANGE TEXT
+        "In borderline cases teachers will take the final decision, based on the student's previous work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices2(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines2(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The borderline between friendship and intimacy is often hard to define."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices3(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines3(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakborderlines33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices4(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines4(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakborderlines44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices5(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines5(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakborderlines55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices6(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines6(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakborderlines66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblackices7(String languageCode) async {
-    // DOPSUM: CHANGE speakblackice
+  Future<void> speakborderlines7(String languageCode) async {
+    // DOPSUM: CHANGE speakborderline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblackices77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakborderlines77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntryblackice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "black ice"),
+                            EntryTitle(word: "borderline"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌblæk ˈaɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔːdəlaɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblackice("en-GB"),
+                              onPressed: () => speakborderline("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌblæk ˈaɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔːrdərlaɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblackice("en-US"),
+                              onPressed: () => speakborderline("en-US"),
                             ),
                           ],
                         ),
@@ -135,11 +136,11 @@ class EnglishEntryblackice extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -163,28 +164,47 @@ class EnglishEntryblackice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: توێیەکی سەھۆڵ بەسەر ڕێگاوە، سەھۆڵەڕەشە، بەستوویی
+کوردی: سنوور، تخوب، هێڵی جیاکەرەوە، لەنێوەڕاست، لەمابەین، لەناوین
 
-١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"""),
+١. (ھاوەڵناو) لە نێوان دوو حاڵەتدا بەبێ ئەوەی بە تەواوی بۆ یەکێکیان بگەڕێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Motorists have been warned about black ice on the roads."),
+                                      "In borderline cases teachers will take the final decision, based on the student's previous work."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
+                                      "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblackices1("en-GB"),
+                                onPressed: () => speakborderlines1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblackices1("en-US"),
+                                onPressed: () => speakborderlines1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) جیاکەرەوەی نێوان دوو خاسیەت یان مەرج"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The borderline between friendship and intimacy is often hard to define."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خاڵی جیاکەرەوەی نێوان هاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakborderlines2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakborderlines2("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -195,9 +215,9 @@ class EnglishEntryblackice extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -236,8 +256,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: black ice
-1. A thin coating of ice (as from freezing mist) on a road or pavement; nearly invisible but very hazardous
+- Adjective: borderline
+1. Of questionable or minimal quality (= marginal)
+"borderline grades";
+
+- Noun: borderline (Derived forms: borderlines)
+1. A line that indicates a boundary (= boundary line, border, delimitation, mete)
 """,
           )
         ],
@@ -251,12 +275,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "VPWO3bvLtEU";
+  static String myVideoId = "https://youtu.be/OhV3wb_FVEE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 1545, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -276,12 +300,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "xHvVhhFvLtY";
+  static String myVideoId = "https://youtu.be/Sbp_EeBk-As?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 169, // DOPSUM: CHANGE IT
+      startAt: 1295, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -301,12 +325,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "UiON3yxUmd4";
+  static String myVideoId = "https://youtu.be/NQcwgZbgLj4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8997, // DOPSUM: CHANGE IT
+      startAt: 134, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -326,12 +350,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "XMz9eEZ3LTs";
+  static String myVideoId = "https://youtu.be/xxn8bUcjukU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 238, // DOPSUM: CHANGE IT
+      startAt: 2108, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -351,12 +375,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "rerhPQfnTnc";
+  static String myVideoId = "https://youtu.be/Hw1X5oFPgro?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 1724, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,12 +400,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "O6yHynQShyo";
+  static String myVideoId = "https://youtu.be/Md-iBTwN4Kc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 21, // DOPSUM: CHANGE IT
+      startAt: 404, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +425,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "1tHzztzy8Ck";
+  static String myVideoId = "https://youtu.be/QPpdU-8mm1o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 526, // DOPSUM: CHANGE IT
+      startAt: 146, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +450,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/KZNbHx_H1_s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 97, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +475,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/ZJ5xC-0TYWI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 287, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +500,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Fiq6QlnUNYc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 856, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,206 +572,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 // more than one video, only first autoplay
 
-// end black ice// TODO Implement this library.
+// end borderline

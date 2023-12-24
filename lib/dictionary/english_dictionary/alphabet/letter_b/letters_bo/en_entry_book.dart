@@ -66,7 +66,7 @@ class EnglishEntrybook extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Have you read the latest book by J. K. Rowling?"); // DOPSUM: CHANGE TEXT
+        "Have you read the latest book by J K Rowling?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbooks6(String languageCode) async {

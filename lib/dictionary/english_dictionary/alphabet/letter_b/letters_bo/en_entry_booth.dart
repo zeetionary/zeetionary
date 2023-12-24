@@ -39,7 +39,8 @@ class EnglishEntrybooth extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The information booth provided maps to tourists."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The information booth provided maps to tourists."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbooths3(String languageCode) async {
@@ -136,7 +137,7 @@ class EnglishEntrybooth extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -172,7 +173,8 @@ class EnglishEntrybooth extends StatelessWidget {
                                   text:
                                       "Phone booths have become rare with the rise of mobile phones."),
                               const ExampleSentenceKurdish(
-                                  text: "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
+                                  text:
+                                      "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooths1("en-GB"),
@@ -183,22 +185,25 @@ class EnglishEntrybooth extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) شوێنێک یان چادرگەیەکی کاتی لە مارکێتێک یان پێشانگایەک کە تێیدا دەتوانیت شت بکڕیت، سەیری شت بکەیت، یان زانیاری وەربگریت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) شوێنێک یان چادرگەیەکی کاتی لە مارکێتێک یان پێشانگایەک کە تێیدا دەتوانیت شت بکڕیت، سەیری شت بکەیت، یان زانیاری وەربگریت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The information booth provided maps to tourists."),
-                          const ExampleSentenceKurdish(
-                          text: "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbooths2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbooths2("en-US"),
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The information booth provided maps to tourists."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbooths2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbooths2("en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -251,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: booth  booth (Derived forms: booths)
+- Noun: booth  booth (derived forms: booths)
 1. A table (in a restaurant or bar) surrounded by two high-backed benches
  
 2. Small area set off by walls for special use (= cubicle, stall, kiosk)
@@ -273,7 +278,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
+  static String myVideoId = "HDntl7yzzVI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +303,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/9TugA_z5vQE?t=";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +328,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/WUjVPIEtJd0?t=";
+  static String myVideoId = "WUjVPIEtJd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +353,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/B35E8QleVhg?t=";
+  static String myVideoId = "B35E8QleVhg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +378,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/s0M6y5sCUVM?t=";
+  static String myVideoId = "s0M6y5sCUVM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +403,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/u432T_cDgQs?t=";
+  static String myVideoId = "u432T_cDgQs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -423,7 +428,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/pz52gPH3ou4?t=";
+  static String myVideoId = "pz52gPH3ou4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +453,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/MAFG6lNYWSI?t=";
+  static String myVideoId = "MAFG6lNYWSI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -473,7 +478,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/qrra18TChxY?t=";
+  static String myVideoId = "qrra18TChxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

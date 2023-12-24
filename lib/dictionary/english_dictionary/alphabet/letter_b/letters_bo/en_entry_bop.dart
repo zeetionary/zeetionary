@@ -164,7 +164,7 @@ class EnglishEntrybop extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەما، هەڵپەڕکێ
+کوردی: سەما، ھەڵپەڕکێ
 
 ١. (ناو) سەما لەگەڵ میوزیکی پۆپ"""),
                           Row(
@@ -191,7 +191,7 @@ class EnglishEntrybop extends StatelessWidget {
                                   text: "They were all bopping to the music."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
+                                      "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbops2("en-GB"),
@@ -203,7 +203,7 @@ class EnglishEntrybop extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) لێدان لە کەسێک بە هێواشی"),
+                              text: "٣. (کردار) لێدان لە کەسێک بە ھێواشی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -271,12 +271,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bop (Derived forms: bops)
+- Noun: bop (derived forms: bops)
 1. An early form of modern jazz (originating around 1940) (= bebop)
  
 2. [Brit, informal] A party with dancing to pop music; a disco
 
-- Verb: bop (Derived forms: bopped, bopping, bops)
+- Verb: bop (derived forms: bopped, bopping, bops)
 1. Dance the bebop (= bebop)
  
 2. [informal] Hit hard (= sock [informal], whop [informal], whap [N. Amer, informal], bonk [informal], bash [informal], clonk [informal], boink [N. Amer, informal], whack [informal], wham [informal], wallop [informal], lamp [UK, informal], clock [UK, informal], belt [informal])
@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/OgpBNnKKnMs?t=";
+  static String myVideoId = "OgpBNnKKnMs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -327,7 +327,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/HxRUuGqqMG4?t=";
+  static String myVideoId = "HxRUuGqqMG4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +352,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/XXhc5UTxv5I?t=";
+  static String myVideoId = "XXhc5UTxv5I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -377,7 +377,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/pTk9HnIwEYU?t=";
+  static String myVideoId = "pTk9HnIwEYU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +402,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/Vtl1lrnUUaM?t=";
+  static String myVideoId = "Vtl1lrnUUaM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -427,7 +427,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/Jin5h5YPl-w?t=";
+  static String myVideoId = "Jin5h5YPl-w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -452,7 +452,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/o4wWeBqSA90?t=";
+  static String myVideoId = "o4wWeBqSA90";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -477,7 +477,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/hvsjzWRTgeE?t=";
+  static String myVideoId = "hvsjzWRTgeE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -502,7 +502,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/e9U7vbp-CD4?t=";
+  static String myVideoId = "e9U7vbp-CD4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

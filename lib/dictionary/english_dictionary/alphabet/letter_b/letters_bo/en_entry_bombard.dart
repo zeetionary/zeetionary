@@ -166,7 +166,7 @@ class EnglishEntrybombard extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: 
 
-١. (کردار) هێرشکردنە سەر شوێنێک بە هاویشتن یان بەردانەوەی بۆمبێکی زۆر"""),
+١. (کردار) ھێرشکردنە سەر شوێنێک بە ھاویشتن یان بەردانەوەی بۆمبێکی زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -187,7 +187,7 @@ class EnglishEntrybombard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) ئاراستەکردنی ژمارەیەکی زۆر لە پرسیار، ڕەخنە، هتد لە کەسێک یان پێدانی ڕێژەیەکی زۆر لە زانیاری یان شتێک"),
+                                  "٢. (کردار) ئاراستەکردنی ژمارەیەکی زۆر لە پرسیار، ڕەخنە، ھتد لە کەسێک یان پێدانی ڕێژەیەکی زۆر لە زانیاری یان شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -255,10 +255,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bombard (Derived forms: bombards)
+- Noun: bombard (derived forms: bombards)
 1. A large shawm; the bass member of the shawm family (= bombardon)
 
-- Verb: bombard (Derived forms: bombarded, bombards, bombarding)
+- Verb: bombard (derived forms: bombarded, bombards, bombarding)
 1. Cast, hurl, or throw repeatedly with some missile (= pelt)
 "They bombarded each other with snowballs";
 

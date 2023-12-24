@@ -167,7 +167,7 @@ class EnglishEntrybomber extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (فڕۆکە) بۆمب‌خەر، بۆمباوێژ، بۆمب‌چن، بۆمب‌دانەر، بۆمب‌نەرەوە
 
-١. (ناو) فڕۆکەیەک کە بۆمب هەڵدەگرێت و بەری دەداتەوە"""),
+١. (ناو) فڕۆکەیەک کە بۆمب ھەڵدەگرێت و بەری دەداتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybomber extends StatelessWidget {
                                       "The invasion on land was supported by bombers in the air."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
+                                      "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombers1("en-GB"),
@@ -196,7 +196,7 @@ class EnglishEntrybomber extends StatelessWidget {
                                       "The suicide bomber blew himself up in a crowded restaurant, killing twelve people."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
+                                      "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombers2("en-GB"),
@@ -275,7 +275,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bomber (Derived forms: bombers)
+- Noun: bomber (derived forms: bombers)
 1. A military aircraft that drops bombs during flight
  
 2. A person who plants bombs

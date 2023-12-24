@@ -163,7 +163,7 @@ class EnglishEntrybogus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: درۆ، ساختە، درۆزنە، هەڵبەستە، زڕە، ناڕاستەقینە، خۆدەرخەرانە
+کوردی: درۆ، ساختە، درۆزنە، ھەڵبەستە، زڕە، ناڕاستەقینە، خۆدەرخەرانە
 
 ١. (ھاوەڵناو) واپیشاندانی ئەوەی کە ڕاست و درووستە بەڵام وانییە"""),
                           Row(
@@ -173,7 +173,7 @@ class EnglishEntrybogus extends StatelessWidget {
                                       "Bogus claims of injury by workers are costing companies thousands of pounds."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە هەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
+                                      "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboguss1("en-GB"),

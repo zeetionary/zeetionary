@@ -100,7 +100,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
       scrolledUnderElevation: 0,
       title: const ZeetionaryAppbarStyle(),
       leading: IconButton(
-        icon: const Icon(Icons.arrow_back_rounded),
+        icon: const Icon(Icons.arrow_back),
         onPressed: () {
           Routemaster.of(context).pop();
         },

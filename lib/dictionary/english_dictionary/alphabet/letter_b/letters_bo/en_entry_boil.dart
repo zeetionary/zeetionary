@@ -335,7 +335,7 @@ class EnglishEntryboil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) کوڵان یان کوڵاندنی کترییەک، مەنجەڵێک، هتد تاوەکو ئاوەکەی ناوی دەکوڵێت"),
+                                  "٢. (کردار) کوڵان یان کوڵاندنی کترییەک، مەنجەڵێک، ھتد تاوەکو ئاوەکەی ناوی دەکوڵێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -359,7 +359,7 @@ class EnglishEntryboil extends StatelessWidget {
                                       "I'll boil the kettle and make some tea."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کترییەکە دەکوڵێنم و هەندێک چا ئامادە دەکەم."),
+                                      "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboils4("en-GB"),
@@ -378,7 +378,7 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She put some potatoes on to boil."),
                               const ExampleSentenceKurdish(
-                                  text: "هەندێک پەتاتەی کوڵاند."),
+                                  text: "ھەندێک پەتاتەی کوڵاند."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboils5("en-GB"),
@@ -394,7 +394,7 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She can scarcely boil an egg."),
                               const ExampleSentenceKurdish(
-                                  text: "بە ئەستەم دەتوانێت هێلکەش بکوڵێنێت."),
+                                  text: "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboils6("en-GB"),
@@ -431,7 +431,7 @@ class EnglishEntryboil extends StatelessWidget {
                                       "Bring the soup to the boil, then allow it to simmer for five minutes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شۆرباکە بهێنە کوڵان و دواتر بهێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
+                                      "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboils8("en-GB"),
@@ -443,7 +443,7 @@ class EnglishEntryboil extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هەڵئاوسانێکی بەئازار"),
+                              text: "٢. (ناو) ھەڵئاوسانێکی بەئازار"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -510,7 +510,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: boil (Derived forms: boiled, boiling, boils)
+- Verb: boil (derived forms: boiled, boiling, boils)
 1. Come to the boiling point and change from a liquid to vapour
 "Water boils at 100 degrees Celsius"
  

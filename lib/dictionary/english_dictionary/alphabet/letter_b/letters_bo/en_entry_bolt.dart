@@ -244,7 +244,7 @@ class EnglishEntrybolt extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قفڵ، قوفڵ، کلۆم، (بەرە)زمانەی قفڵ، چەفت، پێچ، کێلۆن، بورغی، بورغوو، چەخماخە، هەورەتریشقە، دەرچوون، ڕەڤیان، هەڵاتن، (کەوان) تیر، تاقە، تۆپ، ڕاست، قیت، شەق، ڕەپ
+کوردی: قفڵ، قوفڵ، کلۆم، (بەرە)زمانەی قفڵ، چەفت، پێچ، کێلۆن، بورغی، بورغوو، چەخماخە، ھەورەتریشقە، دەرچوون، ڕەڤیان، ھەڵاتن، (کەوان) تیر، تاقە، تۆپ، ڕاست، قیت، شەق، ڕەپ
 
 ١. (ناو) کێلۆنە دەرگا"""),
                           Row(
@@ -303,7 +303,7 @@ class EnglishEntrybolt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) هەورەتریشقەیەکی لەناکاو لە ئاسماندا لە شێوەی هێڵێک"),
+                                  "٣. (ناو) ھەورەتریشقەیەکی لەناکاو لە ئاسماندا لە شێوەی ھێڵێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -311,7 +311,7 @@ class EnglishEntrybolt extends StatelessWidget {
                                       "Thunder rumbled after a bright bolt of lightning."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تریشقە گرماندی لە دوای چەخماخەیەکی هەورەبرووسکە."),
+                                      "تریشقە گرماندی لە دوای چەخماخەیەکی ھەورەبرووسکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts4("en-GB"),
@@ -324,7 +324,7 @@ class EnglishEntrybolt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) تیرێکی کورتی قورس کە لە کەوانێکەوە دەهاوێژرێت"),
+                                  "٤. (ناو) تیرێکی کورتی قورس کە لە کەوانێکەوە دەھاوێژرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -332,7 +332,7 @@ class EnglishEntrybolt extends StatelessWidget {
                                       "The archer loaded a bolt into his crossbow."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیرهاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
+                                      "تیرھاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts5("en-GB"),
@@ -384,7 +384,7 @@ class EnglishEntrybolt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) ڕاکردنی ئاژەڵێک، بەتایبەتی ئەسپ، بەهۆی ئەوەی ترساوە"),
+                                  "٧. (کردار) ڕاکردنی ئاژەڵێک، بەتایبەتی ئەسپ، بەھۆی ئەوەی ترساوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -392,7 +392,7 @@ class EnglishEntrybolt extends StatelessWidget {
                                       "The plane swooped down low and the horses bolted."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فڕۆکەکە نزمبووەوە و ئەسپەکان هەڵهاتن."),
+                                      "فڕۆکەکە نزمبووەوە و ئەسپەکان ھەڵھاتن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts8("en-GB"),
@@ -404,7 +404,7 @@ class EnglishEntrybolt extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (کردار) ڕاکردن، بەتایبەتی بۆ هەڵهاتن"),
+                              text: "٨. (کردار) ڕاکردن، بەتایبەتی بۆ ھەڵھاتن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -412,7 +412,7 @@ class EnglishEntrybolt extends StatelessWidget {
                                       "When he saw the police arrive, he bolted down an alley."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا هەڵهات."),
+                                      "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا ھەڵھات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts9("en-GB"),
@@ -430,7 +430,7 @@ class EnglishEntrybolt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Don't bolt your food!"),
                               const ExampleSentenceKurdish(
-                                  text: "خواردنەکە هەڵمەلووشە!"),
+                                  text: "خواردنەکە ھەڵمەلووشە!"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts10("en-GB"),
@@ -451,7 +451,7 @@ class EnglishEntrybolt extends StatelessWidget {
                                       "Many Democrats bolted the party to vote Republican."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە هێنا بۆ دەنگدان بە کۆمارییەکان."),
+                                      "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە ھێنا بۆ دەنگدان بە کۆمارییەکان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolts11("en-GB"),
@@ -512,7 +512,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bolt (Derived forms: bolts, bolting, bolted)
+- Verb: bolt (derived forms: bolts, bolting, bolted)
 1. Move or jump suddenly
 "She bolted from her seat"
  
@@ -533,7 +533,7 @@ class EnglishMeaning extends StatelessWidget {
 7. Make or roll into bolts
 "bolt fabric"
 
-- Noun: bolt (Derived forms: bolts)
+- Noun: bolt (derived forms: bolts)
 1. A discharge of lightning accompanied by thunder (= thunderbolt, bolt of lightning)
  
 2. A sliding bar in a breech-loading firearm that ejects an empty cartridge and replaces it and closes the breech

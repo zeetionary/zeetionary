@@ -163,7 +163,7 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: حساب‌ڕاگر، هەژمارنووس، هەژمارڕاگر، حساب‌نووس، سەرحیساب
+کوردی: حساب‌ڕاگر، ھەژمارنووس، ھەژمارڕاگر، حساب‌نووس، سەرحیساب
 
 ١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
@@ -171,7 +171,7 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "My first job was as a bookkeeper."),
                               const ExampleSentenceKurdish(
-                                  text: "یەکەم کارم وەک هەژمارنووسێک بوو."),
+                                  text: "یەکەم کارم وەک ھەژمارنووسێک بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookkeepers1("en-GB"),
@@ -232,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookkeeper (Derived forms: bookkeepers)
+- Noun: bookkeeper (derived forms: bookkeepers)
 1. Someone who records the transactions of a business
 """,
           )
@@ -497,7 +497,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/LgDQG-ZKRFg";
+  static String myVideoId = "LgDQG-ZKRFg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

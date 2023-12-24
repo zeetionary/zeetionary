@@ -163,7 +163,7 @@ class EnglishEntrybookkeeping extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: حساب‌ڕاگری، هەژمارنووسی، هەژمارڕاگری، حساب‌نووسی
+کوردی: حساب‌ڕاگری، ھەژمارنووسی، ھەژمارڕاگری، حساب‌نووسی
 
 ١. (ناو) کاری ڕاگرتنی تۆمارێکی پارەی وەرگیراو و خەرجکراو لەلایەن کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
@@ -173,7 +173,7 @@ class EnglishEntrybookkeeping extends StatelessWidget {
                                       "Accurate bookkeeping is essential for financial transparency."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
+                                      "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookkeepings1("en-GB"),
@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookkeeping (Derived forms: bookkeepings)
+- Noun: bookkeeping (derived forms: bookkeepings)
 1. The activity of recording business transactions (= clerking)
 """,
           )

@@ -307,7 +307,7 @@ class EnglishEntrybond extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بەڵێنی، خۆبەستەیی، پێبەندی، بەندێتی، دەربەست‌بوون، پەیگرتن، خۆبەستنەوە، بڕیار، بڕیارنامە، گرێبەست، بەڵێن‌نامە، گفت، سۆز، پەیمان، پێوەندی، تێکەڵی، گرێدایی، پێکەوەنووسان، یەک‌گرتن، پێکەوەبەستراوی، دێدی‌وبۆدی، کۆت‌وبەند، کۆت‌وزنجیر، پێوەند، کۆت‌وبەند، (کیمیا) بەند، پەیوەستی، گل‌دانەوەی گومڕکی، (بیناسازی) ڕەگ، چین
 
-١. (ناو) شتێک کە پەیوەندی یان هاوڕێیەتی درووست دەکات لە نێوان خەڵکی و گرووپدا، بۆ نموونە خۆشەویستی یان بیرۆکە و ئەزموون"""),
+١. (ناو) شتێک کە پەیوەندی یان ھاوڕێیەتی درووست دەکات لە نێوان خەڵکی و گرووپدا، بۆ نموونە خۆشەویستی یان بیرۆکە و ئەزموون"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -333,7 +333,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       "The agreement strengthened the bonds between the two countries."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەهێزکرد."),
+                                      "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbonds2("en-GB"),
@@ -354,7 +354,7 @@ class EnglishEntrybond extends StatelessWidget {
                                               "The students formed strong bonds with each other."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "قوتابییان پەیوەندیی بەهێزیان لەگەڵ یەکدی درووستکرد."),
+                                              "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbonds3("en-GB"),
@@ -372,7 +372,7 @@ class EnglishEntrybond extends StatelessWidget {
                                               "She felt a bond of affection for the other girls."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
+                                              "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbonds4("en-GB"),
@@ -427,7 +427,7 @@ class EnglishEntrybond extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) بڕێک ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارهێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
+                                  "٤. (ناو) بڕێک ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارھێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -505,7 +505,7 @@ class EnglishEntrybond extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) هێزی پێکەوەلکێنەری ئەتۆمەکان لە ئاوێتەیەکی کیمیاییدا"),
+                                  "٨. (ناو) ھێزی پێکەوەلکێنەری ئەتۆمەکان لە ئاوێتەیەکی کیمیاییدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -513,7 +513,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       "Carbon atoms can form bonds not only with themselves but with the atoms of oxygen and nitrogen."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنها لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
+                                      "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbonds11("en-GB"),
@@ -555,7 +555,7 @@ class EnglishEntrybond extends StatelessWidget {
                                               "It cannot be used to bond wood to metal."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ناتوانرێت بەکاربهێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
+                                              "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbonds13("en-GB"),
@@ -598,7 +598,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       "Mothers who are depressed sometimes fail to bond with their children."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو دایکانەی کە خەمۆکییان هەیە هەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
+                                      "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbonds15("en-GB"),
@@ -659,7 +659,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bond (Derived forms: bonds)
+- Noun: bond (derived forms: bonds)
 1. An electrical force linking atoms (= chemical bond)
  
 2. A certificate of debt (usually interest-bearing or discounted) that is issued by a government or corporation in order to raise money; the issuer is required to pay a fixed sum annually until maturity and then a fixed sum to repay the principal (= bond certificate)
@@ -681,7 +681,7 @@ class EnglishMeaning extends StatelessWidget {
 
 9. (construction) a specific pattern of bricklaying
 
-- Verb: bond (Derived forms: bonded, bonding, bonds)
+- Verb: bond (derived forms: bonded, bonding, bonds)
 1. Remain stuck to; keep in place (= adhere, hold fast, bind, stick, stick to)
 "Will this wallpaper bond to the wall?";
  

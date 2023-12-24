@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: bony (Derived forms: bonier, boniest)
+- Adjective: bony (derived forms: bonier, boniest)
 1. Being very thin (= scraggy, scraggly, boney, scrawny, skinny, underweight, weedy)
 "pale bony hands";
  

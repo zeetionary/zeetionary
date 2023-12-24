@@ -174,7 +174,7 @@ class EnglishEntryboobytrap extends StatelessWidget {
                                       "Nobody went near the abandoned car in case it was a booby trap."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێهێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
+                                      "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboobytraps1("en-GB"),
@@ -256,11 +256,11 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: booby-trap (Derived forms: booby-trapping, booby-traps, booby-trapped)
+- Verb: booby-trap (derived forms: booby-trapping, booby-traps, booby-trapped)
 1. Set up a booby trap
 "It was the first booby-trap I had seen since coming in country"
 
-- Noun: booby trap (Derived forms: booby traps)
+- Noun: booby trap (derived forms: booby traps)
 1. An explosive mine hidden underground; explodes when stepped on or driven over (= land mine, ground-emplaced mine)
  
 2. An unforeseen, unexpected or surprising difficulty (= pitfall)

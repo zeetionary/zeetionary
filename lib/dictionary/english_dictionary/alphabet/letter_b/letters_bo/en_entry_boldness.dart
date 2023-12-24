@@ -175,7 +175,7 @@ class EnglishEntryboldness extends StatelessWidget {
                                       "Both men were surprised by the boldness of the question."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
+                                      "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboldnesss1("en-GB"),
@@ -205,7 +205,7 @@ class EnglishEntryboldness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) خاسیەتی ئاسان بوون بۆ بینین هەبوونی ڕواڵەتێکی ئاشکرا"),
+                                  "٢. (ناو) خاسیەتی ئاسان بوون بۆ بینین ھەبوونی ڕواڵەتێکی ئاشکرا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

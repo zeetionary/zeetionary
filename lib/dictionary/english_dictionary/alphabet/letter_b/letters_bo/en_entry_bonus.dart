@@ -174,7 +174,7 @@ class EnglishEntrybonus extends StatelessWidget {
                                       "All employees get an annual bonus before the summer holidays."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو کارمەندان بەخششێکی ساڵانە وەردەگرن  پێش پشووی هاوین."),
+                                      "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن  پێش پشووی ھاوین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbonuss1("en-GB"),
@@ -187,7 +187,7 @@ class EnglishEntrybonus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
+                                  "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -195,7 +195,7 @@ class EnglishEntrybonus extends StatelessWidget {
                                       "As a bonus, club members can get free tickets for all the family."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وەک زیادییەک، هەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                                      "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbonuss2("en-GB"),
@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bonus (Derived forms: bonuses)
+- Noun: bonus (derived forms: bonuses)
 1. An additional payment (or other remuneration) to employees as a means of increasing output (= incentive)
  
 2. Anything that makes one feel encouraged (= fillip, shot in the arm)

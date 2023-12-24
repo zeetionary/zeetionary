@@ -1959,20 +1959,39 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bookstore",
     "book token",
     "bookworm",
-    // "booklet",
-    // "boom",
-    // "boomerang",
-    // "boon",
-    // "boost",
-    // "booster",
-    // "boot",
-    // "booth",
-    // "booze",
-    // "boozer",
-    // "booze-up",
-    // "bop",
-    // "border",
-    // "borderline",
+    "booklet",
+    "boom",
+    "boomerang",
+    "boon",
+    "boost",
+    "booster",
+    "boot",
+    "booth",
+    "booze",
+    "boozer",
+    "booze-up",
+    "bop",
+    "border",
+    "borderline",
+    "bore",
+    "bored",
+    "boredom",
+    "boring",
+    "born",
+    "born-again",
+    "borough",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9929,130 +9948,130 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bookmaker");
                   }
-                  // if (wordsEnglish == "bookie") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookmaker");
-                  // }
-                  // if (wordsEnglish == "bookmark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookmark");
-                  // }
-                  // if (wordsEnglish == "bookshop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookshop");
-                  // }
-                  // if (wordsEnglish == "bookstore") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookshop");
-                  // }
-                  // if (wordsEnglish == "bookstall") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookstall");
-                  // }
-                  // if (wordsEnglish == "book token") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-book-token");
-                  // }
-                  // if (wordsEnglish == "bookworm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookworm");
-                  // }
-                  // if (wordsEnglish == "bookable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bookable");
-                  // }
-                  // if (wordsEnglish == "booking") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booking");
-                  // }
-                  // if (wordsEnglish == "booking office") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booking-office");
-                  // }
-                  // if (wordsEnglish == "booklet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booklet");
-                  // }
-                  // if (wordsEnglish == "boom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boom");
-                  // }
-                  // if (wordsEnglish == "boomerang") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boomerang");
-                  // }
-                  // if (wordsEnglish == "boon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boon");
-                  // }
-                  // if (wordsEnglish == "boost") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boost");
-                  // }
-                  // if (wordsEnglish == "booster") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booster");
-                  // }
-                  // if (wordsEnglish == "boot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boot");
-                  // }
-                  // if (wordsEnglish == "booth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booth");
-                  // }
-                  // if (wordsEnglish == "booze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booze");
-                  // }
-                  // if (wordsEnglish == "boozer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boozer");
-                  // }
-                  // if (wordsEnglish == "booze-up") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-booze-up");
-                  // }
-                  // if (wordsEnglish == "bop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bop");
-                  // }
-                  // if (wordsEnglish == "border") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-border");
-                  // }
-                  // if (wordsEnglish == "borderline") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-borderline");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bookie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookmaker");
+                  }
+                  if (wordsEnglish == "bookmark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookmark");
+                  }
+                  if (wordsEnglish == "bookshop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookshop");
+                  }
+                  if (wordsEnglish == "bookstore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookshop");
+                  }
+                  if (wordsEnglish == "bookstall") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookstall");
+                  }
+                  if (wordsEnglish == "book token") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-book-token");
+                  }
+                  if (wordsEnglish == "bookworm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookworm");
+                  }
+                  if (wordsEnglish == "bookable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bookable");
+                  }
+                  if (wordsEnglish == "booking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booking");
+                  }
+                  if (wordsEnglish == "booking office") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booking-office");
+                  }
+                  if (wordsEnglish == "booklet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booklet");
+                  }
+                  if (wordsEnglish == "boom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boom");
+                  }
+                  if (wordsEnglish == "boomerang") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boomerang");
+                  }
+                  if (wordsEnglish == "boon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boon");
+                  }
+                  if (wordsEnglish == "boost") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boost");
+                  }
+                  if (wordsEnglish == "booster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booster");
+                  }
+                  if (wordsEnglish == "boot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boot");
+                  }
+                  if (wordsEnglish == "booth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booth");
+                  }
+                  if (wordsEnglish == "booze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booze");
+                  }
+                  if (wordsEnglish == "boozer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boozer");
+                  }
+                  if (wordsEnglish == "booze-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-booze-up");
+                  }
+                  if (wordsEnglish == "bop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bop");
+                  }
+                  if (wordsEnglish == "border") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-border");
+                  }
+                  if (wordsEnglish == "borderline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-borderline");
+                  }
+                  if (wordsEnglish == "bore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bore");
+                  }
+                  if (wordsEnglish == "boredom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boredom");
+                  }
+                  if (wordsEnglish == "bored") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bored");
+                  }
+                  if (wordsEnglish == "boring") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boring");
+                  }
+                  if (wordsEnglish == "born") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-born");
+                  }
+                  if (wordsEnglish == "born-again") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-born-again");
+                  }
+                  if (wordsEnglish == "borough") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-borough");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

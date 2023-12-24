@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bone marrow (= Derived forms: bone marrows)
+- Noun: bone marrow (= derived forms: bone marrows)
 1. The fatty network of connective tissue that fills the cavities of bones (= marrow)
  
 2. Very tender and very nutritious tissue from marrowbones (= marrow)

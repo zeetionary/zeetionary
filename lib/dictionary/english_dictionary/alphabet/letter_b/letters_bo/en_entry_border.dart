@@ -386,7 +386,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       "Thousands of people cross the border every day."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەزاران کەس هەموو ڕۆژێک سنوورەکە دەبڕن."),
+                                      "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakborders2("en-GB"),
@@ -407,7 +407,7 @@ class EnglishEntryborder extends StatelessWidget {
                                               "They took steps to secure the border."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
+                                              "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakborders3("en-GB"),
@@ -425,7 +425,7 @@ class EnglishEntryborder extends StatelessWidget {
                                               "They spent a week in a national park on the border between Kenya and Tanzania."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
+                                              "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakborders4("en-GB"),
@@ -443,7 +443,7 @@ class EnglishEntryborder extends StatelessWidget {
                                               "It is difficult to define the border between love and friendship."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "(بەکارهێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
+                                              "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakborders5("en-GB"),
@@ -459,7 +459,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "They fled across the border."),
                                       const ExampleSentenceKurdish(
-                                          text: "بە سنوورەکەدا هەڵهاتن."),
+                                          text: "بە سنوورەکەدا ھەڵھاتن."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakborders6("en-GB"),
@@ -518,7 +518,7 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) هەبوونی سنوور لەگەڵ شوێنێک یان وڵاتێک"),
+                                  "٤. (کردار) ھەبوونی سنوور لەگەڵ شوێنێک یان وڵاتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -526,7 +526,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       "Albania is bordered to the north by Serbia and Montenegro."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەلبانیا لە باکوورەوە هاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
+                                      "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakborders9("en-GB"),
@@ -544,7 +544,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       "Eswatini borders South Africa and Mozambique."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا هەیە."),
+                                      "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakborders10("en-GB"),
@@ -557,7 +557,7 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) درووستکردنی هێڵێک بەدرێژایی یان بە دەوری شتێکدا"),
+                                  "٥. (کردار) درووستکردنی ھێڵێک بەدرێژایی یان بە دەوری شتێکدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -642,7 +642,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: border (Derived forms: borders)
+- Noun: border (derived forms: borders)
 1. A line that indicates a boundary (= boundary line, borderline, delimitation, mete)
  
 2. The boundary line or the area immediately inside the boundary (= margin, perimeter)
@@ -654,7 +654,7 @@ class EnglishMeaning extends StatelessWidget {
 5. A strip forming the outer edge of something
 "the rug had a wide blue border"
 
-- Verb: border (Derived forms: borders, bordering, bordered)
+- Verb: border (derived forms: borders, bordering, bordered)
 1. Extend on all sides of simultaneously; encircle (= surround, environ, ring, skirt)
 "The forest borders my property";
 
@@ -681,7 +681,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -706,7 +706,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -731,7 +731,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/-L7o6HtX8Vg?t=";
+  static String myVideoId = "-L7o6HtX8Vg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -756,7 +756,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/QLq6GEiHqR8?t=";
+  static String myVideoId = "QLq6GEiHqR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -781,7 +781,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/mY3SEMTROas?t=";
+  static String myVideoId = "mY3SEMTROas";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -806,7 +806,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/_45zjnjrFOA?t=";
+  static String myVideoId = "_45zjnjrFOA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -831,7 +831,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/oD9BaNAH-eE?t=";
+  static String myVideoId = "oD9BaNAH-eE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -856,7 +856,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/snAhsXyO3Ck?t=";
+  static String myVideoId = "snAhsXyO3Ck";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -881,7 +881,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/0twDETh6QaI?t=";
+  static String myVideoId = "0twDETh6QaI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -906,7 +906,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/AjzMrDla0OA?t=";
+  static String myVideoId = "AjzMrDla0OA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -931,7 +931,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/5YtVV1VJ4f8?t=";
+  static String myVideoId = "5YtVV1VJ4f8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -956,7 +956,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/vb-p--iRFew?t=";
+  static String myVideoId = "vb-p--iRFew";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

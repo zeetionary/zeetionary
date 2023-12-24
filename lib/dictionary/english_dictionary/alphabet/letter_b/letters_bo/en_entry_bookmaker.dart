@@ -233,7 +233,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookmaker (Derived forms: bookmakers)
+- Noun: bookmaker (derived forms: bookmakers)
 1. A maker of books; someone who edits, publishes or binds books
  
 2. A gambler who accepts and pays off bets (especially on horse races) (= bookie [informal], turf accountant [Brit])

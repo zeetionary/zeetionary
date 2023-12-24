@@ -364,9 +364,9 @@ class EnglishEntrybook extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کتێب، پەڕتووک، نامە، پەڕاو، دەفتەر، تێنووس، دەفتەرچە، بەرگ، بەش، پشک، ئاڵبۆم، ژمارەنامەی تەلەفون، کتێبی پیرۆز، سیفر، کتێب، سێفر (= بەشێ لە کتێبی پیرۆز)، حساب، بەرپرسایەتی، حسابەکان، هەژماران، هەژمارەکان
+کوردی: کتێب، پەڕتووک، نامە، پەڕاو، دەفتەر، تێنووس، دەفتەرچە، بەرگ، بەش، پشک، ئاڵبۆم، ژمارەنامەی تەلەفون، کتێبی پیرۆز، سیفر، کتێب، سێفر (= بەشێ لە کتێبی پیرۆز)، حساب، بەرپرسایەتی، حسابەکان، ھەژماران، ھەژمارەکان
 
-١. (ناو) کتێب؛ ژمارەیەک پەڕە کە لە ناو بەرگێکدا کۆکراونەتەوە و بۆ ئەوەی هەڵیان بدەیتەوە و بیانخوێنیتەوە"""),
+١. (ناو) کتێب؛ ژمارەیەک پەڕە کە لە ناو بەرگێکدا کۆکراونەتەوە و بۆ ئەوەی ھەڵیان بدەیتەوە و بیانخوێنیتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -412,7 +412,7 @@ class EnglishEntrybook extends StatelessWidget {
                                               "Her name was inscribed in the book."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ناوی لەسەر کتێبەکە هەڵکۆڵدرابوو."),
+                                              "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbooks2("en-GB"),
@@ -437,7 +437,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "Have you read any good books recently?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەم نزیکانە هیچ کتێبێکی خۆشت خوێندووتەوە؟"),
+                                      "بەم نزیکانە ھیچ کتێبێکی خۆشت خوێندووتەوە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks3("en-GB"),
@@ -510,7 +510,7 @@ class EnglishEntrybook extends StatelessWidget {
                                               "There's nothing like curling up with a mug of tea and a good book."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
+                                              "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbooks8("en-GB"),
@@ -528,7 +528,7 @@ class EnglishEntrybook extends StatelessWidget {
                                               "The book has received some terrible reviews."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "کتێبەکە هەندێک پێداچوونەوەی خراپی وەرگرتووە."),
+                                              "کتێبەکە ھەندێک پێداچوونەوەی خراپی وەرگرتووە."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbooks9("en-GB"),
@@ -553,7 +553,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "He writes all his expenses in a little book he carries with him."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەواوی خەرجییەکانی لە دەفتەرێکی بچووکدا دەنووسێت کە لەگەڵ خۆی بۆ هەموو شوێنێک هەڵیدەگرێت."),
+                                      "تەواوی خەرجییەکانی لە دەفتەرێکی بچووکدا دەنووسێت کە لەگەڵ خۆی بۆ ھەموو شوێنێک ھەڵیدەگرێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks10("en-GB"),
@@ -574,7 +574,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "She flipped through her recipe book for inspiration."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کتێبی ڕەچەتەکەی هەڵدایەوە بۆ ئیلهام وەرگرتن."),
+                                      "کتێبی ڕەچەتەکەی ھەڵدایەوە بۆ ئیلھام وەرگرتن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks11("en-GB"),
@@ -594,7 +594,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "You need to go over the books again; there’s a mistake somewhere."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەبێت دووبارە پێداچوونەوە بە تۆمارەکان بکەیتەوە، هەڵەیەک لە شوێنێک هەیە."),
+                                      "دەبێت دووبارە پێداچوونەوە بە تۆمارەکان بکەیتەوە، ھەڵەیەک لە شوێنێک ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks12("en-GB"),
@@ -626,7 +626,7 @@ class EnglishEntrybook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) ڕێکخستنی بەروارێک بۆ هەبوون یان بەکارهێنانی شتێک لە داهاتوودا"),
+                                  "٧. (کردار) ڕێکخستنی بەروارێک بۆ ھەبوون یان بەکارھێنانی شتێک لە داھاتوودا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -663,7 +663,7 @@ class EnglishEntrybook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) گرتنی جێگەیەک بۆ کەسێک لەسەر فڕۆکەیەک، هتد"),
+                                  "٨. (کردار) گرتنی جێگەیەک بۆ کەسێک لەسەر فڕۆکەیەک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -684,7 +684,7 @@ class EnglishEntrybook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) گرتنی کاتێک بۆ گۆرانیبێژێک، هتد بۆ نمایشکردن لە کاتێکی دیاریکراودا"),
+                                  "٩. (کردار) گرتنی کاتێک بۆ گۆرانیبێژێک، ھتد بۆ نمایشکردن لە کاتێکی دیاریکراودا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -692,7 +692,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "Have you booked the band for the party yet?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باندەکەت گرتووە بۆ ئاهەنگەکە تا ئێستا؟"),
+                                      "باندەکەت گرتووە بۆ ئاھەنگەکە تا ئێستا؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks17("en-GB"),
@@ -710,7 +710,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "Several well-known authors have been booked to speak at the event."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژمارەیەک نووسەری ناسراو بانگهێشتکراون بۆ قسەکردن لە بۆنەکە."),
+                                      "ژمارەیەک نووسەری ناسراو بانگھێشتکراون بۆ قسەکردن لە بۆنەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks18("en-GB"),
@@ -723,7 +723,7 @@ class EnglishEntrybook extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (کردار) نووسینی ناو و ناونیشانی کەسێک بەهۆی ئەوەی تاوانێکی کردووە"),
+                                  "١٠. (کردار) نووسینی ناو و ناونیشانی کەسێک بەھۆی ئەوەی تاوانێکی کردووە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -731,7 +731,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       "He was booked for possession of cocaine."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خرایە لیستی ئەو کەسانەی کۆکاینیان هەیە."),
+                                      "خرایە لیستی ئەو کەسانەی کۆکاینیان ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooks19("en-GB"),
@@ -792,7 +792,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: book (Derived forms: books)
+- Noun: book (derived forms: books)
 1. A written work or composition that has been published (printed on pages bound together)
 "I am reading a good book on economics"
  
@@ -820,7 +820,7 @@ class EnglishMeaning extends StatelessWidget {
  
 10. A record of bets placed and winnings paid out
 
-- Verb: book (Derived forms: booked, booking, books)
+- Verb: book (derived forms: booked, booking, books)
 1. Engage for a performance
 "Her agent had booked her for several concerts in Tokyo"
  

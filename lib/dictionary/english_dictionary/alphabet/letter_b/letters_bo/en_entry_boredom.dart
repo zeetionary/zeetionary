@@ -5,82 +5,82 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boo" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "boredom" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace boo - /buː/
+// replace boredom - /ˈbɔːdəm/
 
 enum TtsState { playing }
 
-class EnglishEntryboo extends StatelessWidget {
+class EnglishEntryboredom extends StatelessWidget {
 // blank divider
-  EnglishEntryboo({super.key});
+  EnglishEntryboredom({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboo(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredom(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boredom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos1(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms1(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The speech was greeted with loud boos from the audience."); // DOPSUM: CHANGE TEXT
+        "Television helps to relieve the boredom of the long winter evenings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos2(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms2(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The audience booed as she started her speech."); // DOPSUM: CHANGE TEXT
+        "They started quarrelling out of sheer boredom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos3(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms3(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboredoms33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos4(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms4(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboredoms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos5(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms5(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboredoms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos6(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms6(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboredoms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos7(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboredoms7(String languageCode) async {
+    // DOPSUM: CHANGE speakboredom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboredoms77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +103,22 @@ class EnglishEntryboo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boo"),
+                            EntryTitle(word: "boredom"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔːdəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboo("en-GB"),
+                              onPressed: () => speakboredom("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔːrdəm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboo("en-US"),
+                              onPressed: () => speakboredom("en-US"),
                             ),
                           ],
                         ),
@@ -164,42 +164,41 @@ class EnglishEntryboo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) دەنگێک کە خەڵکی درووستی دەکەن بۆ پیشاندانی ناڕەزایی لە ئەکتەرێک، قسەکارێک، کۆمەڵە یاریزانێک، ھتد"""),
+کوردی: ماندوویی، شەکەتی، بێ‌تاقەتی، وەڕەسی
+
+١. (ناو) ھەستی بێزاری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The speech was greeted with loud boos from the audience."),
+                                      "Television helps to relieve the boredom of the long winter evenings."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وتارەکە بە ھاواری بەرزەوە لەلایەن جەماوەرەکەوە پێشوازی لێکرا ."),
+                                      "تەلەفیزیۆن دەکرێت یارمەتیدەر لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakboos1("en-GB"),
+                                onPressed: () => speakboredoms1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakboos1("en-US"),
+                                onPressed: () => speakboredoms1("en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) پیشاندانی ناڕەزایی بەرامبەر نمایشێک، کەسێک، یان بیرۆکەیەک، ھتد بە ھاتوھاوار کردن"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The audience booed as she started her speech."),
+                                      "They started quarrelling out of sheer boredom."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جەماوەرەکە دەستیان کرد بە ھاتوھاوار کە دەستی بە وتارەکەی کرد."),
+                                      "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakboos2("en-GB"),
+                                onPressed: () => speakboredoms2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakboos2("en-US"),
+                                onPressed: () => speakboredoms2("en-US"),
                               ),
                             ],
                           ),
@@ -254,16 +253,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boo (derived forms: boos)
-1. A cry or noise made to express displeasure or contempt (= hoot, Bronx cheer [N. Amer], hiss, raspberry [informal], razzing [N. Amer, informal], razz [N. Amer, informal], snort)
-
-- Verb: boo(derived forms: booed, boos, booing)
-1. Show displeasure, as after a performance or speech (= hiss)
-
-- Interjection: boo 
-1. Exclamation used to startle or frighten
- 
-2. Expressing disapproval
+- Noun: boredom (derived forms: boredoms)
+1. The feeling of being bored by something tedious (= ennui, tedium)
+"there were stretches of boredom";
 """,
           )
         ],
@@ -277,12 +269,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "fdPu-wvl3KE";
+  static String myVideoId = "uT_GcOGEFsk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 303, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -302,12 +294,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "raSeaAeryWE";
+  static String myVideoId = "pb29jzOCONY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 372, // DOPSUM: CHANGE IT
+      startAt: 1675, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -327,12 +319,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "hpgOBdiYZkc";
+  static String myVideoId = "V-4NPyqpTOA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 223, // DOPSUM: CHANGE IT
+      startAt: 393, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +344,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "W5tlGJwvmCQ";
+  static String myVideoId = "C9JaUR9MXGs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 697, // DOPSUM: CHANGE IT
+      startAt: 443, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +369,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "YJn6kJcDDTA";
+  static String myVideoId = "pRmkVZiaVG8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 371, // DOPSUM: CHANGE IT
+      startAt: 113, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +394,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "xi4wZJ-7ZCg";
+  static String myVideoId = "owMlmhvik_0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 838, // DOPSUM: CHANGE IT
+      startAt: 776, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +419,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "WlVT3bpkTqE";
+  static String myVideoId = "_3tdqQR8j28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2191, // DOPSUM: CHANGE IT
+      startAt: 484, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +444,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "l4Kh5XEA1XA";
+  static String myVideoId = "QPpdU-8mm1o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 496, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +469,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "odv8kEHupR4";
+  static String myVideoId = "6QOSL0Y_SCU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 153, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +494,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "mV8kjypgjbQ";
+  static String myVideoId = "Q0yL2GezneU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1833, // DOPSUM: CHANGE IT
+      startAt: 1465, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,4 +568,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boo
+// end boredom

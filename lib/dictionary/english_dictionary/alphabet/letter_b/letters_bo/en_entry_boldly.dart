@@ -193,7 +193,7 @@ class EnglishEntryboldly extends StatelessWidget {
                                       "The advertisement boldly displayed the product's unique features."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرهەمەکەی دەخستەڕوو."),
+                                      "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboldlys2("en-GB"),

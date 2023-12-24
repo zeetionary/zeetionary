@@ -166,9 +166,9 @@ class EnglishEntrybold extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نەترس، گوستاخ، بوێر، وەند، چاوسوور، بێ‌باک، ڕوودار، بێ‌شەرم، بێ‌حەیا، ڕووهەڵماڵراو، دیار، ئاشکرا، بەرچاو، خۆیا، بۆڵد، ڕەش
+کوردی: نەترس، گوستاخ، بوێر، وەند، چاوسوور، بێ‌باک، ڕوودار، بێ‌شەرم، بێ‌حەیا، ڕووھەڵماڵراو، دیار، ئاشکرا، بەرچاو، خۆیا، بۆڵد، ڕەش
 
-١. (ھاوەڵناو) کەسێکی ئازا کە متمانەی بەخۆی هەیە و ناترسێت لە کردن یان وتنی ئەوەی دەیەوێت"""),
+١. (ھاوەڵناو) کەسێکی ئازا کە متمانەی بەخۆی ھەیە و ناترسێت لە کردن یان وتنی ئەوەی دەیەوێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -194,7 +194,7 @@ class EnglishEntrybold extends StatelessWidget {
                                       "Few people have been bold enough to criticize the president."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەم کەس هێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن."),
+                                      "کەم کەس ھێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolds2("en-GB"),
@@ -295,7 +295,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: bold (Derived forms: bolds, boldest, bolder)
+- Adjective: bold (derived forms: bolds, boldest, bolder)
 1. Fearless and daring
 "bold settlers on some foreign shore"; "a bold speech"; "a bold adventure"
  

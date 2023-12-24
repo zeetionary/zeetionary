@@ -164,9 +164,9 @@ class EnglishEntrybombardment extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بۆمباران، بۆردومان، ئاگرباران، ڕێژنە، ڕەهێڵە
+کوردی: بۆمباران، بۆردومان، ئاگرباران، ڕێژنە، ڕەھێڵە
 
-١. (ناو) هێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"""),
+١. (ناو) ھێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -194,7 +194,7 @@ class EnglishEntrybombardment extends StatelessWidget {
                                       "A president is under constant bombardment from every direction."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرۆکەکان هەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ هەر هەنگاوێک."),
+                                      "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombardments2("en-GB"),
@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bombardment (Derived forms: bombardments)
+- Noun: bombardment (derived forms: bombardments)
 1. The rapid and continuous delivery of linguistic communication (spoken or written) (= barrage, outpouring, onslaught)
 "a bombardment of mail complaining about his mistake";
 

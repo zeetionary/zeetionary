@@ -5,88 +5,91 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boo" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bored" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace boo - /buː/
+// replace bored - /bɔːd/
 
 enum TtsState { playing }
 
-class EnglishEntryboo extends StatelessWidget {
+class EnglishEntrybored extends StatelessWidget {
 // blank divider
-  EnglishEntryboo({super.key});
+  EnglishEntrybored({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboo(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakbored(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bored"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos1(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds1(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The speech was greeted with loud boos from the audience."); // DOPSUM: CHANGE TEXT
+        "There was a bored expression on her face."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos2(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds2(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The audience booed as she started her speech."); // DOPSUM: CHANGE TEXT
+        "I am beginning to get bored with eating salad."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos3(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds3(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She plays the role of a bored housewife."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos4(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds4(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was rather bored with her life in a small town."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos5(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds5(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos55"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was bored with their conversation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos6(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds6(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboreds66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboos7(String languageCode) async {
-    // DOPSUM: CHANGE speakboo
+  Future<void> speakboreds7(String languageCode) async {
+    // DOPSUM: CHANGE speakbored
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboos77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboreds77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +106,22 @@ class EnglishEntryboo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boo"),
+                            EntryTitle(word: "bored"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buː/"),
+                            const IPAofEnglish(text: "IpaUK: /bɔːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboo("en-GB"),
+                              onPressed: () => speakbored("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buː/"),
+                            const IPAofEnglish(text: "IpaUS: /bɔːrd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboo("en-US"),
+                              onPressed: () => speakbored("en-US"),
                             ),
                           ],
                         ),
@@ -136,11 +139,11 @@ class EnglishEntryboo extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -164,42 +167,91 @@ class EnglishEntryboo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) دەنگێک کە خەڵکی درووستی دەکەن بۆ پیشاندانی ناڕەزایی لە ئەکتەرێک، قسەکارێک، کۆمەڵە یاریزانێک، ھتد"""),
+کوردی: ماندوو، شەکەت، بێ‌تاقەت، بێزار، عاجز، وەڕەس، جاڕز
+
+١. (ھاوەڵناو) ھەستکردن بە ماندووی و نەمانی پشوودرێژیبەھۆی ئەوەی حەزت بۆ شتێک یان کەسێک نەماوە یان بەھۆی ئەوەی ھیچ نییە بیکەیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The speech was greeted with loud boos from the audience."),
+                                      "There was a bored expression on her face."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە بە ھاواری بەرزەوە لەلایەن جەماوەرەکەوە پێشوازی لێکرا ."),
+                                  text: "دەربڕینی بێزاری لەسەر ڕووخساری بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakboos1("en-GB"),
+                                onPressed: () => speakboreds1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakboos1("en-US"),
+                                onPressed: () => speakboreds1("en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) پیشاندانی ناڕەزایی بەرامبەر نمایشێک، کەسێک، یان بیرۆکەیەک، ھتد بە ھاتوھاوار کردن"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The audience booed as she started her speech."),
+                                      "I am beginning to get bored with eating salad."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "جەماوەرەکە دەستیان کرد بە ھاتوھاوار کە دەستی بە وتارەکەی کرد."),
+                                  text: "خەریکە بێزار دەبم لە خواردنی زەڵاتە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakboos2("en-GB"),
+                                onPressed: () => speakboreds2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakboos2("en-US"),
+                                onPressed: () => speakboreds2("en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She plays the role of a bored housewife."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboreds3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboreds3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was rather bored with her life in a small town."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboreds4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboreds4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was bored with their conversation."),
+                              const ExampleSentenceKurdish(
+                                  text: "بێزاربوو لە گفتوگۆکەیان."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboreds5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboreds5("en-US"),
                               ),
                             ],
                           ),
@@ -214,8 +266,8 @@ class EnglishEntryboo extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -254,16 +306,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boo (derived forms: boos)
-1. A cry or noise made to express displeasure or contempt (= hoot, Bronx cheer [N. Amer], hiss, raspberry [informal], razzing [N. Amer, informal], razz [N. Amer, informal], snort)
-
-- Verb: boo(derived forms: booed, boos, booing)
-1. Show displeasure, as after a performance or speech (= hiss)
-
-- Interjection: boo 
-1. Exclamation used to startle or frighten
+- Adjective: bored
+1. Tired of the world (= world-weary)
+"strolled through the museum with a bored air"; "bored with life";
  
-2. Expressing disapproval
+2. Uninterested because of frequent exposure or indulgence (= blasé)
+"the bored gaze of the successful film star";
 """,
           )
         ],
@@ -277,12 +325,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "fdPu-wvl3KE";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -302,12 +350,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "raSeaAeryWE";
+  static String myVideoId = "2ihOXaU0I8o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 372, // DOPSUM: CHANGE IT
+      startAt: 462, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -327,12 +375,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "hpgOBdiYZkc";
+  static String myVideoId = "XLL2XwhmAgw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 223, // DOPSUM: CHANGE IT
+      startAt: 125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +400,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "W5tlGJwvmCQ";
+  static String myVideoId = "hEdRBpjpgz0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 697, // DOPSUM: CHANGE IT
+      startAt: 105, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +425,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "YJn6kJcDDTA";
+  static String myVideoId = "U91AUYttTyc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 371, // DOPSUM: CHANGE IT
+      startAt: 143, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +450,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "xi4wZJ-7ZCg";
+  static String myVideoId = "jgkMFBDyzE8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 838, // DOPSUM: CHANGE IT
+      startAt: 740, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +475,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "WlVT3bpkTqE";
+  static String myVideoId = "snAhsXyO3Ck";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2191, // DOPSUM: CHANGE IT
+      startAt: 590, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +500,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "l4Kh5XEA1XA";
+  static String myVideoId = "-46Vyiwat_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 496, // DOPSUM: CHANGE IT
+      startAt: 328, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +525,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "odv8kEHupR4";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 153, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +550,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "mV8kjypgjbQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1833, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,4 +624,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boo
+// end bored

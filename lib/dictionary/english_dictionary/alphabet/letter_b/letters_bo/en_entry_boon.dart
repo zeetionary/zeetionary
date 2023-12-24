@@ -39,7 +39,8 @@ class EnglishEntryboon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Online classes proved a boon to students during this period."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Online classes proved a boon to students during this period."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakboons3(String languageCode) async {
@@ -136,7 +137,7 @@ class EnglishEntryboon extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -170,7 +171,8 @@ class EnglishEntryboon extends StatelessWidget {
                                   text:
                                       "The device will prove a boon to home cooks."),
                               const ExampleSentenceKurdish(
-                                  text: "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
+                                  text:
+                                      "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboons1("en-GB"),
@@ -182,20 +184,21 @@ class EnglishEntryboon extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Online classes proved a boon to students during this period."),
-                          const ExampleSentenceKurdish(
-                          text: "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakboons2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakboons2("en-US"),
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Online classes proved a boon to students during this period."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakboons2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakboons2("en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -252,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Very close and convivial
 "boon companions"
 
-- Noun: boon (Derived forms: boons)
+- Noun: boon (derived forms: boons)
 1. A desirable state (= blessing)
 "a spanking breeze is a boon to sailors";
 """,
@@ -268,7 +271,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/jXzmyhbVGng?t=";
+  static String myVideoId = "jXzmyhbVGng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -293,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Udk8YHOy0EU?t=";
+  static String myVideoId = "Udk8YHOy0EU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -318,7 +321,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/ZHIcVi7F6hM?t=";
+  static String myVideoId = "ZHIcVi7F6hM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +346,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/HZq_HjKCRB4?t=";
+  static String myVideoId = "HZq_HjKCRB4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +371,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/3ObTeekY_s8?t=";
+  static String myVideoId = "3ObTeekY_s8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +396,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/bG19b06NG_w?t=";
+  static String myVideoId = "bG19b06NG_w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +421,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/jbZo4x0NbbI?t=";
+  static String myVideoId = "jbZo4x0NbbI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +446,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/6MNLgv0M25E?t=";
+  static String myVideoId = "6MNLgv0M25E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +471,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/IPUOOz30dJQ?t=";
+  static String myVideoId = "IPUOOz30dJQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

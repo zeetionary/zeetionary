@@ -165,7 +165,7 @@ class EnglishEntryboiler extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گیزەر، کوڵێن، کوڵێنە، کوڵگە، مەنجەڵ
 
-١. (ناو) شتێکە کە تێیدا ئاو گەرم دەکرێت بۆ ئەوەی ئاوی گەرم بۆ بینایەک دابین بکات یان هەڵم درووست بکات بۆ بزوێنەرێک"""),
+١. (ناو) شتێکە کە تێیدا ئاو گەرم دەکرێت بۆ ئەوەی ئاوی گەرم بۆ بینایەک دابین بکات یان ھەڵم درووست بکات بۆ بزوێنەرێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boiler (Derived forms: boilers)
+- Noun: boiler (derived forms: boilers)
 1. A device that heats water by burning fuel for use in a heating system
  
 2. Sealed vessel where water is converted to steam (= steam boiler)

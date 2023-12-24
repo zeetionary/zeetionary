@@ -283,7 +283,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Show off, esp. with exaggeration (= boast, tout, swash [archaic], shoot a line [informal], brag, gas [informal], blow, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
 
-- Noun: bluster (Derived forms: blustered, blustering, blusters)
+- Noun: bluster (derived forms: blustered, blustering, blusters)
 1. Vain and empty boasting (= braggadocio, rodomontade, rhodomontade)
  
 2. Insincere or vague talk with empty promises etc. that is supposed to impress (= hot air [informal], empty words, empty talk, rhetoric)

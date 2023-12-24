@@ -163,7 +163,7 @@ class EnglishEntryboneidle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەمەڵ، کارنەکەر، تەڕاڵ، ترال، خوێڕی، کەتوەر، بێکارە، نەکرکار، کنگ‌گران، گێرەنەکەر، مەرشۆ، لەش‌گران، کەم‌جم‌وجۆڵ، تەپ، تەپلۆس، تەوەزەل، هێواش، (خاو)وخلیچک
+کوردی: تەمەڵ، کارنەکەر، تەڕاڵ، ترال، خوێڕی، کەتوەر، بێکارە، نەکرکار، کنگ‌گران، گێرەنەکەر، مەرشۆ، لەش‌گران، کەم‌جم‌وجۆڵ، تەپ، تەپلۆس، تەوەزەل، ھێواش، (خاو)وخلیچک
 
 ١. (ھاوەڵناو) زۆر تەمەڵ"""),
                           Row(
@@ -173,7 +173,7 @@ class EnglishEntryboneidle extends StatelessWidget {
                                       "She never lifts a finger to help. She's bone idle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
+                                      "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboneidles1("en-GB"),

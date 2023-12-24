@@ -164,7 +164,7 @@ class EnglishEntryboisterous extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پڕدەنگەدەنگ، پڕهەراوهوریا، شلوق، بەگەرم‌وگوڕ، لەجۆش، سەری‌حاڵ، پڕوزە، لەگوڕ، بەگوڕ، بەکەیف، جۆش‌سەندوو، لەشەوق، زریاناوی، پڕبا، سەخت، توند، ڕەشەبا
+کوردی: پڕدەنگەدەنگ، پڕھەراوھوریا، شلوق، بەگەرم‌وگوڕ، لەجۆش، سەری‌حاڵ، پڕوزە، لەگوڕ، بەگوڕ، بەکەیف، جۆش‌سەندوو، لەشەوق، زریاناوی، پڕبا، سەخت، توند، ڕەشەبا
 
 ١. (ھاوەڵناو) ڕەفتاری مرۆڤ و ئاژەڵ کە پڕ لە قاڵەقاڵ و جۆشوخرۆشی و وزەیە"""),
                           Row(
@@ -174,7 +174,7 @@ class EnglishEntryboisterous extends StatelessWidget {
                                       "It was a challenge, keeping ten boisterous seven-year-olds amused."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بهێڵیتەوە."),
+                                      "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboisterouss1("en-GB"),
@@ -192,7 +192,7 @@ class EnglishEntryboisterous extends StatelessWidget {
                                       "The children and the dogs raced out of the house to give me a boisterous welcome."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان و سەگەکان لە ماڵەکە هاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
+                                      "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboisterouss2("en-GB"),

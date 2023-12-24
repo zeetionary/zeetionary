@@ -253,13 +253,13 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bonnet (Derived forms: bonneted, bonneting, bonnets)
+- Noun: bonnet (derived forms: bonneted, bonneting, bonnets)
 1. A hat tied under the chin (= poke bonnet)
  
 2. The hinged metal cover of a vehicle's engine (= hood [N. Amer], cowl, cowling)
 "there are powerful engines under the bonnets of new cars";
 
-- Verb: bonnet (Derived forms: bonneted, bonneting, bonnets)
+- Verb: bonnet (derived forms: bonneted, bonneting, bonnets)
 1. Dress in a bonnet
 """,
           )

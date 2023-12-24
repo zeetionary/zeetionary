@@ -163,9 +163,9 @@ class EnglishEntrybonfire extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئاگرەخۆشە، ئاهەنگی ئاور، ئاگرەسوورە، پەڵۆختە، ئاورێن، دەمەرقاچان (لە بنەڕەتا ئاماژە بە ئاورێ بۆ سووتاندنی ئێسک یان کافران)
+کوردی: ئاگرەخۆشە، ئاھەنگی ئاور، ئاگرەسوورە، پەڵۆختە، ئاورێن، دەمەرقاچان (لە بنەڕەتا ئاماژە بە ئاورێ بۆ سووتاندنی ئێسک یان کافران)
 
-١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاهەنگ گێڕان"""),
+١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاھەنگ گێڕان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bonfire (Derived forms: bonfires)
+- Noun: bonfire (derived forms: bonfires)
 1. A large outdoor fire that is lighted as a signal or in celebration (= balefire)
 """,
           )

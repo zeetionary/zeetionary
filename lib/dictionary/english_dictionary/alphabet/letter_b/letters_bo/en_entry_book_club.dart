@@ -166,7 +166,7 @@ class EnglishEntrybookclub extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: یانە یان کۆڕی کتێب
 
-١. (ناو) دامەزراوەیەک کە کتێب بە هەرزان دەفرۆشێت بە ئەندامانی"""),
+١. (ناو) دامەزراوەیەک کە کتێب بە ھەرزان دەفرۆشێت بە ئەندامانی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -187,7 +187,7 @@ class EnglishEntrybookclub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵە کەسێک کە ماوەیەک جارێک کۆدەبنەوە بۆ باسکردن لە کتێبێک کە هەموویان خوێندوویانەتەوە"),
+                                  "٢. (ناو) کۆمەڵە کەسێک کە ماوەیەک جارێک کۆدەبنەوە بۆ باسکردن لە کتێبێک کە ھەموویان خوێندوویانەتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: book club (Derived forms: book clubs)
+- Noun: book club (derived forms: book clubs)
 1. A club that people join in order to buy selected books at reduced prices
 """,
           )

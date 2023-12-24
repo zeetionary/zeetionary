@@ -232,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: booby prize (Derived forms: booby prizes)
+- Noun: booby prize (derived forms: booby prizes)
 1. A prize given to one who finishes last in a contest
 """,
           )

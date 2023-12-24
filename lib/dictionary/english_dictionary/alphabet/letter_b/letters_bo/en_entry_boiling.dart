@@ -163,7 +163,7 @@ class EnglishEntryboiling extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: یەکجار گەرم، سووتێنەر، پیشێنەر، پڕووکێنەر، داغ، جۆش‌سەندوو، هەڵچوو، ورووژاو، خرۆشاو
+کوردی: یەکجار گەرم، سووتێنەر، پیشێنەر، پڕووکێنەر، داغ، جۆش‌سەندوو، ھەڵچوو، ورووژاو، خرۆشاو
 
 ١. (ھاوەڵناو) زۆر گەرم"""),
                           Row(
@@ -248,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boiling (Derived forms: boilings)
+- Noun: boiling (derived forms: boilings)
 1. The application of heat to change something from a liquid to a gas
  
 2. Cooking in a liquid that has been brought to a boil (= stewing, simmering)

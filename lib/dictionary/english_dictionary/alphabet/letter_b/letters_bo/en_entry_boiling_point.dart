@@ -165,7 +165,7 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خاڵی کوڵان، هەڵچوون، تووڕەیی توندوتیژانە، خاڵی تەقینەوە
+کوردی: خاڵی کوڵان، ھەڵچوون، تووڕەیی توندوتیژانە، خاڵی تەقینەوە
 
 ١. (ناو) ئەو پلەی گەرمییەی کە تێیدا شلە دەکوڵێت"""),
                           Row(
@@ -271,7 +271,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boiling point (Derived forms: boiling points)
+- Noun: boiling point (derived forms: boiling points)
 1. The temperature at which a liquid boils at sea level (= boil)
  
 2. Being highly angry or excited; ready to boil over

@@ -242,9 +242,9 @@ class EnglishEntryboob extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لێ‌داقڵیشان، خەتا یان هەڵەی گەوجانە، مرۆی گەوج، مەمک، بەرومەمک، بەردوویک، مەمکۆڵان، سنگ‌وبەرۆکی ژن
+کوردی: لێ‌داقڵیشان، خەتا یان ھەڵەی گەوجانە، مرۆی گەوج، مەمک، بەرومەمک، بەردوویک، مەمکۆڵان، سنگ‌وبەرۆکی ژن
 
-١. (ناو) مەمکی ژن؛ هەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"""),
+١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -342,7 +342,7 @@ class EnglishEntryboob extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هەڵەیەکی گەمژانە"),
+                              text: "٢. (ناو) ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -350,7 +350,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       "I made a bit of a boob deleting that file."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
+                                      "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboobs6("en-GB"),
@@ -370,7 +370,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       "Don't be such a boob; think before you act."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێندە گەمژە مەبە، پێش ئەوەی هەنگاو بنێیت بیربکەوە."),
+                                      "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboobs7("en-GB"),
@@ -382,14 +382,14 @@ class EnglishEntryboob extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) کردنی هەڵەیەکی گەمژانە"),
+                              text: "٤. (کردار) کردنی ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I boobed by forgetting the meeting."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
+                                      "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboobs8("en-GB"),
@@ -450,7 +450,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boob (Derived forms: boobs)
+- Noun: boob (derived forms: boobs)
 Usage: informal
 1. An ignorant or foolish person (= dumbbell [informal], dummy [informal], dope [informal], booby, pinhead [informal], div [Brit, informal], poon [Austral, informal], divvy [Brit, informal])
  
@@ -458,7 +458,7 @@ Usage: informal
  
 3. [Brit, informal] An embarrassing mistake (= blunder, blooper [N. Amer, informal], bloomer [informal], bungle, pratfall [informal], foul-up, flub [N. Amer, informal], botch, boner [N. Amer, informal], boo-boo [informal], goof [informal], blue [Austral, NZ, informal])
 
-- Verb: boob (Derived forms: boobed, boobs, boobing)
+- Verb: boob (derived forms: boobed, boobs, boobing)
 Usage: informal
 1. Commit a faux pas or a fault or make a serious mistake (= drop the ball, sin, blunder, goof [informal])
 """,

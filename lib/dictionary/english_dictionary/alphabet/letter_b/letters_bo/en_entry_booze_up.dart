@@ -171,7 +171,7 @@ class EnglishEntryboozeup extends StatelessWidget {
                                       "The women organized a booze-up to forget all about family business for a day."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی هەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
+                                      "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboozeups1("en-GB"),
@@ -232,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: booze-up (Derived forms: booze-ups)
+- Noun: booze-up (derived forms: booze-ups)
 Usage: Brit, informal
 1. Revelry in drinking; a merry drinking party (= carouse, carousal, bender [informal], toot [N. Amer])
 """,
@@ -248,7 +248,7 @@ Usage: Brit, informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/9uPVyxiwn74?t=";
+  static String myVideoId = "9uPVyxiwn74";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -273,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/f06VZNCLuaI?t=";
+  static String myVideoId = "f06VZNCLuaI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +298,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/VL7S3Ar6HgM?t=";
+  static String myVideoId = "VL7S3Ar6HgM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +323,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/CEOs5J4ECOM?t=";
+  static String myVideoId = "CEOs5J4ECOM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +348,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/5UXII5a-yLk?t=";
+  static String myVideoId = "5UXII5a-yLk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/W6PAD2wXoCQ?t=";
+  static String myVideoId = "W6PAD2wXoCQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +398,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/T_ga_C-WEBg?t=";
+  static String myVideoId = "T_ga_C-WEBg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

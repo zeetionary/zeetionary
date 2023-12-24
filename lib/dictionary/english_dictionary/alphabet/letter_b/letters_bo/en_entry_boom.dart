@@ -186,7 +186,7 @@ class EnglishEntryboom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زۆربوونی کت‌وپڕ، بووژانەوە، تۆقینەوە، سەروبەند یان قۆناخی گەشە(کردن)، هەڵدان، ئاوەدانی، گەشەونەشە، زرمە، زرم، گرمە، نەڕە، قۆڕە، قیڕە
+کوردی: زۆربوونی کت‌وپڕ، بووژانەوە، تۆقینەوە، سەروبەند یان قۆناخی گەشە(کردن)، ھەڵدان، ئاوەدانی، گەشەونەشە، زرمە، زرم، گرمە، نەڕە، قۆڕە، قیڕە
 
 ١. (ناو) زیادبوونێکی لەناکاوی زیادبوونی چالاکیی بازرگانی و ئابووری"""),
                           Row(
@@ -235,7 +235,7 @@ class EnglishEntryboom extends StatelessWidget {
                                       "The only way to satisfy the golf boom was to build more courses."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەنها ڕێگە بۆ تێرکردنی حەز بە گۆڵف درووستکردنی یاریگای تازەیە."),
+                                      "تەنھا ڕێگە بۆ تێرکردنی حەز بە گۆڵف درووستکردنی یاریگای تازەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooms3("en-GB"),
@@ -296,7 +296,7 @@ class EnglishEntryboom extends StatelessWidget {
                                       "A crash of thunder boomed so loudly that the floor shook."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لێدانی چەخماخە هێندە دەنگی بەرز بوو زەوییەکە دەلەرزییەوە."),
+                                      "لێدانی چەخماخە ھێندە دەنگی بەرز بوو زەوییەکە دەلەرزییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooms6("en-GB"),
@@ -315,7 +315,7 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "A voice boomed out from the darkness."),
                               const ExampleSentenceKurdish(
-                                  text: "دەنگێک لە تاریکییەکەوە هات."),
+                                  text: "دەنگێک لە تاریکییەکەوە ھات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbooms7("en-GB"),
@@ -328,7 +328,7 @@ class EnglishEntryboom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) هەبوونی بووژانەوە و گەشەی لەناکاو"),
+                                  "٧. (کردار) ھەبوونی بووژانەوە و گەشەی لەناکاو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -397,7 +397,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boom (Derived forms: booms, booming, boomed)
+- Noun: boom (derived forms: booms, booming, boomed)
 1. A deep prolonged loud noise (= roar, roaring, thunder)
  
 2. A state of economic prosperity
@@ -411,7 +411,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. A floating barrier used to obstruct the entry of a harbour, contain oil spills, etc.
 
-- Verb: boom (Derived forms: booms, booming, boomed)
+- Verb: boom (derived forms: booms, booming, boomed)
 1. Make a resonant sound, like artillery (= din)
 "His deep voice boomed through the hall";
  
@@ -439,7 +439,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/rPe4yziWiOg?t=";
+  static String myVideoId = "rPe4yziWiOg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,7 +464,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/6SYT0upjNac?t=";
+  static String myVideoId = "6SYT0upjNac";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -489,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/8DNv8HEGLsQ?t=";
+  static String myVideoId = "8DNv8HEGLsQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -514,7 +514,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/sjDRzahgrTI?t=";
+  static String myVideoId = "sjDRzahgrTI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -539,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/cYzVhtiRkcU?t=";
+  static String myVideoId = "cYzVhtiRkcU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -564,7 +564,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/RHj-PIyyaDY?t=";
+  static String myVideoId = "RHj-PIyyaDY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -589,7 +589,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/i--mhQWTwMs?t=";
+  static String myVideoId = "i--mhQWTwMs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +614,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/cDhWr6s4Fb4?t=";
+  static String myVideoId = "cDhWr6s4Fb4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

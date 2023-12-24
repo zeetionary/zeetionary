@@ -166,13 +166,13 @@ class EnglishEntrybookcase extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: جێ‌کتێب، کتێب‌خانە، قەفەسە
 
-١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی هەیە"""),
+١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I chose a book from the bookcase."),
                               const ExampleSentenceKurdish(
-                                  text: "کتێبێکم لە جێ‌کتێبەکە هەڵگرت."),
+                                  text: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookcases1("en-GB"),
@@ -249,7 +249,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bookcase (Derived forms: bookcases)
+- Noun: bookcase (derived forms: bookcases)
 1. A piece of furniture with shelves for storing books
 """,
           )

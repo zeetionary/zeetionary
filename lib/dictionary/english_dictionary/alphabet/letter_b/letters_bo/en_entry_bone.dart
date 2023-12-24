@@ -166,9 +166,9 @@ class EnglishEntrybone extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئێسک، ئێسقان، هەستی، ئێسکان، سوخان، پەڵان، پێشە، (موسیقا) چەقەنە، (قومار) مۆرە، زار، قووڵ‌ترین بەشی شتێ، ناوەند، چەق، دڵ، ناخ، بابەت، ئێسک‌وپروسکی مردوو، ئێسک و گۆشت؛ لەش، جەستە؛ کەلاک، تەرم؛ داڕشتە یان چوارچێوەی بنەڕەتی
+کوردی: ئێسک، ئێسقان، ھەستی، ئێسکان، سوخان، پەڵان، پێشە، (موسیقا) چەقەنە، (قومار) مۆرە، زار، قووڵ‌ترین بەشی شتێ، ناوەند، چەق، دڵ، ناخ، بابەت، ئێسک‌وپروسکی مردوو، ئێسک و گۆشت؛ لەش، جەستە؛ کەلاک، تەرم؛ داڕشتە یان چوارچێوەی بنەڕەتی
 
-١. (ناو) ئێسک، هەریەک لە بەشە سەختەکانی جەستەی مرۆڤ کە ئێسکەپەیکەری مرۆڤێک یان ئاژەڵێک پێکدێنێت"""),
+١. (ناو) ئێسک، ھەریەک لە بەشە سەختەکانی جەستەی مرۆڤ کە ئێسکەپەیکەری مرۆڤێک یان ئاژەڵێک پێکدێنێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -176,7 +176,7 @@ class EnglishEntrybone extends StatelessWidget {
                                       "He survived the accident with no broken bones."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی هیچ ئێسک شکاوییەکی هەبێت."),
+                                      "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbones1("en-GB"),
@@ -249,7 +249,7 @@ class EnglishEntrybone extends StatelessWidget {
                                       "He's been trying to bone her for weeks."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چەندین هەفتەیە هەوڵ دەدات سێکسی لەگەڵ بکات."),
+                                      "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbones5("en-GB"),
@@ -310,14 +310,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bone (Derived forms: bones)
+- Noun: bone (derived forms: bones)
 1. Rigid connective tissue that makes up the skeleton of vertebrates (=os)
  
 2. The porous calcified substance from which bones are made (= osseous tissue)
  
 3. A shade of white the colour of bleached bones (= ivory, pearl, off-white)
 
-- Verb: bone (Derived forms: boned, boning, bones)
+- Verb: bone (derived forms: boned, boning, bones)
 1. [informal] Study intensively, as before an exam (= cram [informal], grind away, bone up [informal], swot [Brit, informal], get up [informal], mug up [Brit, informal], swot up [Brit, informal], revise [Brit])
 "I had to bone up on my Latin verbs before the final exam";
  

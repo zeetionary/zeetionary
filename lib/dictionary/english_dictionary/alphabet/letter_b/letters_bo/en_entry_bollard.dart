@@ -164,7 +164,7 @@ class EnglishEntrybollard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کۆڵەکەڕاگرە، ڕاگرە، کۆڵەکەی مەهار یان ڕاگرتن، ڕاگیرە، بەستنگای تەنافەکان (کەشتی)، کۆڵەکەمەترسی، کۆڵەکەی مەترسی
+کوردی: کۆڵەکەڕاگرە، ڕاگرە، کۆڵەکەی مەھار یان ڕاگرتن، ڕاگیرە، بەستنگای تەنافەکان (کەشتی)، کۆڵەکەمەترسی، کۆڵەکەی مەترسی
 
 ١. (ناو) بەربەستێکی ئەستوور و کورت کە دادەنرێت بۆ ئەوەی ئۆتۆمبێل نەچێتە سەر ڕێگایەک یان ناو ناوچەیەک"""),
                           Row(
@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bollard (Derived forms: bollards)
+- Noun: bollard (derived forms: bollards)
 1. A strong post (as on a wharf, quay or ship for attaching mooring lines) (= bitt)
 "the road was closed to vehicular traffic with bollards";
 

@@ -232,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boiler suit (Derived forms: boiler suits)
+- Noun: boiler suit (derived forms: boiler suits)
 Usage: Brit
 1. A loose protective coverall or smock worn over ordinary clothing for dirty work (= overall [Brit], boilers suit [Brit])
 """,

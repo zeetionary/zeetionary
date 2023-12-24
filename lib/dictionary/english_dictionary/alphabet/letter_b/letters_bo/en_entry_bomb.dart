@@ -320,7 +320,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       "A terrorist bomb ripped through the town's packed shopping centre."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆمبێکی تیرۆریستی سەنتەری بازاڕکردنی قەرەباڵغی شارەکەی هەژاند."),
+                                      "بۆمبێکی تیرۆریستی سەنتەری بازاڕکردنی قەرەباڵغی شارەکەی ھەژاند."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombs2("en-GB"),
@@ -359,7 +359,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                               "India started to build a nuclear bomb."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
+                                              "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbombs12("en-GB"),
@@ -377,7 +377,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                               "Eighty people died when bombs rained down on the city's crowded streets."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
+                                              "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
                                       const CustomSizedBoxForTTS(),
                                       CustomIconButtonBritish(
                                         onPressed: () => speakbombs13("en-GB"),
@@ -394,7 +394,7 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) چەکی ناوەکی (ئەتۆمی یان هایدرۆجینی)"),
+                                  "٢. (ناو) چەکی ناوەکی (ئەتۆمی یان ھایدرۆجینی)"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -402,7 +402,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       "The US was the first country to have the bomb."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەمریکا یەکەم وڵات بوو چەکی ناوەکی هەبێت."),
+                                      "ئەمریکا یەکەم وڵات بوو چەکی ناوەکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombs4("en-GB"),
@@ -452,7 +452,7 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) هێرشکردنە سەر شوێنێک بە چاندنی بۆمبێک یان بەردانەوەی لە فڕۆکەوە"),
+                                  "٥. (کردار) ھێرشکردنە سەر شوێنێک بە چاندنی بۆمبێک یان بەردانەوەی لە فڕۆکەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -460,7 +460,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       "They have deliberately bombed civilians."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە ئەنقەست هاوڵاتی مەدەنییان بۆمباران کردووە."),
+                                      "بە ئەنقەست ھاوڵاتی مەدەنییان بۆمباران کردووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombs7("en-GB"),
@@ -512,7 +512,7 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) شکستهێنان لە تاقیکردنەوەیەک زۆر بە خراپی"),
+                                  "٧. (کردار) شکستھێنان لە تاقیکردنەوەیەک زۆر بە خراپی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -602,7 +602,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bomb (Derived forms: bombs)
+- Noun: bomb (derived forms: bombs)
 1. An explosive device fused to explode under specific conditions
  
 2. Strong sealed vessel for measuring heat of combustion (= bomb calorimeter)
@@ -613,7 +613,7 @@ class EnglishMeaning extends StatelessWidget {
 4. [Brit, informal] A large sum of money (especially as pay or profit) (= pile [informal], bundle [informal], big bucks [informal], megabucks [informal], big money [informal])
 "she made a bomb selling real estate";
 
-- Verb: bomb (Derived forms: bombed, bombing, bombs)
+- Verb: bomb (derived forms: bombed, bombing, bombs)
 1. Throw bombs at or attack with bombs (= bombard)
 "The Americans bombed Dresden";
 

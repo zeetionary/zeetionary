@@ -165,16 +165,16 @@ class EnglishEntrybombshell extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕووداو یان هەواڵی جەرگبڕ یان چاوەڕوان‌نەکراو، ژنی لەبار و قژکاڵ
+کوردی: ڕووداو یان ھەواڵی جەرگبڕ یان چاوەڕوان‌نەکراو، ژنی لەبار و قژکاڵ
 
-١. (ناو) ڕووداوێک یان هەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
+١. (ناو) ڕووداوێک یان ھەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The news of his death came as a bombshell."),
                               const ExampleSentenceKurdish(
-                                  text: "هەواڵی مردنەکەی چاوەڕواننەکراو بوو."),
+                                  text: "ھەواڵی مردنەکەی چاوەڕواننەکراو بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombshells1("en-GB"),
@@ -192,7 +192,7 @@ class EnglishEntrybombshell extends StatelessWidget {
                                       "She dropped a bombshell at the meeting and announced that she was leaving."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت."),
+                                      "ھەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombshells2("en-GB"),
@@ -212,7 +212,7 @@ class EnglishEntrybombshell extends StatelessWidget {
                                       "The actress is known as a Hollywood bombshell."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خانمە ئەکتەرەکە بە شۆخەکەی هۆڵیوود ناسراوە."),
+                                      "خانمە ئەکتەرەکە بە شۆخەکەی ھۆڵیوود ناسراوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbombshells3("en-GB"),
@@ -273,7 +273,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bombshell (Derived forms: bombshells)
+- Noun: bombshell (derived forms: bombshells)
 1. An entertainer who has a sensational effect
 "she was a blonde bombshell"
  

@@ -30,8 +30,8 @@ class EnglishEntrybookable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All seats are bookable by phone."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All seats are bookable by phone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbookables2(String languageCode) async {
@@ -39,7 +39,8 @@ class EnglishEntrybookable extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("That tackle was a bookable offence."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That tackle was a bookable offence."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbookables3(String languageCode) async {
@@ -136,7 +137,7 @@ class EnglishEntrybookable extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -167,10 +168,10 @@ class EnglishEntrybookable extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "All seats are bookable by phone."),
+                                  text: "All seats are bookable by phone."),
                               const ExampleSentenceKurdish(
-                                  text: "هەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن."),
+                                  text:
+                                      "ھەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookables1("en-GB"),
@@ -181,22 +182,24 @@ class EnglishEntrybookable extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) هەڵەیەک کە شایەنی کارتی زەردە لە تۆپی پێدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) ھەڵەیەک کە شایەنی کارتی زەردە لە تۆپی پێدا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "That tackle was a bookable offence."),
-                          const ExampleSentenceKurdish(
-                          text: "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbookables2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbookables2("en-US"),
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "That tackle was a bookable offence."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbookables2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbookables2("en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -265,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/vEsZeHfv73U?t=";
+  static String myVideoId = "vEsZeHfv73U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -290,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/S46iJIk3t70?t=";
+  static String myVideoId = "S46iJIk3t70";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -315,7 +318,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/mJzRvmFrrnw?t=";
+  static String myVideoId = "mJzRvmFrrnw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -340,7 +343,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/XN9jZXkiOcE?t=";
+  static String myVideoId = "XN9jZXkiOcE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -365,7 +368,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/WeHjBjSXhD8?t=";
+  static String myVideoId = "WeHjBjSXhD8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -390,7 +393,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/AfZdiIb6EjE?t=";
+  static String myVideoId = "AfZdiIb6EjE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -415,7 +418,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/af7EBob8EGw?t=";
+  static String myVideoId = "af7EBob8EGw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -440,7 +443,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/d5u50cqGBI8?t=";
+  static String myVideoId = "d5u50cqGBI8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,7 +468,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/nFx5qHrvP9I?t=";
+  static String myVideoId = "nFx5qHrvP9I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -166,7 +166,7 @@ class EnglishEntrybolster extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پاڵپشت، باڵشت، بالنج، پشتی، (بیناسازی) پاڵپشت(ـە)، ئەسکەنەی قورسی دابڕینی خشت
 
-١. (کردار) بەهێزکردنی شتێک"""),
+١. (کردار) بەھێزکردنی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntrybolster extends StatelessWidget {
                                       "More money is needed to bolster the industry."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پارەی زیاتر پێویستە بۆ بەهێزکردنی پیشەسازییەکە."),
+                                      "پارەی زیاتر پێویستە بۆ بەھێزکردنی پیشەسازییەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolsters1("en-GB"),
@@ -213,7 +213,7 @@ class EnglishEntrybolster extends StatelessWidget {
                                       "The hotel room had comfortable beds with bolsters."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژووری هوتێلەکە جێخەوی ئاسوودەبەخشی هەبوو لەگەڵ سەرینی پاڵپشتیکار."),
+                                      "ژووری ھوتێلەکە جێخەوی ئاسوودەبەخشی ھەبوو لەگەڵ سەرینی پاڵپشتیکار."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbolsters2("en-GB"),
@@ -274,7 +274,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bolster (Derived forms: bolsters, bolstering, bolstered)
+- Verb: bolster (derived forms: bolsters, bolstering, bolstered)
 1. Support and strengthen (= bolster up)
 "bolster morale";
 
@@ -283,7 +283,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Add padding to (= pad)
 "bolster the seat of the chair";
 
-- Noun: bolster (Derived forms: bolsters)
+- Noun: bolster (derived forms: bolsters)
 1. A pillow that is often put across a bed underneath the regular pillows (= long pillow)
 """,
           )

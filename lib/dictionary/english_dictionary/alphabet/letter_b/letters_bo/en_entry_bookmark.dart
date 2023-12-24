@@ -175,7 +175,7 @@ class EnglishEntrybookmark extends StatelessWidget {
                                       "The bookstore gave away free bookmarks with each purchase."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ هەر کڕینێکدا دەبەخشی."),
+                                      "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ ھەر کڕینێکدا دەبەخشی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookmarks1("en-GB"),
@@ -196,7 +196,7 @@ class EnglishEntrybookmark extends StatelessWidget {
                                       "The bookmark icon in the browser simplifies navigation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە هاتووچۆ ئاسان دەکات."),
+                                      "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە ھاتووچۆ ئاسان دەکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbookmarks2("en-GB"),
@@ -276,12 +276,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Noun: bookmark (Derived forms: bookmarks)
+Noun: bookmark (derived forms: bookmarks)
 1. A marker (a piece of paper or ribbon) placed between the pages of a book to mark the reader's place (= bookmarker)
  
 2. A link to a website, kept in a list for quick access in future (= favorite [US], favourite [Brit, Cdn])
 
-- Verb: bookmark (Derived forms: bookmarks, bookmarking, bookmarked)
+- Verb: bookmark (derived forms: bookmarks, bookmarking, bookmarked)
 1. (computing) create a link to a web page (etc.) for quick future access (= favorite [N. Amer], favourite [Brit, Cdn])
 "if you don't find what you want now remember to bookmark the page and return later"; "List of most bookmarkd blogs";
 """,
@@ -297,7 +297,7 @@ Noun: bookmark (Derived forms: bookmarks)
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Am1lDj2mUVY?t=";
+  static String myVideoId = "Am1lDj2mUVY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -322,7 +322,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/ki4Fbctwnjs?t=";
+  static String myVideoId = "ki4Fbctwnjs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +347,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/v_pjQkiXOng?t=";
+  static String myVideoId = "v_pjQkiXOng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +372,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Rvey9g0VgY0?t=";
+  static String myVideoId = "Rvey9g0VgY0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +397,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/5CRD9pmqa7s?t=";
+  static String myVideoId = "5CRD9pmqa7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +422,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/1IIDuRKUIiU?t=";
+  static String myVideoId = "1IIDuRKUIiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +447,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/cNwNlKoD8fQ?t=";
+  static String myVideoId = "cNwNlKoD8fQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +472,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/4sWffp2ErdU";
+  static String myVideoId = "4sWffp2ErdU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -497,7 +497,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/IA6_cktOUiA?t=";
+  static String myVideoId = "IA6_cktOUiA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

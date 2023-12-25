@@ -181,12 +181,17 @@ class EnglishEntryaxis extends StatelessWidget {
                                   text:
                                       "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxiss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxiss1(// REPLACE: axis
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxiss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxiss1(// REPLACE: axis
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,12 +208,17 @@ class EnglishEntryaxis extends StatelessWidget {
                                   text:
                                       "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxiss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxiss2(// REPLACE: axis
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxiss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxiss2(// REPLACE: axis
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,12 +235,17 @@ class EnglishEntryaxis extends StatelessWidget {
                                   text:
                                       "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxiss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxiss3(// REPLACE: axis
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxiss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxiss3(// REPLACE: axis
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,12 +262,17 @@ class EnglishEntryaxis extends StatelessWidget {
                                   text:
                                       "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxiss4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxiss4(// REPLACE: axis
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxiss4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxiss4(// REPLACE: axis
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

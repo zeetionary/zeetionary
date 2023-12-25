@@ -179,11 +179,15 @@ class EnglishEntrybinary extends StatelessWidget {
                                   text:
                                       "کۆمپیوتەر تەواوی زانیارییەکان بە کۆدی دووانەیی کۆگا دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinarys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinarys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinarys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinarys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybinary extends StatelessWidget {
                                   text:
                                       "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinarys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinarys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinarys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinarys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

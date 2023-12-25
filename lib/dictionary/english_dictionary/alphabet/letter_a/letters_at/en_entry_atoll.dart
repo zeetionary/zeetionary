@@ -186,13 +186,17 @@ class EnglishEntryatoll extends StatelessWidget {
                                   text:
                                       "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtoll1156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtoll1156(// REPLACE: atoll
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtoll1156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtoll1156(// REPLACE: atoll
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

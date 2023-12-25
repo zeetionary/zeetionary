@@ -177,11 +177,15 @@ class EnglishEntrybistro extends StatelessWidget {
                                   text:
                                       "خواردنگەی گەڕەکەکە خواردنی ڕەسەنی فەرەنسی پێشکەش دەکرد بە گۆڕانکاریی سەردەمیانەوە.."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBistros1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBistros1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBistros1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBistros1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

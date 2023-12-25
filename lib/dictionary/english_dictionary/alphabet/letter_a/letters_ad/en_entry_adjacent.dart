@@ -134,13 +134,17 @@ class EnglishEntryadjacent extends StatelessWidget {
                                   text:
                                       "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdj255(
-                                    // REPLACE: adjacent /əˈdʒeɪsnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdj255(
+                                        // REPLACE: adjacent /əˈdʒeɪsnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

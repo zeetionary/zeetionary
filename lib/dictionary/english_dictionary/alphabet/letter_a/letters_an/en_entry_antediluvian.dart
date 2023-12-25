@@ -180,13 +180,18 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                   text:
                                       "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntediluvian439("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntediluvian439(
-                                    // REPLACE: antediluvian /ˌæntidɪˈluːviən/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntediluvian439("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntediluvian439(
+                                        // REPLACE: antediluvian /ˌæntidɪˈluːviən/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

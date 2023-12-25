@@ -190,13 +190,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault845("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault845(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault845("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault845(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر لە پەلاماری نابەجێ بۆ سەر ژنان بەبێ باسکردن تێدەپەڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault851("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault851(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault851("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault851(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +242,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault855(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault855(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -257,13 +269,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault856("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault856(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault856("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault856(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,13 +296,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "ڕەخنەی ڕۆژنامەکە دژ بە سەرۆک تەواو ناڕەوا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault859("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault859(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault859("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault859(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -303,13 +323,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "تاوانبارکراوە بە پەلاماردانی ئەفسەرێکی پۆلیس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault900("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault900(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault900("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault900(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -324,13 +348,17 @@ class EnglishEntryassault extends StatelessWidget {
                                   text:
                                       "چوار ژن بەم‌نزیکانە لە ناوچەکە پەلاماری سێکسییان بۆسەر ئەنجام دراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssault902("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssault902(
-                                    // REPLACE: assault /əˈsɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssault902("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssault902(
+                                        // REPLACE: assault /əˈsɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,11 +179,15 @@ class EnglishEntryblade extends StatelessWidget {
                                   text:
                                       "دەمی چەقۆ بەشێوەیەکی گشتی لە پۆڵای ژەنگنەھێن درووست دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblades1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblades1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblades1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblades1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntryblade extends StatelessWidget {
                                   text:
                                       "زیندانییەکە دەمی ھەڕەیەکی بەکارھێنا بۆ دەربازبوون بە بەربەستەکاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblades2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblades2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblades2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblades2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntryblade extends StatelessWidget {
                                   text:
                                       "باڵەکانی ھەلیکۆپتەرەکە ھاژەی دەھات کە بەرزدەبوویەوە لە زەوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblades3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblades3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblades3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblades3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,11 +254,15 @@ class EnglishEntryblade extends StatelessWidget {
                                   text:
                                       "سەوڵلێدەرەکە دەمی سەوڵەکەی خستە ناو ئاوەکە و بەلەمەکە بۆ پێشەوە جوڵا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblades4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblades4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblades4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblades4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -261,11 +277,15 @@ class EnglishEntryblade extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەک دەنکە گەڵاش نەجوڵا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblades5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblades5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblades5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblades5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

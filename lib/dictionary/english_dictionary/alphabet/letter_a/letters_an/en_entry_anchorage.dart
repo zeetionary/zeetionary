@@ -178,13 +178,17 @@ class EnglishEntryanchorage extends StatelessWidget {
                                   text:
                                       "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchorage152("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnchorage152(
-                                    // REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchorage152("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchorage152(
+                                        // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryanchorage extends StatelessWidget {
                                   text:
                                       "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchorage145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnchorage145(
-                                    // REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchorage145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchorage145(
+                                        // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybargain extends StatelessWidget {
                                   text:
                                       "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBargains1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBargains1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBargains1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBargains1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybargain extends StatelessWidget {
                                   text:
                                       "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBargains2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBargains2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBargains2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBargains2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,11 +222,15 @@ class EnglishEntrybargain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBargains3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBargains3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBargains3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBargains3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,11 +247,15 @@ class EnglishEntrybargain extends StatelessWidget {
                                   text:
                                       "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBargains4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBargains4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBargains4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBargains4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

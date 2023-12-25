@@ -142,13 +142,17 @@ class EnglishEntryadjust extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdj459(// REPLACE: adjust /əˈdʒʌst/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdj459(// REPLACE: adjust /əˈdʒʌst/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +164,17 @@ class EnglishEntryadjust extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەستێنەرەکان دەبێت ڕێکبخرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj7596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdj7596(// REPLACE: adjust /əˈdʒʌst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj7596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdj7596(
+                                        // REPLACE: adjust /əˈdʒʌst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -182,13 +190,17 @@ class EnglishEntryadjust extends StatelessWidget {
                                   text:
                                       "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj4589("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdj4589(// REPLACE: adjust /əˈdʒʌst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj4589("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdj4589(
+                                        // REPLACE: adjust /əˈdʒʌst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +215,17 @@ class EnglishEntryadjust extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قژی سافکرد و بۆینباخەکەی ڕێکخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj8542("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdj8542(// REPLACE: adjust /əˈdʒʌst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj8542("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdj8542(
+                                        // REPLACE: adjust /əˈdʒʌst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

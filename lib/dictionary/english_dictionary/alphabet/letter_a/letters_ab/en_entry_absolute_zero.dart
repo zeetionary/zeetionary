@@ -121,11 +121,15 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                                   text:
                                       "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbs2531("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbs2531("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbs2531("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbs2531("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -136,11 +136,15 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گۆرانییەک بە میوزیکوە لەگەڵی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc15587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc15587("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc15587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc15587("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,11 +159,15 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "برنجی سادە دابنێ وەک پاشکۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA77499("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA77499("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA77499("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA77499("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -175,11 +183,15 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                   text:
                                       "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA569222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA569222("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA569222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA569222("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,12 +137,16 @@ class EnglishEntryacquisition extends StatelessWidget {
                                   text:
                                       "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcquis2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcquis2534(
-                                    "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcquis2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcquis2534(
+                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,12 +162,16 @@ class EnglishEntryacquisition extends StatelessWidget {
                                   text:
                                       "پارەکە بەکاردێت بۆ کڕینی کتێبخانەی زانکۆکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcqui24987("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcqui24987(
-                                    "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcqui24987("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcqui24987(
+                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,12 +187,16 @@ class EnglishEntryacquisition extends StatelessWidget {
                                   text:
                                       "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcqu1254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcqu1254(
-                                    "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcqu1254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcqu1254(
+                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -181,13 +181,18 @@ class EnglishEntryannouncement extends StatelessWidget {
                                   text:
                                       "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncement413("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncement413(
-                                    // REPLACE: announcement /əˈnaʊnsmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnouncement413("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncement413(
+                                        // REPLACE: announcement /əˈnaʊnsmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryannouncement extends StatelessWidget {
                                   text:
                                       "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncement416("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncement416(
-                                    // REPLACE: announcement /əˈnaʊnsmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnouncement416("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncement416(
+                                        // REPLACE: announcement /əˈnaʊnsmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +235,18 @@ class EnglishEntryannouncement extends StatelessWidget {
                                   text:
                                       "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncement420("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncement420(
-                                    // REPLACE: announcement /əˈnaʊnsmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnouncement420("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncement420(
+                                        // REPLACE: announcement /əˈnaʊnsmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

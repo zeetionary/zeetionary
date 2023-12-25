@@ -133,13 +133,17 @@ class EnglishEntryadvert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بانگەشەی زۆر لە ڕیکلامەکەدا دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv36914("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv36914(// REPLACE: advert /ˈædvɜːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv36914("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv36914(
+                                        // REPLACE: advert /ˈædvɜːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,12 +134,16 @@ class EnglishEntryacquaint extends StatelessWidget {
                                   text:
                                       "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2567("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2567(
-                                    "en-US"), // REPLACE acquaint /əˈkweɪnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2567("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2567(
+                                        "en-US"), // REPLACE acquaint /əˈkweɪnt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

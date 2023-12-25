@@ -185,13 +185,18 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                   text:
                                       "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchitecture415("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchitecture415(
-                                    // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchitecture415("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchitecture415(
+                                        // REPLACE: architecture /ˈɑːrkɪtektʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                   text:
                                       "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchitecture417("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchitecture417(
-                                    // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchitecture417("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchitecture417(
+                                        // REPLACE: architecture /ˈɑːrkɪtektʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

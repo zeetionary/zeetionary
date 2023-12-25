@@ -178,11 +178,15 @@ class EnglishEntrybee extends StatelessWidget {
                                   text:
                                       "ھەنگ لە دەرەوەی پەنجەرەکە گیزەگیزی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBees1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBees1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBees1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBees1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybee extends StatelessWidget {
                                   text:
                                       "قوتابخانەکە پێشبڕکێیەکی ڕێنووسکردنی ڕێکخست بۆ زانینی ئەوەی کێ دەتوانێت زۆرترین وشە بەدرووستی ڕێنووس بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBees2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBees2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBees2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBees2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

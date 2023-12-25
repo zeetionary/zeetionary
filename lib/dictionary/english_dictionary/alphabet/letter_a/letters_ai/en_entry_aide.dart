@@ -134,13 +134,17 @@ class EnglishEntryaide extends StatelessWidget {
                                   text:
                                       "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid3596484("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid3596484(// REPLACE: aide /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid3596484("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid3596484(// REPLACE: aide /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

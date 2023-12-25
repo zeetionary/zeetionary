@@ -174,11 +174,15 @@ class EnglishEntrybony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لاواز بوو و ڕووخساری ڕەقەڵ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybony extends StatelessWidget {
                                   text:
                                       "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

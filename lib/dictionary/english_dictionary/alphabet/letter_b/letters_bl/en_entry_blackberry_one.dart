@@ -173,11 +173,15 @@ class EnglishEntryblackberryone extends StatelessWidget {
                                   text:
                                       "سەیری ئیمەیڵەکانت بکە لە بلاکبێرییەکەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBlackBerrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBlackBerrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBlackBerrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBlackBerrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

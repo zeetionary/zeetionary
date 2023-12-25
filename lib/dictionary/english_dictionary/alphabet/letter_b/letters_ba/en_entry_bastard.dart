@@ -173,11 +173,15 @@ class EnglishEntrybastard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناڕەسەن! گریاندت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybastard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چی زۆڵێکی بەبەختە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastards2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastards2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,11 +219,15 @@ class EnglishEntrybastard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شتێکی پڕ لە کێشەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastards3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastards3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastards3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastards3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,11 +244,15 @@ class EnglishEntrybastard extends StatelessWidget {
                                   text:
                                       "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastards4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastards4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastards4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastards4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

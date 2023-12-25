@@ -152,13 +152,17 @@ class EnglishEntryadmit extends StatelessWidget {
                                   text:
                                       "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi4527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmi4527(// REPLACE: admit /ədˈmɪt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi4527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdmi4527(// REPLACE: admit /ədˈmɪt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,13 +176,17 @@ class EnglishEntryadmit extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmit4568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmit4568(// REPLACE: admit /ədˈmɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmit4568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmit4568(
+                                        // REPLACE: admit /ədˈmɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,13 +200,17 @@ class EnglishEntryadmit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmit34587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmit34587(// REPLACE: admit /ədˈmɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmit34587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmit34587(
+                                        // REPLACE: admit /ədˈmɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,13 +226,17 @@ class EnglishEntryadmit extends StatelessWidget {
                                   text:
                                       "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmit45682("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmit45682(// REPLACE: admit /ədˈmɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmit45682("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmit45682(
+                                        // REPLACE: admit /ədˈmɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -236,13 +252,17 @@ class EnglishEntryadmit extends StatelessWidget {
                                   text:
                                       "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmit458796("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmit458796(// REPLACE: admit /ədˈmɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmit458796("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmit458796(
+                                        // REPLACE: admit /ədˈmɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,13 +137,17 @@ class EnglishEntryadulthood extends StatelessWidget {
                                   text:
                                       "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdul35729("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdul35729(
-                                    // REPLACE: adulthood /ˈædʌlthʊd/, /əˈdʌlthʊd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdul35729("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdul35729(
+                                        // REPLACE: adulthood /ˈædʌlthʊd/, /əˈdʌlthʊd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

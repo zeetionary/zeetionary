@@ -183,13 +183,17 @@ class EnglishEntryarchitect extends StatelessWidget {
                                   text:
                                       "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchitect407("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchitect407(
-                                    // REPLACE: architect /ˈɑːrkɪtekt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchitect407("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchitect407(
+                                        // REPLACE: architect /ˈɑːrkɪtekt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

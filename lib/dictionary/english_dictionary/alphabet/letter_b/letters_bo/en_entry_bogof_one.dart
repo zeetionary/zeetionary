@@ -173,11 +173,15 @@ class EnglishEntrybogof extends StatelessWidget {
                                   text:
                                       "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbogofs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbogofs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbogofs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbogofs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,11 +176,15 @@ class EnglishEntrybleakly extends StatelessWidget {
                                   text:
                                       "بیری لە خۆی دەکردەوە بە بێ ھیوایەوە کە ھیچ ھیوای سەرکەوتنی نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleaklys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleaklys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleaklys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleaklys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybleakly extends StatelessWidget {
                                   text:
                                       "دەشتە زستانەییەکان جوانن بە بەتاڵی و ساردییانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleaklys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleaklys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleaklys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleaklys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

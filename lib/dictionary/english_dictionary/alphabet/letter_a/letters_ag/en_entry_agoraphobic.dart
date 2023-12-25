@@ -135,13 +135,17 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                   text:
                                       "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgorap6577("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgorap6577(
-                                    // REPLACE: agoraphobic /ˌæɡərəˈfəʊbɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgorap6577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgorap6577(
+                                        // REPLACE: agoraphobic /ˌæɡərəˈfəʊbɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

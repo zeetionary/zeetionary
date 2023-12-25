@@ -188,13 +188,17 @@ class EnglishEntryatomic extends StatelessWidget {
                                   text:
                                       "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtomic1217("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtomic1217(// REPLACE: atomic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtomic1217("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtomic1217(// REPLACE: atomic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryatomic extends StatelessWidget {
                                   text:
                                       "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtomic1221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtomic1221(// REPLACE: atomic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtomic1221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtomic1221(// REPLACE: atomic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryatomic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چەکە ئەتۆمییەکان زۆر وێرانکەرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtomic1223("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtomic1223(// REPLACE: atomic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtomic1223("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtomic1223(// REPLACE: atomic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

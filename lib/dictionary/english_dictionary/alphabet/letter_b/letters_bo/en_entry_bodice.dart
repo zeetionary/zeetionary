@@ -175,11 +175,15 @@ class EnglishEntrybodice extends StatelessWidget {
                                   text:
                                       "جلێکی ئاھەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodices1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodices1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodices1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodices1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

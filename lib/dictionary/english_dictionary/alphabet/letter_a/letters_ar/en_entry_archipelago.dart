@@ -184,13 +184,18 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                   text:
                                       "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchipelago400("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchipelago400(
-                                    // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchipelago400("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchipelago400(
+                                        // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

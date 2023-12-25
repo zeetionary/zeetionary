@@ -136,13 +136,17 @@ class EnglishEntryadvice extends StatelessWidget {
                                   text:
                                       "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvi4986("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdvi4986(// REPLACE: advice /ədˈvaɪs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvi4986("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvi4986(
+                                        // REPLACE: advice /ədˈvaɪs/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryadvice extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "با کەمێک ئامۆژگاریت بکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv64187("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv64187(// REPLACE: advice /ədˈvaɪs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv64187("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv64187(
+                                        // REPLACE: advice /ədˈvaɪs/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

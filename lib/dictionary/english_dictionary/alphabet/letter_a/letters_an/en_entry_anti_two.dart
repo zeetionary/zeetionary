@@ -184,13 +184,17 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   text:
                                       "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakantitwo920("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakantitwo920(
-                                    // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakantitwo920("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakantitwo920(
+                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   text:
                                       "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakantitwo925("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakantitwo925(
-                                    // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakantitwo925("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakantitwo925(
+                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   text:
                                       "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakantitwo935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakantitwo935(
-                                    // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakantitwo935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakantitwo935(
+                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +263,17 @@ class EnglishEntryantitwo extends StatelessWidget {
                                   text:
                                       "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakantitwo938("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakantitwo938(
-                                    // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakantitwo938("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakantitwo938(
+                                        // REPLACE: anti- /ænti/,  /æntɪ/,  /æntaɪ/,  /ænˈtɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

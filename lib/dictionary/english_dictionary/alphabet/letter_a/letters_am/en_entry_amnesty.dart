@@ -202,13 +202,17 @@ class EnglishEntryamnesty extends StatelessWidget {
                                   text:
                                       "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmnesty4117("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmnesty4117(
-                                    // REPLACE: amnesty /ˈæmnəsti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmnesty4117("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmnesty4117(
+                                        // REPLACE: amnesty /ˈæmnəsti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +228,17 @@ class EnglishEntryamnesty extends StatelessWidget {
                                   text:
                                       "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmnesty4699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmnesty4699(
-                                    // REPLACE: amnesty /ˈæmnəsti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmnesty4699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmnesty4699(
+                                        // REPLACE: amnesty /ˈæmnəsti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

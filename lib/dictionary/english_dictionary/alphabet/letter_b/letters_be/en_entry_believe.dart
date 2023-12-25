@@ -255,11 +255,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "باوەڕت پێ ناکەم!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -272,11 +276,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەڕاستی باوەڕی پێ دەکەیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -289,11 +297,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "متمانەم پێ بکە، ئەو گونجاو نییە بۆت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -310,11 +322,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -329,11 +345,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -348,11 +368,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -369,11 +393,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -388,11 +416,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -409,11 +441,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -428,11 +464,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -449,11 +489,15 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text:
                                       "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelieves11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelieves11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelieves11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelieves11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

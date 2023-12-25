@@ -181,17 +181,21 @@ class EnglishEntryapril extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە نیسان لەدایکبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApril1055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApril1055(// REPLACE: April /ˈeɪprəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApril1055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApril1055(
+                                        // REPLACE: April /ˈeɪprəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -200,13 +204,17 @@ class EnglishEntryapril extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نیسانی ڕابردوو چووین بۆ ژاپۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApril1056("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApril1056(// REPLACE: April /ˈeɪprəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApril1056("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApril1056(
+                                        // REPLACE: April /ˈeɪprəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

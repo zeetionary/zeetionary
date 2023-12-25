@@ -180,11 +180,15 @@ class EnglishEntrybesides extends StatelessWidget {
                                   text:
                                       "سەرەڕای کارکردن وەک دکتۆرێک، لە کاتی بەتاڵیدا ڕۆمان دەنووسێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesidess1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesidess1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesidess1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesidess1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybesides extends StatelessWidget {
                                   text:
                                       "کێشەی نابێت کە درەنگ کەوتوویت، و ھەروەھا، بە ئاستەنگ ھەڵەی تۆ بووە (ھیچت لە دەست نەھاتووە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesidess2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesidess2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesidess2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesidess2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybesides extends StatelessWidget {
                                   text:
                                       "بەڕاستی نامەوێت بچم، و زۆر درەنگیشە ئێستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesidess3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesidess3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesidess3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesidess3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +253,15 @@ class EnglishEntrybesides extends StatelessWidget {
                                   text:
                                       "توانای کردنی کارەکەم ھەیە، و ھەروەھا زۆری تریش."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesidess4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesidess4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesidess4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesidess4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

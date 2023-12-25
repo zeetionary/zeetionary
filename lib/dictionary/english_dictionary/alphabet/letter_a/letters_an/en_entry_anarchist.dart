@@ -175,16 +175,19 @@ class EnglishEntryanarchist extends StatelessWidget {
                                   text:
                                       "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnarchist459("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnarchist459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnarchist459(
+                                        // REPLACE: anarchist /ˈænərkɪst/
+                                        "en-US"),
+                                  ),
+                                ],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnarchist459(
-                                    // REPLACE: anarchist /ˈænərkɪst/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

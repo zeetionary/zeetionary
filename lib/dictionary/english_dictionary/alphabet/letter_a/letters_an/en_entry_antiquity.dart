@@ -183,13 +183,18 @@ class EnglishEntryantiquity extends StatelessWidget {
                                   text:
                                       "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiquity1151("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiquity1151(
-                                    // REPLACE: antiquity /ænˈtɪkwəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiquity1151("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiquity1151(
+                                        // REPLACE: antiquity /ænˈtɪkwəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +211,18 @@ class EnglishEntryantiquity extends StatelessWidget {
                                   text:
                                       "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiquity1156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiquity1156(
-                                    // REPLACE: antiquity /ænˈtɪkwəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiquity1156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiquity1156(
+                                        // REPLACE: antiquity /ænˈtɪkwəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +239,18 @@ class EnglishEntryantiquity extends StatelessWidget {
                                   text:
                                       "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiquity1159("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiquity1159(
-                                    // REPLACE: antiquity /ænˈtɪkwəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiquity1159("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiquity1159(
+                                        // REPLACE: antiquity /ænˈtɪkwəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,17 +177,21 @@ class EnglishEntrybacteria extends StatelessWidget {
                                   text:
                                       "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBacterias1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBacterias1(// REPLACE: bacteria
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBacterias1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBacterias1(// REPLACE: bacteria
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -198,13 +202,17 @@ class EnglishEntrybacteria extends StatelessWidget {
                                   text:
                                       "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBacterias2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBacterias2(// REPLACE: bacteria
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBacterias2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBacterias2(// REPLACE: bacteria
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

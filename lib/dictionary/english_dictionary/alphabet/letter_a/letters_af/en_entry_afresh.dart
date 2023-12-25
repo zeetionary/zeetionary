@@ -133,13 +133,17 @@ class EnglishEntryafresh extends StatelessWidget {
                                   text:
                                       "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfre411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfre411(// REPLACE: afresh /əˈfreʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfre411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAfre411(// REPLACE: afresh /əˈfreʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

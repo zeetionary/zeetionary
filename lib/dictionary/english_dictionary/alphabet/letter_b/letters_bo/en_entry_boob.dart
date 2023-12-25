@@ -254,11 +254,15 @@ class EnglishEntryboob extends StatelessWidget {
                                   text:
                                       "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -271,11 +275,15 @@ class EnglishEntryboob extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جلەمەلەکە مەمکە توندەکانی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -292,11 +300,17 @@ class EnglishEntryboob extends StatelessWidget {
                                           text:
                                               "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboobs3("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboobs3("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakboobs3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakboobs3("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -310,11 +324,17 @@ class EnglishEntryboob extends StatelessWidget {
                                           text:
                                               "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboobs4("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboobs4("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakboobs4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakboobs4("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -328,11 +348,17 @@ class EnglishEntryboob extends StatelessWidget {
                                           text:
                                               "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboobs5("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboobs5("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakboobs5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakboobs5("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -352,11 +378,15 @@ class EnglishEntryboob extends StatelessWidget {
                                   text:
                                       "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobs6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobs6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobs6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobs6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -372,11 +402,15 @@ class EnglishEntryboob extends StatelessWidget {
                                   text:
                                       "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobs7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobs7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobs7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobs7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -391,11 +425,15 @@ class EnglishEntryboob extends StatelessWidget {
                                   text:
                                       "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobs8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobs8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobs8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobs8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

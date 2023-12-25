@@ -182,13 +182,18 @@ class EnglishEntryapartfrom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApartfrom1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApartfrom1125(
-                                    // REPLACE: apart from /əˈpɑːrt frəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApartfrom1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApartfrom1125(
+                                        // REPLACE: apart from /əˈpɑːrt frəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +210,18 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                   text:
                                       "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApartfrom1127("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApartfrom1127(
-                                    // REPLACE: apart from /əˈpɑːrt frəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApartfrom1127("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApartfrom1127(
+                                        // REPLACE: apart from /əˈpɑːrt frəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

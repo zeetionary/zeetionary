@@ -134,13 +134,17 @@ class EnglishEntryairline extends StatelessWidget {
                                   text:
                                       "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirline42566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirline42566(
-                                    // REPLACE: airline /ˈerlaɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirline42566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirline42566(
+                                        // REPLACE: airline /ˈerlaɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

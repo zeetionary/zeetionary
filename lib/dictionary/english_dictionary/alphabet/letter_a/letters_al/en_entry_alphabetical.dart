@@ -135,13 +135,18 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                   text:
                                       "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlphabetical365("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlphabetical365(
-                                    // REPLACE: alphabetical /ˌælfəˈbetɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlphabetical365("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlphabetical365(
+                                        // REPLACE: alphabetical /ˌælfəˈbetɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

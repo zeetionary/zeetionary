@@ -176,13 +176,17 @@ class EnglishEntryanemone extends StatelessWidget {
                                   text:
                                       "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnemone588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnemone588(
-                                    // REPLACE: anemone /əˈneməni/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnemone588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnemone588(
+                                        // REPLACE: anemone /əˈneməni/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

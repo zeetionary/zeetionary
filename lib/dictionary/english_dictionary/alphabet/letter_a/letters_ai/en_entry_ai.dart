@@ -132,13 +132,17 @@ class EnglishEntryai extends StatelessWidget {
                                   text:
                                       "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAi934262("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAi934262(// REPLACE: AI /ˌeɪ ˈaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAi934262("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAi934262(// REPLACE: AI /ˌeɪ ˈaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

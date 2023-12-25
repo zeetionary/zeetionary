@@ -191,13 +191,18 @@ class EnglishEntryanalytic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalytical150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalytical150(
-                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalytical150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalytical150(
+                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +217,18 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   text:
                                       "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalytical0025("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalytical0025(
-                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalytical0025("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalytical0025(
+                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +245,18 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   text:
                                       "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalytic47906("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalytic47906(
-                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalytic47906("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalytic47906(
+                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

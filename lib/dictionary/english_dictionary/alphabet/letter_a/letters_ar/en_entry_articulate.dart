@@ -192,13 +192,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate716("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate716(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate716("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate716(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,13 +220,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                                   text:
                                       "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate718("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate718(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate718("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate718(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -238,13 +248,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                                   text:
                                       "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate720("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate720(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate720("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate720(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,13 +273,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate722("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate722(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate722("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate722(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -281,13 +301,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                                   text:
                                       "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate736("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate736(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate736("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate736(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,13 +329,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                                   text:
                                       "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulate726("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulate726(
-                                    // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulate726("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulate726(
+                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

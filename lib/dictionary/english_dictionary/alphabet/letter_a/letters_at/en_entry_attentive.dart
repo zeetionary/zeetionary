@@ -185,13 +185,17 @@ class EnglishEntryattentive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گوێی گرت بە ئارامی و سەرنجەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttentive904("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttentive904(// REPLACE: attentive
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttentive904("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttentive904(// REPLACE: attentive
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryattentive extends StatelessWidget {
                                   text:
                                       "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttentive906("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttentive906(// REPLACE: attentive
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttentive906("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttentive906(// REPLACE: attentive
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

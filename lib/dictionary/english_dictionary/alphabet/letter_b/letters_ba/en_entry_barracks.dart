@@ -172,11 +172,15 @@ class EnglishEntrybarracks extends StatelessWidget {
                                   text:
                                       "سەربازەکان فەرمانیان پێکرا بگەڕێنەوە سەربازگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrackss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrackss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrackss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrackss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

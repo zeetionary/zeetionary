@@ -175,11 +175,15 @@ class EnglishEntryinbehalfof extends StatelessWidget {
                                   text:
                                       "داخوازییەکی دەستپێکرد بۆ یارمەتیدانی جوتیاران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakInbehalfofs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakInbehalfofs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakInbehalfofs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakInbehalfofs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

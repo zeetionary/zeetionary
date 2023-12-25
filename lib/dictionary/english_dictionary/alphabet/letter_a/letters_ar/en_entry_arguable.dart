@@ -184,17 +184,21 @@ class EnglishEntryarguable extends StatelessWidget {
                                   text:
                                       "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArguable1011("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArguable1011(
-                                    // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArguable1011("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArguable1011(
+                                        // REPLACE: arguable /ˈɑːrɡjuəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,13 +207,17 @@ class EnglishEntryarguable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کام ڕێگەیان خێراترە قسەھەڵدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArguable1013("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArguable1013(
-                                    // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArguable1013("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArguable1013(
+                                        // REPLACE: arguable /ˈɑːrɡjuəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

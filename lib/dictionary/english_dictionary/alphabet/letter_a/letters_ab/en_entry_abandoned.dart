@@ -120,11 +120,17 @@ class EnglishEntryabandoned extends StatelessWidget {
                                   text:
                                       "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbandoned1577("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbandoned1577("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAbandoned1577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAbandoned1577("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -138,11 +144,15 @@ class EnglishEntryabandoned extends StatelessWidget {
                                   text:
                                       "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbandoned47("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbandoned47("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbandoned47("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbandoned47("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

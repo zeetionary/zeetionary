@@ -182,13 +182,18 @@ class EnglishEntryasphyxiate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە دووکەڵەکە خنکا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsphyxiate617("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsphyxiate617(
-                                    // REPLACE: asphyxiate /əsˈfɪksieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAsphyxiate617("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsphyxiate617(
+                                        // REPLACE: asphyxiate /əsˈfɪksieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryarc extends StatelessWidget {
                                   text:
                                       "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArc1246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArc1246(// REPLACE: arc /ɑːrk/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArc1246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArc1246(// REPLACE: arc /ɑːrk/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryarc extends StatelessWidget {
                                   text:
                                       "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArc1249("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArc1249(// REPLACE: arc /ɑːrk/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArc1249("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArc1249(// REPLACE: arc /ɑːrk/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryarc extends StatelessWidget {
                                   text:
                                       "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArc1252("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArc1252(// REPLACE: arc /ɑːrk/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArc1252("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArc1252(// REPLACE: arc /ɑːrk/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

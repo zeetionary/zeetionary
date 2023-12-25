@@ -176,11 +176,15 @@ class EnglishEntrybliss extends StatelessWidget {
                                   text:
                                       "ساڵیادی ٢٥ ساڵ لە خۆشبەختیی ھاوسەرگیرییان دەگێڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblisss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblisss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblisss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblisss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybliss extends StatelessWidget {
                                   text:
                                       "مەلەکردن لە ڕۆژێکی گەرمدا خۆشبەختی تەواوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblisss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblisss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblisss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblisss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

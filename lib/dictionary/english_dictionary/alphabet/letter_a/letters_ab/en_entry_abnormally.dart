@@ -113,11 +113,15 @@ class EnglishEntryabnormally extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەستانی نائاسایی بەرز لە خوێندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA97("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA97("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA97("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA97("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

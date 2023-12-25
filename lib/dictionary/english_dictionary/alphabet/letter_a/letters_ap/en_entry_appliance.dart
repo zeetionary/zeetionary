@@ -183,13 +183,17 @@ class EnglishEntryappliance extends StatelessWidget {
                                   text:
                                       "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppliance623("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppliance623(
-                                    // REPLACE: appliance /əˈplaɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppliance623("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppliance623(
+                                        // REPLACE: appliance /əˈplaɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

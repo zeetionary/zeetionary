@@ -134,13 +134,17 @@ class EnglishEntryaggressor extends StatelessWidget {
                                   text:
                                       "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggre199963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggre199963(
-                                    // REPLACE: aggressor /əˈɡresər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggre199963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggre199963(
+                                        // REPLACE: aggressor /əˈɡresər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

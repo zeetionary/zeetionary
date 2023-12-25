@@ -177,11 +177,15 @@ class EnglishEntrybirthmark extends StatelessWidget {
                                   text:
                                       "خاڵە زگماکییەکەی منداڵەکە لە لە شلیکێکی بچووک دەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBirthmarks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBirthmarks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBirthmarks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBirthmarks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

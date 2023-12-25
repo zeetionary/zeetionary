@@ -120,11 +120,15 @@ class EnglishEntryaccidental extends StatelessWidget {
                                   text:
                                       "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA1598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA1598("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA1598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA1598("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

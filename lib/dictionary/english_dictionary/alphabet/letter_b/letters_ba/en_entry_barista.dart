@@ -172,11 +172,15 @@ class EnglishEntrybarista extends StatelessWidget {
                                   text:
                                       "یەکێک لە کارمەندەکانی قاوەخانەکە ناوبانگی ناوخۆیی و نێودەڵەتی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaristas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaristas1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaristas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaristas1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

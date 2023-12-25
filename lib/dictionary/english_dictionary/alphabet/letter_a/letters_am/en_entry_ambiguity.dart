@@ -137,13 +137,18 @@ class EnglishEntryambiguity extends StatelessWidget {
                                   text:
                                       "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbiguity23555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbiguity23555(
-                                    // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbiguity23555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbiguity23555(
+                                        // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

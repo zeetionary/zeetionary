@@ -177,13 +177,17 @@ class EnglishEntrybacknumber extends StatelessWidget {
                                   text:
                                       "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakA3s1(// REPLACE: back number
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: back number
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

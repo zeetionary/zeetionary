@@ -119,11 +119,15 @@ class EnglishEntryabdicate extends StatelessWidget {
                                   text:
                                       "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb576("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb576("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb576("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb576("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -137,11 +141,15 @@ class EnglishEntryabdicate extends StatelessWidget {
                                   text:
                                       "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb5346("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb5346("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb5346("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb5346("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

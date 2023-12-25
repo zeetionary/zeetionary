@@ -178,11 +178,15 @@ class EnglishEntrybin extends StatelessWidget {
                                   text:
                                       "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBins1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBins1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBins1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBins1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybin extends StatelessWidget {
                                   text:
                                       "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لە ژێر جێخەوەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBins2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBins2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBins2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBins2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

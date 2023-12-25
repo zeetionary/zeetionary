@@ -186,13 +186,17 @@ class EnglishEntryauction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خانووەکە ھەڕاجکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuction1150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuction1150(// REPLACE: auction
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuction1150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuction1150(// REPLACE: auction
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryauction extends StatelessWidget {
                                   text:
                                       "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuction1154("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuction1154(// REPLACE: auction
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuction1154("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuction1154(// REPLACE: auction
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

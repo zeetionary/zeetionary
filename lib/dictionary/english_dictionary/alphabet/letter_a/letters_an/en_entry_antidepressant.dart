@@ -181,14 +181,18 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                   text:
                                       "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAntidepressant1005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntidepressant1005(
-                                    // REPLACE: antidepressant /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntidepressant1005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntidepressant1005(
+                                        // REPLACE: antidepressant /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

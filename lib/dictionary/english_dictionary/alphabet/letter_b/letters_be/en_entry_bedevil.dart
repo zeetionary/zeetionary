@@ -175,11 +175,15 @@ class EnglishEntrybedevil extends StatelessWidget {
                                   text:
                                       "ئەم برینە بۆ تەواوی ژیانی گیرۆدەی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedevils1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedevils1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedevils1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedevils1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

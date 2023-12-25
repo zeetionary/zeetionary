@@ -183,13 +183,17 @@ class EnglishEntryarson extends StatelessWidget {
                                   text:
                                       "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArson912("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArson912(// REPLACE: arson /ˈɑːrsn/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArson912("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArson912(// REPLACE: arson /ˈɑːrsn/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

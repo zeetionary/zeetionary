@@ -113,11 +113,15 @@ class EnglishEntryaboutturn extends StatelessWidget {
                                   text:
                                       "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3775("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3775("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3775("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3775("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

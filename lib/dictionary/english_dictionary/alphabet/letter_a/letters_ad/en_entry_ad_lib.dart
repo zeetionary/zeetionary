@@ -134,13 +134,17 @@ class EnglishEntryadlib extends StatelessWidget {
                                   text:
                                       "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdlib4587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdlib4587(// REPLACE: ad lib /ˌæd ˈlɪb/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdlib4587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdlib4587(
+                                        // REPLACE: ad lib /ˌæd ˈlɪb/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryadlib extends StatelessWidget {
                                   text:
                                       "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdlib42587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdlib42587(
-                                    // REPLACE: ad lib /ˌæd ˈlɪb/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdlib42587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdlib42587(
+                                        // REPLACE: ad lib /ˌæd ˈlɪb/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

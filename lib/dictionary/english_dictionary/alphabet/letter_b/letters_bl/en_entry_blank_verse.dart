@@ -173,11 +173,15 @@ class EnglishEntryblankverse extends StatelessWidget {
                                   text:
                                       "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblankverses1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblankverses1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblankverses1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblankverses1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntrybluetooth extends StatelessWidget {
                                   text:
                                       "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBluetooths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBluetooths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBluetooths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBluetooths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

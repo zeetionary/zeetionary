@@ -184,13 +184,18 @@ class EnglishEntryarticulated extends StatelessWidget {
                                   text:
                                       "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulated801("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulated801(
-                                    // REPLACE: articulated /ɑːrˈtɪkjuleɪtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulated801("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulated801(
+                                        // REPLACE: articulated /ɑːrˈtɪkjuleɪtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

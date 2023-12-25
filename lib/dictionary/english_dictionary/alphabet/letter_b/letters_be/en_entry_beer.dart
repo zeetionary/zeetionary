@@ -175,11 +175,15 @@ class EnglishEntrybeer extends StatelessWidget {
                                   text: "Are you a beer drinker?"),
                               const ExampleSentenceKurdish(text: "بیرەخۆریت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybeer extends StatelessWidget {
                                   text:
                                       "بیرەکە بخە ساردکەرەوەکەوە بۆ ئەوەی سارد ببێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntrybeer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دایڤد ژمارەیەک قوتووە بیرەی بۆ کڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeers3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeers3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

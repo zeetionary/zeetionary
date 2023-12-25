@@ -137,13 +137,18 @@ class EnglishEntryalternation extends StatelessWidget {
                                   text:
                                       "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternation4577("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternation4577(
-                                    // REPLACE: alternation /ˌɔːltərˈneɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternation4577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternation4577(
+                                        // REPLACE: alternation /ˌɔːltərˈneɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

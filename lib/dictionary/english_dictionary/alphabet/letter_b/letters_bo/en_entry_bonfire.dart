@@ -175,11 +175,15 @@ class EnglishEntrybonfire extends StatelessWidget {
                                   text:
                                       "ئاگرەخۆشەیەک و نمایشی یاری ئاگرین دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonfires1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonfires1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonfires1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonfires1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

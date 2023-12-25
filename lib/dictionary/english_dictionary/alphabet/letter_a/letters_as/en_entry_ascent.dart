@@ -186,17 +186,21 @@ class EnglishEntryascent extends StatelessWidget {
                                   text:
                                       "یەکەم سەرکەوتن  بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscent1230("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscent1230(// REPLACE: ascent /əˈsent/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscent1230("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscent1230(
+                                        // REPLACE: ascent /əˈsent/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -207,13 +211,17 @@ class EnglishEntryascent extends StatelessWidget {
                                   text:
                                       "کە فڕۆکەکە دەستی‌کرد بە بەرزبوونەوە، دووکەڵی ئەستوورمان بینی لە یەکێک لە بزوێنەرەکانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscent1232("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscent1232(// REPLACE: ascent /əˈsent/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscent1232("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscent1232(
+                                        // REPLACE: ascent /əˈsent/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

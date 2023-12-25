@@ -172,11 +172,15 @@ class EnglishEntrybornagain extends StatelessWidget {
                                   text:
                                       "ڕیچارد مەسیحییەکی ئینجیلییە باوەڕی وایە (ئینجیل دەبێت فێری کەسانی تر بکرێت بۆ ئەوەی باوەڕ بێنن)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbornagains1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbornagains1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbornagains1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbornagains1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

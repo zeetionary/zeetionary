@@ -176,11 +176,15 @@ class EnglishEntrybetrothed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژمارەیەک گوڵی بۆ دەزگیرانەکەی نارد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrotheds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrotheds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrotheds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrotheds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

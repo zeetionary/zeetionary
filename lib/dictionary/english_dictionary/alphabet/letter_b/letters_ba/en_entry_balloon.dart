@@ -178,13 +178,17 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فودانکەکەم تەقی!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalloons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalloons1(// REPLACE: balloon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalloons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalloons1(// REPLACE: balloon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سواری باڵۆنێک بووین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalloons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalloons2(// REPLACE: balloon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalloons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalloons2(// REPLACE: balloon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,13 +228,17 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەنوورەکەی لە بایەکەدا خڕبوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalloons3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalloons3(// REPLACE: balloon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalloons3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalloons3(// REPLACE: balloon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,13 +254,17 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بێکاری ھەڵبەزی بۆ ١٤٪."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalloons4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalloons4(// REPLACE: balloon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalloons4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalloons4(// REPLACE: balloon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -265,13 +281,17 @@ class EnglishEntryballoon extends StatelessWidget {
                                   text:
                                       "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalloons5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalloons5(// REPLACE: balloon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalloons5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalloons5(// REPLACE: balloon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybetrayer extends StatelessWidget {
                                   text:
                                       "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrayers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrayers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrayers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrayers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

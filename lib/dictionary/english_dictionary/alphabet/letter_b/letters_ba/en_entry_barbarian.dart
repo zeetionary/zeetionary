@@ -179,13 +179,17 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                   text:
                                       "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbarians1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbarians1(// REPLACE: barbarian
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbarians1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbarians1(// REPLACE: barbarian
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                   text:
                                       "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbarians2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbarians2(// REPLACE: barbarian
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbarians2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbarians2(// REPLACE: barbarian
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryale extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم باڕە شارەزایە لە ئەیڵی  فرەخاس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAle346("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAle346(// REPLACE: ale /eɪl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAle346("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAle346(// REPLACE: ale /eɪl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

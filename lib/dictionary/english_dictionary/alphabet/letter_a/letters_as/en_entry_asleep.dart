@@ -187,13 +187,17 @@ class EnglishEntryasleep extends StatelessWidget {
                                   text:
                                       "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsleep929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsleep929(// REPLACE: asleep /əˈsliːp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsleep929("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsleep929(
+                                        // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryasleep extends StatelessWidget {
                                   text:
                                       "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsleep930("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsleep930(// REPLACE: asleep /əˈsliːp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsleep930("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsleep930(
+                                        // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryasleep extends StatelessWidget {
                                   text:
                                       "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsleep933("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsleep933(// REPLACE: asleep /əˈsliːp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsleep933("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsleep933(
+                                        // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

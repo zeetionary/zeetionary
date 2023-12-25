@@ -135,13 +135,18 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                   text:
                                       "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgrochem63888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgrochem63888(
-                                    // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAgrochem63888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgrochem63888(
+                                        // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

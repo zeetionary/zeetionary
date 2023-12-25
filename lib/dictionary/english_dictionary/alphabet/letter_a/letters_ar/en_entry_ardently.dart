@@ -180,13 +180,17 @@ class EnglishEntryardently extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تامەزرۆییەوە لە کچەکەی دەڕوانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArdently523("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArdently523(
-                                    // REPLACE: ardently /ˈɑːrdntli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArdently523("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArdently523(
+                                        // REPLACE: ardently /ˈɑːrdntli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

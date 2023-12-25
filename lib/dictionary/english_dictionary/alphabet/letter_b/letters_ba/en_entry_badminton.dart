@@ -176,13 +176,17 @@ class EnglishEntrybadminton extends StatelessWidget {
                                   text:
                                       "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadmintons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBadmintons1(// REPLACE: badminton
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadmintons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadmintons1(// REPLACE: badminton
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

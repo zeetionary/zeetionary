@@ -133,13 +133,17 @@ class EnglishEntryadhere extends StatelessWidget {
                                   text:
                                       "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhe55661("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdhe55661(// REPLACE: adhere /ədˈhɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhe55661("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhe55661(
+                                        // REPLACE: adhere /ədˈhɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,13 +157,17 @@ class EnglishEntryadhere extends StatelessWidget {
                                   text:
                                       "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhe2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdhe2537(// REPLACE: adhere /ədˈhɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhe2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhe2537(
+                                        // REPLACE: adhere /ədˈhɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

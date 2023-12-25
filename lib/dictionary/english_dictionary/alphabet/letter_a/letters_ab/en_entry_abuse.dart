@@ -175,11 +175,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA26935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA26935("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA26935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA26935("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA45961("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA45961("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA45961("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA45961("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,11 +221,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25641("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25641("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25641("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25641("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,11 +245,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA14582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA14582("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA14582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA14582("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,11 +269,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA1258("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA1258("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA1258("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA1258("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,11 +293,15 @@ class EnglishEntryabuse extends StatelessWidget {
                                   text:
                                       "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA15876("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA15876("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA15876("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA15876("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -291,11 +315,15 @@ class EnglishEntryabuse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA5741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA5741("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA5741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA5741("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

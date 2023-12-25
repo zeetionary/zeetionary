@@ -174,11 +174,15 @@ class EnglishEntrybeaten extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ملوانکەیەکی زێڕی کوتراوی لە مل بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeatens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeatens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeatens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeatens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

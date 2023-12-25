@@ -114,11 +114,15 @@ class EnglishEntryacademy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەکادیمیای پۆلیسی/سەربازی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak25963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak25963("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak25963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak25963("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

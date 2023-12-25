@@ -176,11 +176,15 @@ class EnglishEntrybecauseof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لێرەن بەھۆی ئێمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBecauseofs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBecauseofs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBecauseofs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBecauseofs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybecauseof extends StatelessWidget {
                                   text:
                                       "لەبەرئەوەی ژنەکەی لەوێ بوو، ھیچم نەوت لەسەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBecauseofs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBecauseofs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBecauseofs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBecauseofs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

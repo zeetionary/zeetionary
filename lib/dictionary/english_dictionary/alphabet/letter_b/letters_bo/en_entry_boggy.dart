@@ -173,11 +173,15 @@ class EnglishEntryboggy extends StatelessWidget {
                                   text:
                                       "ڕێگاکە بە دەشتەبوورەکەدا لیتەیە بەڵام ھێشتا بەکاردێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboggys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboggys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboggys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboggys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

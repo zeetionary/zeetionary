@@ -186,13 +186,18 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   text:
                                       "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriation425("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriation425(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriation425("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriation425(
+                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   text:
                                       "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriation432("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriation432(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriation432("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriation432(
+                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +242,18 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   text:
                                       "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriation436("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriation436(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriation436("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriation436(
+                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

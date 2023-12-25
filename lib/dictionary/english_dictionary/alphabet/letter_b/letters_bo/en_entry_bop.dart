@@ -174,11 +174,15 @@ class EnglishEntrybop extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزت بە سەمایەکە لەگەڵ میوزیکی پۆپ؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbops1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbops1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbops1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbops1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybop extends StatelessWidget {
                                   text:
                                       "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbops2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbops2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbops2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbops2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntrybop extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ڕێکەوت کێشام بە سەریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbops3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbops3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbops3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbops3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -182,13 +182,18 @@ class EnglishEntryantecedent extends StatelessWidget {
                                   text:
                                       "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntecedent411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntecedent411(
-                                    // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntecedent411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntecedent411(
+                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +210,18 @@ class EnglishEntryantecedent extends StatelessWidget {
                                   text:
                                       "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntecedent414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntecedent414(
-                                    // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntecedent414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntecedent414(
+                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryantecedent extends StatelessWidget {
                                   text:
                                       "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntecedent421("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntecedent421(
-                                    // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntecedent421("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntecedent421(
+                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

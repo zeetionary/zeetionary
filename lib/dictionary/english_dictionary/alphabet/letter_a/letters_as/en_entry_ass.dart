@@ -186,13 +186,17 @@ class EnglishEntryass extends StatelessWidget {
                                   text:
                                       "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAss834("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAss834(// REPLACE: arse /ɑːrs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAss834("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAss834(// REPLACE: arse /ɑːrs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryass extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێندە گەمژە مەبە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAss837("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAss837(// REPLACE: arse /ɑːrs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAss837("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAss837(// REPLACE: arse /ɑːrs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryass extends StatelessWidget {
                                   text:
                                       "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAss842("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAss842(// REPLACE: arse /ɑːrs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAss842("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAss842(// REPLACE: arse /ɑːrs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

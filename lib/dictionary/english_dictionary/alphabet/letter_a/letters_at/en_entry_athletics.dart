@@ -186,13 +186,17 @@ class EnglishEntryathletics extends StatelessWidget {
                                   text:
                                       "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAthletics825("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAthletics825(// REPLACE: athletics
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAthletics825("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAthletics825(// REPLACE: athletics
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

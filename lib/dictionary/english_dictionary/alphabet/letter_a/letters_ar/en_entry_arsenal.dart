@@ -186,13 +186,17 @@ class EnglishEntryarsenal extends StatelessWidget {
                                   text:
                                       "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArsenal825("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArsenal825(
-                                    // REPLACE: arsenal /ˈɑːrsənl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArsenal825("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArsenal825(
+                                        // REPLACE: arsenal /ˈɑːrsənl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryarsenal extends StatelessWidget {
                                   text:
                                       "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArsenal826("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArsenal826(
-                                    // REPLACE: arsenal /ˈɑːrsənl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArsenal826("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArsenal826(
+                                        // REPLACE: arsenal /ˈɑːrsənl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

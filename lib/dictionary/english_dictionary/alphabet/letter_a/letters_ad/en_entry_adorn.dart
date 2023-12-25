@@ -131,13 +131,17 @@ class EnglishEntryadorn extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکان خۆیان بە گوڵ ڕازاندەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdor59631("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdor59631(// REPLACE: adorn /əˈdɔːrn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdor59631("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdor59631(
+                                        // REPLACE: adorn /əˈdɔːrn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

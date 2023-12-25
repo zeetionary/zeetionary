@@ -178,12 +178,17 @@ class EnglishEntrybackless extends StatelessWidget {
                                   text:
                                       "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backless
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backless
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

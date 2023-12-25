@@ -136,13 +136,17 @@ class EnglishEntryactual extends StatelessWidget {
                                   text:
                                       "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActual4528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakActual4528(// REPLACE: actual
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActual4528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActual4528(// REPLACE: actual
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryactual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قسەکانی بە دەقیقی چی بوون؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActual4967("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakActual4967(// REPLACE: actual
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActual4967("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActual4967(// REPLACE: actual
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,12 +184,17 @@ class EnglishEntryactual extends StatelessWidget {
                                   text:
                                       "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActu437("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActu437(// REPLACE: actual
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActu437("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActu437(// REPLACE: actual
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

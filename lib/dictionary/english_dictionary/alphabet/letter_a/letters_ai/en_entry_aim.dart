@@ -172,13 +172,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim86555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim86555(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim86555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim86555(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,13 +196,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim475699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim475699(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim475699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim475699(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,13 +222,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim456933("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim456933(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim456933("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim456933(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +246,17 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim5283("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim5283(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim5283("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim5283(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +272,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim371595446("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim371595446(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim371595446("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim371595446(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,13 +298,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim78562("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim78562(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim78562("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim78562(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -300,13 +324,17 @@ class EnglishEntryaim extends StatelessWidget {
                                   text:
                                       "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAim46011635("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAim46011635(// REPLACE: aim /eɪm/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAim46011635("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAim46011635(// REPLACE: aim /eɪm/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

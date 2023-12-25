@@ -175,11 +175,15 @@ class EnglishEntrybogey extends StatelessWidget {
                                   text:
                                       "دوامۆڵەتە نزیکبووەکە دێوەزمەیەکی بەردەوام بوو بەسەر سەری خوێندکارەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbogeys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbogeys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbogeys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbogeys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybogey extends StatelessWidget {
                                   text:
                                       "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbogeys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbogeys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbogeys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbogeys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntrybogey extends StatelessWidget {
                                   text:
                                       "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لە ژێر جێ‌خەوەکە دەژیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbogeys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbogeys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbogeys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbogeys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

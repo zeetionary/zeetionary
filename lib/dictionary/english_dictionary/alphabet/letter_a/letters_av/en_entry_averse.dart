@@ -176,13 +176,17 @@ class EnglishEntryaverse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverses1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverses1(// REPLACE: averse
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverses1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverses1(// REPLACE: averse
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,13 +199,17 @@ class EnglishEntryaverse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دژی ھەموو گۆڕانکارییەک بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverses2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverses2(// REPLACE: averse
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverses2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverses2(// REPLACE: averse
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

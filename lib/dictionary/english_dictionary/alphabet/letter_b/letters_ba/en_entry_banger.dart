@@ -180,13 +180,17 @@ class EnglishEntrybanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە سۆسجە بۆ نانی ئێوارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBangers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBangers1(// REPLACE: banger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBangers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBangers1(// REPLACE: banger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntrybanger extends StatelessWidget {
                                   text:
                                       "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBangers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBangers2(// REPLACE: banger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBangers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBangers2(// REPLACE: banger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,15 +232,19 @@ class EnglishEntrybanger extends StatelessWidget {
                                       "Some idiot decided to let off a banger right next to my ear."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەبەگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
+                                      "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBangers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBangers3(// REPLACE: banger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBangers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBangers3(// REPLACE: banger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +259,17 @@ class EnglishEntrybanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەلبوومە تازەکە ھەموو گۆرانی سەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBangers4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBangers4(// REPLACE: banger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBangers4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBangers4(// REPLACE: banger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

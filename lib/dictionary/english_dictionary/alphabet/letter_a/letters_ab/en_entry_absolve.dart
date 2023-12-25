@@ -117,11 +117,15 @@ class EnglishEntryabsolve extends StatelessWidget {
                                   text:
                                       "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbsolve5555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbsolve5555("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbsolve5555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbsolve5555("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

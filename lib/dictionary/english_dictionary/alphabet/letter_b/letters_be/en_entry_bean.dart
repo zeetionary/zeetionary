@@ -179,11 +179,15 @@ class EnglishEntrybean extends StatelessWidget {
                                   text:
                                       "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybean extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەنکە قاوە تۆوی داری قاوەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeans2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeans2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeans2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeans2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -218,11 +226,15 @@ class EnglishEntrybean extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مێشکت بەکاربێنە منداڵ!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeans3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeans3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeans3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeans3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,11 +251,15 @@ class EnglishEntrybean extends StatelessWidget {
                                   text:
                                       "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeans4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeans4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeans4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeans4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,18 @@ class EnglishEntryarchaeology extends StatelessWidget {
                                   text:
                                       "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchaeology224("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaeology224(
-                                    // REPLACE: archaeology /ˌɑːrkiˈɑːlədʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchaeology224("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaeology224(
+                                        // REPLACE: archaeology /ˌɑːrkiˈɑːlədʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

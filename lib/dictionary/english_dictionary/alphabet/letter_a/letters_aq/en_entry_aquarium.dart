@@ -184,13 +184,17 @@ class EnglishEntryaquarium extends StatelessWidget {
                                   text:
                                       "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquarium922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquarium922(
-                                    // REPLACE: aquarium /əˈkweriəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAquarium922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquarium922(
+                                        // REPLACE: aquarium /əˈkweriəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryaquarium extends StatelessWidget {
                                   text:
                                       "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquarium926("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquarium926(
-                                    // REPLACE: aquarium /əˈkweriəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAquarium926("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquarium926(
+                                        // REPLACE: aquarium /əˈkweriəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

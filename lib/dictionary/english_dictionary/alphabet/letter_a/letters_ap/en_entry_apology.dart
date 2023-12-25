@@ -184,17 +184,21 @@ class EnglishEntryapology extends StatelessWidget {
                                   text:
                                       "لێبور‌دن‌خوازییەک قەرزاری بۆ ئەوەی وتت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApology552("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApology552(
-                                    // REPLACE: apology /əˈpɑːlədʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApology552("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApology552(
+                                        // REPLACE: apology /əˈpɑːlədʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -204,13 +208,17 @@ class EnglishEntryapology extends StatelessWidget {
                                   text:
                                       "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApology555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApology555(
-                                    // REPLACE: apology /əˈpɑːlədʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApology555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApology555(
+                                        // REPLACE: apology /əˈpɑːlədʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

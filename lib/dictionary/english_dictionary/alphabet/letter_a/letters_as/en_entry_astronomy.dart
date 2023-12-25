@@ -186,13 +186,17 @@ class EnglishEntryastronomy extends StatelessWidget {
                                   text:
                                       "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstronomy456("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstronomy456(// REPLACE: astronomy
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstronomy456("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstronomy456(// REPLACE: astronomy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

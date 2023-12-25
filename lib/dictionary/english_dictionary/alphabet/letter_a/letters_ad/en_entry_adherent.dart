@@ -134,13 +134,17 @@ class EnglishEntryadherent extends StatelessWidget {
                                   text:
                                       "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdh24861("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdh24861(
-                                    // REPLACE: adherent /ədˈhɪrənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdh24861("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdh24861(
+                                        // REPLACE: adherent /ədˈhɪrənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

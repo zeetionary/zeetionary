@@ -170,11 +170,15 @@ class EnglishEntrybathtub extends StatelessWidget {
                                   text:
                                       "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBathtubs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBathtubs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBathtubs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBathtubs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

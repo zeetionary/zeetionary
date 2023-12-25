@@ -185,13 +185,17 @@ class EnglishEntryarchaic extends StatelessWidget {
                                   text:
                                       "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchaic300("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaic300(
-                                    // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchaic300("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaic300(
+                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryarchaic extends StatelessWidget {
                                   text:
                                       "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchaic302("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaic302(
-                                    // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchaic302("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaic302(
+                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryarchaic extends StatelessWidget {
                                   text:
                                       "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchaic304("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaic304(
-                                    // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchaic304("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaic304(
+                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

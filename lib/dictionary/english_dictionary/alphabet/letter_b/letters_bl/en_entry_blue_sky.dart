@@ -174,11 +174,15 @@ class EnglishEntrybluesky extends StatelessWidget {
                                   text:
                                       "حکومەت ھەندێک بیرکردنەوەی تازەگەری کردووە سەبارەت بە چۆنیەتی بەھێزکردنی ستانداردی قوتابخانەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblueskys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblueskys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblueskys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblueskys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybluesky extends StatelessWidget {
                                   text:
                                       "تیمێک لە دیزاینەران داوایان لێکراوە بۆدۆزینەوەی بیرۆکەی تازە بۆ وردبینییەکی تەواو بۆ لۆگۆی کۆمپانیاکە بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblueskys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblueskys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblueskys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblueskys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

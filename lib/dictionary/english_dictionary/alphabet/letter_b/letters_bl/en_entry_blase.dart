@@ -175,11 +175,15 @@ class EnglishEntryblase extends StatelessWidget {
                                   text:
                                       "منداڵان بە توندوتیژی لەسەر تەلەفیزیۆن ڕاھاتوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblases1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblases1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblases1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblases1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

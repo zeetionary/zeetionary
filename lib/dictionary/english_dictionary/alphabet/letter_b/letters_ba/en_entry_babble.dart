@@ -182,12 +182,17 @@ class EnglishEntrybabble extends StatelessWidget {
                                   text:
                                       "گوێم لە قاڵەقاڵ دەبوو لە ژوورەکەی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: babble
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: babble
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,12 +209,17 @@ class EnglishEntrybabble extends StatelessWidget {
                                   text:
                                       "ناتوانم گوێبگرم لە چەنەدانی بەردەوامی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s2(// REPLACE: babble
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s2(// REPLACE: babble
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,12 +236,17 @@ class EnglishEntrybabble extends StatelessWidget {
                                   text:
                                       "گڕوگاڵی منداڵەکە ھەرزوو دەبێت بە زمانی تەواو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s3(// REPLACE: babble
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s3(// REPLACE: babble
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,12 +262,17 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زانیم کە فڵتەفڵتم دەکرد وەک شێتێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s4(// REPLACE: babble
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s4(// REPLACE: babble
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -269,12 +289,17 @@ class EnglishEntrybabble extends StatelessWidget {
                                   text:
                                       "بۆ ماوەیەک لەلای جۆگەلەیەک وەستان کە خوڕڕەی دەھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s5(// REPLACE: babble
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s5(// REPLACE: babble
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

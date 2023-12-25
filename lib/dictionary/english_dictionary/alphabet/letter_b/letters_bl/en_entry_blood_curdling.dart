@@ -173,11 +173,17 @@ class EnglishEntrybloodcurdling extends StatelessWidget {
                                   text:
                                       "فیلمە ترسناکەکە دیمەنێکی تۆقێنەری تێدا بوو کە ھەمووانی تاساند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodcurdlings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodcurdlings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodcurdlings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodcurdlings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

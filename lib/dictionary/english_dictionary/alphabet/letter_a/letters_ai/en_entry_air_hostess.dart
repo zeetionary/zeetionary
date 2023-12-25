@@ -135,13 +135,18 @@ class EnglishEntryairhostess extends StatelessWidget {
                                   text:
                                       "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirhostess43655("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirhostess43655(
-                                    // REPLACE: air hostess /ˈer həʊstəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirhostess43655("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirhostess43655(
+                                        // REPLACE: air hostess /ˈer həʊstəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

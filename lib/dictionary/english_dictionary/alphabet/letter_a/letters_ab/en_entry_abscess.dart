@@ -109,11 +109,15 @@ class EnglishEntryabscess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbscess("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbscess("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbscess("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbscess("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

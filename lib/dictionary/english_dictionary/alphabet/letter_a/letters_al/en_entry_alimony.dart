@@ -136,13 +136,17 @@ class EnglishEntryalimony extends StatelessWidget {
                                   text:
                                       "پێویستە نەفەقە بدات بە ھاوسەری پێشووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlimony4625("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlimony4625(
-                                    // REPLACE: alimony /ˈælɪməʊni/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlimony4625("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlimony4625(
+                                        // REPLACE: alimony /ˈælɪməʊni/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

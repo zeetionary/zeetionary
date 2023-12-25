@@ -181,13 +181,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                                   text:
                                       "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswerable1100("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnswerable1100(
-                                    // REPLACE: answerable /ˈænsərəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnswerable1100("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswerable1100(
+                                        // REPLACE: answerable /ˈænsərəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                                   text:
                                       "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswerable1102("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnswerable1102(
-                                    // REPLACE: answerable /ˈænsərəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnswerable1102("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswerable1102(
+                                        // REPLACE: answerable /ˈænsərəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +235,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                                   text:
                                       "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswerable1104("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnswerable1104(
-                                    // REPLACE: answerable /ˈænsərəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnswerable1104("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswerable1104(
+                                        // REPLACE: answerable /ˈænsərəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,13 +261,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                                   text:
                                       "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswerable1106("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnswerable1106(
-                                    // REPLACE: answerable /ˈænsərəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnswerable1106("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswerable1106(
+                                        // REPLACE: answerable /ˈænsərəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

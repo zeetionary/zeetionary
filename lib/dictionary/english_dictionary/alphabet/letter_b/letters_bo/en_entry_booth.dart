@@ -176,11 +176,15 @@ class EnglishEntrybooth extends StatelessWidget {
                                   text:
                                       "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybooth extends StatelessWidget {
                                   text:
                                       "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooths2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooths2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooths2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

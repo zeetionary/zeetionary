@@ -287,11 +287,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "ئاگرێکی گەورە کڵپەی سەندبوو لە ئاگردانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -305,11 +309,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "لە ماوەی خولەکێکدا تەواوی بیناکە گڕی گرتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -326,11 +334,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "خۆر دەدرەوشایەوە با ئاسمانێکی شینی ساماڵدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -345,11 +357,15 @@ class EnglishEntryblaze extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاوەکانی تووڕەییان لێ دەباری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -367,11 +383,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "چیرۆکەکە بە تەواوی ڕۆژنامە ڕۆژانەییەکاندا بڵاوکرایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -389,11 +409,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "لە دوورەوە ڕەشاش دەبینرا سەلەی دەکرد (فیشەکی زۆری پێکەوە دەھاویشت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -408,11 +432,15 @@ class EnglishEntryblaze extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێنج کەس لە ئاگرەکەدا مردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -425,11 +453,15 @@ class EnglishEntryblaze extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "داری وشک گڕێکی باشی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -445,11 +477,15 @@ class EnglishEntryblaze extends StatelessWidget {
                                   text:
                                       "باخچەکە درەوشاناوەیەک لە ڕووناکی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazes9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazes9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazes9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazes9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

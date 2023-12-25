@@ -180,12 +180,17 @@ class EnglishEntrybalm extends StatelessWidget {
                                   text:
                                       "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalms1(// REPLACE: balm
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalms1(// REPLACE: balm
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,12 +206,17 @@ class EnglishEntrybalm extends StatelessWidget {
                                   text:
                                       "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalms2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalms2(// REPLACE: balm
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalms2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalms2(// REPLACE: balm
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntrybalm extends StatelessWidget {
                                   text:
                                       "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalms3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalms3(// REPLACE: balm
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalms3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalms3(// REPLACE: balm
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -136,13 +136,17 @@ class EnglishEntryfarafield extends StatelessWidget {
                                   text:
                                       "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakFaraf45228("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakFaraf45228(
-                                    // REPLACE: afield /fɑːr əˈfiːld/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakFaraf45228("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakFaraf45228(
+                                        // REPLACE: afield /fɑːr əˈfiːld/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

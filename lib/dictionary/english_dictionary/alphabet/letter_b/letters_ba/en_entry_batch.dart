@@ -174,11 +174,15 @@ class EnglishEntrybatch extends StatelessWidget {
                                   text:
                                       "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBatchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBatchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBatchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBatchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybatch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژمارەیەکی تر بسکیت درووست بکەم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBatchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBatchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBatchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBatchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntrybatch extends StatelessWidget {
                                   text:
                                       "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBatchs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBatchs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBatchs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBatchs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

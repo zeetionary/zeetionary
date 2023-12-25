@@ -110,11 +110,15 @@ class EnglishEntryabject extends StatelessWidget {
                                   text:
                                       "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb61("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb61("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb61("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb61("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

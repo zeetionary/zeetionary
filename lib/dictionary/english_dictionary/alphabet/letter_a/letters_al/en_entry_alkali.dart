@@ -136,13 +136,17 @@ class EnglishEntryalkali extends StatelessWidget {
                                   text:
                                       "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlkali85236("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlkali85236(
-                                    // REPLACE: alkali /ˈælkəlaɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlkali85236("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlkali85236(
+                                        // REPLACE: alkali /ˈælkəlaɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

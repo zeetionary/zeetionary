@@ -176,11 +176,15 @@ class EnglishEntryblindly extends StatelessWidget {
                                   text:
                                       "بە کوێرانە ھەوڵی دۆزینەوەی سویچی گڵۆپەکانی دەدا لە ژوورە تاریکەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindlys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindlys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryblindly extends StatelessWidget {
                                   text:
                                       "دەیویست بۆ خۆی بڕیار بدات لە جیاتی ئەوەی کوێرانە شوێن ڕاوێژی دایک و باوکی بکەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindlys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindlys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindlys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindlys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

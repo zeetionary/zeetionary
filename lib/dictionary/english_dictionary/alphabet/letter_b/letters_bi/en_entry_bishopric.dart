@@ -175,11 +175,15 @@ class EnglishEntrybishopric extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBishoprics1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBishoprics1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBishoprics1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBishoprics1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybishopric extends StatelessWidget {
                                   text:
                                       "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBishoprics2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBishoprics2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBishoprics2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBishoprics2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

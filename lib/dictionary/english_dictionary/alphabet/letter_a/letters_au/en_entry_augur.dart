@@ -186,12 +186,17 @@ class EnglishEntryaugur extends StatelessWidget {
                                   text:
                                       "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAugur315("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAugur315(// REPLACE: augur
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAugur315("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAugur315(// REPLACE: augur
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

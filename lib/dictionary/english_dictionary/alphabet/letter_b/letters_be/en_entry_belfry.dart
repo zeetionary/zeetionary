@@ -177,11 +177,15 @@ class EnglishEntrybelfry extends StatelessWidget {
                                   text:
                                       "قوللەکە ھەورەبرووکە لێیدا لە کاتی زریانەکە، زیانی زۆری بەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelfrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelfrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelfrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelfrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

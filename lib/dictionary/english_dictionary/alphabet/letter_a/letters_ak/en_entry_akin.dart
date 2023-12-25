@@ -137,13 +137,17 @@ class EnglishEntryakin extends StatelessWidget {
                                   text:
                                       "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAkin3544("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAkin3544(// REPLACE: akin /əˈkɪn/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAkin3544("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAkin3544(// REPLACE: akin /əˈkɪn/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryakin extends StatelessWidget {
                                   text:
                                       "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAkin5366("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAkin5366(// REPLACE: akin /əˈkɪn/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAkin5366("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAkin5366(// REPLACE: akin /əˈkɪn/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

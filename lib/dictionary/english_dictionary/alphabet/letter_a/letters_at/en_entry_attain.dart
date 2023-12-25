@@ -187,13 +187,17 @@ class EnglishEntryattain extends StatelessWidget {
                                   text:
                                       "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttain646("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttain646(// REPLACE: attain
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttain646("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttain646(// REPLACE: attain
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryattain extends StatelessWidget {
                                   text:
                                       "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttain648("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttain648(// REPLACE: attain
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttain648("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttain648(// REPLACE: attain
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

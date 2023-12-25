@@ -137,13 +137,17 @@ class EnglishEntryaged extends StatelessWidget {
                                   text:
                                       "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAged5628846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAged5628846(
-                                    // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAged5628846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAged5628846(
+                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryaged extends StatelessWidget {
                                   text:
                                       "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAged4896223("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAged4896223(
-                                    // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAged4896223("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAged4896223(
+                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,13 +189,17 @@ class EnglishEntryaged extends StatelessWidget {
                                   text:
                                       "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAged259363("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAged259363(
-                                    // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAged259363("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAged259363(
+                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

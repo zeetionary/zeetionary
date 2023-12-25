@@ -135,13 +135,17 @@ class EnglishEntryadventure extends StatelessWidget {
                                   text:
                                       "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdven356871("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdven356871(
-                                    // REPLACE: adventure /ədˈventʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdven356871("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdven356871(
+                                        // REPLACE: adventure /ədˈventʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

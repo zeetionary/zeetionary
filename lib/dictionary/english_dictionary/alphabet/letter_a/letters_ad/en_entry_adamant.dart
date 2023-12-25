@@ -133,13 +133,17 @@ class EnglishEntryadamant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdam35871("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdam35871(
-                                    // REPLACE: adamant /ˈædəmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdam35871("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdam35871(
+                                        // REPLACE: adamant /ˈædəmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

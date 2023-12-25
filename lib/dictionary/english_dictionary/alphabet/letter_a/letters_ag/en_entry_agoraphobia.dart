@@ -135,13 +135,17 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                                   text:
                                       "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgoraph6922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgoraph6922(
-                                    // REPLACE: agoraphobia /ˌæɡərəˈfəʊbiə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgoraph6922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgoraph6922(
+                                        // REPLACE: agoraphobia /ˌæɡərəˈfəʊbiə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

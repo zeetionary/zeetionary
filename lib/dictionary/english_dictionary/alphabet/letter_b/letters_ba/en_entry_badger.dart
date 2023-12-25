@@ -179,13 +179,17 @@ class EnglishEntrybadger extends StatelessWidget {
                                   text:
                                       "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadgers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBadgers1(// REPLACE: badger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadgers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadgers1(// REPLACE: badger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntrybadger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadgers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBadgers2(// REPLACE: badger
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadgers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadgers2(// REPLACE: badger
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

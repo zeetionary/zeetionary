@@ -176,11 +176,15 @@ class EnglishEntrybedstead extends StatelessWidget {
                                   text:
                                       "چوارچێوەی جێخەوەکە گونجاوە بۆ ئەندازەی من."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedsteads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedsteads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedsteads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedsteads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

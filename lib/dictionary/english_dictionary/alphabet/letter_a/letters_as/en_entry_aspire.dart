@@ -183,13 +183,17 @@ class EnglishEntryaspire extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاواتی ھەبوو کارێکی زانستی ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspire700("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspire700(// REPLACE: aspire /əˈspaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspire700("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspire700(
+                                        // REPLACE: aspire /əˈspaɪər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

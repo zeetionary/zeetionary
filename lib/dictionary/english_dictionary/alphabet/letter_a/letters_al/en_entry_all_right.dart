@@ -257,13 +257,17 @@ class EnglishEntryallright extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت زوو لە خەو ھەستین، تێگەشتی؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright124("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright124(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright124("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright124(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -277,13 +281,17 @@ class EnglishEntryallright extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی بیکەیت؟ ئاھ، بەڵێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright123("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright123(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright123("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright123(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -299,13 +307,17 @@ class EnglishEntryallright extends StatelessWidget {
                                   text:
                                       "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright235("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright235(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright235("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright235(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -320,13 +332,18 @@ class EnglishEntryallright extends StatelessWidget {
                                   text:
                                       "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright23469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright23469(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllright23469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright23469(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -341,13 +358,17 @@ class EnglishEntryallright extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright5241("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright5241(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright5241("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright5241(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -361,13 +382,17 @@ class EnglishEntryallright extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیوادارم منداڵەکان سەلامەت بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright3695("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright3695(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright3695("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright3695(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -383,13 +408,17 @@ class EnglishEntryallright extends StatelessWidget {
                                   text:
                                       "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright4577("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright4577(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright4577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright4577(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -405,13 +434,17 @@ class EnglishEntryallright extends StatelessWidget {
                                   text:
                                       "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllright1056("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllright1056(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllright1056("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllright1056(
+                                        // REPLACE: all right /ɔːl ˈraɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

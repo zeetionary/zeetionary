@@ -177,11 +177,15 @@ class EnglishEntrybomber extends StatelessWidget {
                                   text:
                                       "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybomber extends StatelessWidget {
                                   text:
                                       "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntrybomber extends StatelessWidget {
                                   text:
                                       "حەڤدە کەس ئەم بەیانییە کوژران لەلایەن بۆمب‌چنەوە کە سەنتەرێکی بازاڕکردنیان کردە ئامانج."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombers3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombers3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

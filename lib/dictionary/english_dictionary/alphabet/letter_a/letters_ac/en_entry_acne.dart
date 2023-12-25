@@ -132,12 +132,16 @@ class EnglishEntryacne extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاکنی بەزۆری بۆ خۆی لادەچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcn1259("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcn1259(
-                                    "en-US"), // REPLACE acne /ˈækni/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcn1259("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcn1259(
+                                        "en-US"), // REPLACE acne /ˈækni/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybiology extends StatelessWidget {
                                   text:
                                       "کتێبەکە باس لە زیندەناسی زاوزێ دەکات لە شێردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybiology extends StatelessWidget {
                                   text:
                                       "تا چەند سرووشتی مرۆڤ بە زیندەناسی دیاری دەکرێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

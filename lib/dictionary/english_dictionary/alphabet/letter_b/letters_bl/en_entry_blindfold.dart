@@ -176,11 +176,15 @@ class EnglishEntryblindfold extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەچکێکی وەک چاوبەست بەکارھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindfolds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindfolds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindfolds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindfolds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntryblindfold extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بارمتەکان بەسترانەوە و چاوبەستکران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindfolds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindfolds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindfolds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindfolds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntryblindfold extends StatelessWidget {
                                   text:
                                       "پەیامنێرەکە بە چاوبەستراوی بردرا بۆ شوێنێکی نھێنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindfolds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindfolds3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindfolds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindfolds3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,11 +245,15 @@ class EnglishEntryblindfold extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێگای ماڵەوەم بە چاوبەستراوی دەزانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindfolds4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindfolds4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindfolds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindfolds4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

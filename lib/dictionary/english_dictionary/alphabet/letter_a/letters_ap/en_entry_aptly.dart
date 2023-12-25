@@ -181,13 +181,17 @@ class EnglishEntryaptly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم وشەیە بەجێ بەکارھێنراوە لێرەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAptly805("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAptly805(// REPLACE: aptly /ˈæptli/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAptly805("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAptly805(// REPLACE: aptly /ˈæptli/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

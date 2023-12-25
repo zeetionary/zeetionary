@@ -172,11 +172,15 @@ class EnglishEntrybarefoot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە پێی پەتی لەسەر فەرشەکە سەمای کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarefoots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarefoots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarefoots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarefoots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntrybarefoot extends StatelessWidget {
                                   text:
                                       "منداڵەکان ناچاربوون بە پێ‌پەتییانە بچن چونکە پارە بۆ پێڵاو نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarefoots2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarefoots2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarefoots2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarefoots2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

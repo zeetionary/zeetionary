@@ -171,11 +171,15 @@ class EnglishEntrybarber extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جاران وەک سەرتاشێک کاری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarbers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarbers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntrybarber extends StatelessWidget {
                                   text:
                                       "سەرتاشخانەکە ڕۆژانی یەکشەممان داخراوبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarbers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarbers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

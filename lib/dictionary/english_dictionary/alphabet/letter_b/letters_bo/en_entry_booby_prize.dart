@@ -173,11 +173,15 @@ class EnglishEntryboobyprize extends StatelessWidget {
                                   text:
                                       "خەڵاتی گاڵتەیی درا بە خراپترین گۆرانیبێژ لە پێشبڕکێیەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobyprizes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobyprizes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobyprizes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobyprizes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

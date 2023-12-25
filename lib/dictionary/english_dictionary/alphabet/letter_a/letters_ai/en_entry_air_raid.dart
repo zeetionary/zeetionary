@@ -134,13 +134,17 @@ class EnglishEntryairraid extends StatelessWidget {
                                   text:
                                       "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirraid5377("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirraid5377(
-                                    // REPLACE: air raid /ˈer reɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirraid5377("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirraid5377(
+                                        // REPLACE: air raid /ˈer reɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

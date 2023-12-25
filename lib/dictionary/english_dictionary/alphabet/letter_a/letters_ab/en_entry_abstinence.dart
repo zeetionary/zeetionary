@@ -118,11 +118,15 @@ class EnglishEntryabstinence extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆبەدوورگرتنی تەواو لە کحوول."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25891("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25891("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25891("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25891("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

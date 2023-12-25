@@ -137,35 +137,44 @@ class EnglishEntryamenable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سێ منداڵی گوێگریان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmenable48577("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmenable48577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmenable48577(
+                                        // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
+                                        "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmenable48577(
-                                    // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "He seemed most amenable to my idea."),
+                                  const ExampleSentenceKurdish(
+                                      text: "زۆر قایل دیاربوو بە بیرۆکەکەم."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAmenable635211("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAmenable635211(
+                                            // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He seemed most amenable to my idea."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر قایل دیاربوو بە بیرۆکەکەم."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmenable635211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmenable635211(
-                                    // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

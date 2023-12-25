@@ -136,13 +136,18 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                   text:
                                       "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarmclock349("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlarmclock349(
-                                    // REPLACE: alarm clock /əˈlɑːrm klɑːk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlarmclock349("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarmclock349(
+                                        // REPLACE: alarm clock /əˈlɑːrm klɑːk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

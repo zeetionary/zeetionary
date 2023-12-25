@@ -175,11 +175,17 @@ class EnglishEntrybombardment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شارەکە کەوتە ژێر بۆمبارانی توند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombardments1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombardments1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbombardments1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbombardments1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +202,17 @@ class EnglishEntrybombardment extends StatelessWidget {
                                   text:
                                       "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombardments2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombardments2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbombardments2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbombardments2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

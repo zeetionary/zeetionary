@@ -183,13 +183,17 @@ class EnglishEntryappendix extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێویست بوو پەلەڕیخۆڵەی دەربێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppendix216("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppendix216(
-                                    // REPLACE: appendix /əˈpendɪks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppendix216("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppendix216(
+                                        // REPLACE: appendix /əˈpendɪks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryappendix extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وردەکاریی تەواو لە پاشکۆی ٣ دراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppendix218("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppendix218(
-                                    // REPLACE: appendix /əˈpendɪks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppendix218("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppendix218(
+                                        // REPLACE: appendix /əˈpendɪks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

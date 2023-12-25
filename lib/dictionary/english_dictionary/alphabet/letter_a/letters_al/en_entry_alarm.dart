@@ -204,13 +204,17 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریدا زەنگی مەترسی لێبدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm355(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm355(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +228,17 @@ class EnglishEntryalarm extends StatelessWidget {
                                   text:
                                       "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm466("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm466(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm466("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm466(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,13 +254,17 @@ class EnglishEntryalarm extends StatelessWidget {
                                   text:
                                       "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm4255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm4255(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm4255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm4255(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -267,13 +279,17 @@ class EnglishEntryalarm extends StatelessWidget {
                                   text:
                                       "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm4522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm4522(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm4522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm4522(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -289,13 +305,17 @@ class EnglishEntryalarm extends StatelessWidget {
                                   text:
                                       "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm4277("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm4277(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm4277("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm4277(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -311,13 +331,17 @@ class EnglishEntryalarm extends StatelessWidget {
                                   text:
                                       "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarm7692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlarm7692(// REPLACE: alarm /əˈlɑːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarm7692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarm7692(
+                                        // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

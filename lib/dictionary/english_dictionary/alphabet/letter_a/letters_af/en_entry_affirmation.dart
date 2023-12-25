@@ -137,13 +137,17 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   text:
                                       "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffirmat144("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffirmat144(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffirmat144("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffirmat144(
+                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffir25("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffir25(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffir25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffir25(
+                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +187,17 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   text:
                                       "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff677("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAff677(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff677("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAff677(
+                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

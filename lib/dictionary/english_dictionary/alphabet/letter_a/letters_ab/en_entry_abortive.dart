@@ -123,11 +123,15 @@ class EnglishEntryabortive extends StatelessWidget {
                                   text:
                                       "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA364("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA364("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA364("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA364("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -141,11 +145,15 @@ class EnglishEntryabortive extends StatelessWidget {
                                   text:
                                       "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb961("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb961("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb961("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb961("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

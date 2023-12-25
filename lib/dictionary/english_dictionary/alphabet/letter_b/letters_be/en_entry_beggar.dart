@@ -178,11 +178,15 @@ class EnglishEntrybeggar extends StatelessWidget {
                                   text:
                                       "پیاوە دەوڵەمەندەکە دەستی ڕاوەشاند بۆ سواڵکەرەکە کە دووربکەوێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeggars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeggars1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeggars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeggars1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybeggar extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا خۆت نەپۆشیوە، تەمەڵی تەوەزەل؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeggars2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeggars2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeggars2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeggars2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,11 +225,15 @@ class EnglishEntrybeggar extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆچی خۆم نەدار بکەم بۆ تۆ؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeggars3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeggars3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeggars3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeggars3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

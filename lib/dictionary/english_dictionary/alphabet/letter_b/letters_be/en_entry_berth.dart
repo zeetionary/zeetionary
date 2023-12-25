@@ -179,11 +179,15 @@ class EnglishEntryberth extends StatelessWidget {
                                   text:
                                       "جێ‌خەوێکی بەکرێ گرت لەسەر کەشتییەکە کە لە پالێرمۆوە بۆ ناپۆلی دەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntryberth extends StatelessWidget {
                                   text:
                                       "بەندەرەکە پڕبوو لە کەشتی ھەموو قەبارەیەک، کە ھەریەکەیان توند کرابوو لە لەمگەرگای خۆیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerths2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerths2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerths2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntryberth extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەشتییەکە لە ساوسامپتن لەنگەرکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerths3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerths3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerths3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerths3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

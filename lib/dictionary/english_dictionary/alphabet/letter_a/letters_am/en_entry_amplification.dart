@@ -179,13 +179,18 @@ class EnglishEntryamplification extends StatelessWidget {
                                   text:
                                       "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplification102("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplification102(
-                                    // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmplification102("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplification102(
+                                        // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,14 +207,18 @@ class EnglishEntryamplification extends StatelessWidget {
                                   text:
                                       "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmplification44140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplification44140(
-                                    // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmplification44140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplification44140(
+                                        // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

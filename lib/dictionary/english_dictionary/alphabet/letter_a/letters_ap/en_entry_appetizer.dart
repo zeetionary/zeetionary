@@ -184,13 +184,17 @@ class EnglishEntryappetizer extends StatelessWidget {
                                   text:
                                       "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppetizer312("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppetizer312(
-                                    // REPLACE: appetizer /ˈæpɪtaɪzər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppetizer312("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppetizer312(
+                                        // REPLACE: appetizer /ˈæpɪtaɪzər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

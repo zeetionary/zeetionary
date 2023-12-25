@@ -179,12 +179,17 @@ class EnglishEntrybackwater extends StatelessWidget {
                                   text:
                                       "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backwater
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backwater
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,12 +204,17 @@ class EnglishEntrybackwater extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە لاپەڕێکی لادێنشیندا گەورە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backwater
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backwater
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

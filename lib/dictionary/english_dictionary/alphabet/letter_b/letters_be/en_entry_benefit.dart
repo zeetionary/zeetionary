@@ -308,11 +308,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "ئازادیی ڕۆژنامەوانی سوودی گرنگی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -327,11 +331,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "دەرفەتی ئەوەم ھەبووە خوێدنێکی باشم ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -346,11 +354,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "باش بوو لە کۆتاییدا بینرا کە بەرھەمی ھەموو کارە سەختەکانی چنییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -367,11 +379,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "ڕەنگە شایستە بیت بۆ وەرگرتنی برە پارەیەکی بڕاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -388,11 +404,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "سەرەڕای مووچەکەم، خانەنشینی و تێچووی تەندرووستی وەردەگرم لە کارەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -409,11 +429,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "ڕێککەوتنی بیمەکە پارەیەکی زۆری کاش لەخۆدەگرێت بۆ خێزانەکەت لە حاڵەتی مردنت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -430,11 +454,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "پارەی کۆکراوەی ئاھەنگەکە ڕاستەوخۆ دەچێت بۆ کەمپی پەنابەران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -451,11 +479,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "دەبێت پارەکە لە شتێک خەرج بکەین کە سوود بە ھەمووان بگەیەنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -470,11 +502,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "یاسا تازەکانی باج بەئاشکرایی سوود بەوانە دەگەیەنێت کە مووچەیان کەمە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -491,11 +527,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "ھەمووان سوودمەند دەبین کە گەنجەکانمان بە تواناکانیان دەزانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -510,11 +550,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "بەدرووستی کێ سوودمەند دەبێت لەم گۆڕانکارییانە دەبێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -529,11 +573,15 @@ class EnglishEntrybenefit extends StatelessWidget {
                                   text:
                                       "زۆرێک لە قوربانییانی تاوانەکان دۆخیان باشتر دەبێت ئەگەر باسی بەسەرھاتەکانیان بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefits12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefits12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenefits12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenefits12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

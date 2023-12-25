@@ -134,13 +134,17 @@ class EnglishEntryagile extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مەیموون پیاھەڵگژی گورجە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgile15621("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgile15621(// REPLACE: agile /ˈædʒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgile15621("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgile15621(
+                                        // REPLACE: agile /ˈædʒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryagile extends StatelessWidget {
                                   text:
                                       "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgi1778("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgi1778(// REPLACE: agile /ˈædʒl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgi1778("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgi1778(// REPLACE: agile /ˈædʒl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -178,13 +186,17 @@ class EnglishEntryagile extends StatelessWidget {
                                   text:
                                       "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgil56663("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgil56663(// REPLACE: agile /ˈædʒl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgil56663("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgil56663(// REPLACE: agile /ˈædʒl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

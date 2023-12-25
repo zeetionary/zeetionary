@@ -188,13 +188,17 @@ class EnglishEntryascend extends StatelessWidget {
                                   text:
                                       "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscend1126("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscend1126(// REPLACE: ascend /əˈsend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscend1126("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscend1126(
+                                        // REPLACE: ascend /əˈsend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryascend extends StatelessWidget {
                                   text:
                                       "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscend1129("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscend1129(// REPLACE: ascend /əˈsend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscend1129("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscend1129(
+                                        // REPLACE: ascend /əˈsend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryascend extends StatelessWidget {
                                   text:
                                       "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscend1132("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscend1132(// REPLACE: ascend /əˈsend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscend1132("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscend1132(
+                                        // REPLACE: ascend /əˈsend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +263,17 @@ class EnglishEntryascend extends StatelessWidget {
                                   text:
                                       "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscend1136("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscend1136(// REPLACE: ascend /əˈsend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscend1136("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscend1136(
+                                        // REPLACE: ascend /əˈsend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

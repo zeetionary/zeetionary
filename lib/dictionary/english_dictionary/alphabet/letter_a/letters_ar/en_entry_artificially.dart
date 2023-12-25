@@ -187,13 +187,18 @@ class EnglishEntryartificially extends StatelessWidget {
                                   text:
                                       "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtificially954("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificially954(
-                                    // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificially954("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificially954(
+                                        // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryartificially extends StatelessWidget {
                                   text:
                                       "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtificially956("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificially956(
-                                    // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificially956("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificially956(
+                                        // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

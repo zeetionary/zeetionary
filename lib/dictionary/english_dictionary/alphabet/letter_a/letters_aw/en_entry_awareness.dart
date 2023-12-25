@@ -179,13 +179,17 @@ class EnglishEntryawareness extends StatelessWidget {
                                   text:
                                       "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwarenesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwarenesss1(// REPLACE: awareness
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwarenesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwarenesss1(// REPLACE: awareness
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryawareness extends StatelessWidget {
                                   text:
                                       "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwarenesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwarenesss2(// REPLACE: awareness
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwarenesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwarenesss2(// REPLACE: awareness
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,13 +179,18 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                   text:
                                       "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntifreeze1051("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntifreeze1051(
-                                    // REPLACE: antifreeze /ˈæntifriːz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntifreeze1051("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntifreeze1051(
+                                        // REPLACE: antifreeze /ˈæntifriːz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

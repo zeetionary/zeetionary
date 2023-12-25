@@ -175,11 +175,15 @@ class EnglishEntrybedsit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ژوورێکی بچووکی خوێندکاردا دەژی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedsits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedsits1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedsits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedsits1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

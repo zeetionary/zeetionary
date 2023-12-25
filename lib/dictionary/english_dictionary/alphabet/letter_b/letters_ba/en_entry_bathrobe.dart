@@ -173,11 +173,15 @@ class EnglishEntrybathrobe extends StatelessWidget {
                                   text:
                                       "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBathrobes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBathrobes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBathrobes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBathrobes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybathrobe extends StatelessWidget {
                                   text:
                                       "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBathrobes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBathrobes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBathrobes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBathrobes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

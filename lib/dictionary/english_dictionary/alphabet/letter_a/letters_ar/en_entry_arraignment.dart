@@ -186,13 +186,18 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   text:
                                       "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArraignment1250("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArraignment1250(
-                                    // REPLACE: arraignment /əˈreɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArraignment1250("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArraignment1250(
+                                        // REPLACE: arraignment /əˈreɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

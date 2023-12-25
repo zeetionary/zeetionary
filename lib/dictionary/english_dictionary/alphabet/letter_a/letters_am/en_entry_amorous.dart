@@ -201,13 +201,17 @@ class EnglishEntryamorous extends StatelessWidget {
                                   text:
                                       "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmorous441("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmorous441(
-                                    // REPLACE: amorous /ˈæmərəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmorous441("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmorous441(
+                                        // REPLACE: amorous /ˈæmərəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

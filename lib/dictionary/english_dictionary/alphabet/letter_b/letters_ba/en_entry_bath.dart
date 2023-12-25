@@ -173,11 +173,15 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە حەوزی خۆشتنەکەدام!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybath extends StatelessWidget {
                                   text:
                                       "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,11 +222,15 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تکایە حەوزەکەم بۆ پڕبکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,11 +247,15 @@ class EnglishEntrybath extends StatelessWidget {
                                   text:
                                       "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,11 +272,15 @@ class EnglishEntrybath extends StatelessWidget {
                                   text:
                                       "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -275,11 +295,15 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نۆرەی تۆیە منداڵەکە بشۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -294,11 +318,15 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو بەیانییەک خۆی دەشوات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaths7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaths7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaths7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaths7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

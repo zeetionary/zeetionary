@@ -134,13 +134,17 @@ class EnglishEntryameba extends StatelessWidget {
                                   text:
                                       "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmeba4688("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmeba4688(// REPLACE: ameba /əˈmiːbə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmeba4688("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmeba4688(
+                                        // REPLACE: ameba /əˈmiːbə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

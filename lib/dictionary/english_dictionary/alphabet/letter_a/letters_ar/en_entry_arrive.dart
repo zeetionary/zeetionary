@@ -186,13 +186,17 @@ class EnglishEntryarrive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاوەڕێ دەبم تا دەگەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrive524("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrive524(// REPLACE: arrive /əˈraɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrive524("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrive524(
+                                        // REPLACE: arrive /əˈraɪv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryarrive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نیوەڕۆ دەگاتە نیویۆرک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrive525("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrive525(// REPLACE: arrive /əˈraɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrive525("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrive525(
+                                        // REPLACE: arrive /əˈraɪv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +235,17 @@ class EnglishEntryarrive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم بەیانییە نامەیەکت پێ‌گەیشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrive527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrive527(// REPLACE: arrive /əˈraɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrive527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrive527(
+                                        // REPLACE: arrive /əˈraɪv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,13 +260,17 @@ class EnglishEntryarrive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژی ھاوسەرگیرییەکە لەکۆتاییدا گەشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrive528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrive528(// REPLACE: arrive /əˈraɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrive528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrive528(
+                                        // REPLACE: arrive /əˈraɪv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

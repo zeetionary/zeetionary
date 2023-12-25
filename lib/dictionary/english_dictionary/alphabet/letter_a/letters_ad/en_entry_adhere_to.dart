@@ -134,13 +134,17 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   text:
                                       "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdher251463("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdher251463(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdher251463("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdher251463(
+                                        // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   text:
                                       "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdh358947("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdh358947(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdh358947("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdh358947(
+                                        // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

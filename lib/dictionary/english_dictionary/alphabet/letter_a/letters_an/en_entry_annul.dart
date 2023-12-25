@@ -176,13 +176,17 @@ class EnglishEntryannul extends StatelessWidget {
                                   text:
                                       "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnul859("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnul859(// REPLACE: annul /əˈnʌl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnul859("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnnul859(// REPLACE: annul /əˈnʌl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

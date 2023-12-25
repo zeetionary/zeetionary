@@ -175,11 +175,15 @@ class EnglishEntrybooklet extends StatelessWidget {
                                   text:
                                       "پێویست بوو ڕاوێژ بە نامیلکەی ڕێنماییەکە بکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooklets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooklets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooklets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooklets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

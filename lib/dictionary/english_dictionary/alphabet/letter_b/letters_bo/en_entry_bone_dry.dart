@@ -175,11 +175,15 @@ class EnglishEntrybonedry extends StatelessWidget {
                                   text:
                                       "زەوییەکە وشک‌وبرینگ بوو لەدوای وشکەساڵییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonedrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonedrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonedrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonedrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

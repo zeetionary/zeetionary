@@ -188,12 +188,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr2149("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr2149(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr2149("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr2149(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,12 +211,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr2437("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr2437(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr2437("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr2437(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,12 +236,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr4269("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr4269(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr4269("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr4269(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,12 +259,16 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کێشای بە ڕووخساریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2568(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2568(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -268,12 +284,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcro154("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcro154(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcro154("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcro154(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -289,12 +309,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcro2568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcro2568(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcro2568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcro2568(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -310,12 +334,16 @@ class EnglishEntryacross extends StatelessWidget {
                                   text:
                                       "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr258("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr258(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr258("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr258(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -330,12 +358,16 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr7598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr7598(
-                                    "en-US"), // REPLACE across /əˈkrɔːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr7598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr7598(
+                                        "en-US"), // REPLACE across /əˈkrɔːs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

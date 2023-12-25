@@ -138,13 +138,17 @@ class EnglishEntryambition extends StatelessWidget {
                                   text:
                                       "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbition422("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbition422(
-                                    // REPLACE: ambition /æmˈbɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbition422("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbition422(
+                                        // REPLACE: ambition /æmˈbɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryambition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەک ئامانجی لە ژیاندا ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbition3444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbition3444(
-                                    // REPLACE: ambition /æmˈbɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbition3444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbition3444(
+                                        // REPLACE: ambition /æmˈbɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,13 +184,17 @@ class EnglishEntryambition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbition344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbition344(
-                                    // REPLACE: ambition /æmˈbɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbition344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbition344(
+                                        // REPLACE: ambition /æmˈbɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

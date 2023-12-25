@@ -186,13 +186,17 @@ class EnglishEntryartfully extends StatelessWidget {
                                   text:
                                       "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtfully441("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtfully441(
-                                    // REPLACE: artfully /ˈɑːrtfəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtfully441("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtfully441(
+                                        // REPLACE: artfully /ˈɑːrtfəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryartfully extends StatelessWidget {
                                   text:
                                       "دەستی ڕاستی کردەوە بەڵام بە زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtfully443("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtfully443(
-                                    // REPLACE: artfully /ˈɑːrtfəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtfully443("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtfully443(
+                                        // REPLACE: artfully /ˈɑːrtfəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

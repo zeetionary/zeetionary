@@ -176,13 +176,17 @@ class EnglishEntrybanknote extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارەی کاغەز و دراویش دەردەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanknotes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanknotes1(// REPLACE: banknote
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanknotes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanknotes1(// REPLACE: banknote
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

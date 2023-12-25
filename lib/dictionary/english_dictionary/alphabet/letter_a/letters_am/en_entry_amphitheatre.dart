@@ -177,14 +177,18 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شانۆپانەکە شایەنی سەردانییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmphitheatre150089("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphitheatre150089(
-                                    // REPLACE: amphitheatre /ˈæmfɪθiːətər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmphitheatre150089("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphitheatre150089(
+                                        // REPLACE: amphitheatre /ˈæmfɪθiːətər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

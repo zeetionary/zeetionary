@@ -135,13 +135,18 @@ class EnglishEntryaggressively extends StatelessWidget {
                                   text:
                                       "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggressiv1458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggressiv1458(
-                                    // REPLACE: aggressively /əˈɡresɪvli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggressiv1458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggressiv1458(
+                                        // REPLACE: aggressively /əˈɡresɪvli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +162,18 @@ class EnglishEntryaggressively extends StatelessWidget {
                                   text:
                                       "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggressiv1458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggressiv1458(
-                                    // REPLACE: aggressively /əˈɡresɪvli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggressiv1458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggressiv1458(
+                                        // REPLACE: aggressively /əˈɡresɪvli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

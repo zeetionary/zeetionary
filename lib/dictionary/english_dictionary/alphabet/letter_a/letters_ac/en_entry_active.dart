@@ -235,12 +235,16 @@ class EnglishEntryactive extends StatelessWidget {
                                   text:
                                       "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActive1257("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActive1257(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActive1257("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActive1257(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,12 +258,16 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەردووکیان لە سیاسەتدا چالاک بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActive4568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActive4568(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActive4568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActive4568(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,12 +282,16 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActi4568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActi4568(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActi4568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActi4568(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -294,12 +306,16 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەو منداڵە خەیاڵێکی کارای ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActive5847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActive5847(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActive5847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActive5847(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -315,12 +331,16 @@ class EnglishEntryactive extends StatelessWidget {
                                   text:
                                       "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActive5374("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActive5374(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActive5374("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActive5374(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -336,12 +356,16 @@ class EnglishEntryactive extends StatelessWidget {
                                   text:
                                       "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActive2538("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActive2538(
-                                    "en-US"), // REPLACE active /ˈæktɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActive2538("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActive2538(
+                                        "en-US"), // REPLACE active /ˈæktɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -255,13 +255,18 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter157("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter157(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,14 +279,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter2499("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter2499(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -295,13 +303,18 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوت لە دوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter4888("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4888(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -313,14 +326,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter4666("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4666(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -333,14 +349,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرگاکە بگرە لە دوای خۆت."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter7928("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter7928(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -354,14 +373,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter4855("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4855(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -376,14 +398,16 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "ھەرگیز لێی خۆشنابم لە دوای ئەوەی وتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfter5622("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfter5622("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter5622(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -398,14 +422,16 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfter96771("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfter96771("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter96771(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -420,14 +446,16 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfter152888("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfter152888("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter152888(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -439,14 +467,17 @@ class EnglishEntryafter extends StatelessWidget {
                                   text: "The police are after him."),
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس بەدوایەتی."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter1255("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter1255(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -459,14 +490,17 @@ class EnglishEntryafter extends StatelessWidget {
                                       "She asked after you (= how you were)."),
                               const ExampleSentenceKurdish(
                                   text: "ھەواڵی پرسیت."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter945111("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter945111(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -480,14 +514,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfter459322("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter459322(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -501,14 +538,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەیوەندیت پێوە دەکەم لە دوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAft2566("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAft2566(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -520,14 +560,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfte499352("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfte499352(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -541,14 +584,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە."), // nnothing kurdi
-                              CustomIconButtonBritish(
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => speakAfte98332("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfte98332(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -562,13 +608,17 @@ class EnglishEntryafter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ساڵانی دواتر ھیچمان لێ نەبیست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfter5355("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfter5355("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter5355(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

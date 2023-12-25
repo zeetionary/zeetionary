@@ -304,11 +304,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "سەدان بۆمب بەسەر شارەکەدا بەردرانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -322,11 +326,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "بۆمبێکی تیرۆریستی سەنتەری بازاڕکردنی قەرەباڵغی شارەکەی ھەژاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -343,11 +351,17 @@ class EnglishEntrybomb extends StatelessWidget {
                                           text:
                                               "پۆلیس گومان دەکەن تیرۆریستان بۆمبەکەیان چاندبێت."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbombs3("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbombs3("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbombs3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbombs3("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -361,11 +375,17 @@ class EnglishEntrybomb extends StatelessWidget {
                                           text:
                                               "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbombs12("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbombs12("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbombs12("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbombs12("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -379,11 +399,17 @@ class EnglishEntrybomb extends StatelessWidget {
                                           text:
                                               "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbombs13("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbombs13("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbombs13("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbombs13("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -404,11 +430,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "ئەمریکا یەکەم وڵات بوو چەکی ناوەکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -423,11 +453,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "ئەو جلە دەبێت پارەیەکی زۆری تێچووبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -441,11 +475,15 @@ class EnglishEntrybomb extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شانۆکە شکستێکی یەکجارەکی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -462,11 +500,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "بە ئەنقەست ھاوڵاتی مەدەنییان بۆمباران کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -480,11 +522,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "فڕۆکە جەنگییەکان ئامانجیان لە دەورووبەری نەخۆشخانەکە بۆمباران کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -501,11 +547,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "بە ڕێگاکەدا بەنزیکەیی خێرایی ٨٠ میل لەکاتژمێرێکدا بەخێرایی دەچوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -522,11 +572,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "تاقیکردنەوەکە زۆر سەخت بوو! بەدڵنیاییەوە دەکەوم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -543,11 +597,15 @@ class EnglishEntrybomb extends StatelessWidget {
                                   text:
                                       "کۆتا فیلمی شکستێک بوو و ملیۆنان دۆلاری لەدەستدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbombs11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbombs11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbombs11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbombs11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -149,13 +149,17 @@ class EnglishEntryamateur extends StatelessWidget {
                                   text:
                                       "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmateur44451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmateur44451(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmateur44451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmateur44451(
+                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -171,13 +175,17 @@ class EnglishEntryamateur extends StatelessWidget {
                                   text:
                                       "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmateur47955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmateur47955(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmateur47955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmateur47955(
+                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,13 +201,17 @@ class EnglishEntryamateur extends StatelessWidget {
                                   text:
                                       "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmateur44592("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmateur44592(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmateur44592("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmateur44592(
+                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,13 +227,17 @@ class EnglishEntryamateur extends StatelessWidget {
                                   text:
                                       "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmateur49555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmateur49555(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmateur49555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmateur49555(
+                                        // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -174,11 +174,15 @@ class EnglishEntryblotch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری داپۆشرابوو بە لەکەی مۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblotchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblotchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblotchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblotchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

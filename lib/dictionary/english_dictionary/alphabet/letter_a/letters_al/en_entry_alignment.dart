@@ -155,13 +155,18 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێسکێک لە بڕبڕەی پشتم پلابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlignment2533("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlignment2533(
-                                    // REPLACE: alignment /əˈlaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlignment2533("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlignment2533(
+                                        // REPLACE: alignment /əˈlaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -175,13 +180,18 @@ class EnglishEntryalignment extends StatelessWidget {
                                   text:
                                       "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlignment2455("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlignment2455(
-                                    // REPLACE: alignment /əˈlaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlignment2455("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlignment2455(
+                                        // REPLACE: alignment /əˈlaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,13 +207,18 @@ class EnglishEntryalignment extends StatelessWidget {
                                   text:
                                       "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlignment3522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlignment3522(
-                                    // REPLACE: alignment /əˈlaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlignment3522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlignment3522(
+                                        // REPLACE: alignment /əˈlaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,13 +232,18 @@ class EnglishEntryalignment extends StatelessWidget {
                                   text:
                                       "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlignment35288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlignment35288(
-                                    // REPLACE: alignment /əˈlaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlignment35288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlignment35288(
+                                        // REPLACE: alignment /əˈlaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,13 +259,18 @@ class EnglishEntryalignment extends StatelessWidget {
                                   text:
                                       "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlignment325888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlignment325888(
-                                    // REPLACE: alignment /əˈlaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlignment325888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlignment325888(
+                                        // REPLACE: alignment /əˈlaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

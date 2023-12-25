@@ -178,12 +178,17 @@ class EnglishEntrybachelor extends StatelessWidget {
                                   text:
                                       "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: bachelor
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: bachelor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,12 +205,17 @@ class EnglishEntrybachelor extends StatelessWidget {
                                   text:
                                       "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s2(// REPLACE: bachelor
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s2(// REPLACE: bachelor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

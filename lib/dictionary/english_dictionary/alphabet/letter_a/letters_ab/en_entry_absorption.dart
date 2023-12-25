@@ -138,11 +138,15 @@ class EnglishEntryabsorption extends StatelessWidget {
                                   text:
                                       "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3591("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3591("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3591("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3591("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,11 +162,15 @@ class EnglishEntryabsorption extends StatelessWidget {
                                   text:
                                       "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb3618("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb3618("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb3618("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb3618("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -178,11 +186,15 @@ class EnglishEntryabsorption extends StatelessWidget {
                                   text:
                                       "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی بەناو وەرزشدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA36948("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA36948("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA36948("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA36948("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

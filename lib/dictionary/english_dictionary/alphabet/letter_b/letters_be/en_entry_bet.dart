@@ -182,11 +182,15 @@ class EnglishEntrybet extends StatelessWidget {
                                   text:
                                       "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,11 +205,15 @@ class EnglishEntrybet extends StatelessWidget {
                                   text:
                                       "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybet extends StatelessWidget {
                                   text:
                                       "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,11 +251,15 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,11 +274,15 @@ class EnglishEntrybet extends StatelessWidget {
                                   text:
                                       "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,11 +299,15 @@ class EnglishEntrybet extends StatelessWidget {
                                   text:
                                       "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -299,11 +323,15 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆچوونم وایە لە ترافیک ماونەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBets7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBets7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -181,13 +181,18 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipate1032("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipate1032(
-                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipate1032("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipate1032(
+                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +206,18 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێشبینی ناکەم ببێتە کێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipate1033("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipate1033(
-                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipate1033("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipate1033(
+                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +234,18 @@ class EnglishEntryanticipate extends StatelessWidget {
                                   text:
                                       "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipate1036("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipate1036(
-                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipate1036("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipate1036(
+                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +262,18 @@ class EnglishEntryanticipate extends StatelessWidget {
                                   text:
                                       "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipate1038("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipate1038(
-                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipate1038("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipate1038(
+                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,13 +290,18 @@ class EnglishEntryanticipate extends StatelessWidget {
                                   text:
                                       "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipate1040("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipate1040(
-                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipate1040("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipate1040(
+                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

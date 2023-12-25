@@ -224,11 +224,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "لایتەکانی ئۆتۆمبێلەکە لەسەر عالی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,11 +247,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "لەناکاو کەوتە بەر تیشکی پڕی شەوقاوێژێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -264,11 +272,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "خانۆچکەیەکی دڵڕفێن بوو کە کاریتە خۆی پێوەبوو لەگەڵ لەگەڵ سەربانێکی ھەڵاش بەسەردا دراو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -285,11 +297,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "یاریزانی جیمناستیکەکە تەقڵەیەکی لێدا بەسەر دارەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -306,11 +322,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "ڕووخساری منداڵەکە لە پێکەنیندا گەشایەوە کە باوانی بینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -325,11 +345,15 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ڕۆژنامەنووسەکان پێکەنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -346,11 +370,15 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text:
                                       "دیمەنی ڕاستەوخۆی ئاھەنگەکە بۆ تەواوی جیھان پەخشکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -365,11 +393,15 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆری بەیانی تیشکی دا بەسەرماندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeams8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeams8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeams8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeams8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

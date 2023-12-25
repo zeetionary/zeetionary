@@ -174,13 +174,18 @@ class EnglishEntryanalytical extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalytical150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalytical150(
-                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalytical150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalytical150(
+                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

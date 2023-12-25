@@ -187,13 +187,18 @@ class EnglishEntryartificial extends StatelessWidget {
                                   text:
                                       "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtificial907("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificial907(
-                                    // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificial907("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificial907(
+                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryartificial extends StatelessWidget {
                                   text:
                                       "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtificial910("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificial910(
-                                    // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificial910("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificial910(
+                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +243,18 @@ class EnglishEntryartificial extends StatelessWidget {
                                   text:
                                       "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtificial917("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificial917(
-                                    // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificial917("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificial917(
+                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -174,13 +174,17 @@ class EnglishEntryanoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قەشەکە بە ڕۆن چەوری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnoint949("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnoint949(// REPLACE: anoint /əˈnɔɪnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnoint949("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnoint949(
+                                        // REPLACE: anoint /əˈnɔɪnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

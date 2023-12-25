@@ -177,13 +177,18 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                   text:
                                       "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnaerobic0896("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnaerobic0896(
-                                    // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnaerobic0896("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnaerobic0896(
+                                        // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -127,13 +127,18 @@ class EnglishEntryamorously extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ئەویندارانە سەیری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmorously5555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmorously5555(
-                                    // REPLACE: amorously /ˈæmərəsli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmorously5555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmorously5555(
+                                        // REPLACE: amorously /ˈæmərəsli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

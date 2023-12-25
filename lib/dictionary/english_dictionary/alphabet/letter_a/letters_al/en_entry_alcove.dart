@@ -136,13 +136,17 @@ class EnglishEntryalcove extends StatelessWidget {
                                   text:
                                       "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcove3477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlcove3477(// REPLACE: alcove /ˈælkəʊv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcove3477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcove3477(
+                                        // REPLACE: alcove /ˈælkəʊv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

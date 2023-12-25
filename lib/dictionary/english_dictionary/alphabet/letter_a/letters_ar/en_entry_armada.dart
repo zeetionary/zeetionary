@@ -183,13 +183,17 @@ class EnglishEntryarmada extends StatelessWidget {
                                   text:
                                       "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmada423("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmada423(
-                                    // REPLACE: armada /ɑːrˈmɑːdə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmada423("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmada423(
+                                        // REPLACE: armada /ɑːrˈmɑːdə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

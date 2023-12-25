@@ -178,11 +178,15 @@ class EnglishEntryblackout extends StatelessWidget {
                                   text:
                                       "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackouts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackouts1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackouts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackouts1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntryblackout extends StatelessWidget {
                                   text:
                                       "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackouts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackouts2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackouts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackouts2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,11 +230,15 @@ class EnglishEntryblackout extends StatelessWidget {
                                   text:
                                       "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackouts3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackouts3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackouts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackouts3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,11 +256,15 @@ class EnglishEntryblackout extends StatelessWidget {
                                   text:
                                       "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackouts4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackouts4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackouts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackouts4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

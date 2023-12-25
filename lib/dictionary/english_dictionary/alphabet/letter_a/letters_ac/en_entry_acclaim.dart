@@ -128,11 +128,15 @@ class EnglishEntryacclaim extends StatelessWidget {
                                   text:
                                       "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA21598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA21598("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA21598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA21598("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryacclaim extends StatelessWidget {
                                   text:
                                       "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2158("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2158("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

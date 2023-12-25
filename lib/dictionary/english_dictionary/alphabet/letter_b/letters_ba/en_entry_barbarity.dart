@@ -178,13 +178,17 @@ class EnglishEntrybarbarity extends StatelessWidget {
                                   text:
                                       "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbaritys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbaritys1(// REPLACE: barbarity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbaritys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbaritys1(// REPLACE: barbarity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

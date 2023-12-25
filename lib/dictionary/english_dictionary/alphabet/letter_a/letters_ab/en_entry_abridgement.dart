@@ -120,11 +120,15 @@ class EnglishEntryabridgement extends StatelessWidget {
                                   text:
                                       "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3912("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3912("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3912("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3912("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

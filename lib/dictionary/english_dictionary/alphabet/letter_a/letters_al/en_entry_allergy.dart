@@ -135,13 +135,18 @@ class EnglishEntryallergy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllergy462555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllergy462555(
-                                    // REPLACE: allergy /ˈælərdʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllergy462555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllergy462555(
+                                        // REPLACE: allergy /ˈælərdʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,13 +158,17 @@ class EnglishEntryallergy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاری بە گەنمی بۆ درووست بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllergy53699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllergy53699(
-                                    // REPLACE: allergy /ˈælərdʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllergy53699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllergy53699(
+                                        // REPLACE: allergy /ˈælərdʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

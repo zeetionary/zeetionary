@@ -134,13 +134,17 @@ class EnglishEntryagelimit extends StatelessWidget {
                                   text:
                                       "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgeli1665892("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgeli1665892(
-                                    // REPLACE: age limit /ˈeɪdʒ lɪmɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgeli1665892("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgeli1665892(
+                                        // REPLACE: age limit /ˈeɪdʒ lɪmɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

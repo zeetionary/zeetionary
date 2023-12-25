@@ -186,13 +186,17 @@ class EnglishEntryaudible extends StatelessWidget {
                                   text:
                                       "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudible1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudible1255(// REPLACE: audible
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudible1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudible1255(// REPLACE: audible
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntrybarring extends StatelessWidget {
                                   text:
                                       "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybarring extends StatelessWidget {
                                   text:
                                       "دەبێت لە کاتژمێر ١٠ بگەین، مەگەر ئەوەی دواکەوتنی نەخوازراو ڕووبدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

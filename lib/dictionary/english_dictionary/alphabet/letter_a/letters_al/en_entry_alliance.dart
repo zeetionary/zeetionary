@@ -154,13 +154,18 @@ class EnglishEntryalliance extends StatelessWidget {
                                   text:
                                       "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlliance45966("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlliance45966(
-                                    // REPLACE: alliance /əˈlaɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlliance45966("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlliance45966(
+                                        // REPLACE: alliance /əˈlaɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -174,13 +179,18 @@ class EnglishEntryalliance extends StatelessWidget {
                                   text:
                                       "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlliance647239("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlliance647239(
-                                    // REPLACE: alliance /əˈlaɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlliance647239("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlliance647239(
+                                        // REPLACE: alliance /əˈlaɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,13 +206,17 @@ class EnglishEntryalliance extends StatelessWidget {
                                   text:
                                       "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlliance4692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlliance4692(
-                                    // REPLACE: alliance /əˈlaɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlliance4692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlliance4692(
+                                        // REPLACE: alliance /əˈlaɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

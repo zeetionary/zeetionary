@@ -186,13 +186,18 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                   text:
                                       "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrarily1132("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrarily1132(
-                                    // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrarily1132("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrarily1132(
+                                        // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                   text:
                                       "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrarily1135("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrarily1135(
-                                    // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrarily1135("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrarily1135(
+                                        // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

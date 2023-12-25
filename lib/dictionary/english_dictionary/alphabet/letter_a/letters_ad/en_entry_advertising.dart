@@ -135,13 +135,17 @@ class EnglishEntryadvertising extends StatelessWidget {
                                   text:
                                       "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdver2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdver2537(
-                                    // REPLACE: advertising /ˈædvərtaɪzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdver2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdver2537(
+                                        // REPLACE: advertising /ˈædvərtaɪzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

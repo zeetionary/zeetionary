@@ -173,11 +173,15 @@ class EnglishEntrybloke extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە پیاوێکی بەڕێز دەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblokes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblokes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblokes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblokes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

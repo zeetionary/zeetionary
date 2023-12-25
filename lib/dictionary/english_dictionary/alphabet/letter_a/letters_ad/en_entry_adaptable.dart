@@ -134,13 +134,17 @@ class EnglishEntryadaptable extends StatelessWidget {
                                   text:
                                       "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdap2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdap2537(
-                                    // REPLACE: adaptable /əˈdæptəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdap2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdap2537(
+                                        // REPLACE: adaptable /əˈdæptəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

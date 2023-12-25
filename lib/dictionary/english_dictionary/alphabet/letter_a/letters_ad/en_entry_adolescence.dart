@@ -135,13 +135,17 @@ class EnglishEntryadolescence extends StatelessWidget {
                                   text:
                                       "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdoles69874("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdoles69874(
-                                    // REPLACE: adolescence /ˌædəˈlesns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdoles69874("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdoles69874(
+                                        // REPLACE: adolescence /ˌædəˈlesns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

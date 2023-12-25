@@ -178,12 +178,17 @@ class EnglishEntrybacklash extends StatelessWidget {
                                   text:
                                       "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backlash
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backlash
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

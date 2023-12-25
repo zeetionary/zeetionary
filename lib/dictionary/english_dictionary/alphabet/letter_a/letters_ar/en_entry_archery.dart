@@ -183,13 +183,17 @@ class EnglishEntryarchery extends StatelessWidget {
                                   text:
                                       "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchery350("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchery350(
-                                    // REPLACE: archery /ˈɑːrtʃəri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchery350("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchery350(
+                                        // REPLACE: archery /ˈɑːrtʃəri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

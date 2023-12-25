@@ -179,13 +179,17 @@ class EnglishEntryanimated extends StatelessWidget {
                                   text:
                                       "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimated944("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimated944(
-                                    // REPLACE: animated /ˈænɪmeɪtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimated944("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimated944(
+                                        // REPLACE: animated /ˈænɪmeɪtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntryanimated extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری لەناکاو گەشایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimated946("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimated946(
-                                    // REPLACE: animated /ˈænɪmeɪtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimated946("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimated946(
+                                        // REPLACE: animated /ˈænɪmeɪtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,13 +229,17 @@ class EnglishEntryanimated extends StatelessWidget {
                                   text:
                                       "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimated950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimated950(
-                                    // REPLACE: animated /ˈænɪmeɪtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimated950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimated950(
+                                        // REPLACE: animated /ˈænɪmeɪtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

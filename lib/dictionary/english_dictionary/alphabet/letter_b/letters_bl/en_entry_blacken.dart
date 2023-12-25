@@ -175,11 +175,15 @@ class EnglishEntryblacken extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساریان لە دووکەڵدا ڕەشبوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryblacken extends StatelessWidget {
                                   text:
                                       "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackens2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackens2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackens2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackens2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

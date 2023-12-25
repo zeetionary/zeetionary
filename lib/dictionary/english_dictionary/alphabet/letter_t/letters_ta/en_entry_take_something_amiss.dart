@@ -201,14 +201,18 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                                   text:
                                       "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakTakesomethingamiss411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakTakesomethingamiss411(
-                                    // REPLACE: take something amiss /teɪk əˈmɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakTakesomethingamiss411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakTakesomethingamiss411(
+                                        // REPLACE: take something amiss /teɪk əˈmɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

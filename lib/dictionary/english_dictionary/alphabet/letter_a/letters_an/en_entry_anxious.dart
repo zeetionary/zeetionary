@@ -184,13 +184,17 @@ class EnglishEntryanxious extends StatelessWidget {
                                   text:
                                       "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxious733("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxious733(
-                                    // REPLACE: anxious /ˈæŋkʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxious733("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxious733(
+                                        // REPLACE: anxious /ˈæŋkʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryanxious extends StatelessWidget {
                                   text:
                                       "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxious735("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxious735(
-                                    // REPLACE: anxious /ˈæŋkʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxious735("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxious735(
+                                        // REPLACE: anxious /ˈæŋkʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryanxious extends StatelessWidget {
                                   text:
                                       "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxious738("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxious738(
-                                    // REPLACE: anxious /ˈæŋkʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxious738("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxious738(
+                                        // REPLACE: anxious /ˈæŋkʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +263,17 @@ class EnglishEntryanxious extends StatelessWidget {
                                   text:
                                       "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxious743("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxious743(
-                                    // REPLACE: anxious /ˈæŋkʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxious743("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxious743(
+                                        // REPLACE: anxious /ˈæŋkʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

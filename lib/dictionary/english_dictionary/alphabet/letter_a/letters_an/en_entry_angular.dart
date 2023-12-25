@@ -177,13 +177,17 @@ class EnglishEntryangular extends StatelessWidget {
                                   text:
                                       "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngular1029("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngular1029(
-                                    // REPLACE: angular /ˈæŋɡjələr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngular1029("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngular1029(
+                                        // REPLACE: angular /ˈæŋɡjələr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

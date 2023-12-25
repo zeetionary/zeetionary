@@ -176,13 +176,18 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                   text:
                                       "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimatronics1043("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimatronics1043(
-                                    // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimatronics1043("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimatronics1043(
+                                        // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

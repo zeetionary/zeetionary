@@ -136,13 +136,17 @@ class EnglishEntryalmond extends StatelessWidget {
                                   text:
                                       "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmond4211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlmond4211(// REPLACE: almond /ˈɑːmənd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmond4211("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmond4211(
+                                        // REPLACE: almond /ˈɑːmənd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

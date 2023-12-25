@@ -135,11 +135,15 @@ class EnglishEntryabroad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە دەروەی وڵات بۆ ساڵێک کاری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3459("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3459("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,11 +157,15 @@ class EnglishEntryabroad extends StatelessWidget {
                                   text:
                                       "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2569("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2569("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -173,11 +181,15 @@ class EnglishEntryabroad extends StatelessWidget {
                                   text:
                                       "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb28("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb28("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb28("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryadvisory extends StatelessWidget {
                                   text:
                                       "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvi36511("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvi36511(
-                                    // REPLACE: advisory /ədˈvaɪzəri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvi36511("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvi36511(
+                                        // REPLACE: advisory /ədˈvaɪzəri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

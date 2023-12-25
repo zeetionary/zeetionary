@@ -179,11 +179,15 @@ class EnglishEntrybodily extends StatelessWidget {
                                   text:
                                       "ڤایرۆسەکە دەکرێت بگوازرێتەوە لە کەسێکەوە بۆ یەکێکی تر لە ڕێگەی شلەی جەستەوە وەک خوێن و تف."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodilys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodilys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodilys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodilys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybodily extends StatelessWidget {
                                   text:
                                       "کە بەتەمەنتر دەبیت، دەست دەکەیت بە لەدەستدانی توانات بەسەر ئەرکەکانی جەستەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodilys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodilys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodilys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodilys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntrybodily extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە باوەش ھەڵیگرت بەسەر پەیژەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodilys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodilys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodilys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodilys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,11 +246,15 @@ class EnglishEntrybodily extends StatelessWidget {
                                   text:
                                       "ھێزی تەقینەوەکە بەجەستەوە کوتامانی بە زەویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodilys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodilys4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodilys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodilys4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,11 +270,15 @@ class EnglishEntrybodily extends StatelessWidget {
                                   text:
                                       "مۆنومێنتەکە بە تەواوی گوازرایەوە بۆ شوێنێکی تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodilys5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodilys5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodilys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodilys5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

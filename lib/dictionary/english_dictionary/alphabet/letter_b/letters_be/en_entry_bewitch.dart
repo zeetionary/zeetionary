@@ -175,11 +175,15 @@ class EnglishEntrybewitch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تەواوی تاسا بە جوانییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewitchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewitchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewitchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewitchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybewitch extends StatelessWidget {
                                   text:
                                       "گوندییەکان لە توانای ژنەکە دەترسان کە جادوو لە مەڕوماڵاتیان بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewitchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewitchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewitchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewitchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -174,11 +174,15 @@ class EnglishEntrybloodbath extends StatelessWidget {
                                   text:
                                       "ھەڕەشەی گۆماوی خوێنیان کردووە ئەگەر دەستلەکارنەکێشێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodbaths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodbaths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodbaths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodbaths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybloodbath extends StatelessWidget {
                                   text:
                                       "ھیچ شتێک نییە جیھانی دەرەوە بیکات بۆ ڕێگری لە کۆمەڵکوژی؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodbaths2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodbaths2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodbaths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodbaths2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntrybasketball extends StatelessWidget {
                                   text:
                                       "ھیچ یارییەکی دیکە دەکەیت جگە لە باسکە و تۆپێن؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasketballs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasketballs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasketballs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasketballs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybasketball extends StatelessWidget {
                                   text:
                                       "بۆ پێشەوە دەچوو بە تەپتەپێنکردن بە تۆپێکی باسکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasketballs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasketballs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasketballs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasketballs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

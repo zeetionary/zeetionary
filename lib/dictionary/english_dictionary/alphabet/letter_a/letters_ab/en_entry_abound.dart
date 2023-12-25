@@ -111,11 +111,15 @@ class EnglishEntryabound extends StatelessWidget {
                                   text:
                                       "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA321("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA321("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA321("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA321("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

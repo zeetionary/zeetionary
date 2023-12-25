@@ -187,13 +187,18 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                   text:
                                       "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuctioneer1221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuctioneer1221(// REPLACE: auctioneer
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuctioneer1221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuctioneer1221(
+                                        // REPLACE: auctioneer
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -120,11 +120,15 @@ class EnglishEntryaccomplice extends StatelessWidget {
                                   text:
                                       "پۆلیس گومان دەکەن کە ھاودەستێکی ھەبووبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc19957("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc19957("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc19957("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc19957("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

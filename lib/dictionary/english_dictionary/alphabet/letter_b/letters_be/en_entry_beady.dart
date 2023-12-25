@@ -176,11 +176,15 @@ class EnglishEntrybeady extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەدڵنیاییەوە بە زەقی چاودێری دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeadys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeadys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeadys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeadys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

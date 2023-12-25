@@ -182,17 +182,22 @@ class EnglishEntryapartment extends StatelessWidget {
                                   text:
                                       "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApartment1150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApartment1150(
-                                    // REPLACE: apartment /əˈpɑːrtmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApartment1150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApartment1150(
+                                        // REPLACE: apartment /əˈpɑːrtmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -202,13 +207,18 @@ class EnglishEntryapartment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApartment1152("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApartment1152(
-                                    // REPLACE: apartment /əˈpɑːrtmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApartment1152("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApartment1152(
+                                        // REPLACE: apartment /əˈpɑːrtmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

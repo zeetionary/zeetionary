@@ -184,13 +184,18 @@ class EnglishEntryarithmetical extends StatelessWidget {
                                   text:
                                       "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArithmetical100("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArithmetical100(
-                                    // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArithmetical100("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArithmetical100(
+                                        // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

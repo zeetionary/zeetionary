@@ -176,11 +176,15 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەشێوەیەکی بەردەوام لە پەیوەندیداین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybasis extends StatelessWidget {
                                   text:
                                       "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntrybasis extends StatelessWidget {
                                   text:
                                       "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,11 +247,15 @@ class EnglishEntrybasis extends StatelessWidget {
                                   text:
                                       "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,11 +271,15 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بناغەی ھاوسەرگیری باش متمانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,11 +294,15 @@ class EnglishEntrybasis extends StatelessWidget {
                                   text:
                                       "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasiss6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasiss6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasiss6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasiss6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

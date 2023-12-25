@@ -202,13 +202,17 @@ class EnglishEntryamiss extends StatelessWidget {
                                   text:
                                       "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmiss7741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmiss7741(// REPLACE: amiss /əˈmɪs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmiss7741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmiss7741(// REPLACE: amiss /əˈmɪs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +226,17 @@ class EnglishEntryamiss extends StatelessWidget {
                                   text:
                                       "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmiss8899("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmiss8899(// REPLACE: amiss /əˈmɪs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmiss8899("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmiss8899(// REPLACE: amiss /əˈmɪs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,17 @@ class EnglishEntryaquatic extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquatic936("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquatic936(
-                                    // REPLACE: aquatic /əˈkwɑːtɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAquatic936("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquatic936(
+                                        // REPLACE: aquatic /əˈkwɑːtɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryaquatic extends StatelessWidget {
                                   text:
                                       "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquatic938("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquatic938(
-                                    // REPLACE: aquatic /əˈkwɑːtɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAquatic938("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquatic938(
+                                        // REPLACE: aquatic /əˈkwɑːtɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -119,11 +119,15 @@ class EnglishEntryabide extends StatelessWidget {
                                   text:
                                       "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA62("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA62("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA62("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA62("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -138,11 +142,15 @@ class EnglishEntryabide extends StatelessWidget {
                                   text:
                                       "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دەکە دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA92("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA92("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA92("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA92("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,17 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێمە کەسانی خوێن‌خۆر نیین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodthirstys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodthirstys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodthirstys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodthirstys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +199,17 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                                   text:
                                       "دیکتاتۆرە خوێنڕێژەکە لە کودەتایەکدا لادرا لە دەسەڵات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodthirstys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodthirstys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodthirstys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodthirstys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,11 +226,17 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                                   text:
                                       "چیرۆکێکی بەخوێن‌تینووە لەسەر کووشتن و تۆڵە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodthirstys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodthirstys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodthirstys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodthirstys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

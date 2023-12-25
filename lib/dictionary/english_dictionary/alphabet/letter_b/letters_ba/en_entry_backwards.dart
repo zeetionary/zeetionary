@@ -178,13 +178,17 @@ class EnglishEntrybackwards extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەنگاوێکی بەرەو دواوە نا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackwardss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackwardss1(// REPLACE: backwards
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackwardss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackwardss1(// REPLACE: backwards
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntrybackwards extends StatelessWidget {
                                   text:
                                       "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackwardss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackwardss2(// REPLACE: backward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackwardss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackwardss2(// REPLACE: backward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,13 +229,17 @@ class EnglishEntrybackwards extends StatelessWidget {
                                   text:
                                       "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackwardss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackwardss3(// REPLACE: backward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackwardss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackwardss3(// REPLACE: backward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,13 +256,17 @@ class EnglishEntrybackwards extends StatelessWidget {
                                   text:
                                       "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackwardss4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackwardss4(// REPLACE: backward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackwardss4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackwardss4(// REPLACE: backward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

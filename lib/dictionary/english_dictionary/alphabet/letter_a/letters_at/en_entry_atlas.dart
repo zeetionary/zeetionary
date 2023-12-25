@@ -184,12 +184,17 @@ class EnglishEntryatlas extends StatelessWidget {
                                   text:
                                       "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtlas839("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAtlas839(// REPLACE: atlas
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtlas839("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtlas839(// REPLACE: atlas
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

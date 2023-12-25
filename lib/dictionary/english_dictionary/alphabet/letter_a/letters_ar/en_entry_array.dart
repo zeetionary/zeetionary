@@ -188,13 +188,17 @@ class EnglishEntryarray extends StatelessWidget {
                                   text:
                                       "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArray145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArray145(// REPLACE: array /əˈreɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArray145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArray145(// REPLACE: array /əˈreɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryarray extends StatelessWidget {
                                   text:
                                       "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArray147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArray147(// REPLACE: array /əˈreɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArray147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArray147(// REPLACE: array /əˈreɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryarray extends StatelessWidget {
                                   text:
                                       "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArray151("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArray151(// REPLACE: array /əˈreɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArray151("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArray151(// REPLACE: array /əˈreɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +267,17 @@ class EnglishEntryarray extends StatelessWidget {
                                   text:
                                       "ھێزەکانی دووژمن لەدژیان کەوتنە ئامادەباشییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArray154("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArray154(// REPLACE: array /əˈreɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArray154("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArray154(// REPLACE: array /əˈreɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

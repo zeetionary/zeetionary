@@ -179,11 +179,15 @@ class EnglishEntrybob extends StatelessWidget {
                                   text:
                                       "بەلەمە بچووکەکان ھەڵبەز و دابەزیان بوو لە بەندەرەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybob extends StatelessWidget {
                                   text:
                                       "پرچی داھێنا بە ھەمان درێژی بەشێوەیەکی ستایلی تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybob extends StatelessWidget {
                                   text:
                                       "ئاماژەی کرد کە ئاگادارە لێرەم بە لەقاندنێکی خێرای سەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,11 +251,15 @@ class EnglishEntrybob extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پرچی بە شێوەی بۆبی دادەھێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,11 +275,15 @@ class EnglishEntrybob extends StatelessWidget {
                                   text:
                                       "پاڵتاوەکە ١٠ بۆبی تێچوو لەسەرم لە ١٩٥٦."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

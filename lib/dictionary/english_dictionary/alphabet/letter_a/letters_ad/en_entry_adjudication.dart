@@ -135,13 +135,17 @@ class EnglishEntryadjudication extends StatelessWidget {
                                   text:
                                       "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjudi5684("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjudi5684(
-                                    // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjudi5684("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjudi5684(
+                                        // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

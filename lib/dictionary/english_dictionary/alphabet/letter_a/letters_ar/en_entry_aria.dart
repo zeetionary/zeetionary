@@ -181,13 +181,17 @@ class EnglishEntryaria extends StatelessWidget {
                                   text:
                                       "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAria1117("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAria1117(// REPLACE: aria /ˈɑːriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAria1117("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAria1117(// REPLACE: aria /ˈɑːriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

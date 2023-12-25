@@ -176,11 +176,15 @@ class EnglishEntrybible extends StatelessWidget {
                                   text:
                                       "ئینجیل دەڵێت ئادەم و حەوا یەکەمین مرۆڤەکان بوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBibles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBibles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,11 +207,15 @@ class EnglishEntrybible extends StatelessWidget {
                                   text:
                                       "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibles2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibles2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBibles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBibles2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

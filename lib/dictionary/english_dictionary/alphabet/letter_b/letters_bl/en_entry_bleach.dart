@@ -174,11 +174,15 @@ class EnglishEntrybleach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قژی دەدرەوشایەوە لە خۆرەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleachs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleachs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleachs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleachs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybleach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فاسم کرد بە سەراوەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleachs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleachs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleachs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleachs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

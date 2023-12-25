@@ -172,11 +172,17 @@ class EnglishEntryblackcurrant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackcurrants1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackcurrants1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblackcurrants1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblackcurrants1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,17 +179,22 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                   text:
                                       "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticlockwise856("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticlockwise856(
-                                    // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticlockwise856("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticlockwise856(
+                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -200,13 +205,18 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                   text:
                                       "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticlockwise859("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticlockwise859(
-                                    // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticlockwise859("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticlockwise859(
+                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

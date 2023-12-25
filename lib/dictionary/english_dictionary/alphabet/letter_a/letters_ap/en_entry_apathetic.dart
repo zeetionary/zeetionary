@@ -183,13 +183,18 @@ class EnglishEntryapathetic extends StatelessWidget {
                                   text:
                                       "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApathetic1229("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApathetic1229(
-                                    // REPLACE: apathetic /ˌæpəˈθetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApathetic1229("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApathetic1229(
+                                        // REPLACE: apathetic /ˌæpəˈθetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,17 @@ class EnglishEntrybalcony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە بەرھەیوانەکە خواردمانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalconys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalconys1(// REPLACE: balcony
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalconys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalconys1(// REPLACE: balcony
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntrybalcony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalconys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalconys2(// REPLACE: balcony
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalconys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalconys2(// REPLACE: balcony
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

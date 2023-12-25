@@ -184,13 +184,17 @@ class EnglishEntryastound extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆبەزلزانییەکەی سەرسامی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstound1101("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstound1101(// REPLACE: astound
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstound1101("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstound1101(// REPLACE: astound
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

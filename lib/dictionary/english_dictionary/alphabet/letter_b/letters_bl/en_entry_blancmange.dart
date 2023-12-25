@@ -173,11 +173,15 @@ class EnglishEntryblancmange extends StatelessWidget {
                                   text:
                                       "ڕەچەتەی کۆنی ئینگلیز بۆ بلەمانژ شیر و شەکر و ڤانێلا بۆ تام لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblancmanges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblancmanges1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblancmanges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblancmanges1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

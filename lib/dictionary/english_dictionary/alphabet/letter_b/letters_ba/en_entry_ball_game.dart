@@ -179,13 +179,17 @@ class EnglishEntryballgame extends StatelessWidget {
                                   text:
                                       "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallgames1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallgames1(// REPLACE: ball game
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallgames1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallgames1(// REPLACE: ball game
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryballgame extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەچی بۆ یاری بەیسبۆڵەکە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallgames2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallgames2(// REPLACE: ball game
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallgames2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallgames2(// REPLACE: ball game
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

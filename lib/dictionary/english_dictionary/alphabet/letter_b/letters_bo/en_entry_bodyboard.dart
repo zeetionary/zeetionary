@@ -173,11 +173,15 @@ class EnglishEntrybodyboard extends StatelessWidget {
                                   text:
                                       "مەلەی دەکرد لەسەر تەختەی شەپۆل‌سواری لە دووری ٢٠٠ یاردەوە لە کەنارەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodyboards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodyboards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodyboards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodyboards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

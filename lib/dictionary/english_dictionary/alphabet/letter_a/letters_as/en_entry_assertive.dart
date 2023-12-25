@@ -184,13 +184,18 @@ class EnglishEntryassertive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت زیاتر خۆسەپێنەر بیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssertive1059("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssertive1059(
-                                    // REPLACE: assertive /əˈsɜːrtɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssertive1059("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssertive1059(
+                                        // REPLACE: assertive /əˈsɜːrtɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

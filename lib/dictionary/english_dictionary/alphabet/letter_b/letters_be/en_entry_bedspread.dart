@@ -175,11 +175,15 @@ class EnglishEntrybedspread extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ماری خەریکە بەرگەجێخەوێک دەچنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedspreads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedspreads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedspreads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedspreads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

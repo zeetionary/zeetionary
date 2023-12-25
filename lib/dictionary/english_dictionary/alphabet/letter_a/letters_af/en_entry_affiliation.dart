@@ -135,13 +135,17 @@ class EnglishEntryaffiliation extends StatelessWidget {
                                   text:
                                       "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffili628("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffili628(
-                                    // REPLACE: affiliation /əˌfɪliˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffili628("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffili628(
+                                        // REPLACE: affiliation /əˌfɪliˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

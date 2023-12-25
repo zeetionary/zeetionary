@@ -172,12 +172,16 @@ class EnglishEntrybtwo extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێمیڵی کلیفتۆن لەدایکبووی ١٨٠٠."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBtwos1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBtwos1(// REPLACE: b.
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBtwos1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBtwos1(// REPLACE: b.
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

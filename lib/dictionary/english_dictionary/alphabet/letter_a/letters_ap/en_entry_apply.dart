@@ -186,13 +186,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply736("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply736(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply736("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply736(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply738("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply738(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply738("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply738(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply741(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply741(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +265,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply744("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply744(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply744("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply744(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,13 +290,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply747("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply747(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply747("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply747(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -297,13 +317,17 @@ class EnglishEntryapply extends StatelessWidget {
                                   text:
                                       "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApply749("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApply749(// REPLACE: apply /əˈplaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApply749("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApply749(// REPLACE: apply /əˈplaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

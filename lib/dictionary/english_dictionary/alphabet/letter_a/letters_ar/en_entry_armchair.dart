@@ -183,13 +183,17 @@ class EnglishEntryarmchair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmchair356("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmchair356(
-                                    // REPLACE: armchair /ˈɑːrmtʃer/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmchair356("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmchair356(
+                                        // REPLACE: armchair /ˈɑːrmtʃer/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryarmchair extends StatelessWidget {
                                   text:
                                       "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmchair400("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmchair400(
-                                    // REPLACE: armchair /ˈɑːrmtʃer/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmchair400("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmchair400(
+                                        // REPLACE: armchair /ˈɑːrmtʃer/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

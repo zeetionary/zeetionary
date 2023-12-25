@@ -178,13 +178,17 @@ class EnglishEntrybanister extends StatelessWidget {
                                   text:
                                       "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanisters1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanisters1(// REPLACE: banister
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanisters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanisters1(// REPLACE: banister
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

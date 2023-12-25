@@ -186,13 +186,18 @@ class EnglishEntryauditorium extends StatelessWidget {
                                   text:
                                       "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuditorium252("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuditorium252(// REPLACE: auditorium
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuditorium252("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuditorium252(
+                                        // REPLACE: auditorium
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryauditorium extends StatelessWidget {
                                   text:
                                       "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuditorium255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuditorium255(// REPLACE: auditorium
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuditorium255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuditorium255(
+                                        // REPLACE: auditorium
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

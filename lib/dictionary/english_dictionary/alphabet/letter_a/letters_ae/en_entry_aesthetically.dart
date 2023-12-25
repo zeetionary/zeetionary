@@ -136,13 +136,17 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                   text:
                                       "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAestheti1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAestheti1255(
-                                    // REPLACE: aesthetically /esˈθetɪkli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAestheti1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAestheti1255(
+                                        // REPLACE: aesthetically /esˈθetɪkli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +162,17 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                   text:
                                       "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAesth3669941("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAesth3669941(
-                                    // REPLACE: aesthetically /esˈθetɪkli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAesth3669941("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAesth3669941(
+                                        // REPLACE: aesthetically /esˈθetɪkli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -181,13 +181,18 @@ class EnglishEntryapartheid extends StatelessWidget {
                                   text:
                                       "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApartheid1139("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApartheid1139(
-                                    // REPLACE: apartheid /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApartheid1139("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApartheid1139(
+                                        // REPLACE: apartheid /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

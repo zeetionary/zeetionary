@@ -178,13 +178,17 @@ class EnglishEntryanomaly extends StatelessWidget {
                                   text:
                                       "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnomaly1003("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnomaly1003(
-                                    // REPLACE: anomaly /əˈnɑːməli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnomaly1003("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnomaly1003(
+                                        // REPLACE: anomaly /əˈnɑːməli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

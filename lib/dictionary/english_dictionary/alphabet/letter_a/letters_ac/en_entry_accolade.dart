@@ -119,11 +119,17 @@ class EnglishEntryaccolade extends StatelessWidget {
                                   text:
                                       "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAccolade85566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAccolade85566("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAccolade85566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAccolade85566("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

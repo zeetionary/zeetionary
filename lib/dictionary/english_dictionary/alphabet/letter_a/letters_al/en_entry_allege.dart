@@ -135,13 +135,17 @@ class EnglishEntryallege extends StatelessWidget {
                                   text:
                                       "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllege46398("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllege46398(// REPLACE: allege /əˈledʒ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllege46398("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllege46398(
+                                        // REPLACE: allege /əˈledʒ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryallege extends StatelessWidget {
                                   text:
                                       "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllege361423("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllege361423(
-                                    // REPLACE: allege /əˈledʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllege361423("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllege361423(
+                                        // REPLACE: allege /əˈledʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

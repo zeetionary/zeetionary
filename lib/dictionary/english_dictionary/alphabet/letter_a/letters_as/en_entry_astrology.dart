@@ -186,13 +186,17 @@ class EnglishEntryastrology extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstrology408("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstrology408(// REPLACE: astrology
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstrology408("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstrology408(// REPLACE: astrology
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

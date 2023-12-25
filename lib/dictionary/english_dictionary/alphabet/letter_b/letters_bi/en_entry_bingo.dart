@@ -175,11 +175,15 @@ class EnglishEntrybingo extends StatelessWidget {
                                   text:
                                       "یاری بینگۆمان کرد، چامان خواردەوە و پێکەنین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBingos1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBingos1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBingos1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBingos1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

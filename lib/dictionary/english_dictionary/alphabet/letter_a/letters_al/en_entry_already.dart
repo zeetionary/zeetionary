@@ -174,13 +174,17 @@ class EnglishEntryalready extends StatelessWidget {
                                   text:
                                       "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlready125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlready125(
-                                    // REPLACE: already /ɔːlˈredi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlready125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlready125(
+                                        // REPLACE: already /ɔːlˈredi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,13 +198,17 @@ class EnglishEntryalready extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەروا زوو ناڕۆن، وایە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlready4598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlready4598(
-                                    // REPLACE: already /ɔːlˈredi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlready4598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlready4598(
+                                        // REPLACE: already /ɔːlˈredi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,13 +224,17 @@ class EnglishEntryalready extends StatelessWidget {
                                   text:
                                       "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlready4855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlready4855(
-                                    // REPLACE: already /ɔːlˈredi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlready4855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlready4855(
+                                        // REPLACE: already /ɔːlˈredi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -238,13 +250,17 @@ class EnglishEntryalready extends StatelessWidget {
                                   text:
                                       "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlready54589("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlready54589(
-                                    // REPLACE: already /ɔːlˈredi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlready54589("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlready54589(
+                                        // REPLACE: already /ɔːlˈredi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

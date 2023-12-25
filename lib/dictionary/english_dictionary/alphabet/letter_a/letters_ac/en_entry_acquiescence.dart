@@ -135,12 +135,16 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                   text:
                                       "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcquiesc2596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcquiesc2596(
-                                    "en-US"), // REPLACE acquiescence /ˌækwiˈesns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcquiesc2596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcquiesc2596(
+                                        "en-US"), // REPLACE acquiescence /ˌækwiˈesns/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

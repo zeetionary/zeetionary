@@ -172,11 +172,15 @@ class EnglishEntrybashful extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەرمی دەکرد قسە لەسەر سێکس بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBashfuls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBashfuls1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBashfuls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBashfuls1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntrybashful extends StatelessWidget {
                                   text:
                                       "ڕووگیر دیاربوو کە داوای ئەوەی لێدەکرد کە دەیویست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBashfuls2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBashfuls2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBashfuls2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBashfuls2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -183,13 +183,17 @@ class EnglishEntryarsenic extends StatelessWidget {
                                   text:
                                       "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArsenic900("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArsenic900(
-                                    // REPLACE: arsenic /ˈɑːrsnɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArsenic900("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArsenic900(
+                                        // REPLACE: arsenic /ˈɑːrsnɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

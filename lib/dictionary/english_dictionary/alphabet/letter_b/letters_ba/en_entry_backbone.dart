@@ -180,12 +180,17 @@ class EnglishEntrybackbone extends StatelessWidget {
                                   text:
                                       "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backbone
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backbone
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,12 +207,17 @@ class EnglishEntrybackbone extends StatelessWidget {
                                   text:
                                       "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backbone
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backbone
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,12 +234,17 @@ class EnglishEntrybackbone extends StatelessWidget {
                                   text:
                                       "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s3(// REPLACE: backbone
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s3(// REPLACE: backbone
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

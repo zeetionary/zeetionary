@@ -177,11 +177,15 @@ class EnglishEntrybeaker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە گڵاسێکی پلاستیکی (ئاوی) خواردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeakers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeakers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeakers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeakers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybeaker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گڵاسێک شەربەتی پێدام."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeakers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeakers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeakers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeakers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,11 +225,15 @@ class EnglishEntrybeaker extends StatelessWidget {
                                   text:
                                       "گڵاسێکی شووشە کە تواوەی سولفاتی مسی تێدابوو لەسەر مێزەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeakers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeakers3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeakers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeakers3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

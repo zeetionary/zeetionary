@@ -173,11 +173,15 @@ class EnglishEntryblankly extends StatelessWidget {
                                   text:
                                       "بە نائاگاییەوە سەیری دەورووبەری دەکرد، و نەیدەزانی چی بڵێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanklys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanklys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblanklys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblanklys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

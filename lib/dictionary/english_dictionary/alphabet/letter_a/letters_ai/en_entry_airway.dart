@@ -136,13 +136,17 @@ class EnglishEntryairway extends StatelessWidget {
                                   text:
                                       "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirway4555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAirway4555(// REPLACE: airway /ˈerweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirway4555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirway4555(
+                                        // REPLACE: airway /ˈerweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

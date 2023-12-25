@@ -177,13 +177,17 @@ class EnglishEntryanthrax extends StatelessWidget {
                                   text:
                                       "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnthrax833("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnthrax833(
-                                    // REPLACE: anthrax /ˈænθræks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnthrax833("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnthrax833(
+                                        // REPLACE: anthrax /ˈænθræks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

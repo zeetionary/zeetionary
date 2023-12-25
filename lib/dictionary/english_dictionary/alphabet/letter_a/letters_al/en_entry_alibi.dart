@@ -137,13 +137,17 @@ class EnglishEntryalibi extends StatelessWidget {
                                   text:
                                       "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlibi4588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlibi4588(// REPLACE: alibi /ˈæləbaɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlibi4588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlibi4588(
+                                        // REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryalibi extends StatelessWidget {
                                   text:
                                       "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlibi499253("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlibi499253(// REPLACE: alibi /ˈæləbaɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlibi499253("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlibi499253(
+                                        // REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

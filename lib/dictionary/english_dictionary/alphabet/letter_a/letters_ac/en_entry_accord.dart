@@ -128,11 +128,15 @@ class EnglishEntryaccord extends StatelessWidget {
                                   text:
                                       "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc48962("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc48962("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc48962("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc48962("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryaccord extends StatelessWidget {
                                   text:
                                       "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA15874("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA15874("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA15874("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA15874("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

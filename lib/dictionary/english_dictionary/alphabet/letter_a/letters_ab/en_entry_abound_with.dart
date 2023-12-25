@@ -111,11 +111,15 @@ class EnglishEntryaboundwith extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەریاچەکە پڕە لە ماسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

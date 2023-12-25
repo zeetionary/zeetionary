@@ -177,11 +177,15 @@ class EnglishEntrybloody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێندە گەمژە مەبە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybloody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خواردنێکی تەواو خۆش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,11 +219,15 @@ class EnglishEntrybloody extends StatelessWidget {
                                   text:
                                       "زۆر باش ھەوڵیدا بۆ بردنەوەی پێشبڕکێیەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,11 +244,15 @@ class EnglishEntrybloody extends StatelessWidget {
                                   text:
                                       "تیرۆریستەکان کەمپینی خوێناویی توندوتیژیان وەستاندووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodys4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodys4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,11 +268,15 @@ class EnglishEntrybloody extends StatelessWidget {
                                   text:
                                       "جلی سەربازە بریندارەکە دڕابوو و خوێناوی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodys5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodys5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodys5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

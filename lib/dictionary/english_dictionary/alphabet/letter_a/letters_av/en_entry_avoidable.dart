@@ -178,13 +178,17 @@ class EnglishEntryavoidable extends StatelessWidget {
                                   text:
                                       "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvoidables1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvoidables1(// REPLACE: avoidable
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvoidables1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvoidables1(// REPLACE: avoidable
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

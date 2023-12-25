@@ -134,13 +134,17 @@ class EnglishEntryaffectionate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەسۆزە لەگەڵ منداڵەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffect25699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffect25699(
-                                    // REPLACE: affectionate /əˈfekʃənət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffect25699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffect25699(
+                                        // REPLACE: affectionate /əˈfekʃənət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

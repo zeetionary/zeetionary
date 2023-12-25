@@ -127,11 +127,15 @@ class EnglishEntryabnormal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێژەی نائاسایی شەکر لە خوێندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb24("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb24("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb24("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -145,11 +149,15 @@ class EnglishEntryabnormal extends StatelessWidget {
                                   text:
                                       "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA91("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA91("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA91("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA91("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -163,11 +171,15 @@ class EnglishEntryabnormal extends StatelessWidget {
                                   text:
                                       "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

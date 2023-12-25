@@ -135,13 +135,18 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                   text:
                                       "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcoholism6582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcoholism6582(
-                                    // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlcoholism6582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcoholism6582(
+                                        // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

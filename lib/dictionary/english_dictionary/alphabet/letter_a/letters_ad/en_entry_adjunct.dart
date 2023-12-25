@@ -136,13 +136,17 @@ class EnglishEntryadjunct extends StatelessWidget {
                                   text:
                                       "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdj58692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdj58692(// REPLACE: adjunct /ˈædʒʌŋkt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdj58692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdj58692(
+                                        // REPLACE: adjunct /ˈædʒʌŋkt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

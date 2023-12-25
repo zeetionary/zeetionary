@@ -185,13 +185,17 @@ class EnglishEntryautocrat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutocrat934("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutocrat934(// REPLACE: autocrat
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutocrat934("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutocrat934(// REPLACE: autocrat
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryautocrat extends StatelessWidget {
                                   text:
                                       "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutocrat937("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutocrat937(// REPLACE: autocrat
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutocrat937("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutocrat937(// REPLACE: autocrat
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryashtray extends StatelessWidget {
                                   text:
                                       "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshtray509("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshtray509(
-                                    // REPLACE: ashtray /ˈæʃtreɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshtray509("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshtray509(
+                                        // REPLACE: ashtray /ˈæʃtreɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

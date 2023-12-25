@@ -173,11 +173,15 @@ class EnglishEntrybookstall extends StatelessWidget {
                                   text:
                                       "دووکانۆچکەکە ژمارەیەک ژانر و نووسەری نمایشکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookstalls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookstalls1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookstalls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookstalls1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntryblunt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم پێنووسە کولە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryblunt extends StatelessWidget {
                                   text:
                                       "چەقۆکە کولە و پێویستی بە تیژکردن ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntryblunt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناوی دەرکردە بۆ قسەکردنی بێ‌پەردە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,11 +243,15 @@ class EnglishEntryblunt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەرڕاست بم لەگەڵت، کارەکەت وێرانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,11 +268,15 @@ class EnglishEntryblunt extends StatelessWidget {
                                   text:
                                       "تەمەن حەزی بۆ سەرکێشی لاواز نەکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,11 +293,15 @@ class EnglishEntryblunt extends StatelessWidget {
                                   text:
                                       "بەکارھێنانی بەردەوام دەکرێت باشترین دەم کول بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunts6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunts6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunts6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunts6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

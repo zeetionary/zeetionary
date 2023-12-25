@@ -169,11 +169,15 @@ class EnglishEntrybashfully extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە شەرمەوە پێکەنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBashfullys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBashfullys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBashfullys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBashfullys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

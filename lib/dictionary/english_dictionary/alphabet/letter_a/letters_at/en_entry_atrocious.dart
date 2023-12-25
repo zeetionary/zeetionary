@@ -187,13 +187,18 @@ class EnglishEntryatrocious extends StatelessWidget {
                                   text:
                                       "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtrocious1244("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtrocious1244(// REPLACE: atrocious
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtrocious1244("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtrocious1244(// REPLACE: atrocious
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryatrocious extends StatelessWidget {
                                   text:
                                       "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtrocious1246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtrocious1246(// REPLACE: atrocious
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtrocious1246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtrocious1246(// REPLACE: atrocious
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

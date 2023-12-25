@@ -174,11 +174,15 @@ class EnglishEntryblonde extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قژێکی درێژی ئاڵتوونی کاڵی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblondes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblondes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblondes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblondes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntryblonde extends StatelessWidget {
                                   text:
                                       "منداڵەکە قژی لوولی ئاڵتوونی کاڵی کورتی ھەبوو و چاوی شینی گەورە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblondes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblondes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblondes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblondes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,11 +218,15 @@ class EnglishEntryblonde extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کچێکی قا ئاڵتوونی کاڵ ھاتە ژوورەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblondes3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblondes3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblondes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblondes3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,11 +243,15 @@ class EnglishEntryblonde extends StatelessWidget {
                                   text:
                                       "بەشێوەی سرووشتی قژی ئاڵتوونی کاڵی ھەیە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblondes4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblondes4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblondes4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblondes4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,17 @@ class EnglishEntryappetite extends StatelessWidget {
                                   text:
                                       "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppetite227("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppetite227(
-                                    // REPLACE: appetite /ˈæpɪtaɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppetite227("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppetite227(
+                                        // REPLACE: appetite /ˈæpɪtaɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryappetite extends StatelessWidget {
                                   text:
                                       "بی بی سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppetite233("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppetite233(
-                                    // REPLACE: appetite /ˈæpɪtaɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppetite233("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppetite233(
+                                        // REPLACE: appetite /ˈæpɪtaɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

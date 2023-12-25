@@ -137,13 +137,18 @@ class EnglishEntryalleviation extends StatelessWidget {
                                   text:
                                       "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlleviation47114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlleviation47114(
-                                    // REPLACE: alleviation /əˌliːviˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlleviation47114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlleviation47114(
+                                        // REPLACE: alleviation /əˌliːviˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

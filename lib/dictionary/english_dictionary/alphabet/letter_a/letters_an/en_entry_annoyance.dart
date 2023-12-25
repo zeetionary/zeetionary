@@ -180,13 +180,17 @@ class EnglishEntryannoyance extends StatelessWidget {
                                   text:
                                       "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnoyance759("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnoyance759(
-                                    // REPLACE: annoyance /əˈnɔɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnoyance759("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnoyance759(
+                                        // REPLACE: annoyance /əˈnɔɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryannoyance extends StatelessWidget {
                                   text:
                                       "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnoyance801("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnoyance801(
-                                    // REPLACE: annoyance /əˈnɔɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnoyance801("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnoyance801(
+                                        // REPLACE: annoyance /əˈnɔɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,17 @@ class EnglishEntryannoyance extends StatelessWidget {
                                   text:
                                       "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnoyance805("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnoyance805(
-                                    // REPLACE: annoyance /əˈnɔɪəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnoyance805("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnoyance805(
+                                        // REPLACE: annoyance /əˈnɔɪəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

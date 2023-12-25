@@ -175,12 +175,16 @@ class EnglishEntryb extends StatelessWidget {
                                   text:
                                       "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBs1(// REPLACE: b
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBs1(// REPLACE: b
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,12 +199,16 @@ class EnglishEntryb extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە مێژوو باشەی ھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBs2(// REPLACE: b
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBs2(// REPLACE: b
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,12 +223,16 @@ class EnglishEntryb extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پلانی A یان B ھەڵبژێرین؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBs3(// REPLACE: b
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBs3(// REPLACE: b
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,12 +247,16 @@ class EnglishEntryb extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "با وادابنێین A لە پارکەکە B دەبینێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBs4(// REPLACE: b
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBs4(// REPLACE: b
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybloodshot extends StatelessWidget {
                                   text:
                                       "لە دواوی فڕینە ماوە درێژەکە، چاوەکانی دەبینران کە سووربوو بوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodshots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodshots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodshots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodshots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

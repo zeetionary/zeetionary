@@ -176,11 +176,17 @@ class EnglishEntrybiographical extends StatelessWidget {
                                   text:
                                       "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiographicals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiographicals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiographicals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiographicals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +203,17 @@ class EnglishEntrybiographical extends StatelessWidget {
                                   text:
                                       "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiographicals2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiographicals2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiographicals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiographicals2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

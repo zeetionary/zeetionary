@@ -177,11 +177,15 @@ class EnglishEntrybefitting extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ماریفەتی گونجاو بەخێرھاتنیان کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBefittings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBefittings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBefittings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBefittings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybefitting extends StatelessWidget {
                                   text:
                                       "ناوچەیەکی ١٤٠ ملیۆن کەسی شایەنی ھێڵێکی گواستنەوەی شایستەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBefittings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBefittings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBefittings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBefittings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

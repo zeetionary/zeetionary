@@ -112,11 +112,15 @@ class EnglishEntryabhorrence extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA634("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA634("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA634("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA634("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

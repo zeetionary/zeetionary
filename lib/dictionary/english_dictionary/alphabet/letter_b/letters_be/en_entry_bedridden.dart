@@ -175,11 +175,15 @@ class EnglishEntrybedridden extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پووری ٩٣ ساڵ بوو و جێکەوتە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedriddens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedriddens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedriddens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedriddens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

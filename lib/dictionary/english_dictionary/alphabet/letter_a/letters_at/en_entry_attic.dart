@@ -184,12 +184,17 @@ class EnglishEntryattic extends StatelessWidget {
                                   text:
                                       "ژمارەیەک سندووقی جلی کۆنم لەژێر زەمینەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttic936("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAttic936(// REPLACE: attic
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttic936("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttic936(// REPLACE: attic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

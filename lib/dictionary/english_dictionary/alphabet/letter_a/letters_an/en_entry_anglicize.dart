@@ -175,13 +175,18 @@ class EnglishEntryanglicize extends StatelessWidget {
                                   text:
                                       "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnglicize4450("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnglicize4450(
-                                    // REPLACE: anglicize /ˈæŋɡlɪsaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnglicize4450("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnglicize4450(
+                                        // REPLACE: anglicize /ˈæŋɡlɪsaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

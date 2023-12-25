@@ -121,11 +121,15 @@ class EnglishEntryabhor extends StatelessWidget {
                                   text:
                                       "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA64("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA64("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA64("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA64("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -139,11 +143,15 @@ class EnglishEntryabhor extends StatelessWidget {
                                   text:
                                       "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA246("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA246("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

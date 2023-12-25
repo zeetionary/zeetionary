@@ -182,13 +182,17 @@ class EnglishEntryarraign extends StatelessWidget {
                                   text:
                                       "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArraign1239("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArraign1239(
-                                    // REPLACE: arraign /əˈreɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArraign1239("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArraign1239(
+                                        // REPLACE: arraign /əˈreɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -182,17 +182,21 @@ class EnglishEntryarms extends StatelessWidget {
                                   text:
                                       "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArms705("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArms705(// REPLACE: arms /ɑːrmz/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArms705("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArms705(// REPLACE: arms /ɑːrmz/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,13 +207,17 @@ class EnglishEntryarms extends StatelessWidget {
                                   text:
                                       "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArms706("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArms706(// REPLACE: arms /ɑːrmz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArms706("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArms706(
+                                        // REPLACE: arms /ɑːrmz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

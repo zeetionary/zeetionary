@@ -137,13 +137,18 @@ class EnglishEntryallrounder extends StatelessWidget {
                                   text:
                                       "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllrounder12544("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllrounder12544(
-                                    // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllrounder12544("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllrounder12544(
+                                        // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

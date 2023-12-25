@@ -173,11 +173,15 @@ class EnglishEntrybookworm extends StatelessWidget {
                                   text:
                                       "ئاڵوودەیەکی کتێبە کە زۆرجار ڕۆچووە لە ڕۆماندا لە کاتە بەتاڵەکانیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookworms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookworms1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookworms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookworms1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

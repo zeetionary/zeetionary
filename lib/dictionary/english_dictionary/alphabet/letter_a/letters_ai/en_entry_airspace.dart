@@ -137,13 +137,17 @@ class EnglishEntryairspace extends StatelessWidget {
                                   text:
                                       "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirspace4355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirspace4355(
-                                    // REPLACE: airspace /ˈerspeɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirspace4355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirspace4355(
+                                        // REPLACE: airspace /ˈerspeɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryairspace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirspace5366("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirspace5366(
-                                    // REPLACE: airspace /ˈerspeɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirspace5366("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirspace5366(
+                                        // REPLACE: airspace /ˈerspeɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

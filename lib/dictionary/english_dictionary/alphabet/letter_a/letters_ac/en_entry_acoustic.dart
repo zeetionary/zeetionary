@@ -134,12 +134,16 @@ class EnglishEntryacoustic extends StatelessWidget {
                                   text:
                                       "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAco1537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAco1537(
-                                    "en-US"), // REPLACE acoustic /əˈkuːstɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAco1537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAco1537(
+                                        "en-US"), // REPLACE acoustic /əˈkuːstɪk/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

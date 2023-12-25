@@ -136,13 +136,17 @@ class EnglishEntryaisle extends StatelessWidget {
                                   text:
                                       "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAisle3888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAisle3888(// REPLACE: aisle /aɪl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAisle3888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAisle3888(// REPLACE: aisle /aɪl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

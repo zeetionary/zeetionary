@@ -180,11 +180,15 @@ class EnglishEntryblend extends StatelessWidget {
                                   text:
                                       "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntryblend extends StatelessWidget {
                                   text:
                                       "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -218,11 +226,15 @@ class EnglishEntryblend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕۆن تێکەڵ بە ئاو نابێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -240,11 +252,15 @@ class EnglishEntryblend extends StatelessWidget {
                                   text:
                                       "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -262,11 +278,15 @@ class EnglishEntryblend extends StatelessWidget {
                                   text:
                                       "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,11 +303,15 @@ class EnglishEntryblend extends StatelessWidget {
                                   text:
                                       "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblends6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblends6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblends6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblends6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

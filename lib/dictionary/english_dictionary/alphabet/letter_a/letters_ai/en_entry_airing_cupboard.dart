@@ -136,14 +136,18 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جلەکان بخە دۆڵابەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAiringcupboard4588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAiringcupboard4588(
-                                    // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAiringcupboard4588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAiringcupboard4588(
+                                        // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

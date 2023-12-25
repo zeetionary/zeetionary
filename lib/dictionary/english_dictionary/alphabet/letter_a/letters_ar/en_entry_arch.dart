@@ -187,13 +187,17 @@ class EnglishEntryarch extends StatelessWidget {
                                   text:
                                       "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch135("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch135(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch135("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch135(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryarch extends StatelessWidget {
                                   text:
                                       "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch140(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch140(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەوانەی پێی زۆر بەرزە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch143(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch143(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryarch extends StatelessWidget {
                                   text:
                                       "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch148("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch148(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch148("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch148(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -275,13 +291,17 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پشیلەکە پشتی چەماندەوە و فساندی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch148("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch148(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch148("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch148(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -297,13 +317,17 @@ class EnglishEntryarch extends StatelessWidget {
                                   text:
                                       "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch152("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch152(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch152("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch152(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -320,13 +344,17 @@ class EnglishEntryarch extends StatelessWidget {
                                   text:
                                       "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArch159("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArch159(// REPLACE: arch /ɑːrtʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArch159("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArch159(// REPLACE: arch /ɑːrtʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

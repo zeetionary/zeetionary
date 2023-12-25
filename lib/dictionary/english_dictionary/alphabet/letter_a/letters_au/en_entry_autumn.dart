@@ -178,13 +178,17 @@ class EnglishEntryautumn extends StatelessWidget {
                                   text:
                                       "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutumns1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutumns1(// REPLACE: autumn
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutumns1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutumns1(// REPLACE: autumn
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

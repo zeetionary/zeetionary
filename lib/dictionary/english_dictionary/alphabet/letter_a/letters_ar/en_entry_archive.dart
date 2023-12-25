@@ -182,13 +182,17 @@ class EnglishEntryarchive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەرشیفی بی بی سی پڕە لە زانیاری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchive1050("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchive1050(
-                                    // REPLACE: archive /ˈɑːrkaɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchive1050("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchive1050(
+                                        // REPLACE: archive /ˈɑːrkaɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

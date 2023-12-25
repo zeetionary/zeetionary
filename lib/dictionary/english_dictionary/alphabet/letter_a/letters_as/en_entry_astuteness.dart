@@ -186,13 +186,18 @@ class EnglishEntryastuteness extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstuteness606("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstuteness606(// REPLACE: astuteness
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstuteness606("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstuteness606(
+                                        // REPLACE: astuteness
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

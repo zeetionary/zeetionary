@@ -183,13 +183,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiseptic1218("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiseptic1218(
-                                    // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiseptic1218("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiseptic1218(
+                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,13 +209,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                   text:
                                       "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiseptic1221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiseptic1221(
-                                    // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiseptic1221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiseptic1221(
+                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +237,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                   text:
                                       "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiseptic1225("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiseptic1225(
-                                    // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiseptic1225("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiseptic1225(
+                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +264,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiseptic1228("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiseptic1228(
-                                    // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiseptic1228("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiseptic1228(
+                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -183,13 +183,17 @@ class EnglishEntryapplied extends StatelessWidget {
                                   text:
                                       "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplied806("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplied806(
-                                    // REPLACE: applied /əˈplaɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApplied806("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplied806(
+                                        // REPLACE: applied /əˈplaɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

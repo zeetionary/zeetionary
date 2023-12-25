@@ -137,13 +137,18 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllergic35699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllergic35699(
-                                    // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllergic35699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllergic35699(
+                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +164,17 @@ class EnglishEntryallergic extends StatelessWidget {
                                   text:
                                       "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllergic4692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllergic4692(
-                                    // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllergic4692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllergic4692(
+                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,13 +190,18 @@ class EnglishEntryallergic extends StatelessWidget {
                                   text:
                                       "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllergic45993("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllergic45993(
-                                    // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllergic45993("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllergic45993(
+                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

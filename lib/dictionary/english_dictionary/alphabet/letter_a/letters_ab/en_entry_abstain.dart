@@ -128,11 +128,15 @@ class EnglishEntryabstain extends StatelessWidget {
                                   text:
                                       "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA26987("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA26987("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA26987("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA26987("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -147,11 +151,15 @@ class EnglishEntryabstain extends StatelessWidget {
                                   text:
                                       "خۆبەدوورگرتن لە کحول/سێکس/مادەی خۆشبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA23485("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA23485("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA23485("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA23485("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

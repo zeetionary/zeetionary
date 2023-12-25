@@ -184,17 +184,21 @@ class EnglishEntryapathy extends StatelessWidget {
                                   text:
                                       "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApathy1212("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApathy1212(// REPLACE: apathy /ˈæpəθi/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApathy1212("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApathy1212(
+                                        // REPLACE: apathy /ˈæpəθi/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -205,13 +209,17 @@ class EnglishEntryapathy extends StatelessWidget {
                                   text:
                                       "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApathy1215("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApathy1215(// REPLACE: apathy /ˈæpəθi/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApathy1215("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApathy1215(
+                                        // REPLACE: apathy /ˈæpəθi/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

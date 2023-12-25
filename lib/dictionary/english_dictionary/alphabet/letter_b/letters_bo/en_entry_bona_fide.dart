@@ -178,11 +178,15 @@ class EnglishEntrybonafide extends StatelessWidget {
                                   text:
                                       "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonafides1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonafides1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonafides1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonafides1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybonafide extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێستا ئەندامێکی یاساییت لە تیمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonafides2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonafides2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonafides2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonafides2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

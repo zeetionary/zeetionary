@@ -117,11 +117,15 @@ class EnglishEntryabsorbent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خاولییەکان زۆر ھەڵمژن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2473("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2473("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2473("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2473("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

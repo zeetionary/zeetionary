@@ -129,11 +129,15 @@ class EnglishEntryaccredited extends StatelessWidget {
                                   text:
                                       "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2548("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2548("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2548("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2548("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -147,11 +151,17 @@ class EnglishEntryaccredited extends StatelessWidget {
                                   text:
                                       "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAccredited46923("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAccredited46923("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAccredited46923("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAccredited46923("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

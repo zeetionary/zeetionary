@@ -133,11 +133,15 @@ class EnglishEntryabominable extends StatelessWidget {
                                   text:
                                       "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbo85("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbo85("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbo85("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbo85("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -150,11 +154,15 @@ class EnglishEntryabominable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناخۆشترین قاوەمان پێشکەشکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbo27("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbo27("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbo27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbo27("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -168,11 +176,15 @@ class EnglishEntryabominable extends StatelessWidget {
                                   text:
                                       "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA345("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA345("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA345("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA345("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

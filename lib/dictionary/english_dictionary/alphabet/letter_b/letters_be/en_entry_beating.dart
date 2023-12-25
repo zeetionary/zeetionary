@@ -178,11 +178,15 @@ class EnglishEntrybeating extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گرتیان و لێدانێکی سەختیان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeatings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeatings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeatings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeatings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybeating extends StatelessWidget {
                                   text:
                                       "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeatings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeatings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeatings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeatings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybeating extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەیتوانی گوێی لە ترپی دڵی خۆی بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeatings3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeatings3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeatings3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeatings3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

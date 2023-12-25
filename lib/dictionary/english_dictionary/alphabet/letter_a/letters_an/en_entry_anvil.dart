@@ -180,13 +180,17 @@ class EnglishEntryanvil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سندانێکی باش باکی بە چەکوش نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnvil208("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnvil208(// REPLACE: anvil /ˈænvɪl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnvil208("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnvil208(// REPLACE: anvil /ˈænvɪl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

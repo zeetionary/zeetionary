@@ -177,13 +177,17 @@ class EnglishEntryangina extends StatelessWidget {
                                   text:
                                       "ئەگەر تووشی سنگ‌ئێشە دەبیت لە کاتی ڕاھێنان، بوەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngina440("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngina440(
-                                    // REPLACE: angina /ænˈdʒaɪnə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngina440("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngina440(
+                                        // REPLACE: angina /ænˈdʒaɪnə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

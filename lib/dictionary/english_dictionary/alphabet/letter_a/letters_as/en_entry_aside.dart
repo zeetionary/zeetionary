@@ -188,13 +188,17 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەردەکەی لادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside625("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside625(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside625("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside625(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryaside extends StatelessWidget {
                                   text:
                                       "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside626("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside626(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside626("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside626(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryaside extends StatelessWidget {
                                   text:
                                       "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside628("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside628(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside628("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside628(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryaside extends StatelessWidget {
                                   text:
                                       "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside633("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside633(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside633("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside633(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -277,13 +293,17 @@ class EnglishEntryaside extends StatelessWidget {
                                   text:
                                       "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside642("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside642(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside642("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside642(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -298,13 +318,17 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەنھا وەک قەوسێک باسی دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAside644("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAside644(// REPLACE: aside /əˈsaɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAside644("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAside644(// REPLACE: aside /əˈsaɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

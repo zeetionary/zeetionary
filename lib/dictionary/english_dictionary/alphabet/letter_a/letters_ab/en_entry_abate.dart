@@ -110,11 +110,15 @@ class EnglishEntryabate extends StatelessWidget {
                                   text:
                                       "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak1142566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak1142566("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak1142566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak1142566("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

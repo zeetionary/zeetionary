@@ -173,11 +173,17 @@ class EnglishEntryboardingschool extends StatelessWidget {
                                   text:
                                       "بیری خێزانەکەی دەکرد لە ماوەی خولی یەکەمی لە خوێندنگە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboardingschools1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboardingschools1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboardingschools1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboardingschools1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -187,13 +187,18 @@ class EnglishEntryassignment extends StatelessWidget {
                                   text:
                                       "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssignment724("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssignment724(
-                                    // REPLACE: assignment /əˈsaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssignment724("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssignment724(
+                                        // REPLACE: assignment /əˈsaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryassignment extends StatelessWidget {
                                   text:
                                       "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssignment726("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssignment726(
-                                    // REPLACE: assignment /əˈsaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssignment726("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssignment726(
+                                        // REPLACE: assignment /əˈsaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryassignment extends StatelessWidget {
                                   text:
                                       "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssignment732("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssignment732(
-                                    // REPLACE: assignment /əˈsaɪnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssignment732("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssignment732(
+                                        // REPLACE: assignment /əˈsaɪnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

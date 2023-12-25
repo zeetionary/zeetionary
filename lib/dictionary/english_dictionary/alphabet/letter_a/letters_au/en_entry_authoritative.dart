@@ -188,13 +188,18 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                   text:
                                       "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthoritative743("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthoritative743(
-                                    // REPLACE: authoritative
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthoritative743("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthoritative743(
+                                        // REPLACE: authoritative
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                   text:
                                       "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthoritative745("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthoritative745(
-                                    // REPLACE: authoritative
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthoritative745("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthoritative745(
+                                        // REPLACE: authoritative
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

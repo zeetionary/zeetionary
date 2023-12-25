@@ -178,11 +178,15 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                                   text:
                                       "زۆرێک باڵندەی ڕاوی باڵی بەھێزیان ھەیە بۆ ڕاوکردن و بەرزبوونەوە بە ساناھی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBirdofpreys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBirdofpreys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBirdofpreys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBirdofpreys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

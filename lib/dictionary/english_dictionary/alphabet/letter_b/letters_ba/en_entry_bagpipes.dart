@@ -178,13 +178,17 @@ class EnglishEntrybagpipes extends StatelessWidget {
                                   text:
                                       "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBagpipess1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBagpipess1(// REPLACE: bagpipes
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBagpipess1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBagpipess1(// REPLACE: bagpipes
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

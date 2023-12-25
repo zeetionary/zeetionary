@@ -115,11 +115,15 @@ class EnglishEntryaboveall extends StatelessWidget {
                                   text:
                                       "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2196("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2196("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2196("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2196("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

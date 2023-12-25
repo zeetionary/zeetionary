@@ -137,13 +137,18 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                   text:
                                       "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltruistic4583("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltruistic4583(
-                                    // REPLACE: altruistic /ˌæltruˈɪstɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAltruistic4583("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltruistic4583(
+                                        // REPLACE: altruistic /ˌæltruˈɪstɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

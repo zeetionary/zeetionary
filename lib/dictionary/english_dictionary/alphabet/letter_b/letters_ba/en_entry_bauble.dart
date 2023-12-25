@@ -176,11 +176,15 @@ class EnglishEntrybauble extends StatelessWidget {
                                   text:
                                       "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaubles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaubles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaubles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaubles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybauble extends StatelessWidget {
                                   text:
                                       "دار کریسمسەکە بە گڵۆپی ڕەنگین و ڕۆشنایی بریسکەدار ڕازێندرابوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaubles2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaubles2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaubles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaubles2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

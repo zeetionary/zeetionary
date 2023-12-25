@@ -187,13 +187,18 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                                   text:
                                       "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudiovisual151("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudiovisual151(// REPLACE: audiovisual
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAudiovisual151("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAudiovisual151(
+                                        // REPLACE: audiovisual
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

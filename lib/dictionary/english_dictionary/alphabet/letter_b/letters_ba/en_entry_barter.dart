@@ -173,11 +173,15 @@ class EnglishEntrybarter extends StatelessWidget {
                                   text:
                                       "دوورگەنشینەکان سیستەمی ئاڵ‌وگۆڕ بەکاردێنن لەجیاتی پارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarters1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarters1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarters1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybarter extends StatelessWidget {
                                   text:
                                       "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarters2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarters2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarters2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybeneficial extends StatelessWidget {
                                   text:
                                       "ژەمە خواردنی باش بەسوودە بۆ تەندرووستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeneficials1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeneficials1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeneficials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeneficials1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybeneficial extends StatelessWidget {
                                   text:
                                       "لە کۆتاییدا گەشتنە ڕێککەوتنێک کە بۆ ھەردوو لا بەسوود بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeneficials2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeneficials2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeneficials2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeneficials2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

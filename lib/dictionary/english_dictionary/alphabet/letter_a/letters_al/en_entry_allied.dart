@@ -138,13 +138,17 @@ class EnglishEntryallied extends StatelessWidget {
                                   text:
                                       "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllied425("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllied425(// REPLACE: allied /ˈælaɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllied425("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllied425(
+                                        // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +164,17 @@ class EnglishEntryallied extends StatelessWidget {
                                   text:
                                       "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllied459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllied459(// REPLACE: allied /ˈælaɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllied459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllied459(
+                                        // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -182,13 +190,17 @@ class EnglishEntryallied extends StatelessWidget {
                                   text:
                                       "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllied4399("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllied4399(// REPLACE: allied /ˈælaɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllied4399("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllied4399(
+                                        // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

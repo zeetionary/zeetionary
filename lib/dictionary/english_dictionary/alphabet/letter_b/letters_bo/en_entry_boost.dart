@@ -286,11 +286,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "فیلمەکە کارکردنی لە سینەمادا بەرەو پێش برد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,11 +308,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "کۆی گشتی زیادکرا بۆ نزیکەی ٢٠٠ پاوەند بەو بەخشینەی دایک و باوکی دایان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -322,11 +330,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە ھەوڵ دەدات فرۆشتن لە ئاسیادا زیاد بکات کە بەھێزترین بازاڕیەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -342,11 +354,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "زیاتر لە نیوەی کەسانی سەروو ١٨ ساڵ لە وڵاتەکەدا ڤاکسینیان وەرگرتووە دژ بە کۆرۆنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -363,11 +379,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "کەمکردنەوەی باج یارمەتیی زۆر پێویست بە ئابووری دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -381,11 +401,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "بردنەوەی پێشبڕکێیەکە ھاندەرێکی باشی ورەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -401,11 +425,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "ئەو شۆفێرانەی کە ئامێری گوازەرەوەی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -422,11 +450,15 @@ class EnglishEntryboost extends StatelessWidget {
                                   text:
                                       "نوێکردنەوەی تازەی نەرمامێرەکە زیادبوونێک لە توانای کارکردن دەبەخشێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosts8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosts8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosts8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosts8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

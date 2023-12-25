@@ -116,11 +116,15 @@ class EnglishEntryabysmal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەڵسوکەوتی زۆر خراپە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA1547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA1547("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA1547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA1547("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

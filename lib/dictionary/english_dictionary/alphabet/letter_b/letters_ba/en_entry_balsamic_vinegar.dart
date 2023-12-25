@@ -177,14 +177,18 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                                   text:
                                       "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakBalsamicvinegars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalsamicvinegars1(
-                                    // REPLACE: balsamic vinegar
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBalsamicvinegars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBalsamicvinegars1(
+                                        // REPLACE: balsamic vinegar
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

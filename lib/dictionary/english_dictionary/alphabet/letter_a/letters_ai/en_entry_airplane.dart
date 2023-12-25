@@ -135,13 +135,17 @@ class EnglishEntryairplane extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAerop3658("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAerop3658(
-                                    // REPLACE: airplane /ˈerəpleɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAerop3658("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAerop3658(
+                                        // REPLACE: airplane /ˈerəpleɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

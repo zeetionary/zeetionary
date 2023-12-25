@@ -173,11 +173,17 @@ class EnglishEntryblueblooded extends StatelessWidget {
                                   text:
                                       "ڕۆمانێکی نووسی دەربارەی ژیانی نھێنیی کەسانی پلە باڵا و خانەدان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluebloodeds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluebloodeds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbluebloodeds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbluebloodeds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

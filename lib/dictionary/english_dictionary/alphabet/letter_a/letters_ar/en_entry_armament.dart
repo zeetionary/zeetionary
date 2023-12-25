@@ -184,13 +184,17 @@ class EnglishEntryarmament extends StatelessWidget {
                                   text:
                                       "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmament455("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmament455(
-                                    // REPLACE: armament /ˈɑːrməmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmament455("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmament455(
+                                        // REPLACE: armament /ˈɑːrməmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarmament extends StatelessWidget {
                                   text:
                                       "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmament458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmament458(
-                                    // REPLACE: armament /ˈɑːrməmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmament458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmament458(
+                                        // REPLACE: armament /ˈɑːrməmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntryblog extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەمە بەستەرێکە بۆ بلۆگی مۆزەخانەیەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblogs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblogs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblogs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblogs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntryblog extends StatelessWidget {
                                   text:
                                       "دەتوانیت لێرە کۆمێنتێک بنووسیت لەسەر بلۆگەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblogs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblogs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblogs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblogs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntryblog extends StatelessWidget {
                                   text:
                                       "ئەمانە ھەندێک لەو کاردانەوانەن بۆ ئەو چیرۆکەی ئەمڕۆ بلۆگم کرد (لە بلۆگێکدا نووسیم)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblogs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblogs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblogs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblogs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybelongings extends StatelessWidget {
                                   text:
                                       "کەلوپەلە کەمەکانی لە جانتایەکدا کۆکردەوە و ڕۆشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelongingss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelongingss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelongingss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelongingss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -187,13 +187,18 @@ class EnglishEntryaspiration extends StatelessWidget {
                                   text:
                                       "نەمزانی‌بوو ئارەزووت بۆ سیاسەت ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspiration709("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspiration709(
-                                    // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAspiration709("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspiration709(
+                                        // REPLACE: aspiration /ˌæspəˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +233,18 @@ class EnglishEntryaspiration extends StatelessWidget {
                                   text:
                                       "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspiration722("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspiration722(
-                                    // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAspiration722("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspiration722(
+                                        // REPLACE: aspiration /ˌæspəˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

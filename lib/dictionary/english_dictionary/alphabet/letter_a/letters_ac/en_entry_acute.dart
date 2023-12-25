@@ -150,13 +150,17 @@ class EnglishEntryacute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەمئاوییەکی سەخت بوونی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcute1247("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcute1247(// REPLACE: acute /əˈkjuːt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcute1247("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcute1247(
+                                        // REPLACE: acute /əˈkjuːt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -170,13 +174,17 @@ class EnglishEntryacute extends StatelessWidget {
                                   text:
                                       "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcut3749("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcut3749(// REPLACE: acute /əˈkjuːt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcut3749("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcut3749(
+                                        // REPLACE: acute /əˈkjuːt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,13 +198,17 @@ class EnglishEntryacute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئازاری سەختی سک ئێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcute42("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcute42(// REPLACE: acute /əˈkjuːt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcute42("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAcute42(// REPLACE: acute /əˈkjuːt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +222,17 @@ class EnglishEntryacute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcu5268("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcu5268(// REPLACE: acute /əˈkjuːt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcu5268("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAcu5268(// REPLACE: acute /əˈkjuːt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +246,17 @@ class EnglishEntryacute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیاردانی وردبینانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcu5269("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcu5269(// REPLACE: acute /əˈkjuːt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcu5269("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAcu5269(// REPLACE: acute /əˈkjuːt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

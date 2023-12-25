@@ -175,11 +175,17 @@ class EnglishEntryblackmailer extends StatelessWidget {
                                   text:
                                       "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmailers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmailers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblackmailers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblackmailers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

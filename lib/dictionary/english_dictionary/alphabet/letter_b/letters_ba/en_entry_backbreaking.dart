@@ -179,13 +179,17 @@ class EnglishEntrybackbreaking extends StatelessWidget {
                                   text:
                                       "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s1(// REPLACE: back-breaking
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: back-breaking
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

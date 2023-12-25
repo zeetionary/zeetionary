@@ -177,13 +177,18 @@ class EnglishEntryampersand extends StatelessWidget {
                                   text:
                                       "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmpersand0856("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmpersand0856(
-                                    // REPLACE: ampersand /ˈæmpərsænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmpersand0856("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmpersand0856(
+                                        // REPLACE: ampersand /ˈæmpərsænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,14 +184,18 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                   text:
                                       "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApprenticeship1013("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprenticeship1013(
-                                    // REPLACE: apprenticeship /əˈprentɪʃɪp/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprenticeship1013("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprenticeship1013(
+                                        // REPLACE: apprenticeship /əˈprentɪʃɪp/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

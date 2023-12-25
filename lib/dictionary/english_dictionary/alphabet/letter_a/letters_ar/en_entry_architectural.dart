@@ -185,13 +185,18 @@ class EnglishEntryarchitectural extends StatelessWidget {
                                   text:
                                       "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchitectural428("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchitectural428(
-                                    // REPLACE: architectural /ˌɑːrkɪˈtektʃərəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchitectural428("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchitectural428(
+                                        // REPLACE: architectural /ˌɑːrkɪˈtektʃərəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

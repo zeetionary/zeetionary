@@ -110,11 +110,15 @@ class EnglishEntryabet extends StatelessWidget {
                                   text:
                                       "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbe42("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbe42("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbe42("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbe42("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -131,13 +131,17 @@ class EnglishEntryafraid extends StatelessWidget {
                                   text: "Don't be afraid."),
                               const ExampleSentenceKurdish(text: "مەترسە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfrai4177("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfrai4177(// REPLACE: afraid /əˈfreɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfrai4177("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfrai4177(
+                                        // REPLACE: afraid /əˈfreɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -149,13 +153,17 @@ class EnglishEntryafraid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەزانن لە بەرزی دەترسم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfrai955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfrai955(// REPLACE: afraid /əˈfreɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfrai955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfrai955(
+                                        // REPLACE: afraid /əˈfreɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

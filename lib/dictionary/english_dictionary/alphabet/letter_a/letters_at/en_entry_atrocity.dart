@@ -186,13 +186,17 @@ class EnglishEntryatrocity extends StatelessWidget {
                                   text:
                                       "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtrocity310("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtrocity310(// REPLACE: atrocity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtrocity310("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtrocity310(// REPLACE: atrocity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

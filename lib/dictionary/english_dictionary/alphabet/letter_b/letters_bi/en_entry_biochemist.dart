@@ -177,11 +177,15 @@ class EnglishEntrybiochemist extends StatelessWidget {
                                   text:
                                       "زیندەکیمیازانان یەکجار زۆر تێگەشتنی مرۆڤیان زیادکردووە بۆ شێوازی زۆربوونی خانەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiochemists1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiochemists1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiochemists1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiochemists1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

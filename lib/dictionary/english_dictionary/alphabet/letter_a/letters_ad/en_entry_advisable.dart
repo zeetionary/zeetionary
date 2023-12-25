@@ -134,13 +134,17 @@ class EnglishEntryadvisable extends StatelessWidget {
                                   text:
                                       "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvis35996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvis35996(
-                                    // REPLACE: advisable /ədˈvaɪzəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvis35996("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvis35996(
+                                        // REPLACE: advisable /ədˈvaɪzəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -188,13 +188,18 @@ class EnglishEntryapplication extends StatelessWidget {
                                   text:
                                       "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplication707("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplication707(
-                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplication707("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplication707(
+                                        // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryapplication extends StatelessWidget {
                                   text:
                                       "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplication709("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplication709(
-                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplication709("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplication709(
+                                        // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +242,18 @@ class EnglishEntryapplication extends StatelessWidget {
                                   text:
                                       "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplication713("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplication713(
-                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplication713("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplication713(
+                                        // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +270,18 @@ class EnglishEntryapplication extends StatelessWidget {
                                   text:
                                       "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplication716("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplication716(
-                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplication716("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplication716(
+                                        // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,13 +298,18 @@ class EnglishEntryapplication extends StatelessWidget {
                                   text:
                                       "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplication721("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplication721(
-                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplication721("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplication721(
+                                        // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,17 @@ class EnglishEntryamulet extends StatelessWidget {
                                   text:
                                       "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmulet44018("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmulet44018(
-                                    // REPLACE: amulet /ˈæmjʊlət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmulet44018("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmulet44018(
+                                        // REPLACE: amulet /ˈæmjʊlət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

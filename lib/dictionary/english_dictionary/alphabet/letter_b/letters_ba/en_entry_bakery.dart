@@ -178,13 +178,17 @@ class EnglishEntrybakery extends StatelessWidget {
                                   text:
                                       "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakerys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBakerys1(// REPLACE: bakery
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakerys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakerys1(// REPLACE: bakery
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

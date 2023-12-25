@@ -187,13 +187,18 @@ class EnglishEntryassimilation extends StatelessWidget {
                                   text:
                                       "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssimilation833("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssimilation833(
-                                    // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssimilation833("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssimilation833(
+                                        // REPLACE: assimilation /əˌsɪməˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryassimilation extends StatelessWidget {
                                   text:
                                       "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssimilation835("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssimilation835(
-                                    // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssimilation835("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssimilation835(
+                                        // REPLACE: assimilation /əˌsɪməˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

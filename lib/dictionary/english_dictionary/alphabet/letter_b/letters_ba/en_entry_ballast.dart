@@ -179,13 +179,17 @@ class EnglishEntryballast extends StatelessWidget {
                                   text:
                                       "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallasts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallasts1(// REPLACE: ballast
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallasts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallasts1(// REPLACE: ballast
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryballast extends StatelessWidget {
                                   text:
                                       "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallasts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallasts2(// REPLACE: ballast
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallasts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallasts2(// REPLACE: ballast
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

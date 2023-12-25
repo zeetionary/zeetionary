@@ -179,13 +179,17 @@ class EnglishEntrybackgammon extends StatelessWidget {
                                   text:
                                       "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackgammons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackgammons1(// REPLACE: backgammon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackgammons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackgammons1(// REPLACE: backgammon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

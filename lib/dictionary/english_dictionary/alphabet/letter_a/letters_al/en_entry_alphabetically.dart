@@ -135,14 +135,18 @@ class EnglishEntryalphabetically extends StatelessWidget {
                                   text:
                                       "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAlphabetically548("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlphabetically548(
-                                    // REPLACE: alphabetically /ˌælfəˈbetɪkli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlphabetically548("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlphabetically548(
+                                        // REPLACE: alphabetically /ˌælfəˈbetɪkli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

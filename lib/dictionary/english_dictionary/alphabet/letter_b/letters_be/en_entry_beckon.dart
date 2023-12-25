@@ -179,11 +179,15 @@ class EnglishEntrybeckon extends StatelessWidget {
                                   text:
                                       "ئاماژەی بۆ گارسۆنەکە کرد پسوولەکە بێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeckons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeckons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeckons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeckons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybeckon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەریا شینە ڕوونەکە دەگەشایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeckons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeckons2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeckons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeckons2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybeckon extends StatelessWidget {
                                   text:
                                       "بۆ زۆر منداڵ کە واز لە کۆلێژ دێنن پاشەڕۆژی بێ‌کاری چاوەڕێیان دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeckons3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeckons3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeckons3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeckons3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

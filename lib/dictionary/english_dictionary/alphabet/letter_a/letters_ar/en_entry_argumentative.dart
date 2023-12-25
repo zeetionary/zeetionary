@@ -184,14 +184,18 @@ class EnglishEntryargumentative extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakArgumentative1050("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArgumentative1050(
-                                    // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArgumentative1050("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArgumentative1050(
+                                        // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

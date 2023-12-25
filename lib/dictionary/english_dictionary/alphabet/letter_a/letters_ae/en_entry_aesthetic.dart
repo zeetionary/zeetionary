@@ -139,13 +139,17 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                   text:
                                       "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAesth6588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAesth6588(
-                                    // REPLACE: aesthetic /esˈθetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAesth6588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAesth6588(
+                                        // REPLACE: aesthetic /esˈθetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -161,13 +165,17 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                   text:
                                       "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAest67451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAest67451(
-                                    // REPLACE: aesthetic /esˈθetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAest67451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAest67451(
+                                        // REPLACE: aesthetic /esˈθetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -183,13 +191,17 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                   text:
                                       "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAest52887("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAest52887(
-                                    // REPLACE: aesthetic /esˈθetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAest52887("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAest52887(
+                                        // REPLACE: aesthetic /esˈθetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

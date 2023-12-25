@@ -190,13 +190,18 @@ class EnglishEntryassociation extends StatelessWidget {
                                   text:
                                       "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociation1201("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociation1201(
-                                    // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociation1201("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociation1201(
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,13 +218,18 @@ class EnglishEntryassociation extends StatelessWidget {
                                   text:
                                       "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociation1205("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociation1205(
-                                    // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociation1205("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociation1205(
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -236,13 +246,18 @@ class EnglishEntryassociation extends StatelessWidget {
                                   text:
                                       "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociation1209("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociation1209(
-                                    // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociation1209("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociation1209(
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,13 +274,18 @@ class EnglishEntryassociation extends StatelessWidget {
                                   text:
                                       "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociation1212("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociation1212(
-                                    // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociation1212("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociation1212(
+                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/,  /əˌsəʊʃiˈeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

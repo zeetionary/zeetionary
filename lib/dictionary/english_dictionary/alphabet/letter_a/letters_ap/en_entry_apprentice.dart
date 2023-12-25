@@ -184,13 +184,18 @@ class EnglishEntryapprentice extends StatelessWidget {
                                   text:
                                       "زۆرینەی کارەکە لەلایەن شاگردەکان کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprentice956("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprentice956(
-                                    // REPLACE: apprentice /əˈprentɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprentice956("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprentice956(
+                                        // REPLACE: apprentice /əˈprentɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +211,18 @@ class EnglishEntryapprentice extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک شاگردێکی دارتاشی درا بە خاڵی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprentice959("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprentice959(
-                                    // REPLACE: apprentice /əˈprentɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprentice959("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprentice959(
+                                        // REPLACE: apprentice /əˈprentɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

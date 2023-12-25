@@ -193,13 +193,17 @@ class EnglishEntryartiste extends StatelessWidget {
                                   text:
                                       "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtist846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist846(// REPLACE: artist /ˈɑːrtɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtist846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtist846(
+                                        // REPLACE: artist /ˈɑːrtɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

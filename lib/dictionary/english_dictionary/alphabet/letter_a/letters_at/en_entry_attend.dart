@@ -190,13 +190,17 @@ class EnglishEntryattend extends StatelessWidget {
                                   text:
                                       "حەزدەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttend759("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttend759(// REPLACE: attend
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttend759("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttend759(// REPLACE: attend
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryattend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکانمان دەچنە ھەمان خوێندنگە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttend800("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttend800(// REPLACE: attend
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttend800("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttend800(// REPLACE: attend
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryattend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە کاتی وانەکەدا سەرنجی نەدەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttend802("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttend802(// REPLACE: attend
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttend802("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttend802(// REPLACE: attend
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +267,17 @@ class EnglishEntryattend extends StatelessWidget {
                                   text:
                                       "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttend808("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttend808(// REPLACE: attend
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttend808("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttend808(// REPLACE: attend
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,13 +294,17 @@ class EnglishEntryattend extends StatelessWidget {
                                   text:
                                       "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttend809("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttend809(// REPLACE: attend
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttend809("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttend809(// REPLACE: attend
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -119,11 +119,15 @@ class EnglishEntryaccomplish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەکەم بەشی پلانەکە بەدەستھێندراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc26934("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc26934("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc26934("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc26934("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

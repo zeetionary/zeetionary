@@ -175,11 +175,15 @@ class EnglishEntrybefriend extends StatelessWidget {
                                   text:
                                       "کەمێک دوای گەشتنم بە قوتابخانەکە، کچێکی بەتەمەنتر بوو بە ھاوڕێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBefriends1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBefriends1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBefriends1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBefriends1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

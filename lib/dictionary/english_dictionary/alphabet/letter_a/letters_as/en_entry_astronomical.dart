@@ -188,13 +188,18 @@ class EnglishEntryastronomical extends StatelessWidget {
                                   text:
                                       "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstronomical512("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAstronomical512(
-                                    // REPLACE: astronomical
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstronomical512("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstronomical512(
+                                        // REPLACE: astronomical
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryastronomical extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەرجییەکان زۆر زۆربوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstronomical514("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAstronomical514(
-                                    // REPLACE: astronomical
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstronomical514("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstronomical514(
+                                        // REPLACE: astronomical
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

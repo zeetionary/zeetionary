@@ -317,11 +317,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "پەیوەندییەکی خۆشەویستی درووست بووە لە نێوانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -335,11 +339,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -356,11 +364,17 @@ class EnglishEntrybond extends StatelessWidget {
                                           text:
                                               "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbonds3("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbonds3("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbonds3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbonds3("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -374,11 +388,17 @@ class EnglishEntrybond extends StatelessWidget {
                                           text:
                                               "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbonds4("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbonds4("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbonds4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbonds4("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -398,11 +418,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -416,11 +440,15 @@ class EnglishEntrybond extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە کەفالەتی ٥٠٠٠ پاوەند ئازادکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -437,11 +465,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "پێویست بوو بیمەی دووەم وەربگرین بە دانانی زەوییەکە وەک زەمانەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -456,11 +488,15 @@ class EnglishEntrybond extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کۆتەکەی شل بکەوە و ئازادی بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -474,11 +510,15 @@ class EnglishEntrybond extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چووینە ناو ڕێککەوتنێکی فەرمییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -494,11 +534,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "کە چەسپەکە جێی خۆی دەگرێت، شوێنی یەکگرتنەکە ئاو ناکێشێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -515,11 +559,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -536,11 +584,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "ئەم چەسپە تازەیە ژمارەیەکی جیاواز لە ڕووکەش پێکەوەدەبەستێت لە چەند چرکەیەکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -557,11 +609,17 @@ class EnglishEntrybond extends StatelessWidget {
                                           text:
                                               "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbonds13("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbonds13("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbonds13("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbonds13("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -575,11 +633,17 @@ class EnglishEntrybond extends StatelessWidget {
                                           text:
                                               "ئەتۆمەکان یەکدەگرن بۆ درووستکردنی ئاوێتە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbonds14("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbonds14("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbonds14("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbonds14("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -600,11 +664,15 @@ class EnglishEntrybond extends StatelessWidget {
                                   text:
                                       "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonds15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonds15("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonds15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonds15("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

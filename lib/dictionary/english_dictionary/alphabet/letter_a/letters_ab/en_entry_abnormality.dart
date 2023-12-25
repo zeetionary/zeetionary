@@ -112,11 +112,15 @@ class EnglishEntryabnormality extends StatelessWidget {
                                   text:
                                       "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA64("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA64("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA64("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA64("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

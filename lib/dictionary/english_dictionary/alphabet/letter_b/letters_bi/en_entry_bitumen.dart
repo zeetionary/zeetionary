@@ -175,11 +175,15 @@ class EnglishEntrybitumen extends StatelessWidget {
                                   text:
                                       "خاسیەتی پێوەنووسان لە ئیزووگامدا وا دەکات ببێت بە مادەیەکی باش دژ بە ئاو بۆ سەربان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitumens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitumens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitumens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitumens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

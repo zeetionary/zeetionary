@@ -135,13 +135,17 @@ class EnglishEntryadulterate extends StatelessWidget {
                                   text:
                                       "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdulte658134("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdulte658134(
-                                    // REPLACE: adulterate /əˈdʌltəreɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdulte658134("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdulte658134(
+                                        // REPLACE: adulterate /əˈdʌltəreɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

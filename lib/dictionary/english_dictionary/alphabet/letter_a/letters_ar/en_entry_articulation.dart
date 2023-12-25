@@ -189,13 +189,18 @@ class EnglishEntryarticulation extends StatelessWidget {
                                   text:
                                       "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulation845("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulation845(
-                                    // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulation845("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulation845(
+                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +217,18 @@ class EnglishEntryarticulation extends StatelessWidget {
                                   text:
                                       "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulation847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulation847(
-                                    // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulation847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulation847(
+                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +245,18 @@ class EnglishEntryarticulation extends StatelessWidget {
                                   text:
                                       "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulation855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulation855(
-                                    // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulation855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulation855(
+                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +270,18 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulation853("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulation853(
-                                    // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulation853("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulation853(
+                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

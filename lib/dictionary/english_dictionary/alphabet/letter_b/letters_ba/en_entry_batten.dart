@@ -172,11 +172,15 @@ class EnglishEntrybatten extends StatelessWidget {
                                   text:
                                       "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

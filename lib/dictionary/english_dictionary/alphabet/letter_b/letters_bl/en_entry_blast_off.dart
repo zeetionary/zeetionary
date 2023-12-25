@@ -173,11 +173,15 @@ class EnglishEntryblastoff extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەڵدان لە ٣٠ چرکەدا دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblastoffs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblastoffs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblastoffs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblastoffs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

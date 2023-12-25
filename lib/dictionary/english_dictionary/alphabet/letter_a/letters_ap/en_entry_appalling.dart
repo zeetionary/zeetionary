@@ -182,13 +182,17 @@ class EnglishEntryappalling extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زیندانیان لە دۆخی تۆقێنەردا دەژیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppalling823("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppalling823(
-                                    // REPLACE: appalling /əˈpɔːlɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppalling823("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppalling823(
+                                        // REPLACE: appalling /əˈpɔːlɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

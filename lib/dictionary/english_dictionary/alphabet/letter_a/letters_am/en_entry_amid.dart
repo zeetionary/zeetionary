@@ -202,13 +202,17 @@ class EnglishEntryamid extends StatelessWidget {
                                   text:
                                       "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmid77744("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmid77744(// REPLACE: amid /əˈmɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmid77744("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmid77744(// REPLACE: amid /əˈmɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +228,17 @@ class EnglishEntryamid extends StatelessWidget {
                                   text:
                                       "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmid7741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmid7741(// REPLACE: amid /əˈmɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmid7741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmid7741(// REPLACE: amid /əˈmɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

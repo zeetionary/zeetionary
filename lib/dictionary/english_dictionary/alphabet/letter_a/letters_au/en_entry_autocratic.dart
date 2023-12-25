@@ -188,13 +188,18 @@ class EnglishEntryautocratic extends StatelessWidget {
                                   text:
                                       "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutocratic944("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutocratic944(// REPLACE: autocratic
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutocratic944("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAutocratic944(
+                                        // REPLACE: autocratic
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryautocratic extends StatelessWidget {
                                   text:
                                       "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutocratic952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutocratic952(// REPLACE: autocratic
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutocratic952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAutocratic952(
+                                        // REPLACE: autocratic
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

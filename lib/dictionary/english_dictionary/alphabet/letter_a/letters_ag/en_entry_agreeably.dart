@@ -135,13 +135,17 @@ class EnglishEntryagreeably extends StatelessWidget {
                                   text:
                                       "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgr35222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgr35222(
-                                    // REPLACE: agreeably /əˈɡriːəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgr35222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgr35222(
+                                        // REPLACE: agreeably /əˈɡriːəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryagreeably extends StatelessWidget {
                                   text:
                                       "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgreea35744("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgreea35744(
-                                    // REPLACE: agreeably /əˈɡriːəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgreea35744("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgreea35744(
+                                        // REPLACE: agreeably /əˈɡriːəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybenevolent extends StatelessWidget {
                                   text:
                                       "ئەفسەرەکە میھرەبان بوو، بەڵام گەمژە نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenevolents1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenevolents1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenevolents1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenevolents1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybenevolent extends StatelessWidget {
                                   text:
                                       "پیرێکی میھرەبان بوو کە ئازاری مێشێکیشی نەدەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenevolents2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenevolents2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenevolents2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenevolents2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

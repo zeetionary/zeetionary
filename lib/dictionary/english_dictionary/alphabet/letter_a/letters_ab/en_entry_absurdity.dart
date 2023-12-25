@@ -119,11 +119,15 @@ class EnglishEntryabsurdity extends StatelessWidget {
                                   text:
                                       "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA27416("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA27416("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA27416("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA27416("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

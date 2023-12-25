@@ -136,13 +136,17 @@ class EnglishEntryalleged extends StatelessWidget {
                                   text:
                                       "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlleged35962("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlleged35962(
-                                    // REPLACE: alleged /əˈledʒd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlleged35962("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlleged35962(
+                                        // REPLACE: alleged /əˈledʒd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

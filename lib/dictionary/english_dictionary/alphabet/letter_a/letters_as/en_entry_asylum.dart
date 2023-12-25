@@ -187,13 +187,17 @@ class EnglishEntryasylum extends StatelessWidget {
                                   text:
                                       "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsylum617("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsylum617(// REPLACE: asylum
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsylum617("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsylum617(// REPLACE: asylum
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryasylum extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بارودۆخی شێتخانەکە جەرگبڕ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsylum620("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsylum620(// REPLACE: asylum
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsylum620("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsylum620(// REPLACE: asylum
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

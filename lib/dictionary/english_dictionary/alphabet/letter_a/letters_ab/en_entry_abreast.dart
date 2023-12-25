@@ -119,11 +119,15 @@ class EnglishEntryabreast extends StatelessWidget {
                                   text:
                                       "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2156("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2156("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

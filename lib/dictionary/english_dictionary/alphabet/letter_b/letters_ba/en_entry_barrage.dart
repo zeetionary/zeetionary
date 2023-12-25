@@ -174,11 +174,15 @@ class EnglishEntrybarrage extends StatelessWidget {
                                   text:
                                       "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrages1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrages1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybarrage extends StatelessWidget {
                                   text:
                                       "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrages2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrages2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrages2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntrybarrage extends StatelessWidget {
                                   text:
                                       "ئەنباراوێکیان بەسەر کەنداوەکەدا درووستکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrages3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrages3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarrages3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarrages3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

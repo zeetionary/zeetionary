@@ -180,11 +180,15 @@ class EnglishEntrybenign extends StatelessWidget {
                                   text:
                                       "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenigns1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenigns1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenigns1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenigns1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybenign extends StatelessWidget {
                                   text:
                                       "دانیشتوانە ڕەسەنەکان یەکەم جار وایان زانی ئەورووپییەکان بە تەواوی بێ‌وەیین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenigns2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenigns2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenigns2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenigns2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybenign extends StatelessWidget {
                                   text:
                                       "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا بەزۆری بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenigns3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenigns3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenigns3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenigns3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +253,15 @@ class EnglishEntrybenign extends StatelessWidget {
                                   text:
                                       "لە ئێستادا باش دەبێتەوە لە دوای نەشتەرگەرییەک بۆ دەرکردنی لوویەکی بێ‌مەترسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenigns4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenigns4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenigns4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenigns4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

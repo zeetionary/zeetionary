@@ -187,13 +187,17 @@ class EnglishEntryassist extends StatelessWidget {
                                   text:
                                       "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssist848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssist848(// REPLACE: assist /əˈsɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssist848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssist848(
+                                        // REPLACE: assist /əˈsɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryassist extends StatelessWidget {
                                   text:
                                       "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssist849("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssist849(// REPLACE: assist /əˈsɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssist849("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssist849(
+                                        // REPLACE: assist /əˈsɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryassist extends StatelessWidget {
                                   text:
                                       "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssist852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssist852(// REPLACE: assist /əˈsɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssist852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssist852(
+                                        // REPLACE: assist /əˈsɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

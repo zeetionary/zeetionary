@@ -175,11 +175,15 @@ class EnglishEntryboar extends StatelessWidget {
                                   text:
                                       "خواردنی بەرازی نێرە پێکدێت لە ڕەگی دار و میوە و ئاژیڵی بچووک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboars1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboars1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -260,11 +260,15 @@ class EnglishEntryborn extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,11 +282,15 @@ class EnglishEntryborn extends StatelessWidget {
                                   text:
                                       "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -299,11 +307,17 @@ class EnglishEntryborn extends StatelessWidget {
                                           text:
                                               "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborns3("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborns3("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborns3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborns3("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -317,11 +331,17 @@ class EnglishEntryborn extends StatelessWidget {
                                           text:
                                               "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborns4("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborns4("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborns4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborns4("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -342,11 +362,15 @@ class EnglishEntryborn extends StatelessWidget {
                                   text:
                                       "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -363,11 +387,15 @@ class EnglishEntryborn extends StatelessWidget {
                                   text:
                                       "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -379,11 +407,15 @@ class EnglishEntryborn extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەکەم منداڵی خێزانەکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -399,11 +431,15 @@ class EnglishEntryborn extends StatelessWidget {
                                   text:
                                       "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -417,11 +453,15 @@ class EnglishEntryborn extends StatelessWidget {
                                   text:
                                       "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborns9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborns9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborns9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborns9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

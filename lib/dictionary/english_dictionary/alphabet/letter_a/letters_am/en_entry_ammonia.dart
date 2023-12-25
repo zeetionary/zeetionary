@@ -200,13 +200,17 @@ class EnglishEntryammonia extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmmonia74555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmmonia74555(
-                                    // REPLACE: ammonia /əˈməʊniə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmmonia74555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmmonia74555(
+                                        // REPLACE: ammonia /əˈməʊniə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

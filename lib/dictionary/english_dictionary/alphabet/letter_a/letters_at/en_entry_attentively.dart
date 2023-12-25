@@ -187,13 +187,18 @@ class EnglishEntryattentively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکان بەوریاییەوە گوێیان دەگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttentively913("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttentively913(// REPLACE: attentively
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttentively913("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttentively913(
+                                        // REPLACE: attentively
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryattentively extends StatelessWidget {
                                   text:
                                       "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttentively917("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttentively917(// REPLACE: attentively
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttentively917("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttentively917(
+                                        // REPLACE: attentively
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

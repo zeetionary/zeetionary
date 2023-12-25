@@ -178,13 +178,18 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                   text:
                                       "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticyclone955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticyclone955(
-                                    // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticyclone955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticyclone955(
+                                        // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

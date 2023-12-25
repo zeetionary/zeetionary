@@ -134,13 +134,17 @@ class EnglishEntryadhoc extends StatelessWidget {
                                   text:
                                       "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhoc2414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdhoc2414(
-                                    // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhoc2414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhoc2414(
+                                        // REPLACE: ad hoc /ˌæd ˈhɑːk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryadhoc extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیارەکان گەرماوگەرم  دران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhoc2414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdhoc2414(
-                                    // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhoc2414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhoc2414(
+                                        // REPLACE: ad hoc /ˌæd ˈhɑːk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

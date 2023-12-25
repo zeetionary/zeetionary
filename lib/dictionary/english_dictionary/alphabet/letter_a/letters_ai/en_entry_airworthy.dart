@@ -134,13 +134,18 @@ class EnglishEntryairworthy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکان بە گونجاو بۆ فڕین دانران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirworthy4277("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirworthy4277(
-                                    // REPLACE: airworthy /ˈerwɜːrði/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirworthy4277("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirworthy4277(
+                                        // REPLACE: airworthy /ˈerwɜːrði/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

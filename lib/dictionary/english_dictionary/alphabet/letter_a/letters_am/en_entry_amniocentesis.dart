@@ -201,14 +201,18 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                   text:
                                       "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmniocentesis4799("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmniocentesis4799(
-                                    // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmniocentesis4799("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmniocentesis4799(
+                                        // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

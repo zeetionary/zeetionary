@@ -173,11 +173,17 @@ class EnglishEntryblastfurnace extends StatelessWidget {
                                   text:
                                       "گەرمی زۆر کە درووست دەبێت لە کوورەکە ئاسنەکە دەتاوێنێتەوە و جیای دەکاتەوە لە مادە ناپوختەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblastfurnaces1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblastfurnaces1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblastfurnaces1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblastfurnaces1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

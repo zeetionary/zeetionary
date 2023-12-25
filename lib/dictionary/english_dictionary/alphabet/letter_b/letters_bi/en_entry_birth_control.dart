@@ -178,11 +178,17 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                                   text:
                                       "ڕێگاکانی ئەمڕۆی پێشگیری لە منداڵبوون ئاسانی دەکات بۆ ژن و پیاوێک کە ئایا منداڵیان ھەبێت یان نا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBirthcontrols1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBirthcontrols1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBirthcontrols1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBirthcontrols1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

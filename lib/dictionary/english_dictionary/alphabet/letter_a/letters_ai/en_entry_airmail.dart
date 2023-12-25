@@ -130,13 +130,17 @@ class EnglishEntryairmail extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە پۆستەی ئاسمانی بینێرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirmail4699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirmail4699(
-                                    // REPLACE: airmail /ˈermeɪl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirmail4699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirmail4699(
+                                        // REPLACE: airmail /ˈermeɪl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

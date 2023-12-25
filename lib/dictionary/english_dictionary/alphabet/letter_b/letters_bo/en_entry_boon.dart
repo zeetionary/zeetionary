@@ -174,11 +174,15 @@ class EnglishEntryboon extends StatelessWidget {
                                   text:
                                       "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntryboon extends StatelessWidget {
                                   text:
                                       "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboons2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboons2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

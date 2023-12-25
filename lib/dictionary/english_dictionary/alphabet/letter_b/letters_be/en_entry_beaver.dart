@@ -179,11 +179,15 @@ class EnglishEntrybeaver extends StatelessWidget {
                                   text:
                                       "سەگاوی مەلەوانی زۆر باشە و کلکە پان و بڵاوەکەیان بەکاردێنن بۆ ئەوەی پاڵی خۆیان بنێن لە ئاودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeavers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeavers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeavers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeavers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybeaver extends StatelessWidget {
                                   text:
                                       "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeavers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeavers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeavers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeavers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybeaver extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواوی ماوەکە سەیری عەورەتی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeavers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeavers3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeavers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeavers3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

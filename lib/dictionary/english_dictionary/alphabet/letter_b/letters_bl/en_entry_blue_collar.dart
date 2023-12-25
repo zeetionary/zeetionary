@@ -172,11 +172,15 @@ class EnglishEntrybluecollar extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کاڕێکی کرێکاری دۆزییەوە لە کارگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluecollars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluecollars1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluecollars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluecollars1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

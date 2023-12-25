@@ -305,11 +305,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەگەکەت گاز دەگرێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,11 +327,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گازی لە ھەرمێیەکی ئاوداری گەییو گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -342,11 +350,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -362,11 +374,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ماسییەکان ئەمڕۆ نابنە قولابەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -381,11 +397,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قەیرانەکە دەست بە خەستبوونەوە دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -401,11 +421,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قەپێکی لە سێوەکە گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -423,11 +447,15 @@ class EnglishEntrybite extends StatelessWidget {
                                   text:
                                       "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -443,11 +471,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پاروویەک لە نانی ئێوارەی نەخوارد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -464,11 +496,15 @@ class EnglishEntrybite extends StatelessWidget {
                                   text:
                                       "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -483,12 +519,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "برینی گازێک لەسەر باڵی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakbites10("10speakbites10en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -505,11 +544,15 @@ class EnglishEntrybite extends StatelessWidget {
                                   text:
                                       "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -524,11 +567,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کزەیەک ھەیە لە ھەوادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -544,11 +591,15 @@ class EnglishEntrybite extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نمایشەکە ھیچ تایبەتییەکی نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -566,11 +617,15 @@ class EnglishEntrybite extends StatelessWidget {
                                   text:
                                       "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbites14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbites14("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbites14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbites14("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

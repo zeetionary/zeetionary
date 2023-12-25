@@ -188,14 +188,18 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                                   text:
                                       "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAuthoritatively753("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthoritatively753(
-                                    // REPLACE: authoritatively
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthoritatively753("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthoritatively753(
+                                        // REPLACE: authoritatively
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,14 +216,18 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                                   text:
                                       "لەسەر ئەم بابەتانە دەتوانێت بەجێگەی باوەڕەوە قسەبکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAuthoritatively755("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthoritatively755(
-                                    // REPLACE: authoritatively
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthoritatively755("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthoritatively755(
+                                        // REPLACE: authoritatively
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

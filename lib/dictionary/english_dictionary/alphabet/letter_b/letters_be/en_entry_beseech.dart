@@ -172,11 +172,15 @@ class EnglishEntrybeseech extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وازی لێ بێنە بڕوا، لێت دەپاڕێمەوە!."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeseechs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeseechs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeseechs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeseechs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

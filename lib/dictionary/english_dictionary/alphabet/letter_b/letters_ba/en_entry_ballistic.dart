@@ -178,13 +178,17 @@ class EnglishEntryballistic extends StatelessWidget {
                                   text:
                                       "نەدەکرا ھیچ کام لە گومان‌لێ‌کراوان بە شەڕەتەقە کوشندەکەوە ببەسترێتەوە بەھۆی کەمی بەڵگەی ھاوێژەیی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallistics1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallistics1(// REPLACE: ballistic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallistics1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallistics1(// REPLACE: ballistic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

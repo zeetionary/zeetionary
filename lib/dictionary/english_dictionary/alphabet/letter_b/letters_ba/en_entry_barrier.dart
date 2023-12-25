@@ -176,11 +176,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                                   text:
                                       "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarriers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarriers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarriers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarriers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                                   text:
                                       "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarriers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarriers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarriers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarriers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -218,11 +226,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                                   text:
                                       "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarriers3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarriers3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarriers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarriers3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,11 +251,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                                   text:
                                       "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarriers4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarriers4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarriers4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarriers4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -260,11 +276,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                                   text:
                                       "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarriers5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarriers5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarriers5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarriers5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

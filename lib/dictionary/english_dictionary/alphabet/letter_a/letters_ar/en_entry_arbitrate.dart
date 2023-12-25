@@ -181,13 +181,18 @@ class EnglishEntryarbitrate extends StatelessWidget {
                                   text:
                                       "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrate1150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrate1150(
-                                    // REPLACE: arbitrate /ˈɑːrbɪtreɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrate1150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrate1150(
+                                        // REPLACE: arbitrate /ˈɑːrbɪtreɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

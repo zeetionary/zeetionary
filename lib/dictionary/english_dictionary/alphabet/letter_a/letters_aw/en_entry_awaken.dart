@@ -177,13 +177,17 @@ class EnglishEntryawaken extends StatelessWidget {
                                   text:
                                       "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakens2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwakens2(// REPLACE: awaken
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakens2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakens2(// REPLACE: awaken
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

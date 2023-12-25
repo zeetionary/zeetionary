@@ -174,11 +174,15 @@ class EnglishEntryboldly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە بوێرییەوە چووە پێشەوە بۆ قسەکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboldlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboldlys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboldlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboldlys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryboldly extends StatelessWidget {
                                   text:
                                       "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboldlys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboldlys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboldlys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboldlys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

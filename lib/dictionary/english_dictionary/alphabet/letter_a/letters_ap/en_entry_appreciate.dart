@@ -186,13 +186,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                                   text:
                                       "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate749("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate749(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate749("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate749(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +210,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خێزانەکەی قەدری نازانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate750("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate750(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate750("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate750(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +236,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێزانینم دەبێ بۆ ھەندێک یارمەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate753("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate753(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate753("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate753(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +262,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                                   text:
                                       "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate756("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate756(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate756("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate756(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,13 +290,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                                   text:
                                       "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate759("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate759(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate759("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate759(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -293,13 +318,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                                   text:
                                       "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciate801("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciate801(
-                                    // REPLACE: appreciate /əˈpriːʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciate801("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciate801(
+                                        // REPLACE: appreciate /əˈpriːʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

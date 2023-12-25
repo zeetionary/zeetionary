@@ -180,12 +180,17 @@ class EnglishEntrybald extends StatelessWidget {
                                   text:
                                       "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalds1(// REPLACE: bald
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalds1(// REPLACE: bald
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,12 +206,17 @@ class EnglishEntrybald extends StatelessWidget {
                                   text:
                                       "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalds2(// REPLACE: bald
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalds2(// REPLACE: bald
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntrybald extends StatelessWidget {
                                   text:
                                       "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalds3(// REPLACE: bald
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalds3(// REPLACE: bald
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

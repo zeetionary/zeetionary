@@ -178,13 +178,17 @@ class EnglishEntryanorak extends StatelessWidget {
                                   text:
                                       "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnorak836("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnorak836(// REPLACE: anorak /ˈænəræk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnorak836("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnorak836(
+                                        // REPLACE: anorak /ˈænəræk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

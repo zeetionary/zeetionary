@@ -148,13 +148,17 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دوو کوڕ لە پێشمانەوە بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead25355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAhead25355(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead25355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead25355(
+                                        // REPLACE: aheadof /əˈhed əv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -168,13 +172,17 @@ class EnglishEntryaheadof extends StatelessWidget {
                                   text:
                                       "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAheadof2377("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAheadof2377(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAheadof2377("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAheadof2377(
+                                        // REPLACE: aheadof /əˈhed əv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,13 +198,17 @@ class EnglishEntryaheadof extends StatelessWidget {
                                   text:
                                       "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead3522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAhead3522(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead3522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead3522(
+                                        // REPLACE: aheadof /əˈhed əv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +224,17 @@ class EnglishEntryaheadof extends StatelessWidget {
                                   text:
                                       "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAheadof3596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAheadof3596(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAheadof3596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAheadof3596(
+                                        // REPLACE: aheadof /əˈhed əv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

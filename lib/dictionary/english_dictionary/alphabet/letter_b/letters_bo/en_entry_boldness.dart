@@ -177,11 +177,15 @@ class EnglishEntryboldness extends StatelessWidget {
                                   text:
                                       "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboldnesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboldnesss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboldnesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboldnesss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntryboldness extends StatelessWidget {
                                   text:
                                       "تەنانەت ڕەخنەگرانیش سەرسامی بوێرییەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboldnesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboldnesss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboldnesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboldnesss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntryboldness extends StatelessWidget {
                                   text:
                                       "بەرچاوی بیناسازییەکە وایکرد بیناکە وەک ناوەندێکی ئایکۆنی بینراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboldnesss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboldnesss3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboldnesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboldnesss3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

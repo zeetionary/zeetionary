@@ -175,11 +175,17 @@ class EnglishEntryblottingpaper extends StatelessWidget {
                                   text:
                                       "دەستی برد بۆ زوھانگەکە بۆ بۆ وشککردنەوەی نامەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblottingpapers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblottingpapers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblottingpapers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblottingpapers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

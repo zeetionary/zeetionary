@@ -176,11 +176,15 @@ class EnglishEntryblockage extends StatelessWidget {
                                   text:
                                       "مردنەکەی ڕوویدا بەھۆی گیرانێک لە یەکێک لە خوێنبەرەکانی دڵیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblockages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblockages1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblockages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblockages1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntryblockage extends StatelessWidget {
                                   text:
                                       "دکتۆرەکە پێشنیاری نەشتەرگەری کرد بۆ بەردانی گیرانەکە لە ھەواڕێی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblockages2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblockages2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblockages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblockages2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,11 +176,15 @@ class EnglishEntrybillet extends StatelessWidget {
                                   text:
                                       "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybillet extends StatelessWidget {
                                   text:
                                       "سەربازەکان نێردران بۆ شارۆچکەکە بۆ ژیانکردن لەگەڵ خێزانە ناوخۆییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillets2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillets2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillets2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillets2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,13 +137,17 @@ class EnglishEntryalmanac extends StatelessWidget {
                                   text:
                                       "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmanac4932("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmanac4932(
-                                    // REPLACE: almanac  /ˈɔːlmənæk/,  /ˈælmənæk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmanac4932("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmanac4932(
+                                        // REPLACE: almanac  /ˈɔːlmənæk/,  /ˈælmənæk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,13 +178,18 @@ class EnglishEntryanomalous extends StatelessWidget {
                                   text:
                                       "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnomalous1013("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnomalous1013(
-                                    // REPLACE: anomalous /əˈnɑːmələs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnomalous1013("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnomalous1013(
+                                        // REPLACE: anomalous /əˈnɑːmələs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

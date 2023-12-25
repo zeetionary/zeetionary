@@ -134,13 +134,18 @@ class EnglishEntryadulterer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھاوسەرەکەی زیناکارێکی خراپ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdulterer2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdulterer2534(
-                                    // REPLACE: adulterer /əˈdʌltərər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAdulterer2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdulterer2534(
+                                        // REPLACE: adulterer /əˈdʌltərər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

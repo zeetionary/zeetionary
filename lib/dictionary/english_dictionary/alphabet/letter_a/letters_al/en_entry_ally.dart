@@ -137,13 +137,17 @@ class EnglishEntryally extends StatelessWidget {
                                   text:
                                       "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlly4211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlly4211(// REPLACE: ally /ˈælaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlly4211("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlly4211(// REPLACE: ally /ˈælaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryally extends StatelessWidget {
                                   text:
                                       "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlly4322("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlly4322(// REPLACE: ally /ˈælaɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlly4322("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlly4322(// REPLACE: ally /ˈælaɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

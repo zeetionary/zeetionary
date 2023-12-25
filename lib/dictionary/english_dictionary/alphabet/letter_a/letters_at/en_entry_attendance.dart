@@ -187,13 +187,18 @@ class EnglishEntryattendance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئامادەبوون لەم وانانە ناچاری نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttendance817("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttendance817(// REPLACE: attendance
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttendance817("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttendance817(
+                                        // REPLACE: attendance
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryattendance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttendance819("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttendance819(// REPLACE: attendance
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttendance819("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttendance819(
+                                        // REPLACE: attendance
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

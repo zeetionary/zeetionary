@@ -177,11 +177,15 @@ class EnglishEntrybirthrate extends StatelessWidget {
                                   text:
                                       "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBirthrates1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBirthrates1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBirthrates1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBirthrates1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

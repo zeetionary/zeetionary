@@ -179,13 +179,18 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   text:
                                       "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalogue85096("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalogue85096(
-                                    // REPLACE: analogue /ˈænəlɔːɡ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalogue85096("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalogue85096(
+                                        // REPLACE: analogue /ˈænəlɔːɡ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   text:
                                       "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalogue79005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalogue79005(
-                                    // REPLACE: analogue /ˈænəlɔːɡ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalogue79005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalogue79005(
+                                        // REPLACE: analogue /ˈænəlɔːɡ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +235,17 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   text:
                                       "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalogue8506("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalogue8506(
-                                    // REPLACE: analogue /ˈænəlɔːɡ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalogue8506("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalogue8506(
+                                        // REPLACE: analogue /ˈænəlɔːɡ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryallegory extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegory3566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegory3566(
-                                    // REPLACE: allegory /ˈæləɡɔːri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllegory3566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegory3566(
+                                        // REPLACE: allegory /ˈæləɡɔːri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

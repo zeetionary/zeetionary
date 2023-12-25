@@ -136,13 +136,17 @@ class EnglishEntryadaptation extends StatelessWidget {
                                   text:
                                       "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdapt3254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdapt3254(
-                                    // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdapt3254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdapt3254(
+                                        // REPLACE: adaptation /ˌædæpˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadaptation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سازاندنی فیلمیی ماکبێسی شکسپیر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdaptat2489("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdaptat2489(
-                                    // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdaptat2489("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdaptat2489(
+                                        // REPLACE: adaptation /ˌædæpˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

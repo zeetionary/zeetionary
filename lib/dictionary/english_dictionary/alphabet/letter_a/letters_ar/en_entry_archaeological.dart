@@ -185,14 +185,18 @@ class EnglishEntryarchaeological extends StatelessWidget {
                                   text:
                                       "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakArchaeological240("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaeological240(
-                                    // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchaeological240("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaeological240(
+                                        // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

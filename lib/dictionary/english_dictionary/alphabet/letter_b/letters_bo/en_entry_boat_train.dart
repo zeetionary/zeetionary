@@ -173,11 +173,15 @@ class EnglishEntryboattrain extends StatelessWidget {
                                   text:
                                       "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ ھارویچ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboattrains1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboattrains1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboattrains1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboattrains1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

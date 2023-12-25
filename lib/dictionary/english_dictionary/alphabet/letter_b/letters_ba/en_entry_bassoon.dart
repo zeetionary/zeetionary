@@ -170,11 +170,15 @@ class EnglishEntrybassoon extends StatelessWidget {
                                   text:
                                       "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBassoons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBassoons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBassoons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBassoons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

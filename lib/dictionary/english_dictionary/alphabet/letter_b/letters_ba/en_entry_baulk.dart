@@ -179,11 +179,15 @@ class EnglishEntrybaulk extends StatelessWidget {
                                   text:
                                       "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaulks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaulks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaulks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaulks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybaulk extends StatelessWidget {
                                   text:
                                       "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaulks2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaulks2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaulks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaulks2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntrybaulk extends StatelessWidget {
                                   text:
                                       "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaulks3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaulks3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaulks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaulks3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

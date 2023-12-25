@@ -174,11 +174,15 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakdopsum1s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakdopsum1s1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakdopsum1s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakdopsum1s1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -180,11 +180,15 @@ class EnglishEntrybeast extends StatelessWidget {
                                   text:
                                       "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeasts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeasts1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeasts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeasts1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,11 +205,15 @@ class EnglishEntrybeast extends StatelessWidget {
                                   text:
                                       "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeasts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeasts2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeasts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeasts2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntrybeast extends StatelessWidget {
                                   text:
                                       "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeasts3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeasts3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeasts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeasts3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +253,15 @@ class EnglishEntrybeast extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گیتارە تازەکەی دانەیەکی زۆر گرانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeasts4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeasts4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeasts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeasts4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

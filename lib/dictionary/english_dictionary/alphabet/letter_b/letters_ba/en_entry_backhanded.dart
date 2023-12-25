@@ -179,13 +179,17 @@ class EnglishEntrybackhanded extends StatelessWidget {
                                   text:
                                       "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackhandeds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackhandeds2(// REPLACE: backhanded
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackhandeds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackhandeds2(// REPLACE: backhanded
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

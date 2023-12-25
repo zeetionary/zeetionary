@@ -177,11 +177,15 @@ class EnglishEntrybecoming extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جلەکەت زۆر جوان لێ دێت، ئازیزم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBecomings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBecomings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBecomings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBecomings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybecoming extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارێکی شیاو نەبوو بۆ مامۆستایەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBecomings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBecomings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBecomings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBecomings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

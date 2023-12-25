@@ -179,13 +179,18 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   text:
                                       "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalgesic5802("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalgesic5802(
-                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalgesic5802("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalgesic5802(
+                                        // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +205,17 @@ class EnglishEntryanalgesic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەسپرین ئازارشکێنێکی سووکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalgesic101("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalgesic101(
-                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalgesic101("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalgesic101(
+                                        // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

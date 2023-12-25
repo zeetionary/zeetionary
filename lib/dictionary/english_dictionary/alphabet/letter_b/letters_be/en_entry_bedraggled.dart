@@ -177,11 +177,15 @@ class EnglishEntrybedraggled extends StatelessWidget {
                                   text:
                                       "بە ئەستەم ئەو کەسە شێواوەم ناسییەوە کە لە زریانەکەوە دەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedraggleds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedraggleds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedraggleds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedraggleds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

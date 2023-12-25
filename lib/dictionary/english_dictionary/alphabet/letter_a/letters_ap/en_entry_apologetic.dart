@@ -185,17 +185,22 @@ class EnglishEntryapologetic extends StatelessWidget {
                                   text:
                                       "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApologetic255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologetic255(
-                                    // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApologetic255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologetic255(
+                                        // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -205,13 +210,18 @@ class EnglishEntryapologetic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەداخ بوو بۆ ھەڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApologetic256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologetic256(
-                                    // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApologetic256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologetic256(
+                                        // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

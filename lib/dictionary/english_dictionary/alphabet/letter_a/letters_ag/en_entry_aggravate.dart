@@ -131,13 +131,17 @@ class EnglishEntryaggravate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggrav25189("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggrav25189(
-                                    // REPLACE: aggravate /ˈæɡrəveɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggrav25189("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggrav25189(
+                                        // REPLACE: aggravate /ˈæɡrəveɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -151,13 +155,17 @@ class EnglishEntryaggravate extends StatelessWidget {
                                   text:
                                       "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggrav3744("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggrav3744(
-                                    // REPLACE: aggravate /ˈæɡrəveɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggrav3744("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggrav3744(
+                                        // REPLACE: aggravate /ˈæɡrəveɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

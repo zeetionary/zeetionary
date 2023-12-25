@@ -178,13 +178,17 @@ class EnglishEntryavoidance extends StatelessWidget {
                                   text:
                                       "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvoidances1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvoidances1(// REPLACE: avoidance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvoidances1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvoidances1(// REPLACE: avoidance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

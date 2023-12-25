@@ -186,13 +186,18 @@ class EnglishEntryapprehension extends StatelessWidget {
                                   text:
                                       "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehension933("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehension933(
-                                    // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprehension933("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehension933(
+                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +212,18 @@ class EnglishEntryapprehension extends StatelessWidget {
                                   text:
                                       "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehension935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehension935(
-                                    // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprehension935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehension935(
+                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +240,18 @@ class EnglishEntryapprehension extends StatelessWidget {
                                   text:
                                       "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehension939("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehension939(
-                                    // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprehension939("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehension939(
+                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

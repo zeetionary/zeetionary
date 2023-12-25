@@ -178,13 +178,17 @@ class EnglishEntryanecdote extends StatelessWidget {
                                   text:
                                       "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnecdote5407("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnecdote5407(
-                                    // REPLACE: anecdote /ˈænɪkdəʊt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnecdote5407("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnecdote5407(
+                                        // REPLACE: anecdote /ˈænɪkdəʊt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryanecdote extends StatelessWidget {
                                   text:
                                       "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnecdote460("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnecdote460(
-                                    // REPLACE: anecdote /ˈænɪkdəʊt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnecdote460("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnecdote460(
+                                        // REPLACE: anecdote /ˈænɪkdəʊt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

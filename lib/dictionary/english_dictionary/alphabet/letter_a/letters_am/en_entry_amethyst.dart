@@ -199,13 +199,18 @@ class EnglishEntryamethyst extends StatelessWidget {
                                   text:
                                       "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmethyst47666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmethyst47666(
-                                    // REPLACE: amethyst /ˈæməθɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmethyst47666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmethyst47666(
+                                        // REPLACE: amethyst /ˈæməθɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

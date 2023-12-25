@@ -179,11 +179,15 @@ class EnglishEntrybesiege extends StatelessWidget {
                                   text:
                                       "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesieges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesieges1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesieges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesieges1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybesiege extends StatelessWidget {
                                   text:
                                       "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesieges2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesieges2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesieges2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesieges2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntrybesiege extends StatelessWidget {
                                   text:
                                       "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBesieges3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBesieges3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBesieges3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBesieges3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

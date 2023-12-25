@@ -186,13 +186,17 @@ class EnglishEntryasterisk extends StatelessWidget {
                                   text:
                                       "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsterisk940("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsterisk940(
-                                    // REPLACE: asterisk /ˈæstərɪsk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsterisk940("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsterisk940(
+                                        // REPLACE: asterisk /ˈæstərɪsk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryasterisk extends StatelessWidget {
                                   text:
                                       "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsterisk943("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsterisk943(
-                                    // REPLACE: asterisk /ˈæstərɪsk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsterisk943("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsterisk943(
+                                        // REPLACE: asterisk /ˈæstərɪsk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -192,13 +192,17 @@ class EnglishEntryarrest extends StatelessWidget {
                                   text:
                                       "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest420("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest420(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest420("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest420(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +216,17 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest421("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest421(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest421("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest421(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +243,17 @@ class EnglishEntryarrest extends StatelessWidget {
                                   text:
                                       "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest425("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest425(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest425("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest425(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryarrest extends StatelessWidget {
                                   text:
                                       "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest426("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest426(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest426("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest426(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryarrest extends StatelessWidget {
                                   text:
                                       "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest428("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest428(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest428("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest428(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +322,17 @@ class EnglishEntryarrest extends StatelessWidget {
                                   text:
                                       "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest430("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest430(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest430("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest430(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,13 +347,17 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest432("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest432(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest432("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest432(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -345,13 +373,17 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گیانی لەدەستدا لە دوای وەستانی دڵی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrest435("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrest435(// REPLACE: arrest /əˈrest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrest435("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrest435(
+                                        // REPLACE: arrest /əˈrest/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

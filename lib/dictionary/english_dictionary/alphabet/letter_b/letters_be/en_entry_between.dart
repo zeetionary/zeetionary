@@ -327,11 +327,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "Q لە نێوان P و R دێت لە ئەلفوبێی ئینگلیزیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -344,11 +348,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە نێوان جیم و دایانا دانیشتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -363,11 +371,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "سویسرا لە نێوان فەرەنسا و ئەڵمانیا و نەمسا و ئیتالیایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -382,11 +394,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە نێوان ژەمە خواردنەکان شت مەخۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -401,11 +417,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "منداڵان دەبێت بچنە قوتابخانە لە نێوان تەمەنی ٥ بۆ ١٦ ساڵی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -421,11 +441,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کێشی لە نێوان نۆ بۆ دە کیلۆ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -442,11 +466,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -463,11 +491,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -483,11 +515,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دووژمنکاری زۆر لە نێوانیان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -502,11 +538,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "جیاوازی چییە لە نێوان ئەم کاتژمێرە ١٠٠ پاوەندییە و ئەوەی ٥٠٠ پاوەندە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -521,11 +561,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پیتزاکەمان بە ھاوبەشی خوارد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -540,11 +584,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -560,11 +608,15 @@ class EnglishEntrybetween extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت بتوانین پێکەوە بەڕێوەی ببەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -579,11 +631,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens14("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens14("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -600,11 +656,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens15("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens15("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -621,11 +681,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "ماڵەکە لە نزیک پارکێک بوو، بەڵام ڕێگایەک لە نێوانیان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens16("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens16("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -640,11 +704,15 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetweens17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetweens17("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetweens17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetweens17("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

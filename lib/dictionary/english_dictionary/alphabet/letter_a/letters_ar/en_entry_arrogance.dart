@@ -185,13 +185,17 @@ class EnglishEntryarrogance extends StatelessWidget {
                                   text:
                                       "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrogance721("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrogance721(
-                                    // REPLACE: arrogance /ˈærəɡəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrogance721("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrogance721(
+                                        // REPLACE: arrogance /ˈærəɡəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

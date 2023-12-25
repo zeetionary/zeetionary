@@ -176,11 +176,15 @@ class EnglishEntrybinding extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیارەکە بەسەر ھەردوولادا دەچەسپێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBindings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBindings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBindings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBindings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybinding extends StatelessWidget {
                                   text:
                                       "کتێبێکی لەسەر ڕەفەکە ھەڵگرت بەھۆی دڵچوونی لە قەراغە ئاڵتوونییەکانی پەڕەکانی و بەرگە سەوزە چەرمەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBindings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBindings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBindings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBindings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -218,11 +226,15 @@ class EnglishEntrybinding extends StatelessWidget {
                                   text:
                                       "چاکەتەکە بە جوانی تەواو بووە، لەگەڵ باریکە لەسەر تەقەڵەکانی و گیرفانەکانی کە خۆڕاگری پێدەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBindings3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBindings3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBindings3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBindings3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

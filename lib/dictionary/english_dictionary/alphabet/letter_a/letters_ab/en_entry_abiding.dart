@@ -111,11 +111,15 @@ class EnglishEntryabiding extends StatelessWidget {
                                   text:
                                       "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA625("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA625("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA625("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA625("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

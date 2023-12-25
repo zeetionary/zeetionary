@@ -175,11 +175,15 @@ class EnglishEntryboneidle extends StatelessWidget {
                                   text:
                                       "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboneidles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboneidles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboneidles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboneidles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

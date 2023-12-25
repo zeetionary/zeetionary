@@ -180,17 +180,21 @@ class EnglishEntryanger extends StatelessWidget {
                                   text:
                                       "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnger104("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnger104(// REPLACE: anger /ˈæŋɡər/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnger104("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnger104(// REPLACE: anger /ˈæŋɡər/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -201,13 +205,17 @@ class EnglishEntryanger extends StatelessWidget {
                                   text:
                                       "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnger407("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnger407(// REPLACE: anger /ˈæŋɡər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnger407("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnger407(
+                                        // REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,17 +230,21 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پرسیارەکە بەڕوونی تووڕەی‌کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnger005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnger005(// REPLACE: anger /ˈæŋɡər/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnger005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnger005(// REPLACE: anger /ˈæŋɡər/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -243,13 +255,17 @@ class EnglishEntryanger extends StatelessWidget {
                                   text:
                                       "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnger950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnger950(// REPLACE: anger /ˈæŋɡər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnger950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnger950(
+                                        // REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

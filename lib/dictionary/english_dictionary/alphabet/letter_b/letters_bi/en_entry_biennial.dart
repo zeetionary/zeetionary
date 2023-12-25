@@ -178,11 +178,15 @@ class EnglishEntrybiennial extends StatelessWidget {
                                   text:
                                       "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiennials1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiennials1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiennials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiennials1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybiennial extends StatelessWidget {
                                   text:
                                       "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiennials2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiennials2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiennials2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiennials2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

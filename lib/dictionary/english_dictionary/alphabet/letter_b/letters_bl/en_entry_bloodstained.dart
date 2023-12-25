@@ -174,11 +174,17 @@ class EnglishEntrybloodstained extends StatelessWidget {
                                   text:
                                       "جلوبەرگی خوێناوی دۆزرایەوە لە شوێنی تاوانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodstaineds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodstaineds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodstaineds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodstaineds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +201,17 @@ class EnglishEntrybloodstained extends StatelessWidget {
                                   text:
                                       "بۆ چەندین دەیەیە وەک تیرۆریستێکی ترسناک دانراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodstaineds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodstaineds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodstaineds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodstaineds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

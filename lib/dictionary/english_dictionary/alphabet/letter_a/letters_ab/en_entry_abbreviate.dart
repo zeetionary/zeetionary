@@ -111,11 +111,17 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                                   text:
                                       "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbbreviate1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbbreviate1125("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAbbreviate1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAbbreviate1125("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybiggame extends StatelessWidget {
                                   text:
                                       "ڕاوکەران بەشوێن ورچە قاوەییەکە بوون، کە یەکێکە لە ئاژەڵە گەورەکانی ڕاوکردن لە باکووری ئەمریکادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiggames1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiggames1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiggames1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiggames1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

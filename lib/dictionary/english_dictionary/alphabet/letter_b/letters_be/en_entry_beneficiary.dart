@@ -178,11 +178,17 @@ class EnglishEntrybeneficiary extends StatelessWidget {
                                   text:
                                       "ژنەکەی سوودمەندی سەرەکی وەسیەتەکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeneficiarys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeneficiarys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBeneficiarys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBeneficiarys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +205,17 @@ class EnglishEntrybeneficiary extends StatelessWidget {
                                   text:
                                       "تەنھا کەسی میراتگر بوو لە وەسیەتەکەی باوکیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeneficiarys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeneficiarys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBeneficiarys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBeneficiarys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

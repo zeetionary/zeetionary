@@ -135,12 +135,17 @@ class EnglishEntryactor extends StatelessWidget {
                                   text:
                                       "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActo459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActo459(// REPLACE: actor
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActo459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActo459(// REPLACE: actor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +161,17 @@ class EnglishEntryactor extends StatelessWidget {
                                   text:
                                       "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActor25687("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakActor25687(// REPLACE: actor
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActor25687("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActor25687(// REPLACE: actor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

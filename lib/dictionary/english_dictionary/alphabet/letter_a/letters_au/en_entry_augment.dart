@@ -184,13 +184,17 @@ class EnglishEntryaugment extends StatelessWidget {
                                   text:
                                       "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAugment304("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAugment304(// REPLACE: augment
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAugment304("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAugment304(// REPLACE: augment
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

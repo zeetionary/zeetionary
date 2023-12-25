@@ -186,13 +186,18 @@ class EnglishEntryarticulately extends StatelessWidget {
                                   text:
                                       "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticulately750("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticulately750(
-                                    // REPLACE: articulately /ɑːrˈtɪkjələtli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArticulately750("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticulately750(
+                                        // REPLACE: articulately /ɑːrˈtɪkjələtli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

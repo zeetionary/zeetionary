@@ -178,13 +178,17 @@ class EnglishEntrybanter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanters1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanters1(// REPLACE: banter
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanters1(// REPLACE: banter
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntrybanter extends StatelessWidget {
                                   text:
                                       "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanters2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanters2(// REPLACE: banter
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanters2(// REPLACE: banter
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

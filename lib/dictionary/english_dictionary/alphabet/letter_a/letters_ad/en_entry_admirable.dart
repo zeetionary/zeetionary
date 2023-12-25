@@ -133,13 +133,18 @@ class EnglishEntryadmirable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmirable4258("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmirable4258(
-                                    // REPLACE: admirable /ˈædmərəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAdmirable4258("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmirable4258(
+                                        // REPLACE: admirable /ˈædmərəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

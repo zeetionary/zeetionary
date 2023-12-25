@@ -138,14 +138,18 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   text:
                                       "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmalgamation45999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmalgamation45999(
-                                    // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmalgamation45999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmalgamation45999(
+                                        // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,18 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   text:
                                       "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmalgamation4444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmalgamation4444(
-                                    // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmalgamation4444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmalgamation4444(
+                                        // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

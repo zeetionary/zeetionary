@@ -138,14 +138,18 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                   text:
                                       "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAlternatingcurrent124("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternatingcurrent124(
-                                    // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternatingcurrent124("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternatingcurrent124(
+                                        // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

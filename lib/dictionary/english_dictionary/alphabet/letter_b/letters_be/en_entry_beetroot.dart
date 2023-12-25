@@ -177,11 +177,15 @@ class EnglishEntrybeetroot extends StatelessWidget {
                                   text:
                                       "چەوەندەرەکەی ڕەندکردە ناو زەڵاتەکە بۆ پێدانی ڕەنگ و خرمەخرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeetroots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeetroots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeetroots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeetroots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

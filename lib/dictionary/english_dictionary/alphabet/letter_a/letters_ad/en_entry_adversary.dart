@@ -135,13 +135,17 @@ class EnglishEntryadversary extends StatelessWidget {
                                   text:
                                       "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdver66982("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdver66982(
-                                    // REPLACE: adversary /ˈædvərsəri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdver66982("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdver66982(
+                                        // REPLACE: adversary /ˈædvərsəri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

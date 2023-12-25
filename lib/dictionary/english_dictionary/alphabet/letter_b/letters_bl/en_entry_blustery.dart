@@ -173,11 +173,15 @@ class EnglishEntryblustery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژەکە سارد و پڕبا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblusterys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblusterys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblusterys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblusterys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

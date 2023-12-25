@@ -182,12 +182,17 @@ class EnglishEntrybadge extends StatelessWidget {
                                   text:
                                       "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadges1(// REPLACE: badge
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadges1(// REPLACE: badge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,12 +206,17 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadges2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadges2(// REPLACE: badge
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadges2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadges2(// REPLACE: badge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntrybadge extends StatelessWidget {
                                   text:
                                       "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadges3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadges3(// REPLACE: badge
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadges3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadges3(// REPLACE: badge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,12 +259,17 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadges4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadges4(// REPLACE: badge
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadges4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadges4(// REPLACE: badge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -263,12 +283,17 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "برینەکانی وەک سمبولی شکۆداری دەبینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadges5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadges5(// REPLACE: badge
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadges5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadges5(// REPLACE: badge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

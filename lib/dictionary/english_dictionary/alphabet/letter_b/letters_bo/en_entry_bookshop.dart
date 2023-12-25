@@ -173,11 +173,15 @@ class EnglishEntrybookshop extends StatelessWidget {
                                   text:
                                       "داوام لە کتێب‌فرۆشەکە کرد ژمارەیەک کتێب بێنن کە لە فرۆشگاکە نەبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookshops1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookshops1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookshops1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookshops1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

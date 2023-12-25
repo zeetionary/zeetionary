@@ -179,11 +179,17 @@ class EnglishEntrybibliographer extends StatelessWidget {
                                   text:
                                       "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibliographers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibliographers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBibliographers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBibliographers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

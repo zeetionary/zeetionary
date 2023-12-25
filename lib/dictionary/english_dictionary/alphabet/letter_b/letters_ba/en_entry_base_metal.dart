@@ -170,11 +170,15 @@ class EnglishEntrybasemetal extends StatelessWidget {
                                   text:
                                       "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasemetals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasemetals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasemetals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasemetals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

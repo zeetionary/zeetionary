@@ -175,11 +175,15 @@ class EnglishEntrybikini extends StatelessWidget {
                                   text:
                                       "فرۆشگاکە ڕێژەیەکی ھەمەجۆری جلەمەلێی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBikinis1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBikinis1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBikinis1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBikinis1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

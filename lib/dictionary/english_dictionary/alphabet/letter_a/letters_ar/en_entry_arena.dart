@@ -184,13 +184,17 @@ class EnglishEntryarena extends StatelessWidget {
                                   text:
                                       "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArena1042("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArena1042(// REPLACE: arena /əˈriːnə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArena1042("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArena1042(
+                                        // REPLACE: arena /əˈriːnə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarena extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArena1045("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArena1045(// REPLACE: arena /əˈriːnə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArena1045("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArena1045(
+                                        // REPLACE: arena /əˈriːnə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

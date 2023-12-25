@@ -178,11 +178,15 @@ class EnglishEntrybooster extends StatelessWidget {
                                   text:
                                       "مووشەکەکە جیابووەوە لەدوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosters1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosters1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosters1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybooster extends StatelessWidget {
                                   text:
                                       "بەھێزکەری وایفایەکە مەودای پەیوەستبوون بە ئینتەرنێتەوە زیاد دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosters2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosters2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosters2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybooster extends StatelessWidget {
                                   text:
                                       "ئەگەر پلانت ھەیە گەشت بۆ باکووری ئەفریقا بکەیت، وا باشە کوتانی دژ بە گرانەتا و ئیفلیجی منداڵان وەربگریت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosters3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosters3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosters3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosters3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +253,15 @@ class EnglishEntrybooster extends StatelessWidget {
                                   text:
                                       "بردنەوەی ئەم یارییە ورەبەخشەرێکی بەھێز بوو بۆ تیمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboosters4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboosters4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboosters4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboosters4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

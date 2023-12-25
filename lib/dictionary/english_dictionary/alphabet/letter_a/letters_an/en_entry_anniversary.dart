@@ -178,13 +178,18 @@ class EnglishEntryanniversary extends StatelessWidget {
                                   text:
                                       "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnniversary147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnniversary147(
-                                    // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnniversary147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnniversary147(
+                                        // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

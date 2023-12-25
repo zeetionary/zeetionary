@@ -116,11 +116,15 @@ class EnglishEntryabruptly extends StatelessWidget {
                                   text:
                                       "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2416("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2416("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2416("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2416("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,13 +179,18 @@ class EnglishEntryamusement extends StatelessWidget {
                                   text:
                                       "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmusement440963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmusement440963(
-                                    // REPLACE: amusement /əˈmjuːzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmusement440963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmusement440963(
+                                        // REPLACE: amusement /əˈmjuːzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryamusement extends StatelessWidget {
                                   text:
                                       "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmusement4418("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmusement4418(
-                                    // REPLACE: amusement /əˈmjuːzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmusement4418("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmusement4418(
+                                        // REPLACE: amusement /əˈmjuːzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +234,18 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmusement5903("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmusement5903(
-                                    // REPLACE: amusement /əˈmjuːzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmusement5903("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmusement5903(
+                                        // REPLACE: amusement /əˈmjuːzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

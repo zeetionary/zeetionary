@@ -182,13 +182,18 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                   text:
                                       "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrageur1107("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrageur1107(
-                                    // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrageur1107("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrageur1107(
+                                        // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

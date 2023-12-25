@@ -136,13 +136,18 @@ class EnglishEntryalternately extends StatelessWidget {
                                   text:
                                       "جار نا جار ھەستی بە گەرما و سەرما دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternately45866("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternately45866(
-                                    // REPLACE: alternately /ˈɔːltərnətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternately45866("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternately45866(
+                                        // REPLACE: alternately /ˈɔːltərnətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -172,11 +172,15 @@ class EnglishEntryblab extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblabs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblabs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblabs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblabs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntryblab extends StatelessWidget {
                                   text:
                                       "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblabs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblabs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblabs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblabs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

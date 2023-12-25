@@ -184,13 +184,18 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                                   text:
                                       "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchaeologist251("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchaeologist251(
-                                    // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchaeologist251("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchaeologist251(
+                                        // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -112,11 +112,15 @@ class EnglishEntryabolish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم باجە دەبێت کۆتایی بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA34("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA34("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA34("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA34("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

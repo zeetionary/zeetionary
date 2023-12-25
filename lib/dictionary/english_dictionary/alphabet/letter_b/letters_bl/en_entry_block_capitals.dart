@@ -175,11 +175,17 @@ class EnglishEntryblockcapitals extends StatelessWidget {
                                   text:
                                       "تکایە ناو و ناونیشانت بە پیتی گەورە بنووسە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblockcapitalss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblockcapitalss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblockcapitalss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblockcapitalss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

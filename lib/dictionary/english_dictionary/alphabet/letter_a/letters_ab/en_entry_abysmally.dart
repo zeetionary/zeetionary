@@ -119,11 +119,15 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   text:
                                       "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb2147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb2147("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb2147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb2147("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

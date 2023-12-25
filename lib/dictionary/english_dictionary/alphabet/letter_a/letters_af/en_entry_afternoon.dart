@@ -134,13 +134,17 @@ class EnglishEntryafternoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە نیوەڕواندا دەچوون بۆ بازاڕ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAftern6288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAftern6288(
-                                    // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAftern6288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAftern6288(
+                                        // REPLACE: afternoon /ˌɑːftəˈnuːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,13 +156,17 @@ class EnglishEntryafternoon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نیوەڕۆی یەکشەمە وەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAftern481("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAftern481(
-                                    // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAftern481("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAftern481(
+                                        // REPLACE: afternoon /ˌɑːftəˈnuːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybillow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەردەکان تۆپەڵە بوون لە شنە باکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybillow extends StatelessWidget {
                                   text:
                                       "تۆپەڵێژی گەورە لە دووکەڵ لە دووکەڵ‌کێشەکەوە بەرزبوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillows2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillows2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillows2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillows2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybillow extends StatelessWidget {
                                   text:
                                       "جوتیارێک پەڵاشی دەسووتاند، تۆپەڵە دووکەڵ بەرەو سەرەوە بەرزدەبوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillows3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillows3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillows3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillows3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

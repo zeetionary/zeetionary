@@ -178,37 +178,44 @@ class EnglishEntryanarchy extends StatelessWidget {
                                   text:
                                       "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnarchy470("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnarchy470("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnarchy470(
+                                        // REPLACE: anarchy /ˈænərki/
+                                        "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnarchy470(
-                                    // REPLACE: anarchy /ˈænərki/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "There was complete anarchy in the classroom when their usual teacher was away."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnarchy041("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnarchy041(
+                                            // REPLACE: anarchy /ˈænərki/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was complete anarchy in the classroom when their usual teacher was away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnarchy041("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnarchy041(
-                                    // REPLACE: anarchy /ˈænərki/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

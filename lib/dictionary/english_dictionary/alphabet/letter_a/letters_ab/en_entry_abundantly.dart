@@ -128,11 +128,15 @@ class EnglishEntryabundantly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆزگەکانی تەواو ئاشکرا کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb25963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb25963("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb25963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb25963("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryabundantly extends StatelessWidget {
                                   text:
                                       "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA15247("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA15247("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA15247("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA15247("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

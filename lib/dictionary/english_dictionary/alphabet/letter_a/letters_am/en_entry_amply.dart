@@ -175,13 +175,17 @@ class EnglishEntryamply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵەکانی بەزیادەوە بەخشیشکران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmply459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmply459(// REPLACE: amply /ˈæmpli/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmply459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmply459(// REPLACE: amply /ˈæmpli/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybeehive extends StatelessWidget {
                                   text:
                                       "منداڵەکان سەیری ھەنگەوانەکەیان دەکرد کە بە وریاییەوە ھەنگوینەکەی لە کەلووەکە دەردەھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeehives1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeehives1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeehives1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeehives1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybeehive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ ئاھەنگەکە قژی بە کەلوویی داھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeehives2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeehives2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeehives2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeehives2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

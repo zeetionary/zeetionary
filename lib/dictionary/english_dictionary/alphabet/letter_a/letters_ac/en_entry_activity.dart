@@ -144,13 +144,17 @@ class EnglishEntryactivity extends StatelessWidget {
                                   text:
                                       "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAactiv2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAactiv2537(// REPLACE: activity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAactiv2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAactiv2537(// REPLACE: activity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -164,13 +168,17 @@ class EnglishEntryactivity extends StatelessWidget {
                                   text:
                                       "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAactivi4687("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAactivi4687(// REPLACE: activity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAactivi4687("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAactivi4687(// REPLACE: activity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -186,13 +194,17 @@ class EnglishEntryactivity extends StatelessWidget {
                                   text:
                                       "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAactivi4584("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAactivi4584(// REPLACE: activity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAactivi4584("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAactivi4584(// REPLACE: activity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +220,17 @@ class EnglishEntryactivity extends StatelessWidget {
                                   text:
                                       "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAactiv2468("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAactiv2468(// REPLACE: activity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAactiv2468("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAactiv2468(// REPLACE: activity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

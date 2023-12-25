@@ -136,37 +136,44 @@ class EnglishEntryamend extends StatelessWidget {
                                   text:
                                       "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmend466("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmend466("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmend466(// REPLACE: amend /əˈmend/
+                                            "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmend466(// REPLACE: amend /əˈmend/
-                                        "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "MPs were urged to amend the law to prevent another oil tanker disaster."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAmend49996("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAmend49996(
+                                            // REPLACE: amend /əˈmend/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "MPs were urged to amend the law to prevent another oil tanker disaster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmend49996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmend49996(// REPLACE: amend /əˈmend/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

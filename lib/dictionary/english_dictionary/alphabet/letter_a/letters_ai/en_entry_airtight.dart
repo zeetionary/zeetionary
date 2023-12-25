@@ -135,13 +135,18 @@ class EnglishEntryairtight extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirtight45222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirtight45222(
-                                    // REPLACE: airtight /ˈertaɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirtight45222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirtight45222(
+                                        // REPLACE: airtight /ˈertaɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

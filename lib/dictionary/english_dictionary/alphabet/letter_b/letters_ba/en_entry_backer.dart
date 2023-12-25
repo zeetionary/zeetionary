@@ -178,12 +178,17 @@ class EnglishEntrybacker extends StatelessWidget {
                                   text:
                                       "پڕۆژەکە پارە بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backer
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backer
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,12 +177,17 @@ class EnglishEntrybaboon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مووی ئەستووری ڕەشی ھەیە وەک بابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: baboon
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: baboon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

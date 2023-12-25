@@ -176,11 +176,15 @@ class EnglishEntryborough extends StatelessWidget {
                                   text:
                                       "برۆنکس یەکێکە لە پێنج مەڵبەندەکەی نیویۆرک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboroughs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboroughs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboroughs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboroughs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,13 +196,17 @@ class EnglishEntryborough extends StatelessWidget {
                                       "She served as a local councillor in the London Borough of Westminster."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وەک ئەندامی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد."),
+                                      "وەک ئەندامی ئەنجوومەنی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboroughs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboroughs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboroughs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboroughs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

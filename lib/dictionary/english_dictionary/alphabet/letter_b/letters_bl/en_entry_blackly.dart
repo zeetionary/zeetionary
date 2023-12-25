@@ -172,11 +172,15 @@ class EnglishEntryblackly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacklys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacklys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacklys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacklys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

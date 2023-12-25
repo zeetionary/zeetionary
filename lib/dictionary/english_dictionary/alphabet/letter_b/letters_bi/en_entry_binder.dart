@@ -179,11 +179,15 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinders2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinders2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinders2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinders2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinders3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinders3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinders3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinders3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +253,15 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinders4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinders4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinders4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinders4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

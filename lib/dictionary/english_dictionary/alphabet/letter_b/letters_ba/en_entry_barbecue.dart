@@ -171,13 +171,17 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbecues1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbecues1(// REPLACE: barbecue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbecues1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbecues1(// REPLACE: barbecue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,13 +196,17 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "با لە دەرەوە نان بخۆین!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbecues2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbecues2(// REPLACE: barbecue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbecues2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbecues2(// REPLACE: barbecue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,13 +221,17 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سنگی مریشکی لە مەقاڵەدراومان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbecues3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbecues3(// REPLACE: barbecue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbecues3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbecues3(// REPLACE: barbecue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

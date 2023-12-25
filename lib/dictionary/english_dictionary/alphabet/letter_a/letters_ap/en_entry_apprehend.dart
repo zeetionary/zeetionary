@@ -182,13 +182,17 @@ class EnglishEntryapprehend extends StatelessWidget {
                                   text:
                                       "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehend922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehend922(
-                                    // REPLACE: apprehend /ˌæprɪˈhend/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApprehend922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehend922(
+                                        // REPLACE: apprehend /ˌæprɪˈhend/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryapprehend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "درەنگ ھەستی بە مەترسی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehend924("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehend924(
-                                    // REPLACE: apprehend /ˌæprɪˈhend/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApprehend924("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehend924(
+                                        // REPLACE: apprehend /ˌæprɪˈhend/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

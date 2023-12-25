@@ -186,13 +186,18 @@ class EnglishEntryartistically extends StatelessWidget {
                                   text:
                                       "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtistically930("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtistically930(
-                                    // REPLACE: artistically /ɑːrˈtɪstɪkli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtistically930("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtistically930(
+                                        // REPLACE: artistically /ɑːrˈtɪstɪkli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

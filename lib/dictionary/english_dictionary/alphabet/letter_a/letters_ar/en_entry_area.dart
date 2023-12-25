@@ -213,13 +213,17 @@ class EnglishEntryarea extends StatelessWidget {
                                   text:
                                       "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea957("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea957(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea957("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea957(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +238,17 @@ class EnglishEntryarea extends StatelessWidget {
                                   text:
                                       "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1002("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1002(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1002("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1002(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -257,13 +265,17 @@ class EnglishEntryarea extends StatelessWidget {
                                   text:
                                       "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1005(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1005(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,13 +292,17 @@ class EnglishEntryarea extends StatelessWidget {
                                   text:
                                       "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1015("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1015(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1015("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1015(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +318,17 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەوە لە دەرەوەی شارەزایی منە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1018("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1018(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1018("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1018(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,13 +343,17 @@ class EnglishEntryarea extends StatelessWidget {
                                   text:
                                       "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1020("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1020(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1020("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1020(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -345,13 +369,17 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArea1022("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArea1022(// REPLACE: area /ˈeriə/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArea1022("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArea1022(// REPLACE: area /ˈeriə/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

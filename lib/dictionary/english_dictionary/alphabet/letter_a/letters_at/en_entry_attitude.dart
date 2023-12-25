@@ -188,13 +188,17 @@ class EnglishEntryattitude extends StatelessWidget {
                                   text:
                                       "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttitude1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttitude1030(// REPLACE: attitude
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttitude1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttitude1030(// REPLACE: attitude
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryattitude extends StatelessWidget {
                                   text:
                                       "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕی گەنج."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttitude1034("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttitude1034(// REPLACE: attitude
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttitude1034("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttitude1034(// REPLACE: attitude
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +242,17 @@ class EnglishEntryattitude extends StatelessWidget {
                                   text:
                                       "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttitude1036("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttitude1036(// REPLACE: attitude
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttitude1036("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttitude1036(// REPLACE: attitude
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

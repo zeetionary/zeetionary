@@ -178,11 +178,15 @@ class EnglishEntrybluff extends StatelessWidget {
                                   text:
                                       "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluffs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluffs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluffs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluffs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybluff extends StatelessWidget {
                                   text:
                                       "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluffs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluffs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluffs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluffs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,11 +225,15 @@ class EnglishEntrybluff extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluffs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluffs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluffs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluffs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -238,11 +250,15 @@ class EnglishEntrybluff extends StatelessWidget {
                                   text:
                                       "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluffs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluffs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluffs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluffs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

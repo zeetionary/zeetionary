@@ -178,11 +178,15 @@ class EnglishEntrybiological extends StatelessWidget {
                                   text:
                                       "خواردن پێویستییەکە لە ڕووی زیندەناسییەوە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologicals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologicals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologicals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologicals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybiological extends StatelessWidget {
                                   text:
                                       "کاریگەرییەکانی زیندەیی تیشکی مادە تیشکدەرەکان دەکرێت ببێتە ھۆی شێرپەنجە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologicals2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologicals2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologicals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologicals2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +228,15 @@ class EnglishEntrybiological extends StatelessWidget {
                                   text:
                                       "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologicals3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologicals3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologicals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologicals3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

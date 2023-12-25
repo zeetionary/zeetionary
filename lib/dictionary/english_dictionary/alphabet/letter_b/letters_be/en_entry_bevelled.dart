@@ -177,11 +177,15 @@ class EnglishEntrybevelled extends StatelessWidget {
                                   text:
                                       "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBevelleds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBevelleds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBevelleds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBevelleds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

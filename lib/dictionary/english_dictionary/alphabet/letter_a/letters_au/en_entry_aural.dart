@@ -186,12 +186,17 @@ class EnglishEntryaural extends StatelessWidget {
                                   text:
                                       "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAural422("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAural422(// REPLACE: aural
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAural422("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAural422(// REPLACE: aural
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

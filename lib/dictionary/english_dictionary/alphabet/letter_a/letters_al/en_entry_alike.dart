@@ -154,13 +154,17 @@ class EnglishEntryalike extends StatelessWidget {
                                   text:
                                       "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlike76522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlike76522(// REPLACE: alike /əˈlaɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlike76522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlike76522(
+                                        // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,13 +180,17 @@ class EnglishEntryalike extends StatelessWidget {
                                   text:
                                       "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlike46789("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlike46789(// REPLACE: alike /əˈlaɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlike46789("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlike46789(
+                                        // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,13 +204,17 @@ class EnglishEntryalike extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlike3632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlike3632(// REPLACE: alike /əˈlaɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlike3632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlike3632(
+                                        // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

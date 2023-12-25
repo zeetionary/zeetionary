@@ -187,13 +187,18 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وادەیەکم لای دکتۆری ددان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppointment836("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppointment836(
-                                    // REPLACE: appointment /əˈpɔɪntmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppointment836("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppointment836(
+                                        // REPLACE: appointment /əˈpɔɪntmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryappointment extends StatelessWidget {
                                   text:
                                       "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppointment839("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppointment839(
-                                    // REPLACE: appointment /əˈpɔɪntmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppointment839("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppointment839(
+                                        // REPLACE: appointment /əˈpɔɪntmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryappointment extends StatelessWidget {
                                   text:
                                       "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppointment844("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppointment844(
-                                    // REPLACE: appointment /əˈpɔɪntmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppointment844("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppointment844(
+                                        // REPLACE: appointment /əˈpɔɪntmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +268,18 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppointment847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppointment847(
-                                    // REPLACE: appointment /əˈpɔɪntmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppointment847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppointment847(
+                                        // REPLACE: appointment /əˈpɔɪntmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -276,13 +296,18 @@ class EnglishEntryappointment extends StatelessWidget {
                                   text:
                                       "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppointment848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppointment848(
-                                    // REPLACE: appointment /əˈpɔɪntmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppointment848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppointment848(
+                                        // REPLACE: appointment /əˈpɔɪntmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -139,14 +139,18 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                   text:
                                       "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAlzheimersdisease6555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlzheimersdisease6555(
-                                    // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlzheimersdisease6555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlzheimersdisease6555(
+                                        // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

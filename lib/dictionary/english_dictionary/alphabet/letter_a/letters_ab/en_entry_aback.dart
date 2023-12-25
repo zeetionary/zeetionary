@@ -111,11 +111,15 @@ class EnglishEntryaback extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تووشی شۆک بوو بە توڕەییەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak1256935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak1256935("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak1256935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak1256935("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

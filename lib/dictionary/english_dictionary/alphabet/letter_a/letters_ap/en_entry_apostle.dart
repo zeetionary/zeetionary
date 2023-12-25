@@ -184,13 +184,17 @@ class EnglishEntryapostle extends StatelessWidget {
                                   text:
                                       "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostle627("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostle627(
-                                    // REPLACE: apostle /əˈpɑːsl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApostle627("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostle627(
+                                        // REPLACE: apostle /əˈpɑːsl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryapostle extends StatelessWidget {
                                   text:
                                       "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostle630("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostle630(
-                                    // REPLACE: apostle /əˈpɑːsl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApostle630("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostle630(
+                                        // REPLACE: apostle /əˈpɑːsl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -201,13 +201,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle11480("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle11480(// REPLACE: angle /ˈæŋɡl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle11480("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngle11480(
+                                        // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +228,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle46055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle46055(// REPLACE: angle /ˈæŋɡl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle46055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngle46055(
+                                        // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +255,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle45906("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle45906(// REPLACE: angle /ˈæŋɡl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle45906("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngle45906(
+                                        // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -268,13 +280,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle440("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle440(// REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle440("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAngle440(// REPLACE: angle /ˈæŋɡl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -291,13 +307,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle450("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle450(// REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle450("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAngle450(// REPLACE: angle /ˈæŋɡl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -314,13 +334,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle905("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle905(// REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle905("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAngle905(// REPLACE: angle /ˈæŋɡl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -337,13 +361,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle225870("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle225870(// REPLACE: angle /ˈæŋɡl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle225870("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngle225870(
+                                        // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -359,13 +387,17 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle5401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle5401(// REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle5401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAngle5401(// REPLACE: angle /ˈæŋɡl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -382,13 +414,17 @@ class EnglishEntryangle extends StatelessWidget {
                                   text:
                                       "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngle5580("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngle5580(// REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngle5580("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAngle5580(// REPLACE: angle /ˈæŋɡl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

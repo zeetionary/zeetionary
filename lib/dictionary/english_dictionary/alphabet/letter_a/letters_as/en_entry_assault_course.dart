@@ -184,13 +184,18 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                   text:
                                       "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssaultcourse915("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssaultcourse915(
-                                    // REPLACE: assault course /əˈsɔːlt kɔːrs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssaultcourse915("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssaultcourse915(
+                                        // REPLACE: assault course /əˈsɔːlt kɔːrs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

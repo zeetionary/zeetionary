@@ -187,14 +187,18 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                   text:
                                       "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAutobiographical911("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAutobiographical911(
-                                    // REPLACE: autobiographical
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutobiographical911("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAutobiographical911(
+                                        // REPLACE: autobiographical
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

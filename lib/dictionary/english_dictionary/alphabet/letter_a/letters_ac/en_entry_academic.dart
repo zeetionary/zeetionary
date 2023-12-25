@@ -155,11 +155,15 @@ class EnglishEntryacademic extends StatelessWidget {
                                   text:
                                       "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2579("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2579("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2579("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2579("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -175,11 +179,15 @@ class EnglishEntryacademic extends StatelessWidget {
                                   text:
                                       "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAa45897("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAa45897("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAa45897("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAa45897("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +203,15 @@ class EnglishEntryacademic extends StatelessWidget {
                                   text:
                                       "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2548("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2548("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2548("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2548("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +227,15 @@ class EnglishEntryacademic extends StatelessWidget {
                                   text:
                                       "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2569("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2569("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

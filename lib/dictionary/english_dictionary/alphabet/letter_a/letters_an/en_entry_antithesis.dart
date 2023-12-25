@@ -182,13 +182,18 @@ class EnglishEntryantithesis extends StatelessWidget {
                                   text:
                                       "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntithesis1248("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntithesis1248(
-                                    // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntithesis1248("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntithesis1248(
+                                        // REPLACE: antithesis /ænˈtɪθəsɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +210,18 @@ class EnglishEntryantithesis extends StatelessWidget {
                                   text:
                                       "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntithesis1251("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntithesis1251(
-                                    // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntithesis1251("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntithesis1251(
+                                        // REPLACE: antithesis /ænˈtɪθəsɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

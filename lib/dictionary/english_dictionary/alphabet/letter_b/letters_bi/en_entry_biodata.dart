@@ -177,11 +177,15 @@ class EnglishEntrybiodata extends StatelessWidget {
                                   text:
                                       "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiodatas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiodatas1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiodatas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiodatas1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

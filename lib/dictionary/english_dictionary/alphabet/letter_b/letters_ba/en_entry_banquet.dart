@@ -176,13 +176,17 @@ class EnglishEntrybanquet extends StatelessWidget {
                                   text:
                                       "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanquets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanquets1(// REPLACE: banquet
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanquets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanquets1(// REPLACE: banquet
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

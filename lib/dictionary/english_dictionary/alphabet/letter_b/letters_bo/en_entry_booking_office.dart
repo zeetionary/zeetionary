@@ -175,11 +175,17 @@ class EnglishEntrybookingoffice extends StatelessWidget {
                                   text:
                                       "سەردانی بلیت‌فرۆشییەکە بکە بۆ گرتنی جێگایەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookingoffices1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookingoffices1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbookingoffices1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbookingoffices1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

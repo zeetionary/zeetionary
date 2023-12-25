@@ -179,11 +179,15 @@ class EnglishEntrybelch extends StatelessWidget {
                                   text:
                                       "دەستی نا بە دەمییەوە و قرقێنەیەکی دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybelch extends StatelessWidget {
                                   text:
                                       "لوولەی ئەکسۆزەکە ڕێژەیەکی زۆر لە دووکەڵی چڕی دەردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybelch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پاڵیدایەوە و قرقێنەیەکی بەرزی دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelchs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelchs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelchs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelchs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

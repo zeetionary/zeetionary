@@ -177,11 +177,15 @@ class EnglishEntrybiometric extends StatelessWidget {
                                   text:
                                       "ئامێرە بایۆمەترییەکان کاردەکەن بە نەراوردکردنی تایبەیمەندییەکانی مرۆڤێک لەگەڵ ئەوەی لە یادگەی ئامێرەکەدا تۆمارکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiometrics1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiometrics1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiometrics1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiometrics1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

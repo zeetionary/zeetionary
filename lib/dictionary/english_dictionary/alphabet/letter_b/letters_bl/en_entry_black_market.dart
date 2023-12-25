@@ -176,11 +176,17 @@ class EnglishEntryblackmarket extends StatelessWidget {
                                   text:
                                       "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmarkets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmarkets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblackmarkets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblackmarkets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +202,17 @@ class EnglishEntryblackmarket extends StatelessWidget {
                                   text:
                                       "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmarkets2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmarkets2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblackmarkets2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblackmarkets2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,13 +178,17 @@ class EnglishEntryballotbox extends StatelessWidget {
                                   text:
                                       "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سندووقی دەنگدانەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallotboxs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallotboxs1(// REPLACE: ballot box
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallotboxs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallotboxs1(// REPLACE: ballot box
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryballotbox extends StatelessWidget {
                                   text:
                                       "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallotboxs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallotboxs2(// REPLACE: ballot box
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallotboxs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallotboxs2(// REPLACE: ballot box
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,17 +185,21 @@ class EnglishEntryasset extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە کارەکەیدا پشوودرێژی گەوھەرێکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsset632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsset632(// REPLACE: asset /ˈæset/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsset632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsset632(// REPLACE: asset /ˈæset/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -206,13 +210,17 @@ class EnglishEntryasset extends StatelessWidget {
                                   text:
                                       "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsset633("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsset633(// REPLACE: asset /ˈæset/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsset633("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsset633(
+                                        // REPLACE: asset /ˈæset/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

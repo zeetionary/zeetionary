@@ -123,11 +123,15 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                   text:
                                       "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA254("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA254("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -141,11 +145,15 @@ class EnglishEntryaboriginal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دانیشتووانی ڕەسەنی کەنەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb252("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb252("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb252("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb252("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

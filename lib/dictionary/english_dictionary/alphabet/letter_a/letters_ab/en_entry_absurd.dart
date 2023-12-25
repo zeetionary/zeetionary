@@ -128,11 +128,15 @@ class EnglishEntryabsurd extends StatelessWidget {
                                   text:
                                       "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA49275("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA49275("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA49275("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA49275("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -146,11 +150,15 @@ class EnglishEntryabsurd extends StatelessWidget {
                                   text:
                                       "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA69853("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA69853("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA69853("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA69853("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

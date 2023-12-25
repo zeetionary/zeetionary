@@ -177,13 +177,18 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                   text:
                                       "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankholidays1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankholidays1(// REPLACE: bank holiday
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBankholidays1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBankholidays1(
+                                        // REPLACE: bank holiday
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

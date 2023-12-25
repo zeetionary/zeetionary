@@ -179,11 +179,17 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                                   text:
                                       "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiodiversitys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiodiversitys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiodiversitys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiodiversitys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

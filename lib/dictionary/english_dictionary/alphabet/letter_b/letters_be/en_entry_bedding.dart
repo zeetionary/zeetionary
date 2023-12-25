@@ -178,11 +178,15 @@ class EnglishEntrybedding extends StatelessWidget {
                                   text:
                                       "وەرگیراوە تازەکانی بنکە سەربازییەکە ڕیزکران بۆ وەرگرتنی پێخەف و سەرینیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeddings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeddings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeddings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeddings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybedding extends StatelessWidget {
                                   text:
                                       "ئاژەڵدارەکە پوشوپەڵاشی تازەی بڵاوکردەوە لە تەویلەی ئەسپەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeddings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeddings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeddings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeddings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

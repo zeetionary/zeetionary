@@ -186,13 +186,17 @@ class EnglishEntryassured extends StatelessWidget {
                                   text:
                                       "قسەیکرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssured929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssured929(// REPLACE: assured /əˈʃʊrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssured929("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssured929(
+                                        // REPLACE: assured /əˈʃʊrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryassured extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بردنەوە مسۆگەر دیاربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssured931("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssured931(// REPLACE: assured /əˈʃʊrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssured931("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssured931(
+                                        // REPLACE: assured /əˈʃʊrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryassured extends StatelessWidget {
                                   text:
                                       "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssured932("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssured932(// REPLACE: assured /əˈʃʊrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssured932("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssured932(
+                                        // REPLACE: assured /əˈʃʊrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

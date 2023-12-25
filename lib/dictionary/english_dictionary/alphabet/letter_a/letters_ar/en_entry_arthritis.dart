@@ -185,13 +185,17 @@ class EnglishEntryarthritis extends StatelessWidget {
                                   text:
                                       "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArthritis450("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArthritis450(
-                                    // REPLACE: arthritis /ɑːrˈθraɪtɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArthritis450("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArthritis450(
+                                        // REPLACE: arthritis /ɑːrˈθraɪtɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

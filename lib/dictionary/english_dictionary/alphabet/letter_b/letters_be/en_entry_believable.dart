@@ -176,11 +176,15 @@ class EnglishEntrybelievable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕوونکردنەوەکەی جێی‌باوەڕە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelievables1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelievables1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelievables1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelievables1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

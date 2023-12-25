@@ -179,13 +179,17 @@ class EnglishEntryawakening extends StatelessWidget {
                                   text:
                                       "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakenings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwakenings1(// REPLACE: awakening
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakenings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakenings1(// REPLACE: awakening
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryawakening extends StatelessWidget {
                                   text:
                                       "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakenings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwakenings2(// REPLACE: awakening
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakenings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakenings2(// REPLACE: awakening
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

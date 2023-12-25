@@ -178,13 +178,18 @@ class EnglishEntryamphibious extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆرینەی بۆقەکان دووژینەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphibious3344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphibious3344(
-                                    // REPLACE: amphibious /æmˈfɪbiəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmphibious3344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphibious3344(
+                                        // REPLACE: amphibious /æmˈfɪbiəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +205,18 @@ class EnglishEntryamphibious extends StatelessWidget {
                                   text:
                                       "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphibious496002("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphibious496002(
-                                    // REPLACE: Dopsum1 /haʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmphibious496002("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphibious496002(
+                                        // REPLACE: Dopsum1 /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,14 +233,19 @@ class EnglishEntryamphibious extends StatelessWidget {
                                   text:
                                       "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphibious44952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphibious44952(
-                                    // REPLACE: Dopsum1 /haʊ/
-                                    "en-US"),
-                              ),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmphibious44952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphibious44952(
+                                        // REPLACE: Dopsum1 /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
+                              )
                             ],
                           ),
                           // const DividerDefinition(),

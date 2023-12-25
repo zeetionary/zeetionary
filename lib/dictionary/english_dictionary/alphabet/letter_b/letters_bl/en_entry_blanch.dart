@@ -176,11 +176,15 @@ class EnglishEntryblanch extends StatelessWidget {
                                   text:
                                       "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblanchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblanchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntryblanch extends StatelessWidget {
                                   text:
                                       "بەزالیاکان بە خێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblanchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblanchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

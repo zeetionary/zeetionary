@@ -178,11 +178,15 @@ class EnglishEntryblood extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خوێنێکی زۆر لەدەستدا لە ڕووداوەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryblood extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خوێن دەچۆڕا لە برینێک لە سەریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntryblood extends StatelessWidget {
                                   text:
                                       "دەستەکانی بە خوێن سووربوو بوون (داپۆشرابوون)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,11 +245,15 @@ class EnglishEntryblood extends StatelessWidget {
                                   text:
                                       "ئاژەڵە خوێن ساردەکان ئەوانەن کە ناتوانن گەرمی لەشی خۆیان ڕێکبخەن، بەڵام کۆنترۆڵی دەکەن بە بە گۆڕینی ژینگەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,11 +267,15 @@ class EnglishEntryblood extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ڕەچەڵەکێکی خانەدانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -271,11 +291,15 @@ class EnglishEntryblood extends StatelessWidget {
                                   text:
                                       "بڕیاریان دا بەژداری پێ بکەن لە تیمە نێودەوڵەتییەکە لە تەمەنی تەنھا ١٨ ساڵیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloods6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloods6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloods6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloods6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

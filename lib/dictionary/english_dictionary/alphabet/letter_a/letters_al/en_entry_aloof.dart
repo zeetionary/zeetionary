@@ -136,13 +136,17 @@ class EnglishEntryaloof extends StatelessWidget {
                                   text:
                                       "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloof457("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAloof457(// REPLACE: aloof /əˈluːf/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloof457("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAloof457(// REPLACE: aloof /əˈluːf/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

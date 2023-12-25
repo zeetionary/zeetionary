@@ -177,11 +177,15 @@ class EnglishEntrybigoted extends StatelessWidget {
                                   text:
                                       "ھێندە بیرتەسکە کە ڕەتیدەکاتەوە ھیچ کەس پەسەند بکات کە وەک ئەو بیرنەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigoteds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigoteds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigoteds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigoteds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

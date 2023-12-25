@@ -189,13 +189,17 @@ class EnglishEntryashamed extends StatelessWidget {
                                   text:
                                       "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshamed516("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshamed516(
-                                    // REPLACE: ashamed /əˈʃeɪmd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshamed516("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshamed516(
+                                        // REPLACE: ashamed /əˈʃeɪmd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryashamed extends StatelessWidget {
                                   text:
                                       "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshamed518("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshamed518(
-                                    // REPLACE: ashamed /əˈʃeɪmd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshamed518("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshamed518(
+                                        // REPLACE: ashamed /əˈʃeɪmd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshamed519("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshamed519(
-                                    // REPLACE: ashamed /əˈʃeɪmd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshamed519("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshamed519(
+                                        // REPLACE: ashamed /əˈʃeɪmd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,13 +264,17 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshamed527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshamed527(
-                                    // REPLACE: ashamed /əˈʃeɪmd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshamed527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshamed527(
+                                        // REPLACE: ashamed /əˈʃeɪmd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,13 +289,17 @@ class EnglishEntryashamed extends StatelessWidget {
                                   text:
                                       "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshamed528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAshamed528(
-                                    // REPLACE: ashamed /əˈʃeɪmd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshamed528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshamed528(
+                                        // REPLACE: ashamed /əˈʃeɪmd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

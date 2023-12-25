@@ -176,13 +176,18 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                   text:
                                       "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnaesthetist4805("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnaesthetist4805(
-                                    // REPLACE: anaesthetist /əˈnesθətɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnaesthetist4805("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnaesthetist4805(
+                                        // REPLACE: anaesthetist /əˈnesθətɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

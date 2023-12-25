@@ -182,13 +182,17 @@ class EnglishEntryamount extends StatelessWidget {
                                   text:
                                       "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount4447("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmount4447(// REPLACE: amount /əˈmaʊnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount4447("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount4447(
+                                        // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryamount extends StatelessWidget {
                                   text:
                                       "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount49652("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmount49652(
-                                    // REPLACE: amount /əˈmaʊnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount49652("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount49652(
+                                        // REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +230,17 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمووان ھەمان بڕیان داوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount3522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmount3522(// REPLACE: amount /əˈmaʊnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount3522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount3522(
+                                        // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,13 +256,17 @@ class EnglishEntryamount extends StatelessWidget {
                                   text:
                                       "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount5523("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmount5523(// REPLACE: amount /əˈmaʊnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount5523("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount5523(
+                                        // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -266,13 +282,17 @@ class EnglishEntryamount extends StatelessWidget {
                                   text:
                                       "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount5622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmount5622(// REPLACE: amount /əˈmaʊnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount5622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount5622(
+                                        // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -286,13 +306,17 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز نابیت بە ھیچ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmount514("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmount514(// REPLACE: amount /əˈmaʊnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmount514("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmount514(
+                                        // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

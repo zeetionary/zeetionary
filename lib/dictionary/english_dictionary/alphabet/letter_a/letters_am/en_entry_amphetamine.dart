@@ -179,13 +179,18 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                   text:
                                       "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphetamine450("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphetamine450(
-                                    // REPLACE: amphetamine /æmˈfetəmiːn/,  /æmˈfetəmɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmphetamine450("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphetamine450(
+                                        // REPLACE: amphetamine /æmˈfetəmiːn/,  /æmˈfetəmɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

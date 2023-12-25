@@ -177,11 +177,15 @@ class EnglishEntryberry extends StatelessWidget {
                                   text:
                                       "باڵندە میوەی کاکڵدار و توو دەخۆن لە زستاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

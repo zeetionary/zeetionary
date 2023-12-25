@@ -191,13 +191,17 @@ class EnglishEntryaspect extends StatelessWidget {
                                   text:
                                       "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspect455("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspect455(// REPLACE: aspect /ˈæspekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspect455("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspect455(
+                                        // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +216,17 @@ class EnglishEntryaspect extends StatelessWidget {
                                   text:
                                       "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspect456("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspect456(// REPLACE: aspect /ˈæspekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspect456("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspect456(
+                                        // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +243,17 @@ class EnglishEntryaspect extends StatelessWidget {
                                   text:
                                       "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspect458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspect458(// REPLACE: aspect /ˈæspekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspect458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspect458(
+                                        // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspect500("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspect500(// REPLACE: aspect /ˈæspekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspect500("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspect500(
+                                        // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryaspect extends StatelessWidget {
                                   text:
                                       "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspect508("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAspect508(// REPLACE: aspect /ˈæspekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspect508("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspect508(
+                                        // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

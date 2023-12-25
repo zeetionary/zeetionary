@@ -178,11 +178,15 @@ class EnglishEntrybitch extends StatelessWidget {
                                   text:
                                       "دێڵی دراوسێیەکەمان ژمارەیەک بەچکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybitch extends StatelessWidget {
                                   text:
                                       "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,11 +225,15 @@ class EnglishEntrybitch extends StatelessWidget {
                                   text: "Life's a bitch."),
                               const ExampleSentenceKurdish(text: "ژیان سەختە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitchs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitchs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitchs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitchs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,11 +251,15 @@ class EnglishEntrybitch extends StatelessWidget {
                                   text:
                                       "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitchs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitchs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitchs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitchs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -261,11 +277,15 @@ class EnglishEntrybitch extends StatelessWidget {
                                   text:
                                       "لەو جۆرە کەسانە نییە کە پرتەوبۆڵە لەسەر کەسێک بکات لە پشتیانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitchs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitchs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitchs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitchs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -118,11 +118,15 @@ class EnglishEntryaccountfor extends StatelessWidget {
                                   text:
                                       "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA79658("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA79658("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA79658("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA79658("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybipolar extends StatelessWidget {
                                   text:
                                       "زۆرێک لە تووشبووانی دووجەمسەری چارەسەری کاریگەر دەدۆزنەوە لە ڕێگەی چارەسەر و دەوا و دەرمانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBipolars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBipolars1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBipolars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBipolars1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybipolar extends StatelessWidget {
                                   text:
                                       "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBipolars2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBipolars2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBipolars2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBipolars2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

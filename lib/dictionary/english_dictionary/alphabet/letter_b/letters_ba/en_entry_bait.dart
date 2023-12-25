@@ -180,12 +180,17 @@ class EnglishEntrybait extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کرمی زیندوو وەک تامک بەکاردێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaits1(// REPLACE: bait
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaits1(// REPLACE: bait
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,12 +207,17 @@ class EnglishEntrybait extends StatelessWidget {
                                   text:
                                       "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaits2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaits2(// REPLACE: bait
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaits2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaits2(// REPLACE: bait
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,12 +234,17 @@ class EnglishEntrybait extends StatelessWidget {
                                   text:
                                       "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaits3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaits3(// REPLACE: bait
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaits3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaits3(// REPLACE: bait
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,12 +261,17 @@ class EnglishEntrybait extends StatelessWidget {
                                   text:
                                       "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaits4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaits4(// REPLACE: bait
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaits4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaits4(// REPLACE: bait
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -268,12 +288,17 @@ class EnglishEntrybait extends StatelessWidget {
                                   text:
                                       "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaits5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaits5(// REPLACE: bait
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaits5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaits5(// REPLACE: bait
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

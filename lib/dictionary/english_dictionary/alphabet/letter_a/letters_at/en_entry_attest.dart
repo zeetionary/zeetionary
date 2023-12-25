@@ -187,13 +187,17 @@ class EnglishEntryattest extends StatelessWidget {
                                   text:
                                       "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttest927("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttest927(// REPLACE: attest
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttest927("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttest927(// REPLACE: attest
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryattest extends StatelessWidget {
                                   text:
                                       "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttest928("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttest928(// REPLACE: attest
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttest928("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttest928(// REPLACE: attest
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

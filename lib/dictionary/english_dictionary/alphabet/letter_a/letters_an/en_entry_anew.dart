@@ -176,13 +176,17 @@ class EnglishEntryanew extends StatelessWidget {
                                   text:
                                       "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnew407("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnew407(// REPLACE: anew /əˈnuː/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnew407("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnew407(// REPLACE: anew /əˈnuː/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

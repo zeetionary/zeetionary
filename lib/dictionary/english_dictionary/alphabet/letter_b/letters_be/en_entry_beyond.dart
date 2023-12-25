@@ -225,11 +225,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "ڕێگاکە بەردەوام دەبێت تا ئەوسەری گوندەکە و بۆ گردەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,11 +248,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "لە دوور، لەوپەڕی ڕووبارەکە، شارۆچکەیەک ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -265,11 +273,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "سەرکەوتنەکەمان زۆر زیاتر بوو لەوەی بیرمان لێدەکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -286,11 +298,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "دەزانم بۆ سێ ھەفتەی داھاتوو چی دەکەم، بەڵام لەوە دواتر بیرم لێ نەکردووەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -305,11 +321,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دۆخەکە لە دەرەوەی کۆنترۆڵمان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,11 +343,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پاسکیلەکە بە کەڵکی چاککردنەوە نایەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -344,11 +368,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "ڕاھێنانەکان لە دەرەوەی توانای زۆرینەی پۆلەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -365,11 +393,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "داھاتووی نزیک ئاشکرایە، بەڵام نازانرێت چی لە ھەگبەدایە دوای ئەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -384,11 +416,15 @@ class EnglishEntrybeyond extends StatelessWidget {
                                   text:
                                       "ئەڤرست و چیاکانی ئەوسەری بە بەفر داپۆشرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeyonds9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeyonds9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeyonds9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeyonds9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryaltitude extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltitude("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltitude(
-                                    // REPLACE: altitude /ˈæltɪtuːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAltitude("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltitude(
+                                        // REPLACE: altitude /ˈæltɪtuːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

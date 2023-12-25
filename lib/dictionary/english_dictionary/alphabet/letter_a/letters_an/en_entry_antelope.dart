@@ -178,13 +178,17 @@ class EnglishEntryantelope extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntelope451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntelope451(
-                                    // REPLACE: antelope /ˈæntɪləʊp/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntelope451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntelope451(
+                                        // REPLACE: antelope /ˈæntɪləʊp/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

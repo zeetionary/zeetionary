@@ -184,13 +184,17 @@ class EnglishEntryattache extends StatelessWidget {
                                   text:
                                       "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttache432("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttache432(// REPLACE: attaché
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttache432("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttache432(// REPLACE: attaché
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

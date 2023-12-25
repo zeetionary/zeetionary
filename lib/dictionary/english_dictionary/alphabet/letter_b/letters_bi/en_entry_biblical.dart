@@ -176,11 +176,15 @@ class EnglishEntrybiblical extends StatelessWidget {
                                   text:
                                       "منداڵەکەیان ناونا ئیسحاق بەناوی ئەو کەسایەتییەی ئینجیلەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiblicals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiblicals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiblicals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiblicals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybiblical extends StatelessWidget {
                                   text:
                                       "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiblicals2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiblicals2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiblicals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiblicals2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

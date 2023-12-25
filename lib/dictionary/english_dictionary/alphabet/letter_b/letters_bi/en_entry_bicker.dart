@@ -175,11 +175,15 @@ class EnglishEntrybicker extends StatelessWidget {
                                   text:
                                       "منداڵەکان ھەمیشە دەمەدەمیانە لەسەر شتێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBickers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBickers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBickers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBickers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

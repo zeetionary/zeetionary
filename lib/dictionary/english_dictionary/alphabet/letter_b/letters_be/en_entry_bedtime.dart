@@ -176,11 +176,15 @@ class EnglishEntrybedtime extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەسەر کاتی خەوت تێپەڕیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedtimes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedtimes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedtimes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedtimes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybedtime extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چیرۆکێکی خەوتنانم بۆ دەگێڕیتەوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedtimes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedtimes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedtimes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedtimes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

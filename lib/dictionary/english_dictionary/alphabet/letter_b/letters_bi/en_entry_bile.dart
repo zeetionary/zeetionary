@@ -177,11 +177,15 @@ class EnglishEntrybile extends StatelessWidget {
                                   text:
                                       "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرھەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە ھەرس بکەن کە دەیخۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

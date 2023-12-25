@@ -184,13 +184,18 @@ class EnglishEntryassortment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەستە جلێکی سەیری لەبەرکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssortment832("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssortment832(
-                                    // REPLACE: assortment /əˈsɔːrtmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssortment832("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssortment832(
+                                        // REPLACE: assortment /əˈsɔːrtmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

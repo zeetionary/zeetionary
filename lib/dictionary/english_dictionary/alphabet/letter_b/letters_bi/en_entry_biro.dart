@@ -175,11 +175,15 @@ class EnglishEntrybiro extends StatelessWidget {
                                   text:
                                       "ھەمیشە پێنووسێکی بایرۆ لە نزیک خۆم ڕادەگرم بۆ نووسینی تێبینی لە وانەکاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiros1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiros1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiros1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiros1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

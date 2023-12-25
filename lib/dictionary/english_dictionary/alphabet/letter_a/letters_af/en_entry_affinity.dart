@@ -152,13 +152,17 @@ class EnglishEntryaffinity extends StatelessWidget {
                                   text:
                                       "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffi5699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffi5699(
-                                    // REPLACE: affinity /əˈfɪnəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffi5699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffi5699(
+                                        // REPLACE: affinity /əˈfɪnəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,13 +176,17 @@ class EnglishEntryaffinity extends StatelessWidget {
                                   text:
                                       "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAf155("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAf155(// REPLACE: affinity /əˈfɪnəti/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAf155("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAf155(
+                                        // REPLACE: affinity /əˈfɪnəti/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,13 +202,17 @@ class EnglishEntryaffinity extends StatelessWidget {
                                   text:
                                       "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffinity145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffinity145(
-                                    // REPLACE: affinity /əˈfɪnəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffinity145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffinity145(
+                                        // REPLACE: affinity /əˈfɪnəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

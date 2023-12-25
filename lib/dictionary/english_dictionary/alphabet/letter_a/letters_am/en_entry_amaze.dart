@@ -135,13 +135,17 @@ class EnglishEntryamaze extends StatelessWidget {
                                   text:
                                       "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmaze6222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmaze6222(// REPLACE: amaze /əˈmeɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmaze6222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmaze6222(
+                                        // REPLACE: amaze /əˈmeɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryamaze extends StatelessWidget {
                                   text:
                                       "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmaze4211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmaze4211(// REPLACE: amaze /əˈmeɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmaze4211("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmaze4211(
+                                        // REPLACE: amaze /əˈmeɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

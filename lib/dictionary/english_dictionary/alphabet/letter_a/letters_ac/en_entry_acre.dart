@@ -134,12 +134,16 @@ class EnglishEntryacre extends StatelessWidget {
                                   text:
                                       "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr1527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr1527(
-                                    "en-US"), // REPLACE acre /ˈeɪkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr1527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr1527(
+                                        "en-US"), // REPLACE acre /ˈeɪkər/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

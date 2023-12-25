@@ -177,11 +177,17 @@ class EnglishEntrybatteringram extends StatelessWidget {
                                   text:
                                       "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBatteringrams1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBatteringrams1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBatteringrams1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBatteringrams1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

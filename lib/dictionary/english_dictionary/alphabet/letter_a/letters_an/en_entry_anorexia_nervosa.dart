@@ -188,13 +188,17 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                                   text:
                                       "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnorexia848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnorexia848(
-                                    // REPLACE: anorexia /ˌænəˈreksiə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnorexia848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnorexia848(
+                                        // REPLACE: anorexia /ˌænəˈreksiə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryautomate extends StatelessWidget {
                                   text:
                                       "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomate1012("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomate1012(// REPLACE: automate
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutomate1012("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomate1012(// REPLACE: automate
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,13 +179,18 @@ class EnglishEntryanimation extends StatelessWidget {
                                   text:
                                       "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimation1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimation1026(
-                                    // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimation1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimation1026(
+                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryanimation extends StatelessWidget {
                                   text:
                                       "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimation1027("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimation1027(
-                                    // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimation1027("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimation1027(
+                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +235,18 @@ class EnglishEntryanimation extends StatelessWidget {
                                   text:
                                       "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimation1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimation1030(
-                                    // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimation1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimation1030(
+                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

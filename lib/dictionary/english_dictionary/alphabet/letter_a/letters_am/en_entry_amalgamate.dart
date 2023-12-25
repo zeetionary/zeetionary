@@ -137,13 +137,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                   text:
                                       "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmalgamate4444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmalgamate4444(
-                                    // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmalgamate4444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmalgamate4444(
+                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +161,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmalgamate68552("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmalgamate68552(
-                                    // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmalgamate68552("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmalgamate68552(
+                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -178,13 +188,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                   text:
                                       "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmalgamate4588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmalgamate4588(
-                                    // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmalgamate4588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmalgamate4588(
+                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

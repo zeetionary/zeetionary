@@ -183,13 +183,17 @@ class EnglishEntryarmistice extends StatelessWidget {
                                   text:
                                       "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmistice508("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmistice508(
-                                    // REPLACE: armistice /ˈɑːrmɪstɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmistice508("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmistice508(
+                                        // REPLACE: armistice /ˈɑːrmɪstɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

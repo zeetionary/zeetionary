@@ -133,13 +133,17 @@ class EnglishEntryadolescent extends StatelessWidget {
                                   text:
                                       "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdol12589("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdol12589(
-                                    // REPLACE: adolescent /ˌædəˈlesnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdol12589("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdol12589(
+                                        // REPLACE: adolescent /ˌædəˈlesnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

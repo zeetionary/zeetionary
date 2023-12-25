@@ -179,13 +179,17 @@ class EnglishEntryanthem extends StatelessWidget {
                                   text:
                                       "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnthem542("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnthem542(// REPLACE: anthem /ˈænθəm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnthem542("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnthem542(
+                                        // REPLACE: anthem /ˈænθəm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

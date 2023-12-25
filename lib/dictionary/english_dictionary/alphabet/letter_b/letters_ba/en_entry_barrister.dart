@@ -172,11 +172,15 @@ class EnglishEntrybarrister extends StatelessWidget {
                                   text:
                                       "پارێزەرەکە کاردانەوەی ھەبوو بۆ دژبەیەکییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarristers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarristers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarristers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarristers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

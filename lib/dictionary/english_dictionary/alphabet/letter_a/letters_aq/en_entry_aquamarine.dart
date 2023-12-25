@@ -186,13 +186,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                   text:
                                       "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquamarine857("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquamarine857(
-                                    // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAquamarine857("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquamarine857(
+                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                   text:
                                       "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquamarine902("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquamarine902(
-                                    // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAquamarine902("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquamarine902(
+                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +242,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                   text:
                                       "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAquamarine905("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAquamarine905(
-                                    // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAquamarine905("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAquamarine905(
+                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

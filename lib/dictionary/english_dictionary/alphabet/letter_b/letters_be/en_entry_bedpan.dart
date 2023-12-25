@@ -177,11 +177,15 @@ class EnglishEntrybedpan extends StatelessWidget {
                                   text:
                                       "زۆر لاواز بوو کە بتوانێت لە جیگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedpans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedpans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedpans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedpans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

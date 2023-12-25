@@ -184,13 +184,17 @@ class EnglishEntryaupair extends StatelessWidget {
                                   text:
                                       "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAupair402("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAupair402(// REPLACE: au pair
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAupair402("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAupair402(// REPLACE: au pair
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

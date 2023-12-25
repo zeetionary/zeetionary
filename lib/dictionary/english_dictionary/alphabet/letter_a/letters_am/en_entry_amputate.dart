@@ -175,13 +175,17 @@ class EnglishEntryamputate extends StatelessWidget {
                                   text:
                                       "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmputate5528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmputate5528(
-                                    // REPLACE: amputate /ˈæmpjuteɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmputate5528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmputate5528(
+                                        // REPLACE: amputate /ˈæmpjuteɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

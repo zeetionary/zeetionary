@@ -133,13 +133,17 @@ class EnglishEntryadjustable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjusta5847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjusta5847(
-                                    // REPLACE: adjustable /əˈdʒʌstəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjusta5847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjusta5847(
+                                        // REPLACE: adjustable /əˈdʒʌstəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

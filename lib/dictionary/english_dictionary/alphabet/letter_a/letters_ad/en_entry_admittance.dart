@@ -133,13 +133,17 @@ class EnglishEntryadmittance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmitt37958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmitt37958(
-                                    // REPLACE: admittance /ədˈmɪtns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmitt37958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmitt37958(
+                                        // REPLACE: admittance /ədˈmɪtns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

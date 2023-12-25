@@ -181,14 +181,18 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                   text:
                                       "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAntiretroviral1208("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiretroviral1208(
-                                    // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiretroviral1208("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiretroviral1208(
+                                        // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

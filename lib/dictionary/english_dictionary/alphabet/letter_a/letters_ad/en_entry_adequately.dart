@@ -132,13 +132,17 @@ class EnglishEntryadequately extends StatelessWidget {
                                   text:
                                       "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdeq2547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdeq2547(
-                                    // REPLACE: adequately /ˈædɪkwətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdeq2547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdeq2547(
+                                        // REPLACE: adequately /ˈædɪkwətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

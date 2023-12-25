@@ -187,13 +187,17 @@ class EnglishEntrygoastray extends StatelessWidget {
                                   text:
                                       "ژمارەیەک نامە ونبوون یان نەگەیەندران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakGoastray1127("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakGoastray1127(// REPLACE: go astray
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakGoastray1127("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakGoastray1127(// REPLACE: go astray
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntrygoastray extends StatelessWidget {
                                   text:
                                       "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakGoastray1129("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakGoastray1129(// REPLACE: go astray
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakGoastray1129("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakGoastray1129(// REPLACE: go astray
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybeachhead extends StatelessWidget {
                                   text:
                                       "سەربازەکان بەزوویی ناوچەیەکی باڵادەستیان دامەزراند ئامادەکارییان بۆ پێشڕوەی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeachheads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeachheads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeachheads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeachheads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

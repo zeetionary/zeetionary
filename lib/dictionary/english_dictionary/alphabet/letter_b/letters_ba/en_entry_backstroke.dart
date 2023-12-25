@@ -177,13 +177,17 @@ class EnglishEntrybackstroke extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەتوانی پشتەمەلە بکەیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s1(// REPLACE: backstroke
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backstroke
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

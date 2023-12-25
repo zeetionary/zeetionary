@@ -189,13 +189,18 @@ class EnglishEntryauthorization extends StatelessWidget {
                                   text:
                                       "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorization850("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthorization850(
-                                    // REPLACE: authorization
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthorization850("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorization850(
+                                        // REPLACE: authorization
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryauthorization extends StatelessWidget {
                                   text:
                                       "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorization852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthorization852(
-                                    // REPLACE: authorization
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthorization852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorization852(
+                                        // REPLACE: authorization
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەتوانم مۆڵەتەکەت ببینم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorization853("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthorization853(
-                                    // REPLACE: authorization
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthorization853("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorization853(
+                                        // REPLACE: authorization
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

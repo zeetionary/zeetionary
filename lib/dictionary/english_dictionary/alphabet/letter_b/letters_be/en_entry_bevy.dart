@@ -177,11 +177,15 @@ class EnglishEntrybevy extends StatelessWidget {
                                   text:
                                       "تاقمێک لە ئەستێرەکانی فیلم گەشتنە کۆشکی سپی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBevys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBevys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBevys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBevys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

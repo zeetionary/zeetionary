@@ -134,13 +134,17 @@ class EnglishEntryadvise extends StatelessWidget {
                                   text:
                                       "ڕاوێژیان پێدام دژ بە سەردانیکردنی باشووری وڵاتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv399865("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv399865(// REPLACE: advise /ədˈvaɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv399865("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv399865(
+                                        // REPLACE: advise /ədˈvaɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryadvise extends StatelessWidget {
                                   text:
                                       "دایکی دوور بوو لێی و نەیدەتوانی ئامۆژگاری بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvise259935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvise259935(
-                                    // REPLACE: advise /ədˈvaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvise259935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvise259935(
+                                        // REPLACE: advise /ədˈvaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,13 +184,17 @@ class EnglishEntryadvise extends StatelessWidget {
                                   text:
                                       "شارەزایەک دادەمەزرێنین بۆپێدانی ڕاوێژ لەسەر تەکنەلۆژیای تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvi789255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdvi789255(// REPLACE: advise /ədˈvaɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvi789255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvi789255(
+                                        // REPLACE: advise /ədˈvaɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntrybattalion extends StatelessWidget {
                                   text:
                                       "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattalions1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattalions1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattalions1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattalions1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybattalion extends StatelessWidget {
                                   text:
                                       "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattalions2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattalions2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattalions2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattalions2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

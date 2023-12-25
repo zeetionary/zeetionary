@@ -182,13 +182,18 @@ class EnglishEntryarchbishop extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کرا بە قەشەی گەورەی میلان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchbishop315("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArchbishop315(
-                                    // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArchbishop315("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArchbishop315(
+                                        // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

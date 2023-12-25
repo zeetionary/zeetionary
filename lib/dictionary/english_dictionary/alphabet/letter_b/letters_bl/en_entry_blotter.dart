@@ -176,11 +176,15 @@ class EnglishEntryblotter extends StatelessWidget {
                                   text:
                                       "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblotters1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblotters1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblotters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblotters1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryblotter extends StatelessWidget {
                                   text:
                                       "ئەفسەرەکە تۆمارەکەی نوێکردەوە بۆ زیادکردنی ڕووداوە تازەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblotters2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblotters2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblotters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblotters2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

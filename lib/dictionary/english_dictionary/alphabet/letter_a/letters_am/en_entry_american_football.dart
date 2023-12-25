@@ -200,14 +200,18 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmericanfootball45777("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmericanfootball45777(
-                                    // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmericanfootball45777("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmericanfootball45777(
+                                        // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

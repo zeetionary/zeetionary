@@ -133,14 +133,17 @@ class EnglishEntryacuteness extends StatelessWidget {
                                   text:
                                       "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcute2471("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcute2471("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakAcute2471(
                                     // REPLACE: acuteness /əˈkjuːtnəs/
                                     "en-US"),
                               ),
+                                ],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -155,13 +158,17 @@ class EnglishEntryacuteness extends StatelessWidget {
                                   text:
                                       "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcuten524("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcuten524("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakAcuten524(
                                     // REPLACE: acuteness /əˈkjuːtnəs/
                                     "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryauburn extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری خاڵاوی و قژی خورمایی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuburn1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuburn1140(// REPLACE: auburn
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuburn1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuburn1140(// REPLACE: auburn
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

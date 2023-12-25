@@ -134,13 +134,17 @@ class EnglishEntryadapt extends StatelessWidget {
                                   text:
                                       "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAda4567("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAda4567(// REPLACE: adapt /əˈdæpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAda4567("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAda4567(// REPLACE: adapt /əˈdæpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

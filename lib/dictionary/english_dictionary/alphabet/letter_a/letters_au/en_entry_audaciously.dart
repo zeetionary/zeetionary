@@ -187,13 +187,18 @@ class EnglishEntryaudaciously extends StatelessWidget {
                                   text:
                                       "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudaciously1239("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudaciously1239(// REPLACE: audaciously
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAudaciously1239("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAudaciously1239(
+                                        // REPLACE: audaciously
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

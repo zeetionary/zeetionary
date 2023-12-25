@@ -178,11 +178,15 @@ class EnglishEntrybefit extends StatelessWidget {
                                   text:
                                       "پێشوازییەکی گەورە بوو شیاو بە میوانێک لە ئاستی ئەودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBefits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBefits1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBefits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBefits1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybefit extends StatelessWidget {
                                   text:
                                       "بەشێوەیەک دەژیا کە لە جوامێرێکی وەک ئەو بوەشێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBefits2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBefits2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBefits2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBefits2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

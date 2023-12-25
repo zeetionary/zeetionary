@@ -186,13 +186,17 @@ class EnglishEntryaudition extends StatelessWidget {
                                   text:
                                       "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudition238("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudition238(// REPLACE: audition
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudition238("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudition238(// REPLACE: audition
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudition240("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudition240(// REPLACE: audition
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudition240("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudition240(// REPLACE: audition
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryaudition extends StatelessWidget {
                                   text:
                                       "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudition243("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudition243(// REPLACE: audition
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudition243("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudition243(// REPLACE: audition
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

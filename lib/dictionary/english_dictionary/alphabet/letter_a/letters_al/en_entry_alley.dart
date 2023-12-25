@@ -136,13 +136,17 @@ class EnglishEntryalley extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlley452("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlley452(// REPLACE: alley /ˈæli/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlley452("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlley452(// REPLACE: alley /ˈæli/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

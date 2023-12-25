@@ -178,12 +178,17 @@ class EnglishEntrybalmy extends StatelessWidget {
                                   text:
                                       "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalmys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalmys1(// REPLACE: balmy
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalmys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalmys1(// REPLACE: balmy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

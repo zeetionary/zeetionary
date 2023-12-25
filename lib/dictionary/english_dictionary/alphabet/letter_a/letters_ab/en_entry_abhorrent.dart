@@ -112,11 +112,15 @@ class EnglishEntryabhorrent extends StatelessWidget {
                                   text:
                                       "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb63("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb63("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb63("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb63("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

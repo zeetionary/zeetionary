@@ -133,13 +133,17 @@ class EnglishEntryailment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو دەردە باوەکانی منداڵیم گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAilment1249("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAilment1249(
-                                    // REPLACE: ailment /ˈeɪlmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAilment1249("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAilment1249(
+                                        // REPLACE: ailment /ˈeɪlmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,13 +178,18 @@ class EnglishEntryancillary extends StatelessWidget {
                                   text:
                                       "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncillary1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncillary1140(
-                                    // REPLACE: ancillary /ˈænsəleri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAncillary1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncillary1140(
+                                        // REPLACE: ancillary /ˈænsəleri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +206,18 @@ class EnglishEntryancillary extends StatelessWidget {
                                   text:
                                       "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncillary0958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncillary0958(
-                                    // REPLACE: ancillary /ˈænsəleri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAncillary0958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncillary0958(
+                                        // REPLACE: ancillary /ˈænsəleri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

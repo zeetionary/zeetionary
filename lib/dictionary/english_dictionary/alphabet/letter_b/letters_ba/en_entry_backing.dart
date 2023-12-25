@@ -180,13 +180,17 @@ class EnglishEntrybacking extends StatelessWidget {
                                   text:
                                       "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackings1(// REPLACE: backing
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackings1(// REPLACE: backing
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntrybacking extends StatelessWidget {
                                   text:
                                       "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackings2(// REPLACE: backing
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackings2(// REPLACE: backing
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntrybacking extends StatelessWidget {
                                   text:
                                       "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackings3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackings3(// REPLACE: backing
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackings3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackings3(// REPLACE: backing
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

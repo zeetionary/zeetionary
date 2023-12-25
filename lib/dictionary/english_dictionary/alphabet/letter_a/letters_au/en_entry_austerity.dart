@@ -188,13 +188,17 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جەنگ چەندین ساڵی نەبوونی بەدواداھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterity518("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterity518(// REPLACE: austerity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterity518("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterity518(// REPLACE: austerity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryausterity extends StatelessWidget {
                                   text:
                                       "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterity523("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterity523(// REPLACE: austerity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterity523("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterity523(// REPLACE: austerity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەناسرا بۆ دژواری و سەرکوتکەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterity524("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterity524(// REPLACE: austerity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterity524("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterity524(// REPLACE: austerity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryausterity extends StatelessWidget {
                                   text:
                                       "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterity527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterity527(// REPLACE: austerity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterity527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterity527(// REPLACE: austerity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

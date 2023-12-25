@@ -177,11 +177,17 @@ class EnglishEntrybereavement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تازەگی تووشی جەرگ‌سووتاوی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBereavements1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBereavements1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBereavements1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBereavements1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +204,17 @@ class EnglishEntrybereavement extends StatelessWidget {
                                   text:
                                       "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBereavements2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBereavements2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBereavements2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBereavements2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryadviser extends StatelessWidget {
                                   text:
                                       "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd36528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd36528(// REPLACE: adviser /ədˈvaɪzər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd36528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd36528(
+                                        // REPLACE: adviser /ədˈvaɪzər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

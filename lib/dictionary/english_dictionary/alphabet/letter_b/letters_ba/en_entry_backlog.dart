@@ -178,12 +178,17 @@ class EnglishEntrybacklog extends StatelessWidget {
                                   text:
                                       "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backlog
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backlog
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

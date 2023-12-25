@@ -172,11 +172,15 @@ class EnglishEntrybatsman extends StatelessWidget {
                                   text:
                                       "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBatsmans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBatsmans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBatsmans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBatsmans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

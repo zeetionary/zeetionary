@@ -174,11 +174,15 @@ class EnglishEntrybattleship extends StatelessWidget {
                                   text:
                                       "فڕۆکەیەک کەشتییە شەڕکەرەکەی لە دەریادا نغرۆکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattleships1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattleships1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattleships1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattleships1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

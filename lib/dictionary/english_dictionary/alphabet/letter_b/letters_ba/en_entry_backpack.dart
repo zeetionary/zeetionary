@@ -175,12 +175,17 @@ class EnglishEntrybackpack extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جانتایەکی قوورسی لەپشت‌کردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backpack
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backpack
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,12 +202,17 @@ class EnglishEntrybackpack extends StatelessWidget {
                                   text:
                                       "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backpack
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backpack
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

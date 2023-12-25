@@ -183,13 +183,17 @@ class EnglishEntryapparatus extends StatelessWidget {
                                   text:
                                       "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApparatus841("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApparatus841(
-                                    // REPLACE: apparatus /ˌæpəˈrætəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApparatus841("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApparatus841(
+                                        // REPLACE: apparatus /ˌæpəˈrætəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

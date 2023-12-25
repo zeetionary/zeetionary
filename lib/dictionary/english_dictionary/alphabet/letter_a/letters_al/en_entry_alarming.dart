@@ -136,13 +136,17 @@ class EnglishEntryalarming extends StatelessWidget {
                                   text:
                                       "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlarming7488("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlarming7488(
-                                    // REPLACE: alarming /əˈlɑːrmɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlarming7488("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlarming7488(
+                                        // REPLACE: alarming /əˈlɑːrmɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

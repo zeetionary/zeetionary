@@ -178,13 +178,18 @@ class EnglishEntryamplifier extends StatelessWidget {
                                   text:
                                       "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplifier40990("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplifier40990(
-                                    // REPLACE: amplifier /ˈæmplɪfaɪər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmplifier40990("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplifier40990(
+                                        // REPLACE: amplifier /ˈæmplɪfaɪər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -161,13 +161,18 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllowance1298("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllowance1298(
-                                    // REPLACE: allowance /əˈlaʊəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllowance1298("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllowance1298(
+                                        // REPLACE: allowance /əˈlaʊəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -180,13 +185,18 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllowance4251("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllowance4251(
-                                    // REPLACE: allowance /əˈlaʊəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllowance4251("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllowance4251(
+                                        // REPLACE: allowance /əˈlaʊəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +212,18 @@ class EnglishEntryallowance extends StatelessWidget {
                                   text:
                                       "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllowance12963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllowance12963(
-                                    // REPLACE: allowance /əˈlaʊəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllowance12963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllowance12963(
+                                        // REPLACE: allowance /əˈlaʊəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

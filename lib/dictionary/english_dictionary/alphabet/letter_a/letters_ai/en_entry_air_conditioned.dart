@@ -132,14 +132,18 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                   text:
                                       "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAirconditioned341("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirconditioned341(
-                                    // REPLACE: air-conditioned /ˈer kəndɪʃnd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirconditioned341("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirconditioned341(
+                                        // REPLACE: air-conditioned /ˈer kəndɪʃnd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

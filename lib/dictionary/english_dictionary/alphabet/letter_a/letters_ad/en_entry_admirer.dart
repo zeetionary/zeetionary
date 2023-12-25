@@ -134,13 +134,17 @@ class EnglishEntryadmirer extends StatelessWidget {
                                   text:
                                       "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmi582(
-                                    // REPLACE: admirer /ədˈmaɪərər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi582(
+                                        // REPLACE: admirer /ədˈmaɪərər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

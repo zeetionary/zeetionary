@@ -178,11 +178,15 @@ class EnglishEntrybeware extends StatelessWidget {
                                   text:
                                       "شۆفێران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewares1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewares1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewares1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewares1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybeware extends StatelessWidget {
                                   text:
                                       "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewares2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewares2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewares2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewares2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

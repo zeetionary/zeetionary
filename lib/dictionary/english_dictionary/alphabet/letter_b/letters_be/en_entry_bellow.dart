@@ -177,11 +177,15 @@ class EnglishEntrybellow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نەڕاندیان بەسەریدا تا بوەستێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text:
                                       "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellows2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellows2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntrybellow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellows3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellows3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,11 +246,15 @@ class EnglishEntrybellow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نەڕەیەکی کرد لە تووڕەییدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellows4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellows4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,11 +271,15 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text:
                                       "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellows5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellows5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

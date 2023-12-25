@@ -182,13 +182,17 @@ class EnglishEntryarmpit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmpit412("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmpit412(// REPLACE: armpit /ˈɑːrmpɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmpit412("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmpit412(
+                                        // REPLACE: armpit /ˈɑːrmpɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

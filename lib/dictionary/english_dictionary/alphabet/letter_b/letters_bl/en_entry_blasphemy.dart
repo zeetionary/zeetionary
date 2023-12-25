@@ -173,11 +173,15 @@ class EnglishEntryblasphemy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە کفرکاری تاوانبارکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblasphemys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblasphemys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblasphemys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblasphemys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

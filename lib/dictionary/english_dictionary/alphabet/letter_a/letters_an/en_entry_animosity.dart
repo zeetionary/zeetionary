@@ -178,17 +178,22 @@ class EnglishEntryanimosity extends StatelessWidget {
                                   text:
                                       "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimosity1055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimosity1055(
-                                    // REPLACE: animosity /ˌænɪˈmɑːsəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimosity1055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimosity1055(
+                                        // REPLACE: animosity /ˌænɪˈmɑːsəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -199,13 +204,18 @@ class EnglishEntryanimosity extends StatelessWidget {
                                   text:
                                       "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimosity1057("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimosity1057(
-                                    // REPLACE: animosity /ˌænɪˈmɑːsəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnimosity1057("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimosity1057(
+                                        // REPLACE: animosity /ˌænɪˈmɑːsəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

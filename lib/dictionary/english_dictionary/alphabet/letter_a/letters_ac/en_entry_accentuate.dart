@@ -118,11 +118,15 @@ class EnglishEntryaccentuate extends StatelessWidget {
                                   text:
                                       "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2158("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2158("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

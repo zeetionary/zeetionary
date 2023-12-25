@@ -121,11 +121,15 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                                   text:
                                       "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2147("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2147("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -171,11 +171,15 @@ class EnglishEntrybarrack extends StatelessWidget {
                                   text:
                                       "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarracks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarracks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarracks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarracks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybarrack extends StatelessWidget {
                                   text:
                                       "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarracks2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarracks2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarracks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarracks2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

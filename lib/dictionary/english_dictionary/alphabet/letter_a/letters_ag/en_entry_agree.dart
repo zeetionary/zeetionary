@@ -167,13 +167,17 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کە ئەوەی گوت، ناچاربووم ھاوڕابم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgree6778("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgree6778(// REPLACE: agree /əˈɡriː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgree6778("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgree6778(
+                                        // REPLACE: agree /əˈɡriː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -188,13 +192,17 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لێدانی مناڵ وەک سزادان پەسەند ناکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAg2256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAg2256(// REPLACE: agree /əˈɡriː/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAg2256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAg2256(// REPLACE: agree /əˈɡriː/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +218,17 @@ class EnglishEntryagree extends StatelessWidget {
                                   text:
                                       "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgree2344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgree2344(// REPLACE: agree /əˈɡriː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgree2344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgree2344(
+                                        // REPLACE: agree /əˈɡriː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +243,17 @@ class EnglishEntryagree extends StatelessWidget {
                                   text:
                                       "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgre3555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgre3555(// REPLACE: agree /əˈɡriː/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgre3555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgre3555(// REPLACE: agree /əˈɡriː/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +267,17 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بودجەی ساڵی داھاتوو پەسەندکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgree37859("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgree37859(// REPLACE: agree /əˈɡriː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgree37859("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgree37859(
+                                        // REPLACE: agree /əˈɡriː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,13 +293,17 @@ class EnglishEntryagree extends StatelessWidget {
                                   text:
                                       "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgr3544("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgr3544(// REPLACE: agree /əˈɡriː/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgr3544("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgr3544(// REPLACE: agree /əˈɡriː/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

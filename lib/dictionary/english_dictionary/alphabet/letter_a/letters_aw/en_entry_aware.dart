@@ -179,12 +179,17 @@ class EnglishEntryaware extends StatelessWidget {
                                   text:
                                       "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwares1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwares1(// REPLACE: aware
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwares1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwares1(// REPLACE: aware
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,12 +205,17 @@ class EnglishEntryaware extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwares2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwares2(// REPLACE: aware
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwares2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwares2(// REPLACE: aware
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

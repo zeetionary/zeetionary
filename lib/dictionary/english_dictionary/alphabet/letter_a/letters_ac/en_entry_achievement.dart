@@ -136,12 +136,16 @@ class EnglishEntryachievement extends StatelessWidget {
                                   text:
                                       "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA452876("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA452876(
-                                    "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA452876("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA452876(
+                                        "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,12 +159,16 @@ class EnglishEntryachievement extends StatelessWidget {
                                   text:
                                       "ئەمە گەورەترین دەستکەوتی کارکردنیەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc251468("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc251468(
-                                    "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc251468("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc251468(
+                                        "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,13 +178,17 @@ class EnglishEntryawning extends StatelessWidget {
                                   text:
                                       "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwnings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwnings1(// REPLACE: awning
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwnings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwnings1(// REPLACE: awning
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

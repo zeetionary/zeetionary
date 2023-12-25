@@ -171,13 +171,17 @@ class EnglishEntrybobbin extends StatelessWidget {
                                       "Wind the thread slowly and evenly onto the bobbin."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەزووەکە بە بەھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
+                                      "دەزووەکە بە ھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobbins1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobbins1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobbins1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobbins1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -189,13 +189,17 @@ class EnglishEntryassure extends StatelessWidget {
                                   text:
                                       "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssure902("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssure902(// REPLACE: assure /əˈʃʊr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssure902("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssure902(
+                                        // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryassure extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دڵنیامانکردەوە لە پشتیوانیمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssure903("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssure903(// REPLACE: assure /əˈʃʊr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssure903("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssure903(
+                                        // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryassure extends StatelessWidget {
                                   text:
                                       "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssure905("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssure905(// REPLACE: assure /əˈʃʊr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssure905("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssure905(
+                                        // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryassure extends StatelessWidget {
                                   text:
                                       "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssure921("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssure921(// REPLACE: assure /əˈʃʊr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssure921("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssure921(
+                                        // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

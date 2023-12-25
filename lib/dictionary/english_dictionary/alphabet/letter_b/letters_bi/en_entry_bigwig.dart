@@ -175,11 +175,15 @@ class EnglishEntrybigwig extends StatelessWidget {
                                   text:
                                       "بانگھێشت کراین بۆ نانی نیوەڕۆ لەگەڵ پایەداران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigwigs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigwigs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigwigs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigwigs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

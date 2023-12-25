@@ -173,11 +173,15 @@ class EnglishEntrybluebottle extends StatelessWidget {
                                   text:
                                       "مێشێکی گۆشت بە دەوری تەنەکەی زباڵەکە گیزەی دەھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluebottles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluebottles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluebottles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluebottles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

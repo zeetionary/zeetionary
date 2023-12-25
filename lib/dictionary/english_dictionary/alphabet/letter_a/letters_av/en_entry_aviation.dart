@@ -178,13 +178,17 @@ class EnglishEntryaviation extends StatelessWidget {
                                   text:
                                       "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAviations1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAviations1(// REPLACE: aviation
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAviations1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAviations1(// REPLACE: aviation
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

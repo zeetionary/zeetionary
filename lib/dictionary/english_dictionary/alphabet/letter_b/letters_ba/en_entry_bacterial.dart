@@ -176,13 +176,17 @@ class EnglishEntrybacterial extends StatelessWidget {
                                   text:
                                       "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBacterials1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBacterials1(// REPLACE: bacterial
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBacterials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBacterials1(// REPLACE: bacterial
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

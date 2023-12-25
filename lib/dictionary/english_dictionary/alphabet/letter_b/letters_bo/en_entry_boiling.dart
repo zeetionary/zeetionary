@@ -173,11 +173,15 @@ class EnglishEntryboiling extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت کوڵا بیت لەو بلووزەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboilings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboilings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -189,11 +193,15 @@ class EnglishEntryboiling extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێرە زۆر گەرمە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboilings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboilings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

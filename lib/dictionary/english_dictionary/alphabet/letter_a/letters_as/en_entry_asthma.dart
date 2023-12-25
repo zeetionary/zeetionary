@@ -185,13 +185,17 @@ class EnglishEntryasthma extends StatelessWidget {
                                   text:
                                       "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsthma1012("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsthma1012(// REPLACE: asthma /ˈæzmə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsthma1012("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsthma1012(
+                                        // REPLACE: asthma /ˈæzmə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

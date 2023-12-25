@@ -110,11 +110,15 @@ class EnglishEntryabbot extends StatelessWidget {
                                   text:
                                       "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbbot112456("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbbot112456("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbbot112456("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbbot112456("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -183,13 +183,18 @@ class EnglishEntryappetizing extends StatelessWidget {
                                   text:
                                       "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppetizing324("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppetizing324(
-                                    // REPLACE: appetizing /ˈæpɪtaɪzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppetizing324("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppetizing324(
+                                        // REPLACE: appetizing /ˈæpɪtaɪzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

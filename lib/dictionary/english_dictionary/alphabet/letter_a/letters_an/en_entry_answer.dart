@@ -243,13 +243,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زەنگم لێدا بەڵام وەڵام نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1019("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1019(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1019("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1019(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -263,13 +267,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەتوانیت وەڵامێکی تەواوم پێ بدەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1021("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1021(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1021("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1021(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,13 +291,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1022("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1022(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1022("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1022(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -306,13 +318,17 @@ class EnglishEntryanswer extends StatelessWidget {
                                   text:
                                       "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1025("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1025(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1025("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1025(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -326,13 +342,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەڵامی پرسیاری ١٢یەم دەزانی؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1026(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1026(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -348,13 +368,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1027("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1027(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1027("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1027(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -369,13 +393,17 @@ class EnglishEntryanswer extends StatelessWidget {
                                   text:
                                       "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1029("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1029(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1029("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1029(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -392,13 +420,17 @@ class EnglishEntryanswer extends StatelessWidget {
                                   text:
                                       "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1032("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1032(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1032("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1032(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -411,13 +443,17 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەڵامی پرسیارەکەمت نەداوەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1034("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1034(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1034("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1034(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -432,13 +468,17 @@ class EnglishEntryanswer extends StatelessWidget {
                                   text:
                                       "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1036("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1036(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1036("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1036(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -455,13 +495,17 @@ class EnglishEntryanswer extends StatelessWidget {
                                   text:
                                       "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnswer1039("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnswer1039(// REPLACE: answer /ˈɑːnsər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnswer1039("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnswer1039(
+                                        // REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

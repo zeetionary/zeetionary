@@ -186,13 +186,17 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlong457("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlong457(// REPLACE: along /əˈlɔːŋ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlong457("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlong457(// REPLACE: along /əˈlɔːŋ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryalong extends StatelessWidget {
                                   text:
                                       "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlong4451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlong4451(// REPLACE: along /əˈlɔːŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlong4451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlong4451(
+                                        // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryalong extends StatelessWidget {
                                   text:
                                       "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlong451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlong451(// REPLACE: along /əˈlɔːŋ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlong451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlong451(// REPLACE: along /əˈlɔːŋ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,13 +264,17 @@ class EnglishEntryalong extends StatelessWidget {
                                   text:
                                       "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlong45169("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlong45169(// REPLACE: along /əˈlɔːŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlong45169("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlong45169(
+                                        // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,13 +289,17 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە چەند خولەکێکدا دەگەمە لاتان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlong4516("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlong4516(// REPLACE: along /əˈlɔːŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlong4516("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlong4516(
+                                        // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

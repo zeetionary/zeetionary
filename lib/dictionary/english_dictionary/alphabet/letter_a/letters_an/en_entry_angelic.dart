@@ -177,13 +177,17 @@ class EnglishEntryangelic extends StatelessWidget {
                                   text:
                                       "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngelic790("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngelic790(
-                                    // REPLACE: angelic /ænˈdʒelɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngelic790("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngelic790(
+                                        // REPLACE: angelic /ænˈdʒelɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

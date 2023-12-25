@@ -178,11 +178,15 @@ class EnglishEntrybedside extends StatelessWidget {
                                   text:
                                       "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedsides1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedsides1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedsides1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedsides1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybedside extends StatelessWidget {
                                   text:
                                       "حەزدەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedsides2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedsides2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedsides2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedsides2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryassess extends StatelessWidget {
                                   text:
                                       "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssess1114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssess1114(// REPLACE: assess /əˈses/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssess1114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssess1114(
+                                        // REPLACE: assess /əˈses/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryassess extends StatelessWidget {
                                   text:
                                       "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssess1116("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssess1116(// REPLACE: assess /əˈses/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssess1116("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssess1116(
+                                        // REPLACE: assess /əˈses/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

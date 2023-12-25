@@ -175,11 +175,15 @@ class EnglishEntryblackleg extends StatelessWidget {
                                   text:
                                       "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacklegs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacklegs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacklegs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacklegs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

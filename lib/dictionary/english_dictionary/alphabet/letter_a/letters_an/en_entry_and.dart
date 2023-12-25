@@ -206,13 +206,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "من و سوو زوو ڕۆشتین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd15005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd15005(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd15005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd15005(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +231,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھاتە ژوورەوە و پاڵتاوەکەی داکەند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd5044("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd5044(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd5044("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd5044(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,13 +256,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تکایە بچۆ و پێنووسێکم بۆ بێنە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd2205("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd2205(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd2205("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd2205(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -271,13 +283,17 @@ class EnglishEntryand extends StatelessWidget {
                                   text:
                                       "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd0258("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd0258(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd0258("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd0258(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -292,13 +308,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەک وانەی تر نەیەی دەرناچیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd8854("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd8854(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd8854("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd8854(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -313,13 +333,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "٤٧ کۆی ١٦ چەند دەکات؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd5560("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd5560(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd5560("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd5560(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -334,13 +358,17 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئازارەکە خراپتر و خراپتر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd22410("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd22410(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd22410("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd22410(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -357,13 +385,17 @@ class EnglishEntryand extends StatelessWidget {
                                   text:
                                       "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnd5570("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnd5570(
-                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnd5570("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnd5570(
+                                        // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

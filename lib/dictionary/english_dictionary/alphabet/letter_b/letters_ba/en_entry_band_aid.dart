@@ -176,13 +176,17 @@ class EnglishEntrybandaid extends StatelessWidget {
                                   text:
                                       "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandaids1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandaids1(// REPLACE: Band Aid
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandaids1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandaids1(// REPLACE: Band Aid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

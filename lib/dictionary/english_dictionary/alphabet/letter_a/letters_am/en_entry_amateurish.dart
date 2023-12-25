@@ -136,13 +136,18 @@ class EnglishEntryamateurish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وێبسایتەکەیان تازەکارانە دیاربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmateurish321("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmateurish321(
-                                    // REPLACE: amateurish /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmateurish321("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmateurish321(
+                                        // REPLACE: amateurish /ˈæmətərɪʃ/,  /ˈæmətʃərɪʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

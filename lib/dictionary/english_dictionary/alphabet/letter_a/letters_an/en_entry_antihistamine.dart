@@ -181,14 +181,18 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                   text:
                                       "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAntihistamine1105("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntihistamine1105(
-                                    // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntihistamine1105("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntihistamine1105(
+                                        // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

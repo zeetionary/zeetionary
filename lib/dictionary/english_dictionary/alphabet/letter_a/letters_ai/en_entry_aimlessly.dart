@@ -134,14 +134,18 @@ class EnglishEntryaimlessly extends StatelessWidget {
                                   text:
                                       "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAimlessly76511981("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAimlessly76511981(
-                                    // REPLACE: aimlessly /ˈeɪmləsli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAimlessly76511981("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAimlessly76511981(
+                                        // REPLACE: aimlessly /ˈeɪmləsli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

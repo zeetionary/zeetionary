@@ -181,12 +181,17 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls1(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls1(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,12 +208,17 @@ class EnglishEntryball extends StatelessWidget {
                                   text:
                                       "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls2(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls2(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لێدانێکی جوان بوو لەلایەن کەینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls3(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls3(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,12 +263,17 @@ class EnglishEntryball extends StatelessWidget {
                                   text:
                                       "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls4(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls4(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -268,12 +288,17 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تێبینی گرێیەکی کرد لە گونی چەپیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls5(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls5(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -288,12 +313,17 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ئاھەنگەکە بینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls6(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls6(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -308,12 +338,17 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەستەکانی خڕبوونە مشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalls7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalls7(// REPLACE: ball
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalls7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalls7(// REPLACE: ball
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

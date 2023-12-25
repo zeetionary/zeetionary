@@ -178,13 +178,17 @@ class EnglishEntrybandit extends StatelessWidget {
                                   text:
                                       "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandits1(// REPLACE: bandit
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandits1(// REPLACE: bandit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

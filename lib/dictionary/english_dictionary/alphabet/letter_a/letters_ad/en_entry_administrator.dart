@@ -138,13 +138,17 @@ class EnglishEntryadministrator extends StatelessWidget {
                                   text:
                                       "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmini5288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmini5288(
-                                    // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmini5288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmini5288(
+                                        // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +164,17 @@ class EnglishEntryadministrator extends StatelessWidget {
                                   text:
                                       "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi25688("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmi25688(
-                                    // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi25688("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi25688(
+                                        // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

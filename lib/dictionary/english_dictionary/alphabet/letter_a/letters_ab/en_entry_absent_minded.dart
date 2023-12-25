@@ -118,11 +118,15 @@ class EnglishEntryabsentminded extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "باپیرە خەیکە خەیاڵپڵاو دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3254("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3254("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

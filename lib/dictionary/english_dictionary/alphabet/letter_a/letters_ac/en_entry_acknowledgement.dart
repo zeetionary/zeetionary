@@ -137,12 +137,16 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دانیپێداناوە کە ئەو بەرپرسیارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAckno5387("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAckno5387(
-                                    "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAckno5387("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAckno5387(
+                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,12 +162,17 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                   text:
                                       "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcknowle65899("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcknowle65899(
-                                    "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAcknowle65899("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcknowle65899(
+                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,12 +188,16 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                   text:
                                       "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcknowl5674("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcknowl5674(
-                                    "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcknowl5674("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcknowl5674(
+                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

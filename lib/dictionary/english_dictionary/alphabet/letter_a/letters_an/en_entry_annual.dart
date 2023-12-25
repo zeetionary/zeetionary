@@ -181,13 +181,17 @@ class EnglishEntryannual extends StatelessWidget {
                                   text:
                                       "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnual817("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnual817(// REPLACE: annual /ˈænjuəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnual817("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnual817(
+                                        // REPLACE: annual /ˈænjuəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryannual extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnual819("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnual819(// REPLACE: annual /ˈænjuəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnual819("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnual819(
+                                        // REPLACE: annual /ˈænjuəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +233,17 @@ class EnglishEntryannual extends StatelessWidget {
                                   text:
                                       "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnual821("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnual821(// REPLACE: annual /ˈænjuəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnual821("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnual821(
+                                        // REPLACE: annual /ˈænjuəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,13 +260,17 @@ class EnglishEntryannual extends StatelessWidget {
                                   text:
                                       "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnual829("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnual829(// REPLACE: annual /ˈænjuəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnual829("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnual829(
+                                        // REPLACE: annual /ˈænjuəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

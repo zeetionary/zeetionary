@@ -178,13 +178,17 @@ class EnglishEntryavarice extends StatelessWidget {
                                   text:
                                       "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvarices1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvarices1(// REPLACE: avarice
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvarices1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvarices1(// REPLACE: avarice
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

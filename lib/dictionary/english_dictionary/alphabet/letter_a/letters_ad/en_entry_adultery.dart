@@ -133,13 +133,17 @@ class EnglishEntryadultery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تاوانبارکرا بە ئەنجامدانی زینا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdult53891("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdult53891(
-                                    // REPLACE: adultery /əˈdʌltəri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdult53891("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdult53891(
+                                        // REPLACE: adultery /əˈdʌltəri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryapt extends StatelessWidget {
                                   text:
                                       "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApt739("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApt739(// REPLACE: apt /æpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApt739("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApt739(// REPLACE: apt /æpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryapt extends StatelessWidget {
                                   text:
                                       "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApt745("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApt745(// REPLACE: apt /æpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApt745("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApt745(// REPLACE: apt /æpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryapt extends StatelessWidget {
                                   text:
                                       "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApt754("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApt754(// REPLACE: apt /æpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApt754("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApt754(// REPLACE: apt /æpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +265,17 @@ class EnglishEntryapt extends StatelessWidget {
                                   text:
                                       "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApt757("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApt757(// REPLACE: apt /æpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApt757("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApt757(// REPLACE: apt /æpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

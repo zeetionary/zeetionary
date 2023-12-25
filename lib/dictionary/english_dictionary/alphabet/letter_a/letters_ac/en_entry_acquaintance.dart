@@ -136,12 +136,16 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                   text:
                                       "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcqu4587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcqu4587(
-                                    "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcqu4587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcqu4587(
+                                        "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,12 +161,16 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                   text:
                                       "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcq3528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcq3528(
-                                    "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcq3528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcq3528(
+                                        "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -189,13 +189,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal932("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal932(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal932("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal932(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal939("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal939(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal939("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal939(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal946("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal946(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal946("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal946(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal950(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal950(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal953("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal953(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal953("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal953(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +322,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal956("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal956(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal956("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal956(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -325,13 +349,17 @@ class EnglishEntryappeal extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeal958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppeal958(// REPLACE: appeal /əˈpiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeal958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeal958(
+                                        // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

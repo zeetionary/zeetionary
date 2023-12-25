@@ -185,13 +185,18 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                                   text:
                                       "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsylumseeker629("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsylumseeker629(
-                                    // REPLACE: asylum seeker
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAsylumseeker629("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsylumseeker629(
+                                        // REPLACE: asylum seeker
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

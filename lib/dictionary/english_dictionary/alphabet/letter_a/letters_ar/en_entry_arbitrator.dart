@@ -184,13 +184,18 @@ class EnglishEntryarbitrator extends StatelessWidget {
                                   text:
                                       "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrator1204("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrator1204(
-                                    // REPLACE: arbitrator /ˈɑːrbɪtreɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrator1204("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrator1204(
+                                        // REPLACE: arbitrator /ˈɑːrbɪtreɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

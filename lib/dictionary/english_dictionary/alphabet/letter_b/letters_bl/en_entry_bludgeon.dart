@@ -174,11 +174,15 @@ class EnglishEntrybludgeon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کوتەک کاری کرا تا مردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbludgeons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbludgeons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbludgeons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbludgeons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybludgeon extends StatelessWidget {
                                   text:
                                       "ھەوڵیان دا پەلکێشم بکەنە ناو ناڕەزاییەتییەکەیانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbludgeons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbludgeons2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbludgeons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbludgeons2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

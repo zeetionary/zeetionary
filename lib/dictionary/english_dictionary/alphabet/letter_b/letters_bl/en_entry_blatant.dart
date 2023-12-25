@@ -173,11 +173,15 @@ class EnglishEntryblatant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "درۆیەکی ئاشکتا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblatants1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblatants1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblatants1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblatants1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,11 +194,15 @@ class EnglishEntryblatant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەڵسوکەوتی بێ ڕێزی ئاشکرای پیشان دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblatants2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblatants2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblatants2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblatants2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

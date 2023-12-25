@@ -262,13 +262,17 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارچەیەکی ھونەری زۆر جوانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt925("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt925(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt925("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt925(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,13 +287,17 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt927("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt927(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt927("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt927(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -306,13 +314,17 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt930("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt930(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt930("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt930(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -327,13 +339,17 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ھونەر و دیزایندا باشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt936("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt936(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt936("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt936(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -350,13 +366,17 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt947("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt947(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt947("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt947(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -373,13 +393,17 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt943("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt943(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt943("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt943(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -396,13 +420,17 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt939("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt939(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt939("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt939(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -418,13 +446,17 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArt950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArt950(// REPLACE: art /ɑːrt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArt950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArt950(// REPLACE: art /ɑːrt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

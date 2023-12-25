@@ -176,11 +176,15 @@ class EnglishEntrybedclothes extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێخەف و بەتانیەکەی دا بە خۆیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedclothess1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedclothess1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedclothess1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedclothess1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

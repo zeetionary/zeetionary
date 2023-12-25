@@ -187,13 +187,17 @@ class EnglishEntryassemble extends StatelessWidget {
                                   text:
                                       "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssemble925("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssemble925(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssemble925("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssemble925(
+                                        // REPLACE: assemble /əˈsembl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryassemble extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssemble926("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssemble926(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssemble926("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssemble926(
+                                        // REPLACE: assemble /əˈsembl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryassemble extends StatelessWidget {
                                   text:
                                       "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssemble929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssemble929(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssemble929("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssemble929(
+                                        // REPLACE: assemble /əˈsembl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,17 @@ class EnglishEntryarabic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArabic1010("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArabic1010(// REPLACE: arabic /ˈærəbɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArabic1010("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArabic1010(
+                                        // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryarabic extends StatelessWidget {
                                   text:
                                       "عیبری و عەرەبی ھەردووکیان زمانی سامین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArabic1012("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArabic1012(// REPLACE: arabic /ˈærəbɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArabic1012("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArabic1012(
+                                        // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryarabic extends StatelessWidget {
                                   text:
                                       "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArabic1017("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArabic1017(// REPLACE: arabic /ˈærəbɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArabic1017("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArabic1017(
+                                        // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

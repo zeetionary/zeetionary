@@ -178,13 +178,17 @@ class EnglishEntryantidote extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntidote1018("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntidote1018(
-                                    // REPLACE: antidote /ˈæntidəʊt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntidote1018("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntidote1018(
+                                        // REPLACE: antidote /ˈæntidəʊt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

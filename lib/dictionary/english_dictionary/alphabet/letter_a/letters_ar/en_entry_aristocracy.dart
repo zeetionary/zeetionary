@@ -184,13 +184,18 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                   text:
                                       "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAristocracy1158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAristocracy1158(
-                                    // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAristocracy1158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAristocracy1158(
+                                        // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

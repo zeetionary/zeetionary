@@ -185,17 +185,22 @@ class EnglishEntryapproximate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەو نرخەی دراوە بەنزیکەییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproximate950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximate950(
-                                    // REPLACE: approximate /əˈprɑːksɪmət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximate950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximate950(
+                                        // REPLACE: approximate /əˈprɑːksɪmət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -206,13 +211,18 @@ class EnglishEntryapproximate extends StatelessWidget {
                                   text:
                                       "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproximate952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximate952(
-                                    // REPLACE: approximate /əˈprɑːksɪmət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximate952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximate952(
+                                        // REPLACE: approximate /əˈprɑːksɪmət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,17 +239,22 @@ class EnglishEntryapproximate extends StatelessWidget {
                                   text:
                                       "نرخی گشتی نزیک‌دەبێتەوە لە ١٥ ملیار پاوەند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproximate954("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximate954(
-                                    // REPLACE: approximate /əˈprɑːksɪmət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximate954("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximate954(
+                                        // REPLACE: approximate /əˈprɑːksɪmət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -250,13 +265,18 @@ class EnglishEntryapproximate extends StatelessWidget {
                                   text:
                                       "ئاژەڵەکان گەورەکران لە دۆخێک کە تا دەکرا نزیک‌بوو لە ژینگەی کێوییان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproximate956("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximate956(
-                                    // REPLACE: approximate /əˈprɑːksɪmət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximate956("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximate956(
+                                        // REPLACE: approximate /əˈprɑːksɪmət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

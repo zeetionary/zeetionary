@@ -184,13 +184,18 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                   text:
                                       "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAskingprice756("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAskingprice756(
-                                    // REPLACE: asking price /ˈæskɪŋ praɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAskingprice756("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAskingprice756(
+                                        // REPLACE: asking price /ˈæskɪŋ praɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

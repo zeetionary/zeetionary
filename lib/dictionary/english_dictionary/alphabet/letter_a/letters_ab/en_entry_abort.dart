@@ -132,11 +132,15 @@ class EnglishEntryabort extends StatelessWidget {
                                   text:
                                       "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA22("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA22("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA22("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,11 +156,15 @@ class EnglishEntryabort extends StatelessWidget {
                                   text:
                                       "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb885("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb885("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb885("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb885("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,11 +180,15 @@ class EnglishEntryabort extends StatelessWidget {
                                   text:
                                       "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb33("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb33("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb33("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb33("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

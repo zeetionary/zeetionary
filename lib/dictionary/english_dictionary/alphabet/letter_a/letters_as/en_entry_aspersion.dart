@@ -185,13 +185,17 @@ class EnglishEntryaspersion extends StatelessWidget {
                                   text:
                                       "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspersion518("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspersion518(
-                                    // REPLACE: aspersion /əˈspɜːrʒnz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspersion518("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspersion518(
+                                        // REPLACE: aspersion /əˈspɜːrʒnz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

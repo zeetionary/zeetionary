@@ -186,13 +186,17 @@ class EnglishEntryastronaut extends StatelessWidget {
                                   text:
                                       "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstronaut442("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstronaut442(// REPLACE: astronaut
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstronaut442("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstronaut442(// REPLACE: astronaut
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -183,17 +183,22 @@ class EnglishEntryapparently extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وادیارە بەم‌نزیکانە جیادەبنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApparently907("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApparently907(
-                                    // REPLACE: apparently /əˈpærəntli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApparently907("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApparently907(
+                                        // REPLACE: apparently /əˈpærəntli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -204,13 +209,18 @@ class EnglishEntryapparently extends StatelessWidget {
                                   text:
                                       "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApparently909("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApparently909(
-                                    // REPLACE: apparently /əˈpærəntli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApparently909("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApparently909(
+                                        // REPLACE: apparently /əˈpærəntli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

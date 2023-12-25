@@ -187,13 +187,18 @@ class EnglishEntryassessment extends StatelessWidget {
                                   text:
                                       "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessment1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessment1125(
-                                    // REPLACE: assessment /əˈsesmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssessment1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessment1125(
+                                        // REPLACE: assessment /əˈsesmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryassessment extends StatelessWidget {
                                   text:
                                       "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessment1128("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessment1128(
-                                    // REPLACE: assessment /əˈsesmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssessment1128("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessment1128(
+                                        // REPLACE: assessment /əˈsesmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +243,18 @@ class EnglishEntryassessment extends StatelessWidget {
                                   text:
                                       "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessment1131("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessment1131(
-                                    // REPLACE: assessment /əˈsesmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssessment1131("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessment1131(
+                                        // REPLACE: assessment /əˈsesmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

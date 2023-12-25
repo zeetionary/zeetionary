@@ -183,13 +183,17 @@ class EnglishEntryaqueduct extends StatelessWidget {
                                   text:
                                       "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAqueduct1000("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAqueduct1000(
-                                    // REPLACE: aqueduct /ˈækwɪdʌkt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAqueduct1000("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAqueduct1000(
+                                        // REPLACE: aqueduct /ˈækwɪdʌkt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

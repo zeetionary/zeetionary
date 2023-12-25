@@ -178,17 +178,22 @@ class EnglishEntryannotation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnotation210("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnotation210(
-                                    // REPLACE: annotation /ˌænəˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnotation210("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnotation210(
+                                        // REPLACE: annotation /ˌænəˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -199,13 +204,18 @@ class EnglishEntryannotation extends StatelessWidget {
                                   text:
                                       "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnotation212("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnotation212(
-                                    // REPLACE: annotation /ˌænəˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnotation212("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnotation212(
+                                        // REPLACE: annotation /ˌænəˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

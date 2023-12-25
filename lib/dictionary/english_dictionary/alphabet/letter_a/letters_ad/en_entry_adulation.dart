@@ -134,13 +134,17 @@ class EnglishEntryadulation extends StatelessWidget {
                                   text:
                                       "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdu2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdu2534(
-                                    // REPLACE: adulation /ˌædʒəˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdu2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdu2534(
+                                        // REPLACE: adulation /ˌædʒəˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

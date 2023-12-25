@@ -135,13 +135,17 @@ class EnglishEntryamoeba extends StatelessWidget {
                                   text:
                                       "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakamoeba352477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakamoeba352477(
-                                    // REPLACE: amoeba /əˈmiːbə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakamoeba352477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakamoeba352477(
+                                        // REPLACE: amoeba /əˈmiːbə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

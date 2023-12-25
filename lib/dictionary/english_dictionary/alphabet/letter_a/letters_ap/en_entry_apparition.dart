@@ -183,13 +183,18 @@ class EnglishEntryapparition extends StatelessWidget {
                                   text:
                                       "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApparition917("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApparition917(
-                                    // REPLACE: apparition /ˌæpəˈrɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApparition917("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApparition917(
+                                        // REPLACE: apparition /ˌæpəˈrɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

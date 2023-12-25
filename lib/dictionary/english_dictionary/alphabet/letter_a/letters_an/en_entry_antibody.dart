@@ -179,13 +179,17 @@ class EnglishEntryantibody extends StatelessWidget {
                                   text:
                                       "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntibody1019("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntibody1019(
-                                    // REPLACE: antibody /ˈæntibɑːdi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntibody1019("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntibody1019(
+                                        // REPLACE: antibody /ˈæntibɑːdi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

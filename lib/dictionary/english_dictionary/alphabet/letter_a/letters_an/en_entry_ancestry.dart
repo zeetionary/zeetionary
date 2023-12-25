@@ -178,37 +178,44 @@ class EnglishEntryancestry extends StatelessWidget {
                                   text:
                                       "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestry1520("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncestry1520("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestry1520(
+                                        // REPLACE: ancestry /ˈænsestri/
+                                        "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestry1520(
-                                    // REPLACE: ancestry /ˈænsestri/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "According to science, humans share a common ancestry with chimpanzees."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAncestry4955("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAncestry4955(
+                                            // REPLACE: ancestry /ˈænsestri/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "According to science, humans share a common ancestry with chimpanzees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestry4955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestry4955(
-                                    // REPLACE: ancestry /ˈænsestri/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

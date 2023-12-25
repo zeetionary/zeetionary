@@ -175,11 +175,17 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
                                   text:
                                       "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboaconstrictors1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboaconstrictors1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboaconstrictors1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboaconstrictors1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

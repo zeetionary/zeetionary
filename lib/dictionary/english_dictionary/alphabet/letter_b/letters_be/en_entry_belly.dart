@@ -179,11 +179,15 @@ class EnglishEntrybelly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەسەر سکیان دەڕۆشتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybelly extends StatelessWidget {
                                   text:
                                       "زۆر قەڵەوە، سکی دێتە سەر پانتۆڵەکەیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,11 +225,15 @@ class EnglishEntrybelly extends StatelessWidget {
                                   text:
                                       "ھەستی دەکرد منداڵەکەی لە سکیدا لەقە دەھاوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -238,11 +250,15 @@ class EnglishEntrybelly extends StatelessWidget {
                                   text:
                                       "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellys4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellys4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,11 +275,15 @@ class EnglishEntrybelly extends StatelessWidget {
                                   text:
                                       "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellys5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellys5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellys5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

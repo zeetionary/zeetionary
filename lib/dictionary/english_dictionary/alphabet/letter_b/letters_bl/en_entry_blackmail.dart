@@ -177,11 +177,15 @@ class EnglishEntryblackmail extends StatelessWidget {
                                   text:
                                       "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmails1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmails1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackmails1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackmails1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntryblackmail extends StatelessWidget {
                                   text:
                                       "نابێت ڕێگەیان پی بدەین بەردەوام بن لەم کەڵەگاییە بەسەرمانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmails2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmails2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackmails2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackmails2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntryblackmail extends StatelessWidget {
                                   text:
                                       "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackmails3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackmails3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackmails3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackmails3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

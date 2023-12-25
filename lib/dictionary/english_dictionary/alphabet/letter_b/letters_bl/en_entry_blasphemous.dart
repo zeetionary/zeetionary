@@ -174,11 +174,17 @@ class EnglishEntryblasphemous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر کەس فیلمەکەیان بە کفراوی بینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblasphemouss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblasphemouss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblasphemouss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblasphemouss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

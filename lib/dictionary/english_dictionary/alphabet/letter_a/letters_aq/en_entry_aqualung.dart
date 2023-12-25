@@ -181,13 +181,17 @@ class EnglishEntryaqualung extends StatelessWidget {
                                   text:
                                       "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAqualung836("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAqualung836(
-                                    // REPLACE: aqualung /ˈɑːkwəlʌŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAqualung836("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAqualung836(
+                                        // REPLACE: aqualung /ˈɑːkwəlʌŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

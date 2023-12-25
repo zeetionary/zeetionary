@@ -137,13 +137,18 @@ class EnglishEntryairterminal extends StatelessWidget {
                                   text:
                                       "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirterminal3566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirterminal3566(
-                                    // REPLACE: air terminal /ˈer tɜːrmɪnl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirterminal3566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirterminal3566(
+                                        // REPLACE: air terminal /ˈer tɜːrmɪnl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

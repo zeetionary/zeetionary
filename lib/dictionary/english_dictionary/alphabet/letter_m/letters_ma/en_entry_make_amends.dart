@@ -200,13 +200,18 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                   text:
                                       "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لە دوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakMakeamends3466("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakMakeamends3466(
-                                    // REPLACE: make amends /meɪk əˈmendz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakMakeamends3466("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakMakeamends3466(
+                                        // REPLACE: make amends /meɪk əˈmendz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

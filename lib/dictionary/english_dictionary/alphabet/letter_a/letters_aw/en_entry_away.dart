@@ -180,12 +180,17 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەنارەکە یەک میل دوورە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways1(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways1(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,12 +206,17 @@ class EnglishEntryaway extends StatelessWidget {
                                   text:
                                       "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways2(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways2(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,12 +232,17 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways3(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways3(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,12 +258,17 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways4(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways4(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -263,12 +283,17 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "میوزیکەکە بە تەواوی داگیرسایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways5(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways5(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -285,12 +310,17 @@ class EnglishEntryaway extends StatelessWidget {
                                   text:
                                       "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways6(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways6(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -307,12 +337,17 @@ class EnglishEntryaway extends StatelessWidget {
                                   text:
                                       "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAways7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAways7(// REPLACE: away
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAways7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAways7(// REPLACE: away
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

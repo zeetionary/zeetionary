@@ -177,11 +177,15 @@ class EnglishEntrybereaved extends StatelessWidget {
                                   text:
                                       "دایک و باوکە جەرگ‌سووتاوەکە بە کراوەیی دەگریان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBereaveds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBereaveds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBereaveds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBereaveds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybereaved extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی گشتی پەسەندکراوە کەسانی جەرگ‌سووتاو سوود لە ڕاوێژ ببینن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBereaveds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBereaveds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBereaveds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBereaveds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

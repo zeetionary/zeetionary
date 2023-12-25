@@ -186,13 +186,18 @@ class EnglishEntryaudacious extends StatelessWidget {
                                   text:
                                       "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudacious1231("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudacious1231(// REPLACE: audacious
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAudacious1231("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudacious1231(// REPLACE: audacious
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

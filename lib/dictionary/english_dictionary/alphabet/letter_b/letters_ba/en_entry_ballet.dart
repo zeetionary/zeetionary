@@ -180,13 +180,17 @@ class EnglishEntryballet extends StatelessWidget {
                                   text:
                                       "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallets1(// REPLACE: ballet
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallets1(// REPLACE: ballet
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryballet extends StatelessWidget {
                                   text:
                                       "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallets2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallets2(// REPLACE: ballet
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallets2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallets2(// REPLACE: ballet
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryballet extends StatelessWidget {
                                   text:
                                       "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallets3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallets3(// REPLACE: ballet
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallets3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallets3(// REPLACE: ballet
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

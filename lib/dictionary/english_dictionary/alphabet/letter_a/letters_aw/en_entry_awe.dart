@@ -176,12 +176,16 @@ class EnglishEntryawe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ھەیبەتەوە باسی دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwes1(// REPLACE: awe
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAwes1(// REPLACE: awe
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,12 +202,16 @@ class EnglishEntryawe extends StatelessWidget {
                                   text:
                                       "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwes2(// REPLACE: awe
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAwes2(// REPLACE: awe
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

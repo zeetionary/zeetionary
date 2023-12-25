@@ -128,11 +128,15 @@ class EnglishEntryabsence extends StatelessWidget {
                                   text:
                                       "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2689("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2689("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2689("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2689("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryabsence extends StatelessWidget {
                                   text:
                                       "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2134("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2134("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2134("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2134("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

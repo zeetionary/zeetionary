@@ -145,12 +145,16 @@ class EnglishEntryachieve extends StatelessWidget {
                                   text:
                                       "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc1528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc1528(
-                                    "en-US"), // REPLACE achieve /əˈtʃiːv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc1528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc1528(
+                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -164,12 +168,16 @@ class EnglishEntryachieve extends StatelessWidget {
                                   text:
                                       "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc25647("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc25647(
-                                    "en-US"), // REPLACE achieve /əˈtʃiːv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc25647("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc25647(
+                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -185,12 +193,16 @@ class EnglishEntryachieve extends StatelessWidget {
                                   text:
                                       "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA1527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA1527(
-                                    "en-US"), // REPLACE achieve /əˈtʃiːv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA1527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA1527(
+                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,12 +218,16 @@ class EnglishEntryachieve extends StatelessWidget {
                                   text:
                                       "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA149873("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA149873(
-                                    "en-US"), // REPLACE achieve /əˈtʃiːv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA149873("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA149873(
+                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

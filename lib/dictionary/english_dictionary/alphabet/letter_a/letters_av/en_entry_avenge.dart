@@ -178,13 +178,17 @@ class EnglishEntryavenge extends StatelessWidget {
                                   text:
                                       "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvenges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvenges1(// REPLACE: avenge
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvenges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvenges1(// REPLACE: avenge
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

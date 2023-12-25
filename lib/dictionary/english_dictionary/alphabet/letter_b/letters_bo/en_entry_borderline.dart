@@ -176,11 +176,15 @@ class EnglishEntryborderline extends StatelessWidget {
                                   text:
                                       "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborderlines1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborderlines1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborderlines1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborderlines1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryborderline extends StatelessWidget {
                                   text:
                                       "خاڵی جیاکەرەوەی نێوان ھاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborderlines2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborderlines2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborderlines2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborderlines2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

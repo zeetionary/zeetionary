@@ -136,13 +136,17 @@ class EnglishEntryadverse extends StatelessWidget {
                                   text:
                                       "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd3658("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAd3658(
-                                    // REPLACE: adverse /ˈædvɜːrs/,  /ədˈvɜːrs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd3658("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd3658(
+                                        // REPLACE: adverse /ˈædvɜːrs/,  /ədˈvɜːrs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

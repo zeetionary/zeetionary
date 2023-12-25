@@ -176,11 +176,15 @@ class EnglishEntrybollard extends StatelessWidget {
                                   text:
                                       "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان  بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbollards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbollards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbollards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbollards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybollard extends StatelessWidget {
                                   text:
                                       "بەلەمەکە بەسترا بە ڕاگرێکەوە بە حەبلێکی ئەستوور."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbollards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbollards2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbollards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbollards2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

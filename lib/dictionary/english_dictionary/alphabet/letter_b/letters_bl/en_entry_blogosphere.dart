@@ -173,11 +173,17 @@ class EnglishEntryblogosphere extends StatelessWidget {
                                   text:
                                       "یەکێک لەو چیرۆکانەی زۆرترین باسی لێوە کراو لەسەر ئینتەرنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblogospheres1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblogospheres1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblogospheres1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblogospheres1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

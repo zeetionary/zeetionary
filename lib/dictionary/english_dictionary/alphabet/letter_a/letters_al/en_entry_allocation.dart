@@ -138,13 +138,18 @@ class EnglishEntryallocation extends StatelessWidget {
                                   text:
                                       "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllocation1362("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllocation1362(
-                                    // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllocation1362("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllocation1362(
+                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +163,18 @@ class EnglishEntryallocation extends StatelessWidget {
                                   text:
                                       "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllocation342("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllocation342(
-                                    // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllocation342("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllocation342(
+                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +189,18 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllocation359("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllocation359(
-                                    // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllocation359("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllocation359(
+                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

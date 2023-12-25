@@ -177,13 +177,17 @@ class EnglishEntrybaggage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaggages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaggages1(// REPLACE: baggage
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaggages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaggages1(// REPLACE: baggage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,13 +200,17 @@ class EnglishEntrybaggage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "با سەرەتا جانتاکانمان وەربگرینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaggages2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaggages2(// REPLACE: baggage
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaggages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaggages2(// REPLACE: baggage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,13 +227,17 @@ class EnglishEntrybaggage extends StatelessWidget {
                                   text:
                                       "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaggages3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaggages3(// REPLACE: baggage
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaggages3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaggages3(// REPLACE: baggage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

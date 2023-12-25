@@ -177,12 +177,16 @@ class EnglishEntryaye extends StatelessWidget {
                                   text:
                                       "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAyes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAyes1(// REPLACE: aye
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAyes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAyes1(// REPLACE: aye
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,12 +201,16 @@ class EnglishEntryaye extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە ویستوومە لەندەن ببینم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAyes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAyes2(// REPLACE: aye
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAyes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAyes2(// REPLACE: aye
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

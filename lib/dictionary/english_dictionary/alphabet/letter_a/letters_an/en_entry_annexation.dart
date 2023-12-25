@@ -179,17 +179,22 @@ class EnglishEntryannexation extends StatelessWidget {
                                   text:
                                       "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnexation1150("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnexation1150(
-                                    // REPLACE: annexation /ˌænekˈseɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnexation1150("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnexation1150(
+                                        // REPLACE: annexation /ˌænekˈseɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -200,13 +205,18 @@ class EnglishEntryannexation extends StatelessWidget {
                                   text:
                                       "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnexation1151("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnexation1151(
-                                    // REPLACE: annexation /ˌænekˈseɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnexation1151("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnexation1151(
+                                        // REPLACE: annexation /ˌænekˈseɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

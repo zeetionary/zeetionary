@@ -135,13 +135,17 @@ class EnglishEntryaerobatics extends StatelessWidget {
                                   text:
                                       "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAeroba35699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAeroba35699(
-                                    // REPLACE: aerobatics /ˌerəˈbætɪks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAeroba35699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAeroba35699(
+                                        // REPLACE: aerobatics /ˌerəˈbætɪks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,14 +178,17 @@ class EnglishEntryamphibian extends StatelessWidget {
                                   text:
                                       "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphibian4410("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmphibian4410("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakAmphibian4410(
                                     // REPLACE: amphibian /æmˈfɪbiən/
                                     "en-US"),
                               ),
+                                ],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -200,13 +203,17 @@ class EnglishEntryamphibian extends StatelessWidget {
                                   text:
                                       "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmphibian44588("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmphibian44588("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakAmphibian44588(
                                     // REPLACE: amphibian /æmˈfɪbiən/
                                     "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -180,12 +180,17 @@ class EnglishEntryawful extends StatelessWidget {
                                   text:
                                       "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwfuls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwfuls1(// REPLACE: awful
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwfuls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwfuls1(// REPLACE: awful
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,12 +207,17 @@ class EnglishEntryawful extends StatelessWidget {
                                   text:
                                       "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwfuls2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwfuls2(// REPLACE: awful
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwfuls2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwfuls2(// REPLACE: awful
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntryawful extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارەیەکی زۆری تێدەچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwfuls3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwfuls3(// REPLACE: awful
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwfuls3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwfuls3(// REPLACE: awful
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,12 +258,17 @@ class EnglishEntryawful extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کلینت فرە زیرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwfuls4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwfuls4(// REPLACE: awful
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwfuls4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwfuls4(// REPLACE: awful
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

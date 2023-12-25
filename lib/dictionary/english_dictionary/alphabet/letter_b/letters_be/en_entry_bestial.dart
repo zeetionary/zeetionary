@@ -177,11 +177,15 @@ class EnglishEntrybestial extends StatelessWidget {
                                   text:
                                       "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestials1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestials1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestials1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

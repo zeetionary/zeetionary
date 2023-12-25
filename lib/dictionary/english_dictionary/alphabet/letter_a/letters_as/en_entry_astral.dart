@@ -187,13 +187,17 @@ class EnglishEntryastral extends StatelessWidget {
                                   text:
                                       "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstral1111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstral1111(// REPLACE: astral
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstral1111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstral1111(// REPLACE: astral
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryastral extends StatelessWidget {
                                   text:
                                       "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstral1115("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstral1115(// REPLACE: astral
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstral1115("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstral1115(// REPLACE: astral
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

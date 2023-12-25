@@ -176,11 +176,15 @@ class EnglishEntryblandness extends StatelessWidget {
                                   text:
                                       "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblandnesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblandnesss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblandnesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblandnesss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntryblandness extends StatelessWidget {
                                   text:
                                       "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblandnesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblandnesss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblandnesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblandnesss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

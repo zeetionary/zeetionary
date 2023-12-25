@@ -137,13 +137,17 @@ class EnglishEntryalgae extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlgae4524("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlgae4524(
-                                    // REPLACE: algae /ˈældʒiː/,  /ˈælɡiː/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlgae4524("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlgae4524(
+                                        // REPLACE: algae /ˈældʒiː/,  /ˈælɡiː/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

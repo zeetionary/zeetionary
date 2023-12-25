@@ -108,11 +108,15 @@ class EnglishEntryabashed extends StatelessWidget {
                                   text:
                                       "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak25476("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak25476("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak25476("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak25476("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

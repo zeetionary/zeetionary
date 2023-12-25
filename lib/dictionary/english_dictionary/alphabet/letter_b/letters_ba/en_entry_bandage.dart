@@ -178,13 +178,17 @@ class EnglishEntrybandage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandages1(// REPLACE: bandage
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandages1(// REPLACE: bandage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntrybandage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "برینەکە توند مەبەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandages2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandages2(// REPLACE: bandage
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandages2(// REPLACE: bandage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,12 +134,16 @@ class EnglishEntryacreage extends StatelessWidget {
                                   text:
                                       "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcr21374("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcr21374(
-                                    "en-US"), // REPLACE acreage /ˈeɪkərɪdʒ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcr21374("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcr21374(
+                                        "en-US"), // REPLACE acreage /ˈeɪkərɪdʒ/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

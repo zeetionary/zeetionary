@@ -180,13 +180,17 @@ class EnglishEntryancestor extends StatelessWidget {
                                   text:
                                       "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestor7690("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestor7690(
-                                    // REPLACE: ancestor /ˈænsestər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncestor7690("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestor7690(
+                                        // REPLACE: ancestor /ˈænsestər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryancestor extends StatelessWidget {
                                   text:
                                       "وێنەی باوانی لەسەر دیواری ژوورەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestor4800("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestor4800(
-                                    // REPLACE: ancestor /ˈænsestər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncestor4800("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestor4800(
+                                        // REPLACE: ancestor /ˈænsestər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,18 @@ class EnglishEntryancestor extends StatelessWidget {
                                   text:
                                       "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestor02560("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestor02560(
-                                    // REPLACE: ancestor /ˈænsestər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAncestor02560("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestor02560(
+                                        // REPLACE: ancestor /ˈænsestər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +260,17 @@ class EnglishEntryancestor extends StatelessWidget {
                                   text:
                                       "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestor0805("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestor0805(
-                                    // REPLACE: ancestor /ˈænsestər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncestor0805("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestor0805(
+                                        // REPLACE: ancestor /ˈænsestər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

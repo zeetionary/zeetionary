@@ -189,13 +189,17 @@ class EnglishEntryassembly extends StatelessWidget {
                                   text:
                                       "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssembly940("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssembly940(
-                                    // REPLACE: assembly /əˈsembli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssembly940("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssembly940(
+                                        // REPLACE: assembly /əˈsembli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryassembly extends StatelessWidget {
                                   text:
                                       "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssembly943("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssembly943(
-                                    // REPLACE: assembly /əˈsembli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssembly943("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssembly943(
+                                        // REPLACE: assembly /əˈsembli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryassembly extends StatelessWidget {
                                   text:
                                       "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssembly946("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssembly946(
-                                    // REPLACE: assembly /əˈsembli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssembly946("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssembly946(
+                                        // REPLACE: assembly /əˈsembli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryassembly extends StatelessWidget {
                                   text:
                                       "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssembly950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssembly950(
-                                    // REPLACE: assembly /əˈsembli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssembly950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssembly950(
+                                        // REPLACE: assembly /əˈsembli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryassembly extends StatelessWidget {
                                   text:
                                       "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssembly952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssembly952(
-                                    // REPLACE: assembly /əˈsembli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssembly952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssembly952(
+                                        // REPLACE: assembly /əˈsembli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

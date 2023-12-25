@@ -176,12 +176,17 @@ class EnglishEntryavert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێگە لە کارەساتێک گیردرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAverts1(// REPLACE: avert
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverts1(// REPLACE: avert
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,12 +203,17 @@ class EnglishEntryavert extends StatelessWidget {
                                   text:
                                       "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAverts2(// REPLACE: avert
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverts2(// REPLACE: avert
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

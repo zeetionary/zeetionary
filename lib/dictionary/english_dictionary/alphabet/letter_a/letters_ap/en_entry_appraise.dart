@@ -183,13 +183,17 @@ class EnglishEntryappraise extends StatelessWidget {
                                   text:
                                       "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppraise910("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppraise910(
-                                    // REPLACE: appraise /əˈpreɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppraise910("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppraise910(
+                                        // REPLACE: appraise /əˈpreɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryappraise extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppraise913("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppraise913(
-                                    // REPLACE: appraise /əˈpreɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppraise913("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppraise913(
+                                        // REPLACE: appraise /əˈpreɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +235,17 @@ class EnglishEntryappraise extends StatelessWidget {
                                   text:
                                       "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppraise915("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppraise915(
-                                    // REPLACE: appraise /əˈpreɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppraise915("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppraise915(
+                                        // REPLACE: appraise /əˈpreɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

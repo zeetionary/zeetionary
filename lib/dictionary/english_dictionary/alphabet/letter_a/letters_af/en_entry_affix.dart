@@ -134,13 +134,17 @@ class EnglishEntryaffix extends StatelessWidget {
                                   text:
                                       "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffix911("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffix911(// REPLACE: affix /əˈfɪks/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffix911("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAffix911(// REPLACE: affix /əˈfɪks/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

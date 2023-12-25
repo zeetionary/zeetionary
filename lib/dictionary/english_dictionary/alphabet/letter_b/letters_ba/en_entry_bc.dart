@@ -177,11 +177,15 @@ class EnglishEntrybc extends StatelessWidget {
                                   text:
                                       "شەڕی ئاکتیەم لە ساڵی ٣١ی پێش زایین ڕوویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBcs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBcs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBcs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBcs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

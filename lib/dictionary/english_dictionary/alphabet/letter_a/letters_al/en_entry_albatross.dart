@@ -137,13 +137,18 @@ class EnglishEntryalbatross extends StatelessWidget {
                                   text:
                                       "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbatross4377("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlbatross4377(
-                                    // REPLACE: albatross /ˈælbətrɑːs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlbatross4377("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbatross4377(
+                                        // REPLACE: albatross /ˈælbətrɑːs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +164,18 @@ class EnglishEntryalbatross extends StatelessWidget {
                                   text:
                                       "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbatross3622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlbatross3622(
-                                    // REPLACE: albatross /ˈælbətrɑːs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlbatross3622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbatross3622(
+                                        // REPLACE: albatross /ˈælbətrɑːs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

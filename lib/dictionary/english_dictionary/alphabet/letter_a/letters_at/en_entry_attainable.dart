@@ -187,13 +187,18 @@ class EnglishEntryattainable extends StatelessWidget {
                                   text:
                                       "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttainable715("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttainable715(// REPLACE: attainable
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttainable715("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttainable715(
+                                        // REPLACE: attainable
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

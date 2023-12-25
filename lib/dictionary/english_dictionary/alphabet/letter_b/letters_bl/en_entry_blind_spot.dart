@@ -177,11 +177,15 @@ class EnglishEntryblindspot extends StatelessWidget {
                                   text:
                                       "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindspots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindspots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindspots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindspots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryblindspot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دوو چاوی ھەیە بیرکاری نابینن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindspots2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindspots2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindspots2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindspots2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntryblindspot extends StatelessWidget {
                                   text:
                                       "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindspots3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindspots3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindspots3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindspots3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

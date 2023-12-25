@@ -134,12 +134,16 @@ class EnglishEntryacquire extends StatelessWidget {
                                   text:
                                       "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc215698("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc215698(
-                                    "en-US"), // REPLACE acquire /əˈkwaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc215698("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc215698(
+                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,12 +156,16 @@ class EnglishEntryacquire extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناوبانگی بۆ فروفێڵ بەدەستھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA42571("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA42571(
-                                    "en-US"), // REPLACE acquire /əˈkwaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA42571("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA42571(
+                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -173,12 +181,16 @@ class EnglishEntryacquire extends StatelessWidget {
                                   text:
                                       "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25347("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25347(
-                                    "en-US"), // REPLACE acquire /əˈkwaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25347("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25347(
+                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

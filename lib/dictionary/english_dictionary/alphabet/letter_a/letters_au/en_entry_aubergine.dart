@@ -186,13 +186,18 @@ class EnglishEntryaubergine extends StatelessWidget {
                                   text:
                                       "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAubergine1132("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAubergine1132(// REPLACE: aubergine
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAubergine1132("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAubergine1132(// REPLACE: aubergine
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

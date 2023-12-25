@@ -176,13 +176,17 @@ class EnglishEntryamplify extends StatelessWidget {
                                   text:
                                       "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplify7780("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplify7780(
-                                    // REPLACE: amplify /ˈæmplɪfaɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmplify7780("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplify7780(
+                                        // REPLACE: amplify /ˈæmplɪfaɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntryamplify extends StatelessWidget {
                                   text:
                                       "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplify7748("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplify7748(
-                                    // REPLACE: amplify /ˈæmplɪfaɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmplify7748("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplify7748(
+                                        // REPLACE: amplify /ˈæmplɪfaɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

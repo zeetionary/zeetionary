@@ -258,13 +258,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1026(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1026(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +283,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1028("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1028(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1028("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1028(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +310,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1030(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1030(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,13 +335,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1031("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1031(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1031("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1031(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -346,13 +362,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1034("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1034(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1034("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1034(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -369,13 +389,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1038("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1038(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1038("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1038(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -392,13 +416,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1039("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1039(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1039("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1039(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -415,13 +443,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1044("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1044(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1044("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1044(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -437,13 +469,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1047("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1047(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1047("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1047(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -456,13 +492,17 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زستان خەریکە نزیک‌دەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1048("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1048(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1048("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1048(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -479,13 +519,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "حەزدەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1050("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1050(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1050("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1050(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -501,13 +545,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1053("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1053(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1053("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1053(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -524,13 +572,17 @@ class EnglishEntryapproach extends StatelessWidget {
                                   text:
                                       "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproach1055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproach1055(
-                                    // REPLACE: approach /əˈprəʊtʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproach1055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproach1055(
+                                        // REPLACE: approach /əˈprəʊtʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

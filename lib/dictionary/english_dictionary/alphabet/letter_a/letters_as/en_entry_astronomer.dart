@@ -187,13 +187,18 @@ class EnglishEntryastronomer extends StatelessWidget {
                                   text:
                                       "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstronomer503("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstronomer503(// REPLACE: astronomer
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstronomer503("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstronomer503(
+                                        // REPLACE: astronomer
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

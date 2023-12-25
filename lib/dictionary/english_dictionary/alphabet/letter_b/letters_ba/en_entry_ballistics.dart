@@ -179,13 +179,17 @@ class EnglishEntryballistics extends StatelessWidget {
                                   text:
                                       "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallisticss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallisticss1(// REPLACE: ballistics
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallisticss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallisticss1(// REPLACE: ballistics
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -187,13 +187,18 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                   text:
                                       "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsthmatic1021("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsthmatic1021(// REPLACE: asthmatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAsthmatic1021("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsthmatic1021(// REPLACE: asthmatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                   text:
                                       "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsthmatic1024("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsthmatic1024(// REPLACE: asthmatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAsthmatic1024("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsthmatic1024(// REPLACE: asthmatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

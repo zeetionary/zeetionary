@@ -180,13 +180,17 @@ class EnglishEntryavenue extends StatelessWidget {
                                   text:
                                       "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvenues1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvenues1(// REPLACE: avenue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvenues1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvenues1(// REPLACE: avenue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryavenue extends StatelessWidget {
                                   text:
                                       "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvenues2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvenues2(// REPLACE: avenue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvenues2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvenues2(// REPLACE: avenue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryavenue extends StatelessWidget {
                                   text:
                                       "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvenues3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvenues3(// REPLACE: avenue
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvenues3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvenues3(// REPLACE: avenue
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybidet extends StatelessWidget {
                                   text:
                                       "بەکارھێنانی بیدێی بە باشتر دەزانی وەک لە کاغەزی دەسبەئاو بۆ خاوێنی زیاتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBidets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBidets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBidets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBidets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

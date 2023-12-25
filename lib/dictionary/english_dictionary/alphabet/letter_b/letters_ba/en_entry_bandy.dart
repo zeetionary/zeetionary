@@ -178,12 +178,17 @@ class EnglishEntrybandy extends StatelessWidget {
                                   text:
                                       "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBandys1(// REPLACE: bandy
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandys1(// REPLACE: bandy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

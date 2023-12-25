@@ -175,13 +175,17 @@ class EnglishEntryanchovy extends StatelessWidget {
                                   text:
                                       "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchovy502("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnchovy502(
-                                    // REPLACE: anchovy /ˈæntʃəʊvi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchovy502("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchovy502(
+                                        // REPLACE: anchovy /ˈæntʃəʊvi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

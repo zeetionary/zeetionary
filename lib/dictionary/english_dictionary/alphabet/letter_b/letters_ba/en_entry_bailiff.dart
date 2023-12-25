@@ -180,13 +180,17 @@ class EnglishEntrybailiff extends StatelessWidget {
                                   text:
                                       "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBailiffs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBailiffs1(// REPLACE: bailiff
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBailiffs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBailiffs1(// REPLACE: bailiff
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntrybailiff extends StatelessWidget {
                                   text:
                                       "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBailiffs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBailiffs2(// REPLACE: bailiff
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBailiffs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBailiffs2(// REPLACE: bailiff
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntrybailiff extends StatelessWidget {
                                   text:
                                       "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBailiffs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBailiffs3(// REPLACE: bailiff
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBailiffs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBailiffs3(// REPLACE: bailiff
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

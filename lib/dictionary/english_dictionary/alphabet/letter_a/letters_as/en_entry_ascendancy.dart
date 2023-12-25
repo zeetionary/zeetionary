@@ -187,13 +187,18 @@ class EnglishEntryascendancy extends StatelessWidget {
                                   text:
                                       "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscendancy1157("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscendancy1157(
-                                    // REPLACE: ascendancy /əˈsendənsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscendancy1157("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscendancy1157(
+                                        // REPLACE: ascendancy /əˈsendənsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryascendancy extends StatelessWidget {
                                   text:
                                       "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscendancy1158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscendancy1158(
-                                    // REPLACE: ascendancy /əˈsendənsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscendancy1158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscendancy1158(
+                                        // REPLACE: ascendancy /əˈsendənsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +239,18 @@ class EnglishEntryascendancy extends StatelessWidget {
                                   text:
                                       "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscendancy1201("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscendancy1201(
-                                    // REPLACE: ascendancy /əˈsendənsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscendancy1201("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscendancy1201(
+                                        // REPLACE: ascendancy /əˈsendənsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

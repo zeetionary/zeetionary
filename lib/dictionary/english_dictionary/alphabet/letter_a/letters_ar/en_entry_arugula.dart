@@ -183,13 +183,17 @@ class EnglishEntryarugula extends StatelessWidget {
                                   text:
                                       "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArugula1018("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArugula1018(
-                                    // REPLACE: arugula /əˈruːɡələ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArugula1018("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArugula1018(
+                                        // REPLACE: arugula /əˈruːɡələ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

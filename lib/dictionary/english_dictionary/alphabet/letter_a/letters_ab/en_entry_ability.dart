@@ -146,11 +146,15 @@ class EnglishEntryability extends StatelessWidget {
                                   text:
                                       "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA678("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA678("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA678("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA678("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -164,11 +168,15 @@ class EnglishEntryability extends StatelessWidget {
                                   text:
                                       "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA325("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA325("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA325("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA325("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -182,11 +190,15 @@ class EnglishEntryability extends StatelessWidget {
                                   text:
                                       "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA953("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA953("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA953("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA953("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,11 +214,15 @@ class EnglishEntryability extends StatelessWidget {
                                   text:
                                       "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA458("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA458("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +236,15 @@ class EnglishEntryability extends StatelessWidget {
                                   text:
                                       "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA634("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA634("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA634("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA634("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

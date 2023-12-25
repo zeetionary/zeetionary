@@ -119,11 +119,15 @@ class EnglishEntryabscond extends StatelessWidget {
                                   text:
                                       "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2143("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2143("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

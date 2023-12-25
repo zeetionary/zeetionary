@@ -185,14 +185,18 @@ class EnglishEntryapologetically extends StatelessWidget {
                                   text:
                                       "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApologetically512("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologetically512(
-                                    // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApologetically512("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologetically512(
+                                        // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

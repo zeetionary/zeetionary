@@ -178,13 +178,17 @@ class EnglishEntryballad extends StatelessWidget {
                                   text:
                                       "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallads1(// REPLACE: ballad
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallads1(// REPLACE: ballad
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

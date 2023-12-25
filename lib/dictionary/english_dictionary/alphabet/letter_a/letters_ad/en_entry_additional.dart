@@ -134,13 +134,17 @@ class EnglishEntryadditional extends StatelessWidget {
                                   text:
                                       "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdditi77("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdditi77(
-                                    // REPLACE: additional /əˈdɪʃənl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdditi77("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdditi77(
+                                        // REPLACE: additional /əˈdɪʃənl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -179,13 +179,17 @@ class EnglishEntryanontwo extends StatelessWidget {
                                   text:
                                       "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnontwo1022("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnontwo1022(
-                                    // REPLACE: anon. /əˈnɑːnɪməs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnontwo1022("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnontwo1022(
+                                        // REPLACE: anon. /əˈnɑːnɪməs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryanontwo extends StatelessWidget {
                                   text:
                                       "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnontwo1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnontwo1026(
-                                    // REPLACE: anon. /əˈnɑːnɪməs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnontwo1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnontwo1026(
+                                        // REPLACE: anon. /əˈnɑːnɪməs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

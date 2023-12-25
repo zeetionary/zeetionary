@@ -249,12 +249,17 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys1(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys1(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,12 +275,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys2(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys2(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -290,12 +300,17 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys3(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys3(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -308,12 +323,17 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys4(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys4(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -328,12 +348,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys5(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys5(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -350,12 +375,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys6(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys6(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -372,12 +402,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys7(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys7(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -394,12 +429,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys8(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys8(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -416,12 +456,17 @@ class EnglishEntrybadly extends StatelessWidget {
                                   text:
                                       "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlys9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBadlys9(// REPLACE: badly
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBadlys9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBadlys9(// REPLACE: badly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

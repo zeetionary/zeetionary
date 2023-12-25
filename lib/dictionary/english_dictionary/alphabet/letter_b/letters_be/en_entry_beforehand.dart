@@ -177,11 +177,15 @@ class EnglishEntrybeforehand extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆزگە پێشوەختە لەسەری بمانزانیایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeforehands1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeforehands1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeforehands1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeforehands1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybeforehand extends StatelessWidget {
                                   text:
                                       "دەمزانی ئەو نیوەڕۆیە دێ چونکە پێشوەختە پەیوەندی کردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeforehands2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeforehands2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeforehands2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeforehands2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

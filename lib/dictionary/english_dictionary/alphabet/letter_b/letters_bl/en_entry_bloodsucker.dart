@@ -173,11 +173,17 @@ class EnglishEntrybloodsucker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زاروو و مێشوولە خوێنمژن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodsuckers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodsuckers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodsuckers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodsuckers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +200,17 @@ class EnglishEntrybloodsucker extends StatelessWidget {
                                   text:
                                       "بەڕێوبەرەکەی تۆمەتبار کرد بە بوون بە قازانج پەرستێک لە ھەموو دەستخۆشی بۆ خۆی برد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodsuckers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodsuckers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodsuckers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodsuckers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

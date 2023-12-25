@@ -174,11 +174,15 @@ class EnglishEntryblinker extends StatelessWidget {
                                   text:
                                       "شۆفێرەکە بیری چوو سەکن لایتەکانی داگیرسێنێت و شڵەژاوی بۆ ئەوانی دیکە درووستکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinkers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinkers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinkers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinkers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryblinker extends StatelessWidget {
                                   text:
                                       "(بەکارھێنانی خوازراوی)دەبێت چاوێکی تر لە پلانەکە بکەین بە لەبەرچاوگرتنی ھەموو لایەنێکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinkers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinkers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinkers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinkers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

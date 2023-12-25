@@ -175,11 +175,15 @@ class EnglishEntrybemoan extends StatelessWidget {
                                   text:
                                       "توێژەرانی زانکۆکان ھەمیشە نیگەرانن لە کەمی بودجەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBemoans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBemoans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBemoans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBemoans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

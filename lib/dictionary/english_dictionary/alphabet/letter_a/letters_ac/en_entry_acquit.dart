@@ -130,12 +130,16 @@ class EnglishEntryacquit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ھەموو تۆمەتەکان بێبەریکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc12569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc12569(
-                                    "en-US"), // REPLACE acquit /əˈkwɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc12569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc12569(
+                                        "en-US"), // REPLACE acquit /əˈkwɪt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -172,11 +172,15 @@ class EnglishEntrybarge extends StatelessWidget {
                                   text:
                                       "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarges1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarges1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybarge extends StatelessWidget {
                                   text:
                                       "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarges2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarges2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarges2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarges2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,11 +219,15 @@ class EnglishEntrybarge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەزۆر بەناو خەڵکەکەدا تێپەڕبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarges3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarges3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarges3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarges3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

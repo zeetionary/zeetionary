@@ -132,13 +132,17 @@ class EnglishEntryadmiral extends StatelessWidget {
                                   text:
                                       "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi2568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmi2568(// REPLACE: admiral /ˈædmərəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi2568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi2568(
+                                        // REPLACE: admiral /ˈædmərəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

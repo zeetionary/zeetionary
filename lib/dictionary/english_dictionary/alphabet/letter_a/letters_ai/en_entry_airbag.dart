@@ -132,13 +132,17 @@ class EnglishEntryairbag extends StatelessWidget {
                                   text:
                                       "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirbag46282("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAirbag46282(// REPLACE: airbag /ˈerbæɡ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirbag46282("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirbag46282(
+                                        // REPLACE: airbag /ˈerbæɡ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

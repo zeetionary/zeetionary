@@ -175,13 +175,17 @@ class EnglishEntryamuse extends StatelessWidget {
                                   text:
                                       "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmuse448096("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmuse448096(// REPLACE: amuse /əˈmjuːz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmuse448096("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmuse448096(
+                                        // REPLACE: amuse /əˈmjuːz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -128,11 +128,15 @@ class EnglishEntryabrasion extends StatelessWidget {
                                   text:
                                       "تووشی برین و داڕووشان بوو لەسەر ڕووخساری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3269("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3269("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3269("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3269("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -147,11 +151,15 @@ class EnglishEntryabrasion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6247("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6247("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6247("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6247("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

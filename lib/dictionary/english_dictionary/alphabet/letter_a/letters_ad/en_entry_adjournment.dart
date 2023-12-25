@@ -134,13 +134,17 @@ class EnglishEntryadjournment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دادوەرەکە وچانێکی کاتی بەخشی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjou2547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjou2547(
-                                    // REPLACE: adjournment /əˈdʒɜːrnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjou2547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjou2547(
+                                        // REPLACE: adjournment /əˈdʒɜːrnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

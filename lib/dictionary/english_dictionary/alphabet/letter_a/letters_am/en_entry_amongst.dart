@@ -203,13 +203,17 @@ class EnglishEntryamongst extends StatelessWidget {
                                   text:
                                       "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmongst7655("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmongst7655(
-                                    // REPLACE: amongst /əˈmʌŋst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmongst7655("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmongst7655(
+                                        // REPLACE: amongst /əˈmʌŋst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +228,17 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmongst4666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmongst4666(
-                                    // REPLACE: amongst /əˈmʌŋst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmongst4666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmongst4666(
+                                        // REPLACE: amongst /əˈmʌŋst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,13 +254,17 @@ class EnglishEntryamongst extends StatelessWidget {
                                   text:
                                       "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmongst4111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmongst4111(
-                                    // REPLACE: amongst /əˈmʌŋst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmongst4111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmongst4111(
+                                        // REPLACE: amongst /əˈmʌŋst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

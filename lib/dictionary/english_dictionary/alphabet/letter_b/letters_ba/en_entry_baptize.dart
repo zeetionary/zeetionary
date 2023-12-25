@@ -174,13 +174,17 @@ class EnglishEntrybaptize extends StatelessWidget {
                                   text:
                                       "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaptizes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaptizes1(// REPLACE: baptize
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaptizes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaptizes1(// REPLACE: baptize
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

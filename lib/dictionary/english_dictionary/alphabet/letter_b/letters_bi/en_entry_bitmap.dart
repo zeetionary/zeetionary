@@ -174,11 +174,15 @@ class EnglishEntrybitmap extends StatelessWidget {
                                   text:
                                       "ھونەرمەندەکە بڕیاری دا وێنەکە بە بیتماپ کۆگا بکات بۆ بەدەستھێنانی وێنایەکی دیداری وردتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitmaps1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitmaps1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitmaps1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitmaps1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybitmap extends StatelessWidget {
                                   text:
                                       "وێنە دیجیتاڵییەکە بە بیتماپ کۆگاکرا کە ڕێگا بە کۆنترۆڵی ورد دەدات بەسەر دانە بە دانەی پیکسڵەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitmaps2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbitmaps2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitmaps2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbitmaps2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

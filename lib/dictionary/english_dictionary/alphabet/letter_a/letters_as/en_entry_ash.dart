@@ -188,13 +188,17 @@ class EnglishEntryash extends StatelessWidget {
                                   text:
                                       "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsh446("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsh446(// REPLACE: ash /æʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsh446("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsh446(// REPLACE: ash /æʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryash extends StatelessWidget {
                                   text:
                                       "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsh447("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsh447(// REPLACE: ash /æʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsh447("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsh447(// REPLACE: ash /æʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryash extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsh454("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsh454(// REPLACE: ash /æʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsh454("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsh454(// REPLACE: ash /æʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryash extends StatelessWidget {
                                   text:
                                       "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsh456("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsh456(// REPLACE: ash /æʃ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsh456("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsh456(// REPLACE: ash /æʃ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

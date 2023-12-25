@@ -184,12 +184,17 @@ class EnglishEntryatm extends StatelessWidget {
                                   text:
                                       "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtm1109("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAtm1109(// REPLACE: ATM
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtm1109("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtm1109(// REPLACE: ATM
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

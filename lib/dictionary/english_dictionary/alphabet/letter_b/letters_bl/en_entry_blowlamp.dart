@@ -173,11 +173,15 @@ class EnglishEntryblowlamp extends StatelessWidget {
                                   text:
                                       "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblowlamps1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblowlamps1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblowlamps1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblowlamps1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

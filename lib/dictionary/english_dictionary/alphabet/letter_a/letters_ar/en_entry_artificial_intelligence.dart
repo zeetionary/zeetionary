@@ -187,14 +187,18 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                   text:
                                       "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakArtificialintelligence927("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificialintelligence927(
-                                    // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificialintelligence927("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificialintelligence927(
+                                        // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

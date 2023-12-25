@@ -133,13 +133,17 @@ class EnglishEntryadjudicate extends StatelessWidget {
                                   text:
                                       "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjud3254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjud3254(
-                                    // REPLACE: adjudicate /əˈdʒuːdɪkeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjud3254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjud3254(
+                                        // REPLACE: adjudicate /əˈdʒuːdɪkeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

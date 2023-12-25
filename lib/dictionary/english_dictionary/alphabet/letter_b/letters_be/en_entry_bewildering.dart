@@ -177,11 +177,17 @@ class EnglishEntrybewildering extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewilderings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewilderings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBewilderings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBewilderings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

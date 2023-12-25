@@ -133,13 +133,18 @@ class EnglishEntryairfield extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بوونی تەنھا باڵافڕگەیەک بەس نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakspeakAirfiel1355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakspeakAirfiel1355(
-                                    // REPLACE: airfield /ˈeəfiːld/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakspeakAirfiel1355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakspeakAirfiel1355(
+                                        // REPLACE: airfield /ˈeəfiːld/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

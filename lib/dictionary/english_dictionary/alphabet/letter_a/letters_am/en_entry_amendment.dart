@@ -139,13 +139,18 @@ class EnglishEntryamendment extends StatelessWidget {
                                   text:
                                       "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmendment1244("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmendment1244(
-                                    // REPLACE: amendment /əˈmendmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmendment1244("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmendment1244(
+                                        // REPLACE: amendment /əˈmendmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +165,18 @@ class EnglishEntryamendment extends StatelessWidget {
                                   text:
                                       "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmendment4557("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmendment4557(
-                                    // REPLACE: amendment /əˈmendmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmendment4557("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmendment4557(
+                                        // REPLACE: amendment /əˈmendmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -183,13 +193,18 @@ class EnglishEntryamendment extends StatelessWidget {
                                   text:
                                       "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmendment74111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmendment74111(
-                                    // REPLACE: amendment /əˈmendmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmendment74111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmendment74111(
+                                        // REPLACE: amendment /əˈmendmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

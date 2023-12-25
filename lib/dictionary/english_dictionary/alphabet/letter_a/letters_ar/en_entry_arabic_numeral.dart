@@ -181,14 +181,18 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "1 و 2 ژمارەی عەرەبین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakArabicnumeral1032("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArabicnumeral1032(
-                                    // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArabicnumeral1032("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArabicnumeral1032(
+                                        // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

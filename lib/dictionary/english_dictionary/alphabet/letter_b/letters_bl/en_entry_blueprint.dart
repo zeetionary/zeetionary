@@ -176,11 +176,15 @@ class EnglishEntryblueprint extends StatelessWidget {
                                   text:
                                       "نەخشەکە پلانەکانی بۆ پەناگەیەکی ژێرزەمینی ئەتۆمی پیشان دەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblueprints1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblueprints1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblueprints1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblueprints1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntryblueprint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حکومەت نەخشە ڕێگای بۆ چاکسازی نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblueprints2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblueprints2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblueprints2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblueprints2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

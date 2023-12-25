@@ -185,13 +185,17 @@ class EnglishEntryaudacity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudacity1246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudacity1246(// REPLACE: audacity
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudacity1246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudacity1246(// REPLACE: audacity
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

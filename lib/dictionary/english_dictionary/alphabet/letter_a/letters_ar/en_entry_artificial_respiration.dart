@@ -187,14 +187,18 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                   text:
                                       "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakArtificialrespiration943("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtificialrespiration943(
-                                    // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtificialrespiration943("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtificialrespiration943(
+                                        // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

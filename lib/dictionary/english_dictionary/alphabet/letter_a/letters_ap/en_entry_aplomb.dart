@@ -183,13 +183,17 @@ class EnglishEntryaplomb extends StatelessWidget {
                                   text:
                                       "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAplomb246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAplomb246(// REPLACE: aplomb /əˈplɒm/av
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAplomb246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAplomb246(
+                                        // REPLACE: aplomb /əˈplɒm/av
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

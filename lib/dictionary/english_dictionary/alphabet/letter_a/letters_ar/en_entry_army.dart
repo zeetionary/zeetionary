@@ -187,17 +187,21 @@ class EnglishEntryarmy extends StatelessWidget {
                                   text:
                                       "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy747("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy747(// REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy747("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArmy747(// REPLACE: army /ˈɑːrmi/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -206,13 +210,17 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سوپایەکی گەورە دای بەسەر شارەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy749("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy749(// REPLACE: army /ˈɑːrmi/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy749("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmy749(
+                                        // REPLACE: army /ˈɑːrmi/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,17 +235,21 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خوشکەکەی لە سوپادایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy751("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy751(// REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy751("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArmy751(// REPLACE: army /ˈɑːrmi/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -248,13 +260,17 @@ class EnglishEntryarmy extends StatelessWidget {
                                   text:
                                       "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy752("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy752(// REPLACE: army /ˈɑːrmi/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy752("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmy752(
+                                        // REPLACE: army /ˈɑːrmi/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -271,17 +287,21 @@ class EnglishEntryarmy extends StatelessWidget {
                                   text:
                                       "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy800("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy800(// REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy800("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArmy800(// REPLACE: army /ˈɑːrmi/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -292,13 +312,17 @@ class EnglishEntryarmy extends StatelessWidget {
                                   text:
                                       "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmy801("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmy801(// REPLACE: army /ˈɑːrmi/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmy801("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmy801(
+                                        // REPLACE: army /ˈɑːrmi/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

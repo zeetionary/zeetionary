@@ -33,7 +33,7 @@ class EnglishEntryalias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Paul Sopworth, alias Rupert Sharp, went to prison today."); // DOPSUM: CHANGE TEXT
+        "Paul Kennedy, alias Rupert Sharp, went to prison today."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAlias(String languageCode) async {
@@ -134,13 +134,17 @@ class EnglishEntryalias extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەژێر نازناوێکدا گەشت دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlias53444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlias53444(
-                                    // REPLACE: alias /ˈælɡərɪðəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlias53444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlias53444(
+                                        // REPLACE: alias /ˈælɡərɪðəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryalias extends StatelessWidget {
                                   text:
                                       "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlias4556("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlias4556(
-                                    // REPLACE: alias /ˈælɡərɪðəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlias4556("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlias4556(
+                                        // REPLACE: alias /ˈælɡərɪðəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

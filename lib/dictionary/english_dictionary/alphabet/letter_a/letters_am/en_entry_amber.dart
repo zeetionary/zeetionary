@@ -135,13 +135,17 @@ class EnglishEntryamber extends StatelessWidget {
                                   text:
                                       "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmber4447("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmber4447(// REPLACE: amber /ˈæmbər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmber4447("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmber4447(
+                                        // REPLACE: amber /ˈæmbər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryamber extends StatelessWidget {
                                   text:
                                       "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmber46922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmber46922(// REPLACE: amber /ˈæmbər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmber46922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmber46922(
+                                        // REPLACE: amber /ˈæmbər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -178,13 +186,17 @@ class EnglishEntryamber extends StatelessWidget {
                                   text:
                                       "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmber4699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmber4699(// REPLACE: amber /ˈæmbər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmber4699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmber4699(
+                                        // REPLACE: amber /ˈæmbər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

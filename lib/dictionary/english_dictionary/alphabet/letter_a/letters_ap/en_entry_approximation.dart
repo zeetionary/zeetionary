@@ -186,14 +186,18 @@ class EnglishEntryapproximation extends StatelessWidget {
                                   text:
                                       "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApproximation1020("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximation1020(
-                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximation1020("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximation1020(
+                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,14 +212,18 @@ class EnglishEntryapproximation extends StatelessWidget {
                                   text:
                                       "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApproximation1021("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximation1021(
-                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximation1021("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximation1021(
+                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,14 +240,18 @@ class EnglishEntryapproximation extends StatelessWidget {
                                   text:
                                       "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApproximation1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximation1026(
-                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximation1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximation1026(
+                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,11 +176,17 @@ class EnglishEntrybattlefield extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە مەیدانی شەڕدا بریندار کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattlefields1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattlefields1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBattlefields1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBattlefields1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +204,17 @@ class EnglishEntrybattlefield extends StatelessWidget {
                                   text:
                                       "بابەتەکە بووە بە ئامرازێکی سیاسی لەم ساڵانەی دواییدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattlefields2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattlefields2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBattlefields2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBattlefields2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

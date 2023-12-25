@@ -178,12 +178,17 @@ class EnglishEntrybake extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نانەکە لە فڕنەکەدا دەبرژێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakes1(// REPLACE: bake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakes1(// REPLACE: bake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,12 +202,17 @@ class EnglishEntrybake extends StatelessWidget {
                                   text:
                                       "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakes2(// REPLACE: bake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakes2(// REPLACE: bake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,12 +229,17 @@ class EnglishEntrybake extends StatelessWidget {
                                   text:
                                       "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakes3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakes3(// REPLACE: bake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakes3(// REPLACE: bake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -240,12 +255,17 @@ class EnglishEntrybake extends StatelessWidget {
                                   text:
                                       "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakes4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakes4(// REPLACE: bake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakes4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakes4(// REPLACE: bake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

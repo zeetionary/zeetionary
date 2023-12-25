@@ -181,13 +181,17 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بێ‌دەنگییەکی شەرمھێنەر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards1(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards1(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryawkward extends StatelessWidget {
                                   text:
                                       "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards2(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards2(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,17 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منت خستووەتە بارودۆخێکی نالەبارەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards3(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards3(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -245,13 +257,17 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە کاتێکی نەگونجاو ھاتووم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards4(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards4(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -268,13 +284,17 @@ class EnglishEntryawkward extends StatelessWidget {
                                   text:
                                       "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards5(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards5(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -291,13 +311,17 @@ class EnglishEntryawkward extends StatelessWidget {
                                   text:
                                       "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwards6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwards6(// REPLACE: awkward
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwkwards6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwkwards6(// REPLACE: awkward
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

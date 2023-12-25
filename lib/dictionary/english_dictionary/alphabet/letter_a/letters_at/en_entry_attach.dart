@@ -192,13 +192,17 @@ class EnglishEntryattach extends StatelessWidget {
                                   text:
                                       "وێنەیەکم لکاند بە فۆرمی داخوازینامەکەمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach319("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach319(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach319("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach319(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,13 +217,17 @@ class EnglishEntryattach extends StatelessWidget {
                                   text:
                                       "ژمارەیەک مەرجیان زیادکردووە بۆ ڕێککەوتنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach321("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach321(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach321("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach321(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +243,17 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وێنەکە بە فایلێکی پی‌دی‌ئێف دەنێرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach322("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach322(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach322("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach322(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -257,13 +269,17 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گرنگی زۆر بەم توێژینەوەیە دەدەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach325("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach325(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach325("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach325(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,13 +296,17 @@ class EnglishEntryattach extends StatelessWidget {
                                   text:
                                       "لە ئاھەنگەکە خۆی پێمەوە لکاند و نەمتوانی ڕزگارم بێت لێی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach327("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach327(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach327("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach327(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +322,17 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ھیچ لۆمەیەک ناخاتە سەر تۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach329("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach329(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach329("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach329(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,13 +347,17 @@ class EnglishEntryattach extends StatelessWidget {
                                   text:
                                       "ھیچ‌کەس ناڵێت مەترسی تەندرووستی لەم بەرھەمەدا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttach331("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttach331(// REPLACE: attach
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttach331("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttach331(// REPLACE: attach
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

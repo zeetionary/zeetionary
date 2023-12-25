@@ -256,12 +256,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks1(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks1(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,12 +283,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks2(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks2(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -300,12 +310,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks3(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks3(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -320,12 +335,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks4(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks4(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -342,12 +362,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks5(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks5(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -364,12 +389,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks6(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks6(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -386,12 +416,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks7(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks7(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -408,12 +443,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks8(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks8(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -429,12 +469,17 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks9(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks9(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -451,12 +496,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks10(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks10(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -473,12 +523,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks11(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks11(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -495,12 +550,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks12(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks12(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -517,12 +577,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks13(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks13(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -539,12 +604,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks14(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks14(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -561,12 +631,17 @@ class EnglishEntrybank extends StatelessWidget {
                                   text:
                                       "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanks15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanks15(// REPLACE: bank
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanks15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanks15(// REPLACE: bank
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

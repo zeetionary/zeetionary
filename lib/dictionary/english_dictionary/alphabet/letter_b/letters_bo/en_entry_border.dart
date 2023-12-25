@@ -370,11 +370,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "لە شارۆچکەیەکی بچووک دەژی لە ئەمریکا، لەسەر سنووری کەنەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -388,11 +392,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -409,11 +417,17 @@ class EnglishEntryborder extends StatelessWidget {
                                           text:
                                               "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborders3("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborders3("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborders3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborders3("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -427,11 +441,17 @@ class EnglishEntryborder extends StatelessWidget {
                                           text:
                                               "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborders4("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborders4("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborders4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborders4("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -445,11 +465,17 @@ class EnglishEntryborder extends StatelessWidget {
                                           text:
                                               "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborders5("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborders5("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborders5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborders5("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -461,11 +487,17 @@ class EnglishEntryborder extends StatelessWidget {
                                       const ExampleSentenceKurdish(
                                           text: "بە سنوورەکەدا ھەڵھاتن."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakborders6("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakborders6("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakborders6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakborders6("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -486,11 +518,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "کەنارەیەکی جوانی بە دەوری وێنەکەدا کێشا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -507,11 +543,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "باخچەکەی پشتەوە بە زۆری چیمەنە لەگەڵ گوڵباخ بە دەوریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -528,11 +568,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -546,11 +590,15 @@ class EnglishEntryborder extends StatelessWidget {
                                   text:
                                       "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -566,11 +614,15 @@ class EnglishEntryborder extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "باخچە گەورەکە جۆگەیەک لە کەناریەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -583,11 +635,15 @@ class EnglishEntryborder extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کێڵگەکان بە درەختی بەرز دەوردراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborders12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborders12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborders12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborders12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybone extends StatelessWidget {
                                   text:
                                       "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbones1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbones1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم ماسییە زۆر ئێسکی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbones2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbones2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntrybone extends StatelessWidget {
                                   text:
                                       "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbones3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbones3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,11 +243,15 @@ class EnglishEntrybone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbones4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbones4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,11 +267,15 @@ class EnglishEntrybone extends StatelessWidget {
                                   text:
                                       "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbones5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbones5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbones5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbones5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

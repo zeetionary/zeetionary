@@ -176,11 +176,15 @@ class EnglishEntrybonus extends StatelessWidget {
                                   text:
                                       "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن  پێش پشووی ھاوین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonuss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonuss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonuss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonuss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybonus extends StatelessWidget {
                                   text:
                                       "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonuss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonuss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonuss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonuss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

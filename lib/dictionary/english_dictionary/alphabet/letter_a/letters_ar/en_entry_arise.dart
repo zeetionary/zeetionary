@@ -186,13 +186,17 @@ class EnglishEntryarise extends StatelessWidget {
                                   text:
                                       "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArise1141("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArise1141(// REPLACE: arise /əˈraɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArise1141("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArise1141(
+                                        // REPLACE: arise /əˈraɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarise extends StatelessWidget {
                                   text:
                                       "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArise1144("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArise1144(// REPLACE: arise /əˈraɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArise1144("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArise1144(
+                                        // REPLACE: arise /əˈraɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryarise extends StatelessWidget {
                                   text:
                                       "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArise1145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArise1145(// REPLACE: arise /əˈraɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArise1145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArise1145(
+                                        // REPLACE: arise /əˈraɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +265,17 @@ class EnglishEntryarise extends StatelessWidget {
                                   text:
                                       "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArise1147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArise1147(// REPLACE: arise /əˈraɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArise1147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArise1147(
+                                        // REPLACE: arise /əˈraɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,13 +290,17 @@ class EnglishEntryarise extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە بەرەبەیاندا ھەستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArise1149("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArise1149(// REPLACE: arise /əˈraɪz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArise1149("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArise1149(
+                                        // REPLACE: arise /əˈraɪz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

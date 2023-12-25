@@ -187,13 +187,17 @@ class EnglishEntryattendant extends StatelessWidget {
                                   text:
                                       "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttendant831("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttendant831(// REPLACE: attendant
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttendant831("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttendant831(// REPLACE: attendant
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryattendant extends StatelessWidget {
                                   text:
                                       "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttendant835("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttendant835(// REPLACE: attendant
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttendant835("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttendant835(// REPLACE: attendant
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

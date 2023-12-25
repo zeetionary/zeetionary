@@ -179,13 +179,17 @@ class EnglishEntrybanish extends StatelessWidget {
                                   text:
                                       "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanishs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanishs1(// REPLACE: banish
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanishs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanishs1(// REPLACE: banish
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntrybanish extends StatelessWidget {
                                   text:
                                       "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanishs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanishs2(// REPLACE: banish
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanishs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanishs2(// REPLACE: banish
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

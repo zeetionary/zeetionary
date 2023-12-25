@@ -135,13 +135,17 @@ class EnglishEntryamass extends StatelessWidget {
                                   text:
                                       "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmass5555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmass5555(// REPLACE: amass /əˈmæs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmass5555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmass5555(// REPLACE: amass /əˈmæs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryamass extends StatelessWidget {
                                   text:
                                       "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmass4447("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmass4447(// REPLACE: amass /əˈmæs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmass4447("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmass4447(// REPLACE: amass /əˈmæs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

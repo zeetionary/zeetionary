@@ -172,11 +172,17 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                                   text:
                                       "ئاوازی بەگوڕی ئۆرگە دەستییەکە مەیدانی شارەکەی پڕکردبوو، جەماوەرێک لە گوێگری بەپەرۆشی کۆکردبووەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarrelorgans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarrelorgans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBarrelorgans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarrelorgans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

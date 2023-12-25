@@ -116,11 +116,15 @@ class EnglishEntryabandonment extends StatelessWidget {
                                   text:
                                       "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAba12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAba12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAba12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAba12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

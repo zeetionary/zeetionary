@@ -370,11 +370,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "ھەموو کات پارەی پسوولەکانی لە کاتی خۆیدا دەداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -388,11 +392,15 @@ class EnglishEntrybill extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پسوولەکان خەریکە کەڵەکە دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -407,11 +415,15 @@ class EnglishEntrybill extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پسووڵەکە گەشت بە ١٢٠ پاوەند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -426,11 +438,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "گارسۆنەکە پسووڵەکەی ھێنا بۆ سەر مێزەکەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -447,11 +463,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "پارەیەکی ١٠ دۆلاریم لەسەر زەوییەکە دۆزییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -468,11 +488,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "کۆنگرێس پڕۆژە یاسای وزەی مانگی ڕابردوو پەسەندکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -489,11 +513,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "ژمارەیەک کەسی بەناوبانگ نمایشیان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -510,11 +538,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "لکاندنی ھەموو پۆستەرێکیان قەدەغەکردبوو بە لەسەر دیوارەکانی بیناکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -531,11 +563,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "ھەڵۆکە دەنووکە تیژەکەی بەکارھێنا بۆ لەتکردنی نێچیرەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -550,11 +586,15 @@ class EnglishEntrybill extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تکایە پسوولەی کتێبەکانم بۆ بنێرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -569,11 +609,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "بۆ خزمەتگوزارییەکە مانگانە پارەت لێ وەردەگیرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -588,11 +632,15 @@ class EnglishEntrybill extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک تۆم کرووزی نوێ ناوزەندکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -609,11 +657,15 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "ڕیکلامی بۆ کرا کە قسەدەکات لەسەر 'فێمینیزم و وڵاتانی جیھانی سێیەم'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBills13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBills13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBills13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBills13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

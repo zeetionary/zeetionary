@@ -136,13 +136,17 @@ class EnglishEntryallotment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "میوەی تازەی زەوییەکەی خۆیان دەخۆن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllotmen1234("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllotmen1234(
-                                    // REPLACE: allotment /əˈlɑːtmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllotmen1234("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllotmen1234(
+                                        // REPLACE: allotment /əˈlɑːtmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +162,18 @@ class EnglishEntryallotment extends StatelessWidget {
                                   text:
                                       "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllotment3652("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllotment3652(
-                                    // REPLACE: allotment /əˈlɑːtmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllotment3652("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllotment3652(
+                                        // REPLACE: allotment /əˈlɑːtmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

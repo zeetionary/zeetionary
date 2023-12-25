@@ -184,13 +184,17 @@ class EnglishEntryarctic extends StatelessWidget {
                                   text:
                                       "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArctic449("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArctic449(// REPLACE: Arctic /ˈɑːrktɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArctic449("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArctic449(
+                                        // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarctic extends StatelessWidget {
                                   text:
                                       "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArctic451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArctic451(// REPLACE: Arctic /ˈɑːrktɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArctic451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArctic451(
+                                        // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryarctic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ورچەسپی لە جەمسەری باکوور دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArctic452("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArctic452(// REPLACE: Arctic /ˈɑːrktɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArctic452("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArctic452(
+                                        // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

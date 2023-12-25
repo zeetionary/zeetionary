@@ -185,13 +185,18 @@ class EnglishEntryattributive extends StatelessWidget {
                                   text:
                                       "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttributive1121("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttributive1121(// REPLACE: attributive
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttributive1121("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttributive1121(
+                                        // REPLACE: attributive
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -169,13 +169,17 @@ class EnglishEntryagain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgain493("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgain493(
-                                    // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgain493("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgain493(
+                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -189,13 +193,17 @@ class EnglishEntryagain extends StatelessWidget {
                                   text:
                                       "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgai1822("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgai1822(
-                                    // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgai1822("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgai1822(
+                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +217,17 @@ class EnglishEntryagain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgain156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgain156(
-                                    // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgain156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgain156(
+                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +243,17 @@ class EnglishEntryagain extends StatelessWidget {
                                   text:
                                       "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAga256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAga256(
-                                    // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAga256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAga256(
+                                        // REPLACE: again /əˈɡen/,  /əˈɡeɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

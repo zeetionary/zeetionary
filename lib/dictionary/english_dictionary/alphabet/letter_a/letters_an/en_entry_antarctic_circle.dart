@@ -181,14 +181,18 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                   text:
                                       "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAntarcticcircle156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntarcticcircle156(
-                                    // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntarcticcircle156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntarcticcircle156(
+                                        // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -129,11 +129,15 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                   text:
                                       "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc75924("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc75924("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc75924("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc75924("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -149,11 +153,15 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                   text:
                                       "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25143("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25143("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

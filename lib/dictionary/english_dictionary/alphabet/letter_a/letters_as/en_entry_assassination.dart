@@ -186,14 +186,18 @@ class EnglishEntryassassination extends StatelessWidget {
                                   text:
                                       "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAssassination1017("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssassination1017(
-                                    // REPLACE: assassination /əˌsæsɪˈneɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssassination1017("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssassination1017(
+                                        // REPLACE: assassination /əˌsæsɪˈneɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

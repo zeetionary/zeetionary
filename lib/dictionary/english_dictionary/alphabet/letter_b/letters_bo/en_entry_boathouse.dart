@@ -175,11 +175,15 @@ class EnglishEntryboathouse extends StatelessWidget {
                                   text:
                                       "بەلەم‌خانەکە شوێنێکی پارێزراو بۆ ھەڵگرتنی بەلەمەکانی ماسیگرتن دابین دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboathouses1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboathouses1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboathouses1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboathouses1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

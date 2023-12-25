@@ -178,12 +178,17 @@ class EnglishEntryaxle extends StatelessWidget {
                                   text:
                                       "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxles1(// REPLACE: axle
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxles1(// REPLACE: axle
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

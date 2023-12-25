@@ -177,11 +177,17 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆرینەی پلاستیک ژینگەدۆست نین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiodegradables1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiodegradables1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiodegradables1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiodegradables1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

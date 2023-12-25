@@ -178,17 +178,21 @@ class EnglishEntryannals extends StatelessWidget {
                                   text:
                                       "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnals1123("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnals1123(// REPLACE: annals /ˈænlz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnals1123("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnals1123(
+                                        // REPLACE: annals /ˈænlz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -199,13 +203,17 @@ class EnglishEntryannals extends StatelessWidget {
                                   text:
                                       "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnals1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnals1125(// REPLACE: annals /ˈænlz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnals1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnals1125(
+                                        // REPLACE: annals /ˈænlz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

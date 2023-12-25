@@ -132,13 +132,17 @@ class EnglishEntryaimless extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژیانم بێ ئامانج دیاربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAimless25388("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAimless25388(
-                                    // REPLACE: aimless /ˈeɪmləs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAimless25388("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAimless25388(
+                                        // REPLACE: aimless /ˈeɪmləs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,13 +156,17 @@ class EnglishEntryaimless extends StatelessWidget {
                                   text:
                                       "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAimless4277("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAimless4277(
-                                    // REPLACE: aimless /ˈeɪmləs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAimless4277("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAimless4277(
+                                        // REPLACE: aimless /ˈeɪmləs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

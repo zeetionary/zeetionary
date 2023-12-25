@@ -173,11 +173,15 @@ class EnglishEntryblacksheep extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مایەی نەنگی خێزانەکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacksheeps1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacksheeps1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacksheeps1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacksheeps1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

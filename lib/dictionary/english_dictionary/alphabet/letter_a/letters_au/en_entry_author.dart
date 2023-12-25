@@ -188,13 +188,17 @@ class EnglishEntryauthor extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نووسەری سێ کتێبە لەسەر ھونەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthor717("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthor717(// REPLACE: author
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthor717("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthor717(// REPLACE: author
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryauthor extends StatelessWidget {
                                   text:
                                       "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthor719("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthor719(// REPLACE: author
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthor719("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthor719(// REPLACE: author
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryauthor extends StatelessWidget {
                                   text:
                                       "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthor721("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthor721(// REPLACE: author
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthor721("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthor721(// REPLACE: author
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +265,17 @@ class EnglishEntryauthor extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زیاتر لە ٣٠ کتێبی نووسیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthor722("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthor722(// REPLACE: author
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthor722("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthor722(// REPLACE: author
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

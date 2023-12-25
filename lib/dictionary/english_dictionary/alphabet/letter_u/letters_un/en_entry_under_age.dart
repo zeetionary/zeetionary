@@ -134,13 +134,17 @@ class EnglishEntryunderage extends StatelessWidget {
                                   text:
                                       "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakUnde142221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakUnde142221(
-                                    // REPLACE: under age /ˈʌndər eɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakUnde142221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakUnde142221(
+                                        // REPLACE: under age /ˈʌndər eɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntryboozeup extends StatelessWidget {
                                   text:
                                       "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboozeups1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboozeups1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboozeups1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboozeups1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

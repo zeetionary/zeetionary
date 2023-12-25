@@ -175,16 +175,21 @@ class EnglishEntrybacon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گۆشتە بەرازەکە زۆر شۆرە بۆ من."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBacons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBacons1(// REPLACE: bacon
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBacons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBacons1(// REPLACE: bacon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -195,12 +200,17 @@ class EnglishEntrybacon extends StatelessWidget {
                                   text:
                                       "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBacons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBacons2(// REPLACE: bacon
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBacons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBacons2(// REPLACE: bacon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

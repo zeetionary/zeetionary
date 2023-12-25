@@ -184,13 +184,17 @@ class EnglishEntryapart extends StatelessWidget {
                                   text:
                                       "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApart1105("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApart1105(// REPLACE: apart /əˈpɑːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApart1105("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApart1105(
+                                        // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryapart extends StatelessWidget {
                                   text:
                                       "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApart1106("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApart1106(// REPLACE: apart /əˈpɑːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApart1106("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApart1106(
+                                        // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryapart extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئێستا بە جیا دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApart1108("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApart1108(// REPLACE: apart /əˈpɑːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApart1108("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApart1108(
+                                        // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +261,17 @@ class EnglishEntryapart extends StatelessWidget {
                                   text:
                                       "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApart1110("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApart1110(// REPLACE: apart /əˈpɑːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApart1110("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApart1110(
+                                        // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -272,13 +288,17 @@ class EnglishEntryapart extends StatelessWidget {
                                   text:
                                       "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApart1112("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApart1112(// REPLACE: apart /əˈpɑːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApart1112("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApart1112(
+                                        // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

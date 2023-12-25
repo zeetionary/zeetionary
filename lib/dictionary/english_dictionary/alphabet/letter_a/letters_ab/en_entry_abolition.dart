@@ -114,11 +114,15 @@ class EnglishEntryabolition extends StatelessWidget {
                                   text:
                                       "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb24("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb24("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb24("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

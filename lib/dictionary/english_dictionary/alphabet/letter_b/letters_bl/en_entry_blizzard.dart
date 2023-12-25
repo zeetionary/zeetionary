@@ -177,11 +177,15 @@ class EnglishEntryblizzard extends StatelessWidget {
                                   text:
                                       "باوبۆرانەکە لە باکووری ڕۆژھەڵاتی دا دوێنێ و بووە ھۆی زیانی زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblizzards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblizzards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblizzards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblizzards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryblizzard extends StatelessWidget {
                                   text:
                                       "پۆستەکەی لە سۆشیال میدیا ژمارەیەکی زۆر لایک و ھاوبەشکردنی بۆ ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblizzards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblizzards2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblizzards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblizzards2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +223,15 @@ class EnglishEntryblizzard extends StatelessWidget {
                                   text:
                                       "شێفەکە ژمارەیەکی زۆر دەستخۆشی پێگەیشت بۆ ژەمە خواردنە خۆشەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblizzards3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblizzards3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblizzards3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblizzards3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -136,13 +136,17 @@ class EnglishEntryaloofness extends StatelessWidget {
                                   text:
                                       "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloofness452("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAloofness452(
-                                    // REPLACE: aloofness /əˈluːfnəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloofness452("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAloofness452(
+                                        // REPLACE: aloofness /əˈluːfnəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -170,11 +170,15 @@ class EnglishEntrybasicone extends StatelessWidget {
                                   text:
                                       "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasicones1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasicones1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasicones1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasicones1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,17 @@ class EnglishEntryarcade extends StatelessWidget {
                                   text:
                                       "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArcade105("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArcade105(// REPLACE: arcade /ɑːrˈkeɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArcade105("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArcade105(
+                                        // REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarcade extends StatelessWidget {
                                   text:
                                       "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArcade109("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArcade109(// REPLACE: arcade /ɑːrˈkeɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArcade109("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArcade109(
+                                        // REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybison extends StatelessWidget {
                                   text:
                                       "کۆمەڵی گەورەی بایسن جاران لە دەشتەکانی ڕۆژئاوای ئەمریکای باکوور دەژیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBisons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBisons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBisons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBisons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

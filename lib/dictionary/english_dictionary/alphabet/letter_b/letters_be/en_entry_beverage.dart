@@ -175,11 +175,15 @@ class EnglishEntrybeverage extends StatelessWidget {
                                   text:
                                       "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeverages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeverages1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeverages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeverages1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

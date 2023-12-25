@@ -177,11 +177,15 @@ class EnglishEntrybib extends StatelessWidget {
                                   text:
                                       "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBibs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBibs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

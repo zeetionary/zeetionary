@@ -180,13 +180,18 @@ class EnglishEntryavailability extends StatelessWidget {
                                   text:
                                       "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvailabilitys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvailabilitys1(// REPLACE: availability
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAvailabilitys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAvailabilitys1(
+                                        // REPLACE: availability
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +208,18 @@ class EnglishEntryavailability extends StatelessWidget {
                                   text:
                                       "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvailabilitys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvailabilitys2(// REPLACE: availability
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAvailabilitys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAvailabilitys2(
+                                        // REPLACE: availability
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

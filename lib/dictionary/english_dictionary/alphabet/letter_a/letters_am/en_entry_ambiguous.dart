@@ -136,13 +136,18 @@ class EnglishEntryambiguous extends StatelessWidget {
                                   text:
                                       "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbiguous7666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbiguous7666(
-                                    // REPLACE: ambiguous /æmˈbɪɡjuəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbiguous7666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbiguous7666(
+                                        // REPLACE: ambiguous /æmˈbɪɡjuəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

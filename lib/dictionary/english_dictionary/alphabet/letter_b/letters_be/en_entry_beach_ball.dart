@@ -177,11 +177,15 @@ class EnglishEntrybeachball extends StatelessWidget {
                                   text:
                                       "منداڵەکان چەندین کاتژمێریان بەسەر برد بە تەپ‌تەپێن بە تۆپەباکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeachballs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeachballs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeachballs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeachballs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

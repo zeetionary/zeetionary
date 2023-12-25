@@ -175,11 +175,15 @@ class EnglishEntryblacksmith extends StatelessWidget {
                                   text:
                                       "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacksmiths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacksmiths1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacksmiths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacksmiths1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

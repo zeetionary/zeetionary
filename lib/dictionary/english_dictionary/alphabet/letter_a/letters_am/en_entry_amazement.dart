@@ -134,13 +134,18 @@ class EnglishEntryamazement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە سەرسامییەوە سەیری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmazement41121("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmazement41121(
-                                    // REPLACE: amazement /əˈmeɪzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmazement41121("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmazement41121(
+                                        // REPLACE: amazement /əˈmeɪzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

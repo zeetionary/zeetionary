@@ -133,13 +133,17 @@ class EnglishEntryagreeable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgree75888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgree75888(
-                                    // REPLACE: agreeable /əˈɡriːəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgree75888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgree75888(
+                                        // REPLACE: agreeable /əˈɡriːəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

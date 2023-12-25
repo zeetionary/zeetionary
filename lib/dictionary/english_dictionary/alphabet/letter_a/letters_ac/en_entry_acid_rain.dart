@@ -134,12 +134,16 @@ class EnglishEntryacidrain extends StatelessWidget {
                                   text:
                                       "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAci1256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAci1256(
-                                    "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAci1256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAci1256(
+                                        "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybored extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەربڕینی بێزاری لەسەر ڕووخساری بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboreds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboreds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboreds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboreds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybored extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەریکە بێزار دەبم لە خواردنی زەڵاتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboreds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboreds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboreds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboreds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +220,15 @@ class EnglishEntrybored extends StatelessWidget {
                                   text:
                                       "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboreds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboreds3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboreds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboreds3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,11 +242,15 @@ class EnglishEntrybored extends StatelessWidget {
                                   text:
                                       "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboreds4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboreds4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboreds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboreds4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,11 +263,15 @@ class EnglishEntrybored extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بێزاربوو لە گفتوگۆکەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboreds5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboreds5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboreds5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboreds5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

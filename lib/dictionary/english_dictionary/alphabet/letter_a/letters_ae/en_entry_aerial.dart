@@ -135,13 +135,17 @@ class EnglishEntryaerial extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAeri5692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAeri5692(// REPLACE: aerial /ˈeriəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAeri5692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAeri5692(
+                                        // REPLACE: aerial /ˈeriəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryaerial extends StatelessWidget {
                                   text:
                                       "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAeria2567("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAeria2567(// REPLACE: aerial /ˈeriəl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAeria2567("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAeria2567(
+                                        // REPLACE: aerial /ˈeriəl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

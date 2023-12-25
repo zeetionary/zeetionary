@@ -190,13 +190,17 @@ class EnglishEntryarrival extends StatelessWidget {
                                   text:
                                       "داوای لێبووردن ئەکەین بۆ درەنگ گەشتنی شەمەندەفەرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival504("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival504(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival504("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival504(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryarrival extends StatelessWidget {
                                   text:
                                       "کاتی پێشبینیکراوی گەشتنمان ٧:١٥ خولەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival506("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival506(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival506("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival506(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە بەشی گەشتندا تێپەڕیم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival508("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival508(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival508("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival508(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +267,17 @@ class EnglishEntryarrival extends StatelessWidget {
                                   text:
                                       "پێشبینی ئەندامێکی تازە بۆ خێزانەکە دەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival509("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival509(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival509("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival509(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -276,13 +292,17 @@ class EnglishEntryarrival extends StatelessWidget {
                                   text:
                                       "ئەو کەسانەی سەرەتا گەشتنە کۆنسێرتەکە باشترین جێگاکانیان بەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival512("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival512(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival512("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival512(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -299,13 +319,17 @@ class EnglishEntryarrival extends StatelessWidget {
                                   text:
                                       "دەرکەوتنی سەتەلایت شێوازی پەخشکردنی تەلەفیزیۆنی گۆڕی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrival515("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrival515(
-                                    // REPLACE: arrival /əˈraɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrival515("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrival515(
+                                        // REPLACE: arrival /əˈraɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

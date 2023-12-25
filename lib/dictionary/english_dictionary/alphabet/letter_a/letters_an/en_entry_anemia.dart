@@ -177,13 +177,17 @@ class EnglishEntryanemia extends StatelessWidget {
                                   text:
                                       "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakanemia558("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakanemia558(
-                                    // REPLACE: anemia /əˈniːmiə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakanemia558("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakanemia558(
+                                        // REPLACE: anemia /əˈniːmiə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

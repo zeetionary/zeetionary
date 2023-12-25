@@ -175,13 +175,17 @@ class EnglishEntrybaldness extends StatelessWidget {
                                   text:
                                       "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaldnesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaldnesss1(// REPLACE: baldness
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaldnesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaldnesss1(// REPLACE: baldness
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

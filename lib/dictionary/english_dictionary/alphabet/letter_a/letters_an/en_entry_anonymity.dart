@@ -178,13 +178,18 @@ class EnglishEntryanonymity extends StatelessWidget {
                                   text:
                                       "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnonymity1038("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnonymity1038(
-                                    // REPLACE: anonymity /ˌænəˈnɪməti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnonymity1038("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnonymity1038(
+                                        // REPLACE: anonymity /ˌænəˈnɪməti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

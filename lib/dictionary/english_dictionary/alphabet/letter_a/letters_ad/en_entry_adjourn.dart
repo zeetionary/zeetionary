@@ -132,13 +132,17 @@ class EnglishEntryadjourn extends StatelessWidget {
                                   text:
                                       "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjo952871("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjo952871(
-                                    // REPLACE: adjourn /əˈdʒɜːrn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjo952871("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjo952871(
+                                        // REPLACE: adjourn /əˈdʒɜːrn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -150,13 +154,17 @@ class EnglishEntryadjourn extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd4582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd4582(// REPLACE: adjourn /əˈdʒɜːrn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd4582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd4582(
+                                        // REPLACE: adjourn /əˈdʒɜːrn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

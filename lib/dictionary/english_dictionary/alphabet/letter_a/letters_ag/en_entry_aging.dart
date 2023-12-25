@@ -136,13 +136,17 @@ class EnglishEntryaging extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAging35699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAging35699(
-                                    // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAging35699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAging35699(
+                                        // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryaging extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاودێری دایکە پیرەکەی دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAging148825("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAging148825(
-                                    // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAging148825("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAging148825(
+                                        // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

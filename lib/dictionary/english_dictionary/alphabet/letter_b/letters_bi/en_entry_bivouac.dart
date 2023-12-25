@@ -174,11 +174,15 @@ class EnglishEntrybivouac extends StatelessWidget {
                                   text:
                                       "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbivouacs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbivouacs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbivouacs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbivouacs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybivouac extends StatelessWidget {
                                   text:
                                       "لە دوای ڕۆژێکی درێژ لە شاخەوانی، بڕیاریاندا پەناگەیەک دابنەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbivouacs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbivouacs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbivouacs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbivouacs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

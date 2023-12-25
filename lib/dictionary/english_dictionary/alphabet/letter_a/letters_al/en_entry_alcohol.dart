@@ -137,13 +137,17 @@ class EnglishEntryalcohol extends StatelessWidget {
                                   text:
                                       "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcohol4538("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcohol4538(
-                                    // REPLACE: alcohol /ˈælkəhɔːl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcohol4538("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcohol4538(
+                                        // REPLACE: alcohol /ˈælkəhɔːl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryalcohol extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcohol42566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcohol42566(
-                                    // REPLACE: alcohol /ˈælkəhɔːl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcohol42566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcohol42566(
+                                        // REPLACE: alcohol /ˈælkəhɔːl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

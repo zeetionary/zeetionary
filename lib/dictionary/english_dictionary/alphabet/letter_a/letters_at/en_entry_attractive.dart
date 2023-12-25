@@ -189,13 +189,18 @@ class EnglishEntryattractive extends StatelessWidget {
                                   text:
                                       "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttractive1043("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttractive1043(// REPLACE: attractive
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttractive1043("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttractive1043(
+                                        // REPLACE: attractive
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryattractive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاویلکە تازەکەت زۆر قەشەنگە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttractive1045("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttractive1045(// REPLACE: attractive
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttractive1045("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttractive1045(
+                                        // REPLACE: attractive
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +244,18 @@ class EnglishEntryattractive extends StatelessWidget {
                                   text:
                                       "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttractive1047("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttractive1047(// REPLACE: attractive
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttractive1047("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttractive1047(
+                                        // REPLACE: attractive
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

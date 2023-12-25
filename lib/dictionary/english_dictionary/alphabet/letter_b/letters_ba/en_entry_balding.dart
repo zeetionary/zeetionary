@@ -174,13 +174,17 @@ class EnglishEntrybalding extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جاکسن خرپەلەیەکی کەچەڵبوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaldings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaldings1(// REPLACE: balding
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaldings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaldings1(// REPLACE: balding
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

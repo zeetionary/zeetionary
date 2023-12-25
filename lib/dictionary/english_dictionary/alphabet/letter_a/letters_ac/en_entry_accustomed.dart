@@ -135,11 +135,15 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   text:
                                       "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc52687("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc52687("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc52687("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc52687("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,11 +157,15 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   text:
                                       "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc5278("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc5278("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc5278("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc5278("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryaseptic extends StatelessWidget {
                                   text:
                                       "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAseptic157("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAseptic157(
-                                    // REPLACE: aseptic /ˌeɪˈseptɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAseptic157("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAseptic157(
+                                        // REPLACE: aseptic /ˌeɪˈseptɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -190,13 +190,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                                   text:
                                       "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1027("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1027(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1027("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1027(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                                   text:
                                       "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1030(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1030(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +243,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1031("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1031(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1031("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1031(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +270,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1033("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1033(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1033("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1033(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,13 +298,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                                   text:
                                       "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1037("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1037(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1037("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1037(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -300,13 +325,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                                   text:
                                       "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomatic1039("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomatic1039(// REPLACE: automatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomatic1039("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutomatic1039(// REPLACE: automatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

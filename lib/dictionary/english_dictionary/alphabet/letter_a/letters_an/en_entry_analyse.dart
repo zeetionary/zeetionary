@@ -179,13 +179,17 @@ class EnglishEntryanalyse extends StatelessWidget {
                                   text:
                                       "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalyse7950("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalyse7950(
-                                    // REPLACE: analyse /ˈænəlaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalyse7950("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalyse7950(
+                                        // REPLACE: analyse /ˈænəlaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntryanalyse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalyse4920("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalyse4920(
-                                    // REPLACE: analyse /ˈænəlaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalyse4920("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalyse4920(
+                                        // REPLACE: analyse /ˈænəlaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -217,13 +225,17 @@ class EnglishEntryanalyse extends StatelessWidget {
                                   text:
                                       "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalyse469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalyse469(
-                                    // REPLACE: analyse /ˈænəlaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalyse469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalyse469(
+                                        // REPLACE: analyse /ˈænəlaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

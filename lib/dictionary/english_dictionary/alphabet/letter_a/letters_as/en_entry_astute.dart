@@ -186,13 +186,17 @@ class EnglishEntryastute extends StatelessWidget {
                                   text:
                                       "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstute522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstute522(// REPLACE: astute
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstute522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstute522(// REPLACE: astute
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

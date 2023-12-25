@@ -178,11 +178,15 @@ class EnglishEntrybeliever extends StatelessWidget {
                                   text:
                                       "بووە بە باوەڕدارێک لەوەتەی لە ڕووداوێکی خراپ ڕزگاری بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelievers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelievers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelievers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelievers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybeliever extends StatelessWidget {
                                   text:
                                       "باوەڕدارێکی تەواوم بەوەی کە دەبێت ڕێگە بە خەڵکی دبرێت ھەڵەی خۆیان بکەن (تا لێیانەوە فێربن)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelievers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelievers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelievers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelievers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

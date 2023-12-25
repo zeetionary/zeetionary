@@ -181,13 +181,17 @@ class EnglishEntryarduously extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArduously715("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArduously715(
-                                    // REPLACE: arduously /ˈɑːrdʒuəsli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArduously715("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArduously715(
+                                        // REPLACE: arduously /ˈɑːrdʒuəsli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

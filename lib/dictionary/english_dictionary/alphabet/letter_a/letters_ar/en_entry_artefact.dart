@@ -185,13 +185,17 @@ class EnglishEntryartefact extends StatelessWidget {
                                   text:
                                       "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtefact112("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtefact112(
-                                    // REPLACE: artefact /ˈɑːrtɪfækt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtefact112("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtefact112(
+                                        // REPLACE: artefact /ˈɑːrtɪfækt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

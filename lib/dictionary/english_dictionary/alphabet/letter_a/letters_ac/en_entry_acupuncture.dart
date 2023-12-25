@@ -136,13 +136,17 @@ class EnglishEntryacupuncture extends StatelessWidget {
                                   text:
                                       "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcupunct457("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcupunct457(
-                                    // REPLACE: acupuncture /ˈækjupʌŋktʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcupunct457("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcupunct457(
+                                        // REPLACE: acupuncture /ˈækjupʌŋktʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

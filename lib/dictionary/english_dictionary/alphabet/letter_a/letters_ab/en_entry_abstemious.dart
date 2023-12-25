@@ -120,11 +120,15 @@ class EnglishEntryabstemious extends StatelessWidget {
                                   text:
                                       "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb75891("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb75891("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb75891("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb75891("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

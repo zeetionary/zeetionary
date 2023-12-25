@@ -136,13 +136,18 @@ class EnglishEntryalleluia extends StatelessWidget {
                                   text:
                                       "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlleluia35288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlleluia35288(
-                                    // REPLACE: alleluia /ˌælɪˈluːjə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlleluia35288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlleluia35288(
+                                        // REPLACE: alleluia /ˌælɪˈluːjə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

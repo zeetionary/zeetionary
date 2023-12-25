@@ -138,13 +138,17 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                   text:
                                       "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAforemen96("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAforemen96(
-                                    // REPLACE: aforementioned /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAforemen96("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAforemen96(
+                                        // REPLACE: aforementioned /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,13 +175,17 @@ class EnglishEntryawhile extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بوەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwhiles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwhiles1(// REPLACE: awhile
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwhiles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwhiles1(// REPLACE: awhile
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

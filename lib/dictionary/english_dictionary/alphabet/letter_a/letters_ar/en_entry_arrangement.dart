@@ -191,13 +191,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement122("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement122(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement122("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement122(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +217,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement124("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement124(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement124("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement124(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +245,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement126("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement126(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement126("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement126(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,13 +273,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement128("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement128(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement128("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement128(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -281,13 +301,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement131("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement131(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement131("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement131(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,13 +329,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                                   text:
                                       "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrangement134("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrangement134(
-                                    // REPLACE: arrangement /əˈreɪndʒmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrangement134("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrangement134(
+                                        // REPLACE: arrangement /əˈreɪndʒmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

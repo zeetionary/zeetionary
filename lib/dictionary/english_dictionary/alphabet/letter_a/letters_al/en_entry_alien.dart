@@ -165,13 +165,17 @@ class EnglishEntryalien extends StatelessWidget {
                                   text:
                                       "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien46588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien46588(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien46588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien46588(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -187,13 +191,17 @@ class EnglishEntryalien extends StatelessWidget {
                                   text:
                                       "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien369222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien369222(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien369222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien369222(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +217,17 @@ class EnglishEntryalien extends StatelessWidget {
                                   text:
                                       "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien49255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien49255(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien49255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien49255(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +243,17 @@ class EnglishEntryalien extends StatelessWidget {
                                   text:
                                       "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien3411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien3411(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien3411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien3411(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +267,17 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien34177("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien34177(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien34177("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien34177(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,13 +293,17 @@ class EnglishEntryalien extends StatelessWidget {
                                   text:
                                       "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlien35288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlien35288(// REPLACE: alien /ˈeɪliən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlien35288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlien35288(
+                                        // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

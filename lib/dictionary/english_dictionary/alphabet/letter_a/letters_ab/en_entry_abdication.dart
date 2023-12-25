@@ -111,11 +111,15 @@ class EnglishEntryabdication extends StatelessWidget {
                                   text:
                                       "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb1125("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb1125("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

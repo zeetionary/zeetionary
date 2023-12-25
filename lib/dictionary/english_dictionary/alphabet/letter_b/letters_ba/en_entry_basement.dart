@@ -171,11 +171,15 @@ class EnglishEntrybasement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە فلاتێکی دوو ژووری ژێرزەمینی دەژی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasements1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasements1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasements1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasements1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

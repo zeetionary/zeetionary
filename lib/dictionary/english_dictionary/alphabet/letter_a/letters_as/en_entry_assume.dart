@@ -189,13 +189,17 @@ class EnglishEntryassume extends StatelessWidget {
                                   text:
                                       "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssume843("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssume843(// REPLACE: assume /əˈsuːm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssume843("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssume843(
+                                        // REPLACE: assume /əˈsuːm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryassume extends StatelessWidget {
                                   text:
                                       "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssume844("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssume844(// REPLACE: assume /əˈsuːm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssume844("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssume844(
+                                        // REPLACE: assume /əˈsuːm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryassume extends StatelessWidget {
                                   text:
                                       "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssume846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssume846(// REPLACE: assume /əˈsuːm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssume846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssume846(
+                                        // REPLACE: assume /əˈsuːm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryassume extends StatelessWidget {
                                   text:
                                       "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssume848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssume848(// REPLACE: assume /əˈsuːm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssume848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssume848(
+                                        // REPLACE: assume /əˈsuːm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryassume extends StatelessWidget {
                                   text:
                                       "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssume851("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssume851(// REPLACE: assume /əˈsuːm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssume851("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssume851(
+                                        // REPLACE: assume /əˈsuːm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

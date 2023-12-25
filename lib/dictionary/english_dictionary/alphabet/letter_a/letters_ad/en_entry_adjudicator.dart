@@ -134,13 +134,17 @@ class EnglishEntryadjudicator extends StatelessWidget {
                                   text:
                                       "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjudic35477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjudic35477(
-                                    // REPLACE: adjudicator /əˈdʒuːdɪkeɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjudic35477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjudic35477(
+                                        // REPLACE: adjudicator /əˈdʒuːdɪkeɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

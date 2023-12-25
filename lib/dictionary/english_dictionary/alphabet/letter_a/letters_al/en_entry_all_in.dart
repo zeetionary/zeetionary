@@ -136,13 +136,18 @@ class EnglishEntryallin extends StatelessWidget {
                                   text:
                                       "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllallin52471("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllallin52471(
-                                    // REPLACE: all-in /ˌɔːl ˈɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllallin52471("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllallin52471(
+                                        // REPLACE: all-in /ˌɔːl ˈɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

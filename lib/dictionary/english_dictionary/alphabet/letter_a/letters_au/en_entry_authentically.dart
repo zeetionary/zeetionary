@@ -187,13 +187,18 @@ class EnglishEntryauthentically extends StatelessWidget {
                                   text:
                                       "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیان مرۆڤ پیشان دەدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthentically622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthentically622(
-                                    // REPLACE: authentically
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthentically622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthentically622(
+                                        // REPLACE: authentically
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

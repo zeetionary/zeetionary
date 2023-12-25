@@ -286,13 +286,17 @@ class EnglishEntryall extends StatelessWidget {
                                   text:
                                       "ھەموو ئەسپێک ئاژەڵە، بەڵام ھەموو ئاژەڵێک ئەسپ نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll25344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll25344(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll25344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll25344(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,13 +308,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو ڕووەکەکانم وشکیان کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll3481("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll3481(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll3481("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll3481(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -322,13 +330,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموو پارەکەی لەدەستداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll3441("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll3441(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll3441("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll3441(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -342,13 +354,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواوی ساڵەکە بە سەختی کاری کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll39521("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll39521(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll39521("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll39521(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -363,13 +379,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواو سەرڕاست بم، ناتوانم ھاوڕابم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll36284("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll36284(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll36284("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll36284(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -383,13 +403,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گۆڤارەکە ھەموو ڕیکلام بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll48517("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll48517(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll48517("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll48517(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -403,13 +427,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموویان خواردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll35288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll35288(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll35288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll35288(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -421,13 +449,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەموویان چێژیان لە ئاھەنگەکە بینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll32581("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll32581(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll32581("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll32581(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -441,13 +473,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەوە ھەموو ئەوە بوو ھەمبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll24163("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll24163(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll24163("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll24163(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -461,13 +497,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قاوەکە ڕژا بە ھەموو تەنوورەکەمدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll1246("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll1246(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll1246("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll1246(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -481,13 +521,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر پەست مەبە لەسەری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll38955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll38955(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll38955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll38955(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -502,13 +546,17 @@ class EnglishEntryall extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کۆتایی گەشتەکە زۆر زوو ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAll3582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAll3582(// REPLACE: all //ɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAll3582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAll3582(// REPLACE: all //ɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

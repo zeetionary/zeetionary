@@ -183,13 +183,17 @@ class EnglishEntryaptness extends StatelessWidget {
                                   text:
                                       "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAptness815("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAptness815(
-                                    // REPLACE: aptness /ˈæptnəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAptness815("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAptness815(
+                                        // REPLACE: aptness /ˈæptnəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

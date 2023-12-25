@@ -181,13 +181,17 @@ class EnglishEntryapricot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە قەیسی نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApricot1040("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApricot1040(
-                                    // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApricot1040("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApricot1040(
+                                        // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,13 +208,17 @@ class EnglishEntryapricot extends StatelessWidget {
                                   text:
                                       "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApricot1043("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApricot1043(
-                                    // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApricot1043("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApricot1043(
+                                        // REPLACE: apricot /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

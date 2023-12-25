@@ -185,13 +185,17 @@ class EnglishEntryasp extends StatelessWidget {
                                   text:
                                       "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsp945("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAsp945(// REPLACE: asp /æsp/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsp945("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAsp945(// REPLACE: asp /æsp/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

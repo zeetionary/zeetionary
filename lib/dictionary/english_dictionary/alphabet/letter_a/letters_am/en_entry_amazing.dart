@@ -135,13 +135,17 @@ class EnglishEntryamazing extends StatelessWidget {
                                   text:
                                       "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmazing45555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmazing45555(
-                                    // REPLACE: amazing /əˈmeɪzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmazing45555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmazing45555(
+                                        // REPLACE: amazing /əˈmeɪzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryamazing extends StatelessWidget {
                                   text:
                                       "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmazing95314("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmazing95314(
-                                    // REPLACE: amazing /əˈmeɪzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmazing95314("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmazing95314(
+                                        // REPLACE: amazing /əˈmeɪzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

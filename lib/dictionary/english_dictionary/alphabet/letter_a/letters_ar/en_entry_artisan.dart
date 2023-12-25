@@ -186,13 +186,17 @@ class EnglishEntryartisan extends StatelessWidget {
                                   text:
                                       "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtisan1031("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtisan1031(
-                                    // REPLACE: artisan /ˈɑːrtəzn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtisan1031("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtisan1031(
+                                        // REPLACE: artisan /ˈɑːrtəzn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryartisan extends StatelessWidget {
                                   text:
                                       "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtisan1036("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtisan1036(
-                                    // REPLACE: artisan /ˈɑːrtəzn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtisan1036("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtisan1036(
+                                        // REPLACE: artisan /ˈɑːrtəzn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

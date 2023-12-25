@@ -133,13 +133,17 @@ class EnglishEntryaffliction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfflict9644("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfflict9644(
-                                    // REPLACE: affliction /əˈflɪkʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfflict9644("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfflict9644(
+                                        // REPLACE: affliction /əˈflɪkʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

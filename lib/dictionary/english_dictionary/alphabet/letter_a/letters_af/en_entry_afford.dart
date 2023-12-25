@@ -143,13 +143,17 @@ class EnglishEntryafford extends StatelessWidget {
                                   text:
                                       "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffor458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffor458(// REPLACE: afford /əˈfɔːrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffor458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffor458(
+                                        // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -162,13 +166,17 @@ class EnglishEntryafford extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نەیاندەتوانی خانوویەک لەوێ بکڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff6665("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAff6665(// REPLACE: afford /əˈfɔːrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff6665("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAff6665(
+                                        // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -183,13 +191,17 @@ class EnglishEntryafford extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff4511("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAff4511(// REPLACE: afford /əˈfɔːrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff4511("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAff4511(
+                                        // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,13 +216,17 @@ class EnglishEntryafford extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دارەکە ھەندێک سێبەر دەبەخشێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAf44922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAf44922(// REPLACE: afford /əˈfɔːrd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAf44922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAf44922(
+                                        // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

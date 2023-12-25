@@ -117,11 +117,15 @@ class EnglishEntrytheabove extends StatelessWidget {
                                   text:
                                       "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakT3514("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakT3514("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakT3514("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakT3514("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

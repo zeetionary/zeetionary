@@ -374,11 +374,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دکتۆرەکان پێیان وایە کوێر دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -390,11 +394,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە تەمەنی ١٠ ساڵیدا بینایی لەدەستدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -406,11 +414,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە نابینایی لەدایکبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -424,11 +436,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەگ ڕادەھێنێت بۆ نابینایان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -444,11 +460,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "چاوی کوێرە لە ئاستی ھەڵەکانی ھاوژینەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -461,11 +481,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواو بێ ئاگایە لە ڕاستییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -481,11 +505,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاوی کوێر بووبوو لە تووڕەییدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -498,11 +526,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "ساتێکی تاسانی کوێرانە بوو (بە بێ ھۆ ترسان)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -519,11 +551,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەأاند و بیناکانی کرد بە وێرانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -540,11 +576,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "ڕووداوەکە لە لادانێکی ناوچەی کوێردا ڕوویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -561,11 +601,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "زۆر بە گومانە بەرامبەر ھەر کەسێک کە بانگەشەی ئەوە دەکات ڕەگەز لای گرنگ نەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -579,11 +623,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە تەقینەوەکەدا کوێر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -595,11 +643,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێرشکارەکان بە ئەسید نابینایان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -614,11 +666,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاوەکانی پڕبوون لە فرمێسک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds14("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds14("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -632,11 +688,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "کە لە دەرەوە بوو بۆ ماوەیەکی کاتی بینایی لەدەستدا بەھۆی خۆرەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds15("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds15("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -653,11 +713,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "ھەستی وەفاداریی کوێری کرد لا ئاستی ڕاستییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds16("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds16("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -671,11 +735,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "نابێت ڕێگا بدەین ڕقەکانمان کوێرمان بکات لە ئاستی دۆخەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds17("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds17("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -690,11 +758,15 @@ class EnglishEntryblind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەسێکی بینی لە بەینی پەردەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds18("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds18("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds18("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -708,11 +780,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "پەردەکان بکەرەوە و ڕێگا بدە ھەندێک ڕۆشنایی بێتە ژوورەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds19("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds19("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds19("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -729,11 +805,15 @@ class EnglishEntryblind extends StatelessWidget {
                                   text:
                                       "لە دەرچوون بەناو تەمە ئەستوورەکەدا، کاپتنی فڕۆکەکە بە کوێرانە بایدەدایەوە بە پشت بەستن بە ڕادار و ئەزموونی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblinds20("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblinds20("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblinds20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblinds20("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryannexe extends StatelessWidget {
                                   text:
                                       "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnex1204("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnex1204(
-                                    // REPLACE: annex /ˈæneks/,  /əˈneks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnex1204("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnex1204(
+                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

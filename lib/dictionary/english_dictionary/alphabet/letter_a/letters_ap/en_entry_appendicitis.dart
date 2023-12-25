@@ -184,13 +184,18 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                   text:
                                       "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppendicitis142("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppendicitis142(
-                                    // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppendicitis142("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppendicitis142(
+                                        // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

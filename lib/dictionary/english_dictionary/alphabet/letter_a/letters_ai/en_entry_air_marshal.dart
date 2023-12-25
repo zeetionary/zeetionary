@@ -133,13 +133,18 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                   text:
                                       "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirmarshal524("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirmarshal524(
-                                    // REPLACE: air marshal /ˈer mɑːrʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirmarshal524("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirmarshal524(
+                                        // REPLACE: air marshal /ˈer mɑːrʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +160,18 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                   text:
                                       "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirmarshal3528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirmarshal3528(
-                                    // REPLACE: air marshal /ˈer mɑːrʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirmarshal3528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirmarshal3528(
+                                        // REPLACE: air marshal /ˈer mɑːrʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

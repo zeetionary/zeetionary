@@ -178,11 +178,15 @@ class EnglishEntrybeastly extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeastlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeastlys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeastlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeastlys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybeastly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر دڵڕەق مەبە بەرامبەری!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeastlys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeastlys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeastlys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeastlys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

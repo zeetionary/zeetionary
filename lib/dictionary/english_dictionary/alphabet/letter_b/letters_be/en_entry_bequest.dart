@@ -177,11 +177,15 @@ class EnglishEntrybequest extends StatelessWidget {
                                   text:
                                       "بەشە میراتییەکی بۆ ھەریەک لە منداڵەکانی جێھێشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBequests1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBequests1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBequests1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBequests1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

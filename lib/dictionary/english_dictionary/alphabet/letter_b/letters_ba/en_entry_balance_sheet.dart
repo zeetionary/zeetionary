@@ -179,13 +179,18 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                   text:
                                       "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalancesheets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalancesheets1(
-                                    // REPLACE: balance sheet
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBalancesheets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBalancesheets1(
+                                        // REPLACE: balance sheet
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

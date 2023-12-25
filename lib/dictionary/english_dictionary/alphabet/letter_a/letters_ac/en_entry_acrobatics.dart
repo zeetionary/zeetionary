@@ -133,12 +133,16 @@ class EnglishEntryacrobatics extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کردنی ئاکرۆباتیکس لەسەر تەنافی بەرز."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcro2354("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcro2354(
-                                    "en-US"), // REPLACE acrobatics /ˌækrəˈbætɪks/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcro2354("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcro2354(
+                                        "en-US"), // REPLACE acrobatics /ˌækrəˈbætɪks/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

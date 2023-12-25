@@ -137,13 +137,17 @@ class EnglishEntryadult extends StatelessWidget {
                                   text:
                                       "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdult12568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdult12568(
-                                    // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdult12568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdult12568(
+                                        // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryadult extends StatelessWidget {
                                   text:
                                       "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdul458237("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdul458237(
-                                    // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdul458237("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdul458237(
+                                        // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

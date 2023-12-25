@@ -135,13 +135,18 @@ class EnglishEntryallegiance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegiance12566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegiance12566(
-                                    // REPLACE: allegiance /əˈliːdʒəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllegiance12566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegiance12566(
+                                        // REPLACE: allegiance /əˈliːdʒəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

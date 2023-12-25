@@ -132,13 +132,17 @@ class EnglishEntryaffluent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە گەڕەکێکی دەوڵەمەند دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfflu4922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfflu4922(
-                                    // REPLACE: affluent /ˈæfluənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfflu4922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfflu4922(
+                                        // REPLACE: affluent /ˈæfluənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

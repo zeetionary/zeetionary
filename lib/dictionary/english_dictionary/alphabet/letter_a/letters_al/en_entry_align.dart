@@ -137,13 +137,17 @@ class EnglishEntryalign extends StatelessWidget {
                                   text:
                                       "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlign43659("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlign43659(// REPLACE: align /əˈlaɪn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlign43659("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlign43659(
+                                        // REPLACE: align /əˈlaɪn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryalign extends StatelessWidget {
                                   text:
                                       "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlign35255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlign35255(// REPLACE: align /əˈlaɪn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlign35255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlign35255(
+                                        // REPLACE: align /əˈlaɪn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

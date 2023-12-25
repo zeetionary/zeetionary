@@ -183,13 +183,17 @@ class EnglishEntryaphid extends StatelessWidget {
                                   text:
                                       "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAphid229("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAphid229(// REPLACE: aphid /ˈeɪfɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAphid229("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAphid229(// REPLACE: aphid /ˈeɪfɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

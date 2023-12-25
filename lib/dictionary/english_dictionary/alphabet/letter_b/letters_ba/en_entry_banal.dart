@@ -178,12 +178,17 @@ class EnglishEntrybanal extends StatelessWidget {
                                   text:
                                       "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanals1(// REPLACE: banal
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanals1(// REPLACE: banal
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

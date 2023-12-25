@@ -177,13 +177,17 @@ class EnglishEntryamusing extends StatelessWidget {
                                   text:
                                       "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmusing7603("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmusing7603(
-                                    // REPLACE: amusing /əˈmjuːzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmusing7603("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmusing7603(
+                                        // REPLACE: amusing /əˈmjuːzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

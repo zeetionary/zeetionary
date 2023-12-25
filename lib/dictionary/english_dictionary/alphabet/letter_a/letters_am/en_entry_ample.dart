@@ -178,13 +178,17 @@ class EnglishEntryample extends StatelessWidget {
                                   text:
                                       "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmple001("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmple001(// REPLACE: ample /ˈæmpl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmple001("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmple001(// REPLACE: ample /ˈæmpl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryample extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmple4408("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmple4408(// REPLACE: ample /ˈæmpl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmple4408("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmple4408(// REPLACE: ample /ˈæmpl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

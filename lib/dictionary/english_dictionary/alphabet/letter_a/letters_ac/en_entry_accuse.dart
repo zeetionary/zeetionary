@@ -133,11 +133,15 @@ class EnglishEntryaccuse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە درۆکردن تۆمەتباری کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA14587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA14587("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA14587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA14587("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -150,11 +154,15 @@ class EnglishEntryaccuse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حکومەت بە ناکارامەیی تۆمەتبارکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA45691("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA45691("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA45691("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA45691("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

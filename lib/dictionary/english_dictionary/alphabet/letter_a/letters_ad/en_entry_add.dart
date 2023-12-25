@@ -151,13 +151,17 @@ class EnglishEntryadd extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناوت زیادبکەم بۆ لیستەکە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd4257("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd4257(// REPLACE: add /æd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd4257("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd4257(// REPLACE: add /æd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -171,13 +175,17 @@ class EnglishEntryadd extends StatelessWidget {
                                   text:
                                       "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd45698("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd45698(// REPLACE: add /æd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd45698("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd45698(// REPLACE: add /æd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,13 +200,17 @@ class EnglishEntryadd extends StatelessWidget {
                                   text:
                                       "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd241("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd241(// REPLACE: add /æd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd241("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd241(// REPLACE: add /æd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,13 +226,17 @@ class EnglishEntryadd extends StatelessWidget {
                                   text:
                                       "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd459224("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd459224(// REPLACE: add /æd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd459224("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd459224(// REPLACE: add /æd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -132,13 +132,17 @@ class EnglishEntryadjectival extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گرێی ھاوەڵناوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjec2547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjec2547(
-                                    // REPLACE: adjectival /ˌædʒekˈtaɪvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjec2547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjec2547(
+                                        // REPLACE: adjectival /ˌædʒekˈtaɪvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

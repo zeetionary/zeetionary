@@ -134,13 +134,17 @@ class EnglishEntryadept extends StatelessWidget {
                                   text:
                                       "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakA2588(// REPLACE: adept /əˈdept/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA2588(// REPLACE: adept /əˈdept/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

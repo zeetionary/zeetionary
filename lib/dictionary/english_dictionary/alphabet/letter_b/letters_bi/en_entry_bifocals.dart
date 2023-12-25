@@ -173,11 +173,15 @@ class EnglishEntrybifocals extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە چاویلکەکەیەوە وردبوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBifocalss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBifocalss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBifocalss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBifocalss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

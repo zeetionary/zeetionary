@@ -133,13 +133,17 @@ class EnglishEntryalmost extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە نزیکەیی حەزم لە ھەموویانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmost4211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmost4211(
-                                    // REPLACE: almost /ˈɔːlməʊst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmost4211("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmost4211(
+                                        // REPLACE: almost /ˈɔːlməʊst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,13 +157,17 @@ class EnglishEntryalmost extends StatelessWidget {
                                   text:
                                       "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmost2489("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmost2489(
-                                    // REPLACE: almost /ˈɔːlməʊst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmost2489("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmost2489(
+                                        // REPLACE: almost /ˈɔːlməʊst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,13 +180,17 @@ class EnglishEntryalmost extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تابلۆکە بە ئەگەری زۆر ساختەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmost4958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmost4958(
-                                    // REPLACE: almost /ˈɔːlməʊst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmost4958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmost4958(
+                                        // REPLACE: almost /ˈɔːlməʊst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

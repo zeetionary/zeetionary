@@ -178,13 +178,17 @@ class EnglishEntryannex extends StatelessWidget {
                                   text:
                                       "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnex1135("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnex1135(
-                                    // REPLACE: annex /ˈæneks/,  /əˈneks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnex1135("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnex1135(
+                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryannex extends StatelessWidget {
                                   text:
                                       "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnex1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnex1140(
-                                    // REPLACE: annex /ˈæneks/,  /əˈneks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnex1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnex1140(
+                                        // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

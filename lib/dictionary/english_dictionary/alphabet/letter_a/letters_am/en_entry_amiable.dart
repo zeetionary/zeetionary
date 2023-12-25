@@ -199,13 +199,18 @@ class EnglishEntryamiable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دایک و باوکی ڕووخۆش بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmiable455666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmiable455666(
-                                    // REPLACE: amiable /ˈeɪmiəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmiable455666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmiable455666(
+                                        // REPLACE: amiable /ˈeɪmiəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

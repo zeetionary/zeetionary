@@ -176,12 +176,17 @@ class EnglishEntrybalti extends StatelessWidget {
                                   text:
                                       "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaltis1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaltis1(// REPLACE: balti
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaltis1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaltis1(// REPLACE: balti
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

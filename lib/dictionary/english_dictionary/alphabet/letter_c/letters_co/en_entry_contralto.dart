@@ -142,13 +142,18 @@ class EnglishEntrycontralto extends StatelessWidget {
                                   text:
                                       "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakContralto6955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakContralto6955(
-                                    // REPLACE: contralto /ˈæltəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakContralto6955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakContralto6955(
+                                        // REPLACE: contralto /ˈæltəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

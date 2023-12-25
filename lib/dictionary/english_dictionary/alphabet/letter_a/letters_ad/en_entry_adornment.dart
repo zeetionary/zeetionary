@@ -135,13 +135,17 @@ class EnglishEntryadornment extends StatelessWidget {
                                   text:
                                       "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdornm79534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdornm79534(
-                                    // REPLACE: adornment /əˈdɔːrnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdornm79534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdornm79534(
+                                        // REPLACE: adornment /əˈdɔːrnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadornment extends StatelessWidget {
                                   text:
                                       "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd25698("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAd25698(
-                                    // REPLACE: adornment /əˈdɔːrnmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd25698("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd25698(
+                                        // REPLACE: adornment /əˈdɔːrnmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

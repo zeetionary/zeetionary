@@ -179,12 +179,17 @@ class EnglishEntrybail extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBails1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBails1(// REPLACE: bail
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBails1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBails1(// REPLACE: bail
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,12 +202,17 @@ class EnglishEntrybail extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBails2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBails2(// REPLACE: bail
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBails2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBails2(// REPLACE: bail
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,12 +229,17 @@ class EnglishEntrybail extends StatelessWidget {
                                   text:
                                       "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBails3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBails3(// REPLACE: bail
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBails3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBails3(// REPLACE: bail
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,12 +254,17 @@ class EnglishEntrybail extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ببوورە، بەڕاستی دەبێت بڕۆم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBails4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBails4(// REPLACE: bail
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBails4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBails4(// REPLACE: bail
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

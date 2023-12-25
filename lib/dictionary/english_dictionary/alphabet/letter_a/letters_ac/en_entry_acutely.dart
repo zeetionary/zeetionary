@@ -145,13 +145,17 @@ class EnglishEntryacutely extends StatelessWidget {
                                   text:
                                       "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcu427("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcu427(// REPLACE: acutely /əˈkjuːtli/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcu427("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcu427(
+                                        // REPLACE: acutely /əˈkjuːtli/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -165,13 +169,17 @@ class EnglishEntryacutely extends StatelessWidget {
                                   text:
                                       "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcute7481("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcute7481(
-                                    // REPLACE: acutely /əˈkjuːtli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcute7481("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcute7481(
+                                        // REPLACE: acutely /əˈkjuːtli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -187,13 +195,17 @@ class EnglishEntryacutely extends StatelessWidget {
                                   text:
                                       "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcute666632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcute666632(
-                                    // REPLACE: acutely /əˈkjuːtli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcute666632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcute666632(
+                                        // REPLACE: acutely /əˈkjuːtli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

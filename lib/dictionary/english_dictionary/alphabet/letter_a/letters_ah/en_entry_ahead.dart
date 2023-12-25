@@ -167,13 +167,17 @@ class EnglishEntryahead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێشوەختە دەچم و ئاگاداریان دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead24999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAhead24999(// REPLACE: ahead /əˈhed/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead24999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead24999(
+                                        // REPLACE: ahead /əˈhed/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -187,13 +191,17 @@ class EnglishEntryahead extends StatelessWidget {
                                   text:
                                       "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead12555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAhead12555(// REPLACE: ahead /əˈhed/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead12555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead12555(
+                                        // REPLACE: ahead /əˈhed/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +216,17 @@ class EnglishEntryahead extends StatelessWidget {
                                   text:
                                       "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead43582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAhead43582(// REPLACE: ahead /əˈhed/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead43582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead43582(
+                                        // REPLACE: ahead /əˈhed/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +240,17 @@ class EnglishEntryahead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تیمەکان بە شەش خاڵ لەپێش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAhead24331("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAhead24331(// REPLACE: ahead /əˈhed/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAhead24331("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAhead24331(
+                                        // REPLACE: ahead /əˈhed/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

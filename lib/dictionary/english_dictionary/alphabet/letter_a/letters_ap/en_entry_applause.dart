@@ -183,13 +183,17 @@ class EnglishEntryapplause extends StatelessWidget {
                                   text:
                                       "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplause534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplause534(
-                                    // REPLACE: applause /əˈplɔːz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApplause534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplause534(
+                                        // REPLACE: applause /əˈplɔːz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

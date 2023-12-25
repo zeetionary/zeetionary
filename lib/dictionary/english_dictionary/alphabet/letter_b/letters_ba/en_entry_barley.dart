@@ -170,11 +170,15 @@ class EnglishEntrybarley extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نرخی جۆ بەرەوە بەرزبوونەوە دەچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarleys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarleys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarleys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarleys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

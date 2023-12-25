@@ -183,13 +183,17 @@ class EnglishEntryaugust extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە مانگی ئاب لەدایکبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAugust327("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAugust327(// REPLACE: August
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAugust327("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAugust327(// REPLACE: August
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryasteroid extends StatelessWidget {
                                   text:
                                       "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsteroid952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsteroid952(
-                                    // REPLACE: asteroid /ˈæstərɔɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsteroid952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsteroid952(
+                                        // REPLACE: asteroid /ˈæstərɔɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

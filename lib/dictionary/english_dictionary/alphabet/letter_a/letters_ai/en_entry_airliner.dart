@@ -132,13 +132,17 @@ class EnglishEntryairliner extends StatelessWidget {
                                   text:
                                       "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirliner3522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirliner3522(
-                                    // REPLACE: airliner /ˈerlaɪnər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirliner3522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirliner3522(
+                                        // REPLACE: airliner /ˈerlaɪnər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

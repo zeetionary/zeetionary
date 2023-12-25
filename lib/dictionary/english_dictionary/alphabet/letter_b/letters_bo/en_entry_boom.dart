@@ -198,11 +198,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "ستانداردی ژیان گەشەیکرد لە دەمی بووژانەوەی دوای جەنگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +220,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "ئەمساڵ فرۆشتنی کتێب گەشەی بەخۆوە دیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -237,11 +245,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "تەنھا ڕێگە بۆ تێرکردنی حەز بە گۆڵف درووستکردنی یاریگای تازەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,11 +270,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "دەیاوانان کۆڵەکەسووڕاوەکەیان ڕێکخست بۆ ئەوەی بایەکە گلبداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -278,11 +294,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "دەنگی گوێ‌دڕی تەقینەوەکە بیسترا لە دووری ١٠ کیلۆمەترەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -298,11 +318,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "لێدانی چەخماخە ھێندە دەنگی بەرز بوو زەوییەکە دەلەرزییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -317,11 +341,15 @@ class EnglishEntryboom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەنگێک لە تاریکییەکەوە ھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -338,11 +366,15 @@ class EnglishEntryboom extends StatelessWidget {
                                   text:
                                       "لە دەستپێکی ١٩٨٠ کانەوە پیشەسازی کۆمپیوتەر دەگەشایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooms8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooms8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooms8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooms8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

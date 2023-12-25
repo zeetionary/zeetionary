@@ -178,13 +178,17 @@ class EnglishEntrybangle extends StatelessWidget {
                                   text:
                                       "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBangles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBangles1(// REPLACE: bangle
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBangles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBangles1(// REPLACE: bangle
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

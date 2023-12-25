@@ -184,13 +184,18 @@ class EnglishEntryappreciable extends StatelessWidget {
                                   text:
                                       "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciable944("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciable944(
-                                    // REPLACE: appreciable /əˈpriːʃəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciable944("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciable944(
+                                        // REPLACE: appreciable /əˈpriːʃəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

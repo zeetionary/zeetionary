@@ -190,13 +190,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate348("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate348(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate348("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate348(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate351("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate351(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate351("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate351(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +242,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate352("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate352(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate352("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate352(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +270,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate355(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate355(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -276,13 +296,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate357("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate357(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate357("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate357(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -299,13 +324,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate400("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate400(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate400("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate400(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -322,13 +352,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                                   text:
                                       "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriate403("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriate403(
-                                    // REPLACE: appropriate /əˈprəʊpriət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriate403("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriate403(
+                                        // REPLACE: appropriate /əˈprəʊpriət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

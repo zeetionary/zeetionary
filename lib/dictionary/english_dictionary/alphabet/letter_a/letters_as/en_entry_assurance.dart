@@ -189,13 +189,17 @@ class EnglishEntryassurance extends StatelessWidget {
                                   text:
                                       "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssurance848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssurance848(
-                                    // REPLACE: assurance /əˈʃʊrəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssurance848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssurance848(
+                                        // REPLACE: assurance /əˈʃʊrəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryassurance extends StatelessWidget {
                                   text:
                                       "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssurance849("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssurance849(
-                                    // REPLACE: assurance /əˈʃʊrəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssurance849("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssurance849(
+                                        // REPLACE: assurance /əˈʃʊrəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryassurance extends StatelessWidget {
                                   text:
                                       "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssurance852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssurance852(
-                                    // REPLACE: assurance /əˈʃʊrəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssurance852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssurance852(
+                                        // REPLACE: assurance /əˈʃʊrəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -135,13 +135,17 @@ class EnglishEntryaffront extends StatelessWidget {
                                   text:
                                       "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffront92("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffront92(// REPLACE: affront /əˈfrʌnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffront92("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffront92(
+                                        // REPLACE: affront /əˈfrʌnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryaffront extends StatelessWidget {
                                   text:
                                       "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffron4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffron4599(
-                                    // REPLACE: affront /əˈfrʌnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffron4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffron4599(
+                                        // REPLACE: affront /əˈfrʌnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

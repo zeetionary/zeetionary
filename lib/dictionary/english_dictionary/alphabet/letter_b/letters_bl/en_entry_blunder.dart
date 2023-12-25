@@ -176,11 +176,15 @@ class EnglishEntryblunder extends StatelessWidget {
                                   text:
                                       "ھەڵەیەکی گەمژانەم کرد بە وتنی ناوی بە ھەڵە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntryblunder extends StatelessWidget {
                                   text:
                                       "حکومەت ھەڵەیەکی گەمژانەی کرد لە مامەڵەکردن لەگەڵ کێشەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblunders2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblunders2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblunders2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblunders2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

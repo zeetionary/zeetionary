@@ -175,11 +175,15 @@ class EnglishEntrybloodshed extends StatelessWidget {
                                   text:
                                       "ھەردوو لایەن داوای ئاگربەستیان کرد بۆ بۆ ڕێگری لە کوشتاری زیاتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodsheds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodsheds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodsheds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodsheds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

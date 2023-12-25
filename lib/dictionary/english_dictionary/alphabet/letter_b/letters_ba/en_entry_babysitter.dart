@@ -176,13 +176,17 @@ class EnglishEntrybabysitter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناتوانم چاودێرێک بۆ ئەمشەو بدۆزمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakA3s1(// REPLACE: babysitter
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: babysitter
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

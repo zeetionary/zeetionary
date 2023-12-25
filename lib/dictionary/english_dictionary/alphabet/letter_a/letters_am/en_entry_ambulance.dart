@@ -137,13 +137,17 @@ class EnglishEntryambulance extends StatelessWidget {
                                   text:
                                       "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbulanc7955("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbulanc7955(
-                                    // REPLACE: ambulance /ˈæmbjələns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbulanc7955("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbulanc7955(
+                                        // REPLACE: ambulance /ˈæmbjələns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

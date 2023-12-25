@@ -135,13 +135,17 @@ class EnglishEntryadvanced extends StatelessWidget {
                                   text:
                                       "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvanc2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvanc2534(
-                                    // REPLACE: advanced /ədˈvænst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvanc2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvanc2534(
+                                        // REPLACE: advanced /ədˈvænst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadvanced extends StatelessWidget {
                                   text:
                                       "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan2546("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan2546(
-                                    // REPLACE: advanced /ədˈvænst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan2546("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan2546(
+                                        // REPLACE: advanced /ədˈvænst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

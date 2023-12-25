@@ -135,13 +135,17 @@ class EnglishEntryamble extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مارک بەھێواشی چوو بۆ لای کچەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmble88544("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmble88544(// REPLACE: amble /ˈæmbl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmble88544("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmble88544(
+                                        // REPLACE: amble /ˈæmbl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

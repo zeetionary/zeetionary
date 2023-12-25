@@ -179,11 +179,15 @@ class EnglishEntrybeacon extends StatelessWidget {
                                   text:
                                       "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeacons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeacons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeacons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeacons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybeacon extends StatelessWidget {
                                   text:
                                       "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeacons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeacons2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeacons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeacons2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybeacon extends StatelessWidget {
                                   text:
                                       "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeacons3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeacons3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeacons3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeacons3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

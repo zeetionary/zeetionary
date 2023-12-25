@@ -183,13 +183,18 @@ class EnglishEntryarmedforces extends StatelessWidget {
                                   text:
                                       "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmedforces208("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmedforces208(
-                                    // REPLACE: armed forces /ði ˌɑːrmd ˈfɔːrsɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArmedforces208("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmedforces208(
+                                        // REPLACE: armed forces /ði ˌɑːrmd ˈfɔːrsɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

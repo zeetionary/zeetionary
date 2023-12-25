@@ -222,13 +222,17 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دووکەڵ لە ئاسۆدا دەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1030(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1030(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,13 +247,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1032("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1032(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1032("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1032(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -266,13 +274,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1034("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1034(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1034("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1034(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -288,13 +300,17 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1037("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1037(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1037("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1037(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -308,13 +324,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1038("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1038(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1038("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1038(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -331,13 +351,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear819("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear819(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear819("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear819(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -352,13 +376,17 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1043("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1043(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1043("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1043(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -375,13 +403,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1045("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1045(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1045("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1045(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -397,13 +429,17 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناوت لە بەرگی کتێبەکە دەنووسرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1047("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1047(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1047("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1047(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -420,13 +456,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1050("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1050(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1050("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1050(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -443,13 +483,17 @@ class EnglishEntryappear extends StatelessWidget {
                                   text:
                                       "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppear1052("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppear1052(// REPLACE: appear /əˈpɪr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppear1052("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppear1052(
+                                        // REPLACE: appear /əˈpɪr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

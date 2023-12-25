@@ -174,11 +174,17 @@ class EnglishEntrybodewellill extends StatelessWidget {
                                   text:
                                       "ئەم ئامارانە ئاماژەی باش نین بۆ داھاتووی کۆمپانیاکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodewellills1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodewellills1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbodewellills1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbodewellills1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +198,17 @@ class EnglishEntrybodewellill extends StatelessWidget {
                                   text:
                                       "ڕووی سەر ڕووخساری خراپ بوو بۆ ھەر کەسێک کە بە ھەمان ڕێگای ئەودا چوو ئەو ڕۆژە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodewellills2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodewellills2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbodewellills2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbodewellills2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

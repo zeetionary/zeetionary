@@ -177,11 +177,17 @@ class EnglishEntrybenefactress extends StatelessWidget {
                                   text:
                                       "نەخۆشخانەکە بەخشینێکی زۆری پێگەیشت لە ژنە خێرخوازێکی دەوڵەمەندەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenefactresss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenefactresss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBenefactresss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBenefactresss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

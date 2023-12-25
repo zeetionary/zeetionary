@@ -173,11 +173,15 @@ class EnglishEntryblowbyblow extends StatelessWidget {
                                   text:
                                       "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblowbyblows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblowbyblows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblowbyblows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblowbyblows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryauditor extends StatelessWidget {
                                   text:
                                       "ڕاپۆرتی پشکنەرەکە لە کۆتایی ساڵدا ڕادەست دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuditor222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuditor222(// REPLACE: auditor
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuditor222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuditor222(// REPLACE: auditor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryauditor extends StatelessWidget {
                                   text:
                                       "گوێگرەکە لە وانەکەدا دانیشت و چاودێری ڕێنماییەکانی مامۆستای کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuditor226("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuditor226(// REPLACE: auditor
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuditor226("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuditor226(// REPLACE: auditor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryauditor extends StatelessWidget {
                                   text:
                                       "گوێگرەکانی دەبوو بە وریاییەوە گوێبگرن بۆ تێگەشتن لەوەی چی دەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuditor227("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuditor227(// REPLACE: auditor
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuditor227("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuditor227(// REPLACE: auditor
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

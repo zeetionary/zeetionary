@@ -177,11 +177,15 @@ class EnglishEntrybettor extends StatelessWidget {
                                   text:
                                       "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBettors1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBettors1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBettors1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBettors1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

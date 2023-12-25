@@ -175,11 +175,15 @@ class EnglishEntrybifocal extends StatelessWidget {
                                   text:
                                       "پیاوە بەتەمەنەکە چاویلکەی دووتیشکۆی لەچاوکردبوو بۆ خوێندندەوەی ڕۆژنامەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBifocals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBifocals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBifocals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBifocals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

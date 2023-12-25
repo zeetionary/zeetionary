@@ -181,13 +181,18 @@ class EnglishEntryapprovingly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە قایلانە سەیری‌کرد و پێکەنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprovingly941("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprovingly941(
-                                    // REPLACE: approvingly /əˈpruːvɪŋli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprovingly941("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprovingly941(
+                                        // REPLACE: approvingly /əˈpruːvɪŋli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

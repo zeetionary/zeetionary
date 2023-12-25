@@ -180,17 +180,21 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزت بە خواردنەوەیەکی ترە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother935("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother935(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnother935("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnother935(
+                                        // REPLACE: another /əˈnʌðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -200,33 +204,43 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارچە کێکێکی تر دەخۆم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother937("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnother937("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnother937(
+                                        // REPLACE: another /əˈnʌðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother937(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We can fit another person in my car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother938("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother938(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "We can fit another person in my car."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnother938("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnother938(
+                                            // REPLACE: another /əˈnʌðər/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,34 +255,43 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "با کاتێکی تر بیکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother940("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnother940("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnother940(
+                                        // REPLACE: another /əˈnʌðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother940(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't like this room. I'm going to ask for another."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother942("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother942(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "I don't like this room. I'm going to ask for another."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnother942("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnother942(
+                                            // REPLACE: another /əˈnʌðər/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,13 +306,17 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەسێکی تری وەک ئەو دووبارە نابێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnother944("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnother944(
-                                    // REPLACE: another /əˈnʌðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnother944("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnother944(
+                                        // REPLACE: another /əˈnʌðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

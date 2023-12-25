@@ -184,13 +184,18 @@ class EnglishEntryarbitration extends StatelessWidget {
                                   text:
                                       "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitration1158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitration1158(
-                                    // REPLACE: arbitration /ˌɑːrbɪˈtreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitration1158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitration1158(
+                                        // REPLACE: arbitration /ˌɑːrbɪˈtreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

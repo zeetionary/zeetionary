@@ -136,13 +136,17 @@ class EnglishEntryairport extends StatelessWidget {
                                   text:
                                       "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirport45288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirport45288(
-                                    // REPLACE: airport /ˈerpɔːrt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirport45288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirport45288(
+                                        // REPLACE: airport /ˈerpɔːrt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

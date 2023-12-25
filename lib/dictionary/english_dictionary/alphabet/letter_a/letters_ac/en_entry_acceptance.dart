@@ -147,11 +147,15 @@ class EnglishEntryacceptance extends StatelessWidget {
                                   text:
                                       "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA5814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA5814("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA5814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA5814("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -165,11 +169,15 @@ class EnglishEntryacceptance extends StatelessWidget {
                                   text:
                                       "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA5814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA5814("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA5814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA5814("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -185,11 +193,15 @@ class EnglishEntryacceptance extends StatelessWidget {
                                   text:
                                       "یاسا نوێیەکان بە فراوانی پەسەندکراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc3591("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc3591("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc3591("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc3591("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,11 +215,15 @@ class EnglishEntryacceptance extends StatelessWidget {
                                   text:
                                       "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەنددەکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2522("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2522("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,11 +239,15 @@ class EnglishEntryacceptance extends StatelessWidget {
                                   text:
                                       "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA24699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA24699("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA24699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA24699("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

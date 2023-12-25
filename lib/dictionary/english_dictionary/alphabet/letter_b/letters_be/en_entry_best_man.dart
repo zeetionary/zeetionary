@@ -177,11 +177,15 @@ class EnglishEntrybestman extends StatelessWidget {
                                   text:
                                       "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestmans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestmans1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestmans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestmans1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

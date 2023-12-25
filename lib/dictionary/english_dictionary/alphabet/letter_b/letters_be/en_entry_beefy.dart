@@ -178,11 +178,15 @@ class EnglishEntrybeefy extends StatelessWidget {
                                   text:
                                       "یاریزانەکە ھەیکەلێکی بەھێزی ھەبوو بەھۆی چەندین ساڵ لە ڕاھێنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeefys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeefys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeefys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeefys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybeefy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەمەوێت کۆمپیوتەرێکی بەھێزتر بکڕم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeefys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeefys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeefys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeefys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

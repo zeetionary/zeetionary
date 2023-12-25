@@ -135,13 +135,17 @@ class EnglishEntryaffluence extends StatelessWidget {
                                   text:
                                       "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfflue752("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfflue752(
-                                    // REPLACE: affluence /ˈæfluəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfflue752("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfflue752(
+                                        // REPLACE: affluence /ˈæfluəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryaffluence extends StatelessWidget {
                                   text:
                                       "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfflue7566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfflue7566(
-                                    // REPLACE: affluence /ˈæfluəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfflue7566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfflue7566(
+                                        // REPLACE: affluence /ˈæfluəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

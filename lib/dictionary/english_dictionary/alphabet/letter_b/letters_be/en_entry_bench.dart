@@ -181,11 +181,15 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,11 +205,15 @@ class EnglishEntrybench extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تازەگی وەک دادوەر دیاریکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,11 +230,15 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,11 +255,15 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -264,11 +280,15 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

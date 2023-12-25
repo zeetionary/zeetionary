@@ -185,13 +185,18 @@ class EnglishEntryascendant extends StatelessWidget {
                                   text:
                                       "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscendant1217("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscendant1217(
-                                    // REPLACE: ascendant /əˈsendənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscendant1217("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscendant1217(
+                                        // REPLACE: ascendant /əˈsendənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

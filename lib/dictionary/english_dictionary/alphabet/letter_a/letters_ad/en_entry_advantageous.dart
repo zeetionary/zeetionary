@@ -135,13 +135,17 @@ class EnglishEntryadvantageous extends StatelessWidget {
                                   text:
                                       "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvant964725("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvant964725(
-                                    // REPLACE: advantageous /ˌædvənˈteɪdʒəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvant964725("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvant964725(
+                                        // REPLACE: advantageous /ˌædvənˈteɪdʒəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

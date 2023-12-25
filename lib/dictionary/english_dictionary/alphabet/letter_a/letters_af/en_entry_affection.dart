@@ -135,13 +135,17 @@ class EnglishEntryaffection extends StatelessWidget {
                                   text:
                                       "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffe6811("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffe6811(
-                                    // REPLACE: affection /əˈfekʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffe6811("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffe6811(
+                                        // REPLACE: affection /əˈfekʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryaffection extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffec3599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffec3599(
-                                    // REPLACE: affection /əˈfekʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffec3599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffec3599(
+                                        // REPLACE: affection /əˈfekʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

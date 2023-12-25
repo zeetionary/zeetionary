@@ -180,17 +180,21 @@ class EnglishEntryantic extends StatelessWidget {
                                   text:
                                       "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntic923("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAntic923(// REPLACE: antic /ˈæntɪk/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntic923("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAntic923(// REPLACE: antic /ˈæntɪk/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -201,13 +205,17 @@ class EnglishEntryantic extends StatelessWidget {
                                   text:
                                       "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntic929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAntic929(// REPLACE: antic /ˈæntɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntic929("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntic929(
+                                        // REPLACE: antic /ˈæntɪk/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

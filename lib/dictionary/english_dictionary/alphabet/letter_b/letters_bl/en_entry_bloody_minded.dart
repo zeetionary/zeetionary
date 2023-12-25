@@ -176,11 +176,17 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێندە کەللەڕەق مەبە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodymindeds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodymindeds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodymindeds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodymindeds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +200,17 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                                   text:
                                       "ئەو ویستە سەرسەختانەی ھەبوو کە پێویست بوو بۆ سەرکەوتن لە پیشەسازییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodymindeds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodymindeds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodymindeds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodymindeds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,11 +227,17 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                                   text:
                                       "باوەڕت وایە حکونەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodymindeds3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodymindeds3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodymindeds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodymindeds3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

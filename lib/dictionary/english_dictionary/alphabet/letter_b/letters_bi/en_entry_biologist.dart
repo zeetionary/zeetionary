@@ -177,11 +177,15 @@ class EnglishEntrybiologist extends StatelessWidget {
                                   text:
                                       "زیندەناسێکی توێژەرە بۆ کۆمپانیایەکی دەوا و دەرمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiologists1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiologists1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiologists1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiologists1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

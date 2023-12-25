@@ -185,16 +185,21 @@ class EnglishEntryaunt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پورێکم ھەیە لە ئوسترالیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAunt352("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAunt352(// REPLACE: aunt
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAunt352("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAunt352(// REPLACE: aunt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,12 +208,17 @@ class EnglishEntryaunt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چا ئەخۆیتەوە، پورە ئالیس؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAunt353("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAunt353(// REPLACE: aunt
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAunt353("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAunt353(// REPLACE: aunt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

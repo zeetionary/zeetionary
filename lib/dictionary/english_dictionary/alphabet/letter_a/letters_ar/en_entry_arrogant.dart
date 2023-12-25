@@ -184,13 +184,17 @@ class EnglishEntryarrogant extends StatelessWidget {
                                   text:
                                       "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrogant708("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrogant708(
-                                    // REPLACE: arrogant /ˈærəɡənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrogant708("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrogant708(
+                                        // REPLACE: arrogant /ˈærəɡənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

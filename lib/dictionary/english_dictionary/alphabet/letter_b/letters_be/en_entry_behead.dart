@@ -177,11 +177,15 @@ class EnglishEntrybehead extends StatelessWidget {
                                   text:
                                       "بە خیانەت تاوانبارکرا و سەری پەڕێندرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeheads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeheads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeheads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeheads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

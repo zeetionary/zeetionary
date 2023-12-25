@@ -174,11 +174,15 @@ class EnglishEntryblender extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblenders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblenders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblenders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblenders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

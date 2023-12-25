@@ -176,12 +176,17 @@ class EnglishEntrybanns extends StatelessWidget {
                                   text:
                                       "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBannss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBannss1(// REPLACE: banns
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBannss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBannss1(// REPLACE: banns
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

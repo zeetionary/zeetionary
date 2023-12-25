@@ -133,13 +133,18 @@ class EnglishEntryaircraft extends StatelessWidget {
                                   text:
                                       "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAircraft32477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAircraft32477(
-                                    // REPLACE: aircraft /ˈerkræft/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAircraft32477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAircraft32477(
+                                        // REPLACE: aircraft /ˈerkræft/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,13 +157,17 @@ class EnglishEntryaircraft extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAircraft3477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAircraft3477(
-                                    // REPLACE: aircraft /ˈerkræft/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAircraft3477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAircraft3477(
+                                        // REPLACE: aircraft /ˈerkræft/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

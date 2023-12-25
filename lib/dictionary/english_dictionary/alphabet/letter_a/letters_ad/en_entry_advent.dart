@@ -134,13 +134,17 @@ class EnglishEntryadvent extends StatelessWidget {
                                   text:
                                       "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvent25677("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvent25677(
-                                    // REPLACE: advent /ˈædvent/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvent25677("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvent25677(
+                                        // REPLACE: advent /ˈædvent/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

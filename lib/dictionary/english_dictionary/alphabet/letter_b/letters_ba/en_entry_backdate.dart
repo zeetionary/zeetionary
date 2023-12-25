@@ -177,12 +177,17 @@ class EnglishEntrybackdate extends StatelessWidget {
                                   text:
                                       "گومانلێکراوەکە تاوانبارکرا بە گۆڕینی بەرواری پسوڵەکە بۆ شاردنەوەی تێوەگلانی لە دزییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backdate
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backdate
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,12 +204,17 @@ class EnglishEntrybackdate extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە بەرواری سەرەتای کاری کارمەندانی بردە پێشەوە بۆ ئەوەی وابکات پاداشت بیانگرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backdate
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backdate
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

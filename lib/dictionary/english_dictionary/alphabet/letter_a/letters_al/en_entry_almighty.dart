@@ -145,13 +145,18 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmighty23599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmighty23599(
-                                    // REPLACE: almighty /ɔːlˈmaɪti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlmighty23599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmighty23599(
+                                        // REPLACE: almighty /ɔːlˈmaɪti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -167,13 +172,17 @@ class EnglishEntryalmighty extends StatelessWidget {
                                   text:
                                       "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmighty4263("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmighty4263(
-                                    // REPLACE: almighty /ɔːlˈmaɪti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmighty4263("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmighty4263(
+                                        // REPLACE: almighty /ɔːlˈmaɪti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -188,13 +197,17 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmight4693("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmight4693(
-                                    // REPLACE: almighty /ɔːlˈmaɪti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmight4693("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmight4693(
+                                        // REPLACE: almighty /ɔːlˈmaɪti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +223,17 @@ class EnglishEntryalmighty extends StatelessWidget {
                                   text:
                                       "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlmight45665("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlmight45665(
-                                    // REPLACE: almighty /ɔːlˈmaɪti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlmight45665("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlmight45665(
+                                        // REPLACE: almighty /ɔːlˈmaɪti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

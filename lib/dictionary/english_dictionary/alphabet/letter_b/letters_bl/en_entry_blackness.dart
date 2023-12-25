@@ -177,11 +177,15 @@ class EnglishEntryblackness extends StatelessWidget {
                                   text:
                                       "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacknesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacknesss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacknesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacknesss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntryblackness extends StatelessWidget {
                                   text:
                                       "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacknesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacknesss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacknesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacknesss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntryblackness extends StatelessWidget {
                                   text:
                                       "دۆکیومێنتارییەکە لێکۆڵینەوەی دەکرد لە گرنگی مێژوویی گەڕاندنەوە و شانازی بە ڕەشپێستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacknesss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacknesss3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacknesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacknesss3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

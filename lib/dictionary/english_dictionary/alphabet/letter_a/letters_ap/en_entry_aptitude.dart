@@ -182,13 +182,17 @@ class EnglishEntryaptitude extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAptitude823("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAptitude823(
-                                    // REPLACE: aptitude /ˈæptɪtuːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAptitude823("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAptitude823(
+                                        // REPLACE: aptitude /ˈæptɪtuːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -135,13 +135,17 @@ class EnglishEntryadminister extends StatelessWidget {
                                   text:
                                       "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmini75988("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmini75988(
-                                    // REPLACE: administer /ədˈmɪnɪstər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmini75988("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmini75988(
+                                        // REPLACE: administer /ədˈmɪnɪstər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadminister extends StatelessWidget {
                                   text:
                                       "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmin2568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmin2568(
-                                    // REPLACE: administer /ədˈmɪnɪstər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmin2568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmin2568(
+                                        // REPLACE: administer /ədˈmɪnɪstər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +187,17 @@ class EnglishEntryadminister extends StatelessWidget {
                                   text:
                                       "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdm2564("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdm2564(
-                                    // REPLACE: administer /ədˈmɪnɪstər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdm2564("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdm2564(
+                                        // REPLACE: administer /ədˈmɪnɪstər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -135,13 +135,17 @@ class EnglishEntryagenda extends StatelessWidget {
                                   text:
                                       "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgend562221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgend562221(
-                                    // REPLACE: agenda /əˈdʒendə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgend562221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgend562221(
+                                        // REPLACE: agenda /əˈdʒendə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryagenda extends StatelessWidget {
                                   text:
                                       "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgenda15622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgenda15622(
-                                    // REPLACE: agenda /əˈdʒendə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgenda15622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgenda15622(
+                                        // REPLACE: agenda /əˈdʒendə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

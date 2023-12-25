@@ -135,12 +135,16 @@ class EnglishEntryacrimonious extends StatelessWidget {
                                   text:
                                       "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcrim237("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcrim237(
-                                    "en-US"), // REPLACE acrimonious /ˌækrɪˈməʊniəs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcrim237("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcrim237(
+                                        "en-US"), // REPLACE acrimonious /ˌækrɪˈməʊniəs/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

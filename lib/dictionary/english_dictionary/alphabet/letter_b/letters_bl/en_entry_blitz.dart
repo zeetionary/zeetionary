@@ -179,11 +179,15 @@ class EnglishEntryblitz extends StatelessWidget {
                                   text:
                                       "پێنج فرۆشگا زیانیان پێگەیشت لە ھێرشێکی لەناکاوی بۆمبی ئاگرین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblitzs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblitzs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntryblitz extends StatelessWidget {
                                   text:
                                       "زۆر کەس ژیانیان لەدەستدا لە ھێرشی لەناکاوی سەر لەندەن (ھێرشی ئەڵمانیا بۆ سەر لەندەن لە ١٩٤٠-١٩٤١)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblitzs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblitzs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntryblitz extends StatelessWidget {
                                   text:
                                       "ھەڵمەتێکی پاککردنەوەی ماڵەکەم ئەنجام دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblitzs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblitzs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,11 +254,15 @@ class EnglishEntryblitz extends StatelessWidget {
                                   text:
                                       "لەندەن بە سەختی لە جەنگەکەدا بە سەختی ھێرشی لەناکاوی کرایە سەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblitzs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblitzs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -261,11 +277,15 @@ class EnglishEntryblitz extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تێکی بدە تا لووس و کرێمدار دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblitzs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblitzs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

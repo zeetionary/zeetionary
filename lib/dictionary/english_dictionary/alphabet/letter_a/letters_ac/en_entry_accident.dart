@@ -137,11 +137,15 @@ class EnglishEntryaccident extends StatelessWidget {
                                   text:
                                       "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25698("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25698("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25698("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25698("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,11 +159,15 @@ class EnglishEntryaccident extends StatelessWidget {
                                   text:
                                       "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcc2514("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcc2514("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcc2514("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcc2514("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -174,11 +182,15 @@ class EnglishEntryaccident extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6458("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6458("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

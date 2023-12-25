@@ -173,11 +173,17 @@ class EnglishEntrybodyboarding extends StatelessWidget {
                                   text:
                                       "ھەردووکیان کانەراوی باشن بۆ شەپۆل‌سواری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodyboardings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodyboardings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbodyboardings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbodyboardings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

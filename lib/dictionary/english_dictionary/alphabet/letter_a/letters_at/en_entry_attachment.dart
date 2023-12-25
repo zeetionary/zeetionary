@@ -189,13 +189,18 @@ class EnglishEntryattachment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachment356("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachment356(// REPLACE: attachment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachment356("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachment356(
+                                        // REPLACE: attachment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +217,18 @@ class EnglishEntryattachment extends StatelessWidget {
                                   text:
                                       "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachment401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachment401(// REPLACE: attachment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachment401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachment401(
+                                        // REPLACE: attachment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +245,18 @@ class EnglishEntryattachment extends StatelessWidget {
                                   text:
                                       "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachment403("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachment403(// REPLACE: attachment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachment403("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachment403(
+                                        // REPLACE: attachment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,13 +273,18 @@ class EnglishEntryattachment extends StatelessWidget {
                                   text:
                                       "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachment405("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachment405(// REPLACE: attachment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachment405("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachment405(
+                                        // REPLACE: attachment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -281,13 +301,18 @@ class EnglishEntryattachment extends StatelessWidget {
                                   text:
                                       "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachment419("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachment419(// REPLACE: attachment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachment419("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachment419(
+                                        // REPLACE: attachment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -188,13 +188,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid2522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid2522(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid2522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid2522(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid38996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid38996(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid38996("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid38996(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -230,13 +238,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid35288("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid35288(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid35288("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid35288(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -250,13 +262,17 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وێنە یارمەتیدەری باشە لە فێرکردندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid37844("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid37844(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid37844("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid37844(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -272,13 +288,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid35882555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid35882555(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid35882555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid35882555(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -292,13 +312,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid45269("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid45269(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid45269("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid45269(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -314,13 +338,17 @@ class EnglishEntryaid extends StatelessWidget {
                                   text:
                                       "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid43748("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid43748(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid43748("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid43748(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -332,13 +360,17 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نەعنا یارمەتی ھەرسکردن دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAid35999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAid35999(// REPLACE: aid /eɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAid35999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAid35999(// REPLACE: aid /eɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

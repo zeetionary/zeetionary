@@ -178,13 +178,17 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   text:
                                       "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnorexic908("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnorexic908(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnorexic908("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnorexic908(
+                                        // REPLACE: anorexic /ˌænəˈreksɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntryanorexic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بێ‌ئیشتیا دیارە لام."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnorexic909("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnorexic909(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnorexic909("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnorexic909(
+                                        // REPLACE: anorexic /ˌænəˈreksɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

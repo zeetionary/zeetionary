@@ -181,13 +181,17 @@ class EnglishEntryapron extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApron728("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApron728(// REPLACE: apron /ˈeɪprən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApron728("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApron728(
+                                        // REPLACE: apron /ˈeɪprən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

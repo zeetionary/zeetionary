@@ -118,11 +118,15 @@ class EnglishEntryaccompanist extends StatelessWidget {
                                   text:
                                       "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc98832("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc98832("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc98832("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc98832("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

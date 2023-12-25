@@ -256,11 +256,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -273,11 +277,15 @@ class EnglishEntrybid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێشنیازی زیاتر؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -294,11 +302,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -315,11 +327,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -335,11 +351,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -356,11 +376,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -377,11 +401,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -398,11 +426,15 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -415,11 +447,15 @@ class EnglishEntrybid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژباشی بۆ خواست و ڕۆشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -434,11 +470,15 @@ class EnglishEntrybid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێی وتم نزیک ببمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBids9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBids9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBids9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBids9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

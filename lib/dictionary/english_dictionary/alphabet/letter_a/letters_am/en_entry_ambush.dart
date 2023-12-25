@@ -138,13 +138,17 @@ class EnglishEntryambush extends StatelessWidget {
                                   text:
                                       "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbush4355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmbush4355(// REPLACE: ambush /ˈæmbʊʃ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbush4355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbush4355(
+                                        // REPLACE: ambush /ˈæmbʊʃ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +164,17 @@ class EnglishEntryambush extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گەریلاکان خستنیانە بۆسەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbush4699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmbush4699(// REPLACE: ambush /ˈæmbʊʃ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbush4699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbush4699(
+                                        // REPLACE: ambush /ˈæmbʊʃ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

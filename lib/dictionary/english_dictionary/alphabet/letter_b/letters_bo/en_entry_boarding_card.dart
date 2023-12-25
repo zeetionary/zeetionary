@@ -172,11 +172,17 @@ class EnglishEntryboardingcard extends StatelessWidget {
                                   text:
                                       "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboardingcards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboardingcards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboardingcards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboardingcards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

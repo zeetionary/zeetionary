@@ -171,11 +171,15 @@ class EnglishEntrybaroque extends StatelessWidget {
                                   text:
                                       "ڤێلاکە تێکەڵەیەکی سەیروسەمەرەی کلاسیک و بروک و سەردەمیانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaroques1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaroques1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaroques1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaroques1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybaroque extends StatelessWidget {
                                   text:
                                       "کڵێسای ڕازاوەی سان مارتن بە یەکێک لە جوانترین کڵێساکان لە وڵاتەکەدا دادەنرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaroques2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaroques2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaroques2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaroques2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

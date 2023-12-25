@@ -117,11 +117,15 @@ class EnglishEntryabseil extends StatelessWidget {
                                   text:
                                       "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6271("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6271("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6271("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6271("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybigamist extends StatelessWidget {
                                   text:
                                       "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigamists1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigamists1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigamists1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigamists1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

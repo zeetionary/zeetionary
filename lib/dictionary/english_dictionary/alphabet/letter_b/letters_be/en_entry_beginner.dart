@@ -175,11 +175,15 @@ class EnglishEntrybeginner extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە پۆلی تازەکارانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeginners1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeginners1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeginners1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeginners1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

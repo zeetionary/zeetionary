@@ -180,13 +180,17 @@ class EnglishEntryancient extends StatelessWidget {
                                   text:
                                       "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncient2258("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncient2258(
-                                    // REPLACE: ancient /ˈeɪnʃənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncient2258("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncient2258(
+                                        // REPLACE: ancient /ˈeɪnʃənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryancient extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncient4077("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncient4077(
-                                    // REPLACE: ancient /ˈeɪnʃənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncient4077("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncient4077(
+                                        // REPLACE: ancient /ˈeɪnʃənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,13 +229,17 @@ class EnglishEntryancient extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لاپتۆپێکی قەدیمی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncient102("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncient102(
-                                    // REPLACE: ancient /ˈeɪnʃənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAncient102("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncient102(
+                                        // REPLACE: ancient /ˈeɪnʃənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,13 +256,18 @@ class EnglishEntryancient extends StatelessWidget {
                                   text:
                                       "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncient558030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncient558030(
-                                    // REPLACE: ancient /ˈeɪnʃənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAncient558030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncient558030(
+                                        // REPLACE: ancient /ˈeɪnʃənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

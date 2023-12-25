@@ -135,11 +135,15 @@ class EnglishEntryaccurately extends StatelessWidget {
                                   text:
                                       "وتارەکە بە درووستی بۆچوونی شەقام پیشان دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2145("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2145("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,11 +158,15 @@ class EnglishEntryaccurately extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕەکان دەبێت بە تەواوی بپێورێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA21659("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA21659("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA21659("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA21659("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

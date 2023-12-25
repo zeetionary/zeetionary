@@ -176,12 +176,17 @@ class EnglishEntrybanjo extends StatelessWidget {
                                   text:
                                       "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanjos1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBanjos1(// REPLACE: banjo
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanjos1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanjos1(// REPLACE: banjo
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

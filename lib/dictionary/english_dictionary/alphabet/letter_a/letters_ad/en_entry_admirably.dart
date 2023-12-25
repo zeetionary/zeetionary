@@ -134,13 +134,17 @@ class EnglishEntryadmirably extends StatelessWidget {
                                   text:
                                       "جۆو بەشێوەیەکی جێگەی ڕێز قەناعەتی بە بارودۆخێکی قوورس کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi668471("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmi668471(
-                                    // REPLACE: admirably /ˈædmərəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi668471("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi668471(
+                                        // REPLACE: admirably /ˈædmərəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

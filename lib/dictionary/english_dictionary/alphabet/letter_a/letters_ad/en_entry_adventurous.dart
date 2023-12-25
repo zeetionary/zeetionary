@@ -132,13 +132,17 @@ class EnglishEntryadventurous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژیانێکی سەرکێشیانەی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdven489223("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdven489223(
-                                    // REPLACE: adventurous /ədˈventʃərəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdven489223("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdven489223(
+                                        // REPLACE: adventurous /ədˈventʃərəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,13 +156,17 @@ class EnglishEntryadventurous extends StatelessWidget {
                                   text:
                                       "زۆر مامۆستا پێیان باشە تازەگەری بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdven365("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdven365(
-                                    // REPLACE: adventurous /ədˈventʃərəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdven365("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdven365(
+                                        // REPLACE: adventurous /ədˈventʃərəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

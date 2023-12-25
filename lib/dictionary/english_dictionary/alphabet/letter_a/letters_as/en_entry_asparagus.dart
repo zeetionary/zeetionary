@@ -185,13 +185,17 @@ class EnglishEntryasparagus extends StatelessWidget {
                                   text:
                                       "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsparagus444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsparagus444(
-                                    // REPLACE: asparagus /əˈspærəɡəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsparagus444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsparagus444(
+                                        // REPLACE: asparagus /əˈspærəɡəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

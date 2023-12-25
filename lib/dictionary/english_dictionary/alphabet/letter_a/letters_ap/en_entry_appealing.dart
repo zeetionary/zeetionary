@@ -184,13 +184,18 @@ class EnglishEntryappealing extends StatelessWidget {
                                   text:
                                       "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppealing1011("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppealing1011(
-                                    // REPLACE: appealing /əˈpiːlɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppealing1011("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppealing1011(
+                                        // REPLACE: appealing /əˈpiːlɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +212,18 @@ class EnglishEntryappealing extends StatelessWidget {
                                   text:
                                       "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppealing1015("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppealing1015(
-                                    // REPLACE: appealing /əˈpiːlɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppealing1015("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppealing1015(
+                                        // REPLACE: appealing /əˈpiːlɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

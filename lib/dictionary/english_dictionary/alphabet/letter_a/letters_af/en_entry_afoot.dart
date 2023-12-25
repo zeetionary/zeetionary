@@ -133,13 +133,17 @@ class EnglishEntryafoot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پلان لە ئارادایە بۆ زیادکردنی باج"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfoo4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfoo4599(// REPLACE: afoot /əˈfʊt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfoo4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAfoo4599(// REPLACE: afoot /əˈfʊt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,15 @@ class EnglishEntryboilersuit extends StatelessWidget {
                                   text:
                                       "کرێکارانی کارگەکە جلی کاری شینیان پێدرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilersuits1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilersuits1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboilersuits1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboilersuits1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

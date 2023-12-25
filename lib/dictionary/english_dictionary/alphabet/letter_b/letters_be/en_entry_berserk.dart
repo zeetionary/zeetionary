@@ -179,11 +179,15 @@ class EnglishEntryberserk extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر تووڕە بوو کە زانی لە کوێ بوومە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerserks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerserks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerserks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerserks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntryberserk extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەڵکی خرۆشاو بوون لە خۆشیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerserks2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerserks2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerserks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerserks2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,17 @@ class EnglishEntryartful extends StatelessWidget {
                                   text:
                                       "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtful209("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtful209(// REPLACE: artful /ˈɑːrtfl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtful209("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtful209(
+                                        // REPLACE: artful /ˈɑːrtfl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

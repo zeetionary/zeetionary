@@ -179,13 +179,17 @@ class EnglishEntryantenatal extends StatelessWidget {
                                   text:
                                       "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntenatal504("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntenatal504(
-                                    // REPLACE: antenatal /ˌæntiˈneɪtl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntenatal504("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntenatal504(
+                                        // REPLACE: antenatal /ˌæntiˈneɪtl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

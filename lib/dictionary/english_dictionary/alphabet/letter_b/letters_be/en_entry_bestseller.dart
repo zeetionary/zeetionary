@@ -175,11 +175,15 @@ class EnglishEntrybestseller extends StatelessWidget {
                                   text:
                                       "ڕۆمانەکانی ھاری پۆتەر ھەموو پڕفرۆش بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestsellers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestsellers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestsellers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestsellers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

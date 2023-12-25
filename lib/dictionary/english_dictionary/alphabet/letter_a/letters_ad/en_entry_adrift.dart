@@ -136,13 +136,17 @@ class EnglishEntryadrift extends StatelessWidget {
                                   text:
                                       "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdri458692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdri458692(// REPLACE: adrift /əˈdrɪft/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdri458692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdri458692(
+                                        // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadrift extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەبێ زمان مرۆڤەکان سەرلێشێواون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdri52369("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdri52369(// REPLACE: adrift /əˈdrɪft/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdri52369("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdri52369(
+                                        // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +187,17 @@ class EnglishEntryadrift extends StatelessWidget {
                                   text:
                                       "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdrif52317("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdrif52317(// REPLACE: adrift /əˈdrɪft/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdrif52317("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdrif52317(
+                                        // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

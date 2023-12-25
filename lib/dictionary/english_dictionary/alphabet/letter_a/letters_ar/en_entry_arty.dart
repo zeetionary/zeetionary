@@ -185,13 +185,17 @@ class EnglishEntryarty extends StatelessWidget {
                                   text:
                                       "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArty1008("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArty1008(// REPLACE: arty /ˈɑːrti/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArty1008("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArty1008(// REPLACE: arty /ˈɑːrti/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

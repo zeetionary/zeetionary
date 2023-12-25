@@ -174,15 +174,19 @@ class EnglishEntrybaptism extends StatelessWidget {
                                       "We’re hoping to be able to get to Pasadena for the baptism of our grandson."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەھیواین بتوانین پاسادینا بھێنین بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),
+                                      "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaptisms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaptisms1(// REPLACE: baptism
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaptisms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaptisms1(// REPLACE: baptism
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntryblurb extends StatelessWidget {
                                   text:
                                       "کورتەباسەکە دەڵێت ئەمە مەزنترین فیلمی تارانتینۆیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblurbs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblurbs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblurbs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblurbs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

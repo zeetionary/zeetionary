@@ -238,13 +238,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances1(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances1(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,13 +263,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances2(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances2(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -282,13 +290,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances3(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances3(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -305,13 +317,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances4(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances4(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -328,13 +344,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances5(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances5(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -351,13 +371,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances6(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances6(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -374,13 +398,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances7(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances7(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -395,13 +423,17 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances8(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances8(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -418,13 +450,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances9(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances9(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -441,13 +477,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances10(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances10(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -464,13 +504,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances11(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances11(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -487,13 +531,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances12(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances12(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -510,13 +558,17 @@ class EnglishEntrybalance extends StatelessWidget {
                                   text:
                                       "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalances13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalances13(// REPLACE: balance
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalances13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalances13(// REPLACE: balance
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

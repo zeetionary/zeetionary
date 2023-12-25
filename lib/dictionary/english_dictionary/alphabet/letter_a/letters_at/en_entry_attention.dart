@@ -189,13 +189,17 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەرنجی چوو بەلای پرسی تردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttention846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttention846(// REPLACE: attention
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttention846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttention846(// REPLACE: attention
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر سەرنج نادات بە منداڵەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttention847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttention847(// REPLACE: attention
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttention847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttention847(// REPLACE: attention
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاودێری تایبەتی خێرای وەرگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttention848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttention848(// REPLACE: attention
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttention848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttention848(// REPLACE: attention
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryattention extends StatelessWidget {
                                   text:
                                       "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttention852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttention852(// REPLACE: attention
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttention852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttention852(// REPLACE: attention
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -277,13 +293,17 @@ class EnglishEntryattention extends StatelessWidget {
                                   text:
                                       "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttention856("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttention856(// REPLACE: attention
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttention856("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttention856(// REPLACE: attention
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

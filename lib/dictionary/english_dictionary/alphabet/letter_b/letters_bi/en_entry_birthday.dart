@@ -177,11 +177,15 @@ class EnglishEntrybirthday extends StatelessWidget {
                                   text:
                                       "٢١ ھەمین ڕۆژی لەدایکبوونی پیرۆزکرد بە ئاھەنگێک بۆ خێزانی و ھاوڕێکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBirthdays1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBirthdays1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBirthdays1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBirthdays1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

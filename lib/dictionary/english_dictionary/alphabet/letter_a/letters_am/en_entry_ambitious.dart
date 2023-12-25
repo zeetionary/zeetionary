@@ -137,13 +137,17 @@ class EnglishEntryambitious extends StatelessWidget {
                                   text:
                                       "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbitious344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbitious344(
-                                    // REPLACE: ambitious /æmˈbɪʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbitious344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbitious344(
+                                        // REPLACE: ambitious /æmˈbɪʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,18 @@ class EnglishEntryambitious extends StatelessWidget {
                                   text:
                                       "خوێنکاران ھەموویان ئامانجیانە باش بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbitious7666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbitious7666(
-                                    // REPLACE: ambitious /æmˈbɪʃəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbitious7666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbitious7666(
+                                        // REPLACE: ambitious /æmˈbɪʃəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

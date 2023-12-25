@@ -176,11 +176,15 @@ class EnglishEntrybloated extends StatelessWidget {
                                   text:
                                       "تەرمێکی پەنەمیاو لە ڕووبارەکە دۆزرایەوە و پۆلیس بانگ کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloateds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloateds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloateds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloateds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybloated extends StatelessWidget {
                                   text:
                                       "لەدوای ژەمە قوورسەکە، ھەستی بە باکردووی و ناڕەحەتی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloateds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloateds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloateds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloateds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

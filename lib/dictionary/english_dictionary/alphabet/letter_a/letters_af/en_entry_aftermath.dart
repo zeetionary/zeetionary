@@ -137,13 +137,17 @@ class EnglishEntryaftermath extends StatelessWidget {
                                   text:
                                       "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfterm92483("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfterm92483(
-                                    // REPLACE: aftermath /ˈɑːftərmæθ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfterm92483("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfterm92483(
+                                        // REPLACE: aftermath /ˈɑːftərmæθ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

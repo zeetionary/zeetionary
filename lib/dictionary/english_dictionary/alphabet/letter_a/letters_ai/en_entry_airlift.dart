@@ -133,13 +133,17 @@ class EnglishEntryairlift extends StatelessWidget {
                                   text:
                                       "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirlift43555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirlift43555(
-                                    // REPLACE: airlift /ˈerlɪft/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirlift43555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirlift43555(
+                                        // REPLACE: airlift /ˈerlɪft/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryairlift extends StatelessWidget {
                                   text:
                                       "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirlift3522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirlift3522(
-                                    // REPLACE: airlift /ˈerlɪft/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirlift3522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirlift3522(
+                                        // REPLACE: airlift /ˈerlɪft/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

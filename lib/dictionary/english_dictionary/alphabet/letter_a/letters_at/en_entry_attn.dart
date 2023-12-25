@@ -184,12 +184,17 @@ class EnglishEntryattn extends StatelessWidget {
                                   text:
                                       "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttn1050("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAttn1050(// REPLACE: attn
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttn1050("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttn1050(// REPLACE: attn
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

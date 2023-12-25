@@ -172,11 +172,15 @@ class EnglishEntrybather extends StatelessWidget {
                                   text:
                                       "کەناراوەکە پڕبوو لە مەلێکەر کە جێژیان دەبینی لە ڕۆژە گەرمەکەی ھاوین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBathers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBathers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBathers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBathers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم شانۆیە زۆرجار دەدرێتەپاڵ شکسپیر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscribeto141("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscribeto141(
-                                    // REPLACE: ascribe /əˈskraɪb tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscribeto141("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscribeto141(
+                                        // REPLACE: ascribe /əˈskraɪb tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شکستەکەیی خستەمل بێ‌بەختی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscribeto143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscribeto143(
-                                    // REPLACE: ascribe /əˈskraɪb tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscribeto143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscribeto143(
+                                        // REPLACE: ascribe /əˈskraɪb tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +237,17 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گرنگی زۆر دەدەین بەم سیاسەتانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscribeto146("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscribeto146(
-                                    // REPLACE: ascribe /əˈskraɪb tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscribeto146("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscribeto146(
+                                        // REPLACE: ascribe /əˈskraɪb tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -250,13 +262,17 @@ class EnglishEntryascribeto extends StatelessWidget {
                                   text:
                                       "خەڵکی حەزدەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscribeto147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscribeto147(
-                                    // REPLACE: ascribe /əˈskraɪb tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscribeto147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscribeto147(
+                                        // REPLACE: ascribe /əˈskraɪb tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

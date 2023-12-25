@@ -179,13 +179,18 @@ class EnglishEntryantagonist extends StatelessWidget {
                                   text:
                                       "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntagonist1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntagonist1255(
-                                    // REPLACE: antagonist /ænˈtæɡənɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntagonist1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntagonist1255(
+                                        // REPLACE: antagonist /ænˈtæɡənɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

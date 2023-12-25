@@ -180,13 +180,17 @@ class EnglishEntryannounce extends StatelessWidget {
                                   text:
                                       "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnounce350("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnounce350(
-                                    // REPLACE: announce /əˈnaʊns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnounce350("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnounce350(
+                                        // REPLACE: announce /əˈnaʊns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryannounce extends StatelessWidget {
                                   text:
                                       "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnounce352("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnounce352(
-                                    // REPLACE: announce /əˈnaʊns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnounce352("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnounce352(
+                                        // REPLACE: announce /əˈnaʊns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +230,17 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گەشتەکەمان ڕاگەیەندراوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnounce356("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnounce356(
-                                    // REPLACE: announce /əˈnaʊns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnounce356("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnounce356(
+                                        // REPLACE: announce /əˈnaʊns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -244,13 +256,17 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕایگەیاند وازی لە خواردنەوە ھێنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnounce359("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnounce359(
-                                    // REPLACE: announce /əˈnaʊns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnounce359("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnounce359(
+                                        // REPLACE: announce /əˈnaʊns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -266,13 +282,17 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnounce403("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnounce403(
-                                    // REPLACE: announce /əˈnaʊns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnounce403("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnounce403(
+                                        // REPLACE: announce /əˈnaʊns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -138,13 +138,17 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   text:
                                       "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhesive471("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdhesive471(
-                                    // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhesive471("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhesive471(
+                                        // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -160,13 +164,17 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   text:
                                       "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdhesive6355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdhesive6355(
-                                    // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdhesive6355("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdhesive6355(
+                                        // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

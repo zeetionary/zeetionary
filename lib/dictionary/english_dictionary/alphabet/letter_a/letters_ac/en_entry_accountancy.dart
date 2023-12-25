@@ -117,11 +117,15 @@ class EnglishEntryaccountancy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە زانکۆ ژمێریاری خوێند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA19437("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA19437("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA19437("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA19437("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

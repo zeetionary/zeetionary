@@ -201,13 +201,17 @@ class EnglishEntryamok extends StatelessWidget {
                                   text:
                                       "سوپاکە شێت‌وھار بوون لە دوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmok46669("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmok46669(// REPLACE: amok /əˈmɑːk/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmok46669("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmok46669(// REPLACE: amok /əˈmɑːk/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

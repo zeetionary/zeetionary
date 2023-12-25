@@ -111,11 +111,15 @@ class EnglishEntryabatement extends StatelessWidget {
                                   text:
                                       "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbate75("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbate75("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbate75("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbate75("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

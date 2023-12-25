@@ -182,17 +182,21 @@ class EnglishEntryapex extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پاشا لە لوتکەی کۆمەڵگایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApex213("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApex213(// REPLACE: apex /ˈeɪpeks/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApex213("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApex213(// REPLACE: apex /ˈeɪpeks/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,13 +207,17 @@ class EnglishEntryapex extends StatelessWidget {
                                   text:
                                       "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApex215("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApex215(// REPLACE: apex /ˈeɪpeks/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApex215("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApex215(
+                                        // REPLACE: apex /ˈeɪpeks/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

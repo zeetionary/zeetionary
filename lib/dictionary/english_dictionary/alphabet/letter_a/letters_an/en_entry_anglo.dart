@@ -175,13 +175,17 @@ class EnglishEntryanglo extends StatelessWidget {
                                   text:
                                       "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnglo40115("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnglo40115(// REPLACE: Anglo- /æŋɡləʊ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnglo40115("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnglo40115(
+                                        // REPLACE: Anglo- /æŋɡləʊ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -128,11 +128,15 @@ class EnglishEntryabrupt extends StatelessWidget {
                                   text:
                                       "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2583("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2583("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2583("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2583("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryabrupt extends StatelessWidget {
                                   text:
                                       "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2179("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2179("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2179("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2179("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

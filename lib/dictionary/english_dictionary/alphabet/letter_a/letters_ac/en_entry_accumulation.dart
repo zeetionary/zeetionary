@@ -138,11 +138,15 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                   text:
                                       "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc1548("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc1548("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc1548("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc1548("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,11 +160,15 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                   text:
                                       "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA122158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA122158("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA122158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA122158("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

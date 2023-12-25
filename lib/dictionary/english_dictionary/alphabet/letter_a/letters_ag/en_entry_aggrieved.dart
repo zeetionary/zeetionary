@@ -134,13 +134,17 @@ class EnglishEntryaggrieved extends StatelessWidget {
                                   text:
                                       "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات  بەھۆی بڕیارەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggri6254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggri6254(
-                                    // REPLACE: aggrieved /əˈɡriːvd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggri6254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggri6254(
+                                        // REPLACE: aggrieved /əˈɡriːvd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

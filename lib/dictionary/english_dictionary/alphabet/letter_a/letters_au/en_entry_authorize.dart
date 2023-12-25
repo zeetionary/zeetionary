@@ -187,17 +187,21 @@ class EnglishEntryauthorize extends StatelessWidget {
                                   text:
                                       "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorize840("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthorize840(// REPLACE: authorize
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthorize840("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthorize840(// REPLACE: authorize
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -208,13 +212,17 @@ class EnglishEntryauthorize extends StatelessWidget {
                                   text:
                                       "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorize842("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthorize842(// REPLACE: authorize
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthorize842("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorize842(
+                                        // REPLACE: authorize
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

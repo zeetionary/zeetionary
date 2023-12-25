@@ -135,13 +135,17 @@ class EnglishEntryad extends StatelessWidget {
                                   text:
                                       "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd142568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAd142568(
-                                    // REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd142568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd142568(
+                                        // REPLACE: ad /æd/, /ˌeɪˈdiː/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ماوەی سەدەی حەوتەمی دوای زایین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd4247("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd4247(// REPLACE: ad /æd/, /ˌeɪˈdiː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd4247("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd4247(
+                                        // REPLACE: ad /æd/, /ˌeɪˈdiː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

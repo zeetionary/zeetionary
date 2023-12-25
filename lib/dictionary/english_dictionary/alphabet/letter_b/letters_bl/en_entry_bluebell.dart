@@ -173,11 +173,15 @@ class EnglishEntrybluebell extends StatelessWidget {
                                   text:
                                       "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbluebells1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbluebells1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbluebells1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbluebells1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

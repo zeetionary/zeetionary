@@ -175,11 +175,17 @@ class EnglishEntryblameworthy extends StatelessWidget {
                                   text:
                                       "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblameworthys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblameworthys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblameworthys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblameworthys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

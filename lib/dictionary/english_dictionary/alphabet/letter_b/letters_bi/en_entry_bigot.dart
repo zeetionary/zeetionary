@@ -176,11 +176,15 @@ class EnglishEntrybigot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک کەسێکی دەمارگرژی دەمشڕ ناسرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

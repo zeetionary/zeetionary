@@ -176,13 +176,17 @@ class EnglishEntrybanking extends StatelessWidget {
                                   text:
                                       "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankings1(// REPLACE: banking
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankings1(// REPLACE: banking
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

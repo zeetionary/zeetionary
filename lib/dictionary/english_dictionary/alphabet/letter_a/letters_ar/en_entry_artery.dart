@@ -183,13 +183,17 @@ class EnglishEntryartery extends StatelessWidget {
                                   text:
                                       "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtery148("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtery148(// REPLACE: artery /ˈɑːrtəri/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtery148("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtery148(
+                                        // REPLACE: artery /ˈɑːrtəri/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

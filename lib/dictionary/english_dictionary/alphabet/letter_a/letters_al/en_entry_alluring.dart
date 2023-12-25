@@ -136,13 +136,17 @@ class EnglishEntryalluring extends StatelessWidget {
                                   text:
                                       "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlluring8588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlluring8588(
-                                    // REPLACE: alluring /əˈlʊrɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlluring8588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlluring8588(
+                                        // REPLACE: alluring /əˈlʊrɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

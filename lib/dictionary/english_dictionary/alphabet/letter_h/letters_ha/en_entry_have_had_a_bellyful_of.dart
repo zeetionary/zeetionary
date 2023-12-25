@@ -177,13 +177,17 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
                                   text:
                                       "گەشتووەتە بینەقاقام لەدەست نووزەنووزەکانت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakHavehadabellyfulofs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakHavehadabellyfulofs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakHavehadabellyfulofs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakHavehadabellyfulofs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,13 +201,17 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
                                   text:
                                       "بەشی پێویستم لە درۆکانیان گوێ لێبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakHavehadabellyfulofs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakHavehadabellyfulofs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakHavehadabellyfulofs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakHavehadabellyfulofs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

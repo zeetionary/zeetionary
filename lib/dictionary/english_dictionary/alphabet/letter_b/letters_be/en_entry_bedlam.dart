@@ -177,11 +177,15 @@ class EnglishEntrybedlam extends StatelessWidget {
                                   text:
                                       "شلۆقاوییەکی زۆر بوو لە ماڵەکەمان لە ڕۆژی ئاھەنگی ھاوسەرگیرییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBedlams1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBedlams1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBedlams1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBedlams1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

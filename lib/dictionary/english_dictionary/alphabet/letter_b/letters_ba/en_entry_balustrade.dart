@@ -179,13 +179,17 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                   text:
                                       "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalustrades1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBalustrades1(// REPLACE: balustrade
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalustrades1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalustrades1(// REPLACE: balustrade
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

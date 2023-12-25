@@ -119,11 +119,15 @@ class EnglishEntryabsentee extends StatelessWidget {
                                   text:
                                       "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3546("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3546("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3546("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3546("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

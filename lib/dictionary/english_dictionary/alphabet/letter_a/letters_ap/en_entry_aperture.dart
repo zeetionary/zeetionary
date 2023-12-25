@@ -184,13 +184,17 @@ class EnglishEntryaperture extends StatelessWidget {
                                   text:
                                       "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAperture201("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAperture201(
-                                    // REPLACE: aperture /ˈæpərtʃʊr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAperture201("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAperture201(
+                                        // REPLACE: aperture /ˈæpərtʃʊr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryaperture extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAperture204("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAperture204(
-                                    // REPLACE: aperture /ˈæpərtʃʊr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAperture204("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAperture204(
+                                        // REPLACE: aperture /ˈæpərtʃʊr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

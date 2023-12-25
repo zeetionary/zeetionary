@@ -183,13 +183,17 @@ class EnglishEntryarse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەستە ئیشێک بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArse803("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArse803(// REPLACE: arse /ɑːrs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArse803("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArse803(// REPLACE: arse /ɑːrs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

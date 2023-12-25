@@ -178,13 +178,17 @@ class EnglishEntrybaddebt extends StatelessWidget {
                                   text:
                                       "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaddebts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaddebts1(// REPLACE: bad debt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaddebts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaddebts1(// REPLACE: bad debt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

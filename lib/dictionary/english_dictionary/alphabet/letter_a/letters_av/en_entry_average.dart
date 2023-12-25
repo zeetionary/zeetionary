@@ -183,13 +183,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages1(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages1(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages2(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages2(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خوێندکارێکی مام‌ناوەند بووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages3(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages3(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +263,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages4(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages4(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,13 +290,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages5(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages5(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -297,13 +317,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages6(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages6(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -320,13 +344,17 @@ class EnglishEntryaverage extends StatelessWidget {
                                   text:
                                       "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAverages7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAverages7(// REPLACE: average
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAverages7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAverages7(// REPLACE: average
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

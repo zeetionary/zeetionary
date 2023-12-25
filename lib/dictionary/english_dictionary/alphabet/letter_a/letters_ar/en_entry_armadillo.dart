@@ -181,13 +181,17 @@ class EnglishEntryarmadillo extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmadillo440("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmadillo440(
-                                    // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmadillo440("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmadillo440(
+                                        // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

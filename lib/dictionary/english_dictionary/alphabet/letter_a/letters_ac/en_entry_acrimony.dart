@@ -133,12 +133,16 @@ class EnglishEntryacrimony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcrimo1254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcrimo1254(
-                                    "en-US"), // REPLACE acrimony /ˈækrɪməni/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcrimo1254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcrimo1254(
+                                        "en-US"), // REPLACE acrimony /ˈækrɪməni/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

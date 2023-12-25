@@ -131,13 +131,17 @@ am not/is not/are not"""),
                               const ExampleSentenceKurdish(
                                   text: "شتەکان وەک جاران نین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAint286599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAint286599(// REPLACE: ain't /eɪnt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAint286599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAint286599(// REPLACE: ain't /eɪnt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ has not/have not"""),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ پارەم نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAint8411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAint8411(// REPLACE: ain't /eɪnt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAint8411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAint8411(// REPLACE: ain't /eɪnt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

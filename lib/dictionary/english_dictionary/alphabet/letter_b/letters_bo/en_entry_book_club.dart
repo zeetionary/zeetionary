@@ -176,11 +176,15 @@ class EnglishEntrybookclub extends StatelessWidget {
                                   text:
                                       "مەرجی یانەی کتێبەکەیە بۆ ئەندامانی ئەوەیە بە لایەنی کەمەوە شەش کتێب بکڕن لە یەکەم ساڵدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookclubs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookclubs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookclubs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookclubs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybookclub extends StatelessWidget {
                                   text:
                                       "ئەندامی یانەیەکی کتێبم کە مانگی جارێک کۆدەبینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookclubs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookclubs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookclubs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookclubs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

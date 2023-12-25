@@ -136,13 +136,17 @@ class EnglishEntryallay extends StatelessWidget {
                                   text:
                                       "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllay36299("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllay36299(// REPLACE: allay /əˈleɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllay36299("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllay36299(
+                                        // REPLACE: allay /əˈleɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

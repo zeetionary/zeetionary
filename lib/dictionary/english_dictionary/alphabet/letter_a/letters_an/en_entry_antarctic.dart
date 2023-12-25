@@ -178,13 +178,17 @@ class EnglishEntryantarctic extends StatelessWidget {
                                   text:
                                       "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntarctic134("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntarctic134(
-                                    // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntarctic134("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntarctic134(
+                                        // REPLACE: Antarctic /ænˈtɑːrktɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryantarctic extends StatelessWidget {
                                   text:
                                       "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntarctic136("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntarctic136(
-                                    // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntarctic136("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntarctic136(
+                                        // REPLACE: Antarctic /ænˈtɑːrktɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

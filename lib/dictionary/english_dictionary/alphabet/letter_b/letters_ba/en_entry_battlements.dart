@@ -177,11 +177,17 @@ class EnglishEntrybattlements extends StatelessWidget {
                                   text:
                                       "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattlementss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattlementss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBattlementss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBattlementss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

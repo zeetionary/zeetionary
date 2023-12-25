@@ -188,13 +188,18 @@ class EnglishEntryatrociously extends StatelessWidget {
                                   text:
                                       "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtrociously302("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtrociously302(// REPLACE: atrociously
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtrociously302("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtrociously302(
+                                        // REPLACE: atrociously
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryatrociously extends StatelessWidget {
                                   text:
                                       "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtrociously303("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtrociously303(// REPLACE: atrociously
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtrociously303("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtrociously303(
+                                        // REPLACE: atrociously
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

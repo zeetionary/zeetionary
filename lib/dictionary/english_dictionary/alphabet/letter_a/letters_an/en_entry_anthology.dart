@@ -179,13 +179,17 @@ class EnglishEntryanthology extends StatelessWidget {
                                   text:
                                       "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnthology819("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnthology819(
-                                    // REPLACE: anthology /ænˈθɑːlədʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnthology819("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnthology819(
+                                        // REPLACE: anthology /ænˈθɑːlədʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,35 +178,42 @@ class EnglishEntryanalyst extends StatelessWidget {
                                   text:
                                       "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalyst45888("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalyst45888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalyst45888(
+                                        // REPLACE: analyst /ˈænəlɪst/
+                                        "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalyst45888(
-                                    // REPLACE: analyst /ˈænəlɪst/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text: "She is a financial analyst."),
+                                  const ExampleSentenceKurdish(
+                                      text: "لێکۆڵەرێکی ئابوورییە."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnalyst7401("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnalyst7401(
+                                            // REPLACE: analyst /ˈænəlɪst/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She is a financial analyst."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێکۆڵەرێکی ئابوورییە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalyst7401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalyst7401(
-                                    // REPLACE: analyst /ˈænəlɪst/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

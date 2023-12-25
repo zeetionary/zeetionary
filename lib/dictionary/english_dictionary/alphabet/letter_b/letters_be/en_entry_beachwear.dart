@@ -175,11 +175,15 @@ class EnglishEntrybeachwear extends StatelessWidget {
                                   text:
                                       "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeachwears1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeachwears1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeachwears1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeachwears1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

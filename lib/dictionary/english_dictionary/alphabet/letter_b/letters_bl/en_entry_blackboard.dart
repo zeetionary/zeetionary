@@ -175,11 +175,15 @@ class EnglishEntryblackboard extends StatelessWidget {
                                   text:
                                       "تکایە ئەرکی ناڵەوەی سەر تەختە ڕەشەکە بنووسنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackboards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackboards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackboards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackboards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

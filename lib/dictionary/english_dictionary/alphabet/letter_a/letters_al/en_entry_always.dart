@@ -206,13 +206,17 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە ئۆتۆمبێلەکەت دابخە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways5699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways5699(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways5699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways5699(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +229,17 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکان ھەمیشە برسی دەردەکەون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways48999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways48999(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways48999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways48999(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +255,17 @@ class EnglishEntryalways extends StatelessWidget {
                                   text:
                                       "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways4631("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways4631(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways4631("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways4631(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -267,13 +279,17 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە خۆشمدەوێیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways3477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways3477(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways3477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways3477(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -287,13 +303,17 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەو موبایلە ھەمیشە زەنگ لێدەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways47111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways47111(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways47111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways47111(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -309,13 +329,17 @@ class EnglishEntryalways extends StatelessWidget {
                                   text:
                                       "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlways48666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlways48666(
-                                    // REPLACE: always /ˈɔːlweɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlways48666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlways48666(
+                                        // REPLACE: always /ˈɔːlweɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

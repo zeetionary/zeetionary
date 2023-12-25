@@ -175,11 +175,15 @@ class EnglishEntrybeefsteak extends StatelessWidget {
                                   text:
                                       "پارچە گۆشتی ھەمبەرگر پێکدێت لە پارچە گۆشتی گا جوان کراو بە قیمە کە تامی سوێری و بیبەری پێوەکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeefsteaks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeefsteaks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeefsteaks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeefsteaks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

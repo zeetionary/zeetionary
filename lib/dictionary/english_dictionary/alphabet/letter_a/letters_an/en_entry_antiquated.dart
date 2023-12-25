@@ -182,13 +182,18 @@ class EnglishEntryantiquated extends StatelessWidget {
                                   text:
                                       "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntiquated1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiquated1125(
-                                    // REPLACE: antiquated /ˈæntɪkweɪtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiquated1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiquated1125(
+                                        // REPLACE: antiquated /ˈæntɪkweɪtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

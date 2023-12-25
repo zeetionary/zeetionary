@@ -169,11 +169,15 @@ class EnglishEntrybask extends StatelessWidget {
                                   text:
                                       "دانیشتین و خۆمان دایە پێش خۆرەتاوە گەرمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

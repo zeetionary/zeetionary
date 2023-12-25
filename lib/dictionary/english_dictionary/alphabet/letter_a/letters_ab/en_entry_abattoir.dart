@@ -110,11 +110,15 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbattoir2215("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbattoir2215("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbattoir2215("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbattoir2215("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

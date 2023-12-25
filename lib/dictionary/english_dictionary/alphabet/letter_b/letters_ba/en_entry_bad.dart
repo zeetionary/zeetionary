@@ -348,12 +348,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "بەداخەوەم ھەندێک ھەواڵی ناخۆشم پێیە بۆت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads1(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads1(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -366,12 +370,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جەنگ ھەمیشە شتێکی خراپە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads2(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads2(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -386,12 +394,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وامبیرکردەوە وتارێکی زۆر خراپ بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads3(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads3(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -406,12 +418,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەو ساڵە زستانێکی زۆر دژوار بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads4(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads4(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -428,12 +444,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "ئەزانم کاتێکی نەگونجاوە بۆ داواکردنی یارمەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads5(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads5(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -449,12 +469,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەرگەی ئەم ڕەفتارە نابەجێیە ناگرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads6(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads6(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -469,12 +493,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵێکی ھاروھاج بوویت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads7(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads7(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -489,12 +517,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "درۆزنێکی باش نیت (دیارە درۆ دەکەیت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads8(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads8(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -509,12 +541,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "دۆڕاوێکی خراپی (شکست پەسەند ناکەیت و ناڕەزایی دەردەبڕی)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads9(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads9(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -529,12 +565,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەو پێڵاوانە خراپن بۆ قاچی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads10(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads10(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -549,12 +589,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پشت‌ئێشەیەکی بەئازارم ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads11(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads11(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -571,12 +615,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "گۆشت بخەرە ساردکەرەوەکەوە بۆ ئەوەی خراپ نەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads12(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads12(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -593,12 +641,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "بۆ تەواوی ڕۆژەکە خستمیە حەوسەلەیەکی خراپەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads13(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads13(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -614,12 +666,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەستی بە داخ کرد بۆ جێھێشتنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads14(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads14(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -635,12 +691,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "بەداخەوەم کە ھەست بە نەخۆشییەکی زۆر دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads15(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads15(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -655,12 +715,16 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بە خراپی دەیویست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads16(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads16(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -677,12 +741,16 @@ class EnglishEntrybad extends StatelessWidget {
                                   text:
                                       "ھەمیشە خەڵکی خراپ و باش لە جیھاندا دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBads17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBads17(// REPLACE: bad
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBads17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBads17(// REPLACE: bad
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

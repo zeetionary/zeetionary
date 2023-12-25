@@ -179,11 +179,15 @@ class EnglishEntrybilateral extends StatelessWidget {
                                   text:
                                       "ھەردوو وڵات ڕێککەوتنی دوولایەنەیان لەگەڵ نەتەوە یەکگرتووەکان واژۆ کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilaterals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilaterals1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilaterals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilaterals1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,11 +204,15 @@ class EnglishEntrybilateral extends StatelessWidget {
                                   text:
                                       "پزیشکەکە مەمک‌بڕی لەسەر ھەردوو مەمکی ئەنجامدا بۆ بڕینەوەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilaterals2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilaterals2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilaterals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilaterals2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybilateral extends StatelessWidget {
                                   text:
                                       "نەخۆشەکە نەبوونی بینایی (کوێری) لە ھەردوو چاویدا ھەبوو بەھۆی گلوکۆماوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilaterals3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilaterals3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilaterals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilaterals3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

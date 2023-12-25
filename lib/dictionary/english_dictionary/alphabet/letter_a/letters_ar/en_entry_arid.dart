@@ -183,13 +183,17 @@ class EnglishEntryarid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArid1126("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArid1126(// REPLACE: arid /ˈærɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArid1126("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArid1126(// REPLACE: arid /ˈærɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,13 +208,17 @@ class EnglishEntryarid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نووسینەکانی وشک‌بوون بەلامەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArid1129("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArid1129(// REPLACE: arid /ˈærɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArid1129("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArid1129(// REPLACE: arid /ˈærɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +235,17 @@ class EnglishEntryarid extends StatelessWidget {
                                   text:
                                       "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArid1131("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArid1131(// REPLACE: arid /ˈærɪd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArid1131("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArid1131(// REPLACE: arid /ˈærɪd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

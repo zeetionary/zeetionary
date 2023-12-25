@@ -134,13 +134,17 @@ class EnglishEntryaddiction extends StatelessWidget {
                                   text:
                                       "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddict2541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAddict2541(
-                                    // REPLACE: addiction /əˈdɪkʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddict2541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddict2541(
+                                        // REPLACE: addiction /əˈdɪkʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

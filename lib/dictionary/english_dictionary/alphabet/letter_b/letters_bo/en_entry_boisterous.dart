@@ -176,11 +176,15 @@ class EnglishEntryboisterous extends StatelessWidget {
                                   text:
                                       "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboisterouss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboisterouss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboisterouss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboisterouss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntryboisterous extends StatelessWidget {
                                   text:
                                       "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboisterouss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboisterouss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboisterouss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboisterouss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

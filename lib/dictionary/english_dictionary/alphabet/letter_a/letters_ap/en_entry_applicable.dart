@@ -186,17 +186,22 @@ class EnglishEntryapplicable extends StatelessWidget {
                                   text:
                                       "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplicable646("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplicable646(
-                                    // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplicable646("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplicable646(
+                                        // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -206,13 +211,18 @@ class EnglishEntryapplicable extends StatelessWidget {
                                   text:
                                       "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplicable648("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplicable648(
-                                    // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApplicable648("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplicable648(
+                                        // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

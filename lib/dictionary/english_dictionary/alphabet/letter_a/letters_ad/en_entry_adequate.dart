@@ -134,13 +134,17 @@ class EnglishEntryadequate extends StatelessWidget {
                                   text:
                                       "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdequa44855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdequa44855(
-                                    // REPLACE: adequate /ˈædɪkwət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdequa44855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdequa44855(
+                                        // REPLACE: adequate /ˈædɪkwət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,13 +157,17 @@ class EnglishEntryadequate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdequ99965("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdequ99965(
-                                    // REPLACE: adequate /ˈædɪkwət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdequ99965("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdequ99965(
+                                        // REPLACE: adequate /ˈædɪkwət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

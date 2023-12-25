@@ -111,11 +111,15 @@ class EnglishEntryabduct extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵیدابوو دوو منداڵ بڕفێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2285("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2285("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2285("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2285("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

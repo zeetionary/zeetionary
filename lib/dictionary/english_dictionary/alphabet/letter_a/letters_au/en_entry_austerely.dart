@@ -187,13 +187,17 @@ class EnglishEntryausterely extends StatelessWidget {
                                   text:
                                       "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterely506("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterely506(// REPLACE: austerely
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterely506("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterely506(// REPLACE: austerely
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryausterely extends StatelessWidget {
                                   text:
                                       "بە سادەیی و بەردەوام لە نزاکردن دەژیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAusterely509("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAusterely509(// REPLACE: austerely
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAusterely509("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAusterely509(// REPLACE: austerely
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

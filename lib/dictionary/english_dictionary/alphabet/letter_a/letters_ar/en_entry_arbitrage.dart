@@ -183,13 +183,18 @@ class EnglishEntryarbitrage extends StatelessWidget {
                                   text:
                                       "بازرگانان وتیان بەرزبوونەوەی نرخی پیزۆ وای‌کرد نرخی پشکە مەکسیکییەکان گرانتر بن بە بەراورد بە ئەوانەی نیویۆرک و ئەمەش وایکرد ھەندێک کڕین و فرۆشتنەوە بە نرخی بەرز ڕووبدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrage1055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrage1055(
-                                    // REPLACE: arbitrage /ˈɑːrbɪtrɑːʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrage1055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrage1055(
+                                        // REPLACE: arbitrage /ˈɑːrbɪtrɑːʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

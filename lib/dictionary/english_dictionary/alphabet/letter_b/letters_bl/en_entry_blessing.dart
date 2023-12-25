@@ -177,11 +177,15 @@ class EnglishEntryblessing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نزاکە بە عیبری خوێندرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblessings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblessings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblessings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblessings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryblessing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە پشتگیری دایک و باوکییەوە ڕۆشت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblessings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblessings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblessings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblessings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,11 +221,15 @@ class EnglishEntryblessing extends StatelessWidget {
                                   text:
                                       "حکومەت پشتگیری خۆیدا بە پلانە تازەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblessings3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblessings3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblessings3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblessings3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,11 +245,15 @@ class EnglishEntryblessing extends StatelessWidget {
                                   text:
                                       "کەمی ترافیکی ھاتووچۆ یەکێکە لە بەرەکەتەکانی ژیان لە گونددا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblessings4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblessings4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblessings4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblessings4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,11 +267,15 @@ class EnglishEntryblessing extends StatelessWidget {
                                   text:
                                       "نیعمەتێک بوو کە ئەو کات کەس لە ماڵەکە نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblessings5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblessings5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblessings5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblessings5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

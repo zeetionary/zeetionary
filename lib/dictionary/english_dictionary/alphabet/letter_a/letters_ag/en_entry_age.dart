@@ -202,13 +202,17 @@ class EnglishEntryage extends StatelessWidget {
                                   text:
                                       "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge938665("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge938665(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge938665("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge938665(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +226,17 @@ class EnglishEntryage extends StatelessWidget {
                                   text:
                                       "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge28225("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge28225(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge28225("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge28225(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,13 +250,17 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge45562("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge45562(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge45562("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge45562(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -262,13 +274,17 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە پیرێتی دەترسا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge41663("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge41663(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge41663("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge41663(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,13 +299,17 @@ class EnglishEntryage extends StatelessWidget {
                                   text:
                                       "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge955887("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge955887(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge955887("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge955887(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,13 +324,17 @@ class EnglishEntryage extends StatelessWidget {
                                   text:
                                       "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge471114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge471114(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge471114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge471114(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -326,13 +350,17 @@ class EnglishEntryage extends StatelessWidget {
                                   text:
                                       "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge25221("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge25221(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge25221("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAge25221(// REPLACE: age /eɪdʒ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,36 +178,45 @@ class EnglishEntryanalogous extends StatelessWidget {
                                   text:
                                       "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalogous852401("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnalogous852401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalogous852401(
+                                        // REPLACE: analogous /əˈnæləɡəs/
+                                        "en-US"),
+                                  ),],),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalogous852401(
-                                    // REPLACE: analogous /əˈnæləɡəs/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "The two situations are roughly analogous."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnalogous8401("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnalogous8401(
+                                            // REPLACE: analogous /əˈnæləɡəs/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two situations are roughly analogous."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnalogous8401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnalogous8401(
-                                    // REPLACE: analogous /əˈnæləɡəs/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

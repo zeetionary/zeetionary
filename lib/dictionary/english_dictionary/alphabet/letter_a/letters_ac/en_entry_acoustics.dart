@@ -133,12 +133,16 @@ class EnglishEntryacoustics extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAco4527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAco4527(
-                                    "en-US"), // REPLACE acoustics /əˈkuːstɪks/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAco4527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAco4527(
+                                        "en-US"), // REPLACE acoustics /əˈkuːstɪks/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

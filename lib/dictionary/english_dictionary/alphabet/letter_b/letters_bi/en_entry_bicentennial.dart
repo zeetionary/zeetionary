@@ -176,11 +176,17 @@ class EnglishEntrybicentennial extends StatelessWidget {
                                   text:
                                       "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBicentennials1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBicentennials1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBicentennials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBicentennials1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +203,17 @@ class EnglishEntrybicentennial extends StatelessWidget {
                                   text:
                                       "شارەکە زنجیرەیەک لە ئاھەنگی بۆ دووسەدھەمین ساڵیادی ڕێکخست بەدرێژایی ساڵەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBicentennials2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBicentennials2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBicentennials2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBicentennials2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

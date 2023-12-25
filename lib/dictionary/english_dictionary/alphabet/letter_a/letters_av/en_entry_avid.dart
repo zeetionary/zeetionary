@@ -179,12 +179,17 @@ class EnglishEntryavid extends StatelessWidget {
                                   text:
                                       "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvids1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvids1(// REPLACE: avid
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvids1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvids1(// REPLACE: avid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,12 +204,17 @@ class EnglishEntryavid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تینووی زانیاریی زیاتر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvids2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvids2(// REPLACE: avid
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvids2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvids2(// REPLACE: avid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

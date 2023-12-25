@@ -136,13 +136,17 @@ class EnglishEntryallusion extends StatelessWidget {
                                   text:
                                       "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllusio426("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllusio426(
-                                    // REPLACE: allusion /əˈluːʒn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllusio426("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllusio426(
+                                        // REPLACE: allusion /əˈluːʒn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

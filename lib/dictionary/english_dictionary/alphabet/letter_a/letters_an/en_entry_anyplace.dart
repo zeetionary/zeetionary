@@ -194,13 +194,17 @@ class EnglishEntryanyplace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ھیچ شوێنێک نایبینم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyplace949("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnyplace949(
-                                    // REPLACE: anyplace /ˈeniwer/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyplace949("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyplace949(
+                                        // REPLACE: anyplace /ˈeniwer/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,13 +219,17 @@ class EnglishEntryanyplace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سنووقەکە لە ھەر کوێ دادەنێی دایبنە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyplace951("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnyplace951(
-                                    // REPLACE: anyplace /ˈeniwer/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyplace951("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyplace951(
+                                        // REPLACE: anyplace /ˈeniwer/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

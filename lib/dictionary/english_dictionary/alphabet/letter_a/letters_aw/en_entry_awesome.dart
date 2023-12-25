@@ -178,13 +178,17 @@ class EnglishEntryawesome extends StatelessWidget {
                                   text:
                                       "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwesomes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwesomes1(// REPLACE: awesome
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwesomes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwesomes1(// REPLACE: awesome
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,13 +201,17 @@ class EnglishEntryawesome extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەرکێکی قورسیان لەپێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwesomes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwesomes2(// REPLACE: awesome
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwesomes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwesomes2(// REPLACE: awesome
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,13 +227,17 @@ class EnglishEntryawesome extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwesomes3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwesomes3(// REPLACE: awesome
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwesomes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwesomes3(// REPLACE: awesome
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

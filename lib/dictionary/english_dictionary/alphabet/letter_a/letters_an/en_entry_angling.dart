@@ -175,13 +175,17 @@ class EnglishEntryangling extends StatelessWidget {
                                   text:
                                       "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngling558("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngling558(
-                                    // REPLACE: angling /ˈæŋɡlɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngling558("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngling558(
+                                        // REPLACE: angling /ˈæŋɡlɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

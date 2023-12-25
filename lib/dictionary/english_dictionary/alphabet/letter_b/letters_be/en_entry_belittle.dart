@@ -175,11 +175,15 @@ class EnglishEntrybelittle extends StatelessWidget {
                                   text:
                                       "ھەستی دەکرد ھاوسەرەکەی بەردەوام بەدەستھێنانەکانی بچووک دەکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelittles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelittles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelittles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelittles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

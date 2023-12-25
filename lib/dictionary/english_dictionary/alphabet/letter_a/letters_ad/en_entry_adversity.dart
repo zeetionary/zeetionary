@@ -133,13 +133,17 @@ class EnglishEntryadversity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdversity632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdversity632(
-                                    // REPLACE: adversity /ədˈvɜːrsəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdversity632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdversity632(
+                                        // REPLACE: adversity /ədˈvɜːrsəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

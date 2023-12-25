@@ -169,13 +169,17 @@ class EnglishEntryaffair extends StatelessWidget {
                                   text:
                                       "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff25941("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAff25941(// REPLACE: affair /əˈfeər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff25941("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAff25941(
+                                        // REPLACE: affair /əˈfeər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -189,13 +193,17 @@ class EnglishEntryaffair extends StatelessWidget {
                                   text:
                                       "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffa35228("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffa35228(// REPLACE: affair /əˈfeər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffa35228("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffa35228(
+                                        // REPLACE: affair /əˈfeər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +219,17 @@ class EnglishEntryaffair extends StatelessWidget {
                                   text:
                                       "ڕۆژنامەکە تەواوی ڕووداوەکەی زۆر گەورە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffa25677("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffa25677(// REPLACE: affair /əˈfeər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffa25677("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffa25677(
+                                        // REPLACE: affair /əˈfeər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +245,17 @@ class EnglishEntryaffair extends StatelessWidget {
                                   text:
                                       "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffa2411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffa2411(// REPLACE: affair /əˈfeər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffa2411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffa2411(
+                                        // REPLACE: affair /əˈfeər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

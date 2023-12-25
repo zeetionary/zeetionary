@@ -187,13 +187,18 @@ class EnglishEntryassertion extends StatelessWidget {
                                   text:
                                       "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssertion1045("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssertion1045(
-                                    // REPLACE: assertion /əˈsɜːrʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssertion1045("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssertion1045(
+                                        // REPLACE: assertion /əˈsɜːrʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryassertion extends StatelessWidget {
                                   text:
                                       "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssertion1046("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssertion1046(
-                                    // REPLACE: assertion /əˈsɜːrʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssertion1046("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssertion1046(
+                                        // REPLACE: assertion /əˈsɜːrʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryassertion extends StatelessWidget {
                                   text:
                                       "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssertion1051("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssertion1051(
-                                    // REPLACE: assertion /əˈsɜːrʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssertion1051("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssertion1051(
+                                        // REPLACE: assertion /əˈsɜːrʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

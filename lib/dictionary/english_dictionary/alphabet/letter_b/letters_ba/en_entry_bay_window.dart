@@ -175,11 +175,15 @@ class EnglishEntrybaywindow extends StatelessWidget {
                                   text:
                                       "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaywindows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaywindows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaywindows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaywindows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

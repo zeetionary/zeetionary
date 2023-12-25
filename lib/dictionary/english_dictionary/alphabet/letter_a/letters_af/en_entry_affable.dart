@@ -133,13 +133,17 @@ class EnglishEntryaffable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffab2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffab2569(// REPLACE: affable /ˈæfəbl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffab2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffab2569(
+                                        // REPLACE: affable /ˈæfəbl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

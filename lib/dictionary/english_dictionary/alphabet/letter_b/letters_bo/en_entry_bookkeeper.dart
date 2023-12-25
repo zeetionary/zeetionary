@@ -173,11 +173,15 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەکەم کارم وەک ھەژمارنووسێک بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookkeepers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookkeepers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookkeepers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookkeepers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

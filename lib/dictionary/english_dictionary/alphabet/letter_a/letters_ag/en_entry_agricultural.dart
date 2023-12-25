@@ -134,13 +134,17 @@ class EnglishEntryagricultural extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زانستی کشتوکاڵ دەخوێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgricul35699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgricul35699(
-                                    // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgricul35699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgricul35699(
+                                        // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

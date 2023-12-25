@@ -176,13 +176,17 @@ class EnglishEntryawayday extends StatelessWidget {
                                   text:
                                       "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwaydays1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwaydays1(// REPLACE: awayday
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwaydays1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwaydays1(// REPLACE: awayday
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

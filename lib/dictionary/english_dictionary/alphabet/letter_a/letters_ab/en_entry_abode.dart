@@ -113,11 +113,15 @@ class EnglishEntryabode extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەخێربێیت بۆ وارگە سادەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb247("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb247("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb247("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb247("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

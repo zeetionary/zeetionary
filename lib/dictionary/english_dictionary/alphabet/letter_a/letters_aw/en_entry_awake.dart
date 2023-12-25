@@ -179,12 +179,17 @@ class EnglishEntryawake extends StatelessWidget {
                                   text:
                                       "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwakes1(// REPLACE: awake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakes1(// REPLACE: awake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,12 +204,17 @@ class EnglishEntryawake extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە خەوێکی قووڵ ھەستام."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwakes2(// REPLACE: awake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakes2(// REPLACE: awake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,12 +231,17 @@ class EnglishEntryawake extends StatelessWidget {
                                   text:
                                       "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwakes3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwakes3(// REPLACE: awake
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwakes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwakes3(// REPLACE: awake
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

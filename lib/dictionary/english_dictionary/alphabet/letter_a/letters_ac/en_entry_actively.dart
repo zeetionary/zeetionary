@@ -135,12 +135,16 @@ class EnglishEntryactively extends StatelessWidget {
                                   text:
                                       "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActiv2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActiv2537(
-                                    "en-US"), // REPLACE actively /ˈæktɪvli/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActiv2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActiv2537(
+                                        "en-US"), // REPLACE actively /ˈæktɪvli/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,12 +158,16 @@ class EnglishEntryactively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە جدییانە بۆ کارێک دەگەڕا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAct2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAct2534(
-                                    "en-US"), // REPLACE actively /ˈæktɪvli/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAct2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAct2534(
+                                        "en-US"), // REPLACE actively /ˈæktɪvli/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

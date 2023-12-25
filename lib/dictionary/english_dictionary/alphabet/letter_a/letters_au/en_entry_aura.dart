@@ -183,12 +183,17 @@ class EnglishEntryaura extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAura414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAura414(// REPLACE: aura
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAura414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAura414(// REPLACE: aura
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

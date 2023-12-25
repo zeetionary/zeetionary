@@ -178,13 +178,17 @@ class EnglishEntryavocado extends StatelessWidget {
                                   text:
                                       "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvocados1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvocados1(// REPLACE: avocado
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvocados1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvocados1(// REPLACE: avocado
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

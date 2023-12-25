@@ -181,13 +181,17 @@ class EnglishEntryappal extends StatelessWidget {
                                   text:
                                       "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppal737("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppal737(// REPLACE: appal /əˈpɔːl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppal737("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAppal737(// REPLACE: appal /əˈpɔːl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

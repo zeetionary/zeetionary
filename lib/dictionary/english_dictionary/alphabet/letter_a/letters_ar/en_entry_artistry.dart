@@ -184,13 +184,17 @@ class EnglishEntryartistry extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtistry940("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtistry940(
-                                    // REPLACE: artistry /ˈɑːrtɪstri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtistry940("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtistry940(
+                                        // REPLACE: artistry /ˈɑːrtɪstri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

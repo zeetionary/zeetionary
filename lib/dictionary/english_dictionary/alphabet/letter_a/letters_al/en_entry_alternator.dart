@@ -137,13 +137,18 @@ class EnglishEntryalternator extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "داینەمۆکە تەزووی گۆڕاو درووست ناکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternator4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternator4599(
-                                    // REPLACE: alternator /ˈɔːltəneɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternator4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternator4599(
+                                        // REPLACE: alternator /ˈɔːltəneɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

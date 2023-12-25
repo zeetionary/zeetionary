@@ -179,13 +179,18 @@ class EnglishEntryantagonism extends StatelessWidget {
                                   text:
                                       "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntagonism1204("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntagonism1204(
-                                    // REPLACE: antagonism /ænˈtæɡənɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntagonism1204("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntagonism1204(
+                                        // REPLACE: antagonism /ænˈtæɡənɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

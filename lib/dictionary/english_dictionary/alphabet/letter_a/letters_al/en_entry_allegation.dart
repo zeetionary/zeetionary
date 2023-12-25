@@ -137,13 +137,18 @@ class EnglishEntryallegation extends StatelessWidget {
                                   text:
                                       "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegation534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegation534(
-                                    // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllegation534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegation534(
+                                        // REPLACE: allegation /ˌæləˈɡeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +161,18 @@ class EnglishEntryallegation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەتیکردەوە دان بە تۆمەتەکان بنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegation36911("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegation36911(
-                                    // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllegation36911("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegation36911(
+                                        // REPLACE: allegation /ˌæləˈɡeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

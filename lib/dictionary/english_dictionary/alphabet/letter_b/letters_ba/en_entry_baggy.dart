@@ -177,12 +177,17 @@ class EnglishEntrybaggy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaggys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaggys1(// REPLACE: baggy
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaggys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaggys1(// REPLACE: baggy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,17 +185,21 @@ class EnglishEntryappeasement extends StatelessWidget {
                                   text:
                                       "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeasement("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppeasement(
-                                    // REPLACE: appeasement /əˈpiːzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppeasement("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeasement(
+                                        // REPLACE: appeasement /əˈpiːzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -206,13 +210,18 @@ class EnglishEntryappeasement extends StatelessWidget {
                                   text:
                                       "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppeasement1242("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppeasement1242(
-                                    // REPLACE: appeasement /əˈpiːzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppeasement1242("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppeasement1242(
+                                        // REPLACE: appeasement /əˈpiːzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

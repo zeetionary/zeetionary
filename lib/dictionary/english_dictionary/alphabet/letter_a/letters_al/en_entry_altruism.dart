@@ -136,13 +136,17 @@ class EnglishEntryaltruism extends StatelessWidget {
                                   text:
                                       "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltruism4693("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltruism4693(
-                                    // REPLACE: altruism /ˈæltruɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAltruism4693("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltruism4693(
+                                        // REPLACE: altruism /ˈæltruɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

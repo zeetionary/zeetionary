@@ -183,13 +183,18 @@ class EnglishEntryantisocial extends StatelessWidget {
                                   text:
                                       "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntisocial1238("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntisocial1238(
-                                    // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntisocial1238("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntisocial1238(
+                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +211,18 @@ class EnglishEntryantisocial extends StatelessWidget {
                                   text:
                                       "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntisocial1240("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntisocial1240(
-                                    // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntisocial1240("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntisocial1240(
+                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

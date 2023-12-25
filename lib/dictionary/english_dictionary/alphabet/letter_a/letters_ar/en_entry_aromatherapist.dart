@@ -184,14 +184,18 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                   text:
                                       "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAromatherapist1046("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAromatherapist1046(
-                                    // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAromatherapist1046("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAromatherapist1046(
+                                        // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

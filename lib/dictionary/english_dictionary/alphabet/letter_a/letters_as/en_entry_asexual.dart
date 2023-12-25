@@ -183,13 +183,17 @@ class EnglishEntryasexual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژیانێکی دوور لە سێکسی بەسەربرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsexual353("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsexual353(
-                                    // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsexual353("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsexual353(
+                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryasexual extends StatelessWidget {
                                   text:
                                       "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsexual401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsexual401(
-                                    // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsexual401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsexual401(
+                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +237,17 @@ class EnglishEntryasexual extends StatelessWidget {
                                   text:
                                       "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsexual401("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsexual401(
-                                    // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsexual401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsexual401(
+                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

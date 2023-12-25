@@ -179,13 +179,18 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                   text:
                                       "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakingpowders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakingpowders1(
-                                    // REPLACE: baking powder
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBakingpowders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBakingpowders1(
+                                        // REPLACE: baking powder
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

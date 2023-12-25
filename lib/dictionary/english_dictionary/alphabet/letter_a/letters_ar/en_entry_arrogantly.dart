@@ -185,13 +185,18 @@ class EnglishEntryarrogantly extends StatelessWidget {
                                   text:
                                       "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrogantly734("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrogantly734(
-                                    // REPLACE: arrogantly /ˈærəɡəntli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArrogantly734("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrogantly734(
+                                        // REPLACE: arrogantly /ˈærəɡəntli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

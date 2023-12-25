@@ -109,11 +109,15 @@ class EnglishEntryabdominal extends StatelessWidget {
                               ),
                               const ExampleSentenceKurdish(text: "سک ئێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbdo5536("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbdo5536("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbdo5536("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbdo5536("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

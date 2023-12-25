@@ -129,11 +129,15 @@ class EnglishEntryabstention extends StatelessWidget {
                                   text:
                                       "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA26971("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA26971("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA26971("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA26971("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -149,11 +153,15 @@ class EnglishEntryabstention extends StatelessWidget {
                                   text:
                                       "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA26983("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA26983("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA26983("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA26983("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

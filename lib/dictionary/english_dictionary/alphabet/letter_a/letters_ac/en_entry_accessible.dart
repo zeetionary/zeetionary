@@ -138,11 +138,15 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   text:
                                       "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA21598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA21598("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA21598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA21598("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,11 +162,15 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   text:
                                       "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2114("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2114("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -177,11 +185,15 @@ class EnglishEntryaccessible extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شیعرەکانی بۆ گەورە و بچووکن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcc21587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcc21587("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcc21587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcc21587("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -252,12 +252,14 @@ class EnglishEntrybitter extends StatelessWidget {
                                   text:
                                       "قاوەی ڕەش تامێکی تاڵ لە دەمدا جێدێڵێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters1("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters1("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -272,12 +274,14 @@ class EnglishEntrybitter extends StatelessWidget {
                                   text:
                                       "مەڕوماڵات ڕووەکەکە ناخۆن بەھۆی تامە تاڵەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters2("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters2("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -294,12 +298,14 @@ class EnglishEntrybitter extends StatelessWidget {
                                   text:
                                       "ڕکابەری سەرسەختی یەکدی بوون بۆ ساڵانێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters3("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters3("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -312,12 +318,14 @@ class EnglishEntrybitter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جیابوونەوەیەکی تاڵیان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
                                 onPressed: () => ("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters4("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -333,12 +341,14 @@ class EnglishEntrybitter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر ناڕەحەتە بە لەدەستدانی کارەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters5("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters5("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -355,12 +365,14 @@ class EnglishEntrybitter extends StatelessWidget {
                                   text:
                                       "دۆڕاندنی یارییەکە نائومێدییەکی ناخۆش بوو بۆ تیمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters6("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters6("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters6("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -374,12 +386,14 @@ class EnglishEntrybitter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەمڕۆ دەرەوە تەواو ساردە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters7("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters7("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters7("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),
@@ -394,12 +408,14 @@ class EnglishEntrybitter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قوتوویەک ئاوجۆی تاڵ، بێزەحمەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbitters8("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbitters8("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbitters8("en-US"),
-                              ),
+                              ),],),
                             ],
                           ),
                           // const DividerSentences(),

@@ -176,11 +176,15 @@ class EnglishEntrybinoculars extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەیری باڵندەکانمان کرد بە دووربین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBinocularss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBinocularss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBinocularss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBinocularss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

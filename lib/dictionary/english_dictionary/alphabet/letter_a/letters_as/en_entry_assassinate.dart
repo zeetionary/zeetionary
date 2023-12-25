@@ -184,13 +184,18 @@ class EnglishEntryassassinate extends StatelessWidget {
                                   text:
                                       "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssassinate1009("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssassinate1009(
-                                    // REPLACE: assassinate /əˈsæsɪneɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssassinate1009("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssassinate1009(
+                                        // REPLACE: assassinate /əˈsæsɪneɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

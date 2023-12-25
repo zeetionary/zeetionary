@@ -171,13 +171,17 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تەنھا لە ھۆڵەکە دانیشتبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlone1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlone1255(// REPLACE: alone /əˈləʊn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlone1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlone1255(
+                                        // REPLACE: alone /əˈləʊn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,13 +194,17 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "حەزناکەم شەوانە بە تەنھا دەربچم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlone4692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlone4692(// REPLACE: alone /əˈləʊn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlone4692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlone4692(
+                                        // REPLACE: alone /əˈləʊn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +219,17 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بکوژەکە گوتی ھەر خۆی بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlone4598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlone4598(// REPLACE: alone /əˈləʊn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlone4598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlone4598(
+                                        // REPLACE: alone /əˈləʊn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +244,17 @@ class EnglishEntryalone extends StatelessWidget {
                                   text:
                                       "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlone9652("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlone9652(// REPLACE: alone /əˈləʊn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlone9652("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlone9652(
+                                        // REPLACE: alone /əˈləʊn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +270,17 @@ class EnglishEntryalone extends StatelessWidget {
                                   text:
                                       "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlone7451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlone7451(// REPLACE: alone /əˈləʊn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlone7451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlone7451(
+                                        // REPLACE: alone /əˈləʊn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

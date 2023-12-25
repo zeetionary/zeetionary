@@ -138,11 +138,15 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                   text:
                                       "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2537("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2537("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,11 +160,15 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                   text:
                                       "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAa6587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAa6587("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAa6587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAa6587("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -175,11 +183,15 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAa3596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAa3596("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAa3596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAa3596("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

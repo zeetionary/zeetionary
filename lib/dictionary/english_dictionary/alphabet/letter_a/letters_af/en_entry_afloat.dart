@@ -151,13 +151,17 @@ class EnglishEntryafloat extends StatelessWidget {
                                   text:
                                       "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAflo45("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAflo45(// REPLACE: afloat /əˈfləʊt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAflo45("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAflo45(// REPLACE: afloat /əˈfləʊt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -173,13 +177,17 @@ class EnglishEntryafloat extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfl5988("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfl5988(// REPLACE: afloat /əˈfləʊt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfl5988("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfl5988(
+                                        // REPLACE: afloat /əˈfləʊt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,12 +178,17 @@ class EnglishEntrybaddy extends StatelessWidget {
                                   text:
                                       "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaddys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaddys1(// REPLACE: baddy
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaddys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaddys1(// REPLACE: baddy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

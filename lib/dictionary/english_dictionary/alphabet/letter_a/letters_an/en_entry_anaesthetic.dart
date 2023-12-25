@@ -177,13 +177,18 @@ class EnglishEntryanaesthetic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چەندە لەژێر بەنج دەبم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnaesthetic8505("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnaesthetic8505(
-                                    // REPLACE: anaesthetic /ˌænəsˈθetɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnaesthetic8505("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnaesthetic8505(
+                                        // REPLACE: anaesthetic /ˌænəsˈθetɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

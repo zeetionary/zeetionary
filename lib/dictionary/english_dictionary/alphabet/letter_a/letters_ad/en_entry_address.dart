@@ -196,13 +196,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd774("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd774(// REPLACE: address /əˈdres/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd774("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd774(// REPLACE: address /əˈdres/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,13 +220,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddress452("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddress452(// REPLACE: address /əˈdres/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddress452("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddress452(
+                                        // REPLACE: address /əˈdres/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -236,13 +244,17 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناونیشانی ئیمەیڵەکەت چییە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddr2458("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddr2458(// REPLACE: address /əˈdres/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddr2458("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddr2458(
+                                        // REPLACE: address /əˈdres/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,13 +270,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddr624("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddr624(// REPLACE: address /əˈdres/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddr624("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddr624(
+                                        // REPLACE: address /əˈdres/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,13 +296,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd99("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd99(// REPLACE: address /əˈdres/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd99("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd99(// REPLACE: address /əˈdres/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -302,13 +322,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddr11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddr11(// REPLACE: address /əˈdres/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddr11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAddr11(// REPLACE: address /əˈdres/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -324,13 +348,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddre444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddre444(// REPLACE: address /əˈdres/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddre444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddre444(
+                                        // REPLACE: address /əˈdres/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -346,13 +374,17 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text:
                                       "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddr766("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddr766(// REPLACE: address /əˈdres/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddr766("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddr766(
+                                        // REPLACE: address /əˈdres/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

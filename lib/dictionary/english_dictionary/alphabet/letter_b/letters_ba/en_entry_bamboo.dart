@@ -176,13 +176,17 @@ class EnglishEntrybamboo extends StatelessWidget {
                                   text:
                                       "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBamboos1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBamboos1(// REPLACE: bamboo
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBamboos1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBamboos1(// REPLACE: bamboo
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

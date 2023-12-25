@@ -188,13 +188,18 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                   text:
                                       "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmospheric1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmospheric1140(// REPLACE: atmospheric
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmospheric1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmospheric1140(
+                                        // REPLACE: atmospheric
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryatmospheric extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چێشتخانە تازەکە زۆر بزوێنەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmospheric1145("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmospheric1145(// REPLACE: atmospheric
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmospheric1145("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmospheric1145(
+                                        // REPLACE: atmospheric
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

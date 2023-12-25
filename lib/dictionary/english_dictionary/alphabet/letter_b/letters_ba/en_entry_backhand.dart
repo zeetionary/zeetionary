@@ -178,12 +178,17 @@ class EnglishEntrybackhand extends StatelessWidget {
                                   text:
                                       "نادال یەکێک لە باشترین تواناکانی لێدانی بە پشتەدەست ھەیە لە تێنسدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backhand
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backhand
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,17 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                                   text:
                                       "توێژەران لە بایۆکیمیای خانەکانی شێرپەنجە دەکۆڵنەوە بۆ دۆزینەوەی ئەو خانانەی کە دەکرێت ئامانج بن لە دۆزینەوەی چارەسەری تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiochemistrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiochemistrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiochemistrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiochemistrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +205,17 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                                   text:
                                       "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiochemistrys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiochemistrys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiochemistrys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiochemistrys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

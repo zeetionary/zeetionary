@@ -175,11 +175,15 @@ class EnglishEntrybooktoken extends StatelessWidget {
                                   text:
                                       "کۆپۆنێکی کتێبی ١٠ پاوەندیم وەک دیاری پێ بەخشرا لە ڕۆژی لەدایکبوونم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooktokens1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooktokens1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooktokens1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooktokens1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

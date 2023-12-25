@@ -134,13 +134,17 @@ class EnglishEntryadmittedly extends StatelessWidget {
                                   text:
                                       "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmit37894("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmit37894(
-                                    // REPLACE: admittedly /ədˈmɪtɪdli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmit37894("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmit37894(
+                                        // REPLACE: admittedly /ədˈmɪtɪdli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -136,13 +136,17 @@ class EnglishEntryaltar extends StatelessWidget {
                                   text:
                                       "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltar45966("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAltar45966(// REPLACE: altar /ˈɔːltər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAltar45966("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltar45966(
+                                        // REPLACE: altar /ˈɔːltər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

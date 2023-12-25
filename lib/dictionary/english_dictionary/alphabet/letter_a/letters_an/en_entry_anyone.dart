@@ -182,13 +182,17 @@ class EnglishEntryanyone extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەسی تر دەیەوێت بێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyone926("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyone926(// REPLACE: anyone /ˈeniwʌn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyone926("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyone926(
+                                        // REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryanyone extends StatelessWidget {
                                   text:
                                       "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyone927("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyone927(// REPLACE: anyone /ˈeniwʌn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyone927("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyone927(
+                                        // REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,17 @@ class EnglishEntryanyone extends StatelessWidget {
                                   text:
                                       "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyone929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyone929(// REPLACE: anyone /ˈeniwʌn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyone929("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyone929(
+                                        // REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +259,17 @@ class EnglishEntryanyone extends StatelessWidget {
                                   text:
                                       "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyone931("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyone931(// REPLACE: anyone /ˈeniwʌn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyone931("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyone931(
+                                        // REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

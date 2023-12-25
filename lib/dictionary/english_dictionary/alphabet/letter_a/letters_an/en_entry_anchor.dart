@@ -182,13 +182,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor08996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor08996(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor08996("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor08996(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەنگەرەکەمان ھەڵکێشا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor104("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor104(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor104("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor104(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +233,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor10(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor10(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,13 +260,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor1044("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor1044(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor1044("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor1044(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,13 +286,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor0995("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor0995(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor0995("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor0995(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -292,13 +312,17 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گوریسەکان لە بەردەکان گیرکرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor550("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor550(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor550("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor550(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -315,13 +339,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor5006("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor5006(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor5006("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor5006(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -338,13 +366,17 @@ class EnglishEntryanchor extends StatelessWidget {
                                   text:
                                       "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnchor444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnchor444(// REPLACE: anchor /ˈæŋkər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnchor444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnchor444(
+                                        // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

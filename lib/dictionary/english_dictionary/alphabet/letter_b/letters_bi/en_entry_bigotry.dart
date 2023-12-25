@@ -175,11 +175,15 @@ class EnglishEntrybigotry extends StatelessWidget {
                                   text:
                                       "دەمارگرژی سیاسەتوانەکە دژ بە کۆچبەران بوو بەھۆی دۆڕانی لە ھەڵبژاردنەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigotrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigotrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigotrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigotrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

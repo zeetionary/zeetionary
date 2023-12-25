@@ -135,13 +135,17 @@ class EnglishEntryaftereffect extends StatelessWidget {
                                   text:
                                       "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAftere3599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAftere3599(
-                                    // REPLACE: aftereffect /ˈɑːftər ɪfekt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAftere3599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAftere3599(
+                                        // REPLACE: aftereffect /ˈɑːftər ɪfekt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

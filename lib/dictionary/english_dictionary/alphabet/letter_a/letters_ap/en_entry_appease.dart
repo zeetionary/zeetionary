@@ -182,17 +182,21 @@ class EnglishEntryappease extends StatelessWidget {
                                   text:
                                       "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppease1203("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppease1203(
-                                    // REPLACE: appease /əˈpiːz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppease1203("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppease1203(
+                                        // REPLACE: appease /əˈpiːz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,13 +207,17 @@ class EnglishEntryappease extends StatelessWidget {
                                   text:
                                       "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppease1205("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppease1205(
-                                    // REPLACE: appease /əˈpiːz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppease1205("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppease1205(
+                                        // REPLACE: appease /əˈpiːz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

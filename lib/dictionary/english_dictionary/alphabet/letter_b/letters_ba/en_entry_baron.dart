@@ -174,11 +174,15 @@ class EnglishEntrybaron extends StatelessWidget {
                                   text:
                                       "بەگزاندە گەنجەکە وەفاداری دا بە پاشا و غاریدا بۆ جەنگ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybaron extends StatelessWidget {
                                   text:
                                       "قۆرخکارەکەی میدیا چەندین ڕۆژنامەی کۆنترۆڵکردبوو، و لە ڕێگای بڵاوکردنەوەکانەوە کاریگەری لە ڕای گشتی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarons2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarons2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarons2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,11 +222,15 @@ class EnglishEntrybaron extends StatelessWidget {
                                   text:
                                       "بەدەسەڵاتەکانی نەوت ڕێککەوتنێکیان کرد و کێڵگە نەوتییە تازەدۆزراوەکانیان لەنێوان خۆیان دابەشکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarons3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarons3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarons3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarons3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

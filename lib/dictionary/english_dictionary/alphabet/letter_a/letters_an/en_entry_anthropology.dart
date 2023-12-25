@@ -178,13 +178,18 @@ class EnglishEntryanthropology extends StatelessWidget {
                                   text:
                                       "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnthropology845("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnthropology845(
-                                    // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnthropology845("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnthropology845(
+                                        // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

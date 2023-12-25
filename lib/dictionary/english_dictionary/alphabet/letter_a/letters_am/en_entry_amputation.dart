@@ -178,13 +178,18 @@ class EnglishEntryamputation extends StatelessWidget {
                                   text:
                                       "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmputation7704("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmputation7704(
-                                    // REPLACE: amputation /ˌæmpjuˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmputation7704("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmputation7704(
+                                        // REPLACE: amputation /ˌæmpjuˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

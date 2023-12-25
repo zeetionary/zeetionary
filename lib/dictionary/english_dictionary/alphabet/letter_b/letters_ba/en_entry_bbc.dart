@@ -173,11 +173,15 @@ class EnglishEntrybbc extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بی بی سی ھەموو ڕۆژێک پەخشدەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBbcs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBbcs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBbcs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBbcs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

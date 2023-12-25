@@ -184,17 +184,21 @@ class EnglishEntryaspirin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ئاسپرینت ھەیە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirin814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirin814(
-                                    // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirin814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirin814(
+                                        // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -203,13 +207,17 @@ class EnglishEntryaspirin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دوو ئاسپرین بخۆ بۆ سەرێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirin815("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirin815(
-                                    // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirin815("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirin815(
+                                        // REPLACE: aspirin /ˈæsprɪn/,  /ˈæspərɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryairborne extends StatelessWidget {
                                   text:
                                       "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirborne4237("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirborne4237(
-                                    // REPLACE: airborne /ˈeəbɔːrn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirborne4237("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirborne4237(
+                                        // REPLACE: airborne /ˈeəbɔːrn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -133,13 +133,17 @@ class EnglishEntryajar extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەرگاکە بە کەمێک کراوە جێدێڵم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAjar256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAjar256(// REPLACE: ajar /əˈdʒɑːr/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAjar256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAjar256(// REPLACE: ajar /əˈdʒɑːr/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

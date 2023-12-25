@@ -187,13 +187,18 @@ class EnglishEntryassimilate extends StatelessWidget {
                                   text:
                                       "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssimilate808("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssimilate808(
-                                    // REPLACE: assimilate /əˈsɪməleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssimilate808("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssimilate808(
+                                        // REPLACE: assimilate /əˈsɪməleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryassimilate extends StatelessWidget {
                                   text:
                                       "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssimilate812("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssimilate812(
-                                    // REPLACE: assimilate /əˈsɪməleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssimilate812("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssimilate812(
+                                        // REPLACE: assimilate /əˈsɪməleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +243,18 @@ class EnglishEntryassimilate extends StatelessWidget {
                                   text:
                                       "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssimilate814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssimilate814(
-                                    // REPLACE: assimilate /əˈsɪməleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssimilate814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssimilate814(
+                                        // REPLACE: assimilate /əˈsɪməleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

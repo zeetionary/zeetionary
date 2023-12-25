@@ -174,11 +174,15 @@ class EnglishEntrybookcase extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookcases1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookcases1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookcases1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookcases1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,11 +194,15 @@ class EnglishEntrybookcase extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookcases2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookcases2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbookcases2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbookcases2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

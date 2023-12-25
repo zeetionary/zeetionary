@@ -182,12 +182,17 @@ class EnglishEntryaward extends StatelessWidget {
                                   text:
                                       "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwards1(// REPLACE: award
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwards1(// REPLACE: award
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,12 +209,17 @@ class EnglishEntryaward extends StatelessWidget {
                                   text:
                                       "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwards2(// REPLACE: award
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwards2(// REPLACE: award
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,12 +236,17 @@ class EnglishEntryaward extends StatelessWidget {
                                   text:
                                       "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwards3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwards3(// REPLACE: award
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwards3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwards3(// REPLACE: award
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -248,12 +263,17 @@ class EnglishEntryaward extends StatelessWidget {
                                   text:
                                       "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwards4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwards4(// REPLACE: award
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwards4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwards4(// REPLACE: award
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,12 +290,17 @@ class EnglishEntryaward extends StatelessWidget {
                                   text:
                                       "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwards5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAwards5(// REPLACE: award
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwards5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwards5(// REPLACE: award
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

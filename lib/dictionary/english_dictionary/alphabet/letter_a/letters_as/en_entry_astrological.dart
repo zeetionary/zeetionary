@@ -185,13 +185,18 @@ class EnglishEntryastrological extends StatelessWidget {
                                   text:
                                       "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstrological434("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAstrological434(
-                                    // REPLACE: astrological
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstrological434("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstrological434(
+                                        // REPLACE: astrological
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

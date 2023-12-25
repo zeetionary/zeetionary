@@ -171,11 +171,15 @@ class EnglishEntrybat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فێری کردم چۆن دارەکە بەکاربێنم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBats1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBats1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBats1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBats1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybat extends StatelessWidget {
                                   text:
                                       "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBats2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBats2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBats2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBats2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,11 +219,15 @@ class EnglishEntrybat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆرباش لە تۆپەکە دەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBats3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBats3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBats3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBats3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,11 +243,15 @@ class EnglishEntrybat extends StatelessWidget {
                                   text:
                                       "کێشای بە زەردەواڵەکەدا و دووریخستەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBats4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBats4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBats4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBats4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

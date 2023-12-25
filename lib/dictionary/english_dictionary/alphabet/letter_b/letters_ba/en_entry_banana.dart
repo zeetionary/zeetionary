@@ -175,13 +175,17 @@ class EnglishEntrybanana extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBananas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBananas1(// REPLACE: banana
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBananas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBananas1(// REPLACE: banana
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

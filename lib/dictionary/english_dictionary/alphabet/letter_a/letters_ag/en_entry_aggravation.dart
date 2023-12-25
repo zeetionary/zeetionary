@@ -136,13 +136,18 @@ class EnglishEntryaggravation extends StatelessWidget {
                                   text:
                                       "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggrava685435("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggrava685435(
-                                    // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggrava685435("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggrava685435(
+                                        // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +161,18 @@ class EnglishEntryaggravation extends StatelessWidget {
                                   text:
                                       "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggravat37814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggravat37814(
-                                    // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggravat37814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggravat37814(
+                                        // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

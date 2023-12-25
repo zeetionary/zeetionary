@@ -177,13 +177,17 @@ class EnglishEntryautopsy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "توێکارییەکە دەریخست ژەھرخواردکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutopsys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutopsys1(// REPLACE: autopsy
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutopsys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutopsys1(// REPLACE: autopsy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

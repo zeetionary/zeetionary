@@ -121,11 +121,15 @@ class EnglishEntryaboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێشوەختە لەناو فڕۆکەکە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA28("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA28("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA28("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -139,11 +143,15 @@ class EnglishEntryaboard extends StatelessWidget {
                                   text:
                                       "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA37("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA37("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA37("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA37("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

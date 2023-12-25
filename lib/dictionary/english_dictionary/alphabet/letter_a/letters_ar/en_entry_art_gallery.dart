@@ -184,13 +184,18 @@ class EnglishEntryartgallery extends StatelessWidget {
                                   text:
                                       "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtgallery1257("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtgallery1257(
-                                    // REPLACE: art gallery /ˈɑːrt ɡæləri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtgallery1257("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtgallery1257(
+                                        // REPLACE: art gallery /ˈɑːrt ɡæləri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

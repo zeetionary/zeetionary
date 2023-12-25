@@ -117,11 +117,15 @@ class EnglishEntryaccost extends StatelessWidget {
                                   text:
                                       "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA532476("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA532476("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA532476("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA532476("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -182,13 +182,17 @@ class EnglishEntryape extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApe129("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApe129(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApe129("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApe129(// REPLACE: ape /eɪp/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryape extends StatelessWidget {
                                   text:
                                       "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApe132("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApe132(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApe132("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApe132(// REPLACE: ape /eɪp/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryape extends StatelessWidget {
                                   text:
                                       "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApe134("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApe134(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApe134("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApe134(// REPLACE: ape /eɪp/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

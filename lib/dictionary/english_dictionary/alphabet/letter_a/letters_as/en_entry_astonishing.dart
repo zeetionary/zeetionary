@@ -187,13 +187,18 @@ class EnglishEntryastonishing extends StatelessWidget {
                                   text:
                                       "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstonishing1043("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstonishing1043(// REPLACE: astonishing
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstonishing1043("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstonishing1043(
+                                        // REPLACE: astonishing
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -131,13 +131,17 @@ class EnglishEntryaids extends StatelessWidget {
                                   text:
                                       "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAids538666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAids538666(// REPLACE: AIDS /eɪdz/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAids538666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAids538666(// REPLACE: AIDS /eɪdz/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

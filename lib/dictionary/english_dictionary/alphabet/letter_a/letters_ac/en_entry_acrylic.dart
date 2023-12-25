@@ -131,12 +131,16 @@ class EnglishEntryacrylic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فانیلەیەلی ئەکریلیک"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcryl1256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcryl1256(
-                                    "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcryl1256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcryl1256(
+                                        "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,12 +152,16 @@ class EnglishEntryacrylic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆیەی ئەکریلیک"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcry4289("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcry4289(
-                                    "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcry4289("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcry4289(
+                                        "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

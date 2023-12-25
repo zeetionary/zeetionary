@@ -183,13 +183,17 @@ class EnglishEntrybackground extends StatelessWidget {
                                   text:
                                       "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s1(// REPLACE: background
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: background
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntrybackground extends StatelessWidget {
                                   text:
                                       "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s2(// REPLACE: background
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: background
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چیاکانی پشتەوە بە بەفر داپۆشرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s3(// REPLACE: background
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s3(// REPLACE: background
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -251,13 +263,17 @@ class EnglishEntrybackground extends StatelessWidget {
                                   text:
                                       "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s4(// REPLACE: background
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s4(// REPLACE: background
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -274,13 +290,17 @@ class EnglishEntrybackground extends StatelessWidget {
                                   text:
                                       "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakB3s5(// REPLACE: background
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s5(// REPLACE: background
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

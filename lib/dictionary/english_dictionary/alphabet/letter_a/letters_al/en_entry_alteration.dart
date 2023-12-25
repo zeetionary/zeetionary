@@ -136,13 +136,18 @@ class EnglishEntryalteration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەندێک گۆڕانکاری لە خانووەکە دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlteration4522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlteration4522(
-                                    // REPLACE: alteration /ˌɔːltəˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlteration4522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlteration4522(
+                                        // REPLACE: alteration /ˌɔːltəˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

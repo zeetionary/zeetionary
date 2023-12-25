@@ -133,13 +133,17 @@ class EnglishEntrycomeofage extends StatelessWidget {
                                   text:
                                       "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakCome142251("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakCome142251(
-                                    // REPLACE: come of age /kʌm əv eɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakCome142251("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakCome142251(
+                                        // REPLACE: come of age /kʌm əv eɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

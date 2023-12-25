@@ -135,13 +135,18 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                   text:
                                       "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirconditio3411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirconditio3411(
-                                    // REPLACE: air conditioner /ˈer kəndɪʃənər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirconditio3411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirconditio3411(
+                                        // REPLACE: air conditioner /ˈer kəndɪʃənər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

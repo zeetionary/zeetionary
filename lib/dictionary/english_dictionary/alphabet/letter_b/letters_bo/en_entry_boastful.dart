@@ -175,11 +175,15 @@ class EnglishEntryboastful extends StatelessWidget {
                                   text:
                                       "ھەوڵم دا جەخت لەسەر خاڵە باشەکان بکەمەوە بەبێ ئەوەی فیزن دەربکەوم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboastfuls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboastfuls1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboastfuls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboastfuls1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

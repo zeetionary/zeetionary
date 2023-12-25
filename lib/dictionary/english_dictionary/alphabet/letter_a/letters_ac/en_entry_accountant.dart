@@ -118,11 +118,15 @@ class EnglishEntryaccountant extends StatelessWidget {
                                   text:
                                       "قسەمان لەگەڵ ژمێریاری سەرەکیی کۆمپانیاکە کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA4582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA4582("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA4582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA4582("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

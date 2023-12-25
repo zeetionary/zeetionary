@@ -176,11 +176,15 @@ class EnglishEntryonbehalfof extends StatelessWidget {
                                   text:
                                       "دەمەوێت سوپاسی ھەمووتان بکەم بەناوی زانکۆکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakOnbehalfofs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakOnbehalfofs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakOnbehalfofs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakOnbehalfofs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryonbehalfof extends StatelessWidget {
                                   text:
                                       "کەمپینیان ئەنجامدا بۆ یارمەتیدانی ئەوانەی داوای پەناگەی پەنابەرێتییان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakOnbehalfofs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakOnbehalfofs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakOnbehalfofs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakOnbehalfofs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,11 +224,15 @@ class EnglishEntryonbehalfof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نیگەران مەبە بۆ من."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakOnbehalfofs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakOnbehalfofs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakOnbehalfofs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakOnbehalfofs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

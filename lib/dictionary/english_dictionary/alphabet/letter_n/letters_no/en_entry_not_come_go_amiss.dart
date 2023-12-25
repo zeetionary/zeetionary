@@ -201,14 +201,18 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بەخت خراپ نابێت ئێستا!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakNotcomegoamiss142("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakNotcomegoamiss142(
-                                    // REPLACE: not come/go amiss /nɑːt kʌm/ɡəʊ əˈmɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakNotcomegoamiss142("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakNotcomegoamiss142(
+                                        // REPLACE: not come/go amiss /nɑːt kʌm/ɡəʊ əˈmɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +226,18 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                   text:
                                       "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakNotcomegoamiss78("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakNotcomegoamiss78(
-                                    // REPLACE: not come/go amiss /nɑːt kʌm/ɡəʊ əˈmɪs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakNotcomegoamiss78("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakNotcomegoamiss78(
+                                        // REPLACE: not come/go amiss /nɑːt kʌm/ɡəʊ əˈmɪs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

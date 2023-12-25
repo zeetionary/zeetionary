@@ -179,14 +179,18 @@ class EnglishEntryanthropologist extends StatelessWidget {
                                   text:
                                       "مرۆڤناسێک ھەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAnthropologist857("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnthropologist857(
-                                    // REPLACE: anthropologist /ˌænθrəˈpɑːlədʒɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnthropologist857("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnthropologist857(
+                                        // REPLACE: anthropologist /ˌænθrəˈpɑːlədʒɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

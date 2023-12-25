@@ -179,13 +179,17 @@ class EnglishEntryantonym extends StatelessWidget {
                                   text:
                                       "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntonym144("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntonym144(
-                                    // REPLACE: antonym /ˈæntənɪm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntonym144("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntonym144(
+                                        // REPLACE: antonym /ˈæntənɪm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

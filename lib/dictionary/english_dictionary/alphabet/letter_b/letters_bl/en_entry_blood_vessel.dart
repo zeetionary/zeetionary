@@ -175,11 +175,17 @@ class EnglishEntrybloodvessel extends StatelessWidget {
                                   text:
                                       "چەقۆکە لە دەمارە سەرەکییەکانی خوێنی نەدابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodvessels1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodvessels1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodvessels1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodvessels1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

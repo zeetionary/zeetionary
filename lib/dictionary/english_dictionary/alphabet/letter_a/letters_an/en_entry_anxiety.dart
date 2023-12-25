@@ -185,13 +185,17 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   text:
                                       "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxiety651("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxiety651(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxiety651("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxiety651(
+                                        // REPLACE: anxiety /æŋˈzaɪəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   text:
                                       "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxiety656("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxiety656(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxiety656("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxiety656(
+                                        // REPLACE: anxiety /æŋˈzaɪəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +237,17 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxiety700("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxiety700(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxiety700("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxiety700(
+                                        // REPLACE: anxiety /æŋˈzaɪəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,13 +264,17 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   text:
                                       "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxiety705("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxiety705(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxiety705("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxiety705(
+                                        // REPLACE: anxiety /æŋˈzaɪəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -275,13 +291,17 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   text:
                                       "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnxiety708("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnxiety708(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnxiety708("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnxiety708(
+                                        // REPLACE: anxiety /æŋˈzaɪəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

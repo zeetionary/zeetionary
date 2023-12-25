@@ -174,11 +174,15 @@ class EnglishEntryboarder extends StatelessWidget {
                                   text:
                                       "خوێندکارە گەنجەکە تامەزرۆ بوو سەردانی خێزانەکەی بکات لە ماوەی پشووی قوتابخانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboarders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboarders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboarders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboarders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryboarder extends StatelessWidget {
                                   text:
                                       "لە دوای مردنی باوکی، دایکی کرێچی ھێنایە ژوورەکان بۆ زیادکردنی داھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboarders2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboarders2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboarders2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboarders2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

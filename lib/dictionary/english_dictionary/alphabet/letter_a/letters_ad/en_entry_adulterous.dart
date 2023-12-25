@@ -132,13 +132,17 @@ class EnglishEntryadulterous extends StatelessWidget {
                                   text:
                                       "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdul2534("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdul2534(
-                                    // REPLACE: adulterous /əˈdʌltərəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdul2534("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdul2534(
+                                        // REPLACE: adulterous /əˈdʌltərəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

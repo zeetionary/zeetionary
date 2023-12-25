@@ -145,13 +145,17 @@ class EnglishEntryadvantage extends StatelessWidget {
                                   text:
                                       "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan35688("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan35688(
-                                    // REPLACE: advantage /ədˈvæntɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan35688("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan35688(
+                                        // REPLACE: advantage /ədˈvæntɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -165,13 +169,17 @@ class EnglishEntryadvantage extends StatelessWidget {
                                   text:
                                       "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan3674("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan3674(
-                                    // REPLACE: advantage /ədˈvæntɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan3674("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan3674(
+                                        // REPLACE: advantage /ədˈvæntɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -187,13 +195,17 @@ class EnglishEntryadvantage extends StatelessWidget {
                                   text:
                                       "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan6724("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan6724(
-                                    // REPLACE: advantage /ədˈvæntɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan6724("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan6724(
+                                        // REPLACE: advantage /ədˈvæntɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +221,17 @@ class EnglishEntryadvantage extends StatelessWidget {
                                   text:
                                       "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvant9436("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvant9436(
-                                    // REPLACE: advantage /ədˈvæntɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvant9436("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvant9436(
+                                        // REPLACE: advantage /ədˈvæntɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybawdy extends StatelessWidget {
                                   text:
                                       "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBawdys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBawdys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBawdys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBawdys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

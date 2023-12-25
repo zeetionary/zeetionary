@@ -177,11 +177,15 @@ class EnglishEntrybazooka extends StatelessWidget {
                                   text:
                                       "تانکێکی دووژمنی تەقاندەوە بە دژەتانکەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBazookas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBazookas1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBazookas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBazookas1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

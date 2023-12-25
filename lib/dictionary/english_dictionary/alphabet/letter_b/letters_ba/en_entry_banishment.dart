@@ -180,17 +180,21 @@ class EnglishEntrybanishment extends StatelessWidget {
                                   text:
                                       "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanishments1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanishments1(// REPLACE: banishment
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanishments1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanishments1(// REPLACE: banishment
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -201,13 +205,17 @@ class EnglishEntrybanishment extends StatelessWidget {
                                   text:
                                       "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanishments2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanishments2(// REPLACE: banishment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanishments2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBanishments2(
+                                        // REPLACE: banishment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

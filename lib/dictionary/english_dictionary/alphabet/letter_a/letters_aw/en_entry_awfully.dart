@@ -176,13 +176,17 @@ class EnglishEntryawfully extends StatelessWidget {
                                   text:
                                       "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwfullys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwfullys1(// REPLACE: awfully
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAwfullys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAwfullys1(// REPLACE: awfully
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

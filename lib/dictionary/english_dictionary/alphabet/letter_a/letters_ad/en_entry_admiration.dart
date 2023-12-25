@@ -134,13 +134,17 @@ class EnglishEntryadmiration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmira85971("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmira85971(
-                                    // REPLACE: admiration /ˌædməˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmira85971("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmira85971(
+                                        // REPLACE: admiration /ˌædməˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

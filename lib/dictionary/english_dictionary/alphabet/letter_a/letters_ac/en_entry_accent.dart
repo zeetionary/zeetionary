@@ -147,11 +147,15 @@ class EnglishEntryaccent extends StatelessWidget {
                                   text:
                                       "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc25469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc25469("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc25469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc25469("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -164,11 +168,15 @@ class EnglishEntryaccent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc56412("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc56412("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc56412("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc56412("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -184,11 +192,15 @@ class EnglishEntryaccent extends StatelessWidget {
                                   text:
                                       "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc25663("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc25663("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc25663("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc25663("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,11 +216,15 @@ class EnglishEntryaccent extends StatelessWidget {
                                   text:
                                       "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc2544799("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc2544799("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc2544799("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc2544799("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

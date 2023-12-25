@@ -175,11 +175,15 @@ class EnglishEntrybodyguard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پاسەوانەکانی سەرۆک چەکیان پێیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodyguards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodyguards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodyguards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodyguards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybodyguard extends StatelessWidget {
                                   text:
                                       "ھەرگیز بۆ ھیچ شوێنێک ناچێت بەبی پاسەوانە تایبەتییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodyguards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodyguards2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodyguards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodyguards2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

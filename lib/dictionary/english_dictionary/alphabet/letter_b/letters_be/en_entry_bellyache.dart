@@ -174,11 +174,15 @@ class EnglishEntrybellyache extends StatelessWidget {
                                   text: "I’ve got (a) bellyache."),
                               const ExampleSentenceKurdish(text: "ژانەسکمە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellyaches1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellyaches1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellyaches1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellyaches1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntrybellyache extends StatelessWidget {
                                   text:
                                       "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellyaches2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellyaches2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellyaches2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellyaches2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

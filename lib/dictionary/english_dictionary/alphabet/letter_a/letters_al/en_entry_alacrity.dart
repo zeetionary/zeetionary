@@ -136,13 +136,18 @@ class EnglishEntryalacrity extends StatelessWidget {
                                   text:
                                       "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlacrity42566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlacrity42566(
-                                    // REPLACE: alacrity /əˈlækrəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlacrity42566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlacrity42566(
+                                        // REPLACE: alacrity /əˈlækrəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

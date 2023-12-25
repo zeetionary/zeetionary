@@ -134,13 +134,17 @@ class EnglishEntryallout extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە دڵ و بە گیان دەچین بۆبردنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllout32568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllout32568(
-                                    // REPLACE: all-out /ˌɔːl ˈaʊt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllout32568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllout32568(
+                                        // REPLACE: all-out /ˌɔːl ˈaʊt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

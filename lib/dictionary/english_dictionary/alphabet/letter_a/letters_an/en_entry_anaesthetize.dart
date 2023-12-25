@@ -176,13 +176,18 @@ class EnglishEntryanaesthetize extends StatelessWidget {
                                   text:
                                       "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnaesthetize8590("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnaesthetize8590(
-                                    // REPLACE: anaesthetize /əˈnesθətaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnaesthetize8590("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnaesthetize8590(
+                                        // REPLACE: anaesthetize /əˈnesθətaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

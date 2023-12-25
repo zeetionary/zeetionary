@@ -176,17 +176,21 @@ class EnglishEntryangrily extends StatelessWidget {
                                   text:
                                       "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngrily12980("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngrily12980(
-                                    // REPLACE: angrily /ˈæŋɡrəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngrily12980("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngrily12980(
+                                        // REPLACE: angrily /ˈæŋɡrəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -197,13 +201,17 @@ class EnglishEntryangrily extends StatelessWidget {
                                   text:
                                       "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngrily25610("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngrily25610(
-                                    // REPLACE: angrily /ˈæŋɡrəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngrily25610("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngrily25610(
+                                        // REPLACE: angrily /ˈæŋɡrəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

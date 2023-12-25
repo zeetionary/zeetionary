@@ -134,12 +134,16 @@ class EnglishEntrytheaccused extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گومانلێکراو بە بێتاوان ناسێندرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakTh1547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakTh1547("en-US"), // find Dopsum1
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakTh1547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakTh1547("en-US"), // find Dopsum1
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -152,12 +156,16 @@ class EnglishEntrytheaccused extends StatelessWidget {
                                   text:
                                       "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakT21536("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakT21536("en-US"), // find Dopsum1
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakT21536("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakT21536("en-US"), // find Dopsum1
+                                  ),
+                                ],
                               ),
                             ],
                           ),

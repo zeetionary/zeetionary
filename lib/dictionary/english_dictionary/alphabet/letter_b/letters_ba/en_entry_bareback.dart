@@ -171,11 +171,15 @@ class EnglishEntrybareback extends StatelessWidget {
                                   text:
                                       "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarebacks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarebacks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarebacks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarebacks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -191,11 +195,15 @@ class EnglishEntrybareback extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سوارچاکی بەبێ زین گرانە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarebacks2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarebacks2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarebacks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarebacks2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

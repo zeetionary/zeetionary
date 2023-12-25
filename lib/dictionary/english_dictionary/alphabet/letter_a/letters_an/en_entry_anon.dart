@@ -173,13 +173,17 @@ class EnglishEntryanon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زوو دەتبینمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnon1058("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnon1058(// REPLACE: anon /əˈnɑːn/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnon1058("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnon1058(// REPLACE: anon /əˈnɑːn/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

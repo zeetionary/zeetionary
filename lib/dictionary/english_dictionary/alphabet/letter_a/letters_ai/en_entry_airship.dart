@@ -136,13 +136,17 @@ class EnglishEntryairship extends StatelessWidget {
                                   text:
                                       "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirship426("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAirship426(// REPLACE: airship /ˈerʃɪp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirship426("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirship426(
+                                        // REPLACE: airship /ˈerʃɪp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

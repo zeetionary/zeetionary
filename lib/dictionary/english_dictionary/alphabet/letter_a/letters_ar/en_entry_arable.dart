@@ -183,13 +183,17 @@ class EnglishEntryarable extends StatelessWidget {
                                   text:
                                       "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArable1042("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArable1042(// REPLACE: arable /ˈærəbl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArable1042("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArable1042(
+                                        // REPLACE: arable /ˈærəbl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

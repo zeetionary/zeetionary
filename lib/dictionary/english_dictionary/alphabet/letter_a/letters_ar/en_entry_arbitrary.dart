@@ -187,13 +187,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
                                   text:
                                       "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrary1119("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrary1119(
-                                    // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrary1119("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrary1119(
+                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
                                   text:
                                       "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrary1120("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrary1120(
-                                    // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrary1120("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrary1120(
+                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
                                   text:
                                       "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArbitrary1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArbitrary1125(
-                                    // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArbitrary1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArbitrary1125(
+                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

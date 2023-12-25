@@ -176,11 +176,15 @@ class EnglishEntryblacklist extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی ھەڵدەگرت کە یاساکانیان شکاندبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacklists1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacklists1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacklists1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacklists1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntryblacklist extends StatelessWidget {
                                   text:
                                       "خرایە لیستی ڕەشی ھەموو ستۆدیۆکانی ھۆڵیوودەوە بەھۆی بیروڕا سیاسییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblacklists2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblacklists2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblacklists2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblacklists2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

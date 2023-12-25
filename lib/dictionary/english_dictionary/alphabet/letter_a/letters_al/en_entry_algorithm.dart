@@ -136,13 +136,18 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                   text:
                                       "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlgorithm25344("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlgorithm25344(
-                                    // REPLACE: algorithm /ˈælɡərɪðəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlgorithm25344("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlgorithm25344(
+                                        // REPLACE: algorithm /ˈælɡərɪðəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

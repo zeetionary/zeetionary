@@ -134,13 +134,17 @@ class EnglishEntryadditive extends StatelessWidget {
                                   text:
                                       "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddit699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddit699(// REPLACE: additive /ˈædətɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddit699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddit699(
+                                        // REPLACE: additive /ˈædətɪv/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

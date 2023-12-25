@@ -172,11 +172,15 @@ class EnglishEntryboring extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پیاوێکی زۆر بێزارکەرە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -188,11 +192,15 @@ class EnglishEntryboring extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فیلمەکە تەواو ناخۆش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakborings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakborings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakborings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakborings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

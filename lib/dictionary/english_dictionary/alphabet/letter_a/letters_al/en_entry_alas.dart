@@ -136,13 +136,17 @@ class EnglishEntryalas extends StatelessWidget {
                                   text:
                                       "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlas2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlas2569(// REPLACE: alas /əˈlæs/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlas2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlas2569(// REPLACE: alas /əˈlæs/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

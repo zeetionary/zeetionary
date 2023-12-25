@@ -179,13 +179,17 @@ class EnglishEntryautonomy extends StatelessWidget {
                                   text:
                                       "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutonomyS1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutonomyS1(// REPLACE: autonomy
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutonomyS1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutonomyS1(// REPLACE: autonomy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntryautonomy extends StatelessWidget {
                                   text:
                                       "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutonomyS2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutonomyS2(// REPLACE: autonomy
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutonomyS2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutonomyS2(// REPLACE: autonomy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

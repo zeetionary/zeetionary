@@ -175,13 +175,17 @@ class EnglishEntryballpoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نامەکە بە جافێکی شین نووسرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallpoints1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallpoints1(// REPLACE: ballpoint
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallpoints1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallpoints1(// REPLACE: ballpoint
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

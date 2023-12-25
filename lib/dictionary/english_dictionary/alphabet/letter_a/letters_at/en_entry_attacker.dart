@@ -184,13 +184,17 @@ class EnglishEntryattacker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەڕاستیدا ھێرشکارەکەیی نەدیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttacker637("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttacker637(// REPLACE: attacker
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAttacker637("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttacker637(// REPLACE: attacker
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

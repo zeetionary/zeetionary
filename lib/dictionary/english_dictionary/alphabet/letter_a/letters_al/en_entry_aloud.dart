@@ -136,13 +136,17 @@ class EnglishEntryaloud extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloud469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAloud469(// REPLACE: aloud /əˈlaʊd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloud469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAloud469(// REPLACE: aloud /əˈlaʊd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryaloud extends StatelessWidget {
                                   text:
                                       "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloud462("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAloud462(// REPLACE: aloud /əˈlaʊd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloud462("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAloud462(// REPLACE: aloud /əˈlaʊd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,13 +184,17 @@ class EnglishEntryaloud extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە دەنگی بەرز ناڕەزایی دەربڕی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloud596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAloud596(// REPLACE: aloud /əˈlaʊd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloud596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAloud596(// REPLACE: aloud /əˈlaʊd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

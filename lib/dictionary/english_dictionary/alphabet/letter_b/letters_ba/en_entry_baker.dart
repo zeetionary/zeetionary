@@ -179,12 +179,17 @@ class EnglishEntrybaker extends StatelessWidget {
                                   text:
                                       "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakers1(// REPLACE: baker
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakers1(// REPLACE: baker
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,12 +204,17 @@ class EnglishEntrybaker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەنھا دەچم بۆ نانەواخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBakers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBakers2(// REPLACE: baker
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBakers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBakers2(// REPLACE: baker
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

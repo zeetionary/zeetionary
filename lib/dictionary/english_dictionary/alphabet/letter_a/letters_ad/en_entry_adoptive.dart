@@ -134,13 +134,17 @@ class EnglishEntryadoptive extends StatelessWidget {
                                   text:
                                       "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdop57124("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdop57124(
-                                    // REPLACE: adoptive /əˈdɒptɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdop57124("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdop57124(
+                                        // REPLACE: adoptive /əˈdɒptɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

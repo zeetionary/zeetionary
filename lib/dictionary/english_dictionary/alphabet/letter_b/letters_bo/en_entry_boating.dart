@@ -173,11 +173,15 @@ class EnglishEntryboating extends StatelessWidget {
                                   text:
                                       "چالاکییە لۆکاڵییەکان بریتیین لە پیاسەکردن، بەلەم‌سواری و گۆڵف."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboatings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboatings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboatings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboatings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

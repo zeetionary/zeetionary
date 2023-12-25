@@ -183,11 +183,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "سەرسامی باوەڕی گەرموگوڕیم بۆ ئەوەی کە دەیکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,11 +206,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "ڕووداوەکە باوەڕمی بە پۆلیس لەقکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,11 +229,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "ئیمانیان بەوە ھەیە کە ژیانی دوای مەرگ ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,11 +254,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "بۆچوونێکی گشتی ھەیە کە شتەکان باشتر دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -261,11 +277,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "بەو باوەڕەوە کاری کرد کە شتێکی باش دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -282,11 +302,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس باوەڕیان بە شتانێک ھەیە کە زانست پشتگیری ناکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -301,11 +325,15 @@ class EnglishEntrybelief extends StatelessWidget {
                                   text:
                                       "پارتی کرێکاران دەبێت پەیوەست بێت بەو شتانەی کە باوەڕی پێیەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeliefs7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeliefs7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeliefs7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeliefs7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

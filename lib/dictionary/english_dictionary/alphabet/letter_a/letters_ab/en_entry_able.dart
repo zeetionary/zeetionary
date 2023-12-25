@@ -128,11 +128,15 @@ class EnglishEntryable extends StatelessWidget {
                                   text:
                                       "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA321("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA321("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA321("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA321("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -146,11 +150,15 @@ class EnglishEntryable extends StatelessWidget {
                                   text:
                                       "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA324("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA324("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA324("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA324("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -164,11 +172,15 @@ class EnglishEntryable extends StatelessWidget {
                                   text:
                                       "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA358("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA358("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA358("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA358("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -224,13 +224,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv2567("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv2567(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv2567("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv2567(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,13 +250,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan3567("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan3567(
-                                    // REPLACE: advance /ədˈvɑːns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan3567("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan3567(
+                                        // REPLACE: advance /ədˈvɑːns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -267,13 +275,17 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڵاکەرەوەکان پێشەکییەکیان داوە پێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv253("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv253(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv253("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv253(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -289,13 +301,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv23574("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv23574(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv23574("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv23574(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -311,13 +327,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvan6988("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvan6988(
-                                    // REPLACE: advance /ədˈvɑːns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvan6988("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvan6988(
+                                        // REPLACE: advance /ədˈvɑːns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -333,13 +353,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd456("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd456(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd456("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd456(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -355,13 +379,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv3568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv3568(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv3568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv3568(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -375,13 +403,17 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پارەکەت بە پێشەکی پێدەدەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdva391("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdva391(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdva391("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdva391(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -397,13 +429,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdva7864("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdva7864(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdva7864("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdva7864(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -419,13 +455,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdva8529("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdva8529(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdva8529("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdva8529(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -441,13 +481,17 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdv9678("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdv9678(// REPLACE: advance /ədˈvɑːns/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdv9678("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdv9678(
+                                        // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

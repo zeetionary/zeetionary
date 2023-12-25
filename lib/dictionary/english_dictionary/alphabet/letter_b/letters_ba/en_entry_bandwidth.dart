@@ -178,13 +178,17 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   text:
                                       "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandwidths1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandwidths1(// REPLACE: bandwidth
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandwidths1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandwidths1(// REPLACE: bandwidth
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   text:
                                       "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandwidths2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandwidths2(// REPLACE: bandwidth
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandwidths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandwidths2(// REPLACE: bandwidth
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,17 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   text:
                                       "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandwidths3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandwidths3(// REPLACE: bandwidth
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandwidths3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandwidths3(// REPLACE: bandwidth
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

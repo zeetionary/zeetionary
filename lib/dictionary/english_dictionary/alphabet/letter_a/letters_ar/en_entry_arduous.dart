@@ -183,17 +183,21 @@ class EnglishEntryarduous extends StatelessWidget {
                                   text:
                                       "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArduous530("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArduous530(
-                                    // REPLACE: arduous /ˈɑːrdʒuəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArduous530("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArduous530(
+                                        // REPLACE: arduous /ˈɑːrdʒuəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -202,13 +206,17 @@ class EnglishEntryarduous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کارەکە تاقەت‌پڕوقێن بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArduous531("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArduous531(
-                                    // REPLACE: arduous /ˈɑːrdʒuəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArduous531("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArduous531(
+                                        // REPLACE: arduous /ˈɑːrdʒuəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

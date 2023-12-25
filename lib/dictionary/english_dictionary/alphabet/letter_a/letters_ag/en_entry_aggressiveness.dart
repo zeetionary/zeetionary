@@ -136,13 +136,18 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                   text:
                                       "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggressiv3749("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggressiv3749(
-                                    // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggressiv3749("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggressiv3749(
+                                        // REPLACE: aggressiveness /əˈɡresɪvnəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +163,18 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                   text:
                                       "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggressive4699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggressive4699(
-                                    // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggressive4699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggressive4699(
+                                        // REPLACE: aggressiveness /əˈɡresɪvnəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

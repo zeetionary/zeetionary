@@ -132,13 +132,17 @@ class EnglishEntryaffably extends StatelessWidget {
                                   text:
                                       "بۆ چەند خولەکێك بە ھاوڕێیانە قسەمان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAf3658("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAf3658(// REPLACE: affably /ˈæfəbli/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAf3658("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAf3658(
+                                        // REPLACE: affably /ˈæfəbli/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

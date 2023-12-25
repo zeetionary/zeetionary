@@ -187,13 +187,18 @@ class EnglishEntryassumption extends StatelessWidget {
                                   text:
                                       "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssumption903("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssumption903(
-                                    // REPLACE: assumption /əˈsʌmpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssumption903("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssumption903(
+                                        // REPLACE: assumption /əˈsʌmpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryassumption extends StatelessWidget {
                                   text:
                                       "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssumption904("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssumption904(
-                                    // REPLACE: assumption /əˈsʌmpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssumption904("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssumption904(
+                                        // REPLACE: assumption /əˈsʌmpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +241,18 @@ class EnglishEntryassumption extends StatelessWidget {
                                   text:
                                       "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssumption906("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssumption906(
-                                    // REPLACE: assumption /əˈsʌmpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssumption906("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssumption906(
+                                        // REPLACE: assumption /əˈsʌmpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

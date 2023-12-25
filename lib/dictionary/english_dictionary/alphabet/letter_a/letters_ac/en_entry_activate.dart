@@ -134,12 +134,16 @@ class EnglishEntryactivate extends StatelessWidget {
                                   text:
                                       "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAct2537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAct2537(
-                                    "en-US"), // REPLACE activate /ˈæktɪveɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAct2537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAct2537(
+                                        "en-US"), // REPLACE activate /ˈæktɪveɪt/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

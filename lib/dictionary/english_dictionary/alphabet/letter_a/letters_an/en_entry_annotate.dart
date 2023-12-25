@@ -175,13 +175,17 @@ class EnglishEntryannotate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnotate158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnotate158(
-                                    // REPLACE: annotate /ˈænəteɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnotate158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnotate158(
+                                        // REPLACE: annotate /ˈænəteɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

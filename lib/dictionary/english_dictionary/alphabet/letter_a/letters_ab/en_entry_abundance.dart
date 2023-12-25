@@ -119,11 +119,15 @@ class EnglishEntryabundance extends StatelessWidget {
                                   text:
                                       "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA15967("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA15967("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA15967("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA15967("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

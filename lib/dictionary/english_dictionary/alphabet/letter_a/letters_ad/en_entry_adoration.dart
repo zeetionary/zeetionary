@@ -132,13 +132,17 @@ class EnglishEntryadoration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لێی دەڕوانی بە ئەڤینێکی بێگەرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdor25674("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdor25674(
-                                    // REPLACE: adoration /ˌædəˈreɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdor25674("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdor25674(
+                                        // REPLACE: adoration /ˌædəˈreɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

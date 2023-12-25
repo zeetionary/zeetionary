@@ -177,13 +177,17 @@ class EnglishEntryangst extends StatelessWidget {
                                   text:
                                       "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngst250("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAngst250(
-                                    // REPLACE: angst /æŋst/,  /ɑːŋst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngst250("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngst250(
+                                        // REPLACE: angst /æŋst/,  /ɑːŋst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

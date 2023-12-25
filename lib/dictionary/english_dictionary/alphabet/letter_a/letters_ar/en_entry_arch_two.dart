@@ -181,13 +181,17 @@ class EnglishEntryarchtwo extends StatelessWidget {
                                   text:
                                       "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArchtwo213("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArchtwo213(// REPLACE: arch- /haʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArchtwo213("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArchtwo213(// REPLACE: arch- /haʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

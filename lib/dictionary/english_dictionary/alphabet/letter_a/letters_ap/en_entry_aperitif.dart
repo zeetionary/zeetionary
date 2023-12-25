@@ -180,13 +180,17 @@ class EnglishEntryaperitif extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAperitif144("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAperitif144(
-                                    // REPLACE: aperitif /əˌperəˈtiːf/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAperitif144("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAperitif144(
+                                        // REPLACE: aperitif /əˌperəˈtiːf/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

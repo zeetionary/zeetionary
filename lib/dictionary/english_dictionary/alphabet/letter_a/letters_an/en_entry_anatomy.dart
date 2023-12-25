@@ -180,13 +180,17 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   text:
                                       "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnatomy409("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnatomy409(
-                                    // REPLACE: anatomy /əˈnætəmi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnatomy409("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnatomy409(
+                                        // REPLACE: anatomy /əˈnætəmi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   text:
                                       "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnatomy499("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnatomy499(
-                                    // REPLACE: anatomy /əˈnætəmi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnatomy499("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnatomy499(
+                                        // REPLACE: anatomy /əˈnætəmi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   text:
                                       "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnatomy9500("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnatomy9500(
-                                    // REPLACE: anatomy /əˈnætəmi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnatomy9500("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnatomy9500(
+                                        // REPLACE: anatomy /əˈnætəmi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +261,17 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   text:
                                       "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnatomy5582("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnatomy5582(
-                                    // REPLACE: anatomy /əˈnætəmi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnatomy5582("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnatomy5582(
+                                        // REPLACE: anatomy /əˈnætəmi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

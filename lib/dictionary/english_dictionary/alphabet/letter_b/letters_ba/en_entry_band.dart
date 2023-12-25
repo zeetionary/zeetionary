@@ -201,12 +201,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands1(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands1(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +228,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands2(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands2(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -245,12 +255,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێک لە مەچەکە کە ناویانی لەسەر نووسراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands3(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands3(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -267,12 +282,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands4(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands4(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -289,12 +309,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands5(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands5(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -310,12 +335,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands6(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands6(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -332,12 +362,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands7(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands7(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -353,12 +388,17 @@ class EnglishEntryband extends StatelessWidget {
                                   text:
                                       "باجدان دەستە دەستە دەکرێت بەپێی داھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBands8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBands8(// REPLACE: band
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBands8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBands8(// REPLACE: band
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,14 +137,18 @@ class EnglishEntryambivalence extends StatelessWidget {
                                   text:
                                       "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmbivalence444722("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbivalence444722(
-                                    // REPLACE: ambivalence /æmˈbɪvələns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbivalence444722("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbivalence444722(
+                                        // REPLACE: ambivalence /æmˈbɪvələns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

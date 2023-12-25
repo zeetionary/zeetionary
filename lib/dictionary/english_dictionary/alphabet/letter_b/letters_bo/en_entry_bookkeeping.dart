@@ -175,11 +175,17 @@ class EnglishEntrybookkeeping extends StatelessWidget {
                                   text:
                                       "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbookkeepings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbookkeepings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbookkeepings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbookkeepings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

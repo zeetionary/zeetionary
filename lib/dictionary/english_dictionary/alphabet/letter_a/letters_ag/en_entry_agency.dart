@@ -134,13 +134,17 @@ class EnglishEntryagency extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ دەزگایەکی چاودێری کاردەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgency27469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgency27469(
-                                    // REPLACE: agency /ˈeɪdʒənsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgency27469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgency27469(
+                                        // REPLACE: agency /ˈeɪdʒənsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryagency extends StatelessWidget {
                                   text:
                                       "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgency2593("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgency2593(
-                                    // REPLACE: agency /ˈeɪdʒənsi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgency2593("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgency2593(
+                                        // REPLACE: agency /ˈeɪdʒənsi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

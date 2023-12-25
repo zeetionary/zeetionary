@@ -136,12 +136,16 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                   text:
                                       "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc25469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAc25469("en-US"), // REPLACE: accustom
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc25469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc25469(
+                                        "en-US"), // REPLACE: accustom
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,12 +159,16 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                   text:
                                       "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc25467("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAc25467("en-US"), // REPLACE: accustom
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc25467("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc25467(
+                                        "en-US"), // REPLACE: accustom
+                                  ),
+                                ],
                               ),
                             ],
                           ),

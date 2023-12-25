@@ -136,13 +136,18 @@ class EnglishEntryallegedly extends StatelessWidget {
                                   text:
                                       "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegedly35266("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegedly35266(
-                                    // REPLACE: allegedly /əˈledʒɪdli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllegedly35266("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegedly35266(
+                                        // REPLACE: allegedly /əˈledʒɪdli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

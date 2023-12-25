@@ -136,13 +136,17 @@ class EnglishEntryalms extends StatelessWidget {
                                   text:
                                       "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlms4266("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlms4266(// REPLACE: alms /ɑːmz/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlms4266("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlms4266(// REPLACE: alms /ɑːmz/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

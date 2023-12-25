@@ -178,13 +178,17 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                                   text:
                                       "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxiomatics1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAxiomatics1(// REPLACE: axiomatic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxiomatics1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxiomatics1(// REPLACE: axiomatic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

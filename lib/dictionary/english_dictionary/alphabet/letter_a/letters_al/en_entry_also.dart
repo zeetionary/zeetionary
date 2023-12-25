@@ -146,13 +146,17 @@ class EnglishEntryalso extends StatelessWidget {
                                   text:
                                       "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlso74823("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlso74823(// REPLACE: also /ˈɔːlsəʊ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlso74823("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlso74823(
+                                        // REPLACE: also /ˈɔːlsəʊ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -166,13 +170,17 @@ class EnglishEntryalso extends StatelessWidget {
                                   text:
                                       "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlso459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlso459(// REPLACE: also /ˈɔːlsəʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlso459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlso459(// REPLACE: also /ˈɔːlsəʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

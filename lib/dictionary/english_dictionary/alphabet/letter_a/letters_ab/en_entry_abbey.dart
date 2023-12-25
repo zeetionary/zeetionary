@@ -108,11 +108,15 @@ class EnglishEntryabbey extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کڵێسایەکی وێرانە"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAbbey11452("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAbbey11452("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAbbey11452("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAbbey11452("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,17 @@ class EnglishEntryampup extends StatelessWidget {
                                   text:
                                       "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmpup4414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmpup4414(// REPLACE: amp up /æmp ʌp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmpup4414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmpup4414(
+                                        // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntryampup extends StatelessWidget {
                                   text:
                                       "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmpup5560("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmpup5560(// REPLACE: amp up /æmp ʌp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmpup5560("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmpup5560(
+                                        // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,13 +229,17 @@ class EnglishEntryampup extends StatelessWidget {
                                   text:
                                       "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmpup44855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmpup44855(// REPLACE: amp up /æmp ʌp/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmpup44855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmpup44855(
+                                        // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

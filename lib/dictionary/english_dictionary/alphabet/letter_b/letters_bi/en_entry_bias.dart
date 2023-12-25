@@ -183,11 +183,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,11 +206,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,11 +231,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -242,11 +254,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -263,11 +279,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "ئەگەر ڕێژەی وەڵامدانەوە کەم بێت، ئەگەری نادرووستی زیاتر دەبێت لە دۆزینەوەکاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -283,11 +303,15 @@ class EnglishEntrybias extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژنامەکان خەڵکیان دژی ھانداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -304,11 +328,15 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiass7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiass7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiass7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiass7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -120,11 +120,15 @@ class EnglishEntryaccountable extends StatelessWidget {
                                   text:
                                       "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA65814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA65814("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA65814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA65814("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

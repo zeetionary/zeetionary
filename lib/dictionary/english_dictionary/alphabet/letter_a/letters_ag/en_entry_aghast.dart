@@ -133,13 +133,17 @@ class EnglishEntryaghast extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAghas15622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAghas15622(// REPLACE: aghast /əˈɡɑːst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAghas15622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAghas15622(
+                                        // REPLACE: aghast /əˈɡɑːst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

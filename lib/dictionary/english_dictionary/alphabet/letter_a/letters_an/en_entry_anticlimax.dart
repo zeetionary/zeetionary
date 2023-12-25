@@ -180,13 +180,18 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   text:
                                       "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticlimax843("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticlimax843(
-                                    // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticlimax843("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticlimax843(
+                                        // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

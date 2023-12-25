@@ -183,17 +183,21 @@ class EnglishEntryashore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەرەو وشکانی مەلەمان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshore607("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAshore607(// REPLACE: ashore /əˈʃɔːr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshore607("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshore607(
+                                        // REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -204,13 +208,17 @@ class EnglishEntryashore extends StatelessWidget {
                                   text:
                                       "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAshore609("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAshore609(// REPLACE: ashore /əˈʃɔːr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAshore609("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAshore609(
+                                        // REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

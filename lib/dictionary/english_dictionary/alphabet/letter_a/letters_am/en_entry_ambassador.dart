@@ -138,13 +138,18 @@ class EnglishEntryambassador extends StatelessWidget {
                                   text:
                                       "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbassador56661("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbassador56661(
-                                    // REPLACE: ambassador /æmˈbæsədər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbassador56661("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbassador56661(
+                                        // REPLACE: ambassador /æmˈbæsədər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +163,17 @@ class EnglishEntryambassador extends StatelessWidget {
                                   text:
                                       "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbassador8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbassador8(
-                                    // REPLACE: ambassador /æmˈbæsədər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmbassador8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbassador8(
+                                        // REPLACE: ambassador /æmˈbæsədər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,13 +178,17 @@ class EnglishEntryaviary extends StatelessWidget {
                                   text:
                                       "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAviarys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAviarys1(// REPLACE: aviary
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAviarys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAviarys1(// REPLACE: aviary
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

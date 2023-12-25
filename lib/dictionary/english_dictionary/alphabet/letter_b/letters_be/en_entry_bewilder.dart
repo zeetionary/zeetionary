@@ -178,11 +178,15 @@ class EnglishEntrybewilder extends StatelessWidget {
                                   text:
                                       "بە تەواوی سەریلێشێوا بە گۆڕانی لەناکاوی حەوسەلەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewilders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewilders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewilders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewilders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybewilder extends StatelessWidget {
                                   text:
                                       "نەبوونی تەواوی حەزی بۆ پارە دایک و باوکی حەپەساندبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBewilders2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBewilders2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBewilders2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBewilders2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

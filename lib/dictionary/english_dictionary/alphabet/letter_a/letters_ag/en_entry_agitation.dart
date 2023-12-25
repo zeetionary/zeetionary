@@ -134,13 +134,17 @@ class EnglishEntryagitation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgita2477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgita2477(
-                                    // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgita2477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgita2477(
+                                        // REPLACE: agitation /ˌædʒɪˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryagitation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgi3514("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgi3514(
-                                    // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgi3514("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgi3514(
+                                        // REPLACE: agitation /ˌædʒɪˈteɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

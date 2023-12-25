@@ -187,13 +187,18 @@ class EnglishEntryautomobile extends StatelessWidget {
                                   text:
                                       "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomobile847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomobile847(// REPLACE: automobile
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomobile847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAutomobile847(
+                                        // REPLACE: automobile
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

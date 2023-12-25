@@ -134,13 +134,17 @@ class EnglishEntryaffidavit extends StatelessWidget {
                                   text:
                                       "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffi359("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffi359(
-                                    // REPLACE: affidavit /ˌæfəˈdeɪvɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffi359("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffi359(
+                                        // REPLACE: affidavit /ˌæfəˈdeɪvɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

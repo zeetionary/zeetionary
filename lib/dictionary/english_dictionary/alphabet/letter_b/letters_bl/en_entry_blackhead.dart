@@ -175,11 +175,15 @@ class EnglishEntryblackhead extends StatelessWidget {
                                   text:
                                       "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووستبوونی چەوری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackheads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackheads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackheads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackheads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,12 +178,17 @@ class EnglishEntryavow extends StatelessWidget {
                                   text:
                                       "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvows1(// REPLACE: avow
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvows1(// REPLACE: avow
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

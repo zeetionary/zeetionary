@@ -134,13 +134,17 @@ class EnglishEntryalto extends StatelessWidget {
                                   text:
                                       "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlto4565("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlto4565(// REPLACE: alto /ˈæltəʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlto4565("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlto4565(// REPLACE: alto /ˈæltəʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

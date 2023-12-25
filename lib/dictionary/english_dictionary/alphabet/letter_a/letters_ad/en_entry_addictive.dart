@@ -133,13 +133,17 @@ class EnglishEntryaddictive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یارییەکە زۆر ئاڵوودەکەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddic427("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAddic427(
-                                    // REPLACE: addictive /əˈdɪktɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddic427("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddic427(
+                                        // REPLACE: addictive /əˈdɪktɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryaddictive extends StatelessWidget {
                                   text:
                                       "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddict241("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAddict241(
-                                    // REPLACE: addictive /əˈdɪktɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddict241("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddict241(
+                                        // REPLACE: addictive /əˈdɪktɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

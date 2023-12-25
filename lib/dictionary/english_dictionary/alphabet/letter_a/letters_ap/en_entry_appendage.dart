@@ -184,13 +184,17 @@ class EnglishEntryappendage extends StatelessWidget {
                                   text:
                                       "وەک پاشکۆی ئەنگلتەرە مامەڵە لەگەڵ سکۆتلەندە دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppendage128("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppendage128(
-                                    // REPLACE: appendage /əˈpendɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppendage128("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppendage128(
+                                        // REPLACE: appendage /əˈpendɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryappendage extends StatelessWidget {
                                   text:
                                       "ئەو دوو ئەندامەی کە لە دەمی مێرووەکەوە دەرچوون بەکاردێن بۆ ناسینەوە و تام‌کردنی خۆراک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppendage132("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppendage132(
-                                    // REPLACE: appendage /əˈpendɪdʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppendage132("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppendage132(
+                                        // REPLACE: appendage /əˈpendɪdʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

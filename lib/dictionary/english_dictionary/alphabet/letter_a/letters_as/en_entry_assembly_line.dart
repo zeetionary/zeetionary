@@ -184,13 +184,18 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                   text:
                                       "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssemblyline1003("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssemblyline1003(
-                                    // REPLACE: assembly line /əˈsembli laɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssemblyline1003("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssemblyline1003(
+                                        // REPLACE: assembly line /əˈsembli laɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -133,13 +133,17 @@ class EnglishEntryafterwards extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دواتر زۆر پەشیمان بۆ ئەوەی گوتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfter259("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfter259(
-                                    // REPLACE: afterwards /ˈɑːftərwədz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfter259("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter259(
+                                        // REPLACE: afterwards /ˈɑːftərwədz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

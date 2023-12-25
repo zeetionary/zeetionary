@@ -177,11 +177,15 @@ class EnglishEntrybiographer extends StatelessWidget {
                                   text:
                                       "ژیاننامەنووسەکە بەوردی لێکۆڵینەوەی کرد لە تۆمارە مێژووییەکان و چاوپێکەوتنی لەگەڵ ئەندامانی خێزانەکە ئەنجامدا بۆ گێڕانەوەی وێنایەکی تەواوی ژیانی سیاسەتمەدارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiographers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiographers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiographers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiographers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

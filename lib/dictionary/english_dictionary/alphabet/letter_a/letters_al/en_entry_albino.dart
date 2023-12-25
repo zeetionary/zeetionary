@@ -137,13 +137,17 @@ class EnglishEntryalbino extends StatelessWidget {
                                   text:
                                       "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbino4855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlbino4855(
-                                    // REPLACE: albino /ælˈbaɪnəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlbino4855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbino4855(
+                                        // REPLACE: albino /ælˈbaɪnəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryalbino extends StatelessWidget {
                                   text:
                                       "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbino3411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlbino3411(
-                                    // REPLACE: albino /ælˈbaɪnəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlbino3411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbino3411(
+                                        // REPLACE: albino /ælˈbaɪnəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

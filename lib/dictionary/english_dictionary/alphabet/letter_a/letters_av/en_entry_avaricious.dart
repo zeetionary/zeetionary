@@ -179,13 +179,17 @@ class EnglishEntryavaricious extends StatelessWidget {
                                   text:
                                       "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvariciouss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvariciouss1(// REPLACE: avaricious
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvariciouss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvariciouss1(// REPLACE: avaricious
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

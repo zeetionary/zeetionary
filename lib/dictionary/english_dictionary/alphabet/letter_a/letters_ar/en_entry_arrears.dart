@@ -186,17 +186,21 @@ class EnglishEntryarrears extends StatelessWidget {
                                   text:
                                       "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrears400("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrears400(// REPLACE: arrears /əˈrɪrz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrears400("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrears400(
+                                        // REPLACE: arrears /əˈrɪrz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -207,13 +211,17 @@ class EnglishEntryarrears extends StatelessWidget {
                                   text:
                                       "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrears404("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrears404(// REPLACE: arrears /əˈrɪrz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrears404("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrears404(
+                                        // REPLACE: arrears /əˈrɪrz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

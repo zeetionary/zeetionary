@@ -176,11 +176,15 @@ class EnglishEntryblaspheme extends StatelessWidget {
                                   text:
                                       "چۆن بوێری ئەوەی ئەکەیت کفر بکەیت لە پێش باوکی خۆتدا؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblasphemes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblasphemes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblasphemes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblasphemes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryblaspheme extends StatelessWidget {
                                   text:
                                       "تاوانبارکرا بە سوکایەتی کردن بە پێغەمبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblasphemes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblasphemes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblasphemes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblasphemes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

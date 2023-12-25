@@ -136,13 +136,18 @@ class EnglishEntryalgebra extends StatelessWidget {
                                   text:
                                       "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlgebra356994("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlgebra356994(
-                                    // REPLACE: algebra /ˈældʒɪbrə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlgebra356994("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlgebra356994(
+                                        // REPLACE: algebra /ˈældʒɪbrə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

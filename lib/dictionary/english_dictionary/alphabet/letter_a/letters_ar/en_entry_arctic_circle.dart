@@ -185,13 +185,18 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                                   text:
                                       "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArcticcircle505("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArcticcircle505(
-                                    // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArcticcircle505("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArcticcircle505(
+                                        // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

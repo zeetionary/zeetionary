@@ -134,13 +134,17 @@ class EnglishEntryagonized extends StatelessWidget {
                                   text:
                                       "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgonized147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgonized147(
-                                    // REPLACE: agonized /ˈæɡənaɪzd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgonized147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgonized147(
+                                        // REPLACE: agonized /ˈæɡənaɪzd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

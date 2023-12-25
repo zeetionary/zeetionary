@@ -177,13 +177,18 @@ class EnglishEntryantagonize extends StatelessWidget {
                                   text:
                                       "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntagonize117("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntagonize117(
-                                    // REPLACE: Antagonize /ænˈtæɡənaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntagonize117("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntagonize117(
+                                        // REPLACE: Antagonize /ænˈtæɡənaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

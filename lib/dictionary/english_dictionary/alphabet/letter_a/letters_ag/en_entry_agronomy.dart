@@ -134,13 +134,17 @@ class EnglishEntryagronomy extends StatelessWidget {
                                   text:
                                       "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgron3784("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgron3784(
-                                    // REPLACE: agronomy /əˈɡrɑːnəmi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgron3784("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgron3784(
+                                        // REPLACE: agronomy /əˈɡrɑːnəmi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

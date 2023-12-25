@@ -161,13 +161,17 @@ class EnglishEntryagent extends StatelessWidget {
                                   text:
                                       "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgen25966("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgen25966(// REPLACE: agent /ˈeɪdʒənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgen25966("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgen25966(
+                                        // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,13 +185,17 @@ class EnglishEntryagent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAg15224("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAg15224(// REPLACE: agent /ˈeɪdʒənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAg15224("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAg15224(
+                                        // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +211,17 @@ class EnglishEntryagent extends StatelessWidget {
                                   text:
                                       "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAge256999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAge256999(// REPLACE: agent /ˈeɪdʒənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAge256999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAge256999(
+                                        // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +237,17 @@ class EnglishEntryagent extends StatelessWidget {
                                   text:
                                       "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgent56922("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgent56922(// REPLACE: agent /ˈeɪdʒənt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgent56922("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgent56922(
+                                        // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

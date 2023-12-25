@@ -134,13 +134,17 @@ class EnglishEntryafar extends StatelessWidget {
                                   text:
                                       "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfa2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfa2569(// REPLACE: afar /əˈfɑːr/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfa2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAfa2569(// REPLACE: afar /əˈfɑːr/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

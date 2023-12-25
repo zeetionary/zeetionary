@@ -180,11 +180,15 @@ class EnglishEntrybearing extends StatelessWidget {
                                   text:
                                       "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBearings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBearings1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBearings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBearings1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybearing extends StatelessWidget {
                                   text:
                                       "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBearings2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBearings2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBearings2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBearings2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybearing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBearings3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBearings3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBearings3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBearings3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -240,11 +252,15 @@ class EnglishEntrybearing extends StatelessWidget {
                                   text:
                                       "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBearings4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBearings4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBearings4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBearings4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

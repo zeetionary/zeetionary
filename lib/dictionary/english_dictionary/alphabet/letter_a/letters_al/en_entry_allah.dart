@@ -133,13 +133,17 @@ class EnglishEntryallah extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەوە ویستی خودایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllah359999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllah359999(
-                                    // REPLACE: Allah /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllah359999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllah359999(
+                                        // REPLACE: Allah /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

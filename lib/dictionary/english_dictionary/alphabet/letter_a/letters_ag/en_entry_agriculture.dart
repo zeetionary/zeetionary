@@ -135,13 +135,17 @@ class EnglishEntryagriculture extends StatelessWidget {
                                   text:
                                       "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgri3588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgri3588(
-                                    // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgri3588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgri3588(
+                                        // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

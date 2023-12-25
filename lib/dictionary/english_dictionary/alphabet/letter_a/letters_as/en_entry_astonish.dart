@@ -184,13 +184,17 @@ class EnglishEntryastonish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەواڵەکە ھەمووانی حەپەساند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstonish1031("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstonish1031(// REPLACE: astonish
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAstonish1031("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAstonish1031(// REPLACE: astonish
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

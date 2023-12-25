@@ -174,11 +174,15 @@ class EnglishEntryblowup extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblowups1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblowups1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblowups1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblowups1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

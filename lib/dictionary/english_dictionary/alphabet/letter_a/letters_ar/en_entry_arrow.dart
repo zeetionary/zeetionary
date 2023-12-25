@@ -186,13 +186,17 @@ class EnglishEntryarrow extends StatelessWidget {
                                   text:
                                       "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrow745("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrow745(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrow745("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArrow745(// REPLACE: arrow /ˈærəʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarrow extends StatelessWidget {
                                   text:
                                       "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrow746("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrow746(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrow746("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArrow746(// REPLACE: arrow /ˈærəʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +236,17 @@ class EnglishEntryarrow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پابەندی ھێماکان بە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrow750("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArrow750(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrow750("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakArrow750(// REPLACE: arrow /ˈærəʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

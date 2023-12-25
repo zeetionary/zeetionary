@@ -177,12 +177,16 @@ class EnglishEntrybaby extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ساڵی پار منداڵێکی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: baby
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3s1(// REPLACE: baby
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,12 +201,16 @@ class EnglishEntrybaby extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بچووکترین ئەندامی تیمەکەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s2(// REPLACE: baby
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3s2(// REPLACE: baby
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,12 +227,16 @@ class EnglishEntrybaby extends StatelessWidget {
                                   text:
                                       "واز لە گریان بێنە و ھێندە منداڵ مەبە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s3(// REPLACE: baby
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3s3(// REPLACE: baby
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -239,12 +251,16 @@ class EnglishEntrybaby extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاھ ھەناسەکەم، خۆشمدەوێیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s4(// REPLACE: baby
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3s4(// REPLACE: baby
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -261,12 +277,16 @@ class EnglishEntrybaby extends StatelessWidget {
                                   text:
                                       "کوڕەکان لە ئێستادا ١٠ ساڵان و ١٢ ساڵان بوون و نەیاندەویست دایکیان وەک منداڵ سەیریان بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s5(// REPLACE: baby
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3s5(// REPLACE: baby
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

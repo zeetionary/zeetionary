@@ -184,13 +184,18 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   text:
                                       "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuspiciously446("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuspiciously446(
-                                    // REPLACE: auspiciously
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuspiciously446("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuspiciously446(
+                                        // REPLACE: auspiciously
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

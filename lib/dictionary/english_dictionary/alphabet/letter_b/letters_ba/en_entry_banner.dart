@@ -179,13 +179,17 @@ class EnglishEntrybanner extends StatelessWidget {
                                   text:
                                       "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanners1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanners1(// REPLACE: banner
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanners1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanners1(// REPLACE: banner
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntrybanner extends StatelessWidget {
                                   text:
                                       "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBanners2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBanners2(// REPLACE: banner
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBanners2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBanners2(// REPLACE: banner
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

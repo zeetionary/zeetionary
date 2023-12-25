@@ -173,11 +173,15 @@ class EnglishEntryblazer extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی جوان چاکەت و پانتۆڵی لەبەرکردبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblazers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblazers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblazers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblazers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

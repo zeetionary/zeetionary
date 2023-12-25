@@ -176,13 +176,17 @@ class EnglishEntrybantam extends StatelessWidget {
                                   text:
                                       "جیاوازییەکی کەم دەبینم لەنێوان ھێلکەی مریشکی بانتم و ھەر ھێلکەیەکی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBantams1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBantams1(// REPLACE: bantam
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBantams1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBantams1(// REPLACE: bantam
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

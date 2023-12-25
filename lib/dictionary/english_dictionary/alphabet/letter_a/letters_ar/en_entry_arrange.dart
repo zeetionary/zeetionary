@@ -186,13 +186,17 @@ class EnglishEntryarrange extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاھەنگەکە بە خێرایی ڕێکخرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrange105("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrange105(
-                                    // REPLACE: arrange /əˈreɪndʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrange105("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrange105(
+                                        // REPLACE: arrange /əˈreɪndʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,13 +210,17 @@ class EnglishEntryarrange extends StatelessWidget {
                                   text:
                                       "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrange106("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrange106(
-                                    // REPLACE: arrange /əˈreɪndʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrange106("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrange106(
+                                        // REPLACE: arrange /əˈreɪndʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +237,17 @@ class EnglishEntryarrange extends StatelessWidget {
                                   text:
                                       "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrange108("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrange108(
-                                    // REPLACE: arrange /əˈreɪndʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrange108("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrange108(
+                                        // REPLACE: arrange /əˈreɪndʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,13 +264,17 @@ class EnglishEntryarrange extends StatelessWidget {
                                   text:
                                       "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArrange111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArrange111(
-                                    // REPLACE: arrange /əˈreɪndʒ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArrange111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArrange111(
+                                        // REPLACE: arrange /əˈreɪndʒ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

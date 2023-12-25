@@ -138,14 +138,18 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                   text:
                                       "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAlimentarycanal42588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlimentarycanal42588(
-                                    // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlimentarycanal42588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlimentarycanal42588(
+                                        // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

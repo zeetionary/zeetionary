@@ -135,13 +135,17 @@ class EnglishEntryadvancement extends StatelessWidget {
                                   text:
                                       "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvanc3598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvanc3598(
-                                    // REPLACE: advancement /ədˈvænsmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvanc3598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvanc3598(
+                                        // REPLACE: advancement /ədˈvænsmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

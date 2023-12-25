@@ -135,13 +135,17 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                   text:
                                       "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdn25691("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdn25691(
-                                    // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdn25691("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdn25691(
+                                        // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

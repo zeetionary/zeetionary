@@ -146,13 +146,17 @@ class EnglishEntryalthough extends StatelessWidget {
                                   text:
                                       "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlthough4596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlthough4596(
-                                    // REPLACE: although /ɔːlˈðəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlthough4596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlthough4596(
+                                        // REPLACE: although /ɔːlˈðəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -168,13 +172,17 @@ class EnglishEntryalthough extends StatelessWidget {
                                   text:
                                       "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlthough566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlthough566(
-                                    // REPLACE: although /ɔːlˈðəʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlthough566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlthough566(
+                                        // REPLACE: although /ɔːlˈðəʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,11 +177,15 @@ class EnglishEntrybellows extends StatelessWidget {
                                   text:
                                       "ئاسنگەرەکە مووشەدەمەی بەکارھێنا بۆ خۆشکردنی ئاگری کورەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellowss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellowss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBellowss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBellowss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

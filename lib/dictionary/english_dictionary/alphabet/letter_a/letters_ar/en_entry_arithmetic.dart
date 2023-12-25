@@ -181,13 +181,18 @@ class EnglishEntryarithmetic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لە ژمێرەناسیدا زۆر باش نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArithmetic1223("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArithmetic1223(
-                                    // REPLACE: arithmetic /əˈrɪθmətɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArithmetic1223("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArithmetic1223(
+                                        // REPLACE: arithmetic /əˈrɪθmətɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

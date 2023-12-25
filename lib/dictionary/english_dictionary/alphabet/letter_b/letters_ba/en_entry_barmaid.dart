@@ -176,13 +176,17 @@ class EnglishEntrybarmaid extends StatelessWidget {
                                   text:
                                       "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarmaids1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarmaids1(// REPLACE: barmaid
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarmaids1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarmaids1(// REPLACE: barmaid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

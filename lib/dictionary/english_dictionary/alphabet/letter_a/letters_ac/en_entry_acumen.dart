@@ -134,13 +134,17 @@ class EnglishEntryacumen extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی بەرچاو بیرتیژیی لە بازرگانیدا پیشاندابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcum527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAcum527(// REPLACE: acumen /ˈækjəmən/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcum527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcum527(
+                                        // REPLACE: acumen /ˈækjəmən/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

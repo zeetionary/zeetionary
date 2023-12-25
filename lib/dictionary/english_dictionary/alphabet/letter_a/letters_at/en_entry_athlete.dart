@@ -186,13 +186,17 @@ class EnglishEntryathlete extends StatelessWidget {
                                   text:
                                       "وەرزشوانەکان ماندوونەناسانە ڕاھێنان دەکەن بۆ ئۆڵمپیاد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAthlete754("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAthlete754(// REPLACE: athlete
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAthlete754("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAthlete754(// REPLACE: athlete
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

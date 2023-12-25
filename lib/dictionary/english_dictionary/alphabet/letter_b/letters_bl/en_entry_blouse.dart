@@ -174,11 +174,15 @@ class EnglishEntryblouse extends StatelessWidget {
                                   text:
                                       "بلووزێکی تازەی بۆ ھاوژینەکەی کڕی بۆ جەژنی لەدایکبوونی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblouses1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblouses1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblouses1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblouses1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntryblouse extends StatelessWidget {
                                   text:
                                       "بلووزەکەی کرد بە ناو تەنوورە کەمەر بەرزەکەیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblouses2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblouses2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblouses2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblouses2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

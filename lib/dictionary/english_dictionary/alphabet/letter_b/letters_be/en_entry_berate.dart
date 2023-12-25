@@ -175,11 +175,15 @@ class EnglishEntryberate extends StatelessWidget {
                                   text:
                                       "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerates1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerates1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerates1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerates1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

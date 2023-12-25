@@ -184,13 +184,17 @@ class EnglishEntryathletic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر وەرزشی دیارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAthletic808("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAthletic808(// REPLACE: athletic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAthletic808("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAthletic808(// REPLACE: athletic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryathletic extends StatelessWidget {
                                   text:
                                       "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAthletic813("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAthletic813(// REPLACE: athletic
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAthletic813("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAthletic813(// REPLACE: athletic
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -132,13 +132,17 @@ class EnglishEntryagony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەربازەکە بە ئازارەوە مرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgo1488("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgo1488(// REPLACE: agony /ˈæɡəni/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgo1488("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgo1488(// REPLACE: agony /ˈæɡəni/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -151,13 +155,17 @@ class EnglishEntryagony extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "جاک لە ئازاردا کەوت بە زەوییەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgo1566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgo1566(// REPLACE: agony /ˈæɡəni/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgo1566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAgo1566(// REPLACE: agony /ˈæɡəni/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

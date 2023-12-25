@@ -184,13 +184,17 @@ class EnglishEntryargue extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "براکانم ھەمیشە شەڕەدەمیانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArgue957("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArgue957(// REPLACE: argue /ˈɑːrɡjuː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArgue957("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArgue957(
+                                        // REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryargue extends StatelessWidget {
                                   text:
                                       "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArgue958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArgue958(// REPLACE: argue /ˈɑːrɡjuː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArgue958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArgue958(
+                                        // REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryargue extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArgue1000("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArgue1000(// REPLACE: argue /ˈɑːrɡjuː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArgue1000("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArgue1000(
+                                        // REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +261,17 @@ class EnglishEntryargue extends StatelessWidget {
                                   text:
                                       "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArgue1002("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArgue1002(// REPLACE: argue /ˈɑːrɡjuː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArgue1002("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArgue1002(
+                                        // REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

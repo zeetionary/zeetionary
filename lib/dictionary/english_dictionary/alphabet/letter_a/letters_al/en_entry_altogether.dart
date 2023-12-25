@@ -163,13 +163,18 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   text:
                                       "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltogether588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltogether588(
-                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAltogether588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltogether588(
+                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -182,13 +187,18 @@ class EnglishEntryaltogether extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تەواوی بارودۆخێکی گونجاو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltogether45666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltogether45666(
-                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAltogether45666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltogether45666(
+                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +212,18 @@ class EnglishEntryaltogether extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltogether523333("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltogether523333(
-                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAltogether523333("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltogether523333(
+                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +239,18 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   text:
                                       "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAltogether4144("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAltogether4144(
-                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAltogether4144("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAltogether4144(
+                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

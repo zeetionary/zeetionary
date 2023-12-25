@@ -178,13 +178,18 @@ class EnglishEntryanesthesia extends StatelessWidget {
                                   text:
                                       "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakanesthesia25630("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakanesthesia25630(
-                                    // REPLACE: anesthesia /ˌænəsˈθiːʒə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakanesthesia25630("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakanesthesia25630(
+                                        // REPLACE: anesthesia /ˌænəsˈθiːʒə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

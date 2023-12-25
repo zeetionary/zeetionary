@@ -183,13 +183,17 @@ class EnglishEntryassassin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssassin958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssassin958(
-                                    // REPLACE: assassin /əˈsæsn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssassin958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssassin958(
+                                        // REPLACE: assassin /əˈsæsn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

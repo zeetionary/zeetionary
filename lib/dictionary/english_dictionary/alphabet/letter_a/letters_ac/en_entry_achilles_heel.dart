@@ -134,12 +134,16 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                   text:
                                       "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc153864("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc153864(
-                                    "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc153864("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc153864(
+                                        "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

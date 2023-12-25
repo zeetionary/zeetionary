@@ -185,13 +185,18 @@ class EnglishEntryartillery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtillery1010("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtillery1010(
-                                    // REPLACE: artillery /ɑːrˈtɪləri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtillery1010("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtillery1010(
+                                        // REPLACE: artillery /ɑːrˈtɪləri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryartillery extends StatelessWidget {
                                   text:
                                       "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtillery1014("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtillery1014(
-                                    // REPLACE: artillery /ɑːrˈtɪləri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakArtillery1014("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtillery1014(
+                                        // REPLACE: artillery /ɑːrˈtɪləri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -173,11 +173,17 @@ class EnglishEntryboardinghouse extends StatelessWidget {
                                   text:
                                       "دایک و باوکی میوانخانەیەکیان ھەبوو لە میامی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboardinghouses1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboardinghouses1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboardinghouses1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboardinghouses1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

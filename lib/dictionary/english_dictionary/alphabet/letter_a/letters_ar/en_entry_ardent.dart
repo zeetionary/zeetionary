@@ -183,13 +183,17 @@ class EnglishEntryardent extends StatelessWidget {
                                   text:
                                       "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArdent516("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArdent516(// REPLACE: ardent /ˈɑːrdnt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArdent516("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArdent516(
+                                        // REPLACE: ardent /ˈɑːrdnt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

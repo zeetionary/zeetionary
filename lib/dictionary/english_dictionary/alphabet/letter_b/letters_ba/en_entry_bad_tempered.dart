@@ -179,13 +179,18 @@ class EnglishEntrybadtempered extends StatelessWidget {
                                   text:
                                       "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadtempereds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBadtempereds1(// REPLACE: bad-tempered
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBadtempereds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBadtempereds1(
+                                        // REPLACE: bad-tempered
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

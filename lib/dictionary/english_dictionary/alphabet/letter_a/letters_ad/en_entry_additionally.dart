@@ -135,13 +135,17 @@ class EnglishEntryadditionally extends StatelessWidget {
                                   text:
                                       "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddit2541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAddit2541(
-                                    // REPLACE: additionally /əˈdɪʃənəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddit2541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddit2541(
+                                        // REPLACE: additionally /əˈdɪʃənəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

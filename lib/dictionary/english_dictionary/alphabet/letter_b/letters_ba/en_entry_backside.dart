@@ -177,12 +177,17 @@ class EnglishEntrybackside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سمتت لە ئەرز ھەڵبڕە و کارێک بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backside
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backside
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

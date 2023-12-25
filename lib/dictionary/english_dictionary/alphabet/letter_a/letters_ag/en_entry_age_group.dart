@@ -134,13 +134,18 @@ class EnglishEntryagegroup extends StatelessWidget {
                                   text:
                                       "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgegrou199852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgegrou199852(
-                                    // REPLACE: age group /ˈeɪdʒ ɡruːp/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAgegrou199852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgegrou199852(
+                                        // REPLACE: age group /ˈeɪdʒ ɡruːp/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

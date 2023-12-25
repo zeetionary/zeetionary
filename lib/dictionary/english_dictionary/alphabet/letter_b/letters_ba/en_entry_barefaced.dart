@@ -171,11 +171,15 @@ class EnglishEntrybarefaced extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەوە درۆیەکی بێ‌شەرمانەیە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarefaceds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarefaceds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarefaceds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarefaceds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybarefaced extends StatelessWidget {
                                   text:
                                       "ڕوویەکی سرووشتی بێ مەیکەپم لا پەسەندە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarefaceds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarefaceds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarefaceds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarefaceds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

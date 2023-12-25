@@ -185,13 +185,17 @@ class EnglishEntryasbestos extends StatelessWidget {
                                   text:
                                       "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsbestos1111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsbestos1111(
-                                    // REPLACE: asbestos /æzˈbestəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsbestos1111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsbestos1111(
+                                        // REPLACE: asbestos /æzˈbestəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

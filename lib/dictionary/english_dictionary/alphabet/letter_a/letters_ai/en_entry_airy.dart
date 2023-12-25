@@ -136,13 +136,17 @@ class EnglishEntryairy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiry7352("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiry7352(// REPLACE: airy /ˈeri/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiry7352("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAiry7352(// REPLACE: airy /ˈeri/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryairy extends StatelessWidget {
                                   text:
                                       "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiry748("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiry748(// REPLACE: airy /ˈeri/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiry748("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAiry748(// REPLACE: airy /ˈeri/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +187,17 @@ class EnglishEntryairy extends StatelessWidget {
                                   text:
                                       "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiry4255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiry4255(// REPLACE: airy /ˈeri/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiry4255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAiry4255(// REPLACE: airy /ˈeri/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

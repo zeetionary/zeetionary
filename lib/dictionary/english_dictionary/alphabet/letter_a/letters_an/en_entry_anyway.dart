@@ -185,13 +185,17 @@ class EnglishEntryanyway extends StatelessWidget {
                                   text:
                                       "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyway847("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyway847(// REPLACE: anyway /ˈeniweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyway847("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyway847(
+                                        // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryanyway extends StatelessWidget {
                                   text:
                                       "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyway849("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyway849(// REPLACE: anyway /ˈeniweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyway849("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyway849(
+                                        // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryanyway extends StatelessWidget {
                                   text:
                                       "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyway855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyway855(// REPLACE: anyway /ˈeniweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyway855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyway855(
+                                        // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryanyway extends StatelessWidget {
                                   text:
                                       "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyway858("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyway858(// REPLACE: anyway /ˈeniweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyway858("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyway858(
+                                        // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -275,13 +291,17 @@ class EnglishEntryanyway extends StatelessWidget {
                                   text:
                                       "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnyway900("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnyway900(// REPLACE: anyway /ˈeniweɪ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnyway900("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnyway900(
+                                        // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

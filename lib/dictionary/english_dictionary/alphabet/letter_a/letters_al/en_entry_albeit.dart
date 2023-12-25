@@ -136,13 +136,17 @@ class EnglishEntryalbeit extends StatelessWidget {
                                   text:
                                       "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbeit3555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlbeit3555(
-                                    // REPLACE: albeit /ˌɔːlˈbiːɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlbeit3555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbeit3555(
+                                        // REPLACE: albeit /ˌɔːlˈbiːɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

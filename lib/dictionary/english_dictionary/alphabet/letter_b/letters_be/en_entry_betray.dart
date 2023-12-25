@@ -179,11 +179,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +202,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,11 +227,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -238,11 +250,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "دووبارە و دووبارە خیانەتی لە متمانەی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,11 +275,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,11 +300,15 @@ class EnglishEntrybetray extends StatelessWidget {
                                   text:
                                       "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBetrays5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBetrays5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBetrays5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBetrays5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

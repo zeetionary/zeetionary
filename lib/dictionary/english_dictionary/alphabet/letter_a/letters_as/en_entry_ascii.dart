@@ -181,13 +181,17 @@ class EnglishEntryASCII extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نووسراوەکە بە فایلێکی ئاسکی باربکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscii130("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAscii130(// REPLACE: ASCII /ˈæski/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAscii130("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAscii130(// REPLACE: ASCII /ˈæski/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

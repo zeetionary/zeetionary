@@ -170,11 +170,15 @@ class EnglishEntrybarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "میوزیکەکە وەڕەسم دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarmys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarmys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarmys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarmys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

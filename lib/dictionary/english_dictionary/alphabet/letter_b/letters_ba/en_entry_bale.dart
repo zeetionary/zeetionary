@@ -179,12 +179,17 @@ class EnglishEntrybale extends StatelessWidget {
                                   text:
                                       "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBales1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBales1(// REPLACE: bale
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBales1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBales1(// REPLACE: bale
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,12 +206,17 @@ class EnglishEntrybale extends StatelessWidget {
                                   text:
                                       "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBales2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBales2(// REPLACE: bale
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBales2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBales2(// REPLACE: bale
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,12 +233,17 @@ class EnglishEntrybale extends StatelessWidget {
                                   text:
                                       "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBales3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBales3(// REPLACE: bale
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBales3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBales3(// REPLACE: bale
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

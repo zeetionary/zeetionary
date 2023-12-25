@@ -181,13 +181,17 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                   text:
                                       "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuxiliarys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuxiliarys1(// REPLACE: auxiliary
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuxiliarys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuxiliarys1(// REPLACE: auxiliary
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -204,13 +208,17 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                   text:
                                       "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuxiliarys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuxiliarys2(// REPLACE: auxiliary
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuxiliarys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuxiliarys2(// REPLACE: auxiliary
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -227,13 +235,17 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                   text:
                                       "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuxiliarys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuxiliarys3(// REPLACE: auxiliary
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuxiliarys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuxiliarys3(// REPLACE: auxiliary
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -250,13 +262,17 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                   text:
                                       "ئاگرکوژێنەرەوەکان  لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuxiliarys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuxiliarys4(// REPLACE: auxiliary
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuxiliarys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuxiliarys4(// REPLACE: auxiliary
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

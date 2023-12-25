@@ -189,13 +189,17 @@ class EnglishEntryarticle extends StatelessWidget {
                                   text:
                                       "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticle525("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticle525(
-                                    // REPLACE: article /ˈɑːrtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArticle525("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticle525(
+                                        // REPLACE: article /ˈɑːrtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryarticle extends StatelessWidget {
                                   text:
                                       "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticle630("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticle630(
-                                    // REPLACE: article /ˈɑːrtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArticle630("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticle630(
+                                        // REPLACE: article /ˈɑːrtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryarticle extends StatelessWidget {
                                   text:
                                       "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticle635("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticle635(
-                                    // REPLACE: article /ˈɑːrtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArticle635("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticle635(
+                                        // REPLACE: article /ˈɑːrtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,13 +268,17 @@ class EnglishEntryarticle extends StatelessWidget {
                                   text:
                                       "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticle639("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticle639(
-                                    // REPLACE: article /ˈɑːrtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArticle639("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticle639(
+                                        // REPLACE: article /ˈɑːrtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -279,13 +295,17 @@ class EnglishEntryarticle extends StatelessWidget {
                                   text:
                                       "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArticle641("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArticle641(
-                                    // REPLACE: article /ˈɑːrtɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArticle641("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArticle641(
+                                        // REPLACE: article /ˈɑːrtɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

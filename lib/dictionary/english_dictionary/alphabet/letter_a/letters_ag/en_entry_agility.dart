@@ -134,13 +134,17 @@ class EnglishEntryagility extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گورجوگۆڵی بزنێکی شاخاوی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgility1562("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgility1562(
-                                    // REPLACE: agility /əˈdʒɪləti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgility1562("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgility1562(
+                                        // REPLACE: agility /əˈdʒɪləti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryagility extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بیروھۆشی منداڵ بە کەم سەیر دەکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgilit48966("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgilit48966(
-                                    // REPLACE: agility /əˈdʒɪləti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgilit48966("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgilit48966(
+                                        // REPLACE: agility /əˈdʒɪləti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

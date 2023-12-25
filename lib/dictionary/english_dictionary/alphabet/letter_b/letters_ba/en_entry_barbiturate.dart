@@ -170,11 +170,17 @@ class EnglishEntrybarbiturate extends StatelessWidget {
                                   text:
                                       "بەھۆی ڕێژەیەکی زۆری مادەی بێھۆشکەرەوە مرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbiturates1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarbiturates1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBarbiturates1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbiturates1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

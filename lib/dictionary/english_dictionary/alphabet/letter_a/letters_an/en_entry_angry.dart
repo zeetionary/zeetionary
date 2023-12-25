@@ -178,13 +178,17 @@ class EnglishEntryangry extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارەکانی بەڕاستی تووڕەیان کردم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngry4102("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngry4102(// REPLACE: angry /ˈæŋɡri/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngry4102("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngry4102(
+                                        // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +203,17 @@ class EnglishEntryangry extends StatelessWidget {
                                   text:
                                       "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngry0158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngry0158(// REPLACE: angry /ˈæŋɡri/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngry0158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngry0158(
+                                        // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,13 +228,17 @@ class EnglishEntryangry extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاوساوییەکی بەئازار لەسەر لاقی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngry4952("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngry4952(// REPLACE: angry /ˈæŋɡri/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngry4952("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngry4952(
+                                        // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -243,13 +255,17 @@ class EnglishEntryangry extends StatelessWidget {
                                   text:
                                       "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngry4506("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngry4506(// REPLACE: angry /ˈæŋɡri/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngry4506("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngry4506(
+                                        // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

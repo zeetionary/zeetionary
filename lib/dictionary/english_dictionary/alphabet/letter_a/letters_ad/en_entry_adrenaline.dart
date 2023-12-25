@@ -134,13 +134,17 @@ class EnglishEntryadrenaline extends StatelessWidget {
                                   text:
                                       "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdren235874("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdren235874(
-                                    // REPLACE: adrenaline /əˈdrenəlɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdren235874("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdren235874(
+                                        // REPLACE: adrenaline /əˈdrenəlɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

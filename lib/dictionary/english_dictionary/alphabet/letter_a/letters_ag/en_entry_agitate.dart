@@ -134,13 +134,17 @@ class EnglishEntryagitate extends StatelessWidget {
                                   text:
                                       "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgit125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgit125(// REPLACE: agitate /ˈædʒɪteɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgit125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgit125(
+                                        // REPLACE: agitate /ˈædʒɪteɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نامەوێ توورەی بکەم بە پێ وتنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgit7592("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgit7592(
-                                    // REPLACE: agitate /ˈædʒɪteɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgit7592("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgit7592(
+                                        // REPLACE: agitate /ˈædʒɪteɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -177,13 +185,17 @@ class EnglishEntryagitate extends StatelessWidget {
                                   text:
                                       "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgita3477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgita3477(
-                                    // REPLACE: agitate /ˈædʒɪteɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgita3477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgita3477(
+                                        // REPLACE: agitate /ˈædʒɪteɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryageism extends StatelessWidget {
                                   text:
                                       "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgei148885("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgei148885(
-                                    // REPLACE: ageism /ˈeɪdʒɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgei148885("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgei148885(
+                                        // REPLACE: ageism /ˈeɪdʒɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

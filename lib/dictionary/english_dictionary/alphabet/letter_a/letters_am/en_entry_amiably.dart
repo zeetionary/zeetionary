@@ -201,13 +201,17 @@ class EnglishEntryamiably extends StatelessWidget {
                                   text:
                                       "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmiably44557("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmiably44557(
-                                    // REPLACE: amiably /ˈeɪmiəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmiably44557("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmiably44557(
+                                        // REPLACE: amiably /ˈeɪmiəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

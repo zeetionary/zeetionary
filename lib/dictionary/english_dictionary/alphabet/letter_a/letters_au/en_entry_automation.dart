@@ -187,13 +187,18 @@ class EnglishEntryautomation extends StatelessWidget {
                                   text:
                                       "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutomation838("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomation838(// REPLACE: automation
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutomation838("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAutomation838(
+                                        // REPLACE: automation
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

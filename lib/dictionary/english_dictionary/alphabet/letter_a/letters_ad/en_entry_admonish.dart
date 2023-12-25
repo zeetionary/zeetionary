@@ -131,13 +131,17 @@ class EnglishEntryadmonish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmon2568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmon2568(
-                                    // REPLACE: admonish /ədˈmɒnɪʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmon2568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmon2568(
+                                        // REPLACE: admonish /ədˈmɒnɪʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

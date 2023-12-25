@@ -131,11 +131,15 @@ class EnglishEntryabortion extends StatelessWidget {
                                   text:
                                       "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA449("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA449("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA449("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA449("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -149,11 +153,15 @@ class EnglishEntryabortion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA112("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA112("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA112("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA112("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -169,11 +177,15 @@ class EnglishEntryabortion extends StatelessWidget {
                                   text:
                                       "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA692("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA692("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA692("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA692("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

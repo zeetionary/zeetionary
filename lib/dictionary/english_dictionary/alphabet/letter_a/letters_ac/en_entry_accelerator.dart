@@ -121,11 +121,15 @@ class EnglishEntryaccelerator extends StatelessWidget {
                                   text:
                                       "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc45871("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc45871("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc45871("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc45871("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

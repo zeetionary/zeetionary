@@ -184,17 +184,22 @@ class EnglishEntryassistance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssistance907("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssistance907(
-                                    // REPLACE: assistance /əˈsɪstəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssistance907("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssistance907(
+                                        // REPLACE: assistance /əˈsɪstəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -205,13 +210,18 @@ class EnglishEntryassistance extends StatelessWidget {
                                   text:
                                       "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssistance908("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssistance908(
-                                    // REPLACE: assistance /əˈsɪstəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssistance908("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssistance908(
+                                        // REPLACE: assistance /əˈsɪstəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -119,11 +119,15 @@ class EnglishEntryabyss extends StatelessWidget {
                                   text:
                                       "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA24691("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA24691("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA24691("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA24691("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

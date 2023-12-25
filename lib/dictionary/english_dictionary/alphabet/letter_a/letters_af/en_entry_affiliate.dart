@@ -136,13 +136,17 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                   text:
                                       "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffil3588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffil3588(
-                                    // REPLACE: affiliate /əˈfɪlieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffil3588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffil3588(
+                                        // REPLACE: affiliate /əˈfɪlieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,13 +160,17 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                   text:
                                       "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffi2699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffi2699(
-                                    // REPLACE: affiliate /əˈfɪlieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffi2699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffi2699(
+                                        // REPLACE: affiliate /əˈfɪlieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -177,13 +185,17 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffi25699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffi25699(
-                                    // REPLACE: affiliate /əˈfɪlieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffi25699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffi25699(
+                                        // REPLACE: affiliate /əˈfɪlieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

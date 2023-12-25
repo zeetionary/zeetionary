@@ -178,11 +178,15 @@ class EnglishEntrybestiality extends StatelessWidget {
                                   text:
                                       "گیانەوەربازی نایاساییە و وەک جۆرێک لە دڕندەیی بەرامبەر ئاژەڵان دادەنرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestialitys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestialitys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestialitys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestialitys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybestiality extends StatelessWidget {
                                   text:
                                       "ڕژێمە دیکتاتۆرەکە ناسرابوو بە دڕندەیی بەرامبەر خەڵکی خۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestialitys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestialitys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestialitys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestialitys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

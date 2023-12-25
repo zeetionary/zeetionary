@@ -183,14 +183,18 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                   text:
                                       "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAntiperspirant1117("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntiperspirant1117(
-                                    // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntiperspirant1117("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntiperspirant1117(
+                                        // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -135,13 +135,17 @@ class EnglishEntryalloy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مسی سپی داڕشتەی مس و زینکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlloy4277("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlloy4277(// REPLACE: alloy /ˈælɔɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlloy4277("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAlloy4277(// REPLACE: alloy /ˈælɔɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

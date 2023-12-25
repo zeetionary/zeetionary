@@ -132,12 +132,16 @@ class EnglishEntryacquiesce extends StatelessWidget {
                                   text:
                                       "پلانەکەی ڕوونکردەوە و ئێمەش بە نابەدڵییەوە ڕازیبووین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcq154("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcq154(
-                                    "en-US"), // REPLACE acquiesce /ˌækwiˈes/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcq154("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcq154(
+                                        "en-US"), // REPLACE acquiesce /ˌækwiˈes/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

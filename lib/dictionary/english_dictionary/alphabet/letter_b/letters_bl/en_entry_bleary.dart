@@ -174,11 +174,15 @@ class EnglishEntrybleary extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاوی ماندوو بووبوو بەھۆی کەم‌خەوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblearys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblearys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblearys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblearys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

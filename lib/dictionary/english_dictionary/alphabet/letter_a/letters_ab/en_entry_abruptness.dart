@@ -120,11 +120,15 @@ class EnglishEntryabruptness extends StatelessWidget {
                                   text:
                                       "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6417("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6417("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6417("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6417("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

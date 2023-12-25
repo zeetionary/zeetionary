@@ -183,13 +183,17 @@ class EnglishEntryarthritic extends StatelessWidget {
                                   text:
                                       "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArthritic457("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArthritic457(
-                                    // REPLACE: arthritic /ɑːrˈθrɪtɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArthritic457("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArthritic457(
+                                        // REPLACE: arthritic /ɑːrˈθrɪtɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

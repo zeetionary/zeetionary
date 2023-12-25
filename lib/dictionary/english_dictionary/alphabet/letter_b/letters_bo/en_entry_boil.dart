@@ -308,11 +308,15 @@ class EnglishEntryboil extends StatelessWidget {
                                   text:
                                       "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -324,11 +328,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -343,11 +351,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کترییەکە دەکوڵێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -361,11 +373,15 @@ class EnglishEntryboil extends StatelessWidget {
                                   text:
                                       "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -380,11 +396,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەندێک پەتاتەی کوڵاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -396,11 +416,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -414,11 +438,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خەریک بوو دەتەقی لە داخدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -433,11 +461,15 @@ class EnglishEntryboil extends StatelessWidget {
                                   text:
                                       "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -451,11 +483,15 @@ class EnglishEntryboil extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دکتۆرەکە زیپکەکەی تەقاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboils9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboils9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboils9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboils9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

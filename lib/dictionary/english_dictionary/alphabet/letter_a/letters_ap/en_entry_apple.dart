@@ -181,17 +181,21 @@ class EnglishEntryapple extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قەپێکم لە سێوەکە گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApple547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApple547(// REPLACE: apple /ˈæpl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApple547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakApple547(// REPLACE: apple /ˈæpl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -200,13 +204,17 @@ class EnglishEntryapple extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سێوەکە پاک بکە و ناوەکەی دەربکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApple549("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApple549(// REPLACE: apple /ˈæpl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApple549("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApple549(
+                                        // REPLACE: apple /ˈæpl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

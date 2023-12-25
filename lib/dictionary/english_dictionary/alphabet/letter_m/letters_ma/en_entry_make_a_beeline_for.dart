@@ -180,13 +180,17 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                                   text:
                                       "ھەرکە گەشتە ئاھەنگەکە، ڕاستەوخۆ ڕۆشت بەرەو خواردنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakMakeabeelinefors1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakMakeabeelinefors1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakMakeabeelinefors1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakMakeabeelinefors1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                                   text:
                                       "لە ئاھەنگدا ھەمیشە دەنووسێت بە جوانترین ژنەکانی ژوورەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakMakeabeelinefors2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakMakeabeelinefors2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakMakeabeelinefors2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakMakeabeelinefors2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

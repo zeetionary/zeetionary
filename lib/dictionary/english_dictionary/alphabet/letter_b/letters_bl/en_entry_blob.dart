@@ -176,11 +176,15 @@ class EnglishEntryblob extends StatelessWidget {
                                   text:
                                       "لایتی شەقامەکان لە دوورەوە تنۆکەی ڕۆشنایی پرتەقاڵی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblobs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblobs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblobs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblobs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntryblob extends StatelessWidget {
                                   text:
                                       "تۆپەڵێکی گەورە کرێمی کرد بەسەر تووتڕکە سوورەکەمدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblobs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblobs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblobs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblobs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

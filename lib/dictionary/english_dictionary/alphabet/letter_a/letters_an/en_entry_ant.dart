@@ -178,13 +178,17 @@ class EnglishEntryant extends StatelessWidget {
                                   text:
                                       "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnt1125("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnt1125(// REPLACE: ant /ænt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnt1125("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnt1125(// REPLACE: ant /ænt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

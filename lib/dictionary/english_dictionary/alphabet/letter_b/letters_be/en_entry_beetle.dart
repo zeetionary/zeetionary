@@ -178,11 +178,15 @@ class EnglishEntrybeetle extends StatelessWidget {
                                   text:
                                       "منداڵەکان شاگەشکەبووبوون بە ڕێژەی فراوانی قالۆنچە کە دۆزییانەوە لە باخچەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeetles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeetles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeetles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeetles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybeetle extends StatelessWidget {
                                   text:
                                       "کۆتا جار بینیم بە ڕێگاکەدا دەچوو بەخێرایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeetles2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeetles2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeetles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeetles2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

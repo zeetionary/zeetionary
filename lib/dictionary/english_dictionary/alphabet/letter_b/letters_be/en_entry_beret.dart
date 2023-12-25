@@ -175,11 +175,15 @@ class EnglishEntryberet extends StatelessWidget {
                                   text:
                                       "سەربازەکە بێرێی شینی کاڵی نەتەوە یەکگرتووەکانی لەسەر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBerets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBerets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBerets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBerets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -111,11 +111,15 @@ class EnglishEntryabbreviation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کورتکراوەی ئەم وشەیە چییە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA852("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA852("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

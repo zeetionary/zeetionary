@@ -134,13 +134,17 @@ class EnglishEntryadmissible extends StatelessWidget {
                                   text:
                                       "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmis25374("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmis25374(
-                                    // REPLACE: admissible /ədˈmɪsəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmis25374("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmis25374(
+                                        // REPLACE: admissible /ədˈmɪsəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

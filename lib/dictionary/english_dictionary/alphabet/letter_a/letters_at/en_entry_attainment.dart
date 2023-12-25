@@ -188,13 +188,18 @@ class EnglishEntryattainment extends StatelessWidget {
                                   text:
                                       "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttainment730("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttainment730(// REPLACE: attainment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttainment730("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttainment730(
+                                        // REPLACE: attainment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +216,18 @@ class EnglishEntryattainment extends StatelessWidget {
                                   text:
                                       "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttainment732("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttainment732(// REPLACE: attainment
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttainment732("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttainment732(
+                                        // REPLACE: attainment
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

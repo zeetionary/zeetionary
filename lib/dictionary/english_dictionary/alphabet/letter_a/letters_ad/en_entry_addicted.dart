@@ -134,13 +134,17 @@ class EnglishEntryaddicted extends StatelessWidget {
                                   text:
                                       "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddict7451("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAddict7451(
-                                    // REPLACE: addicted /əˈdɪktɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddict7451("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddict7451(
+                                        // REPLACE: addicted /əˈdɪktɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

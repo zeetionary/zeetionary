@@ -176,11 +176,15 @@ class EnglishEntrybishop extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک قەشەی باڵای ناپۆلی دیاریکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBishops1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBishops1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBishops1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBishops1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybishop extends StatelessWidget {
                                   text:
                                       "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دووژمن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBishops2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBishops2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBishops2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBishops2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

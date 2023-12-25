@@ -118,11 +118,15 @@ class EnglishEntryabsent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3691("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3691("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3691("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3691("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -135,11 +139,15 @@ class EnglishEntryabsent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3691("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3691("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3691("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA3691("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

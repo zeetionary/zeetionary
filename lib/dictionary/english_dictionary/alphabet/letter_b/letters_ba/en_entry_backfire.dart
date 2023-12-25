@@ -178,12 +178,17 @@ class EnglishEntrybackfire extends StatelessWidget {
                                   text:
                                       "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backfire
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backfire
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,12 +205,17 @@ class EnglishEntrybackfire extends StatelessWidget {
                                   text:
                                       "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backfire
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backfire
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

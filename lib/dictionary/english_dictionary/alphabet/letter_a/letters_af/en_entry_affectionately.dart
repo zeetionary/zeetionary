@@ -135,13 +135,17 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                   text:
                                       "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffecti248("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffecti248(
-                                    // REPLACE: affectionately /əˈfekʃənətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffecti248("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffecti248(
+                                        // REPLACE: affectionately /əˈfekʃənətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

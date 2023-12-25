@@ -175,11 +175,15 @@ class EnglishEntrybogus extends StatelessWidget {
                                   text:
                                       "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboguss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboguss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboguss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboguss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -185,13 +185,18 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                   text:
                                       "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtomicbomb1236("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtomicbomb1236(// REPLACE: atomic bomb
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtomicbomb1236("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtomicbomb1236(
+                                        // REPLACE: atomic bomb
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

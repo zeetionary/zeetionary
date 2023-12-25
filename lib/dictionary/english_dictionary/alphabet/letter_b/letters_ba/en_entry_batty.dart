@@ -177,11 +177,15 @@ class EnglishEntrybatty extends StatelessWidget {
                                   text:
                                       "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

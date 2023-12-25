@@ -175,11 +175,15 @@ class EnglishEntrybilliards extends StatelessWidget {
                                   text:
                                       "حەزی لە بیلیارد بوو چونکە تێکەڵەیەک لە ستراتیژی و شارەزایی کەسی لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilliardss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilliardss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilliardss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilliardss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

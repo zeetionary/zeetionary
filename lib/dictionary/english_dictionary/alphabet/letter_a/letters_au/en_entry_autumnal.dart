@@ -178,13 +178,17 @@ class EnglishEntryautumnal extends StatelessWidget {
                                   text:
                                       "گوندەکان بە ڕەنگی پاییزە ڕازێندرابوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutumnals1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutumnals1(// REPLACE: autumnal
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAutumnals1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutumnals1(// REPLACE: autumnal
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,18 @@ class EnglishEntryancestral extends StatelessWidget {
                                   text:
                                       "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAncestral4609("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAncestral4609(
-                                    // REPLACE: ancestral /ænˈsestrəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAncestral4609("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAncestral4609(
+                                        // REPLACE: ancestral /ænˈsestrəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

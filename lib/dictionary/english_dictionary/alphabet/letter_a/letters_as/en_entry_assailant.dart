@@ -185,13 +185,17 @@ class EnglishEntryassailant extends StatelessWidget {
                                   text:
                                       "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssailant851("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssailant851(
-                                    // REPLACE: assailant /əˈseɪlənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssailant851("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssailant851(
+                                        // REPLACE: assailant /əˈseɪlənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

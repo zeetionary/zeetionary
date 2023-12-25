@@ -134,15 +134,19 @@ class EnglishEntryairily extends StatelessWidget {
                                       "'He can do what he likes - it doesn't bother me,' she said airily."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»"),
+                                      "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirily2566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAirily2566(// REPLACE: airily /ˈerəli/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirily2566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirily2566(
+                                        // REPLACE: airily /ˈerəli/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

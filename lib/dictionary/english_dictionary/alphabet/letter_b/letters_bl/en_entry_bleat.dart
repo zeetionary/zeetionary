@@ -174,11 +174,15 @@ class EnglishEntrybleat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەرخەکە بەنزمی باعاندی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleats1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleats1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleats1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleats1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +197,15 @@ class EnglishEntrybleat extends StatelessWidget {
                                   text:
                                       "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbleats2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbleats2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbleats2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbleats2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

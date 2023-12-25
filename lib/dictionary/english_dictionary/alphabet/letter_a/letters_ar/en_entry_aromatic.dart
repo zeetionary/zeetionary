@@ -181,13 +181,17 @@ class EnglishEntryaromatic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAromatic857("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAromatic857(
-                                    // REPLACE: aromatic /ˌærəˈmætɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAromatic857("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAromatic857(
+                                        // REPLACE: aromatic /ˌærəˈmætɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

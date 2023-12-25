@@ -187,13 +187,17 @@ class EnglishEntryassessor extends StatelessWidget {
                                   text:
                                       "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessor1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessor1140(
-                                    // REPLACE: assessor /əˈsesər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssessor1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessor1140(
+                                        // REPLACE: assessor /əˈsesər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +214,17 @@ class EnglishEntryassessor extends StatelessWidget {
                                   text:
                                       "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessor1143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessor1143(
-                                    // REPLACE: assessor /əˈsesər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssessor1143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessor1143(
+                                        // REPLACE: assessor /əˈsesər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,13 +241,17 @@ class EnglishEntryassessor extends StatelessWidget {
                                   text:
                                       "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssessor1147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssessor1147(
-                                    // REPLACE: assessor /əˈsesər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssessor1147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssessor1147(
+                                        // REPLACE: assessor /əˈsesər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -171,11 +171,15 @@ class EnglishEntrybaroness extends StatelessWidget {
                                   text:
                                       "ژنەمیر ئیزابێلا، جەنگاوەرێکی بەئەزموون، سەرکردایەتی سەربازەکانی کرد بۆ بردنەوە لە جەنگدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaronesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaronesss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaronesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaronesss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybaroness extends StatelessWidget {
                                   text:
                                       "سۆفیای گەنج، کە دواتر بوو بە ژنەبەگزادە، ئەتەکێت لە دایکییەوە فێربوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaronesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaronesss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaronesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaronesss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

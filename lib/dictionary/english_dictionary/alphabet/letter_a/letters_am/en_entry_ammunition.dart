@@ -202,13 +202,18 @@ class EnglishEntryammunition extends StatelessWidget {
                                   text:
                                       "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmmunition8895("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmmunition8895(
-                                    // REPLACE: ammunition /ˌæmjəˈnɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmmunition8895("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmmunition8895(
+                                        // REPLACE: ammunition /ˌæmjəˈnɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +229,18 @@ class EnglishEntryammunition extends StatelessWidget {
                                   text:
                                       "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmmunition411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmmunition411(
-                                    // REPLACE: ammunition /ˌæmjəˈnɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmmunition411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmmunition411(
+                                        // REPLACE: ammunition /ˌæmjəˈnɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,12 +176,17 @@ class EnglishEntryazure extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خۆر درەوشایەوە بە ئاسمانێکی شیندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAzures1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAzures1(// REPLACE: azure
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAzures1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAzures1(// REPLACE: azure
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,12 +203,17 @@ class EnglishEntryazure extends StatelessWidget {
                                   text:
                                       "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAzures2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAzures2(// REPLACE: azure
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAzures2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAzures2(// REPLACE: azure
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

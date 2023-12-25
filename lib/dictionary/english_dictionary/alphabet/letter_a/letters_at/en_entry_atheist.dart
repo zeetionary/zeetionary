@@ -186,13 +186,17 @@ class EnglishEntryatheist extends StatelessWidget {
                                   text:
                                       "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtheist743("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtheist743(// REPLACE: atheist
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtheist743("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtheist743(// REPLACE: atheist
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

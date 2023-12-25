@@ -173,11 +173,15 @@ class EnglishEntryblogger extends StatelessWidget {
                                   text:
                                       "بلۆگنووسانی کەسانی بەناوبانگ زۆر ھۆگرن بە خێزانی شاھانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloggers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloggers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloggers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloggers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

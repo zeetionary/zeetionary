@@ -137,13 +137,18 @@ class EnglishEntryallclear extends StatelessWidget {
                                   text:
                                       "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllclear37455("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllclear37455(
-                                    // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllclear37455("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllclear37455(
+                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +164,18 @@ class EnglishEntryallclear extends StatelessWidget {
                                   text:
                                       "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllclear24121("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllclear24121(
-                                    // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllclear24121("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllclear24121(
+                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,13 +191,18 @@ class EnglishEntryallclear extends StatelessWidget {
                                   text:
                                       "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllclear385796("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllclear385796(
-                                    // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllclear385796("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllclear385796(
+                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

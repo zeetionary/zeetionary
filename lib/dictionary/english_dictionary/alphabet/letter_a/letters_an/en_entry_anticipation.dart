@@ -182,13 +182,18 @@ class EnglishEntryanticipation extends StatelessWidget {
                                   text:
                                       "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipation1053("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipation1053(
-                                    // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipation1053("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipation1053(
+                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +208,18 @@ class EnglishEntryanticipation extends StatelessWidget {
                                   text:
                                       "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipation1056("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipation1056(
-                                    // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipation1056("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipation1056(
+                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +235,18 @@ class EnglishEntryanticipation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnticipation1059("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnticipation1059(
-                                    // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnticipation1059("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnticipation1059(
+                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

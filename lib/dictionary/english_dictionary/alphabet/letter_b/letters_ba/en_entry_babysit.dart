@@ -176,12 +176,17 @@ class EnglishEntrybabysit extends StatelessWidget {
                                   text:
                                       "چاودێری منداڵەکانی دراوسێیەکەیان دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: babysit
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: babysit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

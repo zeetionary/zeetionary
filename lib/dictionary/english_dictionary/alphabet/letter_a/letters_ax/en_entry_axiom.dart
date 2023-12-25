@@ -178,12 +178,17 @@ class EnglishEntryaxiom extends StatelessWidget {
                                   text:
                                       "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAxioms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAxioms1(// REPLACE: axiom
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAxioms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAxioms1(// REPLACE: axiom
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

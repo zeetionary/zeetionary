@@ -176,13 +176,17 @@ class EnglishEntryannually extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnually840("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnually840(
-                                    // REPLACE: annually /ˈænjuəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnually840("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnually840(
+                                        // REPLACE: annually /ˈænjuəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

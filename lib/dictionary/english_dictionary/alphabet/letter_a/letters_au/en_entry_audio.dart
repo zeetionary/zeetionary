@@ -182,12 +182,17 @@ class EnglishEntryaudio extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کوالێتی دەنگەکە خراپ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudio136("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAudio136(// REPLACE: audio
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudio136("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudio136(// REPLACE: audio
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

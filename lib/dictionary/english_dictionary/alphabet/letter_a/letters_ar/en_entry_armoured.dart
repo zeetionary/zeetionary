@@ -181,13 +181,17 @@ class EnglishEntryarmoured extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmoured618("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmoured618(
-                                    // REPLACE: armoured /ˈɑːrmərd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmoured618("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmoured618(
+                                        // REPLACE: armoured /ˈɑːrmərd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

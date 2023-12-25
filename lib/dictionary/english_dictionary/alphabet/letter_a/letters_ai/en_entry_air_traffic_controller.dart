@@ -140,14 +140,18 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                   text:
                                       "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAirtrafficcontroller4255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirtrafficcontroller4255(
-                                    // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAirtrafficcontroller4255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirtrafficcontroller4255(
+                                        // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

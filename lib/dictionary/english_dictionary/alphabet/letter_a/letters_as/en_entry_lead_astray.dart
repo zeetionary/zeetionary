@@ -185,13 +185,18 @@ class EnglishEntryleadastray extends StatelessWidget {
                                   text:
                                       "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAeadastray1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAeadastray1140(// REPLACE: lead astray
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAeadastray1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAeadastray1140(
+                                        // REPLACE: lead astray
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

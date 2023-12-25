@@ -133,13 +133,17 @@ class EnglishEntryailing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاودێری باوکە ناساخەکەی دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiling25388("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiling25388(// REPLACE: ailing /ˈeɪlɪŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiling25388("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAiling25388(
+                                        // REPLACE: ailing /ˈeɪlɪŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,18 @@ class EnglishEntryailing extends StatelessWidget {
                                   text:
                                       "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiling4899956("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAiling4899956(
-                                    // REPLACE: ailing /ˈeɪlɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAiling4899956("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAiling4899956(
+                                        // REPLACE: ailing /ˈeɪlɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

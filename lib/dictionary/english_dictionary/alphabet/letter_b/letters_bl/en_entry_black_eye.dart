@@ -175,11 +175,15 @@ class EnglishEntryblackeye extends StatelessWidget {
                                   text:
                                       "لە قوتابخانە شەڕی کرد و چاوی کرا بە قۆخ (لێیدرا و چاوی شینکرایەوە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackeyes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackeyes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackeyes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackeyes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

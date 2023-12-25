@@ -176,13 +176,17 @@ class EnglishEntrybarman extends StatelessWidget {
                                   text:
                                       "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarmans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarmans1(// REPLACE: barman
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarmans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarmans1(// REPLACE: barman
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

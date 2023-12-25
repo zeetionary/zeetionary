@@ -186,13 +186,18 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                   text:
                                       "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthenticate628("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthenticate628(
-                                    // REPLACE: authenticate
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthenticate628("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthenticate628(
+                                        // REPLACE: authenticate
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +214,18 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                   text:
                                       "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthenticate632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthenticate632(
-                                    // REPLACE: authenticate
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthenticate632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthenticate632(
+                                        // REPLACE: authenticate
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

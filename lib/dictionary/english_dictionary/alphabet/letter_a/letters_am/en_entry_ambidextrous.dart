@@ -137,14 +137,18 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                   text:
                                       "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAmbidextrous525555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbidextrous525555(
-                                    // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbidextrous525555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbidextrous525555(
+                                        // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

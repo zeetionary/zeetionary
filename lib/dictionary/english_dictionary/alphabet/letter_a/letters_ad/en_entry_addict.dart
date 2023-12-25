@@ -135,13 +135,17 @@ class EnglishEntryaddict extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdd2354("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdd2354(// REPLACE: addict /ˈædɪkt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdd2354("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdd2354(// REPLACE: addict /ˈædɪkt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryaddict extends StatelessWidget {
                                   text:
                                       "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddi2541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddi2541(// REPLACE: addict /ˈædɪkt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddi2541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddi2541(
+                                        // REPLACE: addict /ˈædɪkt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

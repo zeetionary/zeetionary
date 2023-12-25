@@ -189,13 +189,18 @@ class EnglishEntryattribute extends StatelessWidget {
                                   text:
                                       "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttribute1100("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttribute1100(// REPLACE: attribute
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttribute1100("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttribute1100(// REPLACE: attribute
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +217,18 @@ class EnglishEntryattribute extends StatelessWidget {
                                   text:
                                       "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttribute1110("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttribute1110(// REPLACE: attribute
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttribute1110("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttribute1110(// REPLACE: attribute
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,13 +245,18 @@ class EnglishEntryattribute extends StatelessWidget {
                                   text:
                                       "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttribute1112("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttribute1112(// REPLACE: attribute
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttribute1112("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttribute1112(// REPLACE: attribute
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -258,13 +273,18 @@ class EnglishEntryattribute extends StatelessWidget {
                                   text:
                                       "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttribute1114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttribute1114(// REPLACE: attribute
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttribute1114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAttribute1114(// REPLACE: attribute
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

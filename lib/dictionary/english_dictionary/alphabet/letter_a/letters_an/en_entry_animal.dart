@@ -181,13 +181,17 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal858("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal858(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal858("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal858(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەسپ ئاژەڵێکی گەورەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal0052("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal0052(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal0052("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal0052(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -223,13 +231,17 @@ class EnglishEntryanimal extends StatelessWidget {
                                   text:
                                       "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal440("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal440(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal440("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal440(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -246,13 +258,17 @@ class EnglishEntryanimal extends StatelessWidget {
                                   text:
                                       "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal4608("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal4608(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal4608("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal4608(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -269,13 +285,17 @@ class EnglishEntryanimal extends StatelessWidget {
                                   text:
                                       "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal4390("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal4390(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal4390("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal4390(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -292,13 +312,17 @@ class EnglishEntryanimal extends StatelessWidget {
                                   text:
                                       "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal4077("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal4077(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal4077("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal4077(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -312,13 +336,17 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimal914("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnimal914(// REPLACE: animal /ˈænɪml/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimal914("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimal914(
+                                        // REPLACE: animal /ˈænɪml/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

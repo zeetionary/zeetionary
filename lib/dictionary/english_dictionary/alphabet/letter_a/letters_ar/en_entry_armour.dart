@@ -186,13 +186,17 @@ class EnglishEntryarmour extends StatelessWidget {
                                   text:
                                       "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmour530("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmour530(// REPLACE: armour /ˈɑːrmər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmour530("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmour530(
+                                        // REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +211,17 @@ class EnglishEntryarmour extends StatelessWidget {
                                   text:
                                       "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmour531("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmour531(// REPLACE: armour /ˈɑːrmər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmour531("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmour531(
+                                        // REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -229,13 +237,17 @@ class EnglishEntryarmour extends StatelessWidget {
                                   text:
                                       "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmour536("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmour536(// REPLACE: armour /ˈɑːrmər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmour536("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmour536(
+                                        // REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -252,13 +264,17 @@ class EnglishEntryarmour extends StatelessWidget {
                                   text:
                                       "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmour540("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArmour540(// REPLACE: armour /ˈɑːrmər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmour540("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmour540(
+                                        // REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

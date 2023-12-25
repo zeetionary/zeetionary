@@ -182,13 +182,18 @@ class EnglishEntryappropriately extends StatelessWidget {
                                   text:
                                       "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppropriately414("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppropriately414(
-                                    // REPLACE: appropriately /əˈprəʊpriətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppropriately414("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppropriately414(
+                                        // REPLACE: appropriately /əˈprəʊpriətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

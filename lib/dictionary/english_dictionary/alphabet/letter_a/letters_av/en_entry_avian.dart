@@ -178,12 +178,17 @@ class EnglishEntryavian extends StatelessWidget {
                                   text:
                                       "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvians1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvians1(// REPLACE: avian
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvians1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvians1(// REPLACE: avian
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

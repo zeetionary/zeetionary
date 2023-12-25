@@ -138,13 +138,18 @@ class EnglishEntryaluminium extends StatelessWidget {
                                   text:
                                       "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAluminium55555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAluminium55555(
-                                    // REPLACE: aluminium /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAluminium55555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAluminium55555(
+                                        // REPLACE: aluminium /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

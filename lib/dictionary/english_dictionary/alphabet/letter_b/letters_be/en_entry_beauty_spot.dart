@@ -178,11 +178,15 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                                   text:
                                       "دەریاچەکە یەکێکە لە ناوچە گەشتیارییەکانی ئەم ناوچە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeautyspots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeautyspots1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeautyspots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeautyspots1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                                   text:
                                       "خاڵێکی بچووکی لەسەر لای چەپی ڕووخساری ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeautyspots2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeautyspots2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeautyspots2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeautyspots2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

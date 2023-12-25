@@ -175,11 +175,17 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چوو بۆ ساڵۆنەکە بۆ لوولکردنی قژی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeautysalons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeautysalons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBeautysalons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBeautysalons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

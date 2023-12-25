@@ -177,11 +177,17 @@ class EnglishEntrybenediction extends StatelessWidget {
                                   text:
                                       "قەشەکە نزای خۆی باراند بەسەر تازە بووک و زاواکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenedictions1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenedictions1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBenedictions1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBenedictions1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

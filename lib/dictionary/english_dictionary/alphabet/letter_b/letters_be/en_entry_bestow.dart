@@ -175,11 +175,15 @@ class EnglishEntrybestow extends StatelessWidget {
                                   text:
                                       "نازناوێک بوو کە لەلایەن پاشاوە پێی درابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBestows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBestows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBestows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBestows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

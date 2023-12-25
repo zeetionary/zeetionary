@@ -126,11 +126,15 @@ class EnglishEntryaccede extends StatelessWidget {
                                   text:
                                       "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA25963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA25963("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA25963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA25963("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -146,11 +150,15 @@ class EnglishEntryaccede extends StatelessWidget {
                                   text:
                                       "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA24698("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA24698("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA24698("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA24698("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -120,11 +120,15 @@ class EnglishEntryaccreditation extends StatelessWidget {
                                   text:
                                       "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA24894("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA24894("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA24894("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA24894("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

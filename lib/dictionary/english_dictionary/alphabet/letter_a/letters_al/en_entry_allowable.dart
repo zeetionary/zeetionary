@@ -136,13 +136,17 @@ class EnglishEntryallowable extends StatelessWidget {
                                   text:
                                       "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllowable432("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllowable432(
-                                    // REPLACE: allowable /əˈlaʊəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllowable432("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllowable432(
+                                        // REPLACE: allowable /əˈlaʊəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

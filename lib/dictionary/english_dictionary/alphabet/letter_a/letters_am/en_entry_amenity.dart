@@ -202,13 +202,17 @@ class EnglishEntryamenity extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmenity4777("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmenity4777(
-                                    // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmenity4777("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmenity4777(
+                                        // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,13 +224,17 @@ class EnglishEntryamenity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmenity7622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmenity7622(
-                                    // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmenity7622("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmenity7622(
+                                        // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

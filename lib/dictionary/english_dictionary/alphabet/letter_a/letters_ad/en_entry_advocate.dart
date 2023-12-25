@@ -135,13 +135,17 @@ class EnglishEntryadvocate extends StatelessWidget {
                                   text:
                                       "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvo3569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvo3569(
-                                    // REPLACE: advocate /ˈædvəkət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvo3569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvo3569(
+                                        // REPLACE: advocate /ˈædvəkət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadvocate extends StatelessWidget {
                                   text:
                                       "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvo2564("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvo2564(
-                                    // REPLACE: advocate /ˈædvəkət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdvo2564("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvo2564(
+                                        // REPLACE: advocate /ˈædvəkət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

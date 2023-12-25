@@ -175,13 +175,17 @@ class EnglishEntryavidly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تامەزرۆییەوە دەخوێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvidlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvidlys1(// REPLACE: avidly
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvidlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvidlys1(// REPLACE: avidly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

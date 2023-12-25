@@ -174,13 +174,17 @@ class EnglishEntryboredom extends StatelessWidget {
                                       "Television helps to relieve the boredom of the long winter evenings."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەلەفیزیۆن دەکرێت یارمەتیدەر لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
+                                      "تەلەفیزیۆن دەکرێت یارمەتیدەر بێت لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboredoms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboredoms1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboredoms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboredoms1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntryboredom extends StatelessWidget {
                                   text:
                                       "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboredoms2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboredoms2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboredoms2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboredoms2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

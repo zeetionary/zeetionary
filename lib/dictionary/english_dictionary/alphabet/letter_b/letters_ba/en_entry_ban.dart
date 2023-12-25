@@ -181,12 +181,16 @@ class EnglishEntryban extends StatelessWidget {
                                   text:
                                       "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBans1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBans1(// REPLACE: ban
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBans1(// REPLACE: ban
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,12 +207,16 @@ class EnglishEntryban extends StatelessWidget {
                                   text:
                                       "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBans2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBans2(// REPLACE: ban
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBans2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBans2(// REPLACE: ban
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,12 +233,16 @@ class EnglishEntryban extends StatelessWidget {
                                   text:
                                       "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBans3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBans3(// REPLACE: ban
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBans3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBans3(// REPLACE: ban
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,12 +259,16 @@ class EnglishEntryban extends StatelessWidget {
                                   text:
                                       "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBans4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBans4(// REPLACE: ban
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBans4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBans4(// REPLACE: ban
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

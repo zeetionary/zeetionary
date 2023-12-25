@@ -146,11 +146,15 @@ class EnglishEntryabstract extends StatelessWidget {
                                   text:
                                       "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA29867("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA29867("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA29867("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA29867("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -166,11 +170,15 @@ class EnglishEntryabstract extends StatelessWidget {
                                   text:
                                       "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA78946("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA78946("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA78946("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA78946("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -186,11 +194,15 @@ class EnglishEntryabstract extends StatelessWidget {
                                   text:
                                       "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA259874("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA259874("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA259874("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA259874("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,11 +218,15 @@ class EnglishEntryabstract extends StatelessWidget {
                                   text:
                                       "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA65897("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA65897("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA65897("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA65897("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

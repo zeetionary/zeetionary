@@ -170,11 +170,15 @@ class EnglishEntrybarnacle extends StatelessWidget {
                                   text:
                                       "بارنکڵ باشی پێشەوەی کەشتییەکەی داپۆشیبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarnacles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBarnacles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarnacles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBarnacles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

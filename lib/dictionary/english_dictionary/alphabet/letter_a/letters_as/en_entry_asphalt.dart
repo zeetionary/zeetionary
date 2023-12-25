@@ -184,13 +184,17 @@ class EnglishEntryasphalt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەقامەکە قیرتاوکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsphalt528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsphalt528(
-                                    // REPLACE: asphalt /ˈæsfɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsphalt528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsphalt528(
+                                        // REPLACE: asphalt /ˈæsfɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryasphalt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کرێکاران ڕێگاکەیان قیرتاوکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAsphalt530("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAsphalt530(
-                                    // REPLACE: asphalt /ˈæsfɔːlt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAsphalt530("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAsphalt530(
+                                        // REPLACE: asphalt /ˈæsfɔːlt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

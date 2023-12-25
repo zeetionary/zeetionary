@@ -185,13 +185,18 @@ class EnglishEntryapproachable extends StatelessWidget {
                                   text:
                                       "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproachable1253("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproachable1253(
-                                    // REPLACE: approachable /əˈprəʊtʃəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproachable1253("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproachable1253(
+                                        // REPLACE: approachable /əˈprəʊtʃəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryapproachable extends StatelessWidget {
                                   text:
                                       "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproachable1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproachable1255(
-                                    // REPLACE: approachable /əˈprəʊtʃəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproachable1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproachable1255(
+                                        // REPLACE: approachable /əˈprəʊtʃəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,18 @@ class EnglishEntryanguished extends StatelessWidget {
                                   text:
                                       "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnguished1010("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnguished1010(
-                                    // REPLACE: anguished /ˈæŋɡwɪʃt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnguished1010("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnguished1010(
+                                        // REPLACE: anguished /ˈæŋɡwɪʃt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

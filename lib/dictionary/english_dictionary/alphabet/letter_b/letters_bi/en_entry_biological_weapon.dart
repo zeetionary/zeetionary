@@ -179,13 +179,17 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                                   text:
                                       "ھەندێک ڕاپۆرت بانگەشەی ئەوە دەکەن کە حکومەتی چین ڤایرۆسی کۆرۆنای وەک چەکێکی بایۆلۆژی درووستکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakBiologicalweapons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBiologicalweapons1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBiologicalweapons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBiologicalweapons1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

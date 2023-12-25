@@ -176,11 +176,17 @@ class EnglishEntrybloodstream extends StatelessWidget {
                                   text:
                                       "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodstreams1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodstreams1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodstreams1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodstreams1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +200,17 @@ class EnglishEntrybloodstream extends StatelessWidget {
                                   text:
                                       "جڕۆکە سوورەکان ئۆکسجین بە سووڕی خوێندا دەگوانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodstreams2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodstreams2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodstreams2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodstreams2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

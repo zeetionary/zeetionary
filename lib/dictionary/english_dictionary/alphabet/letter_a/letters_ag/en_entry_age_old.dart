@@ -134,13 +134,17 @@ class EnglishEntryageold extends StatelessWidget {
                                   text:
                                       "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgeo1552("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgeo1552(
-                                    // REPLACE: age-old /ˌeɪdʒ ˈəʊld/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgeo1552("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgeo1552(
+                                        // REPLACE: age-old /ˌeɪdʒ ˈəʊld/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

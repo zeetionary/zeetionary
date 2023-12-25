@@ -135,13 +135,17 @@ class EnglishEntryafterthought extends StatelessWidget {
                                   text:
                                       "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAfterth369("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAfterth369(
-                                    // REPLACE: afterthought /ˈɑːftərθɔːt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAfterth369("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfterth369(
+                                        // REPLACE: afterthought /ˈɑːftərθɔːt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

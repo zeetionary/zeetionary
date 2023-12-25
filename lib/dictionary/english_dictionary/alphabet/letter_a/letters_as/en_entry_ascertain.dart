@@ -184,17 +184,22 @@ class EnglishEntryascertain extends StatelessWidget {
                                   text:
                                       "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscertain1239("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscertain1239(
-                                    // REPLACE: ascertain /ˌæsərˈteɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscertain1239("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscertain1239(
+                                        // REPLACE: ascertain /ˌæsərˈteɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -205,13 +210,18 @@ class EnglishEntryascertain extends StatelessWidget {
                                   text:
                                       "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAscertain1240("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAscertain1240(
-                                    // REPLACE: ascertain /ˌæsərˈteɪn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAscertain1240("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAscertain1240(
+                                        // REPLACE: ascertain /ˌæsərˈteɪn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

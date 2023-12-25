@@ -177,12 +177,17 @@ class EnglishEntrybackache extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دانیشتنی زۆر تووشی پشتئێشەم دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA3s1(// REPLACE: backache
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakA3s1(// REPLACE: backache
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

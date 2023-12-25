@@ -122,11 +122,15 @@ class EnglishEntryaberration extends StatelessWidget {
                                   text:
                                       "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb996("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb996("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb996("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -141,11 +145,15 @@ class EnglishEntryaberration extends StatelessWidget {
                                   text:
                                       "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb16("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb16("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

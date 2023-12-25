@@ -188,13 +188,17 @@ class EnglishEntryassert extends StatelessWidget {
                                   text:
                                       "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssert1024("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssert1024(// REPLACE: assert /əˈsɜːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssert1024("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssert1024(
+                                        // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryassert extends StatelessWidget {
                                   text:
                                       "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssert1026("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssert1026(// REPLACE: assert /əˈsɜːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssert1026("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssert1026(
+                                        // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,13 +240,17 @@ class EnglishEntryassert extends StatelessWidget {
                                   text:
                                       "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssert1030("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssert1030(// REPLACE: assert /əˈsɜːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssert1030("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssert1030(
+                                        // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -255,13 +267,17 @@ class EnglishEntryassert extends StatelessWidget {
                                   text:
                                       "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssert1032("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssert1032(// REPLACE: assert /əˈsɜːrt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssert1032("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssert1032(
+                                        // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

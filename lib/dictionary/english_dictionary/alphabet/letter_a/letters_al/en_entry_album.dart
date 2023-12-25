@@ -135,13 +135,17 @@ class EnglishEntryalbum extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbum42599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlbum42599(// REPLACE: album /ˈælbəm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlbum42599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbum42599(
+                                        // REPLACE: album /ˈælbəm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryalbum extends StatelessWidget {
                                   text:
                                       "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlbum3655("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlbum3655(// REPLACE: album /ˈælbəm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlbum3655("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlbum3655(
+                                        // REPLACE: album /ˈælbəm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

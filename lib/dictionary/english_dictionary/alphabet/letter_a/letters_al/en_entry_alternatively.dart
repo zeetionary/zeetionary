@@ -137,14 +137,18 @@ class EnglishEntryalternatively extends StatelessWidget {
                                   text:
                                       "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAlternatively5244("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternatively5244(
-                                    // REPLACE: alternatively /ɔːlˈtɜːrnətɪvli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternatively5244("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternatively5244(
+                                        // REPLACE: alternatively /ɔːlˈtɜːrnətɪvli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

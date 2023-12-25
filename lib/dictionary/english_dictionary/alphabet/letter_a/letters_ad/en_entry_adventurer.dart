@@ -135,13 +135,17 @@ class EnglishEntryadventurer extends StatelessWidget {
                                   text:
                                       "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdve3566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdve3566(
-                                    // REPLACE: adventurer /ədˈventʃərər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdve3566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdve3566(
+                                        // REPLACE: adventurer /ədˈventʃərər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

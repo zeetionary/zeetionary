@@ -112,11 +112,15 @@ class EnglishEntryabdomen extends StatelessWidget {
                                   text:
                                       "نەخۆشەکان گوتیان کە ئازاریان ھەیە لە بەشی خوارەوەی سنگیان یان بەشی سەرەوەی سکیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb64("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb64("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb64("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb64("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

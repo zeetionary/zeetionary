@@ -178,13 +178,17 @@ class EnglishEntrybandstand extends StatelessWidget {
                                   text:
                                       "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandstands1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandstands1(// REPLACE: bandstand
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandstands1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandstands1(// REPLACE: bandstand
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

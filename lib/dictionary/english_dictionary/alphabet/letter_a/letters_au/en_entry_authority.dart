@@ -232,13 +232,17 @@ class EnglishEntryauthority extends StatelessWidget {
                                   text:
                                       "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority804("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority804(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority804("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority804(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -253,13 +257,17 @@ class EnglishEntryauthority extends StatelessWidget {
                                   text:
                                       "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority805("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority805(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority805("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority805(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -276,13 +284,17 @@ class EnglishEntryauthority extends StatelessWidget {
                                   text:
                                       "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority808("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority808(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority808("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority808(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -297,13 +309,17 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority809("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority809(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority809("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority809(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -319,13 +335,17 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority811("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority811(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority811("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority811(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -342,13 +362,17 @@ class EnglishEntryauthority extends StatelessWidget {
                                   text:
                                       "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority814("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority814(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority814("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority814(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -364,13 +388,17 @@ class EnglishEntryauthority extends StatelessWidget {
                                   text:
                                       "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthority816("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthority816(// REPLACE: authority
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAuthority816("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAuthority816(// REPLACE: authority
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -188,14 +188,18 @@ class EnglishEntryauthentication extends StatelessWidget {
                                   text:
                                       "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAuthentication643("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthentication643(
-                                    // REPLACE: authentication
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthentication643("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthentication643(
+                                        // REPLACE: authentication
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,14 +216,18 @@ class EnglishEntryauthentication extends StatelessWidget {
                                   text:
                                       "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakAuthentication645("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthentication645(
-                                    // REPLACE: authentication
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthentication645("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthentication645(
+                                        // REPLACE: authentication
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

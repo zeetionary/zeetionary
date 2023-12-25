@@ -177,13 +177,18 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                                   text:
                                       "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAweinspirings1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAweinspirings1(
-                                    // REPLACE: awe-inspiring
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAweinspirings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAweinspirings1(
+                                        // REPLACE: awe-inspiring
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

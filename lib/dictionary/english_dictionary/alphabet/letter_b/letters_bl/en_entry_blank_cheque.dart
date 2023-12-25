@@ -177,11 +177,17 @@ class EnglishEntryblankcheque extends StatelessWidget {
                                   text:
                                       "بەخشەرە دڵفراوانەکە چەکێکی سپی دا بە ڕێکخراوەکە بۆ ئەوەی کە پێویستی کرد بەکاری بێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblankcheques1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblankcheques1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblankcheques1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblankcheques1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,11 +204,17 @@ class EnglishEntryblankcheque extends StatelessWidget {
                                   text:
                                       "سەرۆک دەسەڵاتی ڕەھای پێدرا لەلایەن کۆنگرێسەوە بۆ بەردەوامی دان بە جەنگەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblankcheques2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblankcheques2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakblankcheques2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakblankcheques2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

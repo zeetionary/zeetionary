@@ -176,11 +176,15 @@ class EnglishEntryboggle extends StatelessWidget {
                                   text:
                                       "مێشک تێڕادەمێنێت لە ڕێژەی ئەو پارەیەی لە خواردندا خەرجی دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboggles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboggles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboggles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboggles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntryboggle extends StatelessWidget {
                                   text:
                                       "سەرسام بوو بەو بیرکردنەوەیەی کە خەڵکی دەکرێت ڕقیان لە یەکدی تەنھا بەھۆی ڕەنگی پێستیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboggles2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboggles2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboggles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboggles2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -132,13 +132,17 @@ class EnglishEntryadherence extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پابەندبوونی توند بە یاساکانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdh2558("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdh2558(
-                                    // REPLACE: adherence /ədˈhɪrəns/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdh2558("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdh2558(
+                                        // REPLACE: adherence /ədˈhɪrəns/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

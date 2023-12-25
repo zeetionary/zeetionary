@@ -182,13 +182,17 @@ class EnglishEntryapplaud extends StatelessWidget {
                                   text:
                                       "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplaud517("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplaud517(
-                                    // REPLACE: applaud /əˈplɔːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApplaud517("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplaud517(
+                                        // REPLACE: applaud /əˈplɔːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryapplaud extends StatelessWidget {
                                   text:
                                       "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplaud520("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplaud520(
-                                    // REPLACE: applaud /əˈplɔːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApplaud520("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplaud520(
+                                        // REPLACE: applaud /əˈplɔːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

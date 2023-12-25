@@ -180,11 +180,17 @@ class EnglishEntrybibliography extends StatelessWidget {
                                   text:
                                       "سەرچاوەکانی تری زانیاری لە چاوگنامە لە کۆتایی ئەم وتارەدا دانراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibliographys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibliographys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBibliographys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBibliographys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,11 +207,17 @@ class EnglishEntrybibliography extends StatelessWidget {
                                   text:
                                       "تەمەنی ٤٦ ساڵە و بیبلیۆگڕافییەکەی لەمێژە ١٠٠ ڕۆمان لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibliographys2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibliographys2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBibliographys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBibliographys2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +232,17 @@ class EnglishEntrybibliography extends StatelessWidget {
                                   text:
                                       "لەکۆتایی چاوپێکەوتنەکە چاوگنامەیەکی باشی کارەکانی نووسەرەکە ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibliographys3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibliographys3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBibliographys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBibliographys3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -241,11 +259,17 @@ class EnglishEntrybibliography extends StatelessWidget {
                                   text:
                                       "کتێبەوانێکی کارامەیە کە شارەزایی ھەیە لە کتێبناسی و لە جیھانی کتێبدا ڕۆچووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBibliographys4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBibliographys4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBibliographys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBibliographys4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

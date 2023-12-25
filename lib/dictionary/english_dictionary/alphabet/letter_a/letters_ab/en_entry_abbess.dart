@@ -110,11 +110,15 @@ class EnglishEntryAbbess extends StatelessWidget {
                                   text:
                                       "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak1155485("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak1155485("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak1155485("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak1155485("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

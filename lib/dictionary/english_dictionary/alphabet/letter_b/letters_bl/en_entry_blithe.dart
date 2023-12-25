@@ -175,11 +175,15 @@ class EnglishEntryblithe extends StatelessWidget {
                                   text:
                                       "شۆفێری دەکرد بە کەمتەرخەمی مێشک‌سافییەوە بۆ یاساکانی ڕێگاوبان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblithes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblithes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblithes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblithes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

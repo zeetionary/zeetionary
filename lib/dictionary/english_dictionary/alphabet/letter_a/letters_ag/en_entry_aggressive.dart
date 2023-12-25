@@ -145,13 +145,18 @@ class EnglishEntryaggressive extends StatelessWidget {
                                   text:
                                       "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggressive51114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggressive51114(
-                                    // REPLACE: aggressive /əˈɡresɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAggressive51114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggressive51114(
+                                        // REPLACE: aggressive /əˈɡresɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -167,13 +172,17 @@ class EnglishEntryaggressive extends StatelessWidget {
                                   text:
                                       "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggre2256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggre2256(
-                                    // REPLACE: aggressive /əˈɡresɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggre2256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggre2256(
+                                        // REPLACE: aggressive /əˈɡresɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -189,13 +198,17 @@ class EnglishEntryaggressive extends StatelessWidget {
                                   text:
                                       "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggr45999("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggr45999(
-                                    // REPLACE: aggressive /əˈɡresɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggr45999("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggr45999(
+                                        // REPLACE: aggressive /əˈɡresɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +224,17 @@ class EnglishEntryaggressive extends StatelessWidget {
                                   text:
                                       "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAggr5222("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAggr5222(
-                                    // REPLACE: aggressive /əˈɡresɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAggr5222("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAggr5222(
+                                        // REPLACE: aggressive /əˈɡresɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

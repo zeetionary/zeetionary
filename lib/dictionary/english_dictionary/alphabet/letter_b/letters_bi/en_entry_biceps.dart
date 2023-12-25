@@ -173,11 +173,15 @@ class EnglishEntrybiceps extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "عەزەڵاتە پڕەکەی دەرخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBicepss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBicepss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBicepss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBicepss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

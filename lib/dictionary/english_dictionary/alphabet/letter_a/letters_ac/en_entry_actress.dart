@@ -134,13 +134,17 @@ class EnglishEntryactress extends StatelessWidget {
                                   text:
                                       "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActress527("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakActress527(// REPLACE: actress
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActress527("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakActress527(// REPLACE: actress
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

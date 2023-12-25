@@ -175,13 +175,17 @@ class EnglishEntryanemic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەم‌خوێن دیارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakanemic55580("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakanemic55580(
-                                    // REPLACE: anemic /əˈniːmɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakanemic55580("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakanemic55580(
+                                        // REPLACE: anemic /əˈniːmɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntryanemic extends StatelessWidget {
                                   text:
                                       "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakanemic4966("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakanemic4966(
-                                    // REPLACE: anemic /əˈniːmɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakanemic4966("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakanemic4966(
+                                        // REPLACE: anemic /əˈniːmɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

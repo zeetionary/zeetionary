@@ -175,13 +175,17 @@ class EnglishEntryamp extends StatelessWidget {
                                   text:
                                       "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmp4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmp4599(// REPLACE: amp /æmp/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmp4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmp4599(// REPLACE: amp /æmp/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

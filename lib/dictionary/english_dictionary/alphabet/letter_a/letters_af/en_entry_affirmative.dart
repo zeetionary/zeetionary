@@ -135,13 +135,17 @@ class EnglishEntryaffirmative extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەڵامێکی ئەرێنی دا بە پرسیارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffirm556("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffirm556(
-                                    // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffirm556("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffirm556(
+                                        // REPLACE: affirmative /əˈfɜːrmətɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryaffirmative extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە بەڵێ وەڵامی داوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffirmat899("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffirmat899(
-                                    // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffirmat899("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffirmat899(
+                                        // REPLACE: affirmative /əˈfɜːrmətɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

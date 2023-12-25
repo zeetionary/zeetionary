@@ -192,13 +192,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1135("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1135(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1135("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1135(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,13 +218,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1136("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1136(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1136("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1136(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -236,13 +246,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1139("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1139(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1139("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1139(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,13 +274,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1140("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1140(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1140("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1140(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -282,13 +302,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1143("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1143(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1143("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1143(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -305,13 +330,18 @@ class EnglishEntryassociate extends StatelessWidget {
                                   text:
                                       "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssociate1147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssociate1147(
-                                    // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAssociate1147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssociate1147(
+                                        // REPLACE: associate /əˈsəʊsieɪt/,  /əˈsəʊʃieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

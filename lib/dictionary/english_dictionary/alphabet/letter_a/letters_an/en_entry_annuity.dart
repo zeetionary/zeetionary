@@ -176,13 +176,17 @@ class EnglishEntryannuity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بیمەیەکی بچووکی ساڵانە وەردەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnuity848("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnuity848(
-                                    // REPLACE: annuity /əˈnjuːəti/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnuity848("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnuity848(
+                                        // REPLACE: annuity /əˈnjuːəti/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

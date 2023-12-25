@@ -161,13 +161,17 @@ class EnglishEntryactually extends StatelessWidget {
                                   text:
                                       "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActual7618("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActual7618(
-                                    // REPLACE: actually /ˈæktʃuəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActual7618("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActual7618(
+                                        // REPLACE: actually /ˈæktʃuəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,13 +185,17 @@ class EnglishEntryactually extends StatelessWidget {
                                   text:
                                       "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActua9487("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActua9487(
-                                    // REPLACE: actually /ˈæktʃuəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActua9487("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActua9487(
+                                        // REPLACE: actually /ˈæktʃuəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +211,17 @@ class EnglishEntryactually extends StatelessWidget {
                                   text:
                                       "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActu35269("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActu35269(
-                                    // REPLACE: actually /ˈæktʃuəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActu35269("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActu35269(
+                                        // REPLACE: actually /ˈæktʃuəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +237,17 @@ class EnglishEntryactually extends StatelessWidget {
                                   text:
                                       "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakActu4562("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakActu4562(
-                                    // REPLACE: actually /ˈæktʃuəli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakActu4562("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakActu4562(
+                                        // REPLACE: actually /ˈæktʃuəli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

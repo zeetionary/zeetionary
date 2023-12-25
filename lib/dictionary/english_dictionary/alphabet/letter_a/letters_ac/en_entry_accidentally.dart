@@ -120,11 +120,15 @@ class EnglishEntryaccidentally extends StatelessWidget {
                                   text:
                                       "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA21589("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA21589("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA21589("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA21589("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

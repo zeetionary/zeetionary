@@ -178,13 +178,17 @@ class EnglishEntryanimate extends StatelessWidget {
                                   text:
                                       "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimate926("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimate926(
-                                    // REPLACE: animate /ˈænɪmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimate926("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimate926(
+                                        // REPLACE: animate /ˈænɪmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryanimate extends StatelessWidget {
                                   text:
                                       "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimate930("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimate930(
-                                    // REPLACE: animate /ˈænɪmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimate930("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimate930(
+                                        // REPLACE: animate /ˈænɪmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -224,13 +232,17 @@ class EnglishEntryanimate extends StatelessWidget {
                                   text:
                                       "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnimate934("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnimate934(
-                                    // REPLACE: animate /ˈænɪmeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnimate934("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnimate934(
+                                        // REPLACE: animate /ˈænɪmeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

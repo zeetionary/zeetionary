@@ -202,13 +202,17 @@ class EnglishEntryamicably extends StatelessWidget {
                                   text:
                                       "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmicably4777("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmicably4777(
-                                    // REPLACE: amicably /ˈæmɪkəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmicably4777("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmicably4777(
+                                        // REPLACE: amicably /ˈæmɪkəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,13 +225,18 @@ class EnglishEntryamicably extends StatelessWidget {
                                   text:
                                       "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmicably555541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmicably555541(
-                                    // REPLACE: amicably /ˈæmɪkəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmicably555541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmicably555541(
+                                        // REPLACE: amicably /ˈæmɪkəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

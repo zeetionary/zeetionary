@@ -175,11 +175,15 @@ class EnglishEntrybodywork extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە لاشەکەی بەرکەوتنی ھەبوو، بەڵام بزوێنەری زۆر باشی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbodyworks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbodyworks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbodyworks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbodyworks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

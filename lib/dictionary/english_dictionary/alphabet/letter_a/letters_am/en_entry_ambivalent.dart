@@ -138,13 +138,18 @@ class EnglishEntryambivalent extends StatelessWidget {
                                   text:
                                       "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbivalent4633("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbivalent4633(
-                                    // REPLACE: ambivalent /æmˈbɪvələnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbivalent4633("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbivalent4633(
+                                        // REPLACE: ambivalent /æmˈbɪvələnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +163,18 @@ class EnglishEntryambivalent extends StatelessWidget {
                                   text:
                                       "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmbivalent46777("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmbivalent46777(
-                                    // REPLACE: ambivalent /æmˈbɪvələnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmbivalent46777("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmbivalent46777(
+                                        // REPLACE: ambivalent /æmˈbɪvələnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

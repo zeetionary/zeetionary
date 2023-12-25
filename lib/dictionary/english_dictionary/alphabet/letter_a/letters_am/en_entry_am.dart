@@ -130,13 +130,17 @@ class EnglishEntryam extends StatelessWidget {
                                   text:
                                       "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAm795888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAm795888(
-                                    // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAm795888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAm795888(
+                                        // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

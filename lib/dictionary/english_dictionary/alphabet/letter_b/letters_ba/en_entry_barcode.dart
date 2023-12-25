@@ -176,13 +176,17 @@ class EnglishEntrybarcode extends StatelessWidget {
                                   text:
                                       "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarcodes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarcodes1(// REPLACE: barcode
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarcodes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarcodes1(// REPLACE: barcode
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

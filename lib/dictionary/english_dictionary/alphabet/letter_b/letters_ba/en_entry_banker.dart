@@ -179,13 +179,17 @@ class EnglishEntrybanker extends StatelessWidget {
                                   text:
                                       "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankers1(// REPLACE: banker
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankers1(// REPLACE: banker
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntrybanker extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاودێرەکە پارەی گرەوەکانی کۆکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankers2(// REPLACE: banker
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankers2(// REPLACE: banker
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

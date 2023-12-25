@@ -131,13 +131,17 @@ class EnglishEntryadorable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چی منداڵێکی ژیکەڵەیە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdora9647("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdora9647(
-                                    // REPLACE: adorable /əˈdɔːrəbl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdora9647("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdora9647(
+                                        // REPLACE: adorable /əˈdɔːrəbl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

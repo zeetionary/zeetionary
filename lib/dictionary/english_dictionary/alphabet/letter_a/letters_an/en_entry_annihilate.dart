@@ -178,13 +178,18 @@ class EnglishEntryannihilate extends StatelessWidget {
                                   text:
                                       "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnihilate113("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnihilate113(
-                                    // REPLACE: annihilate /əˈnaɪəleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnihilate113("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnihilate113(
+                                        // REPLACE: annihilate /əˈnaɪəleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +206,18 @@ class EnglishEntryannihilate extends StatelessWidget {
                                   text:
                                       "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnihilate116("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnihilate116(
-                                    // REPLACE: annihilate /əˈnaɪəleɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnihilate116("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnihilate116(
+                                        // REPLACE: annihilate /əˈnaɪəleɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

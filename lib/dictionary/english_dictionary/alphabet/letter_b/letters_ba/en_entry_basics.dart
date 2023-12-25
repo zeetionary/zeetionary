@@ -173,11 +173,15 @@ class EnglishEntrybasics extends StatelessWidget {
                                   text:
                                       "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasicss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasicss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasicss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasicss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybasics extends StatelessWidget {
                                   text:
                                       "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasicss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasicss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasicss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasicss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

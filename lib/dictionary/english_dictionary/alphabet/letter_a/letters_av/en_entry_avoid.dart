@@ -180,12 +180,17 @@ class EnglishEntryavoid extends StatelessWidget {
                                   text:
                                       "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvoids1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvoids1(// REPLACE: avoid
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvoids1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvoids1(// REPLACE: avoid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,12 +205,17 @@ class EnglishEntryavoid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvoids2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvoids2(// REPLACE: avoid
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvoids2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvoids2(// REPLACE: avoid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -221,12 +231,17 @@ class EnglishEntryavoid extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvoids3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAvoids3(// REPLACE: avoid
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvoids3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvoids3(// REPLACE: avoid
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

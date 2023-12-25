@@ -133,13 +133,17 @@ class EnglishEntryadvertiser extends StatelessWidget {
                                   text:
                                       "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdve3589("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdve3589(
-                                    // REPLACE: advertiser /ˈædvətaɪzər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdve3589("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdve3589(
+                                        // REPLACE: advertiser /ˈædvətaɪzər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

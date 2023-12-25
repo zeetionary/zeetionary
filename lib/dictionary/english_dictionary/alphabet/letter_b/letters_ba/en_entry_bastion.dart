@@ -173,11 +173,15 @@ class EnglishEntrybastion extends StatelessWidget {
                                   text:
                                       "زانکۆکە نموونەی زیندووھێڵەرەوەی ئازادی ئەکادیمییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastions1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastions1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastions1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastions1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,11 +198,15 @@ class EnglishEntrybastion extends StatelessWidget {
                                   text:
                                       "سنگاپوور کۆتا شوورای بەرگری بەرخۆدانی بەریتانیا بوو لە باشووری ڕۆژھەڵاتی ئاسیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBastions2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBastions2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBastions2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBastions2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

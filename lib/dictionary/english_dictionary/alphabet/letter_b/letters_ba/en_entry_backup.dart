@@ -177,13 +177,17 @@ class EnglishEntrybackup extends StatelessWidget {
                                   text:
                                       "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackups1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackups1(// REPLACE: backup
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackups1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackups1(// REPLACE: backup
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntrybackup extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBackups2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBackups2(// REPLACE: backup
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBackups2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBackups2(// REPLACE: backup
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

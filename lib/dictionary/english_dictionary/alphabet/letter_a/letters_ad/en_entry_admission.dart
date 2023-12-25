@@ -153,13 +153,17 @@ class EnglishEntryadmission extends StatelessWidget {
                                   text:
                                       "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmiss836541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmiss836541(
-                                    // REPLACE: admission /ədˈmɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmiss836541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmiss836541(
+                                        // REPLACE: admission /ədˈmɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,13 +176,17 @@ class EnglishEntryadmission extends StatelessWidget {
                                   text:
                                       "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmiss735891("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmiss735891(
-                                    // REPLACE: admission /ədˈmɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmiss735891("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmiss735891(
+                                        // REPLACE: admission /ədˈmɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,13 +202,17 @@ class EnglishEntryadmission extends StatelessWidget {
                                   text:
                                       "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdm587914("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdm587914(
-                                    // REPLACE: admission /ədˈmɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdm587914("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdm587914(
+                                        // REPLACE: admission /ədˈmɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -215,13 +227,17 @@ class EnglishEntryadmission extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کرێی چوونەژوورەوە ١٠ دۆلارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmis912587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmis912587(
-                                    // REPLACE: admission /ədˈmɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmis912587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmis912587(
+                                        // REPLACE: admission /ədˈmɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

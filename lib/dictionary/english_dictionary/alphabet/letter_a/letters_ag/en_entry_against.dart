@@ -156,13 +156,17 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەوە دژ بە یاسایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAga937884("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAga937884(
-                                    // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAga937884("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAga937884(
+                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -176,13 +180,17 @@ class EnglishEntryagainst extends StatelessWidget {
                                   text:
                                       "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgain2566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgain2566(
-                                    // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgain2566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgain2566(
+                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,13 +207,17 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بەڵگەکان لە دژین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgain156("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgain156(
-                                    // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgain156("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgain156(
+                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,13 +232,17 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAga156338("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAga156338(
-                                    // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAga156338("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAga156338(
+                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -240,13 +256,17 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAga98274("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAga98274(
-                                    // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAga98274("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAga98274(
+                                        // REPLACE: against /əˈɡenst/,  /əˈɡeɪnst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

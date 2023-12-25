@@ -178,13 +178,17 @@ class EnglishEntryaversion extends StatelessWidget {
                                   text:
                                       "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAversions1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAversions1(// REPLACE: aversion
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAversions1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAversions1(// REPLACE: aversion
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

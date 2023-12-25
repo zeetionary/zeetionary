@@ -179,13 +179,18 @@ class EnglishEntryantibiotic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntibiotic958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntibiotic958(
-                                    // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAntibiotic958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntibiotic958(
+                                        // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

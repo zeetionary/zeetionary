@@ -186,13 +186,17 @@ class EnglishEntryatheism extends StatelessWidget {
                                   text:
                                       "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtheism731("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtheism731(// REPLACE: atheism
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtheism731("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtheism731(// REPLACE: atheism
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

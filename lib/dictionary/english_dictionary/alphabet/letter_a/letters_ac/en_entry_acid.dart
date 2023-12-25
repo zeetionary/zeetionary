@@ -134,12 +134,16 @@ class EnglishEntryacid extends StatelessWidget {
                                   text:
                                       "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc12846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc12846(
-                                    "en-US"), // REPLACE acid /ˈæsɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc12846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc12846(
+                                        "en-US"), // REPLACE acid /ˈæsɪd/
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,12 +162,16 @@ class EnglishEntryacid extends StatelessWidget {
                                   text:
                                       "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcid1598("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcid1598(
-                                    "en-US"), // REPLACE acid /ˈæsɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcid1598("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcid1598(
+                                        "en-US"), // REPLACE acid /ˈæsɪd/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

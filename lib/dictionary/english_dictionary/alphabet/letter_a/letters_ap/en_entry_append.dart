@@ -183,17 +183,21 @@ class EnglishEntryappend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەراوێز بۆ دۆکیومێنتەکە دانراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppend109("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppend109(// REPLACE: append /əˈpend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppend109("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppend109(
+                                        // REPLACE: append /əˈpend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -204,13 +208,17 @@ class EnglishEntryappend extends StatelessWidget {
                                   text:
                                       "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppend111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAppend111(// REPLACE: append /əˈpend/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppend111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppend111(
+                                        // REPLACE: append /əˈpend/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

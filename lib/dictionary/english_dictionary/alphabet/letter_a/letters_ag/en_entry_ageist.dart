@@ -134,13 +134,18 @@ class EnglishEntryageist extends StatelessWidget {
                                   text:
                                       "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgeist5272316("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgeist5272316(
-                                    // REPLACE: ageist /ˈeɪdʒɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAgeist5272316("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgeist5272316(
+                                        // REPLACE: ageist /ˈeɪdʒɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

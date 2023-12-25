@@ -134,13 +134,17 @@ class EnglishEntryaerosol extends StatelessWidget {
                                   text:
                                       "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAero63844("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAero63844(// REPLACE: aerosol /ˈerəsɒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAero63844("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAero63844(
+                                        // REPLACE: aerosol /ˈerəsɒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,12 +176,17 @@ class EnglishEntrybalsa extends StatelessWidget {
                                   text:
                                       "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBalsas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBalsas1(// REPLACE: balsa
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBalsas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBalsas1(// REPLACE: balsa
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

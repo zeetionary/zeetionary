@@ -178,13 +178,17 @@ class EnglishEntryannoy extends StatelessWidget {
                                   text:
                                       "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnoy716("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnnoy716(// REPLACE: annoy /əˈnɔɪ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnoy716("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnnoy716(// REPLACE: annoy /əˈnɔɪ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

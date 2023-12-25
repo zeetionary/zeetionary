@@ -178,13 +178,17 @@ class EnglishEntryannulment extends StatelessWidget {
                                   text:
                                       "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnulment917("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnulment917(
-                                    // REPLACE: annulment /əˈnʌlmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnulment917("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnulment917(
+                                        // REPLACE: annulment /əˈnʌlmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

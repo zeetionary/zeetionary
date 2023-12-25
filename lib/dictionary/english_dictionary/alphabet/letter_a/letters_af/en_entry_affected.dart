@@ -135,13 +135,17 @@ class EnglishEntryaffected extends StatelessWidget {
                                   text:
                                       "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffec357("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffec357(
-                                    // REPLACE: affected /əˈfektɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffec357("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffec357(
+                                        // REPLACE: affected /əˈfektɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryaffected extends StatelessWidget {
                                   text:
                                       "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffec3618("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAffec3618(
-                                    // REPLACE: affected /əˈfektɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffec3618("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffec3618(
+                                        // REPLACE: affected /əˈfektɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

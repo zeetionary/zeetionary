@@ -186,13 +186,18 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                   text:
                                       "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostrophe708("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostrophe708(
-                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApostrophe708("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostrophe708(
+                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,13 +212,18 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ماڵ ھێلین زۆر گەورەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostrophe710("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostrophe710(
-                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApostrophe710("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostrophe710(
+                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,13 +238,18 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostrophe714("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostrophe714(
-                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApostrophe714("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostrophe714(
+                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,13 +262,18 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دوو m لە وشەی comma دا ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApostrophe715("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApostrophe715(
-                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApostrophe715("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApostrophe715(
+                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

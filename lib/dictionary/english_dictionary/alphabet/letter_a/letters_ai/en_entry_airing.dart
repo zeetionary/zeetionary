@@ -137,13 +137,17 @@ class EnglishEntryairing extends StatelessWidget {
                                   text:
                                       "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiring4522("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiring4522(// REPLACE: airing /ˈerɪŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiring4522("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAiring4522(
+                                        // REPLACE: airing /ˈerɪŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +163,17 @@ class EnglishEntryairing extends StatelessWidget {
                                   text:
                                       "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAiring4155("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAiring4155(// REPLACE: airing /ˈerɪŋ/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAiring4155("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAiring4155(
+                                        // REPLACE: airing /ˈerɪŋ/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

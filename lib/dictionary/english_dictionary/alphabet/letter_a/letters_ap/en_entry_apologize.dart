@@ -180,13 +180,17 @@ class EnglishEntryapologize extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بۆچی دەبێت داوای لێبووردن بکەم؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApologize535("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologize535(
-                                    // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApologize535("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologize535(
+                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -201,13 +205,17 @@ class EnglishEntryapologize extends StatelessWidget {
                                   text:
                                       "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApologize537("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologize537(
-                                    // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApologize537("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologize537(
+                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -222,13 +230,17 @@ class EnglishEntryapologize extends StatelessWidget {
                                   text:
                                       "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApologize540("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApologize540(
-                                    // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApologize540("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApologize540(
+                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

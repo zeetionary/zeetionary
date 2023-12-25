@@ -135,13 +135,17 @@ class EnglishEntryagitator extends StatelessWidget {
                                   text:
                                       "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgita62577("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgita62577(
-                                    // REPLACE: agitator /ˈædʒɪteɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgita62577("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgita62577(
+                                        // REPLACE: agitator /ˈædʒɪteɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

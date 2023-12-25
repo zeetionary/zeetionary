@@ -111,11 +111,15 @@ class EnglishEntryabominably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەخراپی مامەڵەی لەگەڵ کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA752("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA752("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA752("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA752("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

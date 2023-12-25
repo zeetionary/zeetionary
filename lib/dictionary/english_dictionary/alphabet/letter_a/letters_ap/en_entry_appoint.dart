@@ -182,13 +182,17 @@ class EnglishEntryappoint extends StatelessWidget {
                                   text:
                                       "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppoint820("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppoint820(
-                                    // REPLACE: appoint /əˈpɔɪnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppoint820("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppoint820(
+                                        // REPLACE: appoint /əˈpɔɪnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryappoint extends StatelessWidget {
                                   text:
                                       "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppoint822("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppoint822(
-                                    // REPLACE: appoint /əˈpɔɪnt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAppoint822("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppoint822(
+                                        // REPLACE: appoint /əˈpɔɪnt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

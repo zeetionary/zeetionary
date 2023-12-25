@@ -175,11 +175,15 @@ class EnglishEntrybloodhound extends StatelessWidget {
                                   text:
                                       "پۆلیس سەگی ڕاو بەکاردێنێت بۆ دۆزینەوەی شوێنی کەسانی ونبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodhounds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodhounds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbloodhounds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbloodhounds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

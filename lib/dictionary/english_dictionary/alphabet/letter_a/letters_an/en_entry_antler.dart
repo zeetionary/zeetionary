@@ -179,13 +179,17 @@ class EnglishEntryantler extends StatelessWidget {
                                   text:
                                       "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntler101("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAntler101(// REPLACE: antler /ˈæntlər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntler101("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntler101(
+                                        // REPLACE: antler /ˈæntlər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -186,13 +186,17 @@ class EnglishEntryassent extends StatelessWidget {
                                   text:
                                       "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssent1012("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssent1012(// REPLACE: assent /əˈsent/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssent1012("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssent1012(
+                                        // REPLACE: assent /əˈsent/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryassent extends StatelessWidget {
                                   text:
                                       "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssent1015("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAssent1015(// REPLACE: assent /əˈsent/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssent1015("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssent1015(
+                                        // REPLACE: assent /əˈsent/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

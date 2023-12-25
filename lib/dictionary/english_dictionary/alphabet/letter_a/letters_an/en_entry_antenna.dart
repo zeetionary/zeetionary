@@ -180,13 +180,17 @@ class EnglishEntryantenna extends StatelessWidget {
                                   text:
                                       "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntenna519("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntenna519(
-                                    // REPLACE: antenna /ænˈtenə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntenna519("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntenna519(
+                                        // REPLACE: antenna /ænˈtenə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryantenna extends StatelessWidget {
                                   text:
                                       "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAntenna523("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAntenna523(
-                                    // REPLACE: antenna /ænˈtenə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAntenna523("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAntenna523(
+                                        // REPLACE: antenna /ænˈtenə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

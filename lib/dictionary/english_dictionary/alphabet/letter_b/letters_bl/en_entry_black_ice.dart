@@ -175,11 +175,15 @@ class EnglishEntryblackice extends StatelessWidget {
                                   text:
                                       "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackices1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackices1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackices1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackices1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,17 +177,21 @@ class EnglishEntryanguish extends StatelessWidget {
                                   text:
                                       "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnguish958("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnguish958(
-                                    // REPLACE: anguish /ˈæŋɡwɪʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnguish958("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnguish958(
+                                        // REPLACE: anguish /ˈæŋɡwɪʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -198,13 +202,17 @@ class EnglishEntryanguish extends StatelessWidget {
                                   text:
                                       "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnguish1000("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnguish1000(
-                                    // REPLACE: anguish /ˈæŋɡwɪʃ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnguish1000("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnguish1000(
+                                        // REPLACE: anguish /ˈæŋɡwɪʃ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

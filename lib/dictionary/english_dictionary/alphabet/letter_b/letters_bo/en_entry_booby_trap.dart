@@ -176,11 +176,15 @@ class EnglishEntryboobytrap extends StatelessWidget {
                                   text:
                                       "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobytraps1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobytraps1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobytraps1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobytraps1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntryboobytrap extends StatelessWidget {
                                   text:
                                       "پۆلیس زانی ئۆتۆمبێلەکە بە بۆمب چێنرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboobytraps2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboobytraps2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboobytraps2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboobytraps2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

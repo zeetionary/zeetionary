@@ -133,13 +133,17 @@ class EnglishEntryadmire extends StatelessWidget {
                                   text:
                                       "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi2561("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdmi2561(// REPLACE: admire /ədˈmaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi2561("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi2561(
+                                        // REPLACE: admire /ədˈmaɪər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -153,13 +157,17 @@ class EnglishEntryadmire extends StatelessWidget {
                                   text:
                                       "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdm96871("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdm96871(// REPLACE: admire /ədˈmaɪər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdm96871("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdm96871(
+                                        // REPLACE: admire /ədˈmaɪər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -201,13 +201,17 @@ class EnglishEntryamnesia extends StatelessWidget {
                                   text:
                                       "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmnesia663("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmnesia663(
-                                    // REPLACE: amnesia /æmˈniːʒə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmnesia663("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmnesia663(
+                                        // REPLACE: amnesia /æmˈniːʒə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

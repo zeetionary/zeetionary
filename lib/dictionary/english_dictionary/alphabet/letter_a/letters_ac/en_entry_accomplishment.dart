@@ -138,11 +138,15 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                   text:
                                       "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc5789("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc5789("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc5789("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc5789("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,11 +162,15 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                   text:
                                       "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA5741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA5741("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA5741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA5741("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -178,11 +186,15 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                   text:
                                       "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA5741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA5741("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA5741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA5741("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

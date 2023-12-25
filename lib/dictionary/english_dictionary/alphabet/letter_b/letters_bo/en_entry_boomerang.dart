@@ -175,11 +175,15 @@ class EnglishEntryboomerang extends StatelessWidget {
                                   text:
                                       "(بەکارھێنانی خوازراوی) پلانەکە کاریگەرییەکی پێچەوانەی ھەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboomerangs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboomerangs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboomerangs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboomerangs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

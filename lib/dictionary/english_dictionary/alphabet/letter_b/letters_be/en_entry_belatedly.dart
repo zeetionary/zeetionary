@@ -174,11 +174,15 @@ class EnglishEntrybelatedly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "درەنگ‌وەختە داوای لێبووردنی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelatedlys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelatedlys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelatedlys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelatedlys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

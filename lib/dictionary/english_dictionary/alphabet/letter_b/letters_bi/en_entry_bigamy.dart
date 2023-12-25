@@ -177,11 +177,15 @@ class EnglishEntrybigamy extends StatelessWidget {
                                   text:
                                       "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigamys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigamys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigamys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigamys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,13 +137,18 @@ class EnglishEntryalleviate extends StatelessWidget {
                                   text:
                                       "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlleviate45277("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlleviate45277(
-                                    // REPLACE: alleviate /əˈliːvieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlleviate45277("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlleviate45277(
+                                        // REPLACE: alleviate /əˈliːvieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +162,18 @@ class EnglishEntryalleviate extends StatelessWidget {
                                   text:
                                       "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlleviate35699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlleviate35699(
-                                    // REPLACE: alleviate /əˈliːvieɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlleviate35699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlleviate35699(
+                                        // REPLACE: alleviate /əˈliːvieɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

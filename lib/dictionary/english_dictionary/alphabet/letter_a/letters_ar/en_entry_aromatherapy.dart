@@ -182,13 +182,18 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                                   text:
                                       "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAromatherapy915("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAromatherapy915(
-                                    // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAromatherapy915("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAromatherapy915(
+                                        // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

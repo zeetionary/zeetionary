@@ -177,11 +177,15 @@ class EnglishEntrybearded extends StatelessWidget {
                                   text:
                                       "پیاوێکی باریکی ڕیشن لە بەرامبەرم دانیشت لە شەمەندەفەرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeardeds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeardeds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeardeds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeardeds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

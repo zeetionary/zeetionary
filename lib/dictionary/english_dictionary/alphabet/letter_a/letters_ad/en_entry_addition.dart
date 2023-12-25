@@ -136,13 +136,17 @@ class EnglishEntryaddition extends StatelessWidget {
                                   text:
                                       "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddi14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddi14(// REPLACE: addition /əˈdɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddi14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddi14(
+                                        // REPLACE: addition /əˈdɪʃn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +162,17 @@ class EnglishEntryaddition extends StatelessWidget {
                                   text:
                                       "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdditi769("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdditi769(// REPLACE: addition /əˈdɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdditi769("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdditi769(
+                                        // REPLACE: addition /əˈdɪʃn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -180,13 +188,17 @@ class EnglishEntryaddition extends StatelessWidget {
                                   text:
                                       "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAddit445("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAddit445(// REPLACE: addition /əˈdɪʃn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAddit445("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAddit445(
+                                        // REPLACE: addition /əˈdɪʃn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

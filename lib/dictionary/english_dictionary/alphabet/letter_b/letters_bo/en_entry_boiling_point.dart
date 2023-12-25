@@ -175,11 +175,17 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "خاڵی کوڵانی ئاو ١٠٠ پلەی سیلیزییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilingpoints1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilingpoints1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboilingpoints1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboilingpoints1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +201,17 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نیگەرانی خەڵکی خەریکە لێی دەڕژێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilingpoints2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilingpoints2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboilingpoints2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboilingpoints2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +224,17 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تووڕەیی کەیت گەشتبووە بینەقاقەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilingpoints3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilingpoints3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboilingpoints3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboilingpoints3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

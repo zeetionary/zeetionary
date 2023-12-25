@@ -203,13 +203,17 @@ class EnglishEntryaspirate extends StatelessWidget {
                                   text:
                                       "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirate643("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirate643(
-                                    // REPLACE: aspirate /ˈæspərət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirate643("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirate643(
+                                        // REPLACE: aspirate /ˈæspərət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +230,17 @@ class EnglishEntryaspirate extends StatelessWidget {
                                   text:
                                       "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirate648("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirate648(
-                                    // REPLACE: aspirate /ˈæspərət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirate648("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirate648(
+                                        // REPLACE: aspirate /ˈæspərət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +257,17 @@ class EnglishEntryaspirate extends StatelessWidget {
                                   text:
                                       "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirate651("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirate651(
-                                    // REPLACE: aspirate /ˈæspərət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirate651("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirate651(
+                                        // REPLACE: aspirate /ˈæspərət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -272,13 +284,17 @@ class EnglishEntryaspirate extends StatelessWidget {
                                   text:
                                       "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAspirate653("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAspirate653(
-                                    // REPLACE: aspirate /ˈæspərət/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAspirate653("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAspirate653(
+                                        // REPLACE: aspirate /ˈæspərət/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

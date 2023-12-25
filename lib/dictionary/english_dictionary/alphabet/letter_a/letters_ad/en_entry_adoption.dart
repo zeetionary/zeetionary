@@ -135,13 +135,17 @@ class EnglishEntryadoption extends StatelessWidget {
                                   text:
                                       "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdopt58694("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdopt58694(
-                                    // REPLACE: adoption /əˈdɑːpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdopt58694("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdopt58694(
+                                        // REPLACE: adoption /əˈdɑːpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadoption extends StatelessWidget {
                                   text:
                                       "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdop5861("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdop5861(
-                                    // REPLACE: adoption /əˈdɑːpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdop5861("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdop5861(
+                                        // REPLACE: adoption /əˈdɑːpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -179,13 +187,17 @@ class EnglishEntryadoption extends StatelessWidget {
                                   text:
                                       "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdop25674("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdop25674(
-                                    // REPLACE: adoption /əˈdɑːpʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdop25674("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdop25674(
+                                        // REPLACE: adoption /əˈdɑːpʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

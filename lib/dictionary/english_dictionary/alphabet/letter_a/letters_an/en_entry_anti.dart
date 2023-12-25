@@ -176,13 +176,17 @@ class EnglishEntryanti extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە تەواوی دژ بە پێشنیازە تازەکانن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnti908("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnti908(
-                                    // REPLACE: anti /ˈænti/,  /ˈæntaɪ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnti908("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnti908(
+                                        // REPLACE: anti /ˈænti/,  /ˈæntaɪ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

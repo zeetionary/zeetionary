@@ -185,13 +185,17 @@ class EnglishEntryaskew extends StatelessWidget {
                                   text:
                                       "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAskew813("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAskew813(// REPLACE: askew /əˈskjuː/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAskew813("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAskew813(
+                                        // REPLACE: askew /əˈskjuː/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

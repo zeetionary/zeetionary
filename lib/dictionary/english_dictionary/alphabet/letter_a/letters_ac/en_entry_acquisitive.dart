@@ -135,12 +135,16 @@ class EnglishEntryacquisitive extends StatelessWidget {
                                   text:
                                       "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcq12469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcq12469(
-                                    "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcq12469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcq12469(
+                                        "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

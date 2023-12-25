@@ -134,13 +134,17 @@ class EnglishEntryaground extends StatelessWidget {
                                   text:
                                       "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgro3441("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgro3441(// REPLACE: aground /əˈɡraʊnd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgro3441("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgro3441(
+                                        // REPLACE: aground /əˈɡraʊnd/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

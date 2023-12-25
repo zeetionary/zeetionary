@@ -187,13 +187,17 @@ class EnglishEntryartichoke extends StatelessWidget {
                                   text:
                                       "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtichoke510("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArtichoke510(
-                                    // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtichoke510("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtichoke510(
+                                        // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

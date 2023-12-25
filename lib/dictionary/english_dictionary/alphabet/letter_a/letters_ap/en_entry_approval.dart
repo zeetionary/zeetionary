@@ -186,17 +186,21 @@ class EnglishEntryapproval extends StatelessWidget {
                                   text:
                                       "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproval826("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproval826(
-                                    // REPLACE: approval /əˈpruːvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproval826("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproval826(
+                                        // REPLACE: approval /əˈpruːvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -205,13 +209,17 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproval829("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproval829(
-                                    // REPLACE: approval /əˈpruːvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproval829("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproval829(
+                                        // REPLACE: approval /əˈpruːvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -228,17 +236,21 @@ class EnglishEntryapproval extends StatelessWidget {
                                   text:
                                       "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproval831("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproval831(
-                                    // REPLACE: approval /əˈpruːvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproval831("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproval831(
+                                        // REPLACE: approval /əˈpruːvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -247,13 +259,17 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApproval832("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproval832(
-                                    // REPLACE: approval /əˈpruːvl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApproval832("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproval832(
+                                        // REPLACE: approval /əˈpruːvl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

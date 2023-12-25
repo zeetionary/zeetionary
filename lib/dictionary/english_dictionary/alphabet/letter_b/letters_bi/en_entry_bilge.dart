@@ -177,11 +177,15 @@ class EnglishEntrybilge extends StatelessWidget {
                                   text:
                                       "بنەکەشتییەکە بەتاڵکرایەوە و کەشتییەکە ئامادەبوو بۆ دووبارە گەشتکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilges1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilges1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilges1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilges1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntrybilge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێندە قسەی ھیج مەکە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBilges2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBilges2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBilges2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBilges2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

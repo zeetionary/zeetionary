@@ -183,13 +183,17 @@ class EnglishEntryaroma extends StatelessWidget {
                                   text:
                                       "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAroma822("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAroma822(// REPLACE: aroma /əˈrəʊmə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAroma822("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAroma822(
+                                        // REPLACE: aroma /əˈrəʊmə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

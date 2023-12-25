@@ -176,13 +176,17 @@ class EnglishEntryballerina extends StatelessWidget {
                                   text:
                                       "بەلای وەرزشدا چوو کاتێک کە باڵای زۆر بەرز بوو بۆ ئەوەی ھیوای بوون بە بالێرینا بخولقێنێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallerinas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallerinas1(// REPLACE: ballerina
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallerinas1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallerinas1(// REPLACE: ballerina
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

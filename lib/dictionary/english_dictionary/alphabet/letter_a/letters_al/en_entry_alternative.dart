@@ -148,13 +148,18 @@ class EnglishEntryalternative extends StatelessWidget {
                                   text:
                                       "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternative4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternative4599(
-                                    // REPLACE: alternative /haʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternative4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternative4599(
+                                        // REPLACE: alternative /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -168,13 +173,18 @@ class EnglishEntryalternative extends StatelessWidget {
                                   text:
                                       "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternative14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternative14(
-                                    // REPLACE: alternative /haʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternative14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternative14(
+                                        // REPLACE: alternative /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -190,13 +200,18 @@ class EnglishEntryalternative extends StatelessWidget {
                                   text:
                                       "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternative845("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternative845(
-                                    // REPLACE: alternative /haʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternative845("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternative845(
+                                        // REPLACE: alternative /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,13 +227,18 @@ class EnglishEntryalternative extends StatelessWidget {
                                   text:
                                       "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlternative659("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlternative659(
-                                    // REPLACE: alternative /haʊ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlternative659("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlternative659(
+                                        // REPLACE: alternative /haʊ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -375,11 +375,15 @@ class EnglishEntrybook extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مێزەکەی داپۆشرابوو بە چینێک لە کتێب."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -396,11 +400,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks6("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks6("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks6("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -414,11 +424,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks2("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks2("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks2("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks2("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -439,11 +455,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "بەم نزیکانە ھیچ کتێبێکی خۆشت خوێندووتەوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -455,11 +475,15 @@ class EnglishEntrybook extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کتێبێکی تازەی بڵاوکردووەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -476,11 +500,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks5("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks5("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks5("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -494,11 +524,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "کتێبەکە پێشکەشکراوە بە دایکی."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks7("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks7("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks7("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -512,11 +548,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks8("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks8("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks8("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks8("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -530,11 +572,17 @@ class EnglishEntrybook extends StatelessWidget {
                                           text:
                                               "کتێبەکە ھەندێک پێداچوونەوەی خراپی وەرگرتووە."),
                                       const CustomSizedBoxForTTS(),
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakbooks9("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakbooks9("en-US"),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbooks9("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbooks9("en-US"),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -555,11 +603,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "تەواوی خەرجییەکانی لە دەفتەرێکی بچووکدا دەنووسێت کە لەگەڵ خۆی بۆ ھەموو شوێنێک ھەڵیدەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -576,11 +628,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "کتێبی ڕەچەتەکەی ھەڵدایەوە بۆ ئیلھام وەرگرتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -596,11 +652,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "دەبێت دووبارە پێداچوونەوە بە تۆمارەکان بکەیتەوە، ھەڵەیەک لە شوێنێک ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -615,11 +675,15 @@ class EnglishEntrybook extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "یەکەم بەشی ئینجیل جێنەسیسە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -634,11 +698,15 @@ class EnglishEntrybook extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گەشتێکی بۆ شیکاگۆ حجز کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks14("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks14("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -652,11 +720,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "بلیتی ئامادەکرد بۆ گەشتەکەی بۆ نیویۆرک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks15("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks15("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -673,11 +745,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "جێگەم بۆ گرتووی لەسەر گەشتی کاتژمێر ١٠."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks16("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks16("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -694,11 +770,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "باندەکەت گرتووە بۆ ئاھەنگەکە تا ئێستا؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks17("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks17("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -712,11 +792,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "ژمارەیەک نووسەری ناسراو بانگھێشتکراون بۆ قسەکردن لە بۆنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks18("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks18("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks18("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -733,11 +817,15 @@ class EnglishEntrybook extends StatelessWidget {
                                   text:
                                       "خرایە لیستی ئەو کەسانەی کۆکاینیان ھەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbooks19("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbooks19("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbooks19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbooks19("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

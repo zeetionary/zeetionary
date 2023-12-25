@@ -135,13 +135,17 @@ class EnglishEntryalphabet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlphabet4721("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlphabet4721(
-                                    // REPLACE: alphabet /ˈælfəbet/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlphabet4721("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlphabet4721(
+                                        // REPLACE: alphabet /ˈælfəbet/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

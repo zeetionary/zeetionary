@@ -119,11 +119,15 @@ class EnglishEntryabridge extends StatelessWidget {
                                   text:
                                       "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb2561("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb2561("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb2561("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb2561("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,18 @@ class EnglishEntryalludeto extends StatelessWidget {
                                   text:
                                       "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlludeto35477("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlludeto35477(
-                                    // REPLACE: allude to /əˈluːd tə/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlludeto35477("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlludeto35477(
+                                        // REPLACE: allude to /əˈluːd tə/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

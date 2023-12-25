@@ -178,13 +178,18 @@ class EnglishEntrybadlanguage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قسەی پیس لەسەر تەلەفیزیۆن زۆرە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBadlanguages1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBadlanguages1(// REPLACE: bad language
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBadlanguages1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBadlanguages1(
+                                        // REPLACE: bad language
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -178,11 +178,15 @@ class EnglishEntrybelated extends StatelessWidget {
                                   text:
                                       "زیادکردنی بودجە ئاماژەیە بۆ دانپێانانێکی درەنگ بە گرنگی پڕۆژەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelateds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelateds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelateds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelateds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -197,11 +201,15 @@ class EnglishEntrybelated extends StatelessWidget {
                                   text:
                                       "ھەوڵێکی زۆردرەنگی دا بۆ داواکردن بۆ لێبووردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelateds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelateds2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBelateds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBelateds2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -217,17 +217,21 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەس ھەیە بتوانێ یارمەتیم بدا؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody1055("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody1055(
-                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnybody1055("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnybody1055(
+                                        // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -236,34 +240,43 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کەسی تر دەیەوێت بێت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody926("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnybody926("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnybody926(
+                                        // REPLACE: anybody /ˈeniwʌn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody926(
-                                    // REPLACE: anybody /ˈeniwʌn/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I forbid anybody to touch that clock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody927("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody927(
-                                    // REPLACE: anybody /ˈeniwʌn/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text:
+                                          "I forbid anybody to touch that clock."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnybody927("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnybody927(
+                                            // REPLACE: anybody /ˈeniwʌn/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -280,33 +293,42 @@ class EnglishEntryanybody extends StatelessWidget {
                                   text:
                                       "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody1059("en-GB"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnybody1059("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnybody1059(
+                                        // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody1059(
-                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Anybody can see that it's wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody929("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody929(
-                                    // REPLACE: anybody /ˈeniwʌn/
-                                    "en-US"),
+                              const DividerSentences(),
+                              // const DividerDefinition(),
+                              Row(
+                                children: [
+                                  const ExampleSentenceEnglish(
+                                      text: "Anybody can see that it's wrong."),
+                                  const ExampleSentenceKurdish(
+                                      text:
+                                          "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
+                                  const CustomSizedBoxForTTS(),
+                                  Column(
+                                    children: [
+                                      CustomIconButtonBritish(
+                                        onPressed: () =>
+                                            speakAnybody929("en-GB"),
+                                      ),
+                                      CustomIconButtonAmerican(
+                                        onPressed: () => speakAnybody929(
+                                            // REPLACE: anybody /ˈeniwʌn/
+                                            "en-US"),
+                                      ),
+                                    ],
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -323,13 +345,17 @@ class EnglishEntryanybody extends StatelessWidget {
                                   text:
                                       "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnybody931("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnybody931(
-                                    // REPLACE: anybody /ˈeniwʌn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnybody931("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnybody931(
+                                        // REPLACE: anybody /ˈeniwʌn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

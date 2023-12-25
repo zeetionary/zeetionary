@@ -177,14 +177,18 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                                   text:
                                       "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakBallisticmissiles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBallisticmissiles1(
-                                    // REPLACE: ballistic missile
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBallisticmissiles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBallisticmissiles1(
+                                        // REPLACE: ballistic missile
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

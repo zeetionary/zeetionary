@@ -187,13 +187,18 @@ class EnglishEntryauspicious extends StatelessWidget {
                                   text:
                                       "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuspicious438("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuspicious438(// REPLACE: auspicious
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuspicious438("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuspicious438(
+                                        // REPLACE: auspicious
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -132,13 +132,17 @@ class EnglishEntryagm extends StatelessWidget {
                                   text:
                                       "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgm74888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAgm74888(// REPLACE: AGM /ˌeɪ dʒiː ˈem/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgm74888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgm74888(
+                                        // REPLACE: AGM /ˌeɪ dʒiː ˈem/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

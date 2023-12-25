@@ -144,13 +144,17 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەربەتەکە کەمێک تامی کحولی دەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcoholic459("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcoholic459(
-                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcoholic459("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcoholic459(
+                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -166,13 +170,17 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                   text:
                                       "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcoholic469("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcoholic469(
-                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcoholic469("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcoholic469(
+                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -187,13 +195,17 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcoholic358("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcoholic358(
-                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlcoholic358("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcoholic358(
+                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +221,18 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                   text:
                                       "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlcoholic39412("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlcoholic39412(
-                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlcoholic39412("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlcoholic39412(
+                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

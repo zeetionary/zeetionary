@@ -187,16 +187,21 @@ class EnglishEntryatom extends StatelessWidget {
                                   text:
                                       "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtom1206("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAtom1206(// REPLACE: atom
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtom1206("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtom1206(// REPLACE: atom
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -207,12 +212,17 @@ class EnglishEntryatom extends StatelessWidget {
                                   text:
                                       "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtom1208("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAtom1208(// REPLACE: atom
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAtom1208("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAtom1208(// REPLACE: atom
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

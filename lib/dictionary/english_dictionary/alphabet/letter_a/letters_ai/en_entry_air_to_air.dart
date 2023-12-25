@@ -137,13 +137,17 @@ class EnglishEntryairtoair extends StatelessWidget {
                                   text:
                                       "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ لەگەڵ کەرەستەی پەیوەندی سەربازی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirtoair124("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirtoair124(
-                                    // REPLACE: air-to-air /ˌer tu ˈer/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirtoair124("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirtoair124(
+                                        // REPLACE: air-to-air /ˌer tu ˈer/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

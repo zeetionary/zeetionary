@@ -136,7 +136,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     final currentTheme = ref.watch(themeNotifierProvider);
 
     return Text(
-      'Dictionary',
+      'Dictionary test',
       style: TextStyle(
         fontSize: 30.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
@@ -714,7 +714,8 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
               bottomRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              color: currentTheme.primaryColor.withOpacity(0.28),
+              // color: currentTheme.primaryColor.withOpacity(0.28),
+              color: Colors.blue.withOpacity(0.6),
               width: 2.0,
               style: BorderStyle.solid,
             ),
@@ -918,7 +919,7 @@ class CustomIconButtonBritish extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: 18.0, // Adjust size as needed
+          size: 15.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -948,7 +949,7 @@ class CustomIconButtonAmerican extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Color.fromARGB(182, 255, 0, 0),
-          size: 18.0, // Adjust size as needed
+          size: 15.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -1127,7 +1128,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
         side: _isExpanded
-            ? BorderSide(color: Colors.blue.withOpacity(0.7))
+            ? BorderSide(color: Colors.blue.withOpacity(0.6))
             : BorderSide(
                 color: Colors.blue
                     .withOpacity(0.3)), // Conditionally apply the border

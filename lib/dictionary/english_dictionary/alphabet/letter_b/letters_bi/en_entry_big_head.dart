@@ -174,11 +174,15 @@ class EnglishEntrybighead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە فشە دەکات. زۆر خۆبەزلزانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigheads1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigheads1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigheads1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigheads1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

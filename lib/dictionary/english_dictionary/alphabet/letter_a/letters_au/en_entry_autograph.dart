@@ -185,13 +185,18 @@ class EnglishEntryautograph extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی ئیمزایەکم بۆ بکەیت؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutograph1002("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutograph1002(// REPLACE: autograph
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutograph1002("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutograph1002(// REPLACE: autograph
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +213,18 @@ class EnglishEntryautograph extends StatelessWidget {
                                   text:
                                       "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAutograph1005("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutograph1005(// REPLACE: autograph
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAutograph1005("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAutograph1005(// REPLACE: autograph
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

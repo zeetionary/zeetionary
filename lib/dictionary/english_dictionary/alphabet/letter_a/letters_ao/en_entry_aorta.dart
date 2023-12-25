@@ -179,13 +179,17 @@ class EnglishEntryaorta extends StatelessWidget {
                                   text:
                                       "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAorta1053("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAorta1053(// REPLACE: aorta /eɪˈɔːrtə/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAorta1053("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAorta1053(
+                                        // REPLACE: aorta /eɪˈɔːrtə/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

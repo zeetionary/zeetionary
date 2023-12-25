@@ -187,13 +187,18 @@ class EnglishEntryastrologer extends StatelessWidget {
                                   text:
                                       "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstrologer424("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAstrologer424(// REPLACE: astrologer
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstrologer424("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstrologer424(
+                                        // REPLACE: astrologer
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryagrarian extends StatelessWidget {
                                   text:
                                       "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgrarian4377("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgrarian4377(
-                                    // REPLACE: agrarian /əˈɡreriən/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgrarian4377("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgrarian4377(
+                                        // REPLACE: agrarian /əˈɡreriən/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

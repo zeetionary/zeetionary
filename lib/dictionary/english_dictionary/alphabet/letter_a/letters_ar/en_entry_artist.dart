@@ -187,13 +187,17 @@ class EnglishEntryartist extends StatelessWidget {
                                   text:
                                       "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtist839("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist839(// REPLACE: artist /ˈɑːrtɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtist839("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtist839(
+                                        // REPLACE: artist /ˈɑːrtɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -208,13 +212,17 @@ class EnglishEntryartist extends StatelessWidget {
                                   text:
                                       "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtist841("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist841(// REPLACE: artist /ˈɑːrtɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtist841("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtist841(
+                                        // REPLACE: artist /ˈɑːrtɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryartist extends StatelessWidget {
                                   text:
                                       "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtist846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist846(// REPLACE: artist /ˈɑːrtɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArtist846("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArtist846(
+                                        // REPLACE: artist /ˈɑːrtɪst/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

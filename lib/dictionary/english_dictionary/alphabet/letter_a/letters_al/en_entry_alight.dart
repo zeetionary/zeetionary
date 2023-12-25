@@ -153,13 +153,17 @@ class EnglishEntryalight extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlight3996("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlight3996(// REPLACE: alight /əˈlaɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlight3996("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlight3996(
+                                        // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -175,13 +179,17 @@ class EnglishEntryalight extends StatelessWidget {
                                   text:
                                       "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlight35244("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlight35244(// REPLACE: alight /əˈlaɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlight35244("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlight35244(
+                                        // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,13 +204,17 @@ class EnglishEntryalight extends StatelessWidget {
                                   text:
                                       "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlight32852("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAlight32852(// REPLACE: alight /əˈlaɪt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAlight32852("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlight32852(
+                                        // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

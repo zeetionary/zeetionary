@@ -177,11 +177,15 @@ class EnglishEntrybigamous extends StatelessWidget {
                                   text:
                                       "ئامادە نەبوو باسی چیرۆکی ھاوسەرە دووژنەکەی بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBigamouss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBigamouss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBigamouss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBigamouss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

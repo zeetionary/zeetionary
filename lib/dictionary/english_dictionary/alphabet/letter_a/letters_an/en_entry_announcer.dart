@@ -180,13 +180,17 @@ class EnglishEntryannouncer extends StatelessWidget {
                                   text:
                                       "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncer436("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncer436(
-                                    // REPLACE: announcer /əˈnaʊnsər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnouncer436("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncer436(
+                                        // REPLACE: announcer /əˈnaʊnsər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntryannouncer extends StatelessWidget {
                                   text:
                                       "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncer440("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncer440(
-                                    // REPLACE: announcer /əˈnaʊnsər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnouncer440("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncer440(
+                                        // REPLACE: announcer /əˈnaʊnsər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,13 +233,17 @@ class EnglishEntryannouncer extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بێژەری یارییەکەی ئێن-بی-ئەی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnouncer443("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnouncer443(
-                                    // REPLACE: announcer /əˈnaʊnsər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnnouncer443("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnouncer443(
+                                        // REPLACE: announcer /əˈnaʊnsər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

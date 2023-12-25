@@ -177,11 +177,17 @@ class EnglishEntrybenevolence extends StatelessWidget {
                                   text:
                                       "دەنگە ئارام و خۆشحاڵییەکەی وای نیشاندا کە کەسێکی تەواو دڵپاک و چاکەکار بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenevolences1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenevolences1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBenevolences1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBenevolences1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

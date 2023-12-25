@@ -177,11 +177,15 @@ class EnglishEntrybenchmark extends StatelessWidget {
                                   text:
                                       "سیستەمی ڕیسایکڵی ئەڵمانیا وەک نموونەیەک دەبینرێت بۆ پلانەکان لە سەرانسەری ئەورووپا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBenchmarks1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBenchmarks1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBenchmarks1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBenchmarks1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

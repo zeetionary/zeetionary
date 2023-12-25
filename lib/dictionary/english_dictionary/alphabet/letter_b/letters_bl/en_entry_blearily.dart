@@ -175,11 +175,15 @@ class EnglishEntryblearily extends StatelessWidget {
                                   text:
                                       "کارڵ بە چاوی ماندووێتییەوە لە ڕۆژنامەکەی دەڕوانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblearilys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblearilys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblearilys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblearilys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

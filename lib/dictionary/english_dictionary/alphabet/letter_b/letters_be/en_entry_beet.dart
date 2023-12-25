@@ -177,11 +177,15 @@ class EnglishEntrybeet extends StatelessWidget {
                                   text:
                                       "جوتیاران چەندان ڕیزی چەوەندەریان چاند لە کێڵگەکانیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

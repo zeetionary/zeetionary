@@ -175,11 +175,15 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                                   text:
                                       "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbonemarrows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbonemarrows1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbonemarrows1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbonemarrows1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -172,11 +172,15 @@ class EnglishEntrybasil extends StatelessWidget {
                                   text:
                                       "ڕێحانە زۆرجار لە خواردنی ئیتالیدا بەکاردێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasils1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasils1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBasils1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBasils1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

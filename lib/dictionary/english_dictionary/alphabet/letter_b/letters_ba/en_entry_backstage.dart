@@ -181,12 +181,17 @@ class EnglishEntrybackstage extends StatelessWidget {
                                   text:
                                       "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1(// REPLACE: backstage
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s1(// REPLACE: backstage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,12 +208,17 @@ class EnglishEntrybackstage extends StatelessWidget {
                                   text:
                                       "ڕێکخەران دەڵێن پێشبڕکێیەکی دادپەروەرانەیە، بەڵام کێ دەزانێ چی لە پشتەوەی پەردە ڕوودەدات؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s2(// REPLACE: backstage
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s2(// REPLACE: backstage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -225,12 +235,17 @@ class EnglishEntrybackstage extends StatelessWidget {
                                   text:
                                       "تاقمی پشتەوەی پەردە ماندوونەناسانە کاریان دەکرد بۆ دڵنیاییکردنەوەی ئەوەی نمایشەکە بەبێ کێشەکە بەڕێوەدەچێت"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s3(// REPLACE: backstage
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s3(// REPLACE: backstage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -247,12 +262,17 @@ class EnglishEntrybackstage extends StatelessWidget {
                                   text:
                                       "نێردەکە ژمارەیەک کۆبوونەوەی نھێنیی ئەنجامدا لەگەڵ سەرکردەکانی یاخیبووان بۆ ھێنانەئارای ئاگربەستێک"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakB3s4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakB3s4(// REPLACE: backstage
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakB3s4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakB3s4(// REPLACE: backstage
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

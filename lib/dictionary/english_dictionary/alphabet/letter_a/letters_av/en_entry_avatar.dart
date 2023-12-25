@@ -177,13 +177,17 @@ class EnglishEntryavatar extends StatelessWidget {
                                   text:
                                       "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvatars1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvatars1(// REPLACE: avatar
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvatars1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvatars1(// REPLACE: avatar
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryavatar extends StatelessWidget {
                                   text:
                                       "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات  کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvatars2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvatars2(// REPLACE: avatar
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvatars2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvatars2(// REPLACE: avatar
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

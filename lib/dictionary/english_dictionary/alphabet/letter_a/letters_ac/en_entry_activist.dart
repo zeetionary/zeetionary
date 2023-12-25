@@ -132,12 +132,16 @@ class EnglishEntryactivist extends StatelessWidget {
                                   text:
                                       "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAct32568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAct32568(
-                                    "en-US"), // REPLACE activist /ˈæktɪvɪst/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAct32568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAct32568(
+                                        "en-US"), // REPLACE activist /ˈæktɪvɪst/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

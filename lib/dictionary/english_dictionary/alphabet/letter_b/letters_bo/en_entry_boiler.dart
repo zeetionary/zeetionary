@@ -175,11 +175,15 @@ class EnglishEntryboiler extends StatelessWidget {
                                   text:
                                       "ڕەنگە پێویست بکات گیزەرێکی تازە دابنەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboilers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboilers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboilers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboilers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

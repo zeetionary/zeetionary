@@ -183,13 +183,17 @@ class EnglishEntryarguably extends StatelessWidget {
                                   text:
                                       "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArguably1020("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArguably1020(
-                                    // REPLACE: arguably /ˈɑːrɡjuəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArguably1020("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArguably1020(
+                                        // REPLACE: arguably /ˈɑːrɡjuəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

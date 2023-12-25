@@ -217,11 +217,15 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ناپلیۆن لە جەنگی واتەرلۆدا تێکشکا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -235,11 +239,15 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "باوکی لە جەنگدا کوژرا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -256,11 +264,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "لەکۆتاییدا ھەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -275,11 +287,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "وتارەکە باسی ململانێی بێ کۆتایی نێوان مرۆڤ و سرووشت دەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -294,11 +310,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -315,11 +335,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "لەکۆتاییدا جەنگە درێژەکەی دژ بە شێرپەنجە دۆڕاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -334,11 +358,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ ھێشتنەوەی نەخۆشخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -355,11 +383,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "دوو سەرکردەکە تێدەکۆشن بۆ ھەژموونیان بەسەر حکومەتدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -373,11 +405,15 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -392,11 +428,15 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "دوو بەرەکە ھەفتەی داھاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBattles10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBattles10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBattles10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBattles10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

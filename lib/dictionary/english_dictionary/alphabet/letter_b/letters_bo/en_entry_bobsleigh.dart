@@ -174,11 +174,15 @@ class EnglishEntrybobsleigh extends StatelessWidget {
                                   text:
                                       "سەیری وەرزشوانەکانمان دەکرد بە ڕێگایەکی بەفریندا دەچوونە خوارەوە لە گالیسکەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobsleighs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobsleighs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobsleighs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobsleighs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -192,11 +196,15 @@ class EnglishEntrybobsleigh extends StatelessWidget {
                                   text:
                                       "ئەوە یەکەمین تیمی ئافرەتانی گالیسکەوانی بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbobsleighs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbobsleighs2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbobsleighs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbobsleighs2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

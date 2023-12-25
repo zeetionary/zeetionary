@@ -175,11 +175,17 @@ class EnglishEntrybloodpressure extends StatelessWidget {
                                   text:
                                       "پەرستارەکە کەمێکی تر پەستانی خوێنی دەگرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbloodpressures1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbloodpressures1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbloodpressures1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbloodpressures1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

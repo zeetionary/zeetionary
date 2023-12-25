@@ -184,13 +184,18 @@ class EnglishEntryappreciably extends StatelessWidget {
                                   text:
                                       "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAppreciably951("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAppreciably951(
-                                    // REPLACE: appreciably /əˈpriːʃəbli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAppreciably951("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAppreciably951(
+                                        // REPLACE: appreciably /əˈpriːʃəbli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

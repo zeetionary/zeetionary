@@ -187,13 +187,18 @@ class EnglishEntryauthorship extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "نووسەری ھۆنراوەکە نەزانراوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorship731("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthorship731(// REPLACE: authorship
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthorship731("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorship731(
+                                        // REPLACE: authorship
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -210,13 +215,18 @@ class EnglishEntryauthorship extends StatelessWidget {
                                   text:
                                       "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthorship733("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAuthorship733(// REPLACE: authorship
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthorship733("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthorship733(
+                                        // REPLACE: authorship
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

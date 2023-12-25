@@ -175,11 +175,15 @@ class EnglishEntryblissful extends StatelessWidget {
                                   text:
                                       "سێ ھەفتەی پڕ لە خۆشبەختیمان بەسەربرد دوور لە کار."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblissfuls1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblissfuls1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblissfuls1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblissfuls1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

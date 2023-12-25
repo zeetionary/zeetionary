@@ -179,13 +179,17 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                   text:
                                       "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankruptcys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankruptcys1(// REPLACE: bankruptcy
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankruptcys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankruptcys1(// REPLACE: bankruptcy
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

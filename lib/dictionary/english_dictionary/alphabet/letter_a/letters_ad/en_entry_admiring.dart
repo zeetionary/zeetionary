@@ -135,13 +135,17 @@ class EnglishEntryadmiring extends StatelessWidget {
                                   text:
                                       "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmiri25471("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmiri25471(
-                                    // REPLACE: admiring /ədˈmaɪərɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmiri25471("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmiri25471(
+                                        // REPLACE: admiring /ədˈmaɪərɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryadmiring extends StatelessWidget {
                                   text:
                                       "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmi95237("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmi95237(
-                                    // REPLACE: admiring /ədˈmaɪərɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmi95237("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmi95237(
+                                        // REPLACE: admiring /ədˈmaɪərɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

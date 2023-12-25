@@ -177,17 +177,21 @@ class EnglishEntryankle extends StatelessWidget {
                                   text:
                                       "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnkle1112("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnkle1112(// REPLACE: ankle /ˈæŋkl/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnkle1112("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnkle1112(// REPLACE: ankle /ˈæŋkl/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -196,13 +200,17 @@ class EnglishEntryankle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "قولەپێ‌یەکانم ئاوساون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnkle1114("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnkle1114(// REPLACE: ankle /ˈæŋkl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnkle1114("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnkle1114(
+                                        // REPLACE: ankle /ˈæŋkl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -112,11 +112,15 @@ class EnglishEntryabacus extends StatelessWidget {
                                   text:
                                       "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak145287("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak145287("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak145287("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak145287("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

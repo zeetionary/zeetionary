@@ -183,13 +183,17 @@ class EnglishEntryapiece extends StatelessWidget {
                                   text:
                                       "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApiece237("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakApiece237(// REPLACE: apiece /əˈpiːs/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApiece237("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApiece237(
+                                        // REPLACE: apiece /əˈpiːs/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

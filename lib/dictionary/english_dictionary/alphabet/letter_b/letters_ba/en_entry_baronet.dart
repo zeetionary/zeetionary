@@ -170,11 +170,15 @@ class EnglishEntrybaronet extends StatelessWidget {
                                   text:
                                       "بەچکە بەگزادە گەنجەکە، سەرەڕای نازناوەکەی، بڕیاریدا ببێتە دکتۆر بۆ بەدەمەوەچوونی پێویستییەکانی خەڵکی ئاسایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaronets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBaronets1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaronets1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBaronets1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

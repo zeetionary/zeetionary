@@ -135,13 +135,17 @@ class EnglishEntryagnostic extends StatelessWidget {
                                   text:
                                       "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgnos15666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgnos15666(
-                                    // REPLACE: agnostic /æɡˈnɑːstɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgnos15666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgnos15666(
+                                        // REPLACE: agnostic /æɡˈnɑːstɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -157,13 +161,17 @@ class EnglishEntryagnostic extends StatelessWidget {
                                   text:
                                       "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAg45822("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAg45822(
-                                    // REPLACE: agnostic /æɡˈnɑːstɪk/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAg45822("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAg45822(
+                                        // REPLACE: agnostic /æɡˈnɑːstɪk/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -137,13 +137,18 @@ class EnglishEntryalienation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlienation73555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlienation73555(
-                                    // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlienation73555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlienation73555(
+                                        // REPLACE: alienation /ˌeɪliəˈneɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -159,13 +164,18 @@ class EnglishEntryalienation extends StatelessWidget {
                                   text:
                                       "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlienation422121("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlienation422121(
-                                    // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlienation422121("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlienation422121(
+                                        // REPLACE: alienation /ˌeɪliəˈneɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

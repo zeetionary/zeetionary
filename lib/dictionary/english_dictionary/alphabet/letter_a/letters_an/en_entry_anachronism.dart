@@ -179,13 +179,18 @@ class EnglishEntryanachronism extends StatelessWidget {
                                   text:
                                       "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnachronism4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnachronism4599(
-                                    // REPLACE: anachronism /əˈnækrənɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnachronism4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnachronism4599(
+                                        // REPLACE: anachronism /əˈnækrənɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryanachronism extends StatelessWidget {
                                   text:
                                       "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnachronism0205("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnachronism0205(
-                                    // REPLACE: anachronism /əˈnækrənɪzəm/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnachronism0205("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnachronism0205(
+                                        // REPLACE: anachronism /əˈnækrənɪzəm/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

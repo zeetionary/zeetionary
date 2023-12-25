@@ -179,13 +179,17 @@ class EnglishEntryavalanche extends StatelessWidget {
                                   text:
                                       "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvalanches1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvalanches1(// REPLACE: avalanche
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvalanches1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvalanches1(// REPLACE: avalanche
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +204,17 @@ class EnglishEntryavalanche extends StatelessWidget {
                                   text:
                                       "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvalanches2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvalanches2(// REPLACE: avalanche
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvalanches2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAvalanches2(
+                                        // REPLACE: avalanche
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

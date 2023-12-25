@@ -176,11 +176,15 @@ class EnglishEntrybiography extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ژیاننامەیەکی وینستۆن چەرچڵی نووسی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiographys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiographys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiographys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiographys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

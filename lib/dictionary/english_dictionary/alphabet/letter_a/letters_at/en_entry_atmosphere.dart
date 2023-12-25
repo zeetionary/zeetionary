@@ -192,13 +192,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1119("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1119(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1119("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1119(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -213,13 +218,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1121("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1121(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1121("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1121(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -236,13 +246,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1123("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1123(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1123("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1123(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -259,13 +274,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1126("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1126(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1126("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1126(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -282,13 +302,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1128("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1128(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1128("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1128(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -303,13 +328,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   text:
                                       "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAtmosphere1129("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAtmosphere1129(// REPLACE: atmosphere
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAtmosphere1129("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAtmosphere1129(
+                                        // REPLACE: atmosphere
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

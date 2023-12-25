@@ -136,13 +136,17 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   text:
                                       "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdmin25687("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdmin25687(
-                                    // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdmin25687("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdmin25687(
+                                        // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

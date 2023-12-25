@@ -132,13 +132,17 @@ class EnglishEntryairless extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەوەکە گەرم و بێ با بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirless4562("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirless4562(
-                                    // REPLACE: airless /ˈerləs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirless4562("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirless4562(
+                                        // REPLACE: airless /ˈerləs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -187,13 +187,17 @@ class EnglishEntryarouse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارە نامۆکەی گومانی درووست‌کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArouse1147("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArouse1147(// REPLACE: arouse /əˈraʊz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArouse1147("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArouse1147(
+                                        // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -209,13 +213,17 @@ class EnglishEntryarouse extends StatelessWidget {
                                   text:
                                       "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArouse1154("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArouse1154(// REPLACE: arouse /əˈraʊz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArouse1154("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArouse1154(
+                                        // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -231,13 +239,17 @@ class EnglishEntryarouse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArouse1155("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArouse1155(// REPLACE: arouse /əˈraʊz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArouse1155("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArouse1155(
+                                        // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,13 +266,17 @@ class EnglishEntryarouse extends StatelessWidget {
                                   text:
                                       "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArouse1157("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArouse1157(// REPLACE: arouse /əˈraʊz/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArouse1157("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArouse1157(
+                                        // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

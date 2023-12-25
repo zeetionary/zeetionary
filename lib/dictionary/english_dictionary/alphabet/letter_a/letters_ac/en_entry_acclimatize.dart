@@ -119,11 +119,15 @@ class EnglishEntryacclimatize extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا بە ژیانی لادێ ڕانەھاتووین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA14998("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA14998("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA14998("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA14998("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

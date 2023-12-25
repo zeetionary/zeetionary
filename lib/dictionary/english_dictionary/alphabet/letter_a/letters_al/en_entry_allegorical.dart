@@ -137,13 +137,18 @@ class EnglishEntryallegorical extends StatelessWidget {
                                   text:
                                       "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllegorical24177("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllegorical24177(
-                                    // REPLACE: allegorical /ˌæləˈɡɔːrɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAllegorical24177("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllegorical24177(
+                                        // REPLACE: allegorical /ˌæləˈɡɔːrɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

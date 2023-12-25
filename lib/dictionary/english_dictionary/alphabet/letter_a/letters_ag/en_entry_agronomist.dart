@@ -135,13 +135,17 @@ class EnglishEntryagronomist extends StatelessWidget {
                                   text:
                                       "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAgronom35111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAgronom35111(
-                                    // REPLACE: agronomist /əˈɡrɑːnəmɪst/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAgronom35111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAgronom35111(
+                                        // REPLACE: agronomist /əˈɡrɑːnəmɪst/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

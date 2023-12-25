@@ -108,11 +108,15 @@ class EnglishEntryaccrue extends StatelessWidget {
                                   text:
                                       "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAccrue("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAccrue("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAccrue("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAccrue("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

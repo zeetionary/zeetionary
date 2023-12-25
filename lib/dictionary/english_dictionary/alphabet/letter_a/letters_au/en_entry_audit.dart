@@ -189,12 +189,17 @@ class EnglishEntryaudit extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudit201("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAudit201(// REPLACE: audit
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudit201("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudit201(// REPLACE: audit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,12 +216,17 @@ class EnglishEntryaudit extends StatelessWidget {
                                   text:
                                       "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudit205("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAudit205(// REPLACE: audit
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudit205("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudit205(// REPLACE: audit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -233,12 +243,17 @@ class EnglishEntryaudit extends StatelessWidget {
                                   text:
                                       "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudit208("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAudit208(// REPLACE: audit
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudit208("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudit208(// REPLACE: audit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -254,12 +269,17 @@ class EnglishEntryaudit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دەچووە وانەکان لە زانکۆی کالیفۆرنیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudit211("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAudit211(// REPLACE: audit
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudit211("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudit211(// REPLACE: audit
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

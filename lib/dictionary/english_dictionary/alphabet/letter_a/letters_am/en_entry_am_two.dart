@@ -132,13 +132,17 @@ class EnglishEntryamtwo extends StatelessWidget {
                                   text:
                                       "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmtwo4555("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAmtwo4555(// REPLACE: a.m. /haʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmtwo4555("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAmtwo4555(// REPLACE: a.m. /haʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -130,13 +130,17 @@ class EnglishEntryadore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئاشکرایە کە ئەڤینداریەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdore45821("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdore45821(// REPLACE: adore /əˈdɔːr/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdore45821("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdore45821(
+                                        // REPLACE: adore /əˈdɔːr/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

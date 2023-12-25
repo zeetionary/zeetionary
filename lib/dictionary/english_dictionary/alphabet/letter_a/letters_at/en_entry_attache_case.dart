@@ -187,13 +187,18 @@ class EnglishEntryattachecase extends StatelessWidget {
                                   text:
                                       "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAttachecase442("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAttachecase442(// REPLACE: attaché case
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAttachecase442("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAttachecase442(
+                                        // REPLACE: attaché case
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

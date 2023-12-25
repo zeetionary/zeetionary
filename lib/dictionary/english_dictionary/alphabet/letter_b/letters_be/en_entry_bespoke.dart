@@ -178,11 +178,15 @@ class EnglishEntrybespoke extends StatelessWidget {
                                   text:
                                       "پێڵاوی چەرمی تایبەتی جووتی دەگاتە ١٠٠٠ پاوەند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBespokes1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBespokes1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBespokes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBespokes1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +203,15 @@ class EnglishEntrybespoke extends StatelessWidget {
                                   text:
                                       "کۆمپانیاکە شارەزایی ھەیە لە خشڵی تایبەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBespokes2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBespokes2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBespokes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBespokes2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

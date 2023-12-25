@@ -186,13 +186,18 @@ class EnglishEntryauthenticity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAuthenticity651("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAuthenticity651(
-                                    // REPLACE: authenticity
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAuthenticity651("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAuthenticity651(
+                                        // REPLACE: authenticity
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

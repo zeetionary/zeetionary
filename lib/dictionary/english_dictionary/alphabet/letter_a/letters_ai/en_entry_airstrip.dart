@@ -136,13 +136,17 @@ class EnglishEntryairstrip extends StatelessWidget {
                                   text:
                                       "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirstrip7655("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirstrip7655(
-                                    // REPLACE: airstrip /ˈerstrɪp/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirstrip7655("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirstrip7655(
+                                        // REPLACE: airstrip /ˈerstrɪp/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

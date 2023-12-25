@@ -176,13 +176,17 @@ class EnglishEntryangler extends StatelessWidget {
                                   text:
                                       "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngler402("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngler402(// REPLACE: angler /ˈæŋɡlər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngler402("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngler402(
+                                        // REPLACE: angler /ˈæŋɡlər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

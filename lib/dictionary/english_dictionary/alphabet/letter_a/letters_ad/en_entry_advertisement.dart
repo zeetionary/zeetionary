@@ -136,13 +136,18 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                   text:
                                       "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdvertis36412("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdvertis36412(
-                                    // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAdvertis36412("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdvertis36412(
+                                        // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +163,17 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                   text:
                                       "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە!"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdver25914("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdver25914(
-                                    // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdver25914("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdver25914(
+                                        // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

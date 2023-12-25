@@ -155,11 +155,15 @@ class EnglishEntryabsolute extends StatelessWidget {
                                   text:
                                       "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6254("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6254("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -173,11 +177,15 @@ class EnglishEntryabsolute extends StatelessWidget {
                                   text:
                                       "ئاوی پاک پێویستییەکی تەواو سەرەتایییە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA2569("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA2569("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA2569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA2569("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,11 +201,15 @@ class EnglishEntryabsolute extends StatelessWidget {
                                   text:
                                       "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA7415("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA7415("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA7415("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA7415("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -212,11 +224,15 @@ class EnglishEntryabsolute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "فێریکردین کە یاساکانی فیزیا نەگۆڕن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA6587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA6587("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA6587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA6587("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -232,11 +248,15 @@ class EnglishEntryabsolute extends StatelessWidget {
                                   text:
                                       "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb2541("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb2541("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb2541("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb2541("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

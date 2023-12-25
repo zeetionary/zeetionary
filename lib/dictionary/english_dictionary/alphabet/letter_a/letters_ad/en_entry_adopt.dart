@@ -151,13 +151,17 @@ class EnglishEntryadopt extends StatelessWidget {
                                   text:
                                       "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd256471("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd256471(// REPLACE: adopt /əˈdɑːpt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd256471("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAd256471(
+                                        // REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -172,13 +176,17 @@ class EnglishEntryadopt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAd25673("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAd25673(// REPLACE: adopt /əˈdɑːpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAd25673("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAd25673(// REPLACE: adopt /əˈdɑːpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -194,13 +202,17 @@ class EnglishEntryadopt extends StatelessWidget {
                                   text:
                                       "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdo45826("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdo45826(// REPLACE: adopt /əˈdɑːpt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdo45826("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdo45826(
+                                        // REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -216,13 +228,17 @@ class EnglishEntryadopt extends StatelessWidget {
                                   text:
                                       "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdo7259("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdo7259(// REPLACE: adopt /əˈdɑːpt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdo7259("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAdo7259(// REPLACE: adopt /əˈdɑːpt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -133,13 +133,17 @@ class EnglishEntryaglow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری لە خۆشیدا دەدرەوشایەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAg4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAg4599(// REPLACE: aglow /əˈɡləʊ/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAg4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAg4599(// REPLACE: aglow /əˈɡləʊ/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

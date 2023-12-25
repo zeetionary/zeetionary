@@ -172,11 +172,15 @@ class EnglishEntrybladder extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "بە شێرپەنجەی میزڵدان مرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakbladders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakbladders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbladders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbladders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

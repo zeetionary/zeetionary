@@ -180,13 +180,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwardnesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwardnesss1(// REPLACE: awkwardness
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAwkwardnesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAwkwardnesss1(
+                                        // REPLACE: awkwardness
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +208,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   text:
                                       "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwardnesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwardnesss2(// REPLACE: awkwardness
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAwkwardnesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAwkwardnesss2(
+                                        // REPLACE: awkwardness
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +236,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   text:
                                       "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAwkwardnesss3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAwkwardnesss3(// REPLACE: awkwardness
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAwkwardnesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAwkwardnesss3(
+                                        // REPLACE: awkwardness
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

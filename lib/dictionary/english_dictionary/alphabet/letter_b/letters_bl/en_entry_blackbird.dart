@@ -175,11 +175,15 @@ class EnglishEntryblackbird extends StatelessWidget {
                                   text:
                                       "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackbirds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackbirds1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackbirds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackbirds1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

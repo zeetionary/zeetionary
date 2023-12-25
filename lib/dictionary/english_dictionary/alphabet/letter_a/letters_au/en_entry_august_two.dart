@@ -186,13 +186,17 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                                   text:
                                       "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAugusttwo338("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAugusttwo338(// REPLACE: august
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAugusttwo338("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAugusttwo338(// REPLACE: august
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

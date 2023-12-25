@@ -133,13 +133,17 @@ class EnglishEntryagonizing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "مردنە بەژانەکەی باوکی وێرانی کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA145233("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA145233(
-                                    // REPLACE: agonizing /ˈæɡənaɪzɪŋ/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA145233("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA145233(
+                                        // REPLACE: agonizing /ˈæɡənaɪzɪŋ/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

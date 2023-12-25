@@ -135,13 +135,17 @@ class EnglishEntryafflict extends StatelessWidget {
                                   text:
                                       "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffl455("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffl455(// REPLACE: afflict /əˈflɪkt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffl455("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffl455(
+                                        // REPLACE: afflict /əˈflɪkt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -154,13 +158,17 @@ class EnglishEntryafflict extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffli994("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffli994(// REPLACE: afflict /əˈflɪkt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffli994("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffli994(
+                                        // REPLACE: afflict /əˈflɪkt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

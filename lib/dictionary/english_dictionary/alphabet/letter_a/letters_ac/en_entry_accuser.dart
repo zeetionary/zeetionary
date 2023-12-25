@@ -134,12 +134,16 @@ class EnglishEntryaccuser extends StatelessWidget {
                                   text:
                                       "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA91573("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakA91573("en-US"), // FIND: /əˈkjuːzər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA91573("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA91573(
+                                        "en-US"), // FIND: /əˈkjuːzər/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -175,11 +175,15 @@ class EnglishEntrybillygoat extends StatelessWidget {
                                   text:
                                       "ئاژەڵدارەکە بزنە نێرەکەی دوورخستەوە لە مەڕەکان بۆ ڕێگری لە زاوزێی زیاتر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBillygoats1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBillygoats1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBillygoats1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBillygoats1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

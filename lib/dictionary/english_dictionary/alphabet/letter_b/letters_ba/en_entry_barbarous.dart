@@ -178,13 +178,17 @@ class EnglishEntrybarbarous extends StatelessWidget {
                                   text:
                                       "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbarouss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbarouss1(// REPLACE: barbarous
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbarouss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbarouss1(// REPLACE: barbarous
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

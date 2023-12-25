@@ -178,11 +178,17 @@ class EnglishEntrybelligerent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە زۆر دووژمنانەیە لەگەڵم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelligerents1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelligerents1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBelligerents1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBelligerents1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -199,11 +205,17 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                   text:
                                       "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelligerents2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelligerents2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBelligerents2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBelligerents2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -220,11 +232,17 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                   text:
                                       "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelligerents3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelligerents3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBelligerents3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBelligerents3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

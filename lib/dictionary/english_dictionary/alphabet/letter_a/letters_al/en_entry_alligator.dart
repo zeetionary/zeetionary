@@ -135,13 +135,18 @@ class EnglishEntryalligator extends StatelessWidget {
                                   text:
                                       "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAlligator4596("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAlligator4596(
-                                    // REPLACE: alligator /ˈælɪɡeɪtər/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAlligator4596("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAlligator4596(
+                                        // REPLACE: alligator /ˈælɪɡeɪtər/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

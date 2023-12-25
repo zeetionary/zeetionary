@@ -175,11 +175,15 @@ class EnglishEntryblindalley extends StatelessWidget {
                                   text:
                                       "پێشکەوتن لە زانستدا ڕوونادات بەبێ گرتنەبەری ڕێگا بێ‌سەرەدەرەکان (دەبێت ڕێگا ھەڵەکان تاقیبکرێنەوە بۆ سەرکەوتنی ڕێگا ڕاستەکان)."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindalleys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindalleys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindalleys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindalleys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

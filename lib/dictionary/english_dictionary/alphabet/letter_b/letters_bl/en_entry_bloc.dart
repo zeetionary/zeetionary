@@ -175,11 +175,15 @@ class EnglishEntrybloc extends StatelessWidget {
                                   text:
                                       "یەکێتیی ئەورووپا بلۆکێکی بازرگانیی بەھێزە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblocs1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblocs1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblocs1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblocs1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

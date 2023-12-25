@@ -134,12 +134,16 @@ class EnglishEntryacidtest extends StatelessWidget {
                                   text:
                                       "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcidt14587("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcidt14587(
-                                    "en-US"), // REPLACE acid test /ˌæsɪd ˈtest/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcidt14587("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcidt14587(
+                                        "en-US"), // REPLACE acid test /ˌæsɪd ˈtest/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

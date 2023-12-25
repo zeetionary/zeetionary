@@ -182,13 +182,17 @@ class EnglishEntryarcher extends StatelessWidget {
                                   text:
                                       "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArcher334("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArcher334(// REPLACE: archer /ˈɑːrtʃər/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArcher334("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArcher334(
+                                        // REPLACE: archer /ˈɑːrtʃər/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

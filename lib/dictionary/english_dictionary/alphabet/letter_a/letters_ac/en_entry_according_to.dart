@@ -129,11 +129,15 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                   text:
                                       "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc59173("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc59173("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc59173("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc59173("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -148,11 +152,15 @@ class EnglishEntryaccordingto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc65874("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc65874("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc65874("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc65874("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

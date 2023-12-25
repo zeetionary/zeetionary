@@ -132,13 +132,17 @@ class EnglishEntryairforce extends StatelessWidget {
                                   text:
                                       "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAirforce3528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAirforce3528(
-                                    // REPLACE: speakAirforce /ˈer fɔːrs/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAirforce3528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAirforce3528(
+                                        // REPLACE: speakAirforce /ˈer fɔːrs/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

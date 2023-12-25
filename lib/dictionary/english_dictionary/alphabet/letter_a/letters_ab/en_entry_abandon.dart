@@ -138,11 +138,15 @@ class EnglishEntryabandon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak145632("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak145632("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak145632("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak145632("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -156,11 +160,15 @@ class EnglishEntryabandon extends StatelessWidget {
                                   text:
                                       "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak4522369("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak4522369("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak4522369("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak4522369("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -181,11 +189,15 @@ class EnglishEntryabandon extends StatelessWidget {
                                   text:
                                       "یارییەکەیان وەستاند بەھۆی باران بارین."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speak112547("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speak112547("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak112547("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak112547("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -206,11 +218,15 @@ class EnglishEntryabandon extends StatelessWidget {
                                   text:
                                       "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakA664("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakA664("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakA664("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakA664("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

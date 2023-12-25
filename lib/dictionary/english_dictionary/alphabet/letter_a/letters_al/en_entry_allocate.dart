@@ -135,13 +135,17 @@ class EnglishEntryallocate extends StatelessWidget {
                                   text:
                                       "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllocate4528("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllocate4528(
-                                    // REPLACE: allocate /ˈæləkeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllocate4528("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllocate4528(
+                                        // REPLACE: allocate /ˈæləkeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryallocate extends StatelessWidget {
                                   text:
                                       "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAllocate412("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAllocate412(
-                                    // REPLACE: allocate /ˈæləkeɪt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAllocate412("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAllocate412(
+                                        // REPLACE: allocate /ˈæləkeɪt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

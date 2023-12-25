@@ -175,11 +175,15 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
                                   text:
                                       "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblackberrys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblackberrys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblackberrys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblackberrys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

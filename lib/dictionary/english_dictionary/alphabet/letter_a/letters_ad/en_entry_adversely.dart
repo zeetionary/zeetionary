@@ -135,13 +135,17 @@ class EnglishEntryadversely extends StatelessWidget {
                                   text:
                                       "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdve592("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdve592(
-                                    // REPLACE: adversely /ˈædvɜːsli/,  /ədˈvɜːsli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdve592("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdve592(
+                                        // REPLACE: adversely /ˈædvɜːsli/,  /ədˈvɜːsli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -134,13 +134,17 @@ class EnglishEntryadjoin extends StatelessWidget {
                                   text:
                                       "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjo77444("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAdjo77444(// REPLACE: adjoin /əˈdʒɔɪn/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjo77444("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjo77444(
+                                        // REPLACE: adjoin /əˈdʒɔɪn/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

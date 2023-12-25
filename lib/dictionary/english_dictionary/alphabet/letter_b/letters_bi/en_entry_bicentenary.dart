@@ -178,11 +178,17 @@ class EnglishEntrybicentenary extends StatelessWidget {
                                   text:
                                       "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBicentenarys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBicentenarys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBicentenarys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBicentenarys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

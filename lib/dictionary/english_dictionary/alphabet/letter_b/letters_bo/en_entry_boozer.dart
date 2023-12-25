@@ -174,11 +174,15 @@ class EnglishEntryboozer extends StatelessWidget {
                                   text:
                                       "بڕیارماندا لە مەیخانە لۆکاڵییەکە یەکدی ببینین لە دوای کارکردن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboozers1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboozers1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboozers1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboozers1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -195,11 +199,15 @@ class EnglishEntryboozer extends StatelessWidget {
                                   text:
                                       "ھەوڵ دەدات یارمەتی براکەی بدات کە بووە بە ئارەق‌خۆرێک."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboozers2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboozers2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboozers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboozers2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

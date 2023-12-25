@@ -109,11 +109,15 @@ class EnglishEntryablebodied extends StatelessWidget {
                                   text:
                                       "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAb254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAb254("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAb254("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAb254("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

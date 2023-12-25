@@ -185,13 +185,17 @@ class EnglishEntryassorted extends StatelessWidget {
                                   text:
                                       "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAssorted822("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAssorted822(
-                                    // REPLACE: assorted /əˈsɔːrtɪd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAssorted822("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAssorted822(
+                                        // REPLACE: assorted /əˈsɔːrtɪd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -133,13 +133,17 @@ class EnglishEntryaloft extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "گڵاسەکەی لەحەوادا گرت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAloft4256("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAloft4256(// REPLACE: aloft /əˈlɔːft/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAloft4256("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAloft4256(
+                                        // REPLACE: aloft /əˈlɔːft/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

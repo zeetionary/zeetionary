@@ -182,13 +182,17 @@ class EnglishEntryballot extends StatelessWidget {
                                   text:
                                       "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallots1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallots1(// REPLACE: ballot
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallots1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallots1(// REPLACE: ballot
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -205,13 +209,17 @@ class EnglishEntryballot extends StatelessWidget {
                                   text:
                                       "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallots2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallots2(// REPLACE: ballot
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallots2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallots2(// REPLACE: ballot
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallots3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallots3(// REPLACE: ballot
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallots3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallots3(// REPLACE: ballot
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +261,17 @@ class EnglishEntryballot extends StatelessWidget {
                                   text:
                                       "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallots4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallots4(// REPLACE: ballot
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallots4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallots4(// REPLACE: ballot
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -270,13 +286,17 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "کرێکاران دەنگیان بۆ مانگرتن دا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallots5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallots5(// REPLACE: ballot
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallots5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallots5(// REPLACE: ballot
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,17 @@ class EnglishEntryangel extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ئەڵێی فریشتەیە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngel405("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngel405(// REPLACE: angel /ˈeɪndʒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngel405("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngel405(
+                                        // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -198,13 +202,17 @@ class EnglishEntryangel extends StatelessWidget {
                                   text:
                                       "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngel407("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngel407(// REPLACE: angel /ˈeɪndʒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngel407("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngel407(
+                                        // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -219,13 +227,17 @@ class EnglishEntryangel extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکانی ماری فریشتەی وردیلەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngel9963("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngel9963(// REPLACE: angel /ˈeɪndʒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngel9963("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngel9963(
+                                        // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -240,13 +252,17 @@ class EnglishEntryangel extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سوپاس باوکە، تۆ فریشتەیت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAngel4850("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAngel4850(// REPLACE: angel /ˈeɪndʒl/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAngel4850("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAngel4850(
+                                        // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

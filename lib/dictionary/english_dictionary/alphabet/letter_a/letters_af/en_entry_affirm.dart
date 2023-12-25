@@ -133,13 +133,17 @@ class EnglishEntryaffirm extends StatelessWidget {
                                   text:
                                       "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff25699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAff25699(// REPLACE: affirm /əˈfɜːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff25699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAff25699(
+                                        // REPLACE: affirm /əˈfɜːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -155,13 +159,17 @@ class EnglishEntryaffirm extends StatelessWidget {
                                   text:
                                       "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffirm411("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffirm411(// REPLACE: affirm /əˈfɜːrm/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffirm411("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffirm411(
+                                        // REPLACE: affirm /əˈfɜːrm/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

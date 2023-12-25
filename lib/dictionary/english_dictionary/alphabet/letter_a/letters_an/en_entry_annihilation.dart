@@ -179,13 +179,18 @@ class EnglishEntryannihilation extends StatelessWidget {
                                   text:
                                       "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnihilation126("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnihilation126(
-                                    // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnihilation126("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnihilation126(
+                                        // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +207,18 @@ class EnglishEntryannihilation extends StatelessWidget {
                                   text:
                                       "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnnihilation136("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnnihilation136(
-                                    // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnnihilation136("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnnihilation136(
+                                        // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

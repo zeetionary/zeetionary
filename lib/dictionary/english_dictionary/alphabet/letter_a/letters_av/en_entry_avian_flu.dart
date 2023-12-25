@@ -177,13 +177,17 @@ class EnglishEntryavianflu extends StatelessWidget {
                                   text:
                                       "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAvianflus1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAvianflus1(// REPLACE: avian flu
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAvianflus1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAvianflus1(// REPLACE: avian flu
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,11 +176,15 @@ class EnglishEntryblindness extends StatelessWidget {
                                   text:
                                       "کەمی ڤیتامین A دەکرێت ببێتە ھۆی نابینایی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindnesss1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindnesss1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindnesss1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindnesss1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -196,11 +200,15 @@ class EnglishEntryblindness extends StatelessWidget {
                                   text:
                                       "بێ ئاگایی لە ڕێسا کۆمەڵایەتییەکان دەیخستە ناو کێشەی قووڵترەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblindnesss2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblindnesss2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblindnesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblindnesss2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

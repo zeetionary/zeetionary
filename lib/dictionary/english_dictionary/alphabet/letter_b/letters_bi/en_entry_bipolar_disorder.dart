@@ -179,13 +179,17 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
                                   text:
                                       "لە تەمەنی ١٣ ساڵی وەک تووشبووی دووجەمسەری ناسێنرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakBipolardisorders1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBipolardisorders1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakBipolardisorders1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBipolardisorders1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

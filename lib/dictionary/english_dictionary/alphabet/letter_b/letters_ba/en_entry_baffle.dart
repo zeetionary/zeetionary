@@ -175,13 +175,17 @@ class EnglishEntrybaffle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارەکانی سەرم دەسوڕمێنن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBaffles1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBaffles1(// REPLACE: baffle
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBaffles1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBaffles1(// REPLACE: baffle
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

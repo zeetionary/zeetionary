@@ -178,13 +178,17 @@ class EnglishEntryanode extends StatelessWidget {
                                   text:
                                       "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnode936("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAnode936(// REPLACE: anode /ˈænəʊd/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnode936("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAnode936(// REPLACE: anode /ˈænəʊd/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

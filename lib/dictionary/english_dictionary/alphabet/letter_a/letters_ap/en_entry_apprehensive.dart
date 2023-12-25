@@ -184,13 +184,18 @@ class EnglishEntryapprehensive extends StatelessWidget {
                                   text:
                                       "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApprehensive946("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApprehensive946(
-                                    // REPLACE: apprehensive /ˌæprɪˈhensɪv/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApprehensive946("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApprehensive946(
+                                        // REPLACE: apprehensive /ˌæprɪˈhensɪv/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -184,13 +184,17 @@ class EnglishEntryaudibly extends StatelessWidget {
                                   text:
                                       "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAudibly105("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAudibly105(// REPLACE: audibly
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAudibly105("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAudibly105(// REPLACE: audibly
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

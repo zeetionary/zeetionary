@@ -177,11 +177,15 @@ class EnglishEntrybeery extends StatelessWidget {
                                   text:
                                       "خۆی دوورخست لە ھەناسەکەی کە بۆنی بیرەی لێ دەھات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBeerys1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBeerys1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBeerys1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBeerys1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

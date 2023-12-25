@@ -175,11 +175,15 @@ class EnglishEntryblooddonor extends StatelessWidget {
                                   text:
                                       "لە دوای نەشتەرگەری براکەی بوو بە خوێن‌بەخشێکی بەردەوام."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblooddonors1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblooddonors1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakblooddonors1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakblooddonors1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

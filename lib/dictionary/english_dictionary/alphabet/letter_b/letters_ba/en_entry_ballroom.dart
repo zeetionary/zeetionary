@@ -178,13 +178,17 @@ class EnglishEntryballroom extends StatelessWidget {
                                   text:
                                       "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBallrooms1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBallrooms1(// REPLACE: ballroom
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBallrooms1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBallrooms1(// REPLACE: ballroom
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -177,13 +177,18 @@ class EnglishEntryamplitude extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplitude4599("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplitude4599(
-                                    // REPLACE: amplitude /ˈæmplɪtuːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmplitude4599("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplitude4599(
+                                        // REPLACE: amplitude /ˈæmplɪtuːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -200,13 +205,18 @@ class EnglishEntryamplitude extends StatelessWidget {
                                   text:
                                       "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAmplitude46669("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmplitude46669(
-                                    // REPLACE: amplitude /ˈæmplɪtuːd/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAmplitude46669("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmplitude46669(
+                                        // REPLACE: amplitude /ˈæmplɪtuːd/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -132,12 +132,16 @@ class EnglishEntryacquainted extends StatelessWidget {
                                   text:
                                       "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAcqua24("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAcqua24(
-                                    "en-US"), // REPLACE acquainted /əˈkweɪntɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAcqua24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAcqua24(
+                                        "en-US"), // REPLACE acquainted /əˈkweɪntɪd/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

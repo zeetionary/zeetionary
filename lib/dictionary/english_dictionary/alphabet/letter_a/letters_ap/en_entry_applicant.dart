@@ -182,13 +182,17 @@ class EnglishEntryapplicant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakApplicant656("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApplicant656(
-                                    // REPLACE: applicant /ˈæplɪkənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakApplicant656("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApplicant656(
+                                        // REPLACE: applicant /ˈæplɪkənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

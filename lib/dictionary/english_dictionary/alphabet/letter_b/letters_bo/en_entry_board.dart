@@ -374,11 +374,15 @@ class EnglishEntryboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "سەرنشینان چاوەڕێن سەرکەون."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -392,11 +396,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "سواری فڕۆکەیەک بوو بۆ فیلادێلفیا دەچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards2("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards2("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -413,11 +421,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "گەشتی BA193 بۆ پاریس ئێستا لە دەروازەی ٣٧ گەشتیاران سەردەخات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards3("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards3("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -434,11 +446,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "ھەمیشە یەک یان دوو خوێندکاری لابوو کە لەگەڵی دەژیان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards4("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards4("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -452,11 +468,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "لە کاتی مانەوەی لە ئینگلتەرە لەگەڵ خێزانێک دەژیا لە لەندەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards5("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards5("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -473,11 +493,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "کە لە قوتابخانە بوویت ھاتووچۆت دەکرد ڕۆژانە یان دەمایتەوە لە قوتابخانە (داخلی)؟"),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards6("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards6("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -493,11 +517,15 @@ class EnglishEntryboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەنیر خرایە سەر تەختەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards7("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards7("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -511,11 +539,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "تێبینی کرد کە تەختەیەک لە پەرژینەکەدا شلبوو بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards8("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards8("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -529,11 +561,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "فەرشەکەی لێکردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards9("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards9("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -548,11 +584,15 @@ class EnglishEntryboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "لەسەر سەبوورەکە دەینووسم."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards10("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards10("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -564,11 +604,15 @@ class EnglishEntryboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "پەنیر لەسەر تەختەیەک دانرا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards11("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards11("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -585,11 +629,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "تەختەیەکی گونجاو ھەڵبژێرە بۆسەکیتەوانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards12("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards12("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -606,11 +654,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "کورسیەکی ھەیە لە دەستەی بەڕێوەبەرایەتی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards13("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards13("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -624,11 +676,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "ئەندامانی دەستەکە دەنگ لەسەر ھەنگاوەکان دەدەن لە کۆبوونەوەکەی سبەینێ."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards14("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards14("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -645,11 +701,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "تاقیکردنەوەکان لەلایەن دەستەی تاقیکاری کامبریجەوە دادەنرێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards15("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards15("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -666,11 +726,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "٩٠ پاوەند لە ھەفتەیەکدا دەدات بۆ خواردن و شوێنی مانەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards16("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards16("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -687,11 +751,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "ئەمە کۆتا دەرفەتمە بۆ دەرچوون لە تاقیکردنەوەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards17("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards17("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -706,11 +774,15 @@ class EnglishEntryboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "وەک خانمە ئەکتەرێک کاردەکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards18("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards18("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards18("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -724,11 +796,15 @@ class EnglishEntryboard extends StatelessWidget {
                                   text:
                                       "شانۆکەی لەسەر ستەیج نمایش دەکرێت لە سینەمای برۆدوەی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakboards19("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakboards19("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboards19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboards19("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

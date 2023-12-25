@@ -120,11 +120,15 @@ class EnglishEntryaccommodating extends StatelessWidget {
                                   text:
                                       "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAc24687("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAc24687("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAc24687("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAc24687("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

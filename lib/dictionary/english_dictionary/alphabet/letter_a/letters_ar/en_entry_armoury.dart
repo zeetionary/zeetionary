@@ -185,13 +185,17 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   text:
                                       "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmoury631("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmoury631(
-                                    // REPLACE: armoury /ˈɑːrməri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmoury631("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmoury631(
+                                        // REPLACE: armoury /ˈɑːrməri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -211,13 +215,17 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   text:
                                       "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmoury635("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmoury635(
-                                    // REPLACE: armoury /ˈɑːrməri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmoury635("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmoury635(
+                                        // REPLACE: armoury /ˈɑːrməri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -234,13 +242,17 @@ class EnglishEntryarmoury extends StatelessWidget {
                                   text:
                                       "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArmoury646("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArmoury646(
-                                    // REPLACE: armoury /ˈɑːrməri/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArmoury646("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArmoury646(
+                                        // REPLACE: armoury /ˈɑːrməri/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

@@ -176,13 +176,17 @@ class EnglishEntrybandwagon extends StatelessWidget {
                                   text:
                                       "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBandwagons1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBandwagons1(// REPLACE: bandwagon
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBandwagons1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBandwagons1(// REPLACE: bandwagon
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

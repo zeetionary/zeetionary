@@ -178,13 +178,18 @@ class EnglishEntryanatomical extends StatelessWidget {
                                   text:
                                       "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAnatomical460("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAnatomical460(
-                                    // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAnatomical460("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnatomical460(
+                                        // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

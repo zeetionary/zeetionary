@@ -182,13 +182,17 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                   text:
                                       "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankrupts1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankrupts1(// REPLACE: bankrupt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankrupts1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankrupts1(// REPLACE: bankrupt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -203,13 +207,17 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                   text:
                                       "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankrupts2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankrupts2(// REPLACE: bankrupt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankrupts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankrupts2(// REPLACE: bankrupt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -226,13 +234,17 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                   text:
                                       "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankrupts3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankrupts3(// REPLACE: bankrupt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankrupts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankrupts3(// REPLACE: bankrupt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -249,13 +261,17 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                   text:
                                       "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankrupts4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankrupts4(// REPLACE: bankrupt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankrupts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankrupts4(// REPLACE: bankrupt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -271,13 +287,17 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ترسان زیانەکە مایەپووچیان بکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBankrupts5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBankrupts5(// REPLACE: bankrupt
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBankrupts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBankrupts5(// REPLACE: bankrupt
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

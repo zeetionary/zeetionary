@@ -175,11 +175,15 @@ class EnglishEntrybiohazard extends StatelessWidget {
                                   text:
                                       "مەترسییە زیندەییەکان بۆ کارمەندان لە بواری تەندرووستی و خزمەتگوزارییە مرۆییەکانی دیکە لە زیادبووندایە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiohazards1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiohazards1("en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBiohazards1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakBiohazards1("en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

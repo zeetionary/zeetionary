@@ -132,12 +132,16 @@ class EnglishEntryacrid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAac4281id("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAac4281id(
-                                    "en-US"), // REPLACE acrid /ˈækrɪd/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAac4281id("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAac4281id(
+                                        "en-US"), // REPLACE acrid /ˈækrɪd/
+                                  ),
+                                ],
                               ),
                             ],
                           ),

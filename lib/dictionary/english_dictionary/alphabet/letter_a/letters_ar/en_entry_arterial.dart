@@ -183,13 +183,17 @@ class EnglishEntryarterial extends StatelessWidget {
                                   text:
                                       "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArterial158("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakArterial158(
-                                    // REPLACE: arterial /ɑːrˈtɪriəl/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakArterial158("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakArterial158(
+                                        // REPLACE: arterial /ɑːrˈtɪriəl/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

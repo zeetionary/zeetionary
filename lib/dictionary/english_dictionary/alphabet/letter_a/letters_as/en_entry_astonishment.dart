@@ -187,13 +187,18 @@ class EnglishEntryastonishment extends StatelessWidget {
                                   text:
                                       "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAstonishment1053("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAstonishment1053(
-                                    // REPLACE: astonishment
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakAstonishment1053("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAstonishment1053(
+                                        // REPLACE: astonishment
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

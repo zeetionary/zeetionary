@@ -151,13 +151,17 @@ class EnglishEntryaffect extends StatelessWidget {
                                   text:
                                       "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffe5699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffe5699(// REPLACE: affect /əˈfekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffe5699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffe5699(
+                                        // REPLACE: affect /əˈfekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -171,13 +175,17 @@ class EnglishEntryaffect extends StatelessWidget {
                                   text:
                                       "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffe741("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffe741(// REPLACE: affect /əˈfekt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffe741("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAffe741(// REPLACE: affect /əˈfekt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -193,13 +201,17 @@ class EnglishEntryaffect extends StatelessWidget {
                                   text:
                                       "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAffe25699("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAffe25699(// REPLACE: affect /əˈfekt/
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAffe25699("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAffe25699(
+                                        // REPLACE: affect /əˈfekt/
                                         "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -214,13 +226,17 @@ class EnglishEntryaffect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAff2566("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAff2566(// REPLACE: affect /əˈfekt/
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAff2566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAff2566(// REPLACE: affect /əˈfekt/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

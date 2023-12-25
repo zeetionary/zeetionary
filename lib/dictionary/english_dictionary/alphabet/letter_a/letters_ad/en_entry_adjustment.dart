@@ -136,13 +136,17 @@ class EnglishEntryadjustment extends StatelessWidget {
                                   text:
                                       "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjus56911("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjus56911(
-                                    // REPLACE: adjustment /əˈdʒʌstmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjus56911("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjus56911(
+                                        // REPLACE: adjustment /əˈdʒʌstmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -158,13 +162,17 @@ class EnglishEntryadjustment extends StatelessWidget {
                                   text:
                                       "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakAdjust5568("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAdjust5568(
-                                    // REPLACE: adjustment /əˈdʒʌstmənt/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAdjust5568("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAdjust5568(
+                                        // REPLACE: adjustment /əˈdʒʌstmənt/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

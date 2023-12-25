@@ -179,13 +179,17 @@ class EnglishEntrybarbed extends StatelessWidget {
                                   text:
                                       "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbeds1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbeds1(// REPLACE: barbed
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbeds1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbeds1(// REPLACE: barbed
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -202,13 +206,17 @@ class EnglishEntrybarbed extends StatelessWidget {
                                   text:
                                       "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBarbeds2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakBarbeds2(// REPLACE: barbed
-                                        "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakBarbeds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakBarbeds2(// REPLACE: barbed
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

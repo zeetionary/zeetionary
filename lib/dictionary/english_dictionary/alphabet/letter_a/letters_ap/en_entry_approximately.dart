@@ -185,14 +185,18 @@ class EnglishEntryapproximately extends StatelessWidget {
                                   text:
                                       "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApproximately1010("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximately1010(
-                                    // REPLACE: approximately /əˈprɑːksɪmətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximately1010("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximately1010(
+                                        // REPLACE: approximately /əˈprɑːksɪmətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -207,14 +211,18 @@ class EnglishEntryapproximately extends StatelessWidget {
                                   text:
                                       "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا."),
                               const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () =>
-                                    speakApproximately1011("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakApproximately1011(
-                                    // REPLACE: approximately /əˈprɑːksɪmətli/
-                                    "en-US"),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakApproximately1011("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakApproximately1011(
+                                        // REPLACE: approximately /əˈprɑːksɪmətli/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
                             ],
                           ),

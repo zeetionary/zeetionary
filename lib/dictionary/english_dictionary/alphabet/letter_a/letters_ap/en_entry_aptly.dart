@@ -173,13 +173,14 @@ class EnglishEntryaptly extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بە شێوەیەکی گونجاو، گونجاوانە، بەو شێوەی کە شیاویەتی یان گونجاوە، بە جێ
 
-١. (ھاوەڵکار) بەشێوەیەکی گوبجاو و بەجێ لە بارودۆخێکدا"""),
+١. (ھاوەڵکار) بەشێوەیەکی گونجاو و بەجێ لە بارودۆخێکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "This word is aptly used here."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەم وشەیە بەجێ بەکارھێنراوە لێرەدا."),
+                                  text:
+                                      "ئەم وشەیە بەشێوەیەکی بەجێ بەکارھێنراوە لێرەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

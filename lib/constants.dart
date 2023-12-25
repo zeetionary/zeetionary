@@ -715,7 +715,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
             ),
             border: Border.all(
               // color: currentTheme.primaryColor.withOpacity(0.28),
-              color: Colors.blue.withOpacity(0.6),
+              color: Colors.blue.withOpacity(0.3),
               width: 2.0,
               style: BorderStyle.solid,
             ),
@@ -1128,7 +1128,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
         side: _isExpanded
-            ? BorderSide(color: Colors.blue.withOpacity(0.6))
+            ? BorderSide(color: Colors.blue.withOpacity(0.3))
             : BorderSide(
                 color: Colors.blue
                     .withOpacity(0.3)), // Conditionally apply the border

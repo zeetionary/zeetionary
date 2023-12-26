@@ -210,19 +210,27 @@ class CustomTabBar extends ConsumerWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
-        boxShadow: [
-          BoxShadow(
-            color: currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
-            blurRadius: 4.0,
-          ),
-        ],
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            currentTheme.primaryColor.withOpacity(0.08),
-            currentTheme.primaryColor.withOpacity(0.05),
-          ],
+        // boxShadow: [
+        //   BoxShadow(
+        //     color: currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+        //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
+        //     blurRadius: 4.0,
+        //   ),
+        // ],
+        // gradient: LinearGradient(
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        //   colors: [
+        //     currentTheme.primaryColor.withOpacity(0.06),
+        //     currentTheme.primaryColor.withOpacity(0.06),
+        //     // currentTheme.primaryColor.withOpacity(0.08),
+        //     // currentTheme.primaryColor.withOpacity(0.05),
+        //   ],
+        // ),
+        border: Border.all(
+          color: currentTheme.primaryColor.withOpacity(0.08),
+          width: 1.0,
+          style: BorderStyle.solid,
         ),
       ),
       child: TabBar(
@@ -248,7 +256,7 @@ class CustomTabBar extends ConsumerWidget {
           ),
           border: Border.all(
             color: currentTheme.primaryColor.withOpacity(0.18),
-            width: 2.0,
+            width: 1.0,
             style: BorderStyle.solid,
           ),
         ),
@@ -700,8 +708,10 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                currentTheme.primaryColor.withOpacity(0.05),
-                currentTheme.primaryColor.withOpacity(0.09),
+                currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+                currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+                // currentTheme.primaryColor.withOpacity(0.05),
+                // currentTheme.primaryColor.withOpacity(0.09),
                 // Colors.red.shade800.withOpacity(0.09),
                 // Colors.red.shade800.withOpacity(0.07),
                 // currentTheme.primaryColor.withOpacity(0.08),
@@ -714,9 +724,9 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
               bottomRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              // color: currentTheme.primaryColor.withOpacity(0.28),
-              color: Colors.blue.withOpacity(0.3),
-              width: 2.0,
+              color: currentTheme.primaryColor.withOpacity(0.18),
+              // color: Colors.blue.withOpacity(0.3),
+              width: 1.0,
               style: BorderStyle.solid,
             ),
           ),
@@ -1093,11 +1103,106 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 // divider
 // divider
 
-class MyExpansionTile extends ConsumerStatefulWidget {
-  static const String defaultTitle = "ڕستەی زیاتر"; // Shared title
-  final List<Widget> children;
+// // if card is used
+// class MyExpansionTile extends ConsumerStatefulWidget {
+//   static const String defaultTitle = "ڕستەی زیاتر"; // Shared title
+//   final List<Widget> children;
 
-  // https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
+//   // https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
+
+//   const MyExpansionTile({
+//     super.key,
+//     required this.children,
+//   });
+
+//   @override
+//   ConsumerState<ConsumerStatefulWidget> createState() =>
+//       _MyExpansionTileState();
+// }
+
+// class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
+//     with SingleTickerProviderStateMixin {
+//   bool _isExpanded = false;
+
+//   @override
+//   Widget build(BuildContext context) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+//     return Card(
+//       color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+//       elevation: 3,
+//       // shadowColor: Colors.grey.withOpacity(0.5),
+//       margin: const EdgeInsets.all(8.0),
+//       // shape: RoundedRectangleBorder(
+//       //   borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
+//       //   side: BorderSide(color: Colors.blue.withOpacity(0.7)),
+//       // ),
+//       shape: RoundedRectangleBorder(
+//           borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
+//           side: _isExpanded
+//               // ? BorderSide(color: Colors.blue.withOpacity(0.3))
+//               ? BorderSide(color: currentTheme.primaryColor.withOpacity(0.3))
+//               // : BorderSide(color: Colors.blue.withOpacity(0.3)),
+//               : BorderSide(color: currentTheme.primaryColor.withOpacity(0.3))),
+//       child: Column(
+//         crossAxisAlignment: CrossAxisAlignment.end,
+//         children: [
+//           InkWell(
+//             onTap: () {
+//               setState(() {
+//                 _isExpanded = !_isExpanded;
+//               });
+//             },
+//             child: ListTile(
+//               title: Row(
+//                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                 children: [
+//                   Icon(
+//                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+//                   ),
+//                   Row(
+//                     children: [
+//                       const Text(
+//                         MyExpansionTile.defaultTitle,
+//                         textDirection: TextDirection.rtl,
+//                         style: TextStyle(
+//                           fontSize: 14.0, // Adjust the font size
+//                           fontWeight: FontWeight.bold, // Adjust the font weight
+//                           // color: Colors.black, // Adjust the text color
+//                         ),
+//                       ),
+//                       const SizedBox(
+//                         width: 6,
+//                       ),
+//                       Icon(
+//                         Icons.book,
+//                         color: Colors.blue.withOpacity(0.9),
+//                         // color: currentTheme.primaryColor.withOpacity(0.3),
+//                         size: 20.0,
+//                       ),
+//                     ],
+//                   ),
+//                 ],
+//               ),
+//             ),
+//           ),
+//           if (_isExpanded)
+//             Padding(
+//               padding: const EdgeInsets.only(right: 4.0),
+//               child: Column(
+//                 crossAxisAlignment: CrossAxisAlignment.end,
+//                 children: widget.children,
+//               ),
+//             ),
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+// // if container is used
+class MyExpansionTile extends ConsumerStatefulWidget {
+  static const String defaultTitle = 'ڕستەی زیاتر'; // Shared title
+  final List<Widget> children;
 
   const MyExpansionTile({
     super.key,
@@ -1116,23 +1221,22 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   @override
   Widget build(BuildContext context) {
     final currentTheme = ref.watch(themeNotifierProvider);
-    return Card(
-      color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
-      elevation: 3,
-      shadowColor: Colors.grey.withOpacity(0.5),
+    return Container(
       margin: const EdgeInsets.all(8.0),
-      // shape: RoundedRectangleBorder(
-      //   borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
-      //   side: BorderSide(color: Colors.blue.withOpacity(0.7)),
-      // ),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
-        side: _isExpanded
-            ? BorderSide(color: Colors.blue.withOpacity(0.3))
-            : BorderSide(
-                color: Colors.blue
-                    .withOpacity(0.3)), // Conditionally apply the border
-      ),
+      decoration: _isExpanded
+          ? BoxDecoration(
+              border: Border.all(
+                  color: currentTheme.primaryColor.withOpacity(0.18)),
+              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+            )
+          : BoxDecoration(
+              border: Border.all(
+                color: currentTheme.primaryColor.withOpacity(0.18),
+                width: 1.0,
+              ),
+              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+            ),
+      // : null, // or nothing
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
@@ -1149,9 +1253,9 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
                   ),
-                  Row(
+                  const Row(
                     children: [
-                      const Text(
+                      Text(
                         MyExpansionTile.defaultTitle,
                         textDirection: TextDirection.rtl,
                         style: TextStyle(
@@ -1160,12 +1264,13 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                           // color: Colors.black, // Adjust the text color
                         ),
                       ),
-                      const SizedBox(
+                      SizedBox(
                         width: 6,
                       ),
                       Icon(
                         Icons.book,
-                        color: Colors.blue.withOpacity(0.9),
+                        // color: Colors.blue.withOpacity(0.9),
+                        // color: currentTheme.primaryColor.withOpacity(0.3),
                         size: 20.0,
                       ),
                     ],
@@ -1176,7 +1281,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
           ),
           if (_isExpanded)
             Padding(
-              padding: const EdgeInsets.only(right: 4.0),
+              padding: const EdgeInsets.only(right: 16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: widget.children,

@@ -1981,16 +1981,40 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "born-again",
     "borough",
     "borrow",
-    // "borrower",
-    // "bosom",
-    // "bosom buddy",
-    // "bosom friend",
-    // "bosom pal",
-    // "boss",
-    // "bossy",
-    // "botanical",
-    // "botanist",
-    // "botany",
+    "borrower",
+    "bosom",
+    "bosom buddy",
+    "bosom friend",
+    "bosom pal",
+    "boss",
+    "bossy",
+    "botanical",
+    "botanist",
+    "botany",
+    "botch",
+    "both",
+    // "bother",
+    // "bottle",
+    // "bottleneck",
+    // "bottom",
+    // "bottomless",
+    // "bottom line",
+    // "bough",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -10078,81 +10102,81 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-borrow");
                   }
-                  // if (wordsEnglish == "borrower") {
+                  if (wordsEnglish == "borrower") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-borrower");
+                  }
+                  if (wordsEnglish == "bosom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bosom");
+                  }
+                  if (wordsEnglish == "bosom friend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bosom-friend");
+                  }
+                  if (wordsEnglish == "bosom buddy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bosom-friend");
+                  }
+                  if (wordsEnglish == "bosom pal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bosom-friend");
+                  }
+                  if (wordsEnglish == "boss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boss");
+                  }
+                  if (wordsEnglish == "bossy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bossy");
+                  }
+                  if (wordsEnglish == "botany") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-botany");
+                  }
+                  if (wordsEnglish == "botanical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-botanical");
+                  }
+                  if (wordsEnglish == "botanist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-botanist");
+                  }
+                  if (wordsEnglish == "botch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-botch");
+                  }
+                  if (wordsEnglish == "both") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-both");
+                  }
+                  // if (wordsEnglish == "bother") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-borrower");
+                  //   Routemaster.of(context).push("/english-bother");
                   // }
-                  // if (wordsEnglish == "bosom") {
+                  // if (wordsEnglish == "bottle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bosom");
+                  //   Routemaster.of(context).push("/english-bottle");
                   // }
-                  // if (wordsEnglish == "bosom friend") {
+                  // if (wordsEnglish == "bottleneck") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bosom-friend");
+                  //   Routemaster.of(context).push("/english-bottleneck");
                   // }
-                  // if (wordsEnglish == "bosom buddy") {
+                  // if (wordsEnglish == "bottom") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bosom-friend");
+                  //   Routemaster.of(context).push("/english-bottom");
                   // }
-                  // if (wordsEnglish == "bosom pal") {
+                  // if (wordsEnglish == "bottomless") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bosom-friend");
+                  //   Routemaster.of(context).push("/english-bottomless");
                   // }
-                  // if (wordsEnglish == "boss") {
+                  // if (wordsEnglish == "bottom line") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boss");
+                  //   Routemaster.of(context).push("/english-bottom-line");
                   // }
-                  // if (wordsEnglish == "bossy") {
+                  // if (wordsEnglish == "bough") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bossy");
-                  // }
-                  // if (wordsEnglish == "botany") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-botany");
-                  // }
-                  // if (wordsEnglish == "botanical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-botanical");
-                  // }
-                  // if (wordsEnglish == "botanist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-botanist");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bough");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

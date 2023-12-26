@@ -15,6 +15,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final List<String> allwordsKurdish = [
     "کوردی",
     "کوردستان",
+    "کوردس‌تان",
   ];
 
   List<String> filteredWords = [];
@@ -84,6 +85,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     Routemaster.of(context).push('/english-aback');
                   }
                   if (wordsKurdish == "کوردستان") {
+                    saveToHistory(wordsKurdish);
+                    Routemaster.of(context).push('/english-abacus');
+                  }
+                  if (wordsKurdish == "کوردس‌تان") {
                     saveToHistory(wordsKurdish);
                     Routemaster.of(context).push('/english-abacus');
                   }

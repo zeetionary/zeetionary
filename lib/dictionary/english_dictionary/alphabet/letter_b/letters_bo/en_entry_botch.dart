@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "botany" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "botch" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace botany - /ˈbɒtəni/
+// replace botch - /bɒtʃ/
 
 enum TtsState { playing }
 
-class EnglishEntrybotany extends StatelessWidget {
+class EnglishEntrybotch extends StatelessWidget {
 // blank divider
-  EnglishEntrybotany({super.key});
+  EnglishEntrybotch({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbotany(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotch(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("botany"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("botch"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She pursued a degree in botany for her love of flora."); // DOPSUM: CHANGE TEXT
+        "He completely botched up the interview."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I've made a real botch of the decorating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbotchs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbotchs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbotchs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbotchs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbotchs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbotch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbotchs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntrybotany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "botany"),
+                            EntryTitle(word: "botch"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUK: /bɒtʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbotany("en-GB"),
+                              onPressed: () => speakbotch("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUS: /bɑːtʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbotany("en-US"),
+                              onPressed: () => speakbotch("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +136,13 @@ class EnglishEntrybotany extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,25 +164,47 @@ class EnglishEntrybotany extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕووەک‌ناسی، گیاناسی
+کوردی: بەفشە سەریەک‌خستن، کاری تڕەکەڵەک یان سەرسەرەکی، کاری خراپ‌کراو، گەندەڵکاری، گووکاری، کەڵەک‌شەیتان، تێڕیان، گووتێکردن، خراپ‌کردن، کارپیسی
 
-١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکهاتەیان"""),
+١. (کردار) کردنی شتێک بە خراپی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She pursued a degree in botany for her love of flora."),
+                                      "He completely botched up the interview."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەهۆی حەزی بۆ ڕووەک."),
+                                  text: "بە تەواوی چاوپێکەوتنەکەی شێواند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbotanys1("en-GB"),
+                                    onPressed: () => speakbotchs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanys1("en-US"),
+                                    onPressed: () => speakbotchs1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) کارێک کە خراپ کراوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've made a real botch of the decorating."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕازاندنەوەکەم بە تەواوی شێواندووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbotchs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbotchs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +221,10 @@ class EnglishEntrybotany extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -238,11 +261,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: botany (Derived forms: botanies)
-1. All the plant life in a particular region or period (= vegetation, flora)
-"the botany of China";
+- Noun: botch (Derived forms: botches)
+1. An embarrassing mistake (= blunder, blooper [N. Amer, informal], bloomer [informal], bungle, pratfall [informal], foul-up, flub [N. Amer, informal], boner [N. Amer, informal], boo-boo [informal], goof [informal], boob [Brit, informal], blue [Austral, NZ, informal])
 
-2. The branch of biology that studies plants (= phytology)
+- Verb: botch (Derived forms: botching, botches, botched)
+1. Make a mess of, destroy or ruin (= bodge [Brit, informal], bumble, fumble, botch up, muff [informal], blow, flub [N. Amer, informal], screw up [informal], spoil, muck up [informal], bungle, fluff [informal], bobble [N. Amer], mishandle, louse up [informal], foul up, mess up, butcher, goof up [informal], cock up [Brit, informal], balls up [informal], make a hash of [informal])
+"I botched the dinner and we had to eat out";
 """,
           )
         ],
@@ -256,12 +280,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "OJhq5FpFyjM";
+  static String myVideoId = "lYu1ysDULwA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
+      startAt: 347, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -281,12 +305,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "2th5lAd-77A";
+  static String myVideoId = "qVfJheBp7Ys";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 877, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -306,12 +330,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "jo-yiqfN15U";
+  static String myVideoId = "xmj9aJpyN9U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 410, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -331,12 +355,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "D1DePlU15z4";
+  static String myVideoId = "hA95iw4B2jg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 379, // DOPSUM: CHANGE IT
+      startAt: 421, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -356,12 +380,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "eLt9itd3KhA";
+  static String myVideoId = "5zfZhskSmp0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 819, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -381,12 +405,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "Ox4bHA9fGGY";
+  static String myVideoId = "Pd6w7gBRmNg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 577, // DOPSUM: CHANGE IT
+      startAt: 244, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -406,12 +430,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "_hefhfxpECI";
+  static String myVideoId = "zioTEH65Vxg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 70, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -431,12 +455,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "Gs26bZTRkdU";
+  static String myVideoId = "mzLtHVIO0TY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 2211, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -456,12 +480,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "NvgnUSN-Epw";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 292, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -481,12 +505,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "IFDkxVu49CA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -506,12 +530,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "7We_HAYds5g";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8607, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -531,12 +555,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "zENlgw3Tvfo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,4 +579,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end botany
+// end botch

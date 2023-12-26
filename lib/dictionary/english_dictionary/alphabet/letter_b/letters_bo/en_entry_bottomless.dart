@@ -5,87 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "botany" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bottomless" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace botany - /ˈbɒtəni/
+// replace bottomless - /ˈbɑːtəmləs/
 
 enum TtsState { playing }
 
-class EnglishEntrybotany extends StatelessWidget {
+class EnglishEntrybottomless extends StatelessWidget {
 // blank divider
-  EnglishEntrybotany({super.key});
+  EnglishEntrybottomless({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbotany(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomless(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("botany"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bottomless"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She pursued a degree in botany for her love of flora."); // DOPSUM: CHANGE TEXT
+        "The sea looked dark, almost bottomless."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They believed that at the centre of the earth, the sea poured into a bottomless hole."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had a bottomless hunger for learning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottomlesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakbottomless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottomlesss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +104,22 @@ class EnglishEntrybotany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "botany"),
+                            EntryTitle(word: "bottomless"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒtəmləs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbotany("en-GB"),
+                              onPressed: () => speakbottomless("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːtəmləs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbotany("en-US"),
+                              onPressed: () => speakbottomless("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +137,13 @@ class EnglishEntrybotany extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,25 +165,70 @@ class EnglishEntrybotany extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕووەک‌ناسی، گیاناسی
+کوردی: بێ‌بن، بێ‌پەی، قووڵ، کوور، لەڕادەبەدەر، بێ‌ئەندازە، بێ‌ڕادە
 
-١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکهاتەیان"""),
+١. (ھاوەڵناو) زۆر قووڵ وەک ئەوەی کۆتایی نەبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She pursued a degree in botany for her love of flora."),
+                                      "The sea looked dark, almost bottomless."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەهۆی حەزی بۆ ڕووەک."),
+                                      "دەریاکە تاریک دیار بوو، وەک ئەوەی بنی نەبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbotanys1("en-GB"),
+                                    onPressed: () => speakbottomlesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanys1("en-US"),
+                                    onPressed: () => speakbottomlesss1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They believed that at the centre of the earth, the sea poured into a bottomless hole."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "باوەڕیان وابوو کە ناوەڕاستی زەویدا دەریاکە دەڕژایە ناو چاڵێکی بێ‌بنەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottomlesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottomlesss2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) بە بێ سنوور یان کۆتایی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had a bottomless hunger for learning."),
+                              const ExampleSentenceKurdish(
+                                  text: "حەزێکی بێ سنووری هەبوو بۆ فێربوون."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottomlesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottomlesss3("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,7 +248,7 @@ class EnglishEntrybotany extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -238,11 +285,18 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: botany (Derived forms: botanies)
-1. All the plant life in a particular region or period (= vegetation, flora)
-"the botany of China";
-
-2. The branch of biology that studies plants (= phytology)
+- Adjective: bottomless
+1. Having no bottom
+"bottomless pyjamas consisting simply of a long top opening down the front"
+ 
+2. Extremely deep
+"a bottomless pit"; "a bottomless lake"
+ 
+3. Having no apparent limits or bounds
+"a bottomless supply of money"; "bottomless pockets"
+ 
+4. Unclothed especially below the waist or featuring such nudeness
+"bottomless dancers"; "a bottomless bar"
 """,
           )
         ],
@@ -256,12 +310,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "OJhq5FpFyjM";
+  static String myVideoId = "https://youtu.be/58XEfDtU0Z4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
+      startAt: 1599, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -281,12 +335,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "2th5lAd-77A";
+  static String myVideoId = "https://youtu.be/xKmZGQp6yng?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 434, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -306,12 +360,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "jo-yiqfN15U";
+  static String myVideoId = "https://youtu.be/yyv2gOHMGEc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 361, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -331,12 +385,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "D1DePlU15z4";
+  static String myVideoId = "https://youtu.be/afKBOFONecE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 379, // DOPSUM: CHANGE IT
+      startAt: 340, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -356,12 +410,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "eLt9itd3KhA";
+  static String myVideoId = "https://youtu.be/1rcLovRGm4w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 91, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -381,12 +435,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "Ox4bHA9fGGY";
+  static String myVideoId = "https://youtu.be/hyXCWYqpId4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 577, // DOPSUM: CHANGE IT
+      startAt: 232, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -406,12 +460,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "_hefhfxpECI";
+  static String myVideoId = "https://youtu.be/dypj6GBiM2s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 70, // DOPSUM: CHANGE IT
+      startAt: 161, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -431,12 +485,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "Gs26bZTRkdU";
+  static String myVideoId = "https://youtu.be/E2rtQFAibEA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 2499, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -456,12 +510,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "NvgnUSN-Epw";
+  static String myVideoId = "https://youtu.be/81fdKWOHrdE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 292, // DOPSUM: CHANGE IT
+      startAt: 7594, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -481,12 +535,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "IFDkxVu49CA";
+  static String myVideoId = "https://youtu.be/9-wYtwCihr4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 4104, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -506,12 +560,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "7We_HAYds5g";
+  static String myVideoId = "https://youtu.be/vBG621XEegk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8607, // DOPSUM: CHANGE IT
+      startAt: 2715, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -531,12 +585,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "zENlgw3Tvfo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,4 +609,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end botany
+// end bottomless

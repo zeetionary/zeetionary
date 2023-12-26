@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "botany" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bottleneck" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace botany - /ˈbɒtəni/
+// replace bottleneck - /ˈbɒtlnek/
 
 enum TtsState { playing }
 
-class EnglishEntrybotany extends StatelessWidget {
+class EnglishEntrybottleneck extends StatelessWidget {
 // blank divider
-  EnglishEntrybotany({super.key});
+  EnglishEntrybottleneck({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbotany(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottleneck(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("botany"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bottleneck"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks1(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She pursued a degree in botany for her love of flora."); // DOPSUM: CHANGE TEXT
+        "He drove around the outside of the town to avoid the bottleneck in the centre."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks2(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Is there any way of getting around this bureaucratic bottleneck?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks3(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks4(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks5(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks6(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbotanys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbotany
+  Future<void> speakbottlenecks7(String languageCode) async {
+    // DOPSUM: CHANGE speakbottleneck
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbotanys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottlenecks77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntrybotany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "botany"),
+                            EntryTitle(word: "bottleneck"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒtlnek/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbotany("en-GB"),
+                              onPressed: () => speakbottleneck("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɒtəni/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːtlnek/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbotany("en-US"),
+                              onPressed: () => speakbottleneck("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +136,13 @@ class EnglishEntrybotany extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,25 +164,50 @@ class EnglishEntrybotany extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕووەک‌ناسی، گیاناسی
+کوردی: تەنگە، تەسکەڕێ، باریکەڕێ، باریکان، هۆکاری خاوکەرەوە، ڕێبەست، ڕێبەند، تەنگانە
 
-١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکهاتەیان"""),
+١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە هاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She pursued a degree in botany for her love of flora."),
+                                      "He drove around the outside of the town to avoid the bottleneck in the centre."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەهۆی حەزی بۆ ڕووەک."),
+                                      "بە دەرەوەی شارەکەدا ڕۆشت بۆ ئەوەی لە تەسکەڕێی ناوەندەکە دووربێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbotanys1("en-GB"),
+                                    onPressed: () => speakbottlenecks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanys1("en-US"),
+                                    onPressed: () => speakbottlenecks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) هەرشتێک کە بەرەوپێشچوون یان گەشەسەندن خاوبکاتەوە، بەتایبەتی لە بازرگانی و پیشەسازیدا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Is there any way of getting around this bureaucratic bottleneck?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هیچ ڕێگایەک هەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottlenecks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottlenecks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,7 +227,7 @@ class EnglishEntrybotany extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -238,11 +264,17 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: botany (Derived forms: botanies)
-1. All the plant life in a particular region or period (= vegetation, flora)
-"the botany of China";
+- Noun: bottleneck (Derived forms: bottlenecks)
+1. A narrowing that reduces the flow through a channel (= constriction, chokepoint)
+ 
+2. The narrow part of a bottle near the top
 
-2. The branch of biology that studies plants (= phytology)
+- Verb: bottleneck (Derived forms: bottlenecked, bottlenecking, bottlenecks)
+1. Slow down or impede by creating an obstruction
+"His laziness has bottlenecked our efforts to reform the system"
+ 
+2. Become narrow, like a bottleneck
+"Right by the bridge, the road bottlenecks"
 """,
           )
         ],
@@ -256,12 +288,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "OJhq5FpFyjM";
+  static String myVideoId = "https://youtu.be/oD9BaNAH-eE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
+      startAt: 532, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -281,32 +313,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "2th5lAd-77A";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "jo-yiqfN15U";
+  static String myVideoId = "https://youtu.be/9SrkmNPBdiU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,15 +335,40 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "D1DePlU15z4";
+  static String myVideoId = "https://youtu.be/_ONi8ppkYgo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 379, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/QqF_OZJSbxY?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -356,12 +388,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "eLt9itd3KhA";
+  static String myVideoId = "https://youtu.be/-UfrN11V9SM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -381,12 +413,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "Ox4bHA9fGGY";
+  static String myVideoId = "https://youtu.be/7Fjn4GRw8qE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 577, // DOPSUM: CHANGE IT
+      startAt: 383, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -406,12 +438,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "_hefhfxpECI";
+  static String myVideoId = "https://youtu.be/DHSAjPu7M-s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 70, // DOPSUM: CHANGE IT
+      startAt: 303, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -431,12 +463,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "Gs26bZTRkdU";
+  static String myVideoId = "https://youtu.be/bgJazjz9ZsA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 7751, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -456,12 +488,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "NvgnUSN-Epw";
+  static String myVideoId = "https://youtu.be/ypn3Fe_PLts?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 292, // DOPSUM: CHANGE IT
+      startAt: 1125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -481,12 +513,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "IFDkxVu49CA";
+  static String myVideoId = "https://youtu.be/30foJiPUrBA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -506,12 +538,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "7We_HAYds5g";
+  static String myVideoId = "https://youtu.be/36CKsP9YQ1E?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8607, // DOPSUM: CHANGE IT
+      startAt: 335, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -531,12 +563,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "zENlgw3Tvfo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,4 +587,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end botany
+// end bottleneck

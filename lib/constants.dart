@@ -460,7 +460,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
             ],
             border: Border.all(
               color: currentTheme.primaryColor.withOpacity(0.1),
-              width: 3.0,
+              width: 1.0,
             ),
             borderRadius: BorderRadius.circular(
                 15.0), // Apply border radius to the container

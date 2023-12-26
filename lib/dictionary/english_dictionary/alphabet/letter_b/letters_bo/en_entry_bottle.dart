@@ -5,218 +5,240 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bosom" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bottle" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bosom - /ˈbʊzəm/
+// replace bottle - /ˈbɒtl/
 
 enum TtsState { playing }
 
-class EnglishEntrybosom extends StatelessWidget {
+class EnglishEntrybottle extends StatelessWidget {
 // blank divider
-  EnglishEntrybosom({super.key});
+  EnglishEntrybottle({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbosom(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottle(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bosom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bottle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms1(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles1(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("A bottle of water, please."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles2(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "To open the bottle, you twist and pull out the stopper."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles3(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She pressed him to her bosom."); // DOPSUM: CHANGE TEXT
+        .speak("She filled the bottle with water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms2(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dress showed the top of her bosoms."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms3(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She clutched her baby tightly to her bosom."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms4(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms5(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles4(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The dress left the bosom bare."); // DOPSUM: CHANGE TEXT
+        .speak("He drank a whole bottle of wine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms6(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her bosoms heaved as she breathed heavily."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms7(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was slender, but with a voluptuous bosom."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms8(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles5(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She pinned a rose to her bosom."); // DOPSUM: CHANGE TEXT
+        .speak("He handed me a bottle of beer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms9(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles6(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Clasp your child to your bosom and give him a big kiss!"); // DOPSUM: CHANGE TEXT
+        "After his wife died, he really hit the bottle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms10(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles7(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("It's time for her bottle."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles8(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("It took a lot of bottle to do that."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles9(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The wine is bottled at the vineyard."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles10(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was living in the bosom of his family"); // DOPSUM: CHANGE TEXT
+        "Keep your empty jam jars for bottling next year’s fruit."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms11(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles11(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms12(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles12(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms13(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles13(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms14(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles14(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms15(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles15(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms16(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles16(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms17(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles17(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms18(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles18(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms19(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles19(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms20(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles20(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms21(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles21(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms22(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles22(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms23(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbottles23(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbottles2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles24(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbottles2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles25(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbottles2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbottles26(String languageCode) async {
+    // DOPSUM: CHANGE speakbottle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbottles2626"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -239,22 +261,22 @@ class EnglishEntrybosom extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bosom"),
+                            EntryTitle(word: "bottle"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʊzəm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒtl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbosom("en-GB"),
+                              onPressed: () => speakbottle("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʊzəm/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːtl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbosom("en-US"),
+                              onPressed: () => speakbottle("en-US"),
                             ),
                           ],
                         ),
@@ -300,22 +322,23 @@ class EnglishEntrybosom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مەمک، سینگ، بەر، بەرۆک، باوەش، ئامێز، باخەڵ، خەرک، دڵ، جەرگە، نێوەڕاست، نزیک، گەرم‌وگوڕ، دۆستانە
+کوردی: شووشە، بوتڵ، شووشەی شیر، شیری وشک، شیری مانگا (لە بەرامبەر شیری دایک‌دا)، خواردنەوەی ئەڵکۆڵ، ئارەق، خواردنەوە، دڵ‌وجەرگ، وێران، کەپسوول یان لوولەکی گاز، پڕشووشەیێ، شووشەبەر
 
-١. (ناو) سنگ یان مەمکی ژن"""),
+١. (ناو) شتێکی پلاستیکی یان شووشە کە خڕە و لایەکانی ڕاستن و بەکاردێت بۆ هەڵگرتنی شلە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She pressed him to her bosom."),
-                              const ExampleSentenceKurdish(text: "مەمکی گوشی."),
+                                  text: "A bottle of water, please."),
+                              const ExampleSentenceKurdish(
+                                  text: "بێزەحمەت، بوتڵێک ئاو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms1("en-GB"),
+                                    onPressed: () => speakbottles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms1("en-US"),
+                                    onPressed: () => speakbottles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -326,191 +349,38 @@ class EnglishEntrybosom extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The dress showed the top of her bosoms."),
+                                      "To open the bottle, you twist and pull out the stopper."),
                               const ExampleSentenceKurdish(
-                                  text: "جلەکە سەرسنگی دەرخستبوو."),
+                                  text:
+                                      "بۆ کردنەوەی بوتڵەکە، ئەیجەڕێنیت و بانەکەی لێدەکەیتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms2("en-GB"),
+                                    onPressed: () => speakbottles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms2("en-US"),
+                                    onPressed: () => speakbottles2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "She clutched her baby tightly to her bosom."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکەی بە توندی گرت بە سنگییەوە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کە چووە ژوورەکە هەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The dress left the bosom bare."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "جلەکە سنگی بە دانەپۆشراوی دەهێشتەوە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Her bosoms heaved as she breathed heavily."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "سنگی پڕبوو کە بە قووڵی هەناسەی دا."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "She was slender, but with a voluptuous bosom."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Clasp your child to your bosom and give him a big kiss!"),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئەو بەشەی جل کە سنگی ژنان دادەپۆشێت"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She pinned a rose to her bosom."),
+                                  text: "She filled the bottle with water."),
                               const ExampleSentenceKurdish(
-                                  text: "گوڵێکی کردبوو بە یەقەیەوە."),
+                                  text: "بوتڵەکەی پڕکرد لە ئاو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms8("en-GB"),
+                                    onPressed: () => speakbottles3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms8("en-US"),
+                                    onPressed: () => speakbottles3("en-US"),
                                   ),
                                 ],
                               ),
@@ -519,22 +389,158 @@ class EnglishEntrybosom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو دۆخەی کە لەگەڵ ئەو کەسانەی کە خۆشیان دەوێیت و دەتپارێزن"),
+                                  "٢. (ناو) ئەو ڕێژەیەی لە بوتڵێکدا جێی دەبێتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He drank a whole bottle of wine."),
+                              const ExampleSentenceKurdish(
+                                  text: "بوتڵێکی تەواوی شەرابی خواردەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He handed me a bottle of beer."),
+                              const ExampleSentenceKurdish(
+                                  text: "بوتڵێک شەرابی پێمدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) خواردنەوەی کحولی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was living in the bosom of his family"),
+                                      "After his wife died, he really hit the bottle (= started drinking heavily)."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ئارامیی خێزانەکەیدا دەژیا."),
+                                  text:
+                                      "لە دوای مردنی ژنەکەی، دەستیکرد بە هەڵدانی بیرە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms10("en-GB"),
+                                    onPressed: () => speakbottles6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms10("en-US"),
+                                    onPressed: () => speakbottles6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) بوتڵە شیری منداڵ، یان شیرەکەی ناوی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "It's time for her bottle."),
+                              const ExampleSentenceKurdish(
+                                  text: "کاتی شیر خواردنیەتی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٥. (ناو) بوێری و متمانە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "It took a lot of bottle to do that."),
+                              const ExampleSentenceKurdish(
+                                  text: "کردنی ئەوە جەربەزەیی زۆری ویست."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (کردار) تێکردنە ناو بوتڵێکەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The wine is bottled at the vineyard."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شەرابەکە دەخرێتە بوتڵەوە لە باخەترێیەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) دانانی میوە و سەوزە لە دەفری شووشە بۆ پاراستنیان"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Keep your empty jam jars for bottling next year’s fruit."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شووشە مرەبا بەتاڵەکان بپارێزە بۆ ئەوەی ساڵی داهاتوو میوەیان تێ‌بخەیت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbottles10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbottles10("en-US"),
                                   ),
                                 ],
                               ),
@@ -591,27 +597,20 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bosom (Derived forms: bosoms)
-1. Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= breast)
+- Noun: bottle (Derived forms: bottling, bottles, bottled)
+1. A glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped
  
-2. A person's breast or chest
+2. The quantity contained in a bottle (= bottleful)
  
-3. Cloth that covers the chest or breasts
+3. A vessel fitted with a flexible teat and filled with milk or formula; used as a substitute for breast feeding infants and very young children (= feeding bottle, nursing bottle)
  
-4. A close affectionate and protective acceptance (= embrace)
-"in the bosom of the family";
+4. [Brit, informal] A quality of spirit that enables you to face danger or pain without showing fear (= courage, courageousness, bravery, braveness)
 
-5. The locus of feelings and intuitions (= heart)
-"her story would melt your bosom";
-
-6. [archaic] The chest considered as the place where secret thoughts are kept
-"his bosom was bursting with the secret"
-
-- Verb: bosom (Derived forms: bosomed, bosoming, bosoms)
-1. Hide in one's bosom
-"She bosomed his letters"
+- Verb: bottle
+1. Store (liquids or gases) in bottles
  
-2. Hold (someone) tightly in your arms, usually with fondness (= embrace, hug, squeeze)
+2. Put into bottles
+"bottle the mineral water"
 """,
           )
         ],
@@ -625,12 +624,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "fn--IVarumw";
+  static String myVideoId = "https://youtu.be/ajd3-C5kVL0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1232, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -650,12 +649,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "IxD2NbXzgpQ";
+  static String myVideoId = "https://youtu.be/7ME1lkuBnCk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 311, // DOPSUM: CHANGE IT
+      startAt: 158, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -675,12 +674,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "oDYoV8-9v10";
+  static String myVideoId = "https://youtu.be/47ODQI0OSOA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -700,12 +699,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Ms1uYc28pD4";
+  static String myVideoId = "https://youtu.be/1SO0uvexcew?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 183, // DOPSUM: CHANGE IT
+      startAt: 97, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -725,12 +724,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "cGyj9M05LxA";
+  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -750,12 +749,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "PeS5jJdmYPI";
+  static String myVideoId = "https://youtu.be/_iz5_DuY_II?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 952, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -775,12 +774,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "_zIBPLbgADA";
+  static String myVideoId = "https://youtu.be/lGSOWwUvJiU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 308, // DOPSUM: CHANGE IT
+      startAt: 699, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -800,12 +799,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "R8-24vUq974";
+  static String myVideoId = "https://youtu.be/66aG5P0kQpU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 906, // DOPSUM: CHANGE IT
+      startAt: 982, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -825,12 +824,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "W9F_uVo_Md8";
+  static String myVideoId = "https://youtu.be/jJL0XoNBaac?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 159, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -850,12 +849,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "UpnwWP3fOSA";
+  static String myVideoId = "https://youtu.be/2IKZIWVHXvo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -875,12 +874,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "Do-wDPoC6GM";
+  static String myVideoId = "https://youtu.be/Oslnt9Zr9Jw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 621, // DOPSUM: CHANGE IT
+      startAt: 89, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -900,12 +899,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "nRwK91tG4QU";
+  static String myVideoId = "https://youtu.be/Xdaj7MY1N9M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 467, // DOPSUM: CHANGE IT
+      startAt: 507, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -924,4 +923,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bosom
+// end bottle

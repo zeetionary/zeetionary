@@ -5,175 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "born" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "boss" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace born - /bɔːn/
+// replace boss - /bɒs/
 
 enum TtsState { playing }
 
-class EnglishEntryborn extends StatelessWidget {
+class EnglishEntryboss extends StatelessWidget {
 // blank divider
-  EnglishEntryborn({super.key});
+  EnglishEntryboss({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakborn(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakboss(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("born"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boss"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns1(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was born in 1976."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns2(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss1(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was born in a small village in northern Spain."); // DOPSUM: CHANGE TEXT
+        "I'll ask my boss if I can have the day off."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns3(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss2(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I like being my own boss."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosss3(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The baby was born by Caesarean section on Friday."); // DOPSUM: CHANGE TEXT
+        "Hospital bosses protested at the decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns4(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss4(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("These children were born into poverty."); // DOPSUM: CHANGE TEXT
+        .speak("I'm sick of you bossing me around!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns5(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss5(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She acted with a courage born (out) of desperation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's a real boss chick."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns6(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss6(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The part is played by an American-born actress."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It was a boss party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns7(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosss7(String languageCode) async {
+    // DOPSUM: CHANGE speakboss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was the firstborn of his family."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns8(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I felt born to take care of animals."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns9(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I do not expect anything from him. He was a born loser."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns10(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The baby was born by Cesarean section on Friday."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns11(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1111"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns12(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns13(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1313"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns14(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1414"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns15(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1515"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns16(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1616"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns17(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 20, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -190,22 +104,22 @@ class EnglishEntryborn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "born"),
+                            EntryTitle(word: "boss"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɔːn/"),
+                            const IPAofEnglish(text: "IpaUK: /bɒs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakborn("en-GB"),
+                              onPressed: () => speakboss("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɔːrn/"),
+                            const IPAofEnglish(text: "IpaUS: /bɔːs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakborn("en-US"),
+                              onPressed: () => speakboss("en-US"),
                             ),
                           ],
                         ),
@@ -223,19 +137,19 @@ class EnglishEntryborn extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 20
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
-                  // VideoIconForTab(), // 18
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
+                  VideoIconForTab(), // 15
+                  VideoIconForTab(), // 16
+                  VideoIconForTab(), // 17
+                  VideoIconForTab(), // 18
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
@@ -251,23 +165,25 @@ class EnglishEntryborn extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەدایک‌بوون، ھاتنەدونیا، بەتوانا، توانا، بەھرەدار، بەبەھرە، لێھاتوو، شارەزا
+کوردی: سەرۆک، گەورە، سەرکار، سەرکرێکار، بەڕێوەبەر، ساحەب‌کار، سەرپەرشت، (لە بانگ‌کردن‌دا) بەڕێز، جەناب
 
-١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"""),
+١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He was born in 1976."),
+                                  text:
+                                      "I'll ask my boss if I can have the day off."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
+                                  text:
+                                      "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns1("en-GB"),
+                                    onPressed: () => speakbosss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns1("en-US"),
+                                    onPressed: () => speakbosss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -278,73 +194,17 @@ class EnglishEntryborn extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was born in a small village in northern Spain."),
+                                      "I like being my own boss (= working for myself and making my own decisions)."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
+                                  text: "حەزدەکەم سەرکاری خۆم بم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns2("en-GB"),
+                                    onPressed: () => speakbosss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The baby was born by Caesarean section on Friday."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborns3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborns10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "These children were born into poverty."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborns4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborns4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                    onPressed: () => speakbosss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -353,23 +213,23 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەستپێکردنی بیرۆکەیەک، جوڵانەوەیەک، دامەزراوەیەک، ھتد"),
+                                  "٢. (ناو) کەسێک کە بەڕێوەبەری دامەزراوەیەکی گەورەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She acted with a courage born (out) of desperation."),
+                                      "Hospital bosses protested at the decision."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
+                                      "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns5("en-GB"),
+                                    onPressed: () => speakbosss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns5("en-US"),
+                                    onPressed: () => speakbosss3("en-US"),
                                   ),
                                 ],
                               ),
@@ -378,23 +238,43 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) لەدایکبوو بەو شێوەیەی باسکراوە"),
+                                  "٣. (کردار) وتن بە کەسێک کە چی بکات بەشێوەیەکی توند و ناشرین"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The part is played by an American-born actress."),
+                                  text: "I'm sick of you bossing me around!"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
+                                  text: "بێزارم لێت فرمانم بەسەردا بکەیت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns6("en-GB"),
+                                    onPressed: () => speakbosss4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns6("en-US"),
+                                    onPressed: () => speakbosss4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) زۆر باش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She's a real boss chick."),
+                              const ExampleSentenceKurdish(
+                                  text: "ژنێکی تەواو سەرکەوتووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbosss5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbosss5("en-US"),
                                   ),
                                 ],
                               ),
@@ -404,63 +284,17 @@ class EnglishEntryborn extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He was the firstborn of his family."),
+                                  text: "It was a boss party."),
                               const ExampleSentenceKurdish(
-                                  text: "یەکەم منداڵی خێزانەکەی بوو."),
+                                  text: "ئاهەنگێکی ناوازە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns7("en-GB"),
+                                    onPressed: () => speakbosss6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ھاوەڵناو) ھەبوونی توانای سرووشتی بۆ چالاکییەک یان کارێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I felt born to take care of animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns9("en-US"),
+                                    onPressed: () => speakbosss6("en-US"),
                                   ),
                                 ],
                               ),
@@ -479,14 +313,14 @@ class EnglishEntryborn extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddeddfourteen(),
-                    // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddeddsixteen(),
-                    // YoutubeEmbeddeddseventeen(),
-                    // YoutubeEmbeddeddeighteen(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddeddfourteen(),
+                    YoutubeEmbeddedfifteen(),
+                    YoutubeEmbeddeddsixteen(),
+                    YoutubeEmbeddeddseventeen(),
+                    YoutubeEmbeddeddeighteen(),
                     // YoutubeEmbeddeddnineteen(),
                     // YoutubeEmbeddedtwenty(),
                     // YoutubeEmbeddedmulti(),
@@ -517,18 +351,32 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: born
-1. Being talented through inherited qualities (= natural, innate)
-"a born musician";
+- Noun: boss (Derived forms: bosses)
+1. A person who exercises control over workers (= foreman, chief, gaffer [Brit, informal], honcho [N. Amer, informal])
+"if you want to leave early you have to ask the boss";
+ 
+2. A person responsible for hiring workers (= hirer)
+"the boss hired three more men for the new job";
+ 
+3. A person who exercises control and makes decisions
+"he is his own boss now"
+ 
+4. A leader in a political party who controls votes and dictates appointments (= party boss, political boss)
+"party bosses have a reputation for corruption";
 
-- Verb: born
-1. To come out of a mother's body, and start to exist
-"she was born in 1950"; "he was a child born of adultery"
+5. A circular rounded projection or protuberance (= knob)
 
-2. To start to exist
+- Verb: boss (Derived forms: bossing, bossed, bosses)
+1. Be bossy towards (= strong-arm, bully, browbeat, bullyrag [N. Amer, informal], ballyrag [N. Amer, informal], boss around [informal], hector, push around [informal], push about [informal])
+"Her big brother always bossed her when she was young";
+ 
+2. Mark, mould or decorate a surface with a raised design or symbol (= emboss, stamp)
+"bossed stationery";
 
-- Noun: Born
-1. British nuclear physicist (born in Germany) honoured for his contributions to quantum mechanics (1882-1970) (= Max Born)
+- Adjective: boss
+Usage: N. Amer, informal
+1. Exceptionally good (= brag [N. Amer, informal])
+"a boss hand at carpentry";
 """,
           )
         ],
@@ -542,12 +390,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "tXjHb5QmDV0";
+  static String myVideoId = "https://youtu.be/vsMydMDi3rI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1138, // DOPSUM: CHANGE IT
+      startAt: 2862, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,12 +415,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "LAOoF2gyQaA";
+  static String myVideoId = "https://youtu.be/Bw9P_ZXWDJU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 707, // DOPSUM: CHANGE IT
+      startAt: 2743, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -592,12 +440,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "_GFkHA5EZdE";
+  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 427, // DOPSUM: CHANGE IT
+      startAt: 705, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -617,12 +465,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "7TavVZMewpY";
+  static String myVideoId = "https://youtu.be/380Zqbi9luo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 76, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -642,12 +490,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "F5pgG1M_h_U";
+  static String myVideoId = "https://youtu.be/SOeAThye5rQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 342, // DOPSUM: CHANGE IT
+      startAt: 106, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -667,12 +515,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "gdgPAetNY5U";
+  static String myVideoId = "https://youtu.be/zpFB2q_3pJo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 354, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -692,12 +540,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "6mRbDEtDoyA";
+  static String myVideoId = "https://youtu.be/rUWBKjCpZ6o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 172, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -717,12 +565,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "qEV9qoup2mQ";
+  static String myVideoId = "https://youtu.be/0jtWcq3zLfo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 652, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -742,12 +590,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "6kVpRNlc-8w";
+  static String myVideoId = "https://youtu.be/FdxDkLGCZxo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 92, // DOPSUM: CHANGE IT
+      startAt: 125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -767,12 +615,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "XtNni2wLFR4";
+  static String myVideoId = "https://youtu.be/kqvtKtJaXPs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 340, // DOPSUM: CHANGE IT
+      startAt: 310, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -791,6 +639,206 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/qbk_dTzcfA0?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 33, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "https://youtu.be/PMBYkQ58bMM?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 67, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
+
+  static String myVideoId = "https://youtu.be/iEjvVcdCDB4?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 893, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddeddfourteen extends StatelessWidget {
+  YoutubeEmbeddeddfourteen({super.key});
+
+  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 10705, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfifteen extends StatelessWidget {
+  YoutubeEmbeddedfifteen({super.key});
+
+  static String myVideoId = "https://youtu.be/podn2Szo1ls?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 33, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddeddsixteen extends StatelessWidget {
+  YoutubeEmbeddeddsixteen({super.key});
+
+  static String myVideoId = "https://youtu.be/T0fAznO1wA8?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 118, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddeddseventeen extends StatelessWidget {
+  YoutubeEmbeddeddseventeen({super.key});
+
+  static String myVideoId = "https://youtu.be/YbYpbXMUsYM?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2490, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddeddeighteen extends StatelessWidget {
+  YoutubeEmbeddeddeighteen({super.key});
+
+  static String myVideoId = "https://youtu.be/6JP9Swop_Fg?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1587, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddeddnineteen extends StatelessWidget {
+  YoutubeEmbeddeddnineteen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -814,8 +862,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
+class YoutubeEmbeddedtwenty extends StatelessWidget {
+  YoutubeEmbeddedtwenty({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -841,4 +889,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end born
+// end boss

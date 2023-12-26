@@ -5,175 +5,224 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "born" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bosom" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace born - /bɔːn/
+// replace bosom - /ˈbʊzəm/
 
 enum TtsState { playing }
 
-class EnglishEntryborn extends StatelessWidget {
+class EnglishEntrybosom extends StatelessWidget {
 // blank divider
-  EnglishEntryborn({super.key});
+  EnglishEntrybosom({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakborn(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosom(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("born"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bosom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns1(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was born in 1976."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns2(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was born in a small village in northern Spain."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns3(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The baby was born by Caesarean section on Friday."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakborns4(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms1(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("These children were born into poverty."); // DOPSUM: CHANGE TEXT
+        .speak("She pressed him to her bosom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns5(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms2(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She acted with a courage born (out) of desperation."); // DOPSUM: CHANGE TEXT
+        "The dress showed the top of her bosoms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns6(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms3(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The part is played by an American-born actress."); // DOPSUM: CHANGE TEXT
+        "She clutched her baby tightly to her bosom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns7(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms4(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms5(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He was the firstborn of his family."); // DOPSUM: CHANGE TEXT
+        .speak("The dress left the bosom bare."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns8(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms6(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her bosoms heaved as she breathed heavily."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms7(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She was slender, but with a voluptuous bosom."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms8(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I felt born to take care of animals."); // DOPSUM: CHANGE TEXT
+        .speak("She pinned a rose to her bosom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns9(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms9(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I do not expect anything from him. He was a born loser."); // DOPSUM: CHANGE TEXT
+        "Clasp your child to your bosom and give him a big kiss!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns10(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms10(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The baby was born by Cesarean section on Friday."); // DOPSUM: CHANGE TEXT
+        "He was living in the bosom of his family"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns11(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms11(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns12(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms12(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns13(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms13(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns14(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms14(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns15(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms15(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns16(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms16(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakborns17(String languageCode) async {
-    // DOPSUM: CHANGE speakborn
+  Future<void> speakbosoms17(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakborns1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbosoms1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms18(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms19(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms20(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms21(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms22(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbosoms23(String languageCode) async {
+    // DOPSUM: CHANGE speakbosom
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbosoms2323"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -190,22 +239,22 @@ class EnglishEntryborn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "born"),
+                            EntryTitle(word: "bosom"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɔːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊzəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakborn("en-GB"),
+                              onPressed: () => speakbosom("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɔːrn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʊzəm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakborn("en-US"),
+                              onPressed: () => speakbosom("en-US"),
                             ),
                           ],
                         ),
@@ -223,13 +272,13 @@ class EnglishEntryborn extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -251,23 +300,22 @@ class EnglishEntryborn extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەدایک‌بوون، ھاتنەدونیا، بەتوانا، توانا، بەھرەدار، بەبەھرە، لێھاتوو، شارەزا
+کوردی: مەمک، سینگ، بەر، بەرۆک، باوەش، ئامێز، باخەڵ، خەرک، دڵ، جەرگە، نێوەڕاست، نزیک، گەرم‌وگوڕ، دۆستانە
 
-١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"""),
+١. (ناو) سنگ یان مەمکی ژن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He was born in 1976."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
+                                  text: "She pressed him to her bosom."),
+                              const ExampleSentenceKurdish(text: "مەمکی گوشی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns1("en-GB"),
+                                    onPressed: () => speakbosoms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns1("en-US"),
+                                    onPressed: () => speakbosoms1("en-US"),
                                   ),
                                 ],
                               ),
@@ -278,18 +326,17 @@ class EnglishEntryborn extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was born in a small village in northern Spain."),
+                                      "The dress showed the top of her bosoms."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
+                                  text: "جلەکە سەرسنگی دەرخستبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns2("en-GB"),
+                                    onPressed: () => speakbosoms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns2("en-US"),
+                                    onPressed: () => speakbosoms2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,20 +350,20 @@ class EnglishEntryborn extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The baby was born by Caesarean section on Friday."),
+                                              "She clutched her baby tightly to her bosom."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
+                                              "منداڵەکەی بە توندی گرت بە سنگییەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakborns3("en-GB"),
+                                                speakbosoms3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakborns10("en-US"),
+                                                speakbosoms3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -327,20 +374,116 @@ class EnglishEntryborn extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "These children were born into poverty."),
+                                              "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
+                                              "کە چووە ژوورەکە هەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakborns4("en-GB"),
+                                                speakbosoms4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakborns4("en-US"),
+                                                speakbosoms4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The dress left the bosom bare."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "جلەکە سنگی بە دانەپۆشراوی دەهێشتەوە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbosoms5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbosoms5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Her bosoms heaved as she breathed heavily."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "سنگی پڕبوو کە بە قووڵی هەناسەی دا."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbosoms6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbosoms6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "She was slender, but with a voluptuous bosom."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbosoms7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbosoms7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Clasp your child to your bosom and give him a big kiss!"),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbosoms9("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbosoms9("en-US"),
                                           ),
                                         ],
                                       ),
@@ -353,23 +496,21 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەستپێکردنی بیرۆکەیەک، جوڵانەوەیەک، دامەزراوەیەک، ھتد"),
+                                  "٢. (ناو) ئەو بەشەی جل کە سنگی ژنان دادەپۆشێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She acted with a courage born (out) of desperation."),
+                                  text: "She pinned a rose to her bosom."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
+                                  text: "گوڵێکی کردبوو بە یەقەیەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns5("en-GB"),
+                                    onPressed: () => speakbosoms8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns5("en-US"),
+                                    onPressed: () => speakbosoms8("en-US"),
                                   ),
                                 ],
                               ),
@@ -378,89 +519,22 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) لەدایکبوو بەو شێوەیەی باسکراوە"),
+                                  "٣. (ناو) ئەو دۆخەی کە لەگەڵ ئەو کەسانەی کە خۆشیان دەوێیت و دەتپارێزن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The part is played by an American-born actress."),
+                                      "He was living in the bosom of his family"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
+                                  text: "لە ئارامیی خێزانەکەیدا دەژیا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakborns6("en-GB"),
+                                    onPressed: () => speakbosoms10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakborns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was the firstborn of his family."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەکەم منداڵی خێزانەکەی بوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ھاوەڵناو) ھەبوونی توانای سرووشتی بۆ چالاکییەک یان کارێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I felt born to take care of animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns9("en-US"),
+                                    onPressed: () => speakbosoms10("en-US"),
                                   ),
                                 ],
                               ),
@@ -479,8 +553,8 @@ class EnglishEntryborn extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -517,18 +591,27 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: born
-1. Being talented through inherited qualities (= natural, innate)
-"a born musician";
+- Noun: bosom (Derived forms: bosoms)
+1. Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= breast)
+ 
+2. A person's breast or chest
+ 
+3. Cloth that covers the chest or breasts
+ 
+4. A close affectionate and protective acceptance (= embrace)
+"in the bosom of the family";
 
-- Verb: born
-1. To come out of a mother's body, and start to exist
-"she was born in 1950"; "he was a child born of adultery"
+5. The locus of feelings and intuitions (= heart)
+"her story would melt your bosom";
 
-2. To start to exist
+6. [archaic] The chest considered as the place where secret thoughts are kept
+"his bosom was bursting with the secret"
 
-- Noun: Born
-1. British nuclear physicist (born in Germany) honoured for his contributions to quantum mechanics (1882-1970) (= Max Born)
+- Verb: bosom (Derived forms: bosomed, bosoming, bosoms)
+1. Hide in one's bosom
+"She bosomed his letters"
+ 
+2. Hold (someone) tightly in your arms, usually with fondness (= embrace, hug, squeeze)
 """,
           )
         ],
@@ -542,12 +625,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "tXjHb5QmDV0";
+  static String myVideoId = "https://youtu.be/fn--IVarumw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1138, // DOPSUM: CHANGE IT
+      startAt: 1232, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,12 +650,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "LAOoF2gyQaA";
+  static String myVideoId = "https://youtu.be/IxD2NbXzgpQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 707, // DOPSUM: CHANGE IT
+      startAt: 311, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -592,12 +675,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "_GFkHA5EZdE";
+  static String myVideoId = "https://youtu.be/oDYoV8-9v10?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 427, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -617,12 +700,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "7TavVZMewpY";
+  static String myVideoId = "https://youtu.be/Ms1uYc28pD4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 183, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -642,12 +725,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "F5pgG1M_h_U";
+  static String myVideoId = "https://youtu.be/cGyj9M05LxA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 342, // DOPSUM: CHANGE IT
+      startAt: 397, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -667,12 +750,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "gdgPAetNY5U";
+  static String myVideoId = "https://youtu.be/PeS5jJdmYPI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 952, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -692,12 +775,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "6mRbDEtDoyA";
+  static String myVideoId = "https://youtu.be/_zIBPLbgADA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -717,12 +800,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "qEV9qoup2mQ";
+  static String myVideoId = "https://youtu.be/R8-24vUq974?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 652, // DOPSUM: CHANGE IT
+      startAt: 906, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -742,12 +825,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "6kVpRNlc-8w";
+  static String myVideoId = "https://youtu.be/W9F_uVo_Md8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 92, // DOPSUM: CHANGE IT
+      startAt: 485, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -767,12 +850,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "XtNni2wLFR4";
+  static String myVideoId = "https://youtu.be/UpnwWP3fOSA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 340, // DOPSUM: CHANGE IT
+      startAt: 108, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -792,12 +875,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Do-wDPoC6GM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 621, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -817,12 +900,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/nRwK91tG4QU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 467, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -841,4 +924,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end born
+// end bosom

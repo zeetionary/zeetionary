@@ -7,7 +7,8 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // Define the word "dopsum1" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace dopsum1 - haʊʊʊʊʊʊʊ4
+// dopsum1
+// haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 

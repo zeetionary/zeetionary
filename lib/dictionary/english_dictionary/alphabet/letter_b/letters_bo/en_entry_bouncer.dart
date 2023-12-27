@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bough" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bouncer" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bough - /baʊ/
+// bouncer
+// haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 
-class EnglishEntrybough extends StatelessWidget {
+class EnglishEntrybouncer extends StatelessWidget {
 // blank divider
-  EnglishEntrybough({super.key});
+  EnglishEntrybouncer({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbough(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncer(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bough"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bouncer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers1(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Birds rested on the sturdy oak bough."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bouncers threw him out when he became aggressive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers2(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers3(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers4(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers5(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers6(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboughs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbough
+  Future<void> speakbouncers7(String languageCode) async {
+    // DOPSUM: CHANGE speakbouncer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboughs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouncers77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntrybough extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bough"),
+                            EntryTitle(word: "bouncer"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /baʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbaʊnsə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbough("en-GB"),
+                              onPressed: () => speakbouncer("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /baʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbaʊnsər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbough("en-US"),
+                              onPressed: () => speakbouncer("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +136,13 @@ class EnglishEntrybough extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,25 +164,25 @@ class EnglishEntrybough extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پەل، تای، گەورەلق، شالق
+کوردی: کەڵەگا، پارێزەر، پاسەوان، کێشەڕەوێن
 
-١. (ناو) لقێکی گەورەی دارێک"""),
+١. (ناو) کەسێک کە لە پێش باڕێک یان یانەیەکی شەوانە دەوەستێت بۆ ئەوەی ڕێگری لەو کەسانە بکات کە ڕێگەپێ‌نەدراون بچنە ژوورەوە، یان ئەو کەسانە دەربکات کە کێشە درووست دەکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Birds rested on the sturdy oak bough."),
+                                      "The bouncers threw him out when he became aggressive."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باڵندە لەسەر شالقە پتەوەکانی دارەکە دەنیشتنەوە."),
+                                      "پاسەوانەکان فڕێیان دایە دەرەوە کە دەستی بە توندوتیژی کرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboughs1("en-GB"),
+                                    onPressed: () => speakbouncers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboughs1("en-US"),
+                                    onPressed: () => speakbouncers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,7 +202,7 @@ class EnglishEntrybough extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -238,8 +239,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bough (Derived forms: boughs)
-1. Any of the larger branches of a tree
+- Noun: bouncer (Derived forms: bouncers)
+1. A person whose duty is to throw troublemakers out of a bar or public meeting (= chucker-out) 
 """,
           )
         ],
@@ -253,12 +254,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Y2T_rIZ4Pho?t=";
+  static String myVideoId = "https://youtu.be/AREsc7N2eGE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 601, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -278,12 +279,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/03VAIrkmrD0?t=";
+  static String myVideoId = "https://youtu.be/0CYYfSGTcyY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 24, // DOPSUM: CHANGE IT
+      startAt: 1210, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -303,12 +304,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/65CFesU4KVQ?t=";
+  static String myVideoId = "https://youtu.be/f2kEGj-S1Tc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 286, // DOPSUM: CHANGE IT
+      startAt: 272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -328,12 +329,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/qxns2YxP9jM?t=";
+  static String myVideoId = "https://youtu.be/i1Nx7FLrtL8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 78, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +354,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/B5qaozqmCLU?t=";
+  static String myVideoId = "https://youtu.be/0pLXGkiaRcI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1994, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +379,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/okKiieF0oM4?t=";
+  static String myVideoId = "https://youtu.be/Qv747bH5euQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 334, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +404,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/lhuUEYVYXfM?t=";
+  static String myVideoId = "https://youtu.be/qlUBGhRYLzs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 52, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +429,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/8JBW-_zq4xM?t=";
+  static String myVideoId = "https://youtu.be/ge3kPGAJ__k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2965, // DOPSUM: CHANGE IT
+      startAt: 394, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +454,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/lIvD2agDBnM?t=";
+  static String myVideoId = "https://youtu.be/HxZoIVvS7jQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 927, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +479,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/4ml6r7cuKe8?t=";
+  static String myVideoId = "https://youtu.be/QGbaMv1mxNg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 408, // DOPSUM: CHANGE IT
+      startAt: 427, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +504,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/Meiq-aRpTxY?t=";
+  static String myVideoId = "https://youtu.be/OOFYWKN-_SU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 412, // DOPSUM: CHANGE IT
+      startAt: 254, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +529,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/3RNDzwdfLRs?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 872, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -552,4 +553,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bough
+// end bouncer

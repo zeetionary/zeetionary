@@ -238,7 +238,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: botanist (Derived forms: botanists)
+- Noun: botanist (derived forms: botanists)
 1. A biologist specializing in the study of plants (= phytologist, plant scientist)
 """,
           )

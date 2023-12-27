@@ -5,89 +5,92 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bounds" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bout" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// bounds
+// bout
 // haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 
-class EnglishEntrybounds extends StatelessWidget {
+class EnglishEntrybout extends StatelessWidget {
 // blank divider
-  EnglishEntrybounds({super.key});
+  EnglishEntrybout({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbounds(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbout(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bounds"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bout"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts1(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I am afraid your behaviour was beyond the bounds of decency."); // DOPSUM: CHANGE TEXT
+        "They had been fighting after a drinking bout."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts2(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His enthusiasm knew no bounds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There has been a severe bout of inflation over recent months."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts3(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He suffered occasional bouts of depression."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts4(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I got a bad bout of the flu last winter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts5(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The doctor halted their bout after the ninth round."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts6(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouts66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakbouts7(String languageCode) async {
+    // DOPSUM: CHANGE speakbout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbouts77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,22 +107,22 @@ class EnglishEntrybounds extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bounds"),
+                            EntryTitle(word: "bout"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /baʊndz/"),
+                            const IPAofEnglish(text: "IpaUK: /baʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbounds("en-GB"),
+                              onPressed: () => speakbout("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /baʊndz/"),
+                            const IPAofEnglish(text: "IpaUS: /baʊt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbounds("en-US"),
+                              onPressed: () => speakbout("en-US"),
                             ),
                           ],
                         ),
@@ -137,11 +140,11 @@ class EnglishEntrybounds extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -165,25 +168,25 @@ class EnglishEntrybounds extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پانتایی، بوار، مەڵبەند، ڕادەوسنوور
+کوردی: لێھاتن، ھێرش، ماوەی نەخۆشی، پێشبڕکێی شەڕەمشت یان زۆران‌بازی
 
-١. (ناو) سنووری یاسایی یان کۆمەڵایەتی"""),
+١. (ناو) ماوەیەکی کورت لە چالاکی زۆر یان شتێکی ناخۆش"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I am afraid your behaviour was beyond the bounds of decency."),
+                                      "They had been fighting after a drinking bout."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو."),
+                                      "شەڕیان دەکرد لە دوای ماوەیەک لە خواردنەوەی زۆر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboundss1("en-GB"),
+                                    onPressed: () => speakbouts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss1("en-US"),
+                                    onPressed: () => speakbouts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -194,17 +197,87 @@ class EnglishEntrybounds extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "His enthusiasm knew no bounds (= was very great)."),
+                                      "There has been a severe bout of inflation over recent months."),
                               const ExampleSentenceKurdish(
-                                  text: "جۆش‌وخرۆشییەکەی سنووری نەبوو."),
+                                  text:
+                                      "لە چەند مانگی ڕابردوودا ماوەیەک لە ھەڵاوسانی ئابووریی توند ھەبووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboundss2("en-GB"),
+                                    onPressed: () => speakbouts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss2("en-US"),
+                                    onPressed: () => speakbouts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ماوەیەک لە نەخۆشی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He suffered occasional bouts of depression."),
+                              const ExampleSentenceKurdish(
+                                  text: "ماوە ماوە تووشی خەمۆکی دەبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbouts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbouts3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I got a bad bout of the flu last winter."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تووشی موددەتێکی خراپ لە ھەڵامەت بووم زستانی ڕابردوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbouts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbouts4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) یارییەکی شەڕەبۆکس یان زۆرانبازی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The doctor halted their bout after the ninth round."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دکتۆرەکە زۆرانبازییەکەی وەستاند لە دوای گەڕی نۆیەم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbouts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbouts5("en-US"),
                                   ),
                                 ],
                               ),
@@ -221,8 +294,8 @@ class EnglishEntrybounds extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -261,16 +334,18 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bounds
-1. The line or plane indicating the limit or extent of something (= boundary, bound)
-
-- Noun: bound
-1. A line determining the limits of an area (= boundary, edge)
+- Noun: bout (derived forms: bouts)
+1. (sport) a division of a game during which one team is on the offensive (= turn, round)
  
-2. The greatest possible degree of something (= limit, boundary)
-"what he did was beyond the bounds of acceptable behaviour";
+2. A period of illness
+"a bout of fever"; "a bout of depression"
  
-3. A light, self-propelled movement upwards or forwards (= leap, leaping, spring, saltation, bounce)
+3. A contest or fight (especially between boxers or wrestlers)
+ 
+4. An occasion for excessive eating or drinking (= bust [informal], tear [US, informal], binge [informal])
+"they went on a bout that lasted three days";
+ 
+5. An instance of something lasting a short period
 """,
           )
         ],
@@ -284,12 +359,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "OZ_xhkg32nk";
+  static String myVideoId = "SwQhKFMxmDY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 799, // DOPSUM: CHANGE IT
+      startAt: 3309, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -309,12 +384,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "tJuYL3nPINM";
+  static String myVideoId = "ov2zPSr3z1Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 766, // DOPSUM: CHANGE IT
+      startAt: 919, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -334,12 +409,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Ya3YkK0tkUU";
+  static String myVideoId = "K0j2dlBMzUs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 335, // DOPSUM: CHANGE IT
+      startAt: 1256, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +434,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "gkmzDwgvqQM";
+  static String myVideoId = "eNpkhX85yf0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 568, // DOPSUM: CHANGE IT
+      startAt: 2980, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +459,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "fOzFG5m3Y5E";
+  static String myVideoId = "ge8y-ckuFIA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1013, // DOPSUM: CHANGE IT
+      startAt: 629, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +484,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "GYS271ZlWGA";
+  static String myVideoId = "QmOF0crdyRU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 105, // DOPSUM: CHANGE IT
+      startAt: 7650, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +509,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "OnjI-FBdRTQ";
+  static String myVideoId = "3KmZ2kohNB8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17507, // DOPSUM: CHANGE IT
+      startAt: 365, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +534,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "iEjvVcdCDB4";
+  static String myVideoId = "o-TFz6teM3M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1237, // DOPSUM: CHANGE IT
+      startAt: 562, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +559,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "8KFQx-mc2Ao";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 168, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +584,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "OZlNZyasroo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4928, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,4 +658,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bounds
+// end bout

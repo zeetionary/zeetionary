@@ -324,7 +324,7 @@ class EnglishEntrybottle extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شووشە، بوتڵ، شووشەی شیر، شیری وشک، شیری مانگا (لە بەرامبەر شیری دایک‌دا)، خواردنەوەی ئەڵکۆڵ، ئارەق، خواردنەوە، دڵ‌وجەرگ، وێران، کەپسوول یان لوولەکی گاز، پڕشووشەیێ، شووشەبەر
 
-١. (ناو) شتێکی پلاستیکی یان شووشە کە خڕە و لایەکانی ڕاستن و بەکاردێت بۆ هەڵگرتنی شلە"""),
+١. (ناو) شتێکی پلاستیکی یان شووشە کە خڕە و لایەکانی ڕاستن و بەکاردێت بۆ ھەڵگرتنی شلە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -439,7 +439,7 @@ class EnglishEntrybottle extends StatelessWidget {
                                       "After his wife died, he really hit the bottle (= started drinking heavily)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوای مردنی ژنەکەی، دەستیکرد بە هەڵدانی بیرە."),
+                                      "لە دوای مردنی ژنەکەی، دەستیکرد بە ھەڵدانی بیرە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -532,7 +532,7 @@ class EnglishEntrybottle extends StatelessWidget {
                                       "Keep your empty jam jars for bottling next year’s fruit."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شووشە مرەبا بەتاڵەکان بپارێزە بۆ ئەوەی ساڵی داهاتوو میوەیان تێ‌بخەیت."),
+                                      "شووشە مرەبا بەتاڵەکان بپارێزە بۆ ئەوەی ساڵی داھاتوو میوەیان تێ‌بخەیت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -597,7 +597,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bottle (Derived forms: bottling, bottles, bottled)
+- Noun: bottle (derived forms: bottling, bottles, bottled)
 1. A glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped
  
 2. The quantity contained in a bottle (= bottleful)
@@ -624,7 +624,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/ajd3-C5kVL0?t=";
+  static String myVideoId = "ajd3-C5kVL0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -649,7 +649,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/7ME1lkuBnCk?t=";
+  static String myVideoId = "7ME1lkuBnCk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -674,7 +674,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/47ODQI0OSOA?t=";
+  static String myVideoId = "47ODQI0OSOA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -699,7 +699,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/1SO0uvexcew?t=";
+  static String myVideoId = "1SO0uvexcew";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -724,7 +724,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -749,7 +749,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/_iz5_DuY_II?t=";
+  static String myVideoId = "_iz5_DuY_II";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -774,7 +774,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/lGSOWwUvJiU?t=";
+  static String myVideoId = "lGSOWwUvJiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -799,7 +799,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/66aG5P0kQpU?t=";
+  static String myVideoId = "66aG5P0kQpU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -824,7 +824,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/jJL0XoNBaac?t=";
+  static String myVideoId = "jJL0XoNBaac";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -849,7 +849,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/2IKZIWVHXvo?t=";
+  static String myVideoId = "2IKZIWVHXvo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -874,7 +874,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/Oslnt9Zr9Jw?t=";
+  static String myVideoId = "Oslnt9Zr9Jw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -899,7 +899,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/Xdaj7MY1N9M?t=";
+  static String myVideoId = "Xdaj7MY1N9M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

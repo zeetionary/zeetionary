@@ -165,7 +165,7 @@ class EnglishEntrybotany extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕووەک‌ناسی، گیاناسی
 
-١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکهاتەیان"""),
+١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکھاتەیان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntrybotany extends StatelessWidget {
                                       "She pursued a degree in botany for her love of flora."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەهۆی حەزی بۆ ڕووەک."),
+                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەھۆی حەزی بۆ ڕووەک."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,7 +238,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: botany (Derived forms: botanies)
+- Noun: botany (derived forms: botanies)
 1. All the plant life in a particular region or period (= vegetation, flora)
 "the botany of China";
 

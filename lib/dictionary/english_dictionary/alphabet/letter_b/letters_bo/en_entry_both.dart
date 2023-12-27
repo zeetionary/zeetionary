@@ -273,7 +273,7 @@ class EnglishEntryboth extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەردووک، هەردک، هەرتک، هەردوو، هەم... هەم، هەردووکیان
+کوردی: ھەردووک، ھەردک، ھەرتک، ھەردوو، ھەم... ھەم، ھەردووکیان
 
 ١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش"""),
                           Row(
@@ -281,7 +281,7 @@ class EnglishEntryboth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Both women were French."),
                               const ExampleSentenceKurdish(
-                                  text: "هەردوو ژنەکە فەرەنسی بوون."),
+                                  text: "ھەردوو ژنەکە فەرەنسی بوون."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -301,7 +301,7 @@ class EnglishEntryboth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Both the women were French."),
                               const ExampleSentenceKurdish(
-                                  text: "هەردوو ژنەکە فەرەنسی بوون."),
+                                  text: "ھەردوو ژنەکە فەرەنسی بوون."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -321,7 +321,7 @@ class EnglishEntryboth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Both of the women were French."),
                               const ExampleSentenceKurdish(
-                                  text: "هەردوو ژنەکە فەرەنسی بوون."),
+                                  text: "ھەردوو ژنەکە فەرەنسی بوون."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -344,7 +344,7 @@ class EnglishEntryboth extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "I liked them both."),
                                       const ExampleSentenceKurdish(
-                                          text: "حەزم لە هەردووکیان بوو."),
+                                          text: "حەزم لە ھەردووکیان بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -366,7 +366,7 @@ class EnglishEntryboth extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "Both of us were tired."),
                                       const ExampleSentenceKurdish(
-                                          text: "هەردووکمان ماندوو بووین."),
+                                          text: "ھەردووکمان ماندوو بووین."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -388,7 +388,7 @@ class EnglishEntryboth extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "We have both seen the movie."),
                                       const ExampleSentenceKurdish(
-                                          text: "هەردووکمان فیلمەکەمان دیوە."),
+                                          text: "ھەردووکمان فیلمەکەمان دیوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -412,7 +412,7 @@ class EnglishEntryboth extends StatelessWidget {
                                               "She has written two novels, both of which have been made into television series."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "دوو ڕۆمانی نووسیوە، هەردووکیان کراون بە درامای تەلەفیزیۆنی."),
+                                              "دوو ڕۆمانی نووسیوە، ھەردووکیان کراون بە درامای تەلەفیزیۆنی."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -433,7 +433,7 @@ class EnglishEntryboth extends StatelessWidget {
                               const DividerDefinition(),
                               const DefinitionKurdish(
                                   text:
-                                      "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنها شتێک بەڵکو شتێکی تریش"),
+                                      "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنھا شتێک بەڵکو شتێکی تریش"),
                               Row(
                                 children: [
                                   const ExampleSentenceEnglish(
@@ -441,7 +441,7 @@ class EnglishEntryboth extends StatelessWidget {
                                           "Both his mother and his father will be there."),
                                   const ExampleSentenceKurdish(
                                       text:
-                                          "هەم دایکی و هەم باوکی  لەوێ دەبن."),
+                                          "ھەم دایکی و ھەم باوکی  لەوێ دەبن."),
                                   const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [
@@ -463,7 +463,7 @@ class EnglishEntryboth extends StatelessWidget {
                                           "For this job you will need a good knowledge of both Italian and Spanish."),
                                   const ExampleSentenceKurdish(
                                       text:
-                                          "بۆ ئەم کارە پێویستت بە زانیارییەکی باشی هەردوو ئیتالی و ئیسپانی دەبێت."),
+                                          "بۆ ئەم کارە پێویستت بە زانیارییەکی باشی ھەردوو ئیتالی و ئیسپانی دەبێت."),
                                   const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [
@@ -485,7 +485,7 @@ class EnglishEntryboth extends StatelessWidget {
                                           "Adele not only sings but also plays the drums."),
                                   const ExampleSentenceKurdish(
                                       text:
-                                          "ئەدێڵ نەک تەنها گۆرانی دەڵێت بەڵکو دەهۆڵیش لێ‌دەدات."),
+                                          "ئەدێڵ نەک تەنھا گۆرانی دەڵێت بەڵکو دەھۆڵیش لێ‌دەدات."),
                                   const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [

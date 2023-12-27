@@ -286,7 +286,7 @@ class EnglishEntryboss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "It was a boss party."),
                               const ExampleSentenceKurdish(
-                                  text: "ئاهەنگێکی ناوازە بوو."),
+                                  text: "ئاھەنگێکی ناوازە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -351,7 +351,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boss (Derived forms: bosses)
+- Noun: boss (derived forms: bosses)
 1. A person who exercises control over workers (= foreman, chief, gaffer [Brit, informal], honcho [N. Amer, informal])
 "if you want to leave early you have to ask the boss";
  
@@ -366,7 +366,7 @@ class EnglishMeaning extends StatelessWidget {
 
 5. A circular rounded projection or protuberance (= knob)
 
-- Verb: boss (Derived forms: bossing, bossed, bosses)
+- Verb: boss (derived forms: bossing, bossed, bosses)
 1. Be bossy towards (= strong-arm, bully, browbeat, bullyrag [N. Amer, informal], ballyrag [N. Amer, informal], boss around [informal], hector, push around [informal], push about [informal])
 "Her big brother always bossed her when she was young";
  

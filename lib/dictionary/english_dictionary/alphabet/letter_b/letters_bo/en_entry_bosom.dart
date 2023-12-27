@@ -377,7 +377,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                               "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "کە چووە ژوورەکە هەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
+                                              "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -401,7 +401,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                               "The dress left the bosom bare."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "جلەکە سنگی بە دانەپۆشراوی دەهێشتەوە."),
+                                              "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -425,7 +425,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                               "Her bosoms heaved as she breathed heavily."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "سنگی پڕبوو کە بە قووڵی هەناسەی دا."),
+                                              "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -591,7 +591,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bosom (Derived forms: bosoms)
+- Noun: bosom (derived forms: bosoms)
 1. Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= breast)
  
 2. A person's breast or chest
@@ -607,7 +607,7 @@ class EnglishMeaning extends StatelessWidget {
 6. [archaic] The chest considered as the place where secret thoughts are kept
 "his bosom was bursting with the secret"
 
-- Verb: bosom (Derived forms: bosomed, bosoming, bosoms)
+- Verb: bosom (derived forms: bosomed, bosoming, bosoms)
 1. Hide in one's bosom
 "She bosomed his letters"
  

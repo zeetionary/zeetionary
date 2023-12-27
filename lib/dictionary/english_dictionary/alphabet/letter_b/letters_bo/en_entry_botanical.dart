@@ -242,7 +242,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Of or relating to plants or botany (= botanic)
 "botanical garden";
 
-- Noun: botanical (Derived forms: botanicals)
+- Noun: botanical (derived forms: botanicals)
 1. A drug made from part of a plant (as the bark, root or leaves)
 """,
           )

@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: borrower (Derived forms: borrowers)
+- Noun: borrower (derived forms: borrowers)
 1. Someone who receives something on the promise to return it or its equivalent
 "a responsible borrower"
 """,

@@ -164,9 +164,9 @@ class EnglishEntrybottleneck extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەنگە، تەسکەڕێ، باریکەڕێ، باریکان، هۆکاری خاوکەرەوە، ڕێبەست، ڕێبەند، تەنگانە
+کوردی: تەنگە، تەسکەڕێ، باریکەڕێ، باریکان، ھۆکاری خاوکەرەوە، ڕێبەست، ڕێبەند، تەنگانە
 
-١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە هاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"""),
+١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە ھاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -191,7 +191,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەرشتێک کە بەرەوپێشچوون یان گەشەسەندن خاوبکاتەوە، بەتایبەتی لە بازرگانی و پیشەسازیدا"),
+                                  "٢. (ناو) ھەرشتێک کە بەرەوپێشچوون یان گەشەسەندن خاوبکاتەوە، بەتایبەتی لە بازرگانی و پیشەسازیدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -199,7 +199,7 @@ class EnglishEntrybottleneck extends StatelessWidget {
                                       "Is there any way of getting around this bureaucratic bottleneck?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هیچ ڕێگایەک هەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
+                                      "ھیچ ڕێگایەک ھەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +264,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bottleneck (Derived forms: bottlenecks)
+- Noun: bottleneck (derived forms: bottlenecks)
 1. A narrowing that reduces the flow through a channel (= constriction, chokepoint)
  
 2. The narrow part of a bottle near the top
 
-- Verb: bottleneck (Derived forms: bottlenecked, bottlenecking, bottlenecks)
+- Verb: bottleneck (derived forms: bottlenecked, bottlenecking, bottlenecks)
 1. Slow down or impede by creating an obstruction
 "His laziness has bottlenecked our efforts to reform the system"
  
@@ -288,7 +288,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/oD9BaNAH-eE?t=";
+  static String myVideoId = "oD9BaNAH-eE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -313,7 +313,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/9SrkmNPBdiU?t=";
+  static String myVideoId = "9SrkmNPBdiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -338,7 +338,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/_ONi8ppkYgo?t=";
+  static String myVideoId = "_ONi8ppkYgo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -363,7 +363,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/QqF_OZJSbxY?t=";
+  static String myVideoId = "QqF_OZJSbxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -388,7 +388,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/-UfrN11V9SM?t=";
+  static String myVideoId = "-UfrN11V9SM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -413,7 +413,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/7Fjn4GRw8qE?t=";
+  static String myVideoId = "7Fjn4GRw8qE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +438,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/DHSAjPu7M-s?t=";
+  static String myVideoId = "DHSAjPu7M-s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,7 +463,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/bgJazjz9ZsA?t=";
+  static String myVideoId = "bgJazjz9ZsA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -488,7 +488,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ypn3Fe_PLts?t=";
+  static String myVideoId = "ypn3Fe_PLts";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -513,7 +513,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/30foJiPUrBA?t=";
+  static String myVideoId = "30foJiPUrBA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -538,7 +538,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/36CKsP9YQ1E?t=";
+  static String myVideoId = "36CKsP9YQ1E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

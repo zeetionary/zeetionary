@@ -368,7 +368,7 @@ class EnglishEntrybottom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خوارترین بەش، بن، ژێر، خوارەوە، بنک، تەرک، بندین، تەختاو، بنکاو، بنڕەخ، قووڵایی، سەرچاوە، بنەما، ماک، بنەڕەت، چاوگ، پشتەوە، دواوە، کنگ، پاشوو، پاشڵ، سمت، کۆتایی، دوایی، دووماهی، بنی کەشتی، لاشە یان پەیکەرەی کەشتی، ئاخرین، دوایین، هەرەخواروو، بنەڕەتی، بنچینەیی، سەرەکی
+کوردی: خوارترین بەش، بن، ژێر، خوارەوە، بنک، تەرک، بندین، تەختاو، بنکاو، بنڕەخ، قووڵایی، سەرچاوە، بنەما، ماک، بنەڕەت، چاوگ، پشتەوە، دواوە، کنگ، پاشوو، پاشڵ، سمت، کۆتایی، دوایی، دووماھی، بنی کەشتی، لاشە یان پەیکەرەی کەشتی، ئاخرین، دوایین، ھەرەخواروو، بنەڕەتی، بنچینەیی، سەرەکی
 
 ١. (ناو) بەشی خوارەوەی شتێک"""),
                           Row(
@@ -378,7 +378,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       "Footnotes are given at the bottom of each page."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەراوێز لە خوارەوەی هەموو لاپەڕەیەک نووسراوە."),
+                                      "پەراوێز لە خوارەوەی ھەموو لاپەڕەیەک نووسراوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,7 +424,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                               "The wind blew through gaps at the top and bottom of the door."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەهاتە ژوورەوە."),
+                                              "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -596,7 +596,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       "Allow the tea leaves to settle to the bottom of the cup."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بهێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە."),
+                                      "بھێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -612,7 +612,7 @@ class EnglishEntrybottom extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) بنی دەریاچە، دەریا، حەوز، هتد"),
+                              text: "٤. (ناو) بنی دەریاچە، دەریا، حەوز، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -620,7 +620,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       "I feel safe as long as I can touch the bottom."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەست بە سەلامەتی دەکەم ئەگەر بتوانم هەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت)."),
+                                      "ھەست بە سەلامەتی دەکەم ئەگەر بتوانم ھەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت)."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -658,7 +658,7 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) نزمترین ئاست لە لیستێک، چین، هتد"),
+                                  "٥. (ناو) نزمترین ئاست لە لیستێک، چین، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -666,7 +666,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       "When the list came out, my name was near the bottom."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە لیستەکە هاتەوە ناوم لە نزیکی خواری خوارەوە بوو."),
+                                      "کە لیستەکە ھاتەوە ناوم لە نزیکی خواری خوارەوە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -688,7 +688,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       "I was always bottom of the class in math."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا."),
+                                      "ھەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -711,7 +711,7 @@ class EnglishEntrybottom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She slipped and fell on her bottom."),
                               const ExampleSentenceKurdish(
-                                  text: "پێی هەڵکەوت و بە سمتیدا کەوت."),
+                                  text: "پێی ھەڵکەوت و بە سمتیدا کەوت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -728,7 +728,7 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) بەشی خوارەوەی جلێک کە لە دوو بەش پێکهاتووە"),
+                                  "٧. (ناو) بەشی خوارەوەی جلێک کە لە دوو بەش پێکھاتووە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -759,7 +759,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                   text:
                                       "There was a stream at the bottom of the garden."),
                               const ExampleSentenceKurdish(
-                                  text: "جۆگەیەک لەوپەڕی باخچەکەوە هەبوو."),
+                                  text: "جۆگەیەک لەوپەڕی باخچەکەوە ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -797,7 +797,7 @@ class EnglishEntrybottom extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٩. (هاوەڵناو) لە خوارترین"),
+                              text: "٩. (ھاوەڵناو) لە خوارترین"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -843,7 +843,7 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ھاوەڵناو) لە کۆتایی لیستێک، پێشبڕکێیەک، هتد"),
+                                  "١٠. (ھاوەڵناو) لە کۆتایی لیستێک، پێشبڕکێیەک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -985,7 +985,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1010,7 +1010,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/_wNsZEqpKUA?t=";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1035,7 +1035,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1060,7 +1060,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/8HEfIJlcFbs?t=";
+  static String myVideoId = "8HEfIJlcFbs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1085,7 +1085,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/rEdl2Uetpvo?t=";
+  static String myVideoId = "rEdl2Uetpvo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1110,7 +1110,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/HB0CZ_5sPPw?t=";
+  static String myVideoId = "HB0CZ_5sPPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1135,7 +1135,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/3cxHwQl9pNM?t=";
+  static String myVideoId = "3cxHwQl9pNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1160,7 +1160,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/s3B-qp3U5G0?t=";
+  static String myVideoId = "s3B-qp3U5G0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1185,7 +1185,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/yjhibJ-OqxE?t=";
+  static String myVideoId = "yjhibJ-OqxE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1210,7 +1210,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/jgkMFBDyzE8?t=";
+  static String myVideoId = "jgkMFBDyzE8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1235,7 +1235,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/roCX0AfBseQ?t=";
+  static String myVideoId = "roCX0AfBseQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1260,7 +1260,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/9TugA_z5vQE?t=";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1285,7 +1285,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/jJL0XoNBaac?t=";
+  static String myVideoId = "jJL0XoNBaac";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1310,7 +1310,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddeddfourteen extends StatelessWidget {
   YoutubeEmbeddeddfourteen({super.key});
 
-  static String myVideoId = "https://youtu.be/thOifuHs6eY?t=";
+  static String myVideoId = "thOifuHs6eY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1335,7 +1335,7 @@ class YoutubeEmbeddeddfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "https://youtu.be/diAxiWkwlC0?t=";
+  static String myVideoId = "diAxiWkwlC0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1360,7 +1360,7 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddeddsixteen extends StatelessWidget {
   YoutubeEmbeddeddsixteen({super.key});
 
-  static String myVideoId = "https://youtu.be/qEV9qoup2mQ?t=";
+  static String myVideoId = "qEV9qoup2mQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1385,7 +1385,7 @@ class YoutubeEmbeddeddsixteen extends StatelessWidget {
 class YoutubeEmbeddeddseventeen extends StatelessWidget {
   YoutubeEmbeddeddseventeen({super.key});
 
-  static String myVideoId = "https://youtu.be/N39uwTykTQk?t=";
+  static String myVideoId = "N39uwTykTQk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1410,7 +1410,7 @@ class YoutubeEmbeddeddseventeen extends StatelessWidget {
 class YoutubeEmbeddeddeighteen extends StatelessWidget {
   YoutubeEmbeddeddeighteen({super.key});
 
-  static String myVideoId = "https://youtu.be/qD6bPNZRRbQ?t=";
+  static String myVideoId = "qD6bPNZRRbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1435,7 +1435,7 @@ class YoutubeEmbeddeddeighteen extends StatelessWidget {
 class YoutubeEmbeddeddnineteen extends StatelessWidget {
   YoutubeEmbeddeddnineteen({super.key});
 
-  static String myVideoId = "https://youtu.be/-46Vyiwat_Y?t=";
+  static String myVideoId = "-46Vyiwat_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1460,7 +1460,7 @@ class YoutubeEmbeddeddnineteen extends StatelessWidget {
 class YoutubeEmbeddedtwenty extends StatelessWidget {
   YoutubeEmbeddedtwenty({super.key});
 
-  static String myVideoId = "https://youtu.be/gFQNPmLKj1k?t=";
+  static String myVideoId = "gFQNPmLKj1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

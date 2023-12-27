@@ -303,9 +303,9 @@ class EnglishEntrybother extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: وەی، ئەهـ، ئاخ، چەڵەمە، گیروگرفت، کۆس‌وکەوان، کێشە، سەرێشە، دڵەڕاوکێ، نیگەرانی، ملۆزم، مایەی کۆس‌وکەوان، بێزارکەر، وەڕەس‌کەر، هەراسان‌کەر
+کوردی: وەی، ئەھـ، ئاخ، چەڵەمە، گیروگرفت، کۆس‌وکەوان، کێشە، سەرێشە، دڵەڕاوکێ، نیگەرانی، ملۆزم، مایەی کۆس‌وکەوان، بێزارکەر، وەڕەس‌کەر، ھەراسان‌کەر
 
-١. (کردار) بەسەربردنی کات یان هێز بە کردنی شتێکەوە"""),
+١. (کردار) بەسەربردنی کات یان ھێز بە کردنی شتێکەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -313,7 +313,7 @@ class EnglishEntrybother extends StatelessWidget {
                                       "I don't know why I bother! Nobody ever listens!"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نازانم بۆ خۆم ماندوو دەکەم! کەس هەرگیز گوێ ناگرێت!"),
+                                      "نازانم بۆ خۆم ماندوو دەکەم! کەس ھەرگیز گوێ ناگرێت!"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -335,7 +335,7 @@ class EnglishEntrybother extends StatelessWidget {
                                       "If that’s all the thanks I get, I won’t bother in future!"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر ئەوە هەموو ئەو سوپاسە وەریدەگرم، لە داهاتوودا هەر خۆم ماندوو ناکەم!"),
+                                      "ئەگەر ئەوە ھەموو ئەو سوپاسە وەریدەگرم، لە داھاتوودا ھەر خۆم ماندوو ناکەم!"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -357,7 +357,7 @@ class EnglishEntrybother extends StatelessWidget {
                                       "It's not worth bothering with (= using) an umbrella—the car's just outside."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێویست بە بەکارهێنانی چەتر ناکات، ئۆتۆمبێلەکە ڕێک لە دەرەوەیە."),
+                                      "پێویست بە بەکارھێنانی چەتر ناکات، ئۆتۆمبێلەکە ڕێک لە دەرەوەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,7 +382,7 @@ class EnglishEntrybother extends StatelessWidget {
                                       "The thing that bothers me is I have to wake up very early."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەوەی ناخۆشە بۆم ئەوەیە دەبێت زۆر زوو لە خەو هەڵبستم."),
+                                      "ئەوەی ناخۆشە بۆم ئەوەیە دەبێت زۆر زوو لە خەو ھەڵبستم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -470,7 +470,7 @@ class EnglishEntrybother extends StatelessWidget {
                                       "Sorry to bother you, but there's a call for you on line two."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ببوورە لە کاتت دەگرم، بەڵام پەیوەندییەکەت بۆت لەسەر هێڵە."),
+                                      "ببوورە لە کاتت دەگرم، بەڵام پەیوەندییەکەت بۆت لەسەر ھێڵە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -515,7 +515,7 @@ class EnglishEntrybother extends StatelessWidget {
                                   text:
                                       "I don't want to put you to any bother (= cause you any trouble)."),
                               const ExampleSentenceKurdish(
-                                  text: "نامەوێت برخەمە هیچ کێشەیەکەوە."),
+                                  text: "نامەوێت برخەمە ھیچ کێشەیەکەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -559,7 +559,7 @@ class EnglishEntrybother extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I hope I haven't been a bother."),
                               const ExampleSentenceKurdish(
-                                  text: "هیوادارم نەبووبێتم بە سەرێشە بۆتان."),
+                                  text: "ھیوادارم نەبووبێتم بە سەرێشە بۆتان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -582,7 +582,7 @@ class EnglishEntrybother extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Bother! I've left my wallet at home."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەهـ، جزدانەکەم لە ماڵەوە جێهێشتووە."),
+                                  text: "ئەھـ، جزدانەکەم لە ماڵەوە جێھێشتووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -647,7 +647,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bother (Derived forms: bothered, bothering, bothers)
+- Verb: bother (derived forms: bothered, bothering, bothers)
 1. Take the trouble to do something; concern oneself (= trouble oneself, trouble, inconvenience oneself)
 "Don't bother, please";
 
@@ -665,7 +665,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. Make confused, perplexed or puzzled
 
-- Noun: bother (Derived forms: bothers)
+- Noun: bother (derived forms: bothers)
 1. An angry disturbance (= fuss, trouble, hassle [informal], stink [informal], shindy [informal])
 "a spot of bother";
 
@@ -690,7 +690,7 @@ Usage: Brit
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/zAGVQLHvwOY?t=";
+  static String myVideoId = "zAGVQLHvwOY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -715,7 +715,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
+  static String myVideoId = "lVoGZiL-kns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -740,7 +740,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/4J0xFUyz1nw?t=";
+  static String myVideoId = "4J0xFUyz1nw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -765,7 +765,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
+  static String myVideoId = "_spuxXnul0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -790,7 +790,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/G6NfRMv-4OY?t=";
+  static String myVideoId = "G6NfRMv-4OY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -815,7 +815,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/D0x2dgpBDzc?t=";
+  static String myVideoId = "D0x2dgpBDzc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -840,7 +840,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/PXsZntwnArQ?t=";
+  static String myVideoId = "PXsZntwnArQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -865,7 +865,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/iEKLFS-aKcw?t=";
+  static String myVideoId = "iEKLFS-aKcw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -890,7 +890,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/WxB1gB6K-2A?t=";
+  static String myVideoId = "WxB1gB6K-2A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -915,7 +915,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/gFQNPmLKj1k?t=";
+  static String myVideoId = "gFQNPmLKj1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -940,7 +940,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
+  static String myVideoId = "yDp3cB5fHXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -965,7 +965,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/0twDETh6QaI?t=";
+  static String myVideoId = "0twDETh6QaI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

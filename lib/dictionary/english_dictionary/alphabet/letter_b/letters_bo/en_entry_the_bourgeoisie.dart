@@ -5,89 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bounds" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "the bourgeoisie" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// bounds
+// the bourgeoisie
 // haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 
-class EnglishEntrybounds extends StatelessWidget {
+class EnglishEntrythebourgeoisie extends StatelessWidget {
 // blank divider
-  EnglishEntrybounds({super.key});
+  EnglishEntrythebourgeoisie({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbounds(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisie(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bounds"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("the bourgeoisie"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies1(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I am afraid your behaviour was beyond the bounds of decency."); // DOPSUM: CHANGE TEXT
+        "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies2(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His enthusiasm knew no bounds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Without their control over the workers, the bourgeoisie could not remain in power."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies3(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakthebourgeoisies33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies4(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakthebourgeoisies44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies5(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakthebourgeoisies55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies6(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakthebourgeoisies66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboundss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbounds
+  Future<void> speakthebourgeoisies7(String languageCode) async {
+    // DOPSUM: CHANGE speakthebourgeoisie
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboundss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakthebourgeoisies77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,22 +104,24 @@ class EnglishEntrybounds extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bounds"),
+                            EntryTitle(word: "the bourgeoisie"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /baʊndz/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ðə ˌbʊəʒwɑːˈziː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbounds("en-GB"),
+                              onPressed: () => speakthebourgeoisie("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /baʊndz/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ðə ˌbʊrʒwɑːˈziː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbounds("en-US"),
+                              onPressed: () => speakthebourgeoisie("en-US"),
                             ),
                           ],
                         ),
@@ -137,11 +139,11 @@ class EnglishEntrybounds extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -165,46 +167,52 @@ class EnglishEntrybounds extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پانتایی، بوار، مەڵبەند، ڕادەوسنوور
-
-١. (ناو) سنووری یاسایی یان کۆمەڵایەتی"""),
+١. (ناو) چینی ناوەڕاست"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I am afraid your behaviour was beyond the bounds of decency."),
+                                      "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو."),
+                                      "چینی تازەی بورژوازی، کە بەھۆی شۆڕشی پیشەسازییەوە درووست بووبوو، پارەیان ھەبوو خەرجی بکەن و گەشت بکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboundss1("en-GB"),
+                                    onPressed: () =>
+                                        speakthebourgeoisies1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss1("en-US"),
+                                    onPressed: () =>
+                                        speakthebourgeoisies1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ئەو چینەی کۆمەڵگا کە بەری ڕەنجی کرێکاران دەخۆن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "His enthusiasm knew no bounds (= was very great)."),
+                                      "Without their control over the workers, the bourgeoisie could not remain in power."),
                               const ExampleSentenceKurdish(
-                                  text: "جۆش‌وخرۆشییەکەی سنووری نەبوو."),
+                                  text:
+                                      "بەبێ کۆنترۆڵیان بەسەر چینی کرێکارانەوە، بورژوازییەکان نەیاندەتوانی لە دەسەڵات بمێننەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboundss2("en-GB"),
+                                    onPressed: () =>
+                                        speakthebourgeoisies2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss2("en-US"),
+                                    onPressed: () =>
+                                        speakthebourgeoisies2("en-US"),
                                   ),
                                 ],
                               ),
@@ -222,7 +230,7 @@ class EnglishEntrybounds extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -261,16 +269,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bounds
-1. The line or plane indicating the limit or extent of something (= boundary, bound)
-
-- Noun: bound
-1. A line determining the limits of an area (= boundary, edge)
- 
-2. The greatest possible degree of something (= limit, boundary)
-"what he did was beyond the bounds of acceptable behaviour";
- 
-3. A light, self-propelled movement upwards or forwards (= leap, leaping, spring, saltation, bounce)
+- Noun: bourgeoisie (Derived forms: bourgeoisies)
+1. The social class between the lower and upper classes (= middle class)
 """,
           )
         ],
@@ -284,12 +284,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "OZ_xhkg32nk";
+  static String myVideoId = "Qk4ZWM3JFaI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 799, // DOPSUM: CHANGE IT
+      startAt: 162, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -309,12 +309,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "tJuYL3nPINM";
+  static String myVideoId = "FoqHB7BMduw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 766, // DOPSUM: CHANGE IT
+      startAt: 342, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -334,12 +334,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Ya3YkK0tkUU";
+  static String myVideoId = "LQ6EXYXF58Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 335, // DOPSUM: CHANGE IT
+      startAt: 663, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +359,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "gkmzDwgvqQM";
+  static String myVideoId = "i10v-5a9X0M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 568, // DOPSUM: CHANGE IT
+      startAt: 279, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +384,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "fOzFG5m3Y5E";
+  static String myVideoId = "qPImjIBpb08";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1013, // DOPSUM: CHANGE IT
+      startAt: 842, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +409,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "GYS271ZlWGA";
+  static String myVideoId = "dW_ekZRGalk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 105, // DOPSUM: CHANGE IT
+      startAt: 1476, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +434,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "OnjI-FBdRTQ";
+  static String myVideoId = "dcGamPqUIxI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17507, // DOPSUM: CHANGE IT
+      startAt: 1273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +459,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "iEjvVcdCDB4";
+  static String myVideoId = "eCkyWBPaTC8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1237, // DOPSUM: CHANGE IT
+      startAt: 5293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +484,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "8KFQx-mc2Ao";
+  static String myVideoId = "PQGMjDQ-TJ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 168, // DOPSUM: CHANGE IT
+      startAt: 730, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +509,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "OZlNZyasroo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4928, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,4 +583,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bounds
+// end the bourgeoisie

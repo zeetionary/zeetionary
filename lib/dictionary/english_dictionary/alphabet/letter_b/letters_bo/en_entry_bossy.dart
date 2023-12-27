@@ -164,9 +164,9 @@ class EnglishEntrybossy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زۆردار، ملهوڕ، کەڵەگا، دیکتاتۆڕ، دەسەڵات‌خواز، سەردەست، باڵادەست
+کوردی: زۆردار، ملھوڕ، کەڵەگا، دیکتاتۆڕ، دەسەڵات‌خواز، سەردەست، باڵادەست
 
-١. (ھاوەڵناو) هەمیشە بە خەڵکی بڵێن چی بکەن"""),
+١. (ھاوەڵناو) ھەمیشە بە خەڵکی بڵێن چی بکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntrybossy extends StatelessWidget {
                                       "Do you treat all your guests in this bossy manner?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەم هەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ هەموو میوانەکانەکانت دەکەیت؟"),
+                                      "بەم ھەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ ھەموو میوانەکانەکانت دەکەیت؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,7 +195,7 @@ class EnglishEntrybossy extends StatelessWidget {
                                   text: "She's strong without being bossy."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەسێکی بەهێزە بەبێ ئەوەی زۆردار دەربکەوێت."),
+                                      "کەسێکی بەھێزە بەبێ ئەوەی زۆردار دەربکەوێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,7 +260,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: bossy (Derived forms: bossiest, bossier)
+- Adjective: bossy (derived forms: bossiest, bossier)
 1. Offensively self-assured or given to exercising usually unwarranted power (= autocratic, dominating, high-and-mighty, magisterial, peremptory)
 "a bossy way of ordering others around";
 """,

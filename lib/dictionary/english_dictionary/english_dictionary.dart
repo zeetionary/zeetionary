@@ -1993,27 +1993,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "botany",
     "botch",
     "both",
-    // "bother",
-    // "bottle",
-    // "bottleneck",
-    // "bottom",
-    // "bottomless",
-    // "bottom line",
-    // "bough",
-    // "boulder",
-    // "bounce",
-    // "bouncer",
-    // "bouncing",
-    // "bound",
-    // "boundary",
-    // "boundless",
-    // "bounds",
-    // "bountiful",
-    // "bounty",
-    // "bouquet",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bother",
+    "bottle",
+    "bottleneck",
+    "bottom",
+    "bottomless",
+    "bottom line",
+    "bough",
+    "boulder",
+    "bounce",
+    "bouncer",
+    "bouncing",
+    "bound",
+    "boundary",
+    "boundless",
+    "bounds",
+    "bountiful",
+    "bounty",
+    "bouquet",
+    "bourgeois",
+    "the bourgeoisie",
+    "bout",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -10150,90 +10150,90 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-both");
                   }
-                  // if (wordsEnglish == "bother") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bother");
-                  // }
-                  // if (wordsEnglish == "bottle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bottle");
-                  // }
-                  // if (wordsEnglish == "bottleneck") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bottleneck");
-                  // }
-                  // if (wordsEnglish == "bottom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bottom");
-                  // }
-                  // if (wordsEnglish == "bottomless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bottomless");
-                  // }
-                  // if (wordsEnglish == "bottom line") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bottom-line");
-                  // }
-                  // if (wordsEnglish == "bough") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bough");
-                  // }
-                  // if (wordsEnglish == "boulder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boulder");
-                  // }
-                  // if (wordsEnglish == "bounce") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bounce");
-                  // }
-                  // if (wordsEnglish == "bouncer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bouncer");
-                  // }
-                  // if (wordsEnglish == "bouncing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bouncing");
-                  // }
-                  // if (wordsEnglish == "bound") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bound");
-                  // }
-                  // if (wordsEnglish == "boundary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boundary");
-                  // }
-                  // if (wordsEnglish == "boundless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boundless");
-                  // }
-                  // if (wordsEnglish == "bounds") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bounds");
-                  // }
-                  // if (wordsEnglish == "bounty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bounty");
-                  // }
-                  // if (wordsEnglish == "bountiful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bountiful");
-                  // }
-                  // if (wordsEnglish == "bouquet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bouquet");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bother") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bother");
+                  }
+                  if (wordsEnglish == "bottle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bottle");
+                  }
+                  if (wordsEnglish == "bottleneck") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bottleneck");
+                  }
+                  if (wordsEnglish == "bottom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bottom");
+                  }
+                  if (wordsEnglish == "bottomless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bottomless");
+                  }
+                  if (wordsEnglish == "bottom line") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bottom-line");
+                  }
+                  if (wordsEnglish == "bough") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bough");
+                  }
+                  if (wordsEnglish == "boulder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boulder");
+                  }
+                  if (wordsEnglish == "bounce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bounce");
+                  }
+                  if (wordsEnglish == "bouncer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bouncer");
+                  }
+                  if (wordsEnglish == "bouncing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bouncing");
+                  }
+                  if (wordsEnglish == "bound") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bound");
+                  }
+                  if (wordsEnglish == "boundary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boundary");
+                  }
+                  if (wordsEnglish == "boundless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boundless");
+                  }
+                  if (wordsEnglish == "bounds") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bounds");
+                  }
+                  if (wordsEnglish == "bounty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bounty");
+                  }
+                  if (wordsEnglish == "bountiful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bountiful");
+                  }
+                  if (wordsEnglish == "bouquet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bouquet");
+                  }
+                  if (wordsEnglish == "bourgeois") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bourgeois");
+                  }
+                  if (wordsEnglish == "the bourgeoisie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-the-bourgeoisie");
+                  }
+                  if (wordsEnglish == "bout") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bout");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

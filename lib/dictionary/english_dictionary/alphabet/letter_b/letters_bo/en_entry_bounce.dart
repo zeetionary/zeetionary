@@ -328,9 +328,9 @@ class EnglishEntrybounce extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەڕانەوە، زڤرین، باز یان پەڕینی کت‌وپڕ، قەڵبەز، هەڵبەزینەوە، هەڵپەڕوداپەڕ، هەڵبەزودابەز، چالاکی، جم‌وجۆڵ، بەکەیفی، سەرخۆشی، بەگوڕی، سەرشادی، بەپەرۆشی، لێدانی بەهێز و کت‌وپڕ
+کوردی: گەڕانەوە، زڤرین، باز یان پەڕینی کت‌وپڕ، قەڵبەز، ھەڵبەزینەوە، ھەڵپەڕوداپەڕ، ھەڵبەزودابەز، چالاکی، جم‌وجۆڵ، بەکەیفی، سەرخۆشی، بەگوڕی، سەرشادی، بەپەرۆشی، لێدانی بەھێز و کت‌وپڕ
 
-١. (کردار) کێشان بە ڕوویەک و هەڵبەزینەوە لێی"""),
+١. (کردار) کێشان بە ڕوویەک و ھەڵبەزینەوە لێی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -376,7 +376,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) هەڵبەز و دابەزی کەسێك"),
+                              text: "٢. (کردار) ھەڵبەز و دابەزی کەسێك"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -384,7 +384,7 @@ class EnglishEntrybounce extends StatelessWidget {
                                       "She bounced up and down excitedly on the bed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە جۆش و خرۆشییەوە لەسەر جێخەوەکە هەڵبەز و دابەزی بوو."),
+                                      "بە جۆش و خرۆشییەوە لەسەر جێخەوەکە ھەڵبەز و دابەزی بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -401,7 +401,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) هەڵبەز و دابەزکردن بە منداڵێک کە لە باوەشتایە بۆ ئەوەی دڵخۆش بێت"),
+                                  "٣. (کردار) ھەڵبەز و دابەزکردن بە منداڵێک کە لە باوەشتایە بۆ ئەوەی دڵخۆش بێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -445,13 +445,13 @@ class EnglishEntrybounce extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هەڵبەز و دابەزی شتێک"),
+                              text: "٤. (کردار) ھەڵبەز و دابەزی شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her hair bounced as she walked."),
                               const ExampleSentenceKurdish(
-                                  text: "قژی هەڵدەبەزییەوە کە ڕێی دەکرد."),
+                                  text: "قژی ھەڵدەبەزییەوە کە ڕێی دەکرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -468,7 +468,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) ڕۆشتن بە هەڵبەزینەوە بە ئاراستیەکی دیاریکراودا"),
+                                  "٥. (کردار) ڕۆشتن بە ھەڵبەزینەوە بە ئاراستیەکی دیاریکراودا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -476,7 +476,7 @@ class EnglishEntrybounce extends StatelessWidget {
                                       "He bounced across the room to greet them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە ژوورەکەدا بە هەڵبەزینەوە ڕۆشت بۆ خێراتن کردنیان."),
+                                      "بە ژوورەکەدا بە ھەڵبەزینەوە ڕۆشت بۆ خێراتن کردنیان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -493,7 +493,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) ڕەتکردنەوەی چەکێکی بانکی بەهۆی ئەوەی پارەی پێویست لە هەژمارە بانکییەکەدا نییە"),
+                                  "٦. (کردار) ڕەتکردنەوەی چەکێکی بانکی بەھۆی ئەوەی پارەی پێویست لە ھەژمارە بانکییەکەدا نییە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -526,7 +526,7 @@ class EnglishEntrybounce extends StatelessWidget {
                                       "He bounced ideas off colleagues everywhere he went."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بیرۆکەی لەگەڵ هەڤاڵانی باسدەکرد بۆ هەر کوێیەک دەچوو."),
+                                      "بیرۆکەی لەگەڵ ھەڤاڵانی باسدەکرد بۆ ھەر کوێیەک دەچوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -543,7 +543,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (کردار) ناردنەوەی ئیمەیڵێک بۆ ئەو کەسەی ناردوویەتی بەهۆی ئەوەی سیستەمەکە نەیتوانیوە بینێریت بۆ کەسی مەبەست"),
+                                  "٨. (کردار) ناردنەوەی ئیمەیڵێک بۆ ئەو کەسەی ناردوویەتی بەھۆی ئەوەی سیستەمەکە نەیتوانیوە بینێریت بۆ کەسی مەبەست"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -551,7 +551,7 @@ class EnglishEntrybounce extends StatelessWidget {
                                       "I tried to send her an email but it bounced."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵم دا ئیمەیڵێکی بۆ بنێرم بەڵام سەرکەوتوو نەبوو."),
+                                      "ھەوڵم دا ئیمەیڵێکی بۆ بنێرم بەڵام سەرکەوتوو نەبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -568,7 +568,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) وا لە کەسێک بکەیت کارێک، شوێنێک، تیمێک، هتد جێبهێڵێت"),
+                                  "٩. (کردار) وا لە کەسێک بکەیت کارێک، شوێنێک، تیمێک، ھتد جێبھێڵێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -589,7 +589,7 @@ class EnglishEntrybounce extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٠. (ناو) هەڵبەزین"),
+                          const DefinitionKurdish(text: "١٠. (ناو) ھەڵبەزین"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -613,7 +613,7 @@ class EnglishEntrybounce extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٢. (ناو) توانای هەڵبەزین"),
+                              text: "١٢. (ناو) توانای ھەڵبەزین"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -621,7 +621,7 @@ class EnglishEntrybounce extends StatelessWidget {
                                       "Players complained about the uneven bounce of the tennis court."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یاریزانەکان ناڕەزاییان دەردەبڕی لەسەر توانای هەڵبەزانی نایەکسانی یاریگای تێنسەکە."),
+                                      "یاریزانەکان ناڕەزاییان دەردەبڕی لەسەر توانای ھەڵبەزانی نایەکسانی یاریگای تێنسەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -707,7 +707,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bounce (Derived forms: bounces, bounced, bouncing)
+- Verb: bounce (derived forms: bounces, bounced, bouncing)
 1. Move back in a roughly opposite direction after an impact (= resile, take a hop, spring, bound, rebound, recoil, reverberate, ricochet)
 "The rubber ball bounced";
 
@@ -730,7 +730,7 @@ class EnglishMeaning extends StatelessWidget {
  
 8. [Brit, informal] Put pressure on someone (to do something) (= pressurize, pressurise [Brit], lean on [informal])
 
-- Noun: bounce (Derived forms: bounces)
+- Noun: bounce (derived forms: bounces)
 1. The quality of a substance that is able to rebound (= bounciness)
  
 2. A light, self-propelled movement upwards or forwards (= leap, leaping, spring, saltation, bound)
@@ -751,7 +751,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/b-joNU9em1w?t=";
+  static String myVideoId = "b-joNU9em1w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -776,7 +776,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -801,7 +801,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/tMKXbLBgkEc?t=";
+  static String myVideoId = "tMKXbLBgkEc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -826,7 +826,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/NFtQOxjWfaA?t=";
+  static String myVideoId = "NFtQOxjWfaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -851,7 +851,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/-cPdImejxEQ?t=";
+  static String myVideoId = "-cPdImejxEQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -876,7 +876,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/zmEv7vTOQGE?t=";
+  static String myVideoId = "zmEv7vTOQGE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -901,7 +901,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/FPQ7oBWCTgs?t=";
+  static String myVideoId = "FPQ7oBWCTgs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -926,7 +926,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/SE398CcSLeE?t=";
+  static String myVideoId = "SE398CcSLeE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -951,7 +951,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ChzL17zV9hA";
+  static String myVideoId = "ChzL17zV9hA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -976,7 +976,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/hsWr_JWTZss?t=";
+  static String myVideoId = "hsWr_JWTZss";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1001,7 +1001,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/3YFeE1eDlD0?t=";
+  static String myVideoId = "3YFeE1eDlD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1026,7 +1026,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/0onncd0_0-o?t=";
+  static String myVideoId = "0onncd0_0-o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

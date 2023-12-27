@@ -167,7 +167,7 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دۆستی گەرم‌وگوڕ، گیانی‌ بە‌ گیانی یان گیانی‌گیانی
 
-١. (ناو) هاوڕێیەکی زۆر نزیک"""),
+١. (ناو) ھاوڕێیەکی زۆر نزیک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                                       "The two girls had become bosom friends."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو کچەکە بووبوون بە هاوڕێی گیانی بە گیانی."),
+                                      "دوو کچەکە بووبوون بە ھاوڕێی گیانی بە گیانی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,7 +198,7 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                                   text: "We soon became bosom pals."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەرزوو بووین بە دۆستی گەوموگوڕی یەکدی."),
+                                      "ھەرزوو بووین بە دۆستی گەوموگوڕی یەکدی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

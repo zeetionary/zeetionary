@@ -5,88 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bouncing" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "boundless" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// bouncing
+// boundless
 // haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 
-class EnglishEntrybouncing extends StatelessWidget {
+class EnglishEntryboundless extends StatelessWidget {
 // blank divider
-  EnglishEntrybouncing({super.key});
+  EnglishEntryboundless({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbouncing(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundless(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bouncing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boundless"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings1(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."); // DOPSUM: CHANGE TEXT
+        "She has boundless energy and enthusiasm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings2(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings3(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings4(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings5(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings6(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbouncings7(String languageCode) async {
-    // DOPSUM: CHANGE speakbouncing
+  Future<void> speakboundlesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakboundless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbouncings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboundlesss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +103,22 @@ class EnglishEntrybouncing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bouncing"),
+                            EntryTitle(word: "boundless"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbaʊnsɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbaʊndləs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbouncing("en-GB"),
+                              onPressed: () => speakboundless("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbaʊnsɪŋ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbaʊndləs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbouncing("en-US"),
+                              onPressed: () => speakboundless("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntrybouncing extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -164,25 +164,24 @@ class EnglishEntrybouncing extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ساغ، بەکەیف، بەکار، لەشەوق، پڕجم‌وجۆڵ، چالاک، لەش‌ساخ، تەندروست
+کوردی: بێ‌کۆتایی، بێ‌ئەندازە، بێ‌سنوور، لەڕادەبەدەر
 
-١. (ھاوەڵناو) تەندرووست و پڕ لە وزە"""),
+١. (ھاوەڵناو) بێ سنوور"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."),
+                                      "She has boundless energy and enthusiasm."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو نەوەمان هەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست ."),
+                                  text: "جۆش‌وخرۆشی و وزەی بێ سنووری هەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbouncings1("en-GB"),
+                                    onPressed: () => speakboundlesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbouncings1("en-US"),
+                                    onPressed: () => speakboundlesss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,7 +198,7 @@ class EnglishEntrybouncing extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -239,15 +238,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bouncing (Derived forms: bouncings)
-1. Rebounding from an impact (or series of impacts) (= bounce)
-
-- Adjective: bouncing 
-1. Vigorously healthy
-"a bouncing baby"
- 
-2. Marked by lively action (= bouncy, peppy [N. Amer, informal], spirited, zippy [informal])
-"a bouncing gait";
+- Adjective: boundless
+1. Seemingly with no bound in amount, number, degree, or extent (= unbounded, limitless)
+"children with boundless energy";
 """,
           )
         ],
@@ -261,12 +254,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/-P5m5rqL7gM?t=";
+  static String myVideoId = "https://youtu.be/4J0xFUyz1nw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -286,12 +279,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/dZ_IwkAE2ls?t=";
+  static String myVideoId = "https://youtu.be/Z4BKrSazQh0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 434, // DOPSUM: CHANGE IT
+      startAt: 532, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -311,12 +304,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/hGDdFdJWpe8?t=";
+  static String myVideoId = "https://youtu.be/_ak5dFt8Ar0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 653, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -336,12 +329,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/qphNEf7NIqg?t=";
+  static String myVideoId = "https://youtu.be/cIjeUVkrpRo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 317, // DOPSUM: CHANGE IT
+      startAt: 448, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -361,12 +354,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/VTPz9z7M6B8?t=";
+  static String myVideoId = "https://youtu.be/LtWXwj_ZXAI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 389, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -386,12 +379,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/bdwvi5CTuQQ?t=";
+  static String myVideoId = "https://youtu.be/4iC9Qi3y9q8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 959, // DOPSUM: CHANGE IT
+      startAt: 1945, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -411,12 +404,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/GC_vUXhSyOo?t=";
+  static String myVideoId = "https://youtu.be/d5E2AQKuCyU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 597, // DOPSUM: CHANGE IT
+      startAt: 5301, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -436,12 +429,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/AAX8N8Ycs1g?t=";
+  static String myVideoId = "https://youtu.be/4hRNhosh8Lk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 297, // DOPSUM: CHANGE IT
+      startAt: 145, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -461,12 +454,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/CAyEzQdQV9I?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 186, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -560,4 +553,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bouncing
+// end boundless

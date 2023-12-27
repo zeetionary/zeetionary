@@ -184,7 +184,7 @@ class EnglishEntryassured extends StatelessWidget {
                                   text: "He spoke in a calm, assured voice."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قسەیکرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
+                                      "قسەی کرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

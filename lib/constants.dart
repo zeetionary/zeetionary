@@ -16,79 +16,7 @@ class Constants {
   static const googlePath = 'assets/images/google.png';
   static const uk1Path = 'assets/images/uk_one.png';
   static const kurd1Path = 'assets/images/kurd_one.png';
-
-  // static var tabWidgets = [
-  //   const DictionaryScreenEnglish(),
-  //   const DictionaryScreenKurdish(),
-  //   const GrammarScreen(),
-  //   const QuestionsScreen(),
-  //   const QuizScreen(),
-  // ];
 }
-
-// class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
-//   const ZeetionaryAppbar({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return const ZeetionaryAppbarTwo();
-//   }
-
-//   @override
-//   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
-// }
-
-// class ZeetionaryAppbarTwo extends ConsumerStatefulWidget {
-//   const ZeetionaryAppbarTwo({super.key});
-
-//   @override
-//   ConsumerState<ConsumerStatefulWidget> createState() => _ZeetionaryAppbarTwoState();
-// }
-
-// class _ZeetionaryAppbarTwoState extends ConsumerState<ZeetionaryAppbarTwo> {
-
-//   void toggleTheme(WidgetRef ref) {
-//     ref.read(themeNotifierProvider.notifier).toggleTheme();
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     // final currentTheme = ref.watch(themeNotifierProvider);
-//     return AppBar(
-//       // centerTitle: true,
-//       scrolledUnderElevation: 0,
-//       title: const ZeetionaryAppbarStyle(),
-//       leading: IconButton(
-//         icon: const Icon(Icons.arrow_back_rounded),
-//         onPressed: () {
-//           Routemaster.of(context).pop();
-//         },
-//       ),
-//       actions: [
-//         IconButton(
-//             icon:
-//                 ref.watch(themeNotifierProvider.notifier).mode == ThemeMode.dark
-//                     ? const Icon(
-//                         // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
-//                         Icons.nightlight_round,
-//                         // color: Colors.yellow, // Customize the moon color
-//                       )
-//                     : const Icon(
-//                         Icons.wb_sunny,
-//                         // color: Colors.red, // Customize the sun color
-//                       ),
-//             onPressed: () => toggleTheme(ref),
-//           ),
-//         IconButton(
-//           icon: const Icon(Icons.history),
-//           onPressed: () {
-//             Routemaster.of(context).push('/history-screen');
-//           },
-//         ),
-//       ],
-//     );
-//   }
-// }
 
 class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   const ZeetionaryAppbar({super.key});
@@ -120,6 +48,56 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
 
+// class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
+//   const ZeetionaryAppbar({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return const ZeetionaryAppbarTheme();
+//   }
+
+//   @override
+//   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+// }
+
+// class ZeetionaryAppbarTheme extends ConsumerStatefulWidget {
+//   const ZeetionaryAppbarTheme({super.key});
+
+//   @override
+//   ConsumerState<ConsumerStatefulWidget> createState() =>
+//       _ZeetionaryAppbarThemeState();
+// }
+
+// class _ZeetionaryAppbarThemeState extends ConsumerState<ZeetionaryAppbarTheme> {
+//   _ZeetionaryAppbarThemeState();
+
+//   @override
+//   Widget build(BuildContext context) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+//     return AppBar(
+//       backgroundColor: currentTheme.appBarTheme.backgroundColor,
+//       // centerTitle: true,
+//       scrolledUnderElevation: 0,
+//       title: const ZeetionaryAppbarStyle(),
+//       leading: IconButton(
+//         icon: const Icon(Icons.arrow_back),
+//         onPressed: () {
+//           Routemaster.of(context).pop();
+//         },
+//       ),
+//       actions: [
+//         IconButton(
+//           icon: const Icon(Icons.history),
+//           onPressed: () {
+//             Routemaster.of(context).push('/history-screen');
+//           },
+//         ),
+//       ],
+//     );
+//   }
+// }
+
 class ZeetionaryAppbarStyle extends ConsumerStatefulWidget {
   const ZeetionaryAppbarStyle({super.key});
 
@@ -146,57 +124,6 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     );
   }
 }
-
-// // Simpler method than above
-
-// class ZeetionaryAppbarStyle extends ConsumerWidget {
-
-//   const ZeetionaryAppbarStyle({super.key});
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
-
-//     return Text(
-//       'Zeetionary',
-//       style: TextStyle(
-//         fontSize: 30.0, // Adjust font size as needed
-//         fontWeight: FontWeight.bold, // Adjust font weight as needed
-//         color: currentTheme.primaryColor
-//             .withOpacity(0.8), // Text color (will be masked by the gradient)
-//       ),
-//     );
-//   }
-// }
-
-// class ZeetionaryAppbarStyle extends StatelessWidget {
-//   const ZeetionaryAppbarStyle({
-//     super.key,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ShaderMask(
-//       shaderCallback: (Rect bounds) {
-//         return const LinearGradient(
-//           colors: [
-//             Color.fromARGB(255, 107, 118, 175),
-//             Color.fromARGB(255, 136, 62, 100),
-//           ], // Define your gradient colors here
-//           tileMode: TileMode.clamp,
-//         ).createShader(bounds);
-//       },
-//       child: const Text(
-//         'Zeetionary',
-//         style: TextStyle(
-//           fontSize: 24.0, // Adjust font size as needed
-//           fontWeight: FontWeight.bold, // Adjust font weight as needed
-//           color: Colors.white, // Text color (will be masked by the gradient)
-//         ),
-//       ),
-//     );
-//   }
-// }
 
 class CustomTabBar extends ConsumerWidget {
   final List<Widget> tabs;
@@ -281,11 +208,6 @@ class CustomTabBar extends ConsumerWidget {
   }
 }
 
-// indicator: BoxDecoration(
-//   color: currentTheme.scaffoldBackgroundColor.withOpacity(0.7),
-//   borderRadius: BorderRadius.circular(12.0),
-// ),
-
 // class CustomTabBar extends ConsumerWidget {
 //   final List<Widget> tabs;
 
@@ -324,26 +246,6 @@ class CustomTabBar extends ConsumerWidget {
 //       indicator: BoxDecoration(
 //         color: currentTheme
 //             .shadowColor, // Assuming you have this color in your theme
-//         borderRadius: BorderRadius.circular(16.0),
-//       ),
-//       indicatorSize: TabBarIndicatorSize.tab,
-//       indicatorPadding: const EdgeInsets.all(4.0),
-//     );
-//   }
-// }
-
-// class CustomTabBar extends StatelessWidget {
-//   final List<Widget> tabs;
-
-//   const CustomTabBar({super.key, required this.tabs});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return TabBar(
-//       isScrollable: true,
-//       tabs: tabs,
-//       indicator: BoxDecoration(
-//         color: Pallete.tabsbackgroundColor,
 //         borderRadius: BorderRadius.circular(16.0),
 //       ),
 //       indicatorSize: TabBarIndicatorSize.tab,
@@ -704,21 +606,21 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-                currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-                // currentTheme.primaryColor.withOpacity(0.05),
-                // currentTheme.primaryColor.withOpacity(0.09),
-                // Colors.red.shade800.withOpacity(0.09),
-                // Colors.red.shade800.withOpacity(0.07),
-                // currentTheme.primaryColor.withOpacity(0.08),
-                // currentTheme.primaryColor.withOpacity(0.05),
-              ],
-            ),
-            // color: currentTheme.primaryColor.withOpacity(0.1),
+            // color: currentTheme.primaryColor.withOpacity(0.01),
+            // gradient: LinearGradient(
+            //   begin: Alignment.topLeft,
+            //   end: Alignment.bottomRight,
+            //   colors: [
+            //     currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+            //     currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+            //     // currentTheme.primaryColor.withOpacity(0.05),
+            //     // currentTheme.primaryColor.withOpacity(0.09),
+            //     // Colors.red.shade800.withOpacity(0.09),
+            //     // Colors.red.shade800.withOpacity(0.07),
+            //     // currentTheme.primaryColor.withOpacity(0.08),
+            //     // currentTheme.primaryColor.withOpacity(0.05),
+            //   ],
+            // ),
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(12.0),
               bottomRight: Radius.circular(12.0),
@@ -919,7 +821,7 @@ class CustomIconButtonBritish extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      iconSize: 18,
+      // iconSize: 18,
       icon: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
@@ -948,7 +850,7 @@ class CustomIconButtonAmerican extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      iconSize: 18,
+      // iconSize: 18,
       icon: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
@@ -1080,35 +982,16 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
   }
 }
 
-// class EntryTitle extends ConsumerStatefulWidget {
-//   final String word;
-
-//   const EntryTitle({super.key, required this.word});
-
-//   @override
-//   ConsumerState<ConsumerStatefulWidget> createState() => _EntryTitleState();
-// }
-
-// class _EntryTitleState extends ConsumerState<EntryTitle>
-//     with SingleTickerProviderStateMixin {
-//   late AnimationController _controller;
-
-//   @override
-//   Widget build(BuildContext context) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
-
 // divider
 // divider
 // divider
 // divider
 // divider
 
-// // if card is used
+// // if card is used https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
 // class MyExpansionTile extends ConsumerStatefulWidget {
 //   static const String defaultTitle = "ڕستەی زیاتر"; // Shared title
 //   final List<Widget> children;
-
-//   // https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
 
 //   const MyExpansionTile({
 //     super.key,
@@ -1199,7 +1082,7 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 //   }
 // }
 
-// // if container is used
+// // if container is used https://chat.openai.com/c/ab8b1f04-cfed-4baa-b8d4-0dbe07a84aa1
 class MyExpansionTile extends ConsumerStatefulWidget {
   static const String defaultTitle = 'ڕستەی زیاتر'; // Shared title
   final List<Widget> children;
@@ -1225,11 +1108,15 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
           ? BoxDecoration(
+              color: currentTheme.primaryColor.withOpacity(0.01),
               border: Border.all(
-                  color: currentTheme.primaryColor.withOpacity(0.18)),
+                color: currentTheme.primaryColor.withOpacity(0.18),
+                width: 1.0,
+              ),
               borderRadius: const BorderRadius.all(Radius.circular(8.0)),
             )
           : BoxDecoration(
+              // color: currentTheme.primaryColor.withOpacity(0.01),
               border: Border.all(
                 color: currentTheme.primaryColor.withOpacity(0.18),
                 width: 1.0,
@@ -1250,6 +1137,12 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                  // _isExpanded
+                  //     ? Icon(
+                  //         Icons.arrow_drop_up,
+                  //         color: Colors.blue,
+                  //       )
+                  //     : Icon(Icons.arrow_drop_down),
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
                   ),
@@ -1261,7 +1154,8 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                         style: TextStyle(
                           fontSize: 14.0, // Adjust the font size
                           fontWeight: FontWeight.bold, // Adjust the font weight
-                          // color: Colors.black, // Adjust the text color
+                          // color: currentTheme
+                          //     .primaryColor, // Adjust the text color
                         ),
                       ),
                       SizedBox(
@@ -1280,12 +1174,9 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
             ),
           ),
           if (_isExpanded)
-            Padding(
-              padding: const EdgeInsets.only(right: 16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: widget.children,
-              ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: widget.children,
             ),
         ],
       ),

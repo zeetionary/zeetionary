@@ -59,6 +59,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        // backgroundColor: currentTheme.appBarTheme.backgroundColor,
         // centerTitle: true,
         scrolledUnderElevation: 0,
         // backgroundColor: Colors.grey.withOpacity(0.1),

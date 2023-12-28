@@ -5,88 +5,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boutique" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// boutique
-// haʊʊʊʊʊʊʊ4
+// Define the word "Boxing Day" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
 enum TtsState { playing }
 
-class EnglishEntryboutique extends StatelessWidget {
+class EnglishEntryboxingday extends StatelessWidget {
 // blank divider
-  EnglishEntryboutique({super.key});
+  EnglishEntryboxingday({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboutique(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingday(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boutique"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Boxing Day"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques1(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays1(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She owns a chic boutique in the city center."); // DOPSUM: CHANGE TEXT
+        "Employees happily received their gifts on the cheerful Boxing Day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques2(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays2(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques3(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays3(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques4(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays4(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques5(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays5(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques6(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays6(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques7(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboxingdays7(String languageCode) async {
+    // DOPSUM: CHANGE speakboxingday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboxingdays77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +100,22 @@ class EnglishEntryboutique extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boutique"),
+                            EntryTitle(word: "Boxing Day"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒksɪŋ deɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboutique("en-GB"),
+                              onPressed: () => speakboxingday("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboutique("en-US"),
+                              onPressed: () => speakboxingday("en-US"),
                             ),
                           ],
                         ),
@@ -136,12 +133,12 @@ class EnglishEntryboutique extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -164,25 +161,23 @@ class EnglishEntryboutique extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: فرۆشگای پۆشاک، بووتیک، دووکان
-
-١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"""),
+١. (ناو) یەکەم ڕۆژی دوای ڕۆژی کریسمسە و لە شانشینی یەکگرتوو و ژمارەیەک وڵاتی دیکە پشووە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She owns a chic boutique in the city center."),
+                                      "Employees happily received their gifts on the cheerful Boxing Day."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
+                                      "کارمەندان بە دڵخۆشییەوە دیارییەکانیان وەرگرت لە ڕۆژی پڕشادی دوای کریسمس."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboutiques1("en-GB"),
+                                    onPressed: () => speakboxingdays1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboutiques1("en-US"),
+                                    onPressed: () => speakboxingdays1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,8 +195,8 @@ class EnglishEntryboutique extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -239,8 +234,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boutique (derived forms: boutiques)
-1. A shop that sells women's clothes and jewellery (= dress shop)
+- Noun: Boxing Day (derived forms: Boxing Days)
+Usage: Brit, Cdn
+1. First weekday after Christmas
 """,
           )
         ],
@@ -254,12 +250,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "9TugA_z5vQE";
+  static String myVideoId = "2MZZrDA-I4M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 659, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -279,12 +275,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "o952kUxFXzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -304,12 +300,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "HxRUuGqqMG4";
+  static String myVideoId = "9pnCI1CP6_k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 280, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -329,12 +325,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Fr-qagv7ig0";
+  static String myVideoId = "GRIfm826bnw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      startAt: 521, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -354,12 +350,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "qQ01eLt_bxo";
+  static String myVideoId = "eCcFJkip2xQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 555, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -379,12 +375,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "JR3z8lq2cNM";
+  static String myVideoId = "L3hTNI-RaT8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 404, // DOPSUM: CHANGE IT
+      startAt: 692, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -404,12 +400,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ZFRnQ-Ti6Is";
+  static String myVideoId = "PTQXkbbHBjg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 245, // DOPSUM: CHANGE IT
+      startAt: 41, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -429,12 +425,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "UrkPC81_QfU";
+  static String myVideoId = "RrKoPJFxSdY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 876, // DOPSUM: CHANGE IT
+      startAt: 807, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -454,12 +450,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "oYBq6tgx_5M";
+  static String myVideoId = "wCvVQLjWb8s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 140, // DOPSUM: CHANGE IT
+      startAt: 798, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -479,12 +475,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "vmcmqTAu6b8";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 308, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -504,12 +500,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "4GGuRdotJGA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 942, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,4 +549,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boutique
+// haʊʊʊʊʊʊʊ4
+// end Boxing Day

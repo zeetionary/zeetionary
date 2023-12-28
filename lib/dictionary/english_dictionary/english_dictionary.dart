@@ -2014,28 +2014,28 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bourgeois",
     "the bourgeoisie",
     "bout",
-    // "boutique",
-    // "bow",
-    // "bow-legged",
-    // "bow tie",
-    // "bowel",
-    // "bowl",
-    // "bowler",
-    // "bowling",
-    // "box",
-    // "boxer",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "boutique",
+    "bow",
+    "bow-legged",
+    "bow tie",
+    "bowel",
+    "bowl",
+    "bowler",
+    "bowling",
+    "box",
+    "boxer",
+    "boxing",
+    "box number",
+    "box office",
+    "Boxing Day",
+    "boy",
+    "boyfriend",
+    "boyhood",
+    "boyish",
+    "boycott",
+    "bra",
+    "brassiere",
+    "brace",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -10288,94 +10288,94 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bout");
                   }
-                  // if (wordsEnglish == "boutique") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boutique");
-                  // }
-                  // if (wordsEnglish == "bow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bow");
-                  // }
-                  // if (wordsEnglish == "bow-legged") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bow-legged");
-                  // }
-                  // if (wordsEnglish == "bow tie") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bow-tie");
-                  // }
-                  // if (wordsEnglish == "bowel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bowel");
-                  // }
-                  // if (wordsEnglish == "bowl") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bowl");
-                  // }
-                  // if (wordsEnglish == "bowler") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bowler");
-                  // }
-                  // if (wordsEnglish == "bowling") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bowling");
-                  // }
-                  // if (wordsEnglish == "box") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-box");
-                  // }
-                  // if (wordsEnglish == "boxer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boxer");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "boutique") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boutique");
+                  }
+                  if (wordsEnglish == "bow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bow");
+                  }
+                  if (wordsEnglish == "bow-legged") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bow-legged");
+                  }
+                  if (wordsEnglish == "bow tie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bow-tie");
+                  }
+                  if (wordsEnglish == "bowel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bowel");
+                  }
+                  if (wordsEnglish == "bowl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bowl");
+                  }
+                  if (wordsEnglish == "bowler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bowler");
+                  }
+                  if (wordsEnglish == "bowling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bowling");
+                  }
+                  if (wordsEnglish == "box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-box");
+                  }
+                  if (wordsEnglish == "boxer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boxer");
+                  }
+                  if (wordsEnglish == "boxing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boxing");
+                  }
+                  if (wordsEnglish == "box number") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-box-number");
+                  }
+                  if (wordsEnglish == "box office") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-box-office");
+                  }
+                  if (wordsEnglish == "Boxing Day") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boxing-day");
+                  }
+                  if (wordsEnglish == "boy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boy");
+                  }
+                  if (wordsEnglish == "boyfriend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boyfriend");
+                  }
+                  if (wordsEnglish == "boyhood") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boyhood");
+                  }
+                  if (wordsEnglish == "boyish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boyish");
+                  }
+                  if (wordsEnglish == "boycott") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boycott");
+                  }
+                  if (wordsEnglish == "bra") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bra");
+                  }
+                  if (wordsEnglish == "brassiere") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bra");
+                  }
+                  if (wordsEnglish == "brace") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brace");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

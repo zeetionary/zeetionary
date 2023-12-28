@@ -168,7 +168,7 @@ class EnglishEntrybowel extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕیخۆڵە، ناو زگ
 
-١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێهێشتنی گەدە"""),
+١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێھێشتنی گەدە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -176,7 +176,7 @@ class EnglishEntrybowel extends StatelessWidget {
                                       "Patients are asked to report any change in bowel habit."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نەخۆشان پرسیاریان لێ دەکرێت بۆ هەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان."),
+                                      "نەخۆشان پرسیاریان لێ دەکرێت بۆ ھەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,7 +196,7 @@ class EnglishEntrybowel extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "He has trouble with his bowels."),
                               const ExampleSentenceKurdish(
-                                  text: "کێشەی لە ڕیخۆڵەیدا هەیە."),
+                                  text: "کێشەی لە ڕیخۆڵەیدا ھەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,7 +219,7 @@ class EnglishEntrybowel extends StatelessWidget {
                                   text:
                                       "A rumble came from the bowels of the earth (= deep underground)."),
                               const ExampleSentenceKurdish(
-                                  text: "گرمەیەک لە قووڵایی زەوییەوە هات."),
+                                  text: "گرمەیەک لە قووڵایی زەوییەوە ھات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,7 +284,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bowel (Derived forms: bowels)
+- Noun: bowel (derived forms: bowels)
 1. The part of the alimentary canal between the stomach and the anus (= intestine, gut)
 """,
           )
@@ -299,7 +299,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/NTNSCmw4A4c?t=";
+  static String myVideoId = "NTNSCmw4A4c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -324,7 +324,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/g9QneAV4fVo?t=";
+  static String myVideoId = "g9QneAV4fVo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -349,7 +349,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/Ob8sR4A-UIA";
+  static String myVideoId = "Ob8sR4A-UIA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +374,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/E86eXpVBTcI?t=";
+  static String myVideoId = "E86eXpVBTcI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -399,7 +399,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/586F2O94uu4?t=";
+  static String myVideoId = "586F2O94uu4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +424,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/FdQexSS0lOg?t=";
+  static String myVideoId = "FdQexSS0lOg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +449,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/O9-_55YRcj4?t=";
+  static String myVideoId = "O9-_55YRcj4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +474,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/6_dgTAazOpQ?t=";
+  static String myVideoId = "6_dgTAazOpQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -499,7 +499,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/NZPLzhWB_5E?t=";
+  static String myVideoId = "NZPLzhWB_5E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -524,7 +524,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/jCo3VAnODEk?t=";
+  static String myVideoId = "jCo3VAnODEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -5,88 +5,86 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boutique" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// boutique
-// haʊʊʊʊʊʊʊ4
+// Define the word "boyish" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
 enum TtsState { playing }
 
-class EnglishEntryboutique extends StatelessWidget {
+class EnglishEntryboyish extends StatelessWidget {
 // blank divider
-  EnglishEntryboutique({super.key});
+  EnglishEntryboyish({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboutique(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyish(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boutique"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boyish"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques1(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs1(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She owns a chic boutique in the city center."); // DOPSUM: CHANGE TEXT
+        "His boyish good looks made him popular with girls."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques2(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs2(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Jane fell for his boyish charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques3(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs3(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboyishs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques4(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs4(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboyishs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques5(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs5(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboyishs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques6(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs6(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboyishs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques7(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboyishs7(String languageCode) async {
+    // DOPSUM: CHANGE speakboyish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboyishs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +101,22 @@ class EnglishEntryboutique extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boutique"),
+                            EntryTitle(word: "boyish"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔɪɪʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboutique("en-GB"),
+                              onPressed: () => speakboyish("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔɪɪʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboutique("en-US"),
+                              onPressed: () => speakboyish("en-US"),
                             ),
                           ],
                         ),
@@ -136,12 +134,12 @@ class EnglishEntryboutique extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -164,25 +162,45 @@ class EnglishEntryboutique extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: فرۆشگای پۆشاک، بووتیک، دووکان
+کوردی: کوڕانە، وەکوو کوڕان، مناڵانە
 
-١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"""),
+١. (ھاوەڵناو) شێوە و ھەڵسوکەوتی کوڕانە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She owns a chic boutique in the city center."),
+                                      "His boyish good looks made him popular with girls."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
+                                      "شێوە کوڕانە جوانەکەی وایکرد لای کچان ناسراو بێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboutiques1("en-GB"),
+                                    onPressed: () => speakboyishs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboutiques1("en-US"),
+                                    onPressed: () => speakboyishs1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Jane fell for his boyish charm."),
+                              const ExampleSentenceKurdish(
+                                  text: "جەین کەوتە داوی سیما کوڕانەکەی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboyishs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboyishs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,8 +218,8 @@ class EnglishEntryboutique extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -239,8 +257,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boutique (derived forms: boutiques)
-1. A shop that sells women's clothes and jewellery (= dress shop)
+- Adjective: boyish
+1. Befitting or characteristic of a young boy (= boylike, schoolboyish)
+"a boyish grin";
 """,
           )
         ],
@@ -254,12 +273,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "9TugA_z5vQE";
+  static String myVideoId = "BuX6-lvUwd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 1132, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -279,12 +298,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "9b69bxIaN9o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 484, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -304,12 +323,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "HxRUuGqqMG4";
+  static String myVideoId = "NuBt9A2iMGA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 754, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -329,12 +348,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Fr-qagv7ig0";
+  static String myVideoId = "7bkGM_zSGOU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      startAt: 574, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -354,12 +373,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "qQ01eLt_bxo";
+  static String myVideoId = "h6UeoGWlYyU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 555, // DOPSUM: CHANGE IT
+      startAt: 524, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -379,12 +398,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "JR3z8lq2cNM";
+  static String myVideoId = "3LN3__G2yGo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 404, // DOPSUM: CHANGE IT
+      startAt: 574, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -404,12 +423,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ZFRnQ-Ti6Is";
+  static String myVideoId = "kotoNOAvNGk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 245, // DOPSUM: CHANGE IT
+      startAt: 791, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -429,12 +448,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "UrkPC81_QfU";
+  static String myVideoId = "s4WWVQo-dAE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 876, // DOPSUM: CHANGE IT
+      startAt: 328, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -454,12 +473,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "oYBq6tgx_5M";
+  static String myVideoId = "6DH-d3s74Ak";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 140, // DOPSUM: CHANGE IT
+      startAt: 132, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -479,12 +498,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "vmcmqTAu6b8";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 308, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -504,12 +523,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "4GGuRdotJGA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 942, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,4 +572,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boutique
+// haʊʊʊʊʊʊʊ4
+// end boyish

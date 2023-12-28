@@ -162,7 +162,7 @@ class EnglishEntrybowling extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) بۆوڵینگ؛ یارییەکە کە یاریزانان تۆپ خلۆردەکەنەوە بەرەو کۆمەڵە شتێکی وەستاو کە شێوەیان وەک بوتڵ وان و هەوڵ دەدات هەتا بکرێت زیاتریان لێ بکەوێنێت"""),
+١. (ناو) بۆوڵینگ؛ یارییەکە کە یاریزانان تۆپ خلۆردەکەنەوە بەرەو کۆمەڵە شتێکی وەستاو کە شێوەیان وەک بوتڵ وان و ھەوڵ دەدات ھەتا بکرێت زیاتریان لێ بکەوێنێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -185,7 +185,7 @@ class EnglishEntrybowling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) لە یاری کرکیتدا هەڵدانی تۆپەکە بۆ ئەو کەسەی لە تۆپەکە دەدات"),
+                                  "٢. (ناو) لە یاری کرکیتدا ھەڵدانی تۆپەکە بۆ ئەو کەسەی لە تۆپەکە دەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -193,7 +193,7 @@ class EnglishEntrybowling extends StatelessWidget {
                                       "England were no match for the Indian bowling attack."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئینگلیزەکان بەرگەی هێرشی هاویشتنی هندییەکانیان نەگرت."),
+                                      "ئینگلیزەکان بەرگەی ھێرشی ھاویشتنی ھندییەکانیان نەگرت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bowling (Derived forms: bowlings)
+- Noun: bowling (derived forms: bowlings)
 1. A game in which balls are rolled at an object or group of objects with the aim of knocking them over or moving them
  
 2. (cricket) the act of delivering a cricket ball to the batsman
@@ -277,7 +277,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/DPZzrlFCD_I?t=";
+  static String myVideoId = "DPZzrlFCD_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +302,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/bIDKhZ_4jLQ?t=";
+  static String myVideoId = "bIDKhZ_4jLQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -327,7 +327,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/t-osG0F2MZM?t=";
+  static String myVideoId = "t-osG0F2MZM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +352,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/EMoSsCDgZys";
+  static String myVideoId = "EMoSsCDgZys";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -377,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/bX2KCrEAc5w";
+  static String myVideoId = "bX2KCrEAc5w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +402,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/LhQfj7_LB84?t=";
+  static String myVideoId = "LhQfj7_LB84";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -427,7 +427,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/4dtqei4K5Rw?t=";
+  static String myVideoId = "4dtqei4K5Rw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -452,7 +452,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/SAoIB1lni7c?t=";
+  static String myVideoId = "SAoIB1lni7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

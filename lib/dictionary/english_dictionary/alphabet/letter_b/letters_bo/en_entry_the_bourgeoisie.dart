@@ -269,7 +269,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bourgeoisie (Derived forms: bourgeoisies)
+- Noun: bourgeoisie (derived forms: bourgeoisies)
 1. The social class between the lower and upper classes (= middle class)
 """,
           )

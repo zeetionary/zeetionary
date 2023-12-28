@@ -5,82 +5,82 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boutique" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// boutique
-// haʊʊʊʊʊʊʊ4
+// Define the word "boycott" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
 enum TtsState { playing }
 
-class EnglishEntryboutique extends StatelessWidget {
+class EnglishEntryboycott extends StatelessWidget {
 // blank divider
-  EnglishEntryboutique({super.key});
+  EnglishEntryboycott({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboutique(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycott(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boutique"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boycott"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques1(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts1(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She owns a chic boutique in the city center."); // DOPSUM: CHANGE TEXT
+        "We are asking people to boycott goods from companies that use child labour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques2(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts2(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They have urged people to boycott foreign products."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques3(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts3(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Opposition groups declared a boycott of the elections."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques4(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts4(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The US has imposed a boycott on some European goods."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques5(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts5(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques6(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts6(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboutiques7(String languageCode) async {
-    // DOPSUM: CHANGE speakboutique
+  Future<void> speakboycotts7(String languageCode) async {
+    // DOPSUM: CHANGE speakboycott
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboutiques77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakboycotts77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +103,22 @@ class EnglishEntryboutique extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boutique"),
+                            EntryTitle(word: "boycott"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔɪkɒt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboutique("en-GB"),
+                              onPressed: () => speakboycott("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /buːˈtiːk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔɪkɑːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboutique("en-US"),
+                              onPressed: () => speakboycott("en-US"),
                             ),
                           ],
                         ),
@@ -164,25 +164,91 @@ class EnglishEntryboutique extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: فرۆشگای پۆشاک، بووتیک، دووکان
-
-١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"""),
+١. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکڕیت، بەکاری بێنیت، یان بەژداری تێدا بکەیت وەک ناڕەزایی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She owns a chic boutique in the city center."),
+                                      "We are asking people to boycott goods from companies that use child labour."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
+                                      "داوا لە خەڵکی دەکەین بایکۆتی ئەو کۆمپانیانە بکەن کە ھێزی کاری منداڵان بەکاردێنن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboutiques1("en-GB"),
+                                    onPressed: () => speakboycotts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboutiques1("en-US"),
+                                    onPressed: () => speakboycotts1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They have urged people to boycott foreign products."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "داوایان لە خەڵکی کردووە کاڵای بیانی بایکۆت بکەن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboycotts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboycotts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) کردەی بایکۆتی شتێک یان کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Opposition groups declared a boycott of the elections."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گرووپە ئۆپۆزسیۆنەکان بایکۆتی ھەڵبژاردنەکانیان ڕاگەیاندووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboycotts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboycotts3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The US has imposed a boycott on some European goods."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەمریکا بایکۆتی سەپاندووە بەسەر ھەندێک کاڵای ئەورووپیدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakboycotts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakboycotts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,8 +305,11 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boutique (derived forms: boutiques)
-1. A shop that sells women's clothes and jewellery (= dress shop)
+- Verb: boycott (derived forms: boycotted, boycotts, boycotting)
+1. Refuse to sponsor; refuse to do business with
+
+- Noun: boycott 
+1. A group's refusal to have commercial dealings with some organization in protest against its policies
 """,
           )
         ],
@@ -254,12 +323,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "9TugA_z5vQE";
+  static String myVideoId = "LFB-ZhKAPPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 354, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -279,12 +348,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "EmT0i0xG6zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 360, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -304,12 +373,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "HxRUuGqqMG4";
+  static String myVideoId = "hyLpbO5S4xE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 302, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -329,12 +398,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Fr-qagv7ig0";
+  static String myVideoId = "QQyup6ZFsvA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      startAt: 581, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -354,12 +423,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "qQ01eLt_bxo";
+  static String myVideoId = "czQrU0OPIR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 555, // DOPSUM: CHANGE IT
+      startAt: 123, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -379,12 +448,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "JR3z8lq2cNM";
+  static String myVideoId = "W4DnmTEHQug";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 404, // DOPSUM: CHANGE IT
+      startAt: 138, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -404,12 +473,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ZFRnQ-Ti6Is";
+  static String myVideoId = "LzfuA8mBbf8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 245, // DOPSUM: CHANGE IT
+      startAt: 270, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -429,12 +498,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "UrkPC81_QfU";
+  static String myVideoId = "p1Zb90MFf20";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 876, // DOPSUM: CHANGE IT
+      startAt: 4306, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -454,12 +523,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "oYBq6tgx_5M";
+  static String myVideoId = "iiO2A5BM3Jw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 140, // DOPSUM: CHANGE IT
+      startAt: 243, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -479,12 +548,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "vmcmqTAu6b8";
+  static String myVideoId = "oiSgAiM0d8A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 308, // DOPSUM: CHANGE IT
+      startAt: 587, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -504,12 +573,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "4GGuRdotJGA";
+  static String myVideoId = "Fiq6QlnUNYc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 942, // DOPSUM: CHANGE IT
+      startAt: 767, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,4 +622,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boutique
+// haʊʊʊʊʊʊʊ4
+// end boycott

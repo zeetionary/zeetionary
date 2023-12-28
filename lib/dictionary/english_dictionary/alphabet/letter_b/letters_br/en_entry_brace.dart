@@ -5,246 +5,218 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bow" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// bow
-// /baʊ/
+// Define the word "brace" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
 enum TtsState { playing }
 
-class EnglishEntrybow extends StatelessWidget {
+class EnglishEntrybrace extends StatelessWidget {
 // blank divider
-  EnglishEntrybow({super.key});
+  EnglishEntrybrace({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbow(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbrace(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brace"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows1(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He wore a knee brace to support his injured joint."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbraces2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was recently fitted with a brace for his bad back."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbraces3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "My daughter has to wear a brace on her teeth."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbraces4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He bowed low to the assembled crowd."); // DOPSUM: CHANGE TEXT
+        .speak("He had braces on his teeth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows2(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The people all bowed down before the emperor."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows3(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He swept off his hat and bowed deeply to the queen."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows4(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She bowed her head in shame."); // DOPSUM: CHANGE TEXT
+        .speak("The braces held up his trousers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows5(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their backs were bowed under the weight of their packs."); // DOPSUM: CHANGE TEXT
+        "In mathematics, a brace is used to denote a set."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows6(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She gave a slight bow of her head in greeting."); // DOPSUM: CHANGE TEXT
+        "The farmer raised a brace of goats on his farm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows7(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces8(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The messenger made a formal bow and left the room."); // DOPSUM: CHANGE TEXT
+        "UN troops are braced for more violence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows8(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces9(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The ship's name was printed on her bow."); // DOPSUM: CHANGE TEXT
+        "They are bracing themselves for a long legal battle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows9(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces10(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You can achieve a completely different tone by bowing the strings nearer to the bridge."); // DOPSUM: CHANGE TEXT
+        "They braced themselves against the wind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows10(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was armed with a bow and arrow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows11(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She drew and aimed her bow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows12(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces11(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I tied the ribbon around the present in a pretty bow."); // DOPSUM: CHANGE TEXT
+        "He stood with his legs and shoulders braced, ready to lift the weights."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows13(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces12(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She drew the bow across the strings."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The side wall of the old house was braced with a wooden support."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows14(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces13(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows15(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces14(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows16(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces15(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows17(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces16(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows18(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces17(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows19(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces18(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows20(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces19(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows21(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces20(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows22(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces21(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows23(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces22(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbows24(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
+  Future<void> speakbraces23(String languageCode) async {
+    // DOPSUM: CHANGE speakbrace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2424"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows25(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2525"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbows26(String languageCode) async {
-    // DOPSUM: CHANGE speakbow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbows2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbraces2323"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -267,22 +239,22 @@ class EnglishEntrybow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bow"),
+                            EntryTitle(word: "brace"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /baʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /breɪs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbow("en-GB"),
+                              onPressed: () => speakbrace("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /baʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /breɪs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbow("en-US"),
+                              onPressed: () => speakbrace("en-US"),
                             ),
                           ],
                         ),
@@ -328,23 +300,25 @@ class EnglishEntrybow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کەوان، کەمە، کەوانە (نێوان دوو سەری کەوان: ماڵ)، دەنووکە، ئاڕشە، ژێژەنە(ک)، نووشتانەوە، چەمانەوە، چەمینەوە، نووچ، گرێ قوڵفە یان خزیو، پاپیۆن، پەلکەزێڕینە، کۆلکەزێڕینە، کەسک‌وسۆر، بۆنووشتانەوە، داھاتنەو بە نیشانەی ڕێز، کڕنۆش
+کوردی: بەست، بەند، پێکبەست، ھەڵپێکە، لێک‌ھەڵپێک، لێکبەست، تەناف یان گوریسی بادەوە، مەھار، ڕاگرە، ڕاگیرە، پاڵپشت، ئاکۆلاد، برۆنیشان، جووت، مۆت، دوانە، (لە شکستەبەندی‌دا) میل، میلە، (ددان‌سازی) تێل، سیم، وایەر، دۆخین، بەنەخوێ، بەنەشەڵوار، بەند یان بەستی شەڵوار
 
-١. (کردار) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"""),
+١. (ناو) شتێک کە دادەنرێت بۆ ئەوەی شت پێکەوە یان لە شوێنی خۆی بھێڵێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He bowed low to the assembled crowd."),
+                                  text:
+                                      "He wore a knee brace to support his injured joint."),
                               const ExampleSentenceKurdish(
-                                  text: "چەمایەوە بۆ جەماوەرە کۆبووەوەکە."),
+                                  text:
+                                      "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows1("en-GB"),
+                                    onPressed: () => speakbraces1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows1("en-US"),
+                                    onPressed: () => speakbraces1("en-US"),
                                   ),
                                 ],
                               ),
@@ -355,18 +329,161 @@ class EnglishEntrybow extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The people all bowed down before the emperor."),
+                                      "He was recently fitted with a brace for his bad back."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خەڵکەکە ھەموو لە پێش ئیمپراتۆر چەمانەوە."),
+                                      "بەم‌نزیکانە ڕاگرێکی بۆ دانرا بۆ ئازاری پشتی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows2("en-GB"),
+                                    onPressed: () => speakbraces2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows2("en-US"),
+                                    onPressed: () => speakbraces2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) پارچە ئاسنێک کە منداڵان یان یان ئەو کەسانەی ددان ڕێکدەکەنەوە دەیبەستن بۆ ئەوەی ددان بە ڕاستی دەربچێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My daughter has to wear a brace on her teeth."),
+                              const ExampleSentenceKurdish(
+                                  text: "کچەکەم دەبوو تەل لە ددانی ببەستێ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He had braces on his teeth."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەلی لە ددانی بەستبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) پارچە قوماشێکی باریک کە لە سەرەوەی پانتۆڵ لە پێش و پاشەوە دەبەسترێت و بەسەر شاندا دەبردرێت بۆ ھێشتنەوەی پانتۆڵەکە لە شوێنی خۆی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The braces held up his trousers."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەندەخوێنەکان پانتۆڵەکەی لە شوێنی خۆی ھێشتبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) نیشانەکانی {} کە بەکاردێن بۆ وتنی ئەوەی ئەو شتانەی لە ناویدان، بۆ نموونە وشە، پەیوەندیدارن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In mathematics, a brace is used to denote a set."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە بیرکاریدا برۆنیشان بەکاردێت بۆ پیشاندانی دەستەیەک."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) دوو شتی ھەمان جۆر، بە تایبەتی جووتە باڵندەیەک یان ئاژەڵێک کە لە ڕاودا کوژراون"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The farmer raised a brace of goats on his farm."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جوتیارەکە جوتێک بزنی لە کێڵگەکەی بەخێودەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) ئامادەکردنی کەسێک یان خۆت بۆ ڕووداوێکی ناخۆش کە ڕوودەدات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "UN troops are braced for more violence."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھێزەکانی نەتەوە یەکگرتووەکان خۆیان بۆ توندوتیژی زیاتر ئامادەکردووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbraces8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbraces8("en-US"),
                                   ),
                                 ],
                               ),
@@ -377,63 +494,18 @@ class EnglishEntrybow extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He swept off his hat and bowed deeply to the queen."),
-                              const ExampleSentenceKurdish(
-                                  text: "کڵاوەکەی لابرد و بۆ شاژن چەمایەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) جوڵانی سەرت بەرەو پێش و دواوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She bowed her head in shame."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە شەرمدا سەری دەلەقاند."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) چەمانەوە یان چەماندنەوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their backs were bowed under the weight of their packs."),
+                                      "They are bracing themselves for a long legal battle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پشتیان چەمابوویەوە لەژێر کێشی بارەکەیان."),
+                                      "خۆیان ئامادە دەکەن بۆ تێکۆشانێکی درێژی یاسایی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows5("en-GB"),
+                                    onPressed: () => speakbraces9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows5("en-US"),
+                                    onPressed: () => speakbraces9("en-US"),
                                   ),
                                 ],
                               ),
@@ -442,23 +514,22 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) لێدانی میوزیک بە بەکارھێنانی ئاڕشەیەک"),
+                                  "٧. (کردار) خۆگرتن لەوەی کە بکەوی بە خۆتوندکردن لە شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "You can achieve a completely different tone by bowing the strings nearer to the bridge."),
+                                      "They braced themselves against the wind."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانی تۆنێکی تەواو جیاواز دەربکەیت بە دانانی ئاڕشەکە لەسەر تەلەکان نزیک لە پردەڵەکە."),
+                                  text: "خۆیان توند ڕاگرت دژ بە بایەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows9("en-GB"),
+                                    onPressed: () => speakbraces10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows9("en-US"),
+                                    onPressed: () => speakbraces10("en-US"),
                                   ),
                                 ],
                               ),
@@ -467,44 +538,23 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"),
+                                  "٨. (کردار) گرژکردنەوەی ماسولکەکانی جەستەت پێش کردنی کارێکی سەخت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She gave a slight bow of her head in greeting."),
+                                      "He stood with his legs and shoulders braced, ready to lift the weights."),
                               const ExampleSentenceKurdish(
-                                  text: "سەری بە کەمی چەماندەوە بۆ سڵاوکردن."),
+                                  text:
+                                      "وەستابوو بە توندکردنەوەی لاقی و شانەکانی، و ئامادە بۆ بەرزکردنەوەی قورساییەکان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows6("en-GB"),
+                                    onPressed: () => speakbraces11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The messenger made a formal bow and left the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیامھێنەرەکە نووشتاوەیەکی فەرمی ئەنجامدا و ژوورەکەی جێھێشت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows7("en-US"),
+                                    onPressed: () => speakbraces11("en-US"),
                                   ),
                                 ],
                               ),
@@ -513,113 +563,23 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) بەشی پێشەوەی بەلەمێک یان کەشتییەک"),
+                                  "٩. (کردار) وا لە شتێک بکەیت بەھێز یان جێگیر بیت بە دانانی ڕاگیرکردنی بە شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The ship's name was printed on her bow."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوی کەشتییەکە لە پێشەوەی نووسرابوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) کەوان کە بۆ تیر ھاویشتن بەکاردێت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was armed with a bow and arrow."),
-                              const ExampleSentenceKurdish(
-                                  text: "تیر و کەوانێکی پێبوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drew and aimed her bow."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەوانەکەی ڕاکێشا و نیشانەی گرتەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٨. (ناو) گرێیەک کە دوو بەشی چەماوە و دوو بەشی شلی تێدایە، بەکاردێت بۆ دیکۆرات یان بەستنی بە پێڵاوەوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I tied the ribbon around the present in a pretty bow."),
+                                      "The side wall of the old house was braced with a wooden support."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شریتەکەم لە دەوری دیارییەکە بەست لە شێوەی گرێیەکی جواندا."),
+                                      "دیواری تەنیشتی خانووە کۆنەکە بەھێزکرا بە ڕاگرێکی دارین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbows12("en-GB"),
+                                    onPressed: () => speakbraces12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbows12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٩. (ناو) ئاڕشە؛ دارێکی درێژ کە تەلی باریک لە تەنیشتییەتی و بەکاردێت، بەکاردێت بۆ ژەنینی ژمارەیەک ئامێری میوزیکی وەک کەمانچە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drew the bow across the strings."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاڕشەکەی ھێنا بە تەلەکاندا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows13("en-US"),
+                                    onPressed: () => speakbraces12("en-US"),
                                   ),
                                 ],
                               ),
@@ -676,37 +636,36 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bow (derived forms: bowing, bows, bowed)
-1. A knot with two loops and loose ends; used to tie shoelaces (= bowknot)
+- Verb: brace (derived forms: bracing, braced, braces)
+1. Prepare (oneself), often but not necessarily for something unpleasant or difficult (= poise)
  
-2. A slightly curved piece of resilient wood with taut horsehair strands; used in playing certain stringed instruments
+2. Support or hold steady and make steadfast, with or as if with a brace (= steady, stabilize, stabilise [Brit])
+"brace your elbows while working on the potter's wheel";
  
-3. A weapon for shooting arrows, composed of a curved piece of resilient wood with a taut cord to propel the arrow
+3. Support by bracing
  
-4. Something curved in shape (= arc)
- 
-5. A decorative interlacing of ribbons
- 
-6. A stroke with a curved piece of wood with taut horsehair strands that is used in playing stringed instruments
+4. Cause to be alert and energetic (= stimulate, arouse, energize, energise [Brit], perk up)
+"Coffee and tea brace me";
 
-7. Front part of a vessel or aircraft (= fore, prow, stem)
-"he pointed the bow of the boat toward the finish line";
-
-8. An appearance by actors or performers at the end of the concert or play in order to acknowledge the applause of the audience (= curtain call)
+- Noun: brace (derived forms: braces)
+1. A support that steadies or strengthens something else
+"he wore a brace on his knee"
  
-9. Bending the head or body or knee as a sign of reverence or submission or shame or greeting (= bowing, obeisance)
-
-- Verb: bow
-1. (music) play on a stringed instrument with a bow
-
-2. Bend one's knee or body, or lower one's head (= bow down)
+2. Two items of the same kind (= couple, pair, twosome, twain, span, yoke, couplet, distich, duo, duet, dyad, duad)
  
-3. Yield to another's wish or opinion (= submit, defer, accede, give in)
+3. A set of two similar things considered as a unit (= pair)
  
-4. Bend the head or the upper part of the body in a gesture of respect or greeting
-"He bow[2]ed before the King"
+4. Either of two punctuation marks ({ or }) used to enclose textual material
  
-5. Bend one's back forward from the waist on down (= stoop, bend)
+5. A rope on a square-rigged ship that is used to swing a yard about and secure it
+ 
+6. [Brit] Elastic straps that hold trousers up (= suspender, gallus [US])
+ 
+7. An appliance that corrects dental irregularities (= braces, orthodontic braces)
+ 
+8. A carpenter's tool having a crank handle for turning and a socket to hold a bit for boring (= bitstock)
+ 
+9. A structural member used to stiffen a framework (= bracing)
 """,
           )
         ],
@@ -720,12 +679,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "_spuxXnul0U";
+  static String myVideoId = "nLiSWJDhAmQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 459, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -745,12 +704,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "pdipblQmgnw";
+  static String myVideoId = "LBSFeJ1WLv4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222, // DOPSUM: CHANGE IT
+      startAt: 216, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -770,12 +729,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "AAGIi62-sAU";
+  static String myVideoId = "kTaYet07Ioo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 633, // DOPSUM: CHANGE IT
+      startAt: 806, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -795,12 +754,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "lGSOWwUvJiU";
+  static String myVideoId = "z5UgDNxa1QE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 949, // DOPSUM: CHANGE IT
+      // startAt: 1904, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -820,12 +779,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "ZDIvj1GvH64";
+  static String myVideoId = "n17tvUftUoI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 116, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -845,12 +804,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "65CFesU4KVQ";
+  static String myVideoId = "RIXcJzPUvw8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 144, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -870,12 +829,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "OeVp9S1HzqI";
+  static String myVideoId = "oB-UjvNwpic";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 358, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -895,12 +854,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "n4bucphC9r4";
+  static String myVideoId = "YzohP2AhiNw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 571, // DOPSUM: CHANGE IT
+      startAt: 164, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -920,12 +879,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "9K_CZizKdVs";
+  static String myVideoId = "8C2EzGlynWE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 772, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -945,12 +904,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "xVQxvthAcLU";
+  static String myVideoId = "YCoQwZ9BQ9Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1463, // DOPSUM: CHANGE IT
+      startAt: 254, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -970,12 +929,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "gFQNPmLKj1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1445, // DOPSUM: CHANGE IT
+      startAt: 508, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -995,12 +954,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "Mj3hMXIQsoc";
+  static String myVideoId = "YSHnnPunShg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1368, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1019,4 +978,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bow
+// haʊʊʊʊʊʊʊ4
+// end brace

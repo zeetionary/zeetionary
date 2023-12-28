@@ -546,7 +546,7 @@ class EnglishEntryboy extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) منداڵێکی گەنجی کوڕ"),
+                              text: "٢. (ناو) منداڵێکی کوڕی خێزانێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

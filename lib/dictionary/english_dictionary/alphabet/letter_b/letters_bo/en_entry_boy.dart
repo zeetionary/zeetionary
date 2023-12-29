@@ -406,7 +406,7 @@ class EnglishEntryboy extends StatelessWidget {
                                               "Now she's a teenager, she's starting to be interested in boys."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ئێستا کە کچەکە پطگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان."),
+                                              "ئێستا کە کچەکە پێگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

@@ -5,224 +5,284 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bosom" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// replace bosom - /ˈbʊzəm/
+// Define the word "brain" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybosom extends StatelessWidget {
+class EnglishEntrybrain extends StatelessWidget {
 // blank divider
-  EnglishEntrybosom({super.key});
+  EnglishEntrybrain({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbosom(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrain(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bosom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms1(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She pressed her baby to her bosom."); // DOPSUM: CHANGE TEXT
+        .speak("The human brain is a complex organ."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms2(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dress showed the top of her bosoms."); // DOPSUM: CHANGE TEXT
+        "My tired brain couldn't cope with such a complex problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms3(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She clutched her baby tightly to her bosom."); // DOPSUM: CHANGE TEXT
+        "She was found to have sustained a brain injury."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms4(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."); // DOPSUM: CHANGE TEXT
+        "Sometimes the doctor will also do a brain scan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms5(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was found to have a blood clot on his brain."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The dress left the bosom bare."); // DOPSUM: CHANGE TEXT
+        .speak("She died of a brain tumour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms6(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her bosoms heaved as she breathed heavily."); // DOPSUM: CHANGE TEXT
+        "She is Britain's youngest female brain surgeon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms7(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains8(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was slender, but with a voluptuous bosom."); // DOPSUM: CHANGE TEXT
+        "The scan apparently showed no damage to the brain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms8(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She pinned a rose to her bosom."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbosoms9(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains9(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Clasp your child to your bosom and give him a big kiss!"); // DOPSUM: CHANGE TEXT
+        "The local market offered fresh cow brain for sale."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms10(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains10(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was living in the bosom of his family"); // DOPSUM: CHANGE TEXT
+        "It doesn't take much brain to work out that both stories can't be true."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms11(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains11(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Teachers spotted that he had a good brain at an early age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms12(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains12(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We have the best scientific brains in the country working on this."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms13(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains13(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He's always been the brains of the family."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms14(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains14(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was the brains behind the robberies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms15(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains15(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The accident could have easily brained him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms16(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains16(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I'll brain you if you don't keep quiet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms17(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains17(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms18(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains18(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms19(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains19(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms20(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains20(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms21(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains21(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms22(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains22(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbosoms23(String languageCode) async {
-    // DOPSUM: CHANGE speakbosom
+  Future<void> speakbrains23(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbosoms2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrains2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains24(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains25(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains26(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains27(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains28(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains29(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains2929"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrains30(String languageCode) async {
+    // DOPSUM: CHANGE speakbrain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrains3030"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -239,22 +299,22 @@ class EnglishEntrybosom extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bosom"),
+                            EntryTitle(word: "brain"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʊzəm/"),
+                            const IPAofEnglish(text: "IpaUK: /breɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbosom("en-GB"),
+                              onPressed: () => speakbrain("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʊzəm/"),
+                            const IPAofEnglish(text: "IpaUS: /breɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbosom("en-US"),
+                              onPressed: () => speakbrain("en-US"),
                             ),
                           ],
                         ),
@@ -272,13 +332,13 @@ class EnglishEntrybosom extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -300,23 +360,23 @@ class EnglishEntrybosom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مەمک، سینگ، بەر، بەرۆک، باوەش، ئامێز، باخەڵ، خەرک، دڵ، جەرگە، نێوەڕاست، نزیک، گەرم‌وگوڕ، دۆستانە
+کوردی: مێشک، مێژەڵاک، مەژی، مێژی، مۆخ، دەماخ، عەقڵ، ئاوەز، هۆش، تێگەیشتن، مرۆی زیرەک و بەهۆش، بیریار، هزرڤان، مێشک، مەغز (بۆ خواردن)، ڕێکخەری سەرەکی، زیرەک
 
-١. (ناو) سنگ یان مەمکی ژن"""),
+١. (ناو) مێشکی مرۆڤ و ئاژەڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She pressed her baby to her bosom."),
+                                  text: "The human brain is a complex organ."),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵەکەیی نا بە سنگییەوە."),
+                                  text: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms1("en-GB"),
+                                    onPressed: () => speakbrains1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms1("en-US"),
+                                    onPressed: () => speakbrains1("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,17 +387,39 @@ class EnglishEntrybosom extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The dress showed the top of her bosoms."),
+                                      "My tired brain couldn't cope with such a complex problem."),
                               const ExampleSentenceKurdish(
-                                  text: "جلەکە سەرسنگی دەرخستبوو."),
+                                  text:
+                                      "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەها ئاڵۆز بکات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms2("en-GB"),
+                                    onPressed: () => speakbrains2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms2("en-US"),
+                                    onPressed: () => speakbrains2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was found to have sustained a brain injury."),
+                              const ExampleSentenceKurdish(
+                                  text: "زانرا کە مێشکی تووشی گورز بووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains3("en-US"),
                                   ),
                                 ],
                               ),
@@ -351,20 +433,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "She clutched her baby tightly to her bosom."),
+                                              "Sometimes the doctor will also do a brain scan."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "منداڵەکەی بە توندی گرت بە سنگییەوە."),
+                                              "هەندێکجار دکتۆرەکە سکانێکی مێشک دەکات."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbosoms3("en-GB"),
+                                                speakbrains4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbosoms3("en-US"),
+                                                speakbrains4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -375,20 +457,42 @@ class EnglishEntrybosom extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
+                                              "He was found to have a blood clot on his brain."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
+                                              "زانرا کە کڵۆیەک خوێن لە مێشکیدا هەیە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbosoms4("en-GB"),
+                                                speakbrains5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbosoms4("en-US"),
+                                                speakbrains5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text: "She died of a brain tumour."),
+                                      const ExampleSentenceKurdish(
+                                          text: "بە گرێی مێشک مرد."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbrains6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbrains6("en-US"),
                                           ),
                                         ],
                                       ),
@@ -399,20 +503,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The dress left the bosom bare."),
+                                              "She is Britain's youngest female brain surgeon."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
+                                              "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbosoms5("en-GB"),
+                                                speakbrains7("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbosoms5("en-US"),
+                                                speakbrains7("en-US"),
                                           ),
                                         ],
                                       ),
@@ -423,68 +527,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "Her bosoms heaved as she breathed heavily."),
+                                              "The scan apparently showed no damage to the brain."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
+                                              "سکانەکە هیچ زیانێکی لە مێشکدا پیشان نەدا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbosoms6("en-GB"),
+                                                speakbrains8("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbosoms6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "She was slender, but with a voluptuous bosom."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Clasp your child to your bosom and give him a big kiss!"),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms9("en-US"),
+                                                speakbrains8("en-US"),
                                           ),
                                         ],
                                       ),
@@ -497,45 +553,186 @@ class EnglishEntrybosom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو بەشەی جل کە سنگی ژنان دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She pinned a rose to her bosom."),
-                              const ExampleSentenceKurdish(
-                                  text: "گوڵێکی کردبوو بە یەقەیەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ئەو دۆخەی کە لەگەڵ ئەو کەسانەی کە خۆشیان دەوێیت و دەتپارێزن"),
+                                  "٢. (ناو) مێشکی ئاژەڵێک کە وەک خواردن دەخورێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was living in the bosom of his family"),
+                                      "The local market offered fresh cow brain for sale."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ئارامیی خێزانەکەیدا دەژیا."),
+                                  text:
+                                      "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای هەبوو بۆ فرۆشتن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms10("en-GB"),
+                                    onPressed: () => speakbrains9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms10("en-US"),
+                                    onPressed: () => speakbrains9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) توانای بیرکردنەوە بەخێرایی، ژیرانە، و ئاقڵانە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It doesn't take much brain to work out that both stories can't be true."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هێندە بیرکردنەوەی ناوێت کە بزانی هەردوو چیرۆکەکە ناکرێت ڕاست بن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Teachers spotted that he had a good brain at an early age."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مامۆستاکان لە تەمەنێکی سەرەتاوە هەستیان کرد مێشکێکی باشی هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) کەسێکی زیرەک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have the best scientific brains in the country working on this."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زیرەکترینەکانی زانستمان لە وڵاتەکەدا هەیە کە کار لەسەر ئەمە دەکەن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) زیرەکترین کەس لەناو کۆمەڵێکدا، کەسی بەرپرس و ڕێکخەر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He's always been the brains of the family."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەمیشە بلیمەتی ناو خێزانەکەی بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was the brains behind the robberies."),
+                              const ExampleSentenceKurdish(
+                                  text: "سەرقافڵەی دزییەکان بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) کووشتنی کەسێک یان ئاژەڵێک بە لێدانێکی سەخت لە سەردا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The accident could have easily brained him."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (کردار) لێدان لە سەری کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'll brain you if you don't keep quiet."),
+                              const ExampleSentenceKurdish(
+                                  text: "دەکێشمە سەرتا گەر بێدەنگ نەبیت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrains16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrains16("en-US"),
                                   ),
                                 ],
                               ),
@@ -555,7 +752,7 @@ class EnglishEntrybosom extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -592,27 +789,23 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bosom (derived forms: bosoms)
-1. Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= breast)
+- Noun: brain (Derived forms: brains)
+1. That part of the central nervous system that includes all the higher nervous centres; enclosed within the skull; continuous with the spinal cord (= encephalon)
  
-2. A person's breast or chest
- 
-3. Cloth that covers the chest or breasts
- 
-4. A close affectionate and protective acceptance (= embrace)
-"in the bosom of the family";
+2. Mental ability (= brainpower, learning ability, mental capacity, mentality, wit, smarts [N. Amer, Austral, informal])
+"he's got plenty of brains but no common sense";
 
-5. The locus of feelings and intuitions (= heart)
-"her story would melt your bosom";
-
-6. [archaic] The chest considered as the place where secret thoughts are kept
-"his bosom was bursting with the secret"
-
-- Verb: bosom (derived forms: bosomed, bosoming, bosoms)
-1. Hide in one's bosom
-"She bosomed his letters"
+3. That which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason (= mind, head, loaf [Brit, informal])
+"his brain wandered";
  
-2. Hold (someone) tightly in your arms, usually with fondness (= embrace, hug, squeeze)
+4. Someone who has exceptional intellectual ability and originality (= genius, mastermind, brainiac [N. Amer], Einstein, smart cookie [N. Amer, informal], brainbox [Brit, informal])
+ 
+5. The brain of certain animals used as meat
+
+- Verb: brain (Derived forms: braining, brained, brains)
+1. Hit on the head
+ 
+2. Kill by smashing someone's skull
 """,
           )
         ],
@@ -626,12 +819,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "fn--IVarumw";
+  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1232, // DOPSUM: CHANGE IT
+      startAt: 667, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -651,12 +844,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "IxD2NbXzgpQ";
+  static String myVideoId = "https://youtu.be/a_TSR_v07m0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 311, // DOPSUM: CHANGE IT
+      startAt: 275, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -676,12 +869,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "oDYoV8-9v10";
+  static String myVideoId = "https://youtu.be/SwQhKFMxmDY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -701,12 +894,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "Ms1uYc28pD4";
+  static String myVideoId = "https://youtu.be/uT_GcOGEFsk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 183, // DOPSUM: CHANGE IT
+      startAt: 255, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -726,12 +919,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "cGyj9M05LxA";
+  static String myVideoId = "https://youtu.be/WDetHC86Dgo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 138, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -751,12 +944,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "PeS5jJdmYPI";
+  static String myVideoId = "https://youtu.be/NFtQOxjWfaA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 952, // DOPSUM: CHANGE IT
+      startAt: 217, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -776,12 +969,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "_zIBPLbgADA";
+  static String myVideoId = "https://youtu.be/B5Nwv-OtTaM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 308, // DOPSUM: CHANGE IT
+      startAt: 534, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -801,12 +994,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "R8-24vUq974";
+  static String myVideoId = "https://youtu.be/SZ3BZBBC-Qc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 906, // DOPSUM: CHANGE IT
+      startAt: 154, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -826,12 +1019,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "W9F_uVo_Md8";
+  static String myVideoId = "https://youtu.be/VS1BTPIbXso?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -851,12 +1044,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "UpnwWP3fOSA";
+  static String myVideoId = "https://youtu.be/GkZtHnD3xGs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 611, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -876,12 +1069,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "Do-wDPoC6GM";
+  static String myVideoId = "https://youtu.be/D1zkVBHPh5c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 621, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -901,12 +1094,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "nRwK91tG4QU";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 467, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -925,4 +1118,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bosom
+// haʊʊʊʊʊʊʊ4
+// end brain

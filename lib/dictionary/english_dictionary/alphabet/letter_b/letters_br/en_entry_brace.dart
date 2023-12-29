@@ -332,7 +332,7 @@ class EnglishEntrybrace extends StatelessWidget {
                                       "He was recently fitted with a brace for his bad back."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەم‌نزیکانە ڕاگرێکی بۆ دانرا بۆ ئازاری پشتی."),
+                                      "بەم‌نزیکانە پشتێنێکی بۆ دانرا بۆ ئازاری پشتی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

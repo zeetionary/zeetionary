@@ -2001,6 +2001,45 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boycott.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bra.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brace.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bracing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bracelet.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bracken.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bracket.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brackish.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brag.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_braid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_braille.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainchild.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brain_drain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainstorm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainstorming.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainwash.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainwave.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brainy.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -4094,7 +4133,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bogus": (_) => MaterialPage(child: EnglishEntrybogus()),
   "/english-boil": (_) => MaterialPage(child: EnglishEntryboil()),
   "/english-boiling": (_) => MaterialPage(child: EnglishEntryboiling()),
-  "/english-boiling point": (_) => MaterialPage(child: EnglishEntryboilingpoint()),
+  "/english-boiling point": (_) =>
+      MaterialPage(child: EnglishEntryboilingpoint()),
   "/english-boiler": (_) => MaterialPage(child: EnglishEntryboiler()),
   "/english-boiler-suit": (_) => MaterialPage(child: EnglishEntryboilersuit()),
   "/english-boisterous": (_) => MaterialPage(child: EnglishEntryboisterous()),
@@ -4136,7 +4176,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bookworm": (_) => MaterialPage(child: EnglishEntrybookworm()),
   "/english-bookable": (_) => MaterialPage(child: EnglishEntrybookable()),
   "/english-booking": (_) => MaterialPage(child: EnglishEntrybooking()),
-  "/english-booking-office": (_) => MaterialPage(child: EnglishEntrybookingoffice()),
+  "/english-booking-office": (_) =>
+      MaterialPage(child: EnglishEntrybookingoffice()),
   "/english-booklet": (_) => MaterialPage(child: EnglishEntrybooklet()),
   "/english-boom": (_) => MaterialPage(child: EnglishEntryboom()),
   "/english-boomerang": (_) => MaterialPage(child: EnglishEntryboomerang()),
@@ -4161,7 +4202,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-borrow": (_) => MaterialPage(child: EnglishEntryborrow()),
   "/english-borrower": (_) => MaterialPage(child: EnglishEntryborrower()),
   "/english-bosom": (_) => MaterialPage(child: EnglishEntrybosom()),
-  "/english-bosom-friend": (_) => MaterialPage(child: EnglishEntrybosomfriend()),
+  "/english-bosom-friend": (_) =>
+      MaterialPage(child: EnglishEntrybosomfriend()),
   "/english-boss": (_) => MaterialPage(child: EnglishEntryboss()),
   "/english-bossy": (_) => MaterialPage(child: EnglishEntrybossy()),
   "/english-botany": (_) => MaterialPage(child: EnglishEntrybotany()),
@@ -4188,7 +4230,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bountiful": (_) => MaterialPage(child: EnglishEntrybountiful()),
   "/english-bouquet": (_) => MaterialPage(child: EnglishEntrybouquet()),
   "/english-bourgeois": (_) => MaterialPage(child: EnglishEntrybourgeois()),
-  "/english-the-bourgeoisie": (_) => MaterialPage(child: EnglishEntrythebourgeoisie()),
+  "/english-the-bourgeoisie": (_) =>
+      MaterialPage(child: EnglishEntrythebourgeoisie()),
   "/english-bout": (_) => MaterialPage(child: EnglishEntrybout()),
   "/english-boutique": (_) => MaterialPage(child: EnglishEntryboutique()),
   "/english-bow": (_) => MaterialPage(child: EnglishEntrybow()),
@@ -4211,23 +4254,23 @@ final loggedInRoute = RouteMap(routes: {
   "/english-boycott": (_) => MaterialPage(child: EnglishEntryboycott()),
   "/english-bra": (_) => MaterialPage(child: EnglishEntrybra()),
   "/english-brace": (_) => MaterialPage(child: EnglishEntrybrace()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bracing": (_) => MaterialPage(child: EnglishEntrybracing()),
+  "/english-bracelet": (_) => MaterialPage(child: EnglishEntrybracelet()),
+  "/english-bracken": (_) => MaterialPage(child: EnglishEntrybracken()),
+  "/english-bracket": (_) => MaterialPage(child: EnglishEntrybracket()),
+  "/english-brackish": (_) => MaterialPage(child: EnglishEntrybrackish()),
+  "/english-brag": (_) => MaterialPage(child: EnglishEntrybrag()),
+  "/english-braid": (_) => MaterialPage(child: EnglishEntrybraid()),
+  "/english-braille": (_) => MaterialPage(child: EnglishEntrybraille()),
+  "/english-brain": (_) => MaterialPage(child: EnglishEntrybrain()),
+  "/english-brainchild": (_) => MaterialPage(child: EnglishEntrybrainchild()),
+  "/english-brain-drain": (_) => MaterialPage(child: EnglishEntrybraindrain()),
+  "/english-brainless": (_) => MaterialPage(child: EnglishEntrybrainless()),
+  "/english-brainstorm": (_) => MaterialPage(child: EnglishEntrybrainstorm()),
+  "/english-brainstorming": (_) => MaterialPage(child: EnglishEntrybrainstorming()),
+  "/english-brainwash": (_) => MaterialPage(child: EnglishEntrybrainwash()),
+  "/english-brainwave": (_) => MaterialPage(child: EnglishEntrybrainwave()),
+  "/english-brainy": (_) => MaterialPage(child: EnglishEntrybrainy()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

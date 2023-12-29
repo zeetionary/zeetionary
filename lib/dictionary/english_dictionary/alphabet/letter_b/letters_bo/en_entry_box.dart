@@ -126,7 +126,7 @@ class EnglishEntrybox extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboxs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was fouled in the box."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakboxs13(String languageCode) async {
@@ -567,10 +567,10 @@ class EnglishEntrybox extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakboxs9("en-GB"),
+                                    onPressed: () => speakboxs12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs9("en-US"),
+                                    onPressed: () => speakboxs12("en-US"),
                                   ),
                                 ],
                               ),

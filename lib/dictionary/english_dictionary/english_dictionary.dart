@@ -2034,39 +2034,40 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "boyish",
     "boycott",
     "bra",
-    "brassiere",
     "brace",
-    // "bracing",
-    // "bracelet",
-    // "bracken",
-    // "bracket",
-    // "brackish",
-    // "brag",
-    // "braid",
-    // "Braille",
-    // "brain",
-    // "brainchild",
-    // "brain drain",
-    // "brainless",
-    // "brainstorm",
-    // "brainstorming",
-    // "brainwash",
-    // "brainwave",
-    // "brainy",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bracing",
+    "bracelet",
+    "bracken",
+    "bracket",
+    "brackish",
+    "brag",
+    "braid",
+    "Braille",
+    "brain",
+    "brainchild",
+    "brain drain",
+    "brainless",
+    "brainstorm",
+    "brainstorming",
+    "brainwash",
+    "brainwave",
+    "brainy",
+    "braise",
+    "brake",
+    "bramble",
+    "bran",
+    "branch",
+    "brand",
+    "branding",
+    "brandish",
+    "brand name",
+    "brand new",
+    "brandy",
+    "brash",
+    "brass",
+    "brass band",
+    "brassière",
+    // "brat",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2095,6 +2096,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "not come/go amiss",
     "on behalf of",
     "take something amiss",
+    "trade name",
     "under age",
     "weblog",
   ];
@@ -10368,7 +10370,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bra");
                   }
-                  if (wordsEnglish == "brassiere") {
+                  if (wordsEnglish == "brassière") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bra");
                   }
@@ -10376,130 +10378,138 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-brace");
                   }
-                  // if (wordsEnglish == "bracing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bracing");
-                  // }
-                  // if (wordsEnglish == "bracelet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bracelet");
-                  // }
-                  // if (wordsEnglish == "bracken") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bracken");
-                  // }
-                  // if (wordsEnglish == "bracket") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bracket");
-                  // }
-                  // if (wordsEnglish == "brackish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brackish");
-                  // }
-                  // if (wordsEnglish == "brag") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brag");
-                  // }
-                  // if (wordsEnglish == "braid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-braid");
-                  // }
-                  // if (wordsEnglish == "Braille") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-braille");
-                  // }
-                  // if (wordsEnglish == "brain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brain");
-                  // }
-                  // if (wordsEnglish == "brainchild") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainchild");
-                  // }
-                  // if (wordsEnglish == "brain drain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brain-drain");
-                  // }
-                  // if (wordsEnglish == "brainless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainless");
-                  // }
-                  // if (wordsEnglish == "brainstorm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainstorm");
-                  // }
-                  // if (wordsEnglish == "brainstorming") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainstorming");
-                  // }
-                  // if (wordsEnglish == "brainwash") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainwash");
-                  // }
-                  // if (wordsEnglish == "brainwave") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainwave");
-                  // }
-                  // if (wordsEnglish == "brainy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brainy");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bracing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bracing");
+                  }
+                  if (wordsEnglish == "bracelet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bracelet");
+                  }
+                  if (wordsEnglish == "bracken") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bracken");
+                  }
+                  if (wordsEnglish == "bracket") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bracket");
+                  }
+                  if (wordsEnglish == "brackish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brackish");
+                  }
+                  if (wordsEnglish == "brag") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brag");
+                  }
+                  if (wordsEnglish == "braid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-braid");
+                  }
+                  if (wordsEnglish == "Braille") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-braille");
+                  }
+                  if (wordsEnglish == "brain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brain");
+                  }
+                  if (wordsEnglish == "brainchild") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainchild");
+                  }
+                  if (wordsEnglish == "brain drain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brain-drain");
+                  }
+                  if (wordsEnglish == "brainless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainless");
+                  }
+                  if (wordsEnglish == "brainstorm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainstorm");
+                  }
+                  if (wordsEnglish == "brainstorming") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainstorming");
+                  }
+                  if (wordsEnglish == "brainwash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainwash");
+                  }
+                  if (wordsEnglish == "brainwave") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainwave");
+                  }
+                  if (wordsEnglish == "brainy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brainy");
+                  }
+                  if (wordsEnglish == "braise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-braise");
+                  }
+                  if (wordsEnglish == "brake") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brake");
+                  }
+                  if (wordsEnglish == "bramble") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bramble");
+                  }
+                  if (wordsEnglish == "bran") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bran");
+                  }
+                  if (wordsEnglish == "branch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-branch");
+                  }
+                  if (wordsEnglish == "brand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brand");
+                  }
+                  if (wordsEnglish == "branding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-branding");
+                  }
+                  if (wordsEnglish == "brand name") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brand-name");
+                  }
+                  if (wordsEnglish == "trade name") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brand-name");
+                  }
+                  if (wordsEnglish == "brand new") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brand-new");
+                  }
+                  if (wordsEnglish == "brandish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brandish");
+                  }
+                  if (wordsEnglish == "brandy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brandy");
+                  }
+                  if (wordsEnglish == "brash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brash");
+                  }
+                  if (wordsEnglish == "brass") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brass");
+                  }
+                  if (wordsEnglish == "brass band") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brass-band");
+                  }
+                  if (wordsEnglish == "brat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brat");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

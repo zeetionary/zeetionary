@@ -5,85 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "brainchild" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "brake" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybrainchild extends StatelessWidget {
+class EnglishEntrybrake extends StatelessWidget {
 // blank divider
-  EnglishEntrybrainchild({super.key});
+  EnglishEntrybrake({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrainchild(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrake(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brainchild"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brake"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("My brakes are not working properly."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrakes2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The TV programme was the brainchild of the producer."); // DOPSUM: CHANGE TEXT
+        "She slammed on the brakes to try to avoid the dog."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "High interest rates are a brake on the economy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The truck braked to a halt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had to brake hard to avoid running into the car in front."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrakes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrakes7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrainchilds7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrakes77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +104,22 @@ class EnglishEntrybrainchild extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brainchild"),
+                            EntryTitle(word: "brake"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbreɪntʃaɪld/"),
+                            const IPAofEnglish(text: "IpaUK: /breɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrainchild("en-GB"),
+                              onPressed: () => speakbrake("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbreɪntʃaɪld/"),
+                            const IPAofEnglish(text: "IpaUS: /breɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrainchild("en-US"),
+                              onPressed: () => speakbrake("en-US"),
                             ),
                           ],
                         ),
@@ -133,13 +137,13 @@ class EnglishEntrybrainchild extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -161,25 +165,114 @@ class EnglishEntrybrainchild extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بیر، هزر، بیرۆکە، ئایدیا، داهێنان
+کوردی: وەستێنە، وەستێنەر، بەربەست، لەمپەر، تەگەرە، کۆسپ
 
-١. (ھاوەڵناو) بیرۆکە یان داهێنانی کەسێک یان گرووپێک"""),
+١. (ناو) وەستێنەری ئۆتۆمبێل"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The TV programme was the brainchild of the producer."),
+                                  text: "My brakes are not working properly."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرهەمهێنەرەکە بوو."),
+                                  text: "برێکەکانم بەباشی کار ناکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrainchilds1("en-GB"),
+                                    onPressed: () => speakbrakes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainchilds1("en-US"),
+                                    onPressed: () => speakbrakes1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She slammed on the brakes to try to avoid the dog."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێی نا بە برێکدا بۆ ئەوەی لە سەگەکە نەدات."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrakes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrakes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) شتێک کە شتێک دەوەستێنێت یان زەحمەتی دەکات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "High interest rates are a brake on the economy."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەی بەرزی سوو لەمپەرێکە بۆ ئابووری."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrakes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrakes3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) پێنان بە وەستێنەری ئۆتۆمبێل"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The truck braked to a halt."),
+                              const ExampleSentenceKurdish(
+                                  text: "لۆرییەکە برێکی گرت تا وەستا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrakes4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrakes4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had to brake hard to avoid running into the car in front."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبوو بە توندی برێک بگرێت بۆ ئەوەی خۆی نەکێشێت بە ئۆتۆمبێلەکەی پێشی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrakes5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrakes5("en-US"),
                                   ),
                                 ],
                               ),
@@ -197,9 +290,9 @@ class EnglishEntrybrainchild extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -236,9 +329,26 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainchild (Derived forms: brainchildren)
-1. A product of your creative thinking and work (= inspiration)
-"after years of work his brainchild was a tangible reality";
+- Noun: brake (Derived forms: brakes)
+1. A restraint used to slow or stop a vehicle
+ 
+2. Any of various ferns of the genus Pteris having pinnately compound leaves and including several popular houseplants
+ 
+3. Large coarse fern often several feet high; essentially weed ferns; cosmopolitan (= bracken, pasture brake, Pteridium aquilinum)
+ 
+4. An area thickly overgrown usually with one kind of plant
+ 
+5. Anything that slows or hinders a process
+"she was not ready to put the brakes on her life with a marriage"; "new legislation will put the brakes on spending"
+ 
+6. (historical) an open four-wheeled horse-drawn carriage
+
+- Verb: brake
+1. (driving) stop travelling by applying a brake
+"We had to brake suddenly when a chicken crossed the road"
+ 
+2. (driving) cause to stop by applying the brakes
+"brake the car before you go into a curve"
 """,
           )
         ],
@@ -252,12 +362,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "3RkhZgRNC1k";
+  static String myVideoId = "1O1dOgG9cII";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1125, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -277,12 +387,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "tboW11dMeKs";
+  static String myVideoId = "U0YW7x9U5TQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 214, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -302,12 +412,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Q2ezpExQ_k0";
+  static String myVideoId = "j7vH8IRbjEc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -327,12 +437,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "PbGf90Yyh4c";
+  static String myVideoId = "YdrR9EFNdqo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +462,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "Yj2dr_bpYyU";
+  static String myVideoId = "DzS4VOJwTCU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 777, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +487,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "AY9pkJ8cDS0";
+  static String myVideoId = "WENcP2ZHyfA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 53, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +512,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "T1FdIvLg6i4";
+  static String myVideoId = "Xqw0SaZl-jo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 934, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +537,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "DVBdXXhQB3s";
+  static String myVideoId = "tKh3SdoFu8E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 920, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +562,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "qz15mgIBN7g";
+  static String myVideoId = "2xoYk5YDB7Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 190, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +587,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "VxME8Ayk7qY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +612,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "VxME8Ayk7qY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -527,12 +637,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "6wEXFwKnjTc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 156, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,5 +661,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// /ˈbreɪntʃaɪld/
-// end brainchild
+// haʊʊʊʊʊʊʊ4
+// end brake

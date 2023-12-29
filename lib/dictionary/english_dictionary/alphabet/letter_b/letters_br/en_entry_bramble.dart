@@ -5,79 +5,80 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "brainchild" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bramble" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybrainchild extends StatelessWidget {
+class EnglishEntrybramble extends StatelessWidget {
 // blank divider
-  EnglishEntrybrainchild({super.key});
+  EnglishEntrybramble({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrainchild(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbramble(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brainchild"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bramble"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles1(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The TV programme was the brainchild of the producer."); // DOPSUM: CHANGE TEXT
+        "We carefully pushed our way through the low brambles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles2(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We stopped to pick brambles by the side of the road."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles3(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrambles33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles4(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrambles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles5(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrambles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles6(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrambles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrainchilds7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainchild
+  Future<void> speakbrambles7(String languageCode) async {
+    // DOPSUM: CHANGE speakbramble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrainchilds77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrambles77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -100,22 +101,22 @@ class EnglishEntrybrainchild extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brainchild"),
+                            EntryTitle(word: "bramble"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbreɪntʃaɪld/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbræmbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrainchild("en-GB"),
+                              onPressed: () => speakbramble("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbreɪntʃaɪld/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbræmbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrainchild("en-US"),
+                              onPressed: () => speakbramble("en-US"),
                             ),
                           ],
                         ),
@@ -161,25 +162,48 @@ class EnglishEntrybrainchild extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بیر، هزر، بیرۆکە، ئایدیا، داهێنان
+کوردی: دەوەنی توودڕکی، دڕکەدەوەن، دەوەنێکی دڕکاوی
 
-١. (ھاوەڵناو) بیرۆکە یان داهێنانی کەسێک یان گرووپێک"""),
+١. (ناو) دەوەنێکی سرووشتی کە دڕکی هەیە و تووتڕکی ڕەش دەگرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The TV programme was the brainchild of the producer."),
+                                      "We carefully pushed our way through the low brambles."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرهەمهێنەرەکە بوو."),
+                                      "بە وریاییەوە بە دڕکەدەوەنەکەدا چووین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrainchilds1("en-GB"),
+                                    onPressed: () => speakbrambles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainchilds1("en-US"),
+                                    onPressed: () => speakbrambles1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) تووتڕکی ڕەش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We stopped to pick brambles by the side of the road."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەستاین بۆ ئەوەی چەند تووتڕکێکی ڕەش لێ‌بکەینەوە لە قەراغی شەقامەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrambles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrambles2("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,9 +260,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainchild (Derived forms: brainchildren)
-1. A product of your creative thinking and work (= inspiration)
-"after years of work his brainchild was a tangible reality";
+- Noun: bramble (Derived forms: brambles)
+1. Any of various rough thorny shrubs or vines
+ 
+2. Large sweet black or very dark purple edible aggregate fruit of any of various bushes of the genus Rubus (= blackberry)
+
+- Verb: bramble (Derived forms: brambles, brambled, brambling)
+Usage: Brit
+1. Pick or gather blackberries (= blackberry)
 """,
           )
         ],
@@ -252,12 +281,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "3RkhZgRNC1k";
+  static String myVideoId = "A5-8y0DgTC0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1125, // DOPSUM: CHANGE IT
+      startAt: 175, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -277,12 +306,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "tboW11dMeKs";
+  static String myVideoId = "gkTpC0HJj6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 154, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -302,12 +331,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Q2ezpExQ_k0";
+  static String myVideoId = "kBHXNIGKmFw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 704, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -327,12 +356,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "PbGf90Yyh4c";
+  static String myVideoId = "xLiUyk7yDk4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +381,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "Yj2dr_bpYyU";
+  static String myVideoId = "Z4u1Bi-eQS4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 777, // DOPSUM: CHANGE IT
+      startAt: 1509, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +406,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "AY9pkJ8cDS0";
+  static String myVideoId = "2IApbVutdgQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 53, // DOPSUM: CHANGE IT
+      startAt: 600, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +431,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "T1FdIvLg6i4";
+  static String myVideoId = "SiyGdOHobsY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 934, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +456,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "DVBdXXhQB3s";
+  static String myVideoId = "alzC4vM64ok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 920, // DOPSUM: CHANGE IT
+      startAt: 179, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +481,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "qz15mgIBN7g";
+  static String myVideoId = "s4i-wwxYoOc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 190, // DOPSUM: CHANGE IT
+      startAt: 400, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,5 +580,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// /ˈbreɪntʃaɪld/
-// end brainchild
+// haʊʊʊʊʊʊʊ4
+// end bramble

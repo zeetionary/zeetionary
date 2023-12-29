@@ -5,91 +5,198 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bracket" as a TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "brand" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybracket extends StatelessWidget {
+class EnglishEntrybrand extends StatelessWidget {
 // blank divider
-  EnglishEntrybracket({super.key});
+  EnglishEntrybrand({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbracket(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrand(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bracket"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brand"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets1(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Publication dates are given in brackets after each title."); // DOPSUM: CHANGE TEXT
+        "You pay less for the supermarket's own brand."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets2(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Google is one of the world's most prominent brands."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Add the numbers in brackets first."); // DOPSUM: CHANGE TEXT
+        .speak("How can we build our brand?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets3(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "People in the lower income brackets will not be able to afford this."); // DOPSUM: CHANGE TEXT
+        "They developed their own brand of communism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets4(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Most of the houses are out of our price bracket."); // DOPSUM: CHANGE TEXT
+        "She has her own unique brand of humour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets5(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I've bracketed the parts of the text that could be omitted."); // DOPSUM: CHANGE TEXT
+        "The brand was still visible on the animal's hide."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets6(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is unfair to bracket together those who cannot work with those who will not."); // DOPSUM: CHANGE TEXT
+        "The website was not doing a very good job of branding the company."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrackets7(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
+  Future<void> speakbrands8(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Their products are branded as organic."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands9(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("They were branded as liars and cheats."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands10(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two writers are often bracketed together by critics."); // DOPSUM: CHANGE TEXT
+        "The newspapers branded her a hypocrite."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands11(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands12(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands13(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands14(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands15(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands16(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands17(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands18(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands19(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrands20(String languageCode) async {
+    // DOPSUM: CHANGE speakbrand
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrands2020"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,22 +213,22 @@ class EnglishEntrybracket extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bracket"),
+                            EntryTitle(word: "brand"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrækɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /brænd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbracket("en-GB"),
+                              onPressed: () => speakbrand("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrækɪt/"),
+                            const IPAofEnglish(text: "IpaUS: /brænd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbracket("en-US"),
+                              onPressed: () => speakbrand("en-US"),
                             ),
                           ],
                         ),
@@ -139,13 +246,13 @@ class EnglishEntrybracket extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -167,69 +274,25 @@ class EnglishEntrybracket extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گۆشەڕاگر، گۆشەبەند، سووچ‌بەند، گوشەبەست، ڕەفحەبەند، ڕەفحەڕاگر، پاڵپشتی ڕەفحە، تاق، تاقە، دیواری، کەوان‌ڕێک، ئانیشکە، کەوانە، برۆنیشان، نیشانەکانی() [] {}، دەستە، کۆمەڵ، پۆل. پۆلاندن، دەستاندن، دەستەکردن، دەستەدەستەکردن
+کوردی: نیشانە، دروشم (بازرگانی)، دروشم، نیشانک، نیشانە، برەند، جۆری تایبەت، داخ، چزان، هاوید، میل یان ئاسنی داغ، هەرەزینگ، شیشی داغ یان چزاندن، سەرەبزووت، سووتەمەرۆ، بزووت (دار)، (وێژەیی) شمشێر، شیر، نیشانە، دروشم، درف، چۆڵەچرا، مەشخەڵ، مێڵەدە، داخ، پینە، لکە یان پڵەی بێ‌ئابڕوویی، عەیب (ئەڵمانی بنەڕەت)
 
-١. (ناو) کەوانەی وەک () یان [] کە لە نووسیندا زانیاری زیادە لە ناویاندا دەنووسرێت. لە بیرکاریدا بەشێک لە هاوکێشە لە ناو () دەنووسرێت. لە نووسیندا لێدوانی نووسەر لە ناو [] دەنووسرێت."""),
+١. (ناو) خامەتگوزارییەک یان بەرهەمێک کە لەژێر ناوێکی دیاریکراودا لەلایەن کۆمپانیایەکەوە پێشکەش دەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Publication dates are given in brackets after each title."),
+                                      "You pay less for the supermarket's own brand."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوای هەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
+                                      "پارەی کەمتر دەدەیت بۆ بەرهەمەکانی کۆمپانیاکە خۆی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets1("en-GB"),
+                                    onPressed: () => speakbrands1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Add the numbers in brackets first."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرەتا ژمارەکان لە کەوانەدا بنووسە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) مەودایەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People in the lower income brackets will not be able to afford this."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسانی کۆمەڵەی کەمدەرامەت ناتوانن پارەی ئەمە دابین بکەن."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets3("en-US"),
+                                    onPressed: () => speakbrands1("en-US"),
                                   ),
                                 ],
                               ),
@@ -240,18 +303,39 @@ class EnglishEntrybracket extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Most of the houses are out of our price bracket."),
+                                      "Google is one of the world's most prominent brands."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆرینەی خانووەکان لە سەرەوەی ڕێژەی پارەی ئێمەیە."),
+                                      "گووگڵ یەکێکە لە بەرهەمە ناودارەکانی جیهان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets4("en-GB"),
+                                    onPressed: () => speakbrands2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets4("en-US"),
+                                    onPressed: () => speakbrands2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "How can we build our brand?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چۆن دەتوانین ناوی بەرهەمەکەمان بناسێنین؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrands3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrands3("en-US"),
                                   ),
                                 ],
                               ),
@@ -259,24 +343,43 @@ class EnglishEntrybracket extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) نووسینی زانیاری یان ژمارە لە ناو کەوانەدا"),
+                              text: "٢. (ناو) جۆرێکی دیاریکراو لە شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I've bracketed the parts of the text that could be omitted."),
+                                      "They developed their own brand of communism."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بەشانەی نووسینەکەم خستووەتە کەوانەوە کە دەکرێت لاببرێن."),
+                                  text: "کۆمیونیزمی جۆری خۆیان گەشەپێدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets5("en-GB"),
+                                    onPressed: () => speakbrands4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets5("en-US"),
+                                    onPressed: () => speakbrands4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She has her own unique brand of humour."),
+                              const ExampleSentenceKurdish(
+                                  text: "جۆری خۆی بۆ گاڵتەوگەپ هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrands5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrands5("en-US"),
                                   ),
                                 ],
                               ),
@@ -285,23 +388,48 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) دادانی خەڵکی یان شت لە هەمان کۆمەڵەدا"),
+                                  "٣. (ناو) نیشانەیەک کە داخ دەکرێت لەسەر پێستی ئاژەڵیک بۆ پیشاندانی ئەوەی کێ خاوەنداری دەکات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "It is unfair to bracket together those who cannot work with those who will not."),
+                                      "The brand was still visible on the animal's hide."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە هەمان کۆمەڵە پۆلێن بکرێن."),
+                                      "نیشانەکە هێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets6("en-GB"),
+                                    onPressed: () => speakbrands6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets6("en-US"),
+                                    onPressed: () => speakbrands6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) لکاندنی ناوێک، ناسنامەیەک، یان وێنایەک بە شتێکەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The website was not doing a very good job of branding the company."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وێبسایتەکە سەرکەوتوو نەبوو لە ناساندنی ناوی کۆمپانیاکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrands7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrands7("en-US"),
                                   ),
                                 ],
                               ),
@@ -312,18 +440,63 @@ class EnglishEntrybracket extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The two writers are often bracketed together by critics."),
+                                      "Their products are branded as organic."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەهێنرێن."),
+                                      "بەرهەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets7("en-GB"),
+                                    onPressed: () => speakbrands8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets7("en-US"),
+                                    onPressed: () => speakbrands8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) ناوهێنانی کەسێک یان شتێک بە خراپ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They were branded as liars and cheats."),
+                              const ExampleSentenceKurdish(
+                                  text: "وەک درۆزن و ساختەچی ناوزەدکران."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrands9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrands9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The newspapers branded her a hypocrite."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrands10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrands10("en-US"),
                                   ),
                                 ],
                               ),
@@ -343,7 +516,7 @@ class EnglishEntrybracket extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -380,25 +553,32 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bracket (Derived forms: brackets)
-1. [Brit] Either of two punctuation marks, "(" or ")", used to enclose textual material (= parenthesis, round bracket [Brit])
+- Noun: brand (Derived forms: branded, branding, brands)
+1. A name given to a product or service (= trade name, brand name, marque)
  
-2. Either of two punctuation marks ([ or ]) used to enclose textual material (= square bracket)
+2. A recognizable kind (= make)
+"there's a new brand of hero in the movies now";
  
-3. A category falling within certain defined limits
+3. Identification mark on skin, made by burning
  
-4. Either of two punctuation marks ('<' or '>') used in computer programming and sometimes used to enclose textual material (= angle bracket)
+4. A piece of wood that has been burned or is burning (= firebrand)
  
-5. A support projecting from a wall (as to hold a shelf) (= wall bracket)
+5. A symbol of disgrace or infamy (= mark, stigma, stain)
+"And the Lord set a brand upon Cain";
+ 
+6. A cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard (= sword, blade, steel)
 
-- Verb: bracket (Derived forms: bracketing, bracketed, brackets)
-1. Support with brackets
-"bracket bookshelves"
+- Verb: brand (Derived forms: branded, branding, brands)
+1. Burn with a branding iron to indicate ownership; of animals
  
-2. Place into brackets (= bracket out)
-"Please bracket this remark";
+2. Accuse or condemn openly or formally; classify or describe as disgraceful (= stigmatize, stigmatise [Brit], denounce, mark, denunciate)
+"She was branded by society because she had a child out of wedlock";
+
+3. Mark with a brand or trademark (= trademark, brandmark)
+"when this product is not branded it sells for a lower price";
  
-3. Classify or group
+4. Mark or expose as infamous (= post)
+"She was branded a loose woman";
 """,
           )
         ],
@@ -412,12 +592,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "V3NGBo2M1Ps";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 441, // DOPSUM: CHANGE IT
+      startAt: 359, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -437,12 +617,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "P2pwC5wc21o";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 1107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -462,12 +642,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "0q8vYIT6O3Q";
+  static String myVideoId = "a3WnvDtDD2M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 159, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -487,7 +667,82 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "PZzZ4gO7E2I";
+  static String myVideoId = "Hi0zbU3DW6o";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 207, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "s3B-qp3U5G0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 61, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "544DTGHIBM0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 382, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "03aEKimjqDo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -509,90 +764,15 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "dVZKn6NSmNg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 354, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "mTtbg9poe_w";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 248, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "bT8QS5sxONw";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 89, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PZYWzsB_yfA";
+  static String myVideoId = "v1AHSZTMzqE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 452, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -612,12 +792,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "LQdjmGimh04";
+  static String myVideoId = "FdJMC3Z209w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,12 +817,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "CmBzCnCj2XY";
+  static String myVideoId = "25Ko3qPTHoA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 797, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -662,12 +842,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "wksm1xI1Ms0";
+  static String myVideoId = "c36UNSoJenI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 122, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -687,12 +867,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "zDdAPHuRGN0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 271, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -712,4 +892,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // more than one video, only first autoplay
 
 // haʊʊʊʊʊʊʊ4
-// end bracket
+// end brand

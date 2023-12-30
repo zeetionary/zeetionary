@@ -5,85 +5,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "brat" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bravado" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybrat extends StatelessWidget {
+class EnglishEntrybravado extends StatelessWidget {
 // blank divider
-  EnglishEntrybrat({super.key});
+  EnglishEntrybravado({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrat(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravado(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brat"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bravado"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados1(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Why does that irritating little brat ask so many stupid questions?"); // DOPSUM: CHANGE TEXT
+        "It was an act of bravado to tell his boss to resign."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados2(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados3(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados4(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados5(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados6(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrats7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrat
+  Future<void> speakbravados7(String languageCode) async {
+    // DOPSUM: CHANGE speakbravado
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrats77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbravados77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +100,22 @@ class EnglishEntrybrat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brat"),
+                            EntryTitle(word: "bravado"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bræt/"),
+                            const IPAofEnglish(text: "IpaUK: /brəˈvɑːdəʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrat("en-GB"),
+                              onPressed: () => speakbravado("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bræt/"),
+                            const IPAofEnglish(text: "IpaUS: /brəˈvɑːdəʊ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrat("en-US"),
+                              onPressed: () => speakbravado("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntrybrat extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
+                  VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -161,25 +161,25 @@ class EnglishEntrybrat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەچکە، توڵە (بە سووک دانانی مناڵ)، هەتیومەتیو
+کوردی: بوێری، خۆهەڵکێشی، فڕوفیشاڵ کردن، لاف‌لێدان، خۆ بە ئازا نیشان‌دان
 
-١. (ناو) کەسێک، بەتایبەتی منداڵ، لە خراپ ڕەفتار دەکات"""),
+١. (ناو) هەڵسوکەوت کردن بە متمانەوە بۆ ئەوەی سەرنجی خەڵکی ڕابکێشی، زۆرجار بە کردنی شتێک کە پێویست ناکات بیکەیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Why does that irritating little brat ask so many stupid questions?"),
+                                      "It was an act of bravado to tell his boss to resign."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆچی ئەو بەچکە هەتیوە بێزارکەرە هێندە پرسیار زۆر دەکات؟"),
+                                      "هەنگاوێکی بوێرانە بوو کە بە بەڕێوبەری گوت دەست‌لەکاربکێشێتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrats1("en-GB"),
+                                    onPressed: () => speakbravados1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrats1("en-US"),
+                                    onPressed: () => speakbravados1("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,7 +196,7 @@ class EnglishEntrybrat extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -236,10 +236,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brat (Derived forms: brats)
-1. A very troublesome child (= terror, little terror [informal], holy terror [informal])
- 
-2. [US, informal] A small pork sausage (= bratwurst)
+- Noun: bravado (Derived forms: bravados, bravadoes)
+1. A swaggering show of courage (= bluster)
 """,
           )
         ],
@@ -253,12 +251,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/kPO8rDfsy5Q?t=";
+  static String myVideoId = "https://youtu.be/8MELKXZqMQo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 381, // DOPSUM: CHANGE IT
+      startAt: 457, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -278,12 +276,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/fGMCjELDyUY?t=";
+  static String myVideoId = "https://youtu.be/C5L687zX-IM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2762, // DOPSUM: CHANGE IT
+      startAt: 694, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -303,12 +301,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/F2xv4fba65U?t=";
+  static String myVideoId = "https://youtu.be/Kn9tr1nhU7E?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 1018, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -328,12 +326,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/92Yb6vY8vUY?t=";
+  static String myVideoId = "https://youtu.be/IjMl-_owmIg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 659, // DOPSUM: CHANGE IT
+      startAt: 373, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +351,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/pMCo6J9Q5ic?t=";
+  static String myVideoId = "https://youtu.be/Z3KCVrBhFps?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 171, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +376,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/roG5gjJZ57g?t=";
+  static String myVideoId = "https://youtu.be/GHa3rxmSi1c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 783, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +401,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/zioTEH65Vxg?t=";
+  static String myVideoId = "https://youtu.be/TfPKMurs-OY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 201, // DOPSUM: CHANGE IT
+      startAt: 313, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +426,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/8B-YmGOnKYU?t=";
+  static String myVideoId = "https://youtu.be/pzyIvNtP0i4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 807, // DOPSUM: CHANGE IT
+      startAt: 1663, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +451,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/6X2E7Hb4MLc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 638, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,4 +551,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // more than one video, only first autoplay
 
 // haʊʊʊʊʊʊʊ4
-// end brat
+// end bravado

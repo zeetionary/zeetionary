@@ -161,7 +161,7 @@ class EnglishEntrybrainwave extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بیری نوێ، هزری تازە، بیری باشی کت‌وپڕ، بیرۆکەی زیرەکانە، پەیام یان سیگناڵێکی ئێلیکتریکی لە مێشک‌دا، شەپۆلی مێشکی
+کوردی: بیری نوێ، ھزری تازە، بیری باشی کت‌وپڕ، بیرۆکەی زیرەکانە، پەیام یان سیگناڵێکی ئێلیکتریکی لە مێشک‌دا، شەپۆلی مێشکی
 
 ١. (ناو) بیرۆکەیەکی باشی لەناکاو"""),
                           Row(
@@ -169,7 +169,7 @@ class EnglishEntrybrainwave extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I've had a brainwave!"),
                               const ExampleSentenceKurdish(
-                                  text: "بیرۆکەیەکی تازەم هەیە!"),
+                                  text: "بیرۆکەیەکی تازەم ھەیە!"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,7 +193,7 @@ class EnglishEntrybrainwave extends StatelessWidget {
                                       "The scan showed that he exhibited abnormal brainwave patterns."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی هەیە."),
+                                      "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی ھەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainwave (Derived forms: brainwaves, brain waves)
+- Noun: brainwave (derived forms: brainwaves, brain waves)
 1. (neurophysiology) rapid fluctuations of voltage between parts of the cerebral cortex that are detectable with an electroencephalograph (= brain wave, cortical potential)
  
 2. The clear (and often sudden) understanding of a complex situation (= insight, brainstorm)

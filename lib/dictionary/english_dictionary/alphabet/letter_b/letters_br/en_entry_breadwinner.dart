@@ -5,85 +5,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "Braille" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "breadwinner" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybraille extends StatelessWidget {
+class EnglishEntrybreadwinner extends StatelessWidget {
 // blank divider
-  EnglishEntrybraille({super.key});
+  EnglishEntrybreadwinner({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbraille(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinner(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Braille"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breadwinner"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All the exhibits are labelled in Braille."); // DOPSUM: CHANGE TEXT
+        "When the baby was born, I became the sole breadwinner."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadwinners7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadwinner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadwinners77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +100,22 @@ class EnglishEntrybraille extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Braille"),
+                            EntryTitle(word: "breadwinner"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /breɪl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbredwɪnə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbraille("en-GB"),
+                              onPressed: () => speakbreadwinner("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /breɪl/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbredwɪnər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbraille("en-US"),
+                              onPressed: () => speakbreadwinner("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +133,11 @@ class EnglishEntrybraille extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -161,25 +161,27 @@ class EnglishEntrybraille extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھێڵی بریل، ھێڵ یان ئەلفوبێی بریل
+کوردی: بەخێوکەر، کۆست، نان‌پەیداکەر، گەورەی ماڵ
 
-١. (ناو) سیستەمێکی نووسین بۆ کەسانی نابینا کە تێیدا پیرەکان و ژمارەکان بە خاڵی بەرزەوەبوو دەنووسرێن و دەتوانرێن بخوێنرێنەوە بە دەستھێنان بە سەریاندا"""),
+١. (ناو) کەسێک کە خێزانێک بەڕێوە دەبات بەو پارەیەی پەیدای دەکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "All the exhibits are labelled in Braille."),
+                                      "When the baby was born, I became the sole breadwinner."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو شتەکان بە بریڵ لەسەریان نووسراوە."),
+                                      "کە منداڵەکە ھاتە دوونیاوە، بووم بە تەنھا پەیداکەری بژێوی ماڵەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrailles1("en-GB"),
+                                    onPressed: () =>
+                                        speakbreadwinners1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrailles1("en-US"),
+                                    onPressed: () =>
+                                        speakbreadwinners1("en-US"),
                                   ),
                                 ],
                               ),
@@ -197,7 +199,7 @@ class EnglishEntrybraille extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -236,14 +238,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: Braille (derived forms: brailling, brailled, Brailles, brailles)
-1. A point system of writing in which patterns of raised dots represent letters and numerals
-
-- Verb: Braille
-1. Transcribe in Braille
-
-- Noun: Braille
-1. French educator who lost his sight at the age of three and who invented a system of writing and printing for sightless people (1809-1852) (= Louis Braille)
+- Noun: breadwinner (derived forms: breadwinners)
+1. One whose earnings are the primary source of support for their dependents
 """,
           )
         ],
@@ -257,12 +253,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "d_fHun8jj2g";
+  static String myVideoId = "yTsxY0mRIGs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 872, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -282,12 +278,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "uUEdjGTIB9Y";
+  static String myVideoId = "YCnFYvL17v4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 1119, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -307,12 +303,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "a8AEkwtNEiM";
+  static String myVideoId = "meBd1GHC2yg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 242, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -332,12 +328,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "LQ_3OYOs1Ew";
+  static String myVideoId = "DBG1Wgg32Ok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 81, // DOPSUM: CHANGE IT
+      startAt: 726, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -357,12 +353,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "G60Oo_O0LEg";
+  static String myVideoId = "wCvVQLjWb8s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3, // DOPSUM: CHANGE IT
+      startAt: 1194, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -382,12 +378,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "QJ8VLJDzt_4";
+  static String myVideoId = "_qn2ySoFkOc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,12 +403,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RzC9Yerv00M";
+  static String myVideoId = "7BWlUfwemxI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 2288, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -432,12 +428,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "02dd5IyCUh8";
+  static String myVideoId = "hSmAYUnZyxE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 697, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,12 +453,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "o9BOQ6IpTSE";
+  static String myVideoId = "SMco-JZOuUo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 57, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -482,12 +478,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "cwKWVvhtnYw";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1011, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,4 +553,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // more than one video, only first autoplay
 
 // haʊʊʊʊʊʊʊ4
-// end braille
+// end breadwinner

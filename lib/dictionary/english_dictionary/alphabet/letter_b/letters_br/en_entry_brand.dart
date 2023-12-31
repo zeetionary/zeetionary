@@ -274,9 +274,9 @@ class EnglishEntrybrand extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نیشانە، دروشم (بازرگانی)، دروشم، نیشانک، نیشانە، برەند، جۆری تایبەت، داخ، چزان، هاوید، میل یان ئاسنی داغ، هەرەزینگ، شیشی داغ یان چزاندن، سەرەبزووت، سووتەمەرۆ، بزووت (دار)، (وێژەیی) شمشێر، شیر، نیشانە، دروشم، درف، چۆڵەچرا، مەشخەڵ، مێڵەدە، داخ، پینە، لکە یان پڵەی بێ‌ئابڕوویی، عەیب (ئەڵمانی بنەڕەت)
+کوردی: نیشانە، دروشم (بازرگانی)، دروشم، نیشانک، نیشانە، برەند، جۆری تایبەت، داخ، چزان، ھاوید، میل یان ئاسنی داغ، ھەرەزینگ، شیشی داغ یان چزاندن، سەرەبزووت، سووتەمەرۆ، بزووت (دار)، (وێژەیی) شمشێر، شیر، نیشانە، دروشم، درف، چۆڵەچرا، مەشخەڵ، مێڵەدە، داخ، پینە، لکە یان پڵەی بێ‌ئابڕوویی، عەیب (ئەڵمانی بنەڕەت)
 
-١. (ناو) خامەتگوزارییەک یان بەرهەمێک کە لەژێر ناوێکی دیاریکراودا لەلایەن کۆمپانیایەکەوە پێشکەش دەکرێت"""),
+١. (ناو) خامەتگوزارییەک یان بەرھەمێک کە لەژێر ناوێکی دیاریکراودا لەلایەن کۆمپانیایەکەوە پێشکەش دەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -284,7 +284,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                       "You pay less for the supermarket's own brand."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پارەی کەمتر دەدەیت بۆ بەرهەمەکانی کۆمپانیاکە خۆی."),
+                                      "پارەی کەمتر دەدەیت بۆ بەرھەمەکانی کۆمپانیاکە خۆی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,7 +306,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                       "Google is one of the world's most prominent brands."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گووگڵ یەکێکە لە بەرهەمە ناودارەکانی جیهان."),
+                                      "گووگڵ یەکێکە لە بەرھەمە ناودارەکانی جیھان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -327,7 +327,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                   text: "How can we build our brand?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چۆن دەتوانین ناوی بەرهەمەکەمان بناسێنین؟"),
+                                      "چۆن دەتوانین ناوی بەرھەمەکەمان بناسێنین؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -371,7 +371,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                   text:
                                       "She has her own unique brand of humour."),
                               const ExampleSentenceKurdish(
-                                  text: "جۆری خۆی بۆ گاڵتەوگەپ هەیە."),
+                                  text: "جۆری خۆی بۆ گاڵتەوگەپ ھەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,7 +396,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                       "The brand was still visible on the animal's hide."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نیشانەکە هێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
+                                      "نیشانەکە ھێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,7 +443,7 @@ class EnglishEntrybrand extends StatelessWidget {
                                       "Their products are branded as organic."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەرهەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
+                                      "بەرھەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -460,7 +460,7 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) ناوهێنانی کەسێک یان شتێک بە خراپ"),
+                                  "٥. (کردار) ناوھێنانی کەسێک یان شتێک بە خراپ"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -553,7 +553,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brand (Derived forms: branded, branding, brands)
+- Noun: brand (derived forms: branded, branding, brands)
 1. A name given to a product or service (= trade name, brand name, marque)
  
 2. A recognizable kind (= make)
@@ -568,7 +568,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. A cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard (= sword, blade, steel)
 
-- Verb: brand (Derived forms: branded, branding, brands)
+- Verb: brand (derived forms: branded, branding, brands)
 1. Burn with a branding iron to indicate ownership; of animals
  
 2. Accuse or condemn openly or formally; classify or describe as disgraceful (= stigmatize, stigmatise [Brit], denounce, mark, denunciate)

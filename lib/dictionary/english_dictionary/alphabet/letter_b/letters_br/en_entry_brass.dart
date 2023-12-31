@@ -261,7 +261,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brass (Derived forms: brasses)
+- Noun: brass (derived forms: brasses)
 1. An alloy of copper and zinc
  
 2. A wind instrument that consists of a brass tube (usually of variable length) that is blown by means of a cup-shaped or funnel-shaped mouthpiece (= brass instrument)

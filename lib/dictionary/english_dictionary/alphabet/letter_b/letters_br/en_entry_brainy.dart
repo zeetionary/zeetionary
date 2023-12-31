@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: brainy (Derived forms: brainiest, brainier)
+- Adjective: brainy (derived forms: brainiest, brainier)
 Usage: informal
 1. Having or marked by unusual and impressive intelligence (= brilliant, smart as a whip [informal])
 "our project needs brainy women";

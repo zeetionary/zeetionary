@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: branding (Derived forms: brandings)
+- Noun: branding (derived forms: brandings)
 1. The act of stigmatizing (= stigmatization, stigmatisation [Brit])
  
 2. Giving a product or service a particular image or brand identification

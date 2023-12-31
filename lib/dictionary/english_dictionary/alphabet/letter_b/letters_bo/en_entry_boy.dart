@@ -359,7 +359,7 @@ class EnglishEntryboy extends StatelessWidget {
                                   text: "I used to play here as a boy."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جاران کە تەنها کوڕێک بووم لێرە یاریم دەکرد."),
+                                      "جاران کە تەنھا کوڕێک بووم لێرە یاریم دەکرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

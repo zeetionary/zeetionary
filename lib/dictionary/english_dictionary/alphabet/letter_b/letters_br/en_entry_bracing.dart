@@ -162,9 +162,9 @@ class EnglishEntrybracing extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خۆش، سازگار، بەجۆش‌هێنەر، شادی‌هێن، بەگوڕێنەر، بووژێنەر
+کوردی: خۆش، سازگار، بەجۆش‌ھێنەر، شادی‌ھێن، بەگوڕێنەر، بووژێنەر
 
-١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەهادا دەکرێت"""),
+١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەھادا دەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bracing (Derived forms: bracings)
+- Noun: bracing (derived forms: bracings)
 1. A structural member used to stiffen a framework (= brace)
 
 - Adjective: bracing

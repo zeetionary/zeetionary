@@ -163,7 +163,7 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تێکچوونی هۆشی و بیری، شڵەژانی دەروونی، شێتی کورت‌ماوە و ناکاو، بیری نوێ، فکری تازە
+کوردی: تێکچوونی ھۆشی و بیری، شڵەژانی دەروونی، شێتی کورت‌ماوە و ناکاو، بیری نوێ، فکری تازە
 
 ١. (کردار) بیرکردنەوەی کۆمەڵێک کەس پێکەوە لە یەک کاتدا بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"""),
                           Row(
@@ -172,7 +172,7 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                                   text:
                                       "Brainstorm as many ideas as possible."),
                               const ExampleSentenceKurdish(
-                                  text: "هەرچەندە بیرۆکە دەزانی گردی‌بکەوە."),
+                                  text: "ھەرچەندە بیرۆکە دەزانی گردی‌بکەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,7 +221,7 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                                       "This was a brainstorm I came up with when I was driving."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەمە بیرۆکەیەکی تازەیە کە بۆم هات کاتێک شۆفێریم دەکرد."),
+                                      "ئەمە بیرۆکەیەکی تازەیە کە بۆم ھات کاتێک شۆفێریم دەکرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,10 +286,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainstorm (Derived forms: brainstorms)
+- Noun: brainstorm (derived forms: brainstorms)
 1. The clear (and often sudden) understanding of a complex situation (= insight, brainwave)
 
-- Verb: brainstorm (Derived forms: brainstorming, brainstorms, brainstormed)
+- Verb: brainstorm (derived forms: brainstorming, brainstorms, brainstormed)
 1. Try to solve a problem by thinking intensely about it
 """,
           )

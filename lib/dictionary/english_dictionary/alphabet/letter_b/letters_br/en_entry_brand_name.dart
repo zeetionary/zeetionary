@@ -163,7 +163,7 @@ class EnglishEntrybrandname extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: نیشانک، ماڕک، نیشانەی بازرگانی، دروشمی بازرگانی
 
-١. (ناو) ئەو ناوەی کە دەدرێت بۆ بەرهەمێک لەلایەن کۆمپانیای بەرهەمهێنەوە"""),
+١. (ناو) ئەو ناوەی کە دەدرێت بۆ بەرھەمێک لەلایەن کۆمپانیای بەرھەمھێنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybrandname extends StatelessWidget {
                                       "Coca-Cola's global brand name recognition is unbeatable."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناسراوی ناوی جیهانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت."),
+                                      "ناسراوی ناوی جیھانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
           EnglishMeaningConst(
             text: """
 - Noun: brand name
-1. A name given to a product or service (= trade name, brand, marque) (= Derived forms: brand names)
+1. A name given to a product or service (= trade name, brand, marque) (= derived forms: brand names)
 """,
           )
         ],

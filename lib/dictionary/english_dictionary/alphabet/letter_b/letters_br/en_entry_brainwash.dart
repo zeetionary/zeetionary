@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: brainwash (Derived forms: brainwashes, brainwashed, brainwashing)
+- Verb: brainwash (derived forms: brainwashes, brainwashed, brainwashing)
 1. Persuade completely, often through coercion
 "The propaganda brainwashed many people"
  

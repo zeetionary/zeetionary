@@ -284,14 +284,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: braid (Derived forms: braids)
+- Noun: braid (derived forms: braids)
 1. Trimming used to decorate clothes or curtains (= gold braid, braiding)
  
 2. Three or more strands of hair or other material interwoven with each other
  
 3. A hairdo formed by braiding or twisting the hair (= plait, tress, twist)
 
-- Verb: braid (Derived forms: braided, braiding, braids)
+- Verb: braid (derived forms: braided, braiding, braids)
 1. Form or weave into a braid or braids (= pleach)
 "braid hair";
 

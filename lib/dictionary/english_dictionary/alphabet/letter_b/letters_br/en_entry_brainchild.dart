@@ -161,9 +161,9 @@ class EnglishEntrybrainchild extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بیر، هزر، بیرۆکە، ئایدیا، داهێنان
+کوردی: بیر، ھزر، بیرۆکە، ئایدیا، داھێنان
 
-١. (ھاوەڵناو) بیرۆکە یان داهێنانی کەسێک یان گرووپێک"""),
+١. (ھاوەڵناو) بیرۆکە یان داھێنانی کەسێک یان گرووپێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybrainchild extends StatelessWidget {
                                       "The TV programme was the brainchild of the producer."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرهەمهێنەرەکە بوو."),
+                                      "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرھەمھێنەرەکە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainchild (Derived forms: brainchildren)
+- Noun: brainchild (derived forms: brainchildren)
 1. A product of your creative thinking and work (= inspiration)
 "after years of work his brainchild was a tangible reality";
 """,

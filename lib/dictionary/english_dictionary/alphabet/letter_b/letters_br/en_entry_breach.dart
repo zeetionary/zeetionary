@@ -375,7 +375,7 @@ class EnglishEntrybreach extends StatelessWidget {
                                       "Such actions constitute a breach of confidentiality."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕەفتاری وەها یەکسانە بە لادان لە متمانە."),
+                                      "ڕەفتاری وەھا یەکسانە بە لادان لە متمانە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -400,7 +400,7 @@ class EnglishEntrybreach extends StatelessWidget {
                                       "The disagreement caused a serious breach in Franco-German relations."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناکۆکییەکە بەوو بەهۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا."),
+                                      "ناکۆکییەکە بەوو بەھۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -417,7 +417,7 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شوێنێکی کراوە، بۆ نموونە شوێنێک کە لێیەوە هێرش دەکرێت یان با و شەپۆل دێت"),
+                                  "٤. (ناو) شوێنێکی کراوە، بۆ نموونە شوێنێک کە لێیەوە ھێرش دەکرێت یان با و شەپۆل دێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -425,7 +425,7 @@ class EnglishEntrybreach extends StatelessWidget {
                                       "They escaped through a breach in the wire fence."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵهاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا."),
+                                      "ھەڵھاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -447,7 +447,7 @@ class EnglishEntrybreach extends StatelessWidget {
                                       "The mortars blew a large breach in the castle walls."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە."),
+                                      "ھاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -469,7 +469,7 @@ class EnglishEntrybreach extends StatelessWidget {
                                       "A breach in the mountain wall permits warm sea air to penetrate inland."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە هەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە."),
+                                      "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە ھەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -625,7 +625,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breach (Derived forms: breaches)
+- Noun: breach (derived forms: breaches)
 1. A failure to perform some promised act or obligation
  
 2. An opening (especially a gap in a dike or fortification)
@@ -633,7 +633,7 @@ class EnglishMeaning extends StatelessWidget {
 3. A personal or social separation (as between opposing factions) (= rupture, break, severance, rift, falling out)
 "they hoped to avoid a breach in relations";
 
-- Verb: breach (Derived forms: breaches, breaching, breached)
+- Verb: breach (derived forms: breaches, breaching, breached)
 1. Act in disregard of laws, rules, contracts, or promises (= transgress, offend, infract, violate, go against, break)
 "breach all laws of humanity";
 
@@ -651,7 +651,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/O-cKvhA9ZJ4?t=";
+  static String myVideoId = "O-cKvhA9ZJ4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -676,7 +676,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/yYQ8owJXAg8?t=";
+  static String myVideoId = "yYQ8owJXAg8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -701,7 +701,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/sfr8tfm_IxA?t=";
+  static String myVideoId = "sfr8tfm_IxA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -726,7 +726,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/8eq2vGEEbB4?t=";
+  static String myVideoId = "8eq2vGEEbB4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -751,7 +751,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/rII2WszMe7c?t=";
+  static String myVideoId = "rII2WszMe7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -776,7 +776,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/0Anx3VQ2dcc?t=";
+  static String myVideoId = "0Anx3VQ2dcc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -801,7 +801,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/XXhc5UTxv5I?t=";
+  static String myVideoId = "XXhc5UTxv5I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -826,7 +826,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/f5jwTft6654?t=";
+  static String myVideoId = "f5jwTft6654";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -851,7 +851,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/K3v5wFMQRqs?t=";
+  static String myVideoId = "K3v5wFMQRqs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -876,7 +876,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/_LlyKiROzhU?t=";
+  static String myVideoId = "_LlyKiROzhU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -901,7 +901,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/TjZ5e6ylJI8?t=";
+  static String myVideoId = "TjZ5e6ylJI8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -926,7 +926,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/ZY0M1emTeBg?t=";
+  static String myVideoId = "ZY0M1emTeBg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

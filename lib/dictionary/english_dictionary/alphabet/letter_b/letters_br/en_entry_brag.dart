@@ -162,9 +162,9 @@ class EnglishEntrybrag extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: حەیت‌وحووت، هاڕەوگیفە، لاف‌وگاف، لافاندن، فڕوفیشاڵ(کردن)، فیز، خۆهەڵکێش، لەخۆفشین
+کوردی: حەیت‌وحووت، ھاڕەوگیفە، لاف‌وگاف، لافاندن، فڕوفیشاڵ(کردن)، فیز، خۆھەڵکێش، لەخۆفشین
 
-١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە هەتە یان کردووتە"""),
+١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە ھەتە یان کردووتە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -172,7 +172,7 @@ class EnglishEntrybrag extends StatelessWidget {
                                       "He bragged to his friends about the crime."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەلای هاوڕێکانی خی‌هەڵکێشا سەبارەت بە تاوانەکە."),
+                                      "لەلای ھاوڕێکانی خی‌ھەڵکێشا سەبارەت بە تاوانەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,10 +259,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: brag (Derived forms: bragging, bragged, brags)
+- Verb: brag (derived forms: bragging, bragged, brags)
 1. Show off, esp. with exaggeration (= boast, tout, swash [archaic], shoot a line [informal], gas [informal], blow, bluster, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
 
-- Noun: brag (Derived forms: brags)
+- Noun: brag (derived forms: brags)
 1. An instance of boastful talk (= bragging, crow, crowing, vaporing [US], line-shooting, gasconade [archaic], vapouring [Brit, Cdn])
 "his brag is worse than his fight";
 

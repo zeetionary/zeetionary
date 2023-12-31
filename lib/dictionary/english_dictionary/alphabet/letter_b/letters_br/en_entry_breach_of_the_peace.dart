@@ -5,85 +5,86 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "Braille" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "breach of the peace" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybraille extends StatelessWidget {
+class EnglishEntrybreachofthepeace extends StatelessWidget {
 // blank divider
-  EnglishEntrybraille({super.key});
+  EnglishEntrybreachofthepeace({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbraille(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeace(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Braille"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breach of the peace"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All the exhibits are labelled in Braille."); // DOPSUM: CHANGE TEXT
+        "This, she said, constituted a serious breach of the peace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was arrested to prevent a further breach of the peace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreachofthepeaces33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreachofthepeaces44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreachofthepeaces55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreachofthepeaces66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreachofthepeaces7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreachofthepeace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreachofthepeaces77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +101,24 @@ class EnglishEntrybraille extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Braille"),
+                            EntryTitle(word: "breach of the peace"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /breɪl/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /briːtʃ əv ðə piːs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbraille("en-GB"),
+                              onPressed: () => speakbreachofthepeace("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /breɪl/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /briːtʃ əv ðə piːs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbraille("en-US"),
+                              onPressed: () => speakbreachofthepeace("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +136,11 @@ class EnglishEntrybraille extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -161,25 +164,49 @@ class EnglishEntrybraille extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھێڵی بریل، ھێڵ یان ئەلفوبێی بریل
-
-١. (ناو) سیستەمێکی نووسین بۆ کەسانی نابینا کە تێیدا پیرەکان و ژمارەکان بە خاڵی بەرزەوەبوو دەنووسرێن و دەتوانرێن بخوێنرێنەوە بە دەستھێنان بە سەریاندا"""),
+١. (ناو) تێکدان یان شێواندنی ئاسایشی گشتی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "All the exhibits are labelled in Braille."),
+                                      "This, she said, constituted a serious breach of the peace."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو شتەکان بە بریڵ لەسەریان نووسراوە."),
+                                      "گوتی ئەمە یەکسانە بە شێواندنێکی خراپی ئاسایشی گشتی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrailles1("en-GB"),
+                                    onPressed: () =>
+                                        speakbreachofthepeaces1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrailles1("en-US"),
+                                    onPressed: () =>
+                                        speakbreachofthepeaces1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was arrested to prevent a further breach of the peace."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستگیرکرا بۆ ڕێگری زیاتر لە شێواندنی ئاسایشی گشتی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbreachofthepeaces2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbreachofthepeaces2("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,8 +223,8 @@ class EnglishEntrybraille extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -236,14 +263,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: Braille (derived forms: brailling, brailled, Brailles, brailles)
-1. A point system of writing in which patterns of raised dots represent letters and numerals
-
-- Verb: Braille
-1. Transcribe in Braille
-
-- Noun: Braille
-1. French educator who lost his sight at the age of three and who invented a system of writing and printing for sightless people (1809-1852) (= Louis Braille)
+Noun: breach of the peace (derived forms: breaches of the peace)
+1. Any act of molesting, interrupting, hindering, agitating, or arousing from a state of repose or otherwise depriving inhabitants of the peace and quiet to which they are entitled (= disorderly conduct, disorderly behavior, disturbance of the peace)
 """,
           )
         ],
@@ -257,12 +278,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "d_fHun8jj2g";
+  static String myVideoId = "lknCE7fn7k8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 986, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -282,12 +303,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "uUEdjGTIB9Y";
+  static String myVideoId = "u7Wja0rdc-U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 398, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -307,12 +328,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "a8AEkwtNEiM";
+  static String myVideoId = "--7vNbh4UNA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 548, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -332,12 +353,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "LQ_3OYOs1Ew";
+  static String myVideoId = "ZY0M1emTeBg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 81, // DOPSUM: CHANGE IT
+      startAt: 858, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -357,12 +378,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "G60Oo_O0LEg";
+  static String myVideoId = "RiKjFmpjGQU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -382,12 +403,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "QJ8VLJDzt_4";
+  static String myVideoId = "TwyyPMxFH4M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 154, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,12 +428,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RzC9Yerv00M";
+  static String myVideoId = "XfcWSmenFKY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 325, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -432,12 +453,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "02dd5IyCUh8";
+  static String myVideoId = "PkAgA897pGM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 282, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,12 +478,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "o9BOQ6IpTSE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -482,12 +503,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "cwKWVvhtnYw";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1011, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,4 +578,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // more than one video, only first autoplay
 
 // haʊʊʊʊʊʊʊ4
-// end braille
+// end breach of the peace

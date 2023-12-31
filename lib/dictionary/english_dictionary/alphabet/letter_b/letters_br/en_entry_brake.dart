@@ -329,7 +329,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brake (Derived forms: brakes)
+- Noun: brake (derived forms: brakes)
 1. A restraint used to slow or stop a vehicle
  
 2. Any of various ferns of the genus Pteris having pinnately compound leaves and including several popular houseplants

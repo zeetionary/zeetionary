@@ -161,9 +161,9 @@ class EnglishEntrybraise extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەرم داهێنان، کوڵاندن، برژاندن
+کوردی: گەرم داھێنان، کوڵاندن، برژاندن
 
-١. (کردار) لێنانی گۆشت و سەوزە زۆر بەهێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"""),
+١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybraise extends StatelessWidget {
                                       "The liver is then braised in olive oil."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جگەرەکە دواتر دەکوڵێندرێت بە هێواشی لە زەیتی زەیتووندا."),
+                                      "جگەرەکە دواتر دەکوڵێندرێت بە ھێواشی لە زەیتی زەیتووندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: braise (Derived forms: braised, braises, braising)
+- Verb: braise (derived forms: braised, braises, braising)
 1. (cooking) cook in liquid
 "braise beef"
 """,

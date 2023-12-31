@@ -5,284 +5,284 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "brain" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "break" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybrain extends StatelessWidget {
+class EnglishEntrybreak extends StatelessWidget {
 // blank divider
-  EnglishEntrybrain({super.key});
+  EnglishEntrybreak({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrain(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreak(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("break"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "All the windows broke with the force of the blast."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She dropped the plate and it broke into pieces."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The human brain is a complex organ."); // DOPSUM: CHANGE TEXT
+        .speak("The boat hit a rock and broke in half."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My tired brain couldn't cope with such a complex problem."); // DOPSUM: CHANGE TEXT
+        "She fell off a ladder and broke her arm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was found to have sustained a brain injury."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sometimes the doctor will also do a brain scan."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was found to have a blood clot on his brain."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She died of a brain tumour."); // DOPSUM: CHANGE TEXT
+        .speak("He broke the chocolate in two."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is Britain's youngest female brain surgeon."); // DOPSUM: CHANGE TEXT
+        "The glass broke into hundreds of pieces."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains8(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I didn't mean to break the window."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks8(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Charles is always breaking things."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks9(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("My watch has broken."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks10(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The scan apparently showed no damage to the brain."); // DOPSUM: CHANGE TEXT
+        "I think I've broken the washing machine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains9(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks11(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The local market offered fresh cow brain for sale."); // DOPSUM: CHANGE TEXT
+        "The dog bit me but didn't break the skin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains10(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks12(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It doesn't take much brain to work out that both stories can't be true."); // DOPSUM: CHANGE TEXT
+        "I had broken the law and deserved to be punished."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains11(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks13(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Teachers spotted that he had a good brain at an early age."); // DOPSUM: CHANGE TEXT
+        "People should not be allowed to break the rules."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains12(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks14(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He was breaking the speed limit."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks15(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have the best scientific brains in the country working on this."); // DOPSUM: CHANGE TEXT
+        "She had broken the conditions of her bail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains13(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks16(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's always been the brains of the family."); // DOPSUM: CHANGE TEXT
+        "I've never broken my word; why should I do it now?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains14(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks17(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Let's break for lunch."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks18(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was the brains behind the robberies."); // DOPSUM: CHANGE TEXT
+        "Parliament breaks for recess next week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains15(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks19(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The accident could have easily brained him."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains16(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks20(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'll brain you if you don't keep quiet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains17(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks21(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains18(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks22(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains19(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks23(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains20(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks24(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains21(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks25(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2525"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains22(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks26(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2626"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains23(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks27(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2727"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains24(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks28(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2828"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains25(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks29(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks2929"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrains26(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
+  Future<void> speakbreaks30(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2626"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains27(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2727"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains28(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2828"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains29(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains2929"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrains30(String languageCode) async {
-    // DOPSUM: CHANGE speakbrain
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrains3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreaks3030"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -299,22 +299,22 @@ class EnglishEntrybrain extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brain"),
+                            EntryTitle(word: "break"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /breɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /breɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrain("en-GB"),
+                              onPressed: () => speakbreak("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /breɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /breɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrain("en-US"),
+                              onPressed: () => speakbreak("en-US"),
                             ),
                           ],
                         ),
@@ -332,13 +332,13 @@ class EnglishEntrybrain extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -360,23 +360,25 @@ class EnglishEntrybrain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مێشک، مێژەڵاک، مەژی، مێژی، مۆخ، دەماخ، عەقڵ، ئاوەز، ھۆش، تێگەیشتن، مرۆی زیرەک و بەھۆش، بیریار، ھزرڤان، مێشک، مەغز (بۆ خواردن)، ڕێکخەری سەرەکی، زیرەک
+کوردی: شکاوی، شکان، شکست، وردوخاشی، قڵیش، کون، شەبەق، درز، دابڕاوی، پساوی، پسان، پچڕان، هەڵوێستە، هەڵوەستە، پشوو، وچان، ورنگ، پێندان، پشووی خوێندن، گۆهارتن، گۆڕان، گۆڕانی ناکاو، دەرچوون، دەربازبوون، هەڵاتن، نافەرمی چانس، هەل، دەرفەت، دەلیڤە
 
-١. (ناو) مێشکی مرۆڤ و ئاژەڵ"""),
+١. (کردار) شکان یان شکاندن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The human brain is a complex organ."),
+                                  text:
+                                      "All the windows broke with the force of the blast."),
                               const ExampleSentenceKurdish(
-                                  text: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە."),
+                                  text:
+                                      "هەموو پەنجەرەکان بە هێزی تەقینەوەکە شکان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains1("en-GB"),
+                                    onPressed: () => speakbreaks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains1("en-US"),
+                                    onPressed: () => speakbreaks1("en-US"),
                                   ),
                                 ],
                               ),
@@ -387,39 +389,18 @@ class EnglishEntrybrain extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "My tired brain couldn't cope with such a complex problem."),
+                                      "She dropped the plate and it broke into pieces."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەھا ئاڵۆز بکات."),
+                                      "دەورییەکەی بەردایەوە و پارچەپارچە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains2("en-GB"),
+                                    onPressed: () => speakbreaks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was found to have sustained a brain injury."),
-                              const ExampleSentenceKurdish(
-                                  text: "زانرا کە مێشکی تووشی گورز بووە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains3("en-US"),
+                                    onPressed: () => speakbreaks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -433,20 +414,20 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "Sometimes the doctor will also do a brain scan."),
+                                              "The boat hit a rock and broke in half."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ھەندێکجار دکتۆرەکە سکانێکی مێشک دەکات."),
+                                              "بەلەمەکە لە تاشە بەردێکی دا و دووکەرت بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbrains4("en-GB"),
+                                                speakbreaks3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbrains4("en-US"),
+                                                speakbreaks3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -457,42 +438,20 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "He was found to have a blood clot on his brain."),
+                                              "She fell off a ladder and broke her arm."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "زانرا کە کڵۆیەک خوێن لە مێشکیدا ھەیە."),
+                                              "لە پەیژەیەک کەوتە خوارەوە و دەستی شکا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbrains5("en-GB"),
+                                                speakbreaks4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbrains5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text: "She died of a brain tumour."),
-                                      const ExampleSentenceKurdish(
-                                          text: "بە گرێی مێشک مرد."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains6("en-US"),
+                                                speakbreaks4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -503,20 +462,20 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "She is Britain's youngest female brain surgeon."),
+                                              "He broke the chocolate in two."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا."),
+                                              "چکلێتەکەی کرد بە دوو کەرتەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbrains7("en-GB"),
+                                                speakbreaks5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbrains7("en-US"),
+                                                speakbreaks5("en-US"),
                                           ),
                                         ],
                                       ),
@@ -527,20 +486,67 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The scan apparently showed no damage to the brain."),
+                                              "The glass broke into hundreds of pieces."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "سکانەکە ھیچ زیانێکی لە مێشکدا پیشان نەدا."),
+                                              "شووشەکە بوو بە سەدان پارچەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbrains8("en-GB"),
+                                                speakbreaks6("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbrains8("en-US"),
+                                                speakbreaks6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "I didn't mean to break the window."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "مەبەستم نەبوو پەنجەرەکە بشکێنم."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaks7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaks7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Charles is always breaking things."),
+                                      const ExampleSentenceKurdish(
+                                          text: "چارڵس هەمیشە شت دەشکێنێت."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaks8("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaks8("en-US"),
                                           ),
                                         ],
                                       ),
@@ -552,49 +558,21 @@ class EnglishEntrybrain extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) مێشکی ئاژەڵێک کە وەک خواردن دەخورێت"),
+                              text: "٢. (کردار) وەستان لە کارکردن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The local market offered fresh cow brain for sale."),
+                                  text: "My watch has broken."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای ھەبوو بۆ فرۆشتن."),
+                                  text: "کاتژمێرەکەم وەستاوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains9("en-GB"),
+                                    onPressed: () => speakbreaks9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) توانای بیرکردنەوە بەخێرایی، ژیرانە، و ئاقڵانە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It doesn't take much brain to work out that both stories can't be true."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە بیرکردنەوەی ناوێت کە بزانی ھەردوو چیرۆکەکە ناکرێت ڕاست بن."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains10("en-US"),
+                                    onPressed: () => speakbreaks9("en-US"),
                                   ),
                                 ],
                               ),
@@ -605,18 +583,17 @@ class EnglishEntrybrain extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Teachers spotted that he had a good brain at an early age."),
+                                      "I think I've broken the washing machine."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکان لە تەمەنێکی سەرەتاوە ھەستیان کرد مێشکێکی باشی ھەیە."),
+                                  text: "پێم‌وایە جلشۆرەکەم شکاند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains11("en-GB"),
+                                    onPressed: () => speakbreaks10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains11("en-US"),
+                                    onPressed: () => speakbreaks10("en-US"),
                                   ),
                                 ],
                               ),
@@ -624,23 +601,23 @@ class EnglishEntrybrain extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) کەسێکی زیرەک"),
+                              text: "٣. (کردار) بڕینی پێست و خوێن‌لێ‌هێنانی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We have the best scientific brains in the country working on this."),
+                                      "The dog bit me but didn't break the skin."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زیرەکترینەکانی زانستمان لە وڵاتەکەدا ھەیە کە کار لەسەر ئەمە دەکەن."),
+                                      "سەگەکە گازی لێ گرتم بەڵام پێستمی نەدڕی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains12("en-GB"),
+                                    onPressed: () => speakbreaks11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains12("en-US"),
+                                    onPressed: () => speakbreaks11("en-US"),
                                   ),
                                 ],
                               ),
@@ -649,22 +626,22 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) زیرەکترین کەس لەناو کۆمەڵێکدا، کەسی بەرپرس و ڕێکخەر"),
+                                  "٤. (کردار) کردنی شتێک کە دژی یاسا، بەڵین، ڕێککەوتن، هتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He's always been the brains of the family."),
+                                      "I had broken the law and deserved to be punished."),
                               const ExampleSentenceKurdish(
-                                  text: "ھەمیشە بلیمەتی ناو خێزانەکەی بوو."),
+                                  text: "یاسام شکاندبوو و شایەنی سزا بووم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains13("en-GB"),
+                                    onPressed: () => speakbreaks12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains13("en-US"),
+                                    onPressed: () => speakbreaks12("en-US"),
                                   ),
                                 ],
                               ),
@@ -675,17 +652,97 @@ class EnglishEntrybrain extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was the brains behind the robberies."),
+                                      "People should not be allowed to break the rules."),
                               const ExampleSentenceKurdish(
-                                  text: "سەرقافڵەی دزییەکان بوو."),
+                                  text:
+                                      "خەڵکی نابێت ڕێگایان پێ بدرێت یاساکان بشکێنن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains14("en-GB"),
+                                    onPressed: () => speakbreaks13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains14("en-US"),
+                                    onPressed: () => speakbreaks13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "He was breaking the speed limit (= travelling faster than the law allows)."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "خێراتر لە خێرایی ڕێگەپێدراو دەچوو."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaks14("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaks14("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "She had broken the conditions of her bail."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "مەرجەکانی ئازادکردنی بە کەفالەتی پێشێلکردبوو."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaks15("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaks15("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "I've never broken my word; why should I do it now?"),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "هەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟"),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaks16("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaks16("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -694,45 +751,43 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) کووشتنی کەسێک یان ئاژەڵێک بە لێدانێکی سەخت لە سەردا"),
+                                  "٥. (کردار) وەستان لە کردنی شتێک بۆ ماوەیەک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident could have easily brained him."),
+                                  text: "Let's break for lunch."),
                               const ExampleSentenceKurdish(
-                                  text: "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە."),
+                                  text: "با پشوویەک بۆ نانی نیوەڕۆ وەربگرین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains15("en-GB"),
+                                    onPressed: () => speakbreaks17("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains15("en-US"),
+                                    onPressed: () => speakbreaks17("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (کردار) لێدان لە سەری کەسێک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I'll brain you if you don't keep quiet."),
+                                      "Parliament breaks for recess next week."),
                               const ExampleSentenceKurdish(
-                                  text: "دەکێشمە سەرتا گەر بێدەنگ نەبیت."),
+                                  text:
+                                      "پەرلەمان پشووی ساڵانەی وەردەگرێت هەفتەی داهاتوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrains16("en-GB"),
+                                    onPressed: () => speakbreaks18("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains16("en-US"),
+                                    onPressed: () => speakbreaks18("en-US"),
                                   ),
                                 ],
                               ),
@@ -752,7 +807,7 @@ class EnglishEntrybrain extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -789,23 +844,227 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brain (derived forms: brains)
-1. That part of the central nervous system that includes all the higher nervous centres; enclosed within the skull; continuous with the spinal cord (= encephalon)
+- Verb: break (derived forms: broken, breaking, breaks, broke)
+1. Destroy the integrity of; usually by force; cause to separate into pieces or fragments
+"He broke the glass plate"; "She broke the match"
  
-2. Mental ability (= brainpower, learning ability, mental capacity, mentality, wit, smarts [N. Amer, Austral, informal])
-"he's got plenty of brains but no common sense";
+2. Become separated into pieces or fragments (= separate, split up, fall apart, come apart)
+"The figurine broke";
 
-3. That which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason (= mind, head, loaf [Brit, informal])
-"his brain wandered";
+3. Render inoperable or ineffective (= hose [N. Amer, informal])
+"You broke the alarm clock when you took it apart!";
  
-4. Someone who has exceptional intellectual ability and originality (= genius, mastermind, brainiac [N. Amer], Einstein, smart cookie [N. Amer, informal], brainbox [Brit, informal])
+4. Ruin completely (= bust [informal])
  
-5. The brain of certain animals used as meat
+5. Terminate or end (= interrupt)
+"break a lucky streak"; "break the cycle of poverty";
+ 
+6. Act in disregard of laws, rules, contracts, or promises (= transgress, offend, infract, violate, go against, breach)
+"break a law";
 
-- Verb: brain (derived forms: braining, brained, brains)
-1. Hit on the head
+7. Move away or escape suddenly (= break out, break away)
+"The horses broke from the stable"; "Three inmates broke jail"; "Nobody can break out--this prison is high security"; "The horses broke away from the stable";
  
-2. Kill by smashing someone's skull
+8. Scatter or part
+"The clouds broke after the heavy downpour"
+ 
+9. Force out or release suddenly and often violently something pent up (= burst, erupt)
+"break into tears";
+
+10. Prevent completion (= break off, discontinue, stop)
+"break off the negotiations";
+ 
+11. Enter someone's (virtual or real) property in an unauthorized manner, usually with the intent to steal or commit a violent act (= break in)
+"Someone broke in while I was on vacation"; "They broke into my car and stole my radio!"; "who broke into my account last night?";
+ 
+12. Make submissive, obedient, or useful (= break in)
+"The horse was tough to break"; "I broke in the new intern";
+ 
+13. Fail to agree with; be in violation of; as of rules or patterns (= violate, go against)
+"This sentence breaks the rules of syntax";
+
+14. Surpass in excellence (= better)
+"break a record";
+
+15. Make known to the public information that was previously known only to a few people or that was meant to be kept a secret (= unwrap, disclose, let on, bring out, reveal, discover, expose, divulge, give away, let out, uncover, lay bare)
+"he broke the news to her";
+
+16. Come into being
+"light broke over the horizon"; "Voices broke in the air"
+ 
+17. Stop operating or functioning (= fail, go bad, give way, die, give out, conk out [informal], go, break down, pack up [Brit, informal])
+"The bus we travelled in broke down on the way to town"; "The coffee maker broke";
+ 
+18. Interrupt a continued activity (= break away)
+ 
+19. (military) make a rupture in the ranks of the enemy or one's own by quitting or fleeing
+"The ranks broke"
+ 
+20. Curl over and fall apart in surf or foam, of waves
+"The surf broke"
+ 
+21. Lessen in force or effect (= dampen, damp, soften, weaken)
+"break a fall";
+
+22. Be broken in
+"If the new teacher won't break, we'll add some stress"
+ 
+23. Come to an end
+"The heat wave finally broke yesterday"
+ 
+24. Vary or interrupt a uniformity or continuity
+ 
+25. Cause to give up a habit
+"She finally broke herself of smoking cigarettes"
+ 
+26. Give up
+"break cigarette smoking"
+ 
+27. Come forth or begin from a state of latency
+"The first winter storm broke over New York"
+ 
+28. Happen or take place
+"Things have been breaking pretty well for us in the past few months"
+ 
+29. Cause the failure or ruin of
+"His peccadilloes finally broke his marriage"; "This play will either make or break the playwright"
+ 
+30. Invalidate by judicial action
+ 
+31. Discontinue an association or relation; go different ways (= separate, part, split up, split, break up)
+"The business partners broke over a tax question"; "The couple broke up after 25 years of marriage";
+ 
+32. Assign to a lower position; reduce in rank (= demote, bump, relegate, kick downstairs)
+ 
+33. Reduce to bankruptcy (= bankrupt, ruin, smash)
+"My daughter's fancy wedding is going to break me!";
+ 
+34. Change directions suddenly
+ 
+35. Emerge from the surface of a body of water
+"The whales broke"
+ 
+36. Break down, literally or metaphorically (= collapse, fall in, cave in, give, give way, founder)
+"The dam broke";
+ 
+37. Do a break dance (= break dance, break-dance)
+"Kids were break-dancing at the street corner";
+ 
+38. Exchange for smaller units of money
+"I had to break a £100 bill just to buy the candy"
+ 
+39. Destroy the completeness of a set of related items (= break up)
+"The book dealer would not break the set";
+
+40. (billiards) make the opening shot that scatters the balls
+ 
+41. Separate from a clinch, in boxing
+"The referee broke the boxers"
+ 
+42. Go to pieces (= wear, wear out, bust [informal], fall apart)
+"The lawn mower finally broke";
+ 
+43. Break a piece from a whole (= break off, snap off)
+"break a branch from a tree";
+
+44. Become punctured or penetrated
+"The skin broke"
+ 
+45. Pierce or penetrate
+"The blade broke her skin"
+ 
+46. Be released or become known; of news (= get out, get around)
+"News of her death broke in the morning";
+ 
+47. Cease an action temporarily (= pause, intermit)
+"let's break for lunch";
+
+48. Interrupt the flow of current in
+"break a circuit"
+ 
+49. Undergo breaking
+"The simple vowels broke in many Germanic languages"
+ 
+50. Find a flaw in
+"break an alibi"; "break down a proof"
+ 
+51. Find the solution or key to
+"break the code"
+ 
+52. Change suddenly from one tone quality or register to another
+"Her voice broke to a whisper when she started to talk about her children"
+ 
+53. Happen (= recrudesce, develop)
+"These political movements break from time to time";
+ 
+54. Become fractured; break or crack on the surface only (= crack, check)
+"The glass broke when it was heated";
+
+55. Crack; of the male voice in puberty
+"his voice is breaking--he should no longer sing in the choir"
+ 
+56. Fall sharply
+"stock prices broke"
+ 
+57. Fracture a bone of (= fracture)
+"I broke my foot while playing hockey";
+ 
+58. Diminish or discontinue abruptly
+"The patient's fever broke last night"
+ 
+59. Weaken or destroy in spirit or body
+ 
+60. Yield information under interrogation or torture (= crack)
+"They managed to break him on the third day";
+ 
+61. Successfully decipher a code (= crack)
+
+- Noun: break (derived forms: breaks)
+1. A pause from doing something (as work) (= respite, recess, time out)
+"we took a 10-minute break";
+
+2. Some abrupt occurrence that interrupts an ongoing activity (= interruption)
+"there was a break in the action when a player was hurt";
+ 
+3. An unexpected piece of good luck (= good luck, happy chance)
+"he finally got his big break";
+ 
+4. (geology) a crack in the earth's crust resulting from the displacement of one side with respect to the other (= fault, faulting, geological fault, shift, fracture)
+"they built it right over a geological break";
+
+5. A personal or social separation (as between opposing factions) (= rupture, breach, severance, rift, falling out)
+"they hoped to avoid a break in relations";
+
+6. The act of breaking something (= breakage, breaking)
+"the break was unavoidable";
+
+7. A time interval during which there is a temporary cessation of something (= pause, intermission, interruption, suspension)
+ 
+8. Breaking of hard tissue such as bone (= fracture)
+"the break seems to have been caused by a fall";
+ 
+9. The occurrence of breaking
+"the break in the dam threatened the valley"
+ 
+10. An abrupt change in the tone or register of the voice (as at puberty or due to emotion)
+"then there was a break in her voice"
+ 
+11. The opening shot that scatters the balls in billiards or pool
+ 
+12. (tennis) a score consisting of winning a game when your opponent was serving (= break of serve)
+"he was up two breaks in the second set";
+
+13. An act of delaying or interrupting the continuity (= interruption, disruption, gap)
+"it was presented without commercial breaks";
+
+14. A sudden dash
+"he made a break for the open door"
+ 
+15. Any frame in which a bowler fails to make a strike or spare (= open frame)
+"the break in the eighth frame cost him the match";
+
+16. An escape from jail (= breakout, jailbreak, gaolbreak, prisonbreak, prison-breaking)
+"the break was carefully planned";
 """,
           )
         ],
@@ -819,12 +1078,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "VrKW58MS12g";
+  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 667, // DOPSUM: CHANGE IT
+      startAt: 904, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -844,12 +1103,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "a_TSR_v07m0";
+  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 275, // DOPSUM: CHANGE IT
+      startAt: 195, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -869,12 +1128,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "SwQhKFMxmDY";
+  static String myVideoId = "https://youtu.be/aHBLOkfJSYI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -894,12 +1153,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "uT_GcOGEFsk";
+  static String myVideoId = "https://youtu.be/PGk3qLxwmDQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 255, // DOPSUM: CHANGE IT
+      startAt: 665, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -919,12 +1178,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "WDetHC86Dgo";
+  static String myVideoId = "https://youtu.be/k3aAl92_VDE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 138, // DOPSUM: CHANGE IT
+      startAt: 265, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -944,12 +1203,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "NFtQOxjWfaA";
+  static String myVideoId = "https://youtu.be/LAOoF2gyQaA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -969,12 +1228,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "B5Nwv-OtTaM";
+  static String myVideoId = "https://youtu.be/C_MDnd7px-I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 534, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -994,12 +1253,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "SZ3BZBBC-Qc";
+  static String myVideoId = "https://youtu.be/MnExgQ81fhU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 154, // DOPSUM: CHANGE IT
+      startAt: 544, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1019,12 +1278,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "VS1BTPIbXso";
+  static String myVideoId = "https://youtu.be/D-2799Y07Zc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 371, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1044,12 +1303,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "GkZtHnD3xGs";
+  static String myVideoId = "https://youtu.be/03VAIrkmrD0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      startAt: 24, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1069,12 +1328,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "D1zkVBHPh5c";
+  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 836, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1094,12 +1353,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/FmEJkU6r_Rs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1118,5 +1377,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// haʊʊʊʊʊʊʊ4
-// end brain
+// /breɪk/
+// end break

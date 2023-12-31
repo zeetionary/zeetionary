@@ -172,7 +172,7 @@ class EnglishEntrybrainless extends StatelessWidget {
                                       "Her husband’s colleagues were brainless bores."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هاوکارەکانی هاوسەرەکەی بێزارکەری گەمژە بوون."),
+                                      "ھاوکارەکانی ھاوسەرەکەی بێزارکەری گەمژە بوون."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

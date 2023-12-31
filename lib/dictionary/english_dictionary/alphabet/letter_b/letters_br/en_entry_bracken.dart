@@ -163,7 +163,7 @@ class EnglishEntrybracken extends StatelessWidget {
                           DefinitionKurdish(text: """
 کوردی: 
 
-١. (ناو) گیایەک کە گەڵای گەورەی هەیە لەسەر گرد و لە دارستانەکان دەڕووێت، و قاوەیی دەبێت لە پاییزدا"""),
+١. (ناو) گیایەک کە گەڵای گەورەی ھەیە لەسەر گرد و لە دارستانەکان دەڕووێت، و قاوەیی دەبێت لە پاییزدا"""),
                           // Row(
                           //   children: [
                           //     const ExampleSentenceEnglish(
@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bracken (Derived forms: brackens)
+- Noun: bracken (derived forms: brackens)
 1. Fern of southeastern Asia; not hardy in cold temperate regions (= Pteridium esculentum)
  
 2. Large coarse fern often several feet high; essentially weed ferns; cosmopolitan (= pasture brake, brake, Pteridium aquilinum)

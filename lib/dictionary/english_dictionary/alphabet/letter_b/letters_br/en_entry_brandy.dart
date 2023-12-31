@@ -233,7 +233,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brandy (Derived forms: brandies)
+- Noun: brandy (derived forms: brandies)
 1. A strong alcoholic drink made by distilling wine or fermented fruit juice
 """,
           )

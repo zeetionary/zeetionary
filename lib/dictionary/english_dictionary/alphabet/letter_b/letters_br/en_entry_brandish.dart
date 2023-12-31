@@ -161,7 +161,7 @@ class EnglishEntrybrandish extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) هەڵگرتن یان ڕاوەشاندنی شتێک، بەتایبەتی چەک"""),
+١. (ناو) ھەڵگرتن یان ڕاوەشاندنی شتێک، بەتایبەتی چەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: brandish (Derived forms: brandishing, brandishes, brandished)
+- Verb: brandish (derived forms: brandishing, brandishes, brandished)
 1. Move or swing back and forth (= flourish, wave)
 "She brandished her gun";
  

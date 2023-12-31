@@ -282,7 +282,7 @@ class EnglishEntrybrave extends StatelessWidget {
                                       "I wasn't brave enough to tell her what I thought of her."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە."),
+                                      "ھێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -416,7 +416,7 @@ class EnglishEntrybrave extends StatelessWidget {
                                       "She braved the wrath of her parents by refusing to marry the man they had chosen."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی هاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو."),
+                                      "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی ھاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -504,7 +504,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: brave (Derived forms: braver, bravest)
+- Adjective: brave (derived forms: braver, bravest)
 1. Possessing or displaying courage; able to face and deal with danger or fear without flinching (= courageous)
 "Familiarity with danger makes a brave man braver but less daring";
 
@@ -514,13 +514,13 @@ class EnglishMeaning extends StatelessWidget {
 3. Brightly coloured and showy (= braw [UK, dialect], gay)
 "girls decked out in brave new dresses"; "brave banners flying";
 
-- Noun: brave (Derived forms: braves)
+- Noun: brave (derived forms: braves)
 1. People who are brave
 "the home of the free and the brave"
  
 2. [archaic] A North American Indian warrior
 
-- Verb: brave (Derived forms: braved, braves, braving)
+- Verb: brave (derived forms: braved, braves, braving)
 1. Face and withstand with courage (= weather, endure, brave out)
 "She braved the elements";
 """,
@@ -536,7 +536,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -561,7 +561,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/tXjHb5QmDV0?t=";
+  static String myVideoId = "tXjHb5QmDV0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -586,7 +586,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/NZ74oFctP_g?t=";
+  static String myVideoId = "NZ74oFctP_g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -611,7 +611,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/sV6uuMAnJUE?t=";
+  static String myVideoId = "sV6uuMAnJUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -636,7 +636,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/k4vRFodAqWo?t=";
+  static String myVideoId = "k4vRFodAqWo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -661,7 +661,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/mwTULoFeZwQ?t=";
+  static String myVideoId = "mwTULoFeZwQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -686,7 +686,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Z9AsWp1JjA4?t=";
+  static String myVideoId = "Z9AsWp1JjA4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -711,7 +711,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/zd566q0Yr3s?t=";
+  static String myVideoId = "zd566q0Yr3s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -736,7 +736,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/Fmcv0BCKhfQ?t=";
+  static String myVideoId = "Fmcv0BCKhfQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -761,7 +761,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/ha9JA7fxRAM?t=";
+  static String myVideoId = "ha9JA7fxRAM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -786,7 +786,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/hubeSr2U8t4?t=";
+  static String myVideoId = "hubeSr2U8t4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

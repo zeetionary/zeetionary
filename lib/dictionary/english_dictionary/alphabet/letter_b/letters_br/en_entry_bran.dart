@@ -236,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bran (Derived forms: brans)
+- Noun: bran (derived forms: brans)
 1. Broken husks of the seeds of cereal grains that are separated from the flour by sifting
  
 2. Food prepared from the husks of cereal grains

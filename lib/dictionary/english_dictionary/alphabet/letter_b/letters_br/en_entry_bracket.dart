@@ -169,7 +169,7 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گۆشەڕاگر، گۆشەبەند، سووچ‌بەند، گوشەبەست، ڕەفحەبەند، ڕەفحەڕاگر، پاڵپشتی ڕەفحە، تاق، تاقە، دیواری، کەوان‌ڕێک، ئانیشکە، کەوانە، برۆنیشان، نیشانەکانی() [] {}، دەستە، کۆمەڵ، پۆل. پۆلاندن، دەستاندن، دەستەکردن، دەستەدەستەکردن
 
-١. (ناو) کەوانەی وەک () یان [] کە لە نووسیندا زانیاری زیادە لە ناویاندا دەنووسرێت. لە بیرکاریدا بەشێک لە هاوکێشە لە ناو () دەنووسرێت. لە نووسیندا لێدوانی نووسەر لە ناو [] دەنووسرێت."""),
+١. (ناو) کەوانەی وەک () یان [] کە لە نووسیندا زانیاری زیادە لە ناویاندا دەنووسرێت. لە بیرکاریدا بەشێک لە ھاوکێشە لە ناو () دەنووسرێت. لە نووسیندا لێدوانی نووسەر لە ناو [] دەنووسرێت."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -177,7 +177,7 @@ class EnglishEntrybracket extends StatelessWidget {
                                       "Publication dates are given in brackets after each title."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوای هەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
+                                      "لە دوای ھەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,7 +285,7 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) دادانی خەڵکی یان شت لە هەمان کۆمەڵەدا"),
+                                  "٤. (کردار) دادانی خەڵکی یان شت لە ھەمان کۆمەڵەدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -293,7 +293,7 @@ class EnglishEntrybracket extends StatelessWidget {
                                       "It is unfair to bracket together those who cannot work with those who will not."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە هەمان کۆمەڵە پۆلێن بکرێن."),
+                                      "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە ھەمان کۆمەڵە پۆلێن بکرێن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,7 +315,7 @@ class EnglishEntrybracket extends StatelessWidget {
                                       "The two writers are often bracketed together by critics."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەهێنرێن."),
+                                      "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەھێنرێن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -380,7 +380,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bracket (Derived forms: brackets)
+- Noun: bracket (derived forms: brackets)
 1. [Brit] Either of two punctuation marks, "(" or ")", used to enclose textual material (= parenthesis, round bracket [Brit])
  
 2. Either of two punctuation marks ([ or ]) used to enclose textual material (= square bracket)
@@ -391,7 +391,7 @@ class EnglishMeaning extends StatelessWidget {
  
 5. A support projecting from a wall (as to hold a shelf) (= wall bracket)
 
-- Verb: bracket (Derived forms: bracketing, bracketed, brackets)
+- Verb: bracket (derived forms: bracketing, bracketed, brackets)
 1. Support with brackets
 "bracket bookshelves"
  

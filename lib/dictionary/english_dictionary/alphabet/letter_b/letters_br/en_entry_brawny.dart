@@ -162,16 +162,16 @@ class EnglishEntrybrawny extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بازۆڵەبەهێز، بەتین، بەبڕشت، بەتابشت، بەشیان، بەستین، بەهێز، نیرگ، بەقەوەت
+کوردی: بازۆڵەبەھێز، بەتین، بەبڕشت، بەتابشت، بەشیان، بەستین، بەھێز، نیرگ، بەقەوەت
 
-١. (ھاوەڵناو) کەسێک کە ماسولکەی بەهێزی هەیە"""),
+١. (ھاوەڵناو) کەسێک کە ماسولکەی بەھێزی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a great brawny brute of a man."),
                               const ExampleSentenceKurdish(
-                                  text: "کەڵەگایەکی گەورەی بازۆڵەبەهێز بوو."),
+                                  text: "کەڵەگایەکی گەورەی بازۆڵەبەھێز بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,7 +257,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: brawny (Derived forms: brawnier, brawniest)
+- Adjective: brawny (derived forms: brawnier, brawniest)
 1. (of a person) possessing physical strength and weight; rugged and powerful (= hefty, muscular, powerful, sinewy, muscly)
 "a brawny athlete";
 """,
@@ -273,7 +273,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/lDeFSOUHdH4?t=";
+  static String myVideoId = "lDeFSOUHdH4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +298,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/4vQxnENSSLM?t=";
+  static String myVideoId = "4vQxnENSSLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +323,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/15AHUZpNDMw?t=";
+  static String myVideoId = "15AHUZpNDMw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +348,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/wsqCjO3D9yc?t=";
+  static String myVideoId = "wsqCjO3D9yc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/eXkxNIVH_TM?t=";
+  static String myVideoId = "eXkxNIVH_TM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +398,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/irdxDZ-Dgdg?t=";
+  static String myVideoId = "irdxDZ-Dgdg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -423,7 +423,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/-tt1HkiTcZ0?t=";
+  static String myVideoId = "-tt1HkiTcZ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +448,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/y3He3JEHfgE?t=";
+  static String myVideoId = "y3He3JEHfgE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -473,7 +473,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/fAaGp5ol9GU?t=";
+  static String myVideoId = "fAaGp5ol9GU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -498,7 +498,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/HqcPxSuReBY?t=";
+  static String myVideoId = "HqcPxSuReBY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -523,7 +523,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/na4XkAFyH-o?t=";
+  static String myVideoId = "na4XkAFyH-o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

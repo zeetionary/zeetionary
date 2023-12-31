@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brass band (Derived forms: brass bands)
+- Noun: brass band (derived forms: brass bands)
 1. A group of musicians playing only brass and percussion instruments
 """,
           )

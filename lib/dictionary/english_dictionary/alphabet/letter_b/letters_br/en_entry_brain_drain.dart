@@ -161,7 +161,7 @@ class EnglishEntrybraindrain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کۆچی کەسانی زیرەک و شارەزا بۆ وڵاتێکی تر کە تێیدا دەتوانن باشتر بژین و داهاتیان باشتر بێت"""),
+١. (ناو) کۆچی کەسانی زیرەک و شارەزا بۆ وڵاتێکی تر کە تێیدا دەتوانن باشتر بژین و داھاتیان باشتر بێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brain drain (Derived forms: brain drains)
+- Noun: brain drain (derived forms: brain drains)
 1. Depletion or loss of intellectual and technical personnel
 """,
           )

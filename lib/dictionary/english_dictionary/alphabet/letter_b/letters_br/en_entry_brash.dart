@@ -162,7 +162,7 @@ class EnglishEntrybrash extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌شەرم، ڕوودار، ڕووهەڵماڵراو، نەترس، ئازا، بەپەلە، بەپڕتاو 
+کوردی: بێ‌شەرم، ڕوودار، ڕووھەڵماڵراو، نەترس، ئازا، بەپەلە، بەپڕتاو 
 
 ١. (ھاوەڵناو) نەترس و متمانەبەخۆبوو"""),
                           Row(
@@ -172,7 +172,7 @@ class EnglishEntrybrash extends StatelessWidget {
                                       "Beneath his brash exterior, he's still a little boy inside."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە هێشتا منداڵێکی بچووکە."),
+                                      "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە ھێشتا منداڵێکی بچووکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,7 +197,7 @@ class EnglishEntrybrash extends StatelessWidget {
                                       "Don't you think that suit's a bit brash for a funeral?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟"),
+                                      "ھەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,7 +262,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: brash (Derived forms: brasher, brashest)
+- Adjective: brash (derived forms: brasher, brashest)
 1. Offensively bold (= cheeky, nervy [N. Amer, informal])
 "a brash newcomer disputed the age-old rules for admission to the club";
 """,

@@ -236,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bracelet (Derived forms: bracelets)
+- Noun: bracelet (derived forms: bracelets)
 1. A band of cloth, leather or metal links attached to a wristwatch and wrapped around the wrist (= watchband, watchstrap, wristband, watch bracelet)
  
 2. Jewellery worn around the wrist for decoration (= bangle)
@@ -478,7 +478,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "yvp1SaIEPW0?t=";
+  static String myVideoId = "yvp1SaIEPW0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

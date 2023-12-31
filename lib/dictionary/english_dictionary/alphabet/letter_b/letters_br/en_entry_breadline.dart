@@ -5,85 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "Braille" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "breadline" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 enum TtsState { playing }
 
-class EnglishEntrybraille extends StatelessWidget {
+class EnglishEntrybreadline extends StatelessWidget {
 // blank divider
-  EnglishEntrybraille({super.key});
+  EnglishEntrybreadline({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbraille(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadline(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Braille"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breadline"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All the exhibits are labelled in Braille."); // DOPSUM: CHANGE TEXT
+        "Many people without jobs are living on the breadline."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most students are on/close to/below the breadline."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You'll see breadlines outside many New York churches at lunchtime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadlines44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadlines55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadlines66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrailles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbraille
+  Future<void> speakbreadlines7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrailles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreadlines77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +102,22 @@ class EnglishEntrybraille extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Braille"),
+                            EntryTitle(word: "breadline"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /breɪl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbredlaɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbraille("en-GB"),
+                              onPressed: () => speakbreadline("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /breɪl/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbredlaɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbraille("en-US"),
+                              onPressed: () => speakbreadline("en-US"),
                             ),
                           ],
                         ),
@@ -133,13 +135,13 @@ class EnglishEntrybraille extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -161,25 +163,71 @@ class EnglishEntrybraille extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھێڵی بریل، ھێڵ یان ئەلفوبێی بریل
+کوردی: ڕیزی خێروەرگران، ھەژاری، نەداری، دەستەنگی
 
-١. (ناو) سیستەمێکی نووسین بۆ کەسانی نابینا کە تێیدا پیرەکان و ژمارەکان بە خاڵی بەرزەوەبوو دەنووسرێن و دەتوانرێن بخوێنرێنەوە بە دەستھێنان بە سەریاندا"""),
+١. (ناو) کەمترین بڕی داھات کە ژیان پێی بەڕێوەدەچێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "All the exhibits are labelled in Braille."),
+                                      "Many people without jobs are living on the breadline (= are very poor)."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو شتەکان بە بریڵ لەسەریان نووسراوە."),
+                                  text: "زۆر خەڵک لە ھێڵی ھەژاریدا دەژین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrailles1("en-GB"),
+                                    onPressed: () => speakbreadlines1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrailles1("en-US"),
+                                    onPressed: () => speakbreadlines1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Most students are on/close to/below the breadline."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆر خوێندکار لە/نزیک لە/لە ژێر ھێڵی ھەژاریدا دەژین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreadlines2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreadlines2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ژمارەیەک خەڵک کە ڕیزیان بەستووە لە شوێنێک بۆ ئەوەی خواردنیان پێ بدرێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You'll see breadlines outside many New York churches at lunchtime."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کاتی نانی نیوەڕۆدا زۆر ڕیزی خێروەرگران دەبینیت لە دەرەوەی کڵێساکان لە نیویۆرک."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreadlines3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreadlines3("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,8 +246,8 @@ class EnglishEntrybraille extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -236,14 +284,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: Braille (derived forms: brailling, brailled, Brailles, brailles)
-1. A point system of writing in which patterns of raised dots represent letters and numerals
-
-- Verb: Braille
-1. Transcribe in Braille
-
-- Noun: Braille
-1. French educator who lost his sight at the age of three and who invented a system of writing and printing for sightless people (1809-1852) (= Louis Braille)
+- Noun: breadline (derived forms: breadlines, bread lines)
+1. A queue of people waiting for free food (= bread line)
 """,
           )
         ],
@@ -257,82 +299,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "d_fHun8jj2g";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "uUEdjGTIB9Y";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "a8AEkwtNEiM";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "LQ_3OYOs1Ew";
+  static String myVideoId = "FVpaCyO8f5o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,15 +321,90 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "G60Oo_O0LEg";
+  static String myVideoId = "UlNiK2mgyPY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3, // DOPSUM: CHANGE IT
+      startAt: 550, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "cbzyHaWlcHI";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1274, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "HbcCDBTFLCo";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 510, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "opoGlCP20Co";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 586, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -382,12 +424,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "QJ8VLJDzt_4";
+  static String myVideoId = "nZxWcnymsJE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,12 +449,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RzC9Yerv00M";
+  static String myVideoId = "9O_GnoU4nu4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 786, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -432,12 +474,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "02dd5IyCUh8";
+  static String myVideoId = "a5JjJ2QlBng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 186, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,12 +499,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "o9BOQ6IpTSE";
+  static String myVideoId = "1QTcyYU34_8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 1650, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -482,12 +524,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "cwKWVvhtnYw";
+  static String myVideoId = "DWTdABooCw0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1011, // DOPSUM: CHANGE IT
+      startAt: 1125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -507,12 +549,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "f-QVa7Wb6QI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 190, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -532,12 +574,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "AGaPaOPNubo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 79, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,4 +599,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // more than one video, only first autoplay
 
 // haʊʊʊʊʊʊʊ4
-// end braille
+// end breadline

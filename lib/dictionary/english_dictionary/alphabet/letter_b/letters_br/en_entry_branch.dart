@@ -298,7 +298,7 @@ class EnglishEntrybranch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لک، لق، تا، لپ، فاق، تاقیشک، قەڵبە، لەژگ، نیهال، قیت، گلم، شاخ(ە)، لک، لق، بەش، پشک، کەرت
+کوردی: لک، لق، تا، لپ، فاق، تاقیشک، قەڵبە، لەژگ، نیھال، قیت، گلم، شاخ(ە)، لک، لق، بەش، پشک، کەرت
 
 ١. (ناو) لقی دار؛ ئەو بەشەی کە لە قەدەکەوە دەردەچێت و گەڵا و میوە و گوڵ لەسەری گەشە دەکات"""),
                           Row(
@@ -402,7 +402,7 @@ class EnglishEntrybranch extends StatelessWidget {
                                       "The idea was so popular, other branches of government copied it."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بیرۆکەکە هێندە پەسەندکراو بوو بەشەکانی دیکەی حکومەت کۆپییان کرد."),
+                                      "بیرۆکەکە ھێندە پەسەندکراو بوو بەشەکانی دیکەی حکومەت کۆپییان کرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,7 +443,7 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) لقێکی ڕووبارێک، شەقامێک، سکەی شەمەندەفەرێک، هتد کە لە بەشی سەرەکی جیادەبێتەوە"),
+                                  "٥. (ناو) لقێکی ڕووبارێک، شەقامێک، سکەی شەمەندەفەرێک، ھتد کە لە بەشی سەرەکی جیادەبێتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -468,7 +468,7 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) گرووپێک لە خێزانێک کە هەموویان هەمان باوانیان هەیە"),
+                                  "٦. (ناو) گرووپێک لە خێزانێک کە ھەموویان ھەمان باوانیان ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -588,7 +588,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: branch (Derived forms: branches)
+- Noun: branch (derived forms: branches)
 1. A division of some larger or more complex organization (= subdivision, arm)
 "a branch of Congress"; "botany is a branch of biology"; "the Germanic branch of Indo-European languages";
  
@@ -604,7 +604,7 @@ class EnglishMeaning extends StatelessWidget {
 6. Any projection that is thought to resemble a human arm (= arm, limb)
 "a branch of the sewer";
 
-- Verb: branch ((Derived forms: branched, branching, branches))
+- Verb: branch ((derived forms: branched, branching, branches))
 1. Grow and send out branches or branch-like structures (= ramify)
 "these plants branch early and get to be very large";
 

@@ -161,9 +161,9 @@ class EnglishEntrybrackish extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کەمێ سوێر، کەم‌سوێر، دەمی سوێری هەیە، تاڵ، (تام) ناخۆش، بێ‌تام، بێ‌مەزە
+کوردی: کەمێ سوێر، کەم‌سوێر، دەمی سوێری ھەیە، تاڵ، (تام) ناخۆش، بێ‌تام، بێ‌مەزە
 
-١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی هەیە"""),
+١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybrackish extends StatelessWidget {
                                       "Brackish lakes near the coast support unique aquatic life."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌هاوتای زیندەوەری ئاوی لەخۆدەگرێت."),
+                                      "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌ھاوتای زیندەوەری ئاوی لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

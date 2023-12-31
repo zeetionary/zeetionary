@@ -2044,13 +2044,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brazen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brazier.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breach.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breach_of_the_peace.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bread.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breadcrumbs.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breadline.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breadwinner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_breadth.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_break.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -4297,13 +4297,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brazen": (_) => MaterialPage(child: EnglishEntrybrazen()),
   "/english-brazier": (_) => MaterialPage(child: EnglishEntrybrazier()),
   "/english-breach": (_) => MaterialPage(child: EnglishEntrybreach()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-breach-of-the-peace": (_) => MaterialPage(child: EnglishEntrybreachofthepeace()),
+  "/english-bread": (_) => MaterialPage(child: EnglishEntrybread()),
+  "/english-breadcrumbs": (_) => MaterialPage(child: EnglishEntrybreadcrumbs()),
+  "/english-breadline": (_) => MaterialPage(child: EnglishEntrybreadline()),
+  "/english-breadwinner": (_) => MaterialPage(child: EnglishEntrybreadwinner()),
+  "/english-breadth": (_) => MaterialPage(child: EnglishEntrybreadth()),
+  "/english-break": (_) => MaterialPage(child: EnglishEntrybreak()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -171,7 +171,7 @@ class EnglishEntrybrainstorming extends StatelessWidget {
                                       "We need to do some brainstorming before we get down to detailed planning."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەبێت هەندێک بیرکردنەوەی بەکۆمەڵ بکەین پێش ئەوەی دەست بکەین بە پلاندانانی ورد."),
+                                      "دەبێت ھەندێک بیرکردنەوەی بەکۆمەڵ بکەین پێش ئەوەی دەست بکەین بە پلاندانانی ورد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,7 +238,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brainstorming (Derived forms: brainstormings)
+- Noun: brainstorming (derived forms: brainstormings)
 1. A group problem-solving technique in which members spontaneously share ideas and solutions
 "we had an intense brainstorming session today"
 """,

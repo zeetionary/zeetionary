@@ -163,7 +163,7 @@ class EnglishEntrybrawl extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شەڕوشۆڕ، شەڕەشەق، زرم‌وکوت، لێک‌سرەواندن، لێکدان، تێکبەربوون، هەراوهوریا، چەق‌ولوور، قاڵمەقاڵ، چڕەوگوڕە، هەرا
+کوردی: شەڕوشۆڕ، شەڕەشەق، زرم‌وکوت، لێک‌سرەواندن، لێکدان، تێکبەربوون، ھەراوھوریا، چەق‌ولوور، قاڵمەقاڵ، چڕەوگوڕە، ھەرا
 
 ١. (ناو) شەڕی نێوان گرووپێک لە خەڵکی، زۆرجار لە شوێنێکی گشتیدا"""),
                           Row(
@@ -284,10 +284,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brawl (Derived forms: brawls)
+- Noun: brawl (derived forms: brawls)
 1. A noisy fight in a crowd (= free-for-all, stoush [Austral, NZ, informal], bagarre [rare])
 
-- Verb: brawl (Derived forms: brawled, brawling, brawls)
+- Verb: brawl (derived forms: brawled, brawling, brawls)
 1. To quarrel noisily, angrily or disruptively (= wrangle)
  
 2. Fight or struggle in a confused way at close quarters (= scuffle, tussle, stoush [Austral, NZ, informal])
@@ -305,7 +305,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/vIz9lgLjZtY?t=";
+  static String myVideoId = "vIz9lgLjZtY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -330,7 +330,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/fE4Z5hFLrqI?t=";
+  static String myVideoId = "fE4Z5hFLrqI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +355,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/uAPTWTmlc8Q?t=";
+  static String myVideoId = "uAPTWTmlc8Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -380,7 +380,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/vOkzPTAZ8-E?t=";
+  static String myVideoId = "vOkzPTAZ8-E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -405,7 +405,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/XGU9OXPSYyY?t=";
+  static String myVideoId = "XGU9OXPSYyY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -430,7 +430,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/HgThyTH1Ulc?t=";
+  static String myVideoId = "HgThyTH1Ulc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -455,7 +455,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/K_mGNfEogU0?t=";
+  static String myVideoId = "K_mGNfEogU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -480,7 +480,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/FgpF4jbIqgM?t=";
+  static String myVideoId = "FgpF4jbIqgM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

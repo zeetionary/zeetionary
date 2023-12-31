@@ -171,7 +171,7 @@ class EnglishEntrybray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The mules suddenly started braying."),
                               const ExampleSentenceKurdish(
-                                  text: "هێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ."),
+                                  text: "ھێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,7 +195,7 @@ class EnglishEntrybray extends StatelessWidget {
                                   text: "They were all braying with laughter."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموویان سەڕەسەڕیان بوو لە پێکەنیندا."),
+                                      "ھەموویان سەڕەسەڕیان بوو لە پێکەنیندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,7 +219,7 @@ class EnglishEntrybray extends StatelessWidget {
                                       "In the distance they see the glow of the campfires and hear the occasional bray of a mule."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی هێستر."),
+                                      "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی ھێستر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,7 +241,7 @@ class EnglishEntrybray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "He brayed with laughter."),
                               const ExampleSentenceKurdish(
-                                  text: "سەڕەی دەهات لە پێکەنیندا."),
+                                  text: "سەڕەی دەھات لە پێکەنیندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,10 +306,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bray (Derived forms: brays)
+- Noun: bray (derived forms: brays)
 1. The cry of an ass
 
-- Verb: bray (Derived forms: brays, brayed, braying)
+- Verb: bray (derived forms: brays, brayed, braying)
 1. Braying characteristic of donkeys (= hee-haw)
  
 2. Laugh loudly and harshly
@@ -329,7 +329,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/kxPGFEuhT4o?t=";
+  static String myVideoId = "kxPGFEuhT4o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/2dYkHl5NtIk?t=";
+  static String myVideoId = "2dYkHl5NtIk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +379,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/859TCiFeKZ8?t=";
+  static String myVideoId = "859TCiFeKZ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +404,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/EYiSJHsuNQc?t=";
+  static String myVideoId = "EYiSJHsuNQc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +429,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/2CY1K5B4ypc?t=";
+  static String myVideoId = "2CY1K5B4ypc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +454,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/w_tDwkVys74?t=";
+  static String myVideoId = "w_tDwkVys74";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +479,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/2jKcype2Ei4?t=";
+  static String myVideoId = "2jKcype2Ei4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +504,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/D0tWuQAeIzA?t=";
+  static String myVideoId = "D0tWuQAeIzA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -529,7 +529,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ZgYJXAVl7Rg?t=";
+  static String myVideoId = "ZgYJXAVl7Rg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

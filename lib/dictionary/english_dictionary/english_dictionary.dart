@@ -2067,25 +2067,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "brass",
     "brass band",
     "brassière",
-    // "brat",
-    // "bravado",
-    // "brave",
-    // "bravely",
-    // "bravery",
-    // "bravo",
-    // "brawl",
-    // "brawny",
-    // "bray",
-    // "brazen",
-    // "brazier",
-    // "breach",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "brat",
+    "bravado",
+    "brave",
+    "bravely",
+    "bravery",
+    "bravo",
+    "brawl",
+    "brawny",
+    "bray",
+    "brazen",
+    "brazier",
+    "breach",
+    "breach of the peace",
+    "bread",
+    "breadcrumbs",
+    "breadline",
+    "breadth",
+    "breadwinner",
+    // "break",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -10544,77 +10544,77 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-brat");
                   }
-                  // if (wordsEnglish == "bravado") {
+                  if (wordsEnglish == "bravado") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bravado");
+                  }
+                  if (wordsEnglish == "brave") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brave");
+                  }
+                  if (wordsEnglish == "bravely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bravely");
+                  }
+                  if (wordsEnglish == "bravery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bravery");
+                  }
+                  if (wordsEnglish == "bravo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bravo");
+                  }
+                  if (wordsEnglish == "brawl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brawl");
+                  }
+                  if (wordsEnglish == "brawny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brawny");
+                  }
+                  if (wordsEnglish == "bray") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bray");
+                  }
+                  if (wordsEnglish == "brazen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brazen");
+                  }
+                  if (wordsEnglish == "brazier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brazier");
+                  }
+                  if (wordsEnglish == "breach") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breach");
+                  }
+                  if (wordsEnglish == "breach of the peace") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breach-of-the-peace");
+                  }
+                  if (wordsEnglish == "bread") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bread");
+                  }
+                  if (wordsEnglish == "breadcrumbs") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breadcrumbs");
+                  }
+                  if (wordsEnglish == "breadline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breadline");
+                  }
+                  if (wordsEnglish == "breadwinner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breadwinner");
+                  }
+                  if (wordsEnglish == "breadth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breadth");
+                  }
+                  // if (wordsEnglish == "break") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bravado");
-                  // }
-                  // if (wordsEnglish == "brave") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brave");
-                  // }
-                  // if (wordsEnglish == "bravely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bravely");
-                  // }
-                  // if (wordsEnglish == "bravery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bravery");
-                  // }
-                  // if (wordsEnglish == "bravo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bravo");
-                  // }
-                  // if (wordsEnglish == "brawl") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brawl");
-                  // }
-                  // if (wordsEnglish == "brawny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brawny");
-                  // }
-                  // if (wordsEnglish == "bray") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bray");
-                  // }
-                  // if (wordsEnglish == "brazen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brazen");
-                  // }
-                  // if (wordsEnglish == "brazier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brazier");
-                  // }
-                  // if (wordsEnglish == "breach") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breach");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-break");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

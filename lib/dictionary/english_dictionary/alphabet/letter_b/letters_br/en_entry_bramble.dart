@@ -164,7 +164,7 @@ class EnglishEntrybramble extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دەوەنی توودڕکی، دڕکەدەوەن، دەوەنێکی دڕکاوی
 
-١. (ناو) دەوەنێکی سرووشتی کە دڕکی هەیە و تووتڕکی ڕەش دەگرێت"""),
+١. (ناو) دەوەنێکی سرووشتی کە دڕکی ھەیە و تووتڕکی ڕەش دەگرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -260,12 +260,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bramble (Derived forms: brambles)
+- Noun: bramble (derived forms: brambles)
 1. Any of various rough thorny shrubs or vines
  
 2. Large sweet black or very dark purple edible aggregate fruit of any of various bushes of the genus Rubus (= blackberry)
 
-- Verb: bramble (Derived forms: brambles, brambled, brambling)
+- Verb: bramble (derived forms: brambles, brambled, brambling)
 Usage: Brit
 1. Pick or gather blackberries (= blackberry)
 """,

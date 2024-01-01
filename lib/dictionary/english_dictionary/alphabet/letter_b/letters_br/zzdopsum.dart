@@ -5,8 +5,6 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "dopsum1" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
 enum TtsState { playing }
 
 class EnglishEntrydopsum1 extends StatelessWidget {
@@ -171,7 +169,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                       "speakdopsum1s111111111111111111111111111111111"),
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "dopsum1" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
@@ -236,8 +234,10 @@ class EnglishMeaning extends StatelessWidget {
           EnglishMeaningConst(
             text: """
 
-WORD_WEB haʊʊʊʊʊʊʊ4
-
+WORD_WEB
+dopsum1
+WORD_WEB 
+haʊʊʊʊʊʊʊ4
 WORD_WEB
 """,
           )
@@ -549,10 +549,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// more than one video, only first autoplay
-
-// haʊʊʊʊʊʊʊ4
-// end dopsum1
+// end WORD_WEB
 
 // divider
 // divider

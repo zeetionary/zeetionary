@@ -188,7 +188,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their sleep was broken by noise from the street."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks20(String languageCode) async {
@@ -196,7 +197,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She broke the silence by coughing."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks21(String languageCode) async {
@@ -204,7 +206,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The phone rang, breaking my concentration."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks22(String languageCode) async {
@@ -212,7 +215,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They decided to break their journey in Singapore."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks23(String languageCode) async {
@@ -220,7 +224,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Management has not succeeded in breaking the strike."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks24(String languageCode) async {
@@ -228,7 +233,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The thieves broke the safe open and stole the diamonds."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks25(String languageCode) async {
@@ -236,7 +242,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He broke all ties with his parents."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks26(String languageCode) async {
@@ -244,7 +251,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He finally managed to break free from his attacker."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks27(String languageCode) async {
@@ -252,7 +260,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The horse tried to break free from its stable."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks28(String languageCode) async {
@@ -260,7 +269,7 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The scandal broke him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks29(String languageCode) async {
@@ -268,7 +277,8 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She broke under questioning and confessed to everything."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaks30(String languageCode) async {
@@ -276,7 +286,350 @@ class EnglishEntrybreak extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreaks3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Williams broke her opponent's serve five times."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks31(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The death of his wife broke him completely."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks32(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "On the third day the weather broke and they had a violent storm."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks33(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The clouds broke and the sun came out."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks34(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "When his head broke the surface he took in deep gulps of air."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks35(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Dawn was breaking when they finally left."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks36(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We arrived just as a storm was breaking."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks37(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There was a public outcry when the scandal broke."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks38(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Who's going to break it to her?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks39(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I'm sorry to be the one to break the news to you."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks40(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her voice broke as she told us the dreadful news."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks41(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("His voice broke when he was 13."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks42(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The movie broke all box-office records."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks43(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("A huge wave broke against the rocks."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks44(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The enemy were unable to break the code."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks45(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Can you break a twenty-dollar bill?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks46(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She was on her lunch break."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks47(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She worked all day without a break."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks48(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Come and see me at break."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks49(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Employees can take a career break of up to one year."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks50(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The team have been taking a break in Spain."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks51(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I'll make us a cup of tea in the next break."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks52(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("It's a great city for a weekend break."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks53(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He needed to make a complete break with the past."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks54(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Their decision to not name their daughter Jane was a break with family tradition."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks55(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Wait for a break in the traffic before crossing the road."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks56(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Wait for a break in the traffic before crossing the road."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks57(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We've had a few bad breaks along the way."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks58(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "If you just give me a break, you won’t regret it."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks59(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The X-ray showed there was no break in his leg."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks60(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Murray must get another break to win."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks61(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The champion began with breaks of 74 and 58."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks62(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6262"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks63(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6363"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks64(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6464"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks65(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6565"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks66(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6666"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks67(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6767"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks68(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6868"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbreaks69(String languageCode) async {
+    // DOPSUM: CHANGE speakbreak
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbreaks6969"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -788,6 +1141,1010 @@ class EnglishEntrybreak extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakbreaks18("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their sleep was broken by noise from the street."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە خەو ڕاپەڕین بە دەنگەدەنگی سەر شەقامەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks19("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) وەستاندنی شتێک لە ناکاو بەشێوەیەک کە کۆتایی پێ دێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She broke the silence by coughing."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە کۆکەیەک کۆتایی بە بێ‌دەنگییەکە هێنا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks20("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The phone rang, breaking my concentration."),
+                              const ExampleSentenceKurdish(
+                                  text: "موبایلەکە زەنگی لێدا و سەرنجمی برد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks21("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They decided to break their journey in Singapore."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بڕیاریاندا لە سەنگاپوورە کۆتایی بە گەشتەکەیان بێنن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks22("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (کردار) کۆتایی هێنانی شتێک بە هێز"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Management has not succeeded in breaking the strike."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەڕێوبەرایەتییەکە نەیتوانی مانگرتنەکە کۆتایی پێ‌بهێنێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks23("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The thieves broke the safe open and stole the diamonds."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دزەکان قاسەکەیان شکاندبوو و ئەڵماسەکانیان دزی بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) پچڕانی پەیوەندی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He broke all ties with his parents."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەموو پەیوەندییەکی لەگەڵ دایک و باوکی پچڕاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) هەڵهاتن لە شوێنێک یان لەدەست کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He finally managed to break free from his attacker."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کۆتاییدا توانی لەدەست هێرشکارەکەی هەڵبێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The horse tried to break free from its stable."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەسپەکە هەوڵیدا لە تەویلەکە هەڵبێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks27("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (کردار) لاوازکردن یان لاوازبوون؛ وێرانبوون یان وێرانکردن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The scandal broke him (= ruined his reputation and destroyed his confidence)."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئابڕووچوونەکە کۆتایی پێهێنا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks28("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She broke under questioning (= was no longer able to bear it) and confessed to everything."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شەکەت بوو بەدەست پرسیارەوە و دانی بە هەموو شتێکدا نا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks29("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks29("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١١. (کردار) لە تێنسدا بردنەوەی یارییەکەیە لەکاتێکدا ڕکابەرەکە یەکەم سێرڤ لێدەدات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Williams broke her opponent's serve five times."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ولیام پێنج جار وەڵامی سێرڤی بەرامبەرەکەی دایەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks30("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks30("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٢. (کردار) وا لە کەسێک بکەیت هەست بە بێزاری، تەنهایی، هتد بکات و ژیانێکی ئاسایی نەژی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The death of his wife broke him completely."),
+                              const ExampleSentenceKurdish(
+                                  text: "مردنی هاوژینەکەی بەتەواوی تێکیشکاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks31("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks31("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٣. (کردار) کەشوهەوایەک کە دەگۆڕێت، بەتایبەتی لەدوای ماوەیەک لە باشبوون"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "On the third day the weather broke and they had a violent storm."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ڕۆژی سێیەمدا کەشەکە گۆڕا و زریانێکی بەهێز هات."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks32("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks32("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٤. (کردار) هەورێک کە شەقێکی تێدەکەوێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The clouds broke and the sun came out."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەورەکان شەقبوون و خۆرەکە دەرکەوت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks33("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks33("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٥. (کردار) هاتنە دەرەوە لە دەریایەک، مەلەوانگەیەک، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "When his head broke the surface he took in deep gulps of air."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کە لە ڕووی دەریاکەوە هاتە دەرەوە هەناسەی قووڵی هەڵمژی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks34("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks34("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٦. (کردار) کە ڕۆژ، بەیانی، یان زریانێک دەستپێ دەکات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Dawn was breaking when they finally left."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەرەبەیان دەستی‌‌پێکرد کە لەکۆتاییدا ڕۆشتن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks35("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks35("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We arrived just as a storm was breaking."),
+                              const ExampleSentenceKurdish(
+                                  text: "گەشتین کە زریانێک دەستی‌پێدەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks36("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks36("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٧. (کردار) ئاشکراکردنی هەواڵێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was a public outcry when the scandal broke."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ناڕەزاییەکی زۆر هەبوو کە ئابڕووچوونەکە ئاشکرابوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks37("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks37("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٨. (کردار) بوون بە یەکەم کەس هەواڵێکی ناخۆش بە کەسێک بڵێیت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Who's going to break it to her?"),
+                              const ExampleSentenceKurdish(
+                                  text: "کێ هەواڵەکەی پێ‌ دەڵێت؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks38("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks38("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'm sorry to be the one to break the news to you."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەداخەوەم کە دەبم بەو کەسەی هەواڵەکەت پێ ڕادەگەیەنم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks39("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks39("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٩. (کردار) گۆڕانی تۆنی دەنگ بەهۆی هەستو سۆزەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Her voice broke as she told us the dreadful news."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەنگی دەلەرزی کە هەواڵە ناخۆشەکەی پێ گوتین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks40("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks40("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٠. (کردار) کە دەنگی کوڕێک وەک دەنگی پیاوی لێ دێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "His voice broke when he was 13."),
+                              const ExampleSentenceKurdish(
+                                  text: "دەنگی گڕ بوو کە ١٣ ساڵان بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks41("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks41("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢١. (کردار) شکاندنی ڕیکۆردێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The movie broke all box-office records."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فیلمەکە هەموو ڕیکۆردەکانی بۆکس ئۆفیسی شکاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks42("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks42("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٢. (کردار) کە شەپۆلێک دەکێشێت بە شتێکدا، و دەکەوێت و نامێنێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "A huge wave broke against the rocks."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شەپۆلێکی گەورە کێشای بە تاشە بەردەکاندا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks43("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks43("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢٣. (کردار) زانینی واتای شتێکی نهێنی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The enemy were unable to break the code (= understand it and so make it useless)."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دووژمن نەیانتوانی واتای کۆدەکە بزانن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks44("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks44("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢٤. (کردار) دراوێکی دۆلار بگۆڕیت بۆ دراو"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Can you break a twenty-dollar bill?"),
+                              const ExampleSentenceKurdish(
+                                  text: "دەتوانیت ٢٠ دۆلارییەک ورد بکەیتەوە؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks45("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks45("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٥. (ناو) وچانێکی کەم بۆ حەسانەوە، نان خواردن، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She was on her lunch break."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە پشووی نانی نیوەڕۆی بوو؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks46("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks46("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She worked all day without a break."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەواوی ڕۆژەکە بەبێ پشوو کاری کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks47("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks47("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢٦. (ناو) پشووی نێوان وانەکانی خوێندنگە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Come and see me at break."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە پشووەکەدا وەرە بۆ لام."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks48("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks48("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٧. (ناو) ماوەیەک کە شتێک دەوەستێت پێش ئەوەی دووبارە دەستپێ‌بکاتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Employees can take a career break of up to one year."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارمەندان دەتوانن دابڕانک لە کارکردن وەربگرن بۆ ماوەی یەک ساڵ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks49("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks49("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The team have been taking a break in Spain."),
+                              const ExampleSentenceKurdish(
+                                  text: "تیمەکە پشوو لە ئیسپانیا وەردەگرن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks50("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks50("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢٨. (ناو) ماوەیەکی کەم پڕؤگرامێکی تەلەفیزیۆنی یان ڕادیۆ دەوەستێت بۆ پیشاندانی سپۆنسەر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'll make us a cup of tea in the next break."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێڵایەک چا بۆ هەردووکمان ئامادە دەکەم لە وچانی دواتردا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks51("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks51("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢٩. (ناو) پشوویەکی کورت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It's a great city for a weekend break."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شارێکی خۆشە بۆ پشوویەکی کۆتایی هەفتە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks52("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks52("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣٠. (ناو) ئەو ساتەی کە دۆخێک یان پەیوەندییەک کە بۆ ماوەیەکی درێژە بوونی هەیە دەگۆڕێت، کۆتایی دێت، یان دەپچڕێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He needed to make a complete break with the past."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستی بوو دابڕانێکی تەواو لە ڕابردوو وەربگرێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks53("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks53("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their decision to not name their daughter Jane was a break with family tradition."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بڕیارەکەیان کە منداڵەکەیان ناو نەنێن جەین دابڕانێک بوو لە نەریتی خێزانەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks54("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks54("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣١. (ناو) شەقێک یان بۆشاییەک لە نێوان دوو شت یان زیاتر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We could see the moon through a break in the clouds."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەمانتوانی مانگ ببینین لە شەقێکەوە لە هەورەکاندا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks55("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks55("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Wait for a break in the traffic before crossing the road."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بوەستە بەینێک بکەوێتە ترافیکەوە پێش ئەوەی بپەڕیتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks56("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks56("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣٢. (ناو) بەختێک، دەرفەتێک بۆ کردنی شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We've had a few bad breaks (= pieces of bad luck) along the way."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تووشی هەندێک بەختی خراپ بووین لە پڕۆسەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks57("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks57("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If you just give me a break, you won’t regret it."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر دەرفەتێکم پێ بدەیت پەشیمان نابی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks58("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks58("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣٣. (ناو) شوێنی شکان، بەتایبەتی لە ئێسکی جەستەدا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The X-ray showed there was no break in his leg."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تیشکە ئێکسەکە دەریخست هیچ شکانێک لە لاقیدا نییە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks59("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks59("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣٤. (ناو) لە تێنسدا بردنەوە لە یارییەکە کە ڕکابەرەکەت یەکەم سێرڤ لێ دەدات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Murray must get another break to win."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مۆرای دەبێت بردنەوەیەکی دیکەی هەبێت بۆ ئەوەی بباتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks60("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks60("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣٥. (ناو) لە بلیارددا ژمارەی ئەو خاڵانەیە کە بە زنجیرەیەک لە لێدانی سەرکەوتووانە لەلایەن یاریزانێکەوە لە یەک نۆرەدا بەدەست دێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The champion began with breaks of 74 and 58."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پاڵەوانەکە دەستی پێکرد بە بردنەوەی خاڵی ٧٤ و ٥٨ی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaks61("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaks61("en-US"),
                                   ),
                                 ],
                               ),

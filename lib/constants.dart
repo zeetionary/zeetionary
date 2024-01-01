@@ -912,7 +912,7 @@ class CustomSizedBoxForTTS extends StatelessWidget {
 class EmptyPageIcon extends StatefulWidget {
   final String text;
 
-  // https://chat.openai.com/c/ab801473-3515-4870-bb46-1526257466b9
+  // (not zee) https://chat.openai.com/c/ab801473-3515-4870-bb46-1526257466b9
 
   const EmptyPageIcon({super.key, required this.text});
 

@@ -208,78 +208,61 @@ class EnglishEntrybread extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Column(
+                          Row(
                             children: [
-                              MyExpansionTile(
+                              const ExampleSentenceEnglish(
+                                  text: "This bread is going stale."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەم نانە خەریکە خراپ دەبێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text: "This bread is going stale."),
-                                      const ExampleSentenceKurdish(
-                                          text: "ئەم نانە خەریکە خراپ دەبێت."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreads3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreads3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreads3("en-GB"),
                                   ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "What would you like on your bread?"),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "حەز دەکەیت چی بە نانەکەتەوە بێت؟"),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreads4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreads4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreads3("en-US"),
                                   ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "He ate his soup with a slice of bread."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "شۆرباکەی خوارد بە پارچەیەک نانەوە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreads5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreads5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "What would you like on your bread?"),
+                              const ExampleSentenceKurdish(
+                                  text: "حەز دەکەیت چی بە نانەکەتەوە بێت؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreads4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreads4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He ate his soup with a slice of bread."),
+                              const ExampleSentenceKurdish(
+                                  text: "شۆرباکەی خوارد بە پارچەیەک نانەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreads5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreads5("en-US"),
                                   ),
                                 ],
                               ),

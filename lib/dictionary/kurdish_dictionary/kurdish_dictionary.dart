@@ -136,7 +136,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     setState(() {}); // Rebuild the list view with the updated order.
   }
 
-  // https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
+  // (not zee) https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
 
   @override
   void dispose() {

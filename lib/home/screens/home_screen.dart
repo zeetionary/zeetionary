@@ -7,7 +7,7 @@ import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/drawers/community_list_drawer.dart';
-import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
+// import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
@@ -30,13 +30,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     ref.read(themeNotifierProvider.notifier).toggleTheme();
   }
 
-  void goToHistory(BuildContext context) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (context) => const HistoryScreen(),
-      ),
-    );
-  }
+  // void goToHistory(BuildContext context) {
+  //   Navigator.of(context).push(
+  //     MaterialPageRoute(
+  //       builder: (context) => const HistoryScreen(),
+  //     ),
+  //   );
+  // }
 
   // final List<Widget> _pages = [
   //   const DictionaryScreenEnglish(), // Replace with your content for Page 1
@@ -84,7 +84,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             icon:
                 ref.watch(themeNotifierProvider.notifier).mode == ThemeMode.dark
                     ? const Icon(
-                        // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
+                        // (not zee) https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
                         Icons.nightlight_round,
                         // color: Colors.yellow, // Customize the moon color
                       )

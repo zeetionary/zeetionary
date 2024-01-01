@@ -33,14 +33,29 @@ class CommunityListDrawer extends ConsumerWidget {
             //     );
             //   },
             // ),
+            // ListTile(
+            //   title: const Text('بچۆ دەرەوە'),
+            //   leading: Icon(
+            //     Icons.logout,
+            //     color: Pallete.redColor,
+            //   ),
+            //   onTap: () => logOut(ref),
+            // ),
             ListTile(
-              title: const Text('بچۆ دەرەوە'),
+              title: Text(
+                'بچۆ دەرەوە',
+                style: TextStyle(
+                  // fontWeight: FontWeight.bold, // Adjust font weight if needed
+                  fontSize: 16.0, // Adjust font size if needed
+                  color: Pallete.redColor, // Use your specific color
+                ),
+              ),
               leading: Icon(
                 Icons.logout,
-                color: Pallete.redColor,
+                color: Pallete.redColor, // Match the color with the text
               ),
               onTap: () => logOut(ref),
-            ),
+            )
             // Switch.adaptive(
             //   value: ref.watch(themeNotifierProvider.notifier).mode ==
             //       ThemeMode.dark,

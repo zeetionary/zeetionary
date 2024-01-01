@@ -10590,7 +10590,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "breach of the peace") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-breach-of-the-peace");
+                    Routemaster.of(context)
+                        .push("/english-breach-of-the-peace");
                   }
                   if (wordsEnglish == "bread") {
                     saveToHistory(wordsEnglish);
@@ -10672,7 +10673,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     setState(() {}); // Rebuild the list view with the updated order.
   }
 
-  // https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
+  // (not zee) https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
 
   @override
   void dispose() {

@@ -7,77 +7,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybreathless extends StatelessWidget {
+class EnglishEntrybreed extends StatelessWidget {
 // blank divider
-  EnglishEntrybreathless({super.key});
+  EnglishEntrybreed({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbreathless(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreed(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breathless"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breed"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He arrived breathless at the top of the stairs."); // DOPSUM: CHANGE TEXT
+        "Many animals breed only at certain times of the year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They maintained a breathless pace for half an hour."); // DOPSUM: CHANGE TEXT
+        "The rabbits are bred for their long coats."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children peered through the open door, breathless with excitement."); // DOPSUM: CHANGE TEXT
+        "Some teachers believe that early failures can later breed success."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Fear of failure was bred into him at an early age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This breed is used for both milk and meat production."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He represents a new breed of politician."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreeds7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It takes a special breed of person to be a surgeon."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -100,22 +104,22 @@ class EnglishEntrybreathless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "breathless"),
+                            EntryTitle(word: "breed"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbreθləs/"),
+                            const IPAofEnglish(text: "IpaUK: /briːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbreathless("en-GB"),
+                              onPressed: () => speakbreed("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbreθləs/"),
+                            const IPAofEnglish(text: "IpaUS: /briːd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbreathless("en-US"),
+                              onPressed: () => speakbreed("en-US"),
                             ),
                           ],
                         ),
@@ -161,25 +165,146 @@ class EnglishEntrybreathless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەناسکەبڕکێ، هاسکەهاسک، لەهەناسەکەوتوو، تامەزرۆ، بەپەرۆش
+کوردی: ڕەگەز، نژاد، نفش، بەرە، نەوە، جۆر، چەشن، ئاوا، پۆل، سینف، دەست
 
-١. (ھاوەڵناو) هەبوونی سەختی لە هەناسەداندا"""),
+١. (کردار) جووتبوون و وەچەخستنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He arrived breathless at the top of the stairs."),
+                                      "Many animals breed only at certain times of the year."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە هەناسەبڕکێوە گەشتە سەرەوەی پلەکانەکە."),
-                              const CustomSizedBoxForTTS(), // Define the word "breathless" as
+                                      "زۆر ئاژەڵ تەنها لە هەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
+                              const CustomSizedBoxForTTS(), // Define the word "breed" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss1("en-GB"),
+                                    onPressed: () => speakbreeds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss1("en-US"),
+                                    onPressed: () => speakbreeds1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) بەخێوکردنی ئاژەڵ بۆ ئەوەی وەچە بخەنەوە بۆ مەبەستێکی دیاریکراو"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The rabbits are bred for their long coats."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەروێشک بۆ تووکە درێژەکەیان بەخێودەکرێن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreeds2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreeds2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) بوون بە هۆکاری شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Some teachers believe that early failures can later breed success."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەندێک مامۆستا باوەڕیان وایە شکستهێنانی سەرەتا دەبێتەهۆی سەرکەوتن لە داهاتوودا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreeds3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreeds3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) پەروەردەکردنی کەسێک بەشێوەیەکی تایبەتی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Fear of failure was bred into him at an early age."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ترسی شکست لە تەمەنی منداڵییەوە تێدا چێنرا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreeds4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreeds4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) جۆرێکی تایبەتی ئاژەڵ کە لەلایەن خۆڵکییەوە بە جۆرێکی تایبەت گەورەکراوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This breed is used for both milk and meat production."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم چەشنە بەکاردێت بۆ بەرهەمهێنانی شیر و گۆشت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreeds5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreeds5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٦. (ناو) جۆرە کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He represents a new breed of politician."),
+                              const ExampleSentenceKurdish(
+                                  text: "جۆرێکی تازەی سیاسەتمەدارە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreeds6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreeds6("en-US"),
                                   ),
                                 ],
                               ),
@@ -190,42 +315,18 @@ class EnglishEntrybreathless extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "They maintained a breathless (= very fast) pace for half an hour."),
+                                      "It takes a special breed of person to be a surgeon."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆ نزیکەی نیو کاتژمێر بەبێ هەناسەبڕکێ (= بە خێرایی) ڕایان کرد."),
+                                      "جۆرە کەسێکی تایبەت دەتوانێت ببێت بە نەشتەرگەر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss2("en-GB"),
+                                    onPressed: () => speakbreeds7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) هەبوونی هەستێکی زۆر"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children peered through the open door, breathless with excitement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان لە دەرگا کراوەکە دەیانڕوانی بە خرۆشاوی زۆرەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss3("en-US"),
+                                    onPressed: () => speakbreeds7("en-US"),
                                   ),
                                 ],
                               ),
@@ -282,16 +383,23 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: breathless
-1. Not breathing or able to breathe except with difficulty (= dyspneic [Brit, N. Amer], dyspnoeic [Brit, Cdn], dyspneal [N. Amer], dyspnoeal [Brit, Cdn], dyspoeic, dyspeic)
-"breathless at the thought of what I had done"; "followed the match with breathless interest";
+- Noun: breed (Derived forms: breeds)
+1. A special variety of domesticated animals within a species (= strain, stock)
+"he experimented on a particular breed of white rats";
  
-2. Tending to cause suspension of regular breathing
-"a breathless flight"
+2. A special type
+"Google represents a new breed of entrepreneurs"
+
+- Verb: breed (Derived forms: breeds, bred, breeding)
+1. Call forth (= engender, spawn)
  
-3. Appearing dead; not breathing or having no perceptible pulse (= inanimate, pulseless)
+2. (animal husbandry) copulate with a female, used especially of horses (= cover)
  
-4. Breathing heavily (as after exertion) (= out of breath, puffed [Brit], gasping, short-winded)
+3. Cause to procreate (animals)
+"She breeds dogs"
+ 
+4. Have young (animals) or reproduce (organisms) (= multiply)
+"pandas rarely breed in captivity";
 """,
           )
         ],
@@ -305,12 +413,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/OPVZcsdy9RY?t=";
+  static String myVideoId = "https://youtu.be/qUNYPkroz18?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 340, // DOPSUM: CHANGE IT
+      startAt: 506, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -330,12 +438,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/dEmPpBhf2PI?t=";
+  static String myVideoId = "https://youtu.be/QLq6GEiHqR8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 897, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -355,12 +463,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/DgwZebuIiXc?t=";
+  static String myVideoId = "https://youtu.be/XnbCSboujF4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 624, // DOPSUM: CHANGE IT
+      startAt: 400, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -380,12 +488,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/KpCPgNer_Oo?t=";
+  static String myVideoId = "https://youtu.be/wir7jmefyec?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 275, // DOPSUM: CHANGE IT
+      startAt: 210, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -405,12 +513,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/uQBmkvY3P3Q?t=";
+  static String myVideoId = "https://youtu.be/p3O6bKdPLbw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 460, // DOPSUM: CHANGE IT
+      startAt: 932, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -430,12 +538,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/K5_loMf5AAo?t=";
+  static String myVideoId = "https://youtu.be/GIJ_olY4BnE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 241, // DOPSUM: CHANGE IT
+      startAt: 870, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -455,12 +563,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Ltw-SN9QiII?t=";
+  static String myVideoId = "https://youtu.be/XvNm3zfvpW4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 424, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +588,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/XtQNReF1N6E?t=";
+  static String myVideoId = "https://youtu.be/iBp2Zc2pQs0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 87, // DOPSUM: CHANGE IT
+      startAt: 41, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +613,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/5g3l1E1gHiM?t=";
+  static String myVideoId = "https://youtu.be/3tQnWR3PSO8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1009, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +638,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/XA24Gmlnq5I?t=";
+  static String myVideoId = "https://youtu.be/qSYgR3ZQGXk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6535, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

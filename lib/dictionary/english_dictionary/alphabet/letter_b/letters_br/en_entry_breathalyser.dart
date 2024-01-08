@@ -7,83 +7,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybreathless extends StatelessWidget {
+class EnglishEntrybreathalyser extends StatelessWidget {
 // blank divider
-  EnglishEntrybreathless({super.key});
+  EnglishEntrybreathalyser({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbreathless(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalyser(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breathless"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("breathalyser"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers1(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He arrived breathless at the top of the stairs."); // DOPSUM: CHANGE TEXT
+        "The police officer asked the driver to blow into the breathalyser."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers2(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They maintained a breathless pace for half an hour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers3(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children peered through the open door, breathless with excitement."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers4(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers5(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers6(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreathlesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbreathless
+  Future<void> speakbreathalysers7(String languageCode) async {
+    // DOPSUM: CHANGE speakbreathalyser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreathlesss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbreathalysers77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +98,22 @@ class EnglishEntrybreathless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "breathless"),
+                            EntryTitle(word: "breathalyser"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbreθləs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbreθəlaɪzə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbreathless("en-GB"),
+                              onPressed: () => speakbreathalyser("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbreθləs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbreθəlaɪzər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbreathless("en-US"),
+                              onPressed: () => speakbreathalyser("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +131,11 @@ class EnglishEntrybreathless extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -161,71 +159,25 @@ class EnglishEntrybreathless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەناسکەبڕکێ، هاسکەهاسک، لەهەناسەکەوتوو، تامەزرۆ، بەپەرۆش
-
-١. (ھاوەڵناو) هەبوونی سەختی لە هەناسەداندا"""),
+١. (ناو) هەناسەپێو، ئەڵکۆڵ‌پێو؛ دەزگایەکی پۆلیس کە ڕێژەی کحول لە هەناسەی شۆفێرێکدا دەپێوێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He arrived breathless at the top of the stairs."),
+                                      "The police officer asked the driver to blow into the breathalyser."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە هەناسەبڕکێوە گەشتە سەرەوەی پلەکانەکە."),
-                              const CustomSizedBoxForTTS(), // Define the word "breathless" as
+                                      "ئەفسەری پۆلیسەکە داوای لە شۆفێرەکە کرد فوو بکات بە هەناسەپێوەکەدا."),
+                              const CustomSizedBoxForTTS(), // Define the word "breathalyser" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss1("en-GB"),
+                                    onPressed: () =>
+                                        speakbreathalysers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They maintained a breathless (= very fast) pace for half an hour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ نزیکەی نیو کاتژمێر بەبێ هەناسەبڕکێ (= بە خێرایی) ڕایان کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) هەبوونی هەستێکی زۆر"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children peered through the open door, breathless with excitement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان لە دەرگا کراوەکە دەیانڕوانی بە خرۆشاوی زۆرەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss3("en-US"),
+                                    onPressed: () =>
+                                        speakbreathalysers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -242,8 +194,8 @@ class EnglishEntrybreathless extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -282,16 +234,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: breathless
-1. Not breathing or able to breathe except with difficulty (= dyspneic [Brit, N. Amer], dyspnoeic [Brit, Cdn], dyspneal [N. Amer], dyspnoeal [Brit, Cdn], dyspoeic, dyspeic)
-"breathless at the thought of what I had done"; "followed the match with breathless interest";
- 
-2. Tending to cause suspension of regular breathing
-"a breathless flight"
- 
-3. Appearing dead; not breathing or having no perceptible pulse (= inanimate, pulseless)
- 
-4. Breathing heavily (as after exertion) (= out of breath, puffed [Brit], gasping, short-winded)
+- Noun: breathalyser (Derived forms: breathalysers)
+Usage: Brit, Cdn (US: breathalyzer)
+1. A device that measures chemicals (especially the alcohol content) in a person's expired breath (= breathalyzer [N. Amer])
 """,
           )
         ],
@@ -305,12 +250,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/OPVZcsdy9RY?t=";
+  static String myVideoId = "https://youtu.be/SqG7wYpbWUc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 340, // DOPSUM: CHANGE IT
+      startAt: 245, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -330,12 +275,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/dEmPpBhf2PI?t=";
+  static String myVideoId = "https://youtu.be/13IQlPS91FQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 130, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -355,12 +300,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/DgwZebuIiXc?t=";
+  static String myVideoId = "https://youtu.be/XdDMS6MbO_0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 624, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -380,12 +325,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/KpCPgNer_Oo?t=";
+  static String myVideoId = "https://youtu.be/siihYHs37Ok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 275, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -405,12 +350,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/uQBmkvY3P3Q?t=";
+  static String myVideoId = "https://youtu.be/h8mKaM_PnzY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 460, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -430,12 +375,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/K5_loMf5AAo?t=";
+  static String myVideoId = "https://youtu.be/RdFhNH8DLGw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 241, // DOPSUM: CHANGE IT
+      startAt: 130, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -455,12 +400,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Ltw-SN9QiII?t=";
+  static String myVideoId = "https://youtu.be/dD9vbnoFTfg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 424, // DOPSUM: CHANGE IT
+      startAt: 504, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +425,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/XtQNReF1N6E?t=";
+  static String myVideoId = "https://youtu.be/ch2QlqXrxtc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 87, // DOPSUM: CHANGE IT
+      startAt: 289, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +450,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/5g3l1E1gHiM?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1009, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +475,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/XA24Gmlnq5I?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6535, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

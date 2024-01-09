@@ -713,7 +713,7 @@ class EnglishEntrybreak extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شکاوی، شکان، شکست، وردوخاشی، قڵیش، کون، شەبەق، درز، دابڕاوی، پساوی، پسان، پچڕان، هەڵوێستە، هەڵوەستە، پشوو، وچان، ورنگ، پێندان، پشووی خوێندن، گۆهارتن، گۆڕان، گۆڕانی ناکاو، دەرچوون، دەربازبوون، هەڵاتن، نافەرمی چانس، هەل، دەرفەت، دەلیڤە
+کوردی: شکاوی، شکان، شکست، وردوخاشی، قڵیش، کون، شەبەق، درز، دابڕاوی، پساوی، پسان، پچڕان، ھەڵوێستە، ھەڵوەستە، پشوو، وچان، ورنگ، پێندان، پشووی خوێندن، گۆھارتن، گۆڕان، گۆڕانی ناکاو، دەرچوون، دەربازبوون، ھەڵاتن، نافەرمی چانس، ھەل، دەرفەت، دەلیڤە
 
 ١. (کردار) شکان یان شکاندن"""),
                           Row(
@@ -723,7 +723,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "All the windows broke with the force of the blast."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو پەنجەرەکان بە هێزی تەقینەوەکە شکان."),
+                                      "ھەموو پەنجەرەکان بە ھێزی تەقینەوەکە شکان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -889,7 +889,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                           text:
                                               "Charles is always breaking things."),
                                       const ExampleSentenceKurdish(
-                                          text: "چارڵس هەمیشە شت دەشکێنێت."),
+                                          text: "چارڵس ھەمیشە شت دەشکێنێت."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -954,7 +954,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) بڕینی پێست و خوێن‌لێ‌هێنانی"),
+                              text: "٣. (کردار) بڕینی پێست و خوێن‌لێ‌ھێنانی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -979,7 +979,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) کردنی شتێک کە دژی یاسا، بەڵین، ڕێککەوتن، هتد"),
+                                  "٤. (کردار) کردنی شتێک کە دژی یاسا، بەڵین، ڕێککەوتن، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1081,7 +1081,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                               "I've never broken my word; why should I do it now?"),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "هەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟"),
+                                              "ھەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -1132,7 +1132,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "Parliament breaks for recess next week."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەرلەمان پشووی ساڵانەی وەردەگرێت هەفتەی داهاتوو."),
+                                      "پەرلەمان پشووی ساڵانەی وەردەگرێت ھەفتەی داھاتوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1178,7 +1178,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                   text: "She broke the silence by coughing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە کۆکەیەک کۆتایی بە بێ‌دەنگییەکە هێنا."),
+                                      "بە کۆکەیەک کۆتایی بە بێ‌دەنگییەکە ھێنا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1237,7 +1237,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (کردار) کۆتایی هێنانی شتێک بە هێز"),
+                              text: "٧. (کردار) کۆتایی ھێنانی شتێک بە ھێز"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1245,7 +1245,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "Management has not succeeded in breaking the strike."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەڕێوبەرایەتییەکە نەیتوانی مانگرتنەکە کۆتایی پێ‌بهێنێت."),
+                                      "بەڕێوبەرایەتییەکە نەیتوانی مانگرتنەکە کۆتایی پێ‌بھێنێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1290,7 +1290,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                   text: "He broke all ties with his parents."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو پەیوەندییەکی لەگەڵ دایک و باوکی پچڕاند."),
+                                      "ھەموو پەیوەندییەکی لەگەڵ دایک و باوکی پچڕاند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1307,7 +1307,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) هەڵهاتن لە شوێنێک یان لەدەست کەسێک"),
+                                  "٩. (کردار) ھەڵھاتن لە شوێنێک یان لەدەست کەسێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1315,7 +1315,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "He finally managed to break free from his attacker."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کۆتاییدا توانی لەدەست هێرشکارەکەی هەڵبێت."),
+                                      "لە کۆتاییدا توانی لەدەست ھێرشکارەکەی ھەڵبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1336,7 +1336,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                   text:
                                       "The horse tried to break free from its stable."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەسپەکە هەوڵیدا لە تەویلەکە هەڵبێت."),
+                                  text: "ئەسپەکە ھەوڵیدا لە تەویلەکە ھەڵبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1360,7 +1360,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                   text:
                                       "The scandal broke him (= ruined his reputation and destroyed his confidence)."),
                               const ExampleSentenceKurdish(
-                                  text: "ئابڕووچوونەکە کۆتایی پێهێنا."),
+                                  text: "ئابڕووچوونەکە کۆتایی پێھێنا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1382,7 +1382,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "She broke under questioning (= was no longer able to bear it) and confessed to everything."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شەکەت بوو بەدەست پرسیارەوە و دانی بە هەموو شتێکدا نا."),
+                                      "شەکەت بوو بەدەست پرسیارەوە و دانی بە ھەموو شتێکدا نا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1424,14 +1424,14 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٢. (کردار) وا لە کەسێک بکەیت هەست بە بێزاری، تەنهایی، هتد بکات و ژیانێکی ئاسایی نەژی"),
+                                  "١٢. (کردار) وا لە کەسێک بکەیت ھەست بە بێزاری، تەنھایی، ھتد بکات و ژیانێکی ئاسایی نەژی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The death of his wife broke him completely."),
                               const ExampleSentenceKurdish(
-                                  text: "مردنی هاوژینەکەی بەتەواوی تێکیشکاند."),
+                                  text: "مردنی ھاوژینەکەی بەتەواوی تێکیشکاند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1448,7 +1448,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٣. (کردار) کەشوهەوایەک کە دەگۆڕێت، بەتایبەتی لەدوای ماوەیەک لە باشبوون"),
+                                  "١٣. (کردار) کەشوھەوایەک کە دەگۆڕێت، بەتایبەتی لەدوای ماوەیەک لە باشبوون"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1456,7 +1456,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "On the third day the weather broke and they had a violent storm."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ڕۆژی سێیەمدا کەشەکە گۆڕا و زریانێکی بەهێز هات."),
+                                      "لە ڕۆژی سێیەمدا کەشەکە گۆڕا و زریانێکی بەھێز ھات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1472,14 +1472,14 @@ class EnglishEntrybreak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٤. (کردار) هەورێک کە شەقێکی تێدەکەوێت"),
+                              text: "١٤. (کردار) ھەورێک کە شەقێکی تێدەکەوێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The clouds broke and the sun came out."),
                               const ExampleSentenceKurdish(
-                                  text: "هەورەکان شەقبوون و خۆرەکە دەرکەوت."),
+                                  text: "ھەورەکان شەقبوون و خۆرەکە دەرکەوت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1496,7 +1496,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٥. (کردار) هاتنە دەرەوە لە دەریایەک، مەلەوانگەیەک، هتد"),
+                                  "١٥. (کردار) ھاتنە دەرەوە لە دەریایەک، مەلەوانگەیەک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1504,7 +1504,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "When his head broke the surface he took in deep gulps of air."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە لە ڕووی دەریاکەوە هاتە دەرەوە هەناسەی قووڵی هەڵمژی."),
+                                      "کە لە ڕووی دەریاکەوە ھاتە دەرەوە ھەناسەی قووڵی ھەڵمژی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1566,7 +1566,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٧. (کردار) ئاشکراکردنی هەواڵێک"),
+                              text: "١٧. (کردار) ئاشکراکردنی ھەواڵێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1574,7 +1574,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "There was a public outcry when the scandal broke."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناڕەزاییەکی زۆر هەبوو کە ئابڕووچوونەکە ئاشکرابوو."),
+                                      "ناڕەزاییەکی زۆر ھەبوو کە ئابڕووچوونەکە ئاشکرابوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1591,13 +1591,13 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٨. (کردار) بوون بە یەکەم کەس هەواڵێکی ناخۆش بە کەسێک بڵێیت"),
+                                  "١٨. (کردار) بوون بە یەکەم کەس ھەواڵێکی ناخۆش بە کەسێک بڵێیت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Who's going to break it to her?"),
                               const ExampleSentenceKurdish(
-                                  text: "کێ هەواڵەکەی پێ‌ دەڵێت؟"),
+                                  text: "کێ ھەواڵەکەی پێ‌ دەڵێت؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1619,7 +1619,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "I'm sorry to be the one to break the news to you."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەداخەوەم کە دەبم بەو کەسەی هەواڵەکەت پێ ڕادەگەیەنم."),
+                                      "بەداخەوەم کە دەبم بەو کەسەی ھەواڵەکەت پێ ڕادەگەیەنم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1636,7 +1636,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٩. (کردار) گۆڕانی تۆنی دەنگ بەهۆی هەستو سۆزەوە"),
+                                  "١٩. (کردار) گۆڕانی تۆنی دەنگ بەھۆی ھەستو سۆزەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1644,7 +1644,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "Her voice broke as she told us the dreadful news."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەنگی دەلەرزی کە هەواڵە ناخۆشەکەی پێ گوتین."),
+                                      "دەنگی دەلەرزی کە ھەواڵە ناخۆشەکەی پێ گوتین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1691,7 +1691,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "The movie broke all box-office records."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فیلمەکە هەموو ڕیکۆردەکانی بۆکس ئۆفیسی شکاند."),
+                                      "فیلمەکە ھەموو ڕیکۆردەکانی بۆکس ئۆفیسی شکاند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1731,7 +1731,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢٣. (کردار) زانینی واتای شتێکی نهێنی"),
+                              text: "٢٣. (کردار) زانینی واتای شتێکی نھێنی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1778,7 +1778,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٥. (ناو) وچانێکی کەم بۆ حەسانەوە، نان خواردن، هتد"),
+                                  "٢٥. (ناو) وچانێکی کەم بۆ حەسانەوە، نان خواردن، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1897,7 +1897,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "I'll make us a cup of tea in the next break."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێڵایەک چا بۆ هەردووکمان ئامادە دەکەم لە وچانی دواتردا."),
+                                      "پێڵایەک چا بۆ ھەردووکمان ئامادە دەکەم لە وچانی دواتردا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1921,7 +1921,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "It's a great city for a weekend break."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شارێکی خۆشە بۆ پشوویەکی کۆتایی هەفتە."),
+                                      "شارێکی خۆشە بۆ پشوویەکی کۆتایی ھەفتە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1938,7 +1938,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣٠. (ناو) ئەو ساتەی کە دۆخێک یان پەیوەندییەک کە بۆ ماوەیەکی درێژە بوونی هەیە دەگۆڕێت، کۆتایی دێت، یان دەپچڕێت"),
+                                  "٣٠. (ناو) ئەو ساتەی کە دۆخێک یان پەیوەندییەک کە بۆ ماوەیەکی درێژە بوونی ھەیە دەگۆڕێت، کۆتایی دێت، یان دەپچڕێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1993,7 +1993,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "We could see the moon through a break in the clouds."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەمانتوانی مانگ ببینین لە شەقێکەوە لە هەورەکاندا."),
+                                      "دەمانتوانی مانگ ببینین لە شەقێکەوە لە ھەورەکاندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -2039,7 +2039,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "We've had a few bad breaks (= pieces of bad luck) along the way."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تووشی هەندێک بەختی خراپ بووین لە پڕۆسەکەدا."),
+                                      "تووشی ھەندێک بەختی خراپ بووین لە پڕۆسەکەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -2086,7 +2086,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "The X-ray showed there was no break in his leg."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیشکە ئێکسەکە دەریخست هیچ شکانێک لە لاقیدا نییە."),
+                                      "تیشکە ئێکسەکە دەریخست ھیچ شکانێک لە لاقیدا نییە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -2111,7 +2111,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "Murray must get another break to win."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مۆرای دەبێت بردنەوەیەکی دیکەی هەبێت بۆ ئەوەی بباتەوە."),
+                                      "مۆرای دەبێت بردنەوەیەکی دیکەی ھەبێت بۆ ئەوەی بباتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -2435,7 +2435,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
+  static String myVideoId = "_spuxXnul0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2460,7 +2460,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2485,7 +2485,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/aHBLOkfJSYI?t=";
+  static String myVideoId = "aHBLOkfJSYI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2510,7 +2510,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/PGk3qLxwmDQ?t=";
+  static String myVideoId = "PGk3qLxwmDQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2535,7 +2535,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/k3aAl92_VDE?t=";
+  static String myVideoId = "k3aAl92_VDE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2560,7 +2560,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/LAOoF2gyQaA?t=";
+  static String myVideoId = "LAOoF2gyQaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2585,7 +2585,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/C_MDnd7px-I?t=";
+  static String myVideoId = "C_MDnd7px-I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2610,7 +2610,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/MnExgQ81fhU?t=";
+  static String myVideoId = "MnExgQ81fhU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2635,7 +2635,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/D-2799Y07Zc?t=";
+  static String myVideoId = "D-2799Y07Zc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2660,7 +2660,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/03VAIrkmrD0?t=";
+  static String myVideoId = "03VAIrkmrD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2685,7 +2685,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -2710,7 +2710,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/FmEJkU6r_Rs?t=";
+  static String myVideoId = "FmEJkU6r_Rs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

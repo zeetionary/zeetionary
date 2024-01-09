@@ -163,7 +163,7 @@ class EnglishEntrybrevity extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کورت‌ماوەیی، تیژپەڕی، کەمدوو، نابەردەوامی، کورتی، پوختی
 
-١. (ناو) بەکارهێنانی وشەی کەم لە قسەکردندا"""),
+١. (ناو) بەکارھێنانی وشەی کەم لە قسەکردندا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -280,7 +280,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brevity (Derived forms: brevities)
+- Noun: brevity (derived forms: brevities)
 1. The use of brief expressions
  
 2. The attribute of being brief or fleeting (= briefness, transience)
@@ -297,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/wf6x4FHTMKo?t=";
+  static String myVideoId = "wf6x4FHTMKo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -322,7 +322,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/3Pdamwkm7tE?t=";
+  static String myVideoId = "3Pdamwkm7tE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +347,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/RzCa7RpkDzY?t=";
+  static String myVideoId = "RzCa7RpkDzY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +372,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/3QvUtMoEgUg?t=";
+  static String myVideoId = "3QvUtMoEgUg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +397,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/gj98OYuu6-M?t=";
+  static String myVideoId = "gj98OYuu6-M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +422,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/moxdd3lxUtE?t=";
+  static String myVideoId = "moxdd3lxUtE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +447,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/lfgssGtyb78?t=";
+  static String myVideoId = "lfgssGtyb78";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +472,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/CABtpE-qsuo?t=";
+  static String myVideoId = "CABtpE-qsuo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

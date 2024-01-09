@@ -26,8 +26,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "His breath smelt of garlic."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His breath smelt of garlic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was very short of breath."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was very short of breath."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Patients develop a cough and shortness of breath."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Patients develop a cough and shortness of breath."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We had to stop for breath before we got to the top."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We had to stop for breath before we got to the top."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("While there is breath left in my body, I will refuse."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "While there is breath left in my body, I will refuse."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths6(String languageCode) async {
@@ -67,7 +71,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He came up out of the water gasping for breath."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He came up out of the water gasping for breath."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths7(String languageCode) async {
@@ -75,7 +80,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She could feel his warm breath against her cheek."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She could feel his warm breath against her cheek."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths8(String languageCode) async {
@@ -83,7 +89,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Take a deep breath and try to relax."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Take a deep breath and try to relax."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths9(String languageCode) async {
@@ -91,7 +98,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He sucked in a deep breath."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He sucked in a deep breath."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths10(String languageCode) async {
@@ -107,7 +115,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I opened the window and took a deep breath."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I opened the window and took a deep breath."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths12(String languageCode) async {
@@ -115,7 +124,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Journalists eagerly sought any breath of political scandal in the upcoming election."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Journalists eagerly sought any breath of political scandal in the upcoming election."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths13(String languageCode) async {
@@ -123,7 +133,8 @@ class EnglishEntrybreath extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It was a still day, without a breath of wind"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It was a still day, without a breath of wind"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbreaths14(String languageCode) async {
@@ -308,7 +319,7 @@ class EnglishEntrybreath extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -335,16 +346,15 @@ class EnglishEntrybreath extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەناسە، بین، پشوو، دەم، فوو، مڵەما، نەز، شنە، سریوە، نیشانە، شەقڵ، شوێن، دەم، سات
+کوردی: ھەناسە، بین، پشوو، دەم، فوو، مڵەما، نەز، شنە، سریوە، نیشانە، شەقڵ، شوێن، دەم، سات
 
-١. (ناو) هەناسە"""),
+١. (ناو) ھەناسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "His breath smelt of garlic."),
+                                  text: "His breath smelt of garlic."),
                               const ExampleSentenceKurdish(
-                                  text: "هەناسەی بۆنی سیری دەدا."),
+                                  text: "ھەناسەی بۆنی سیری دەدا."),
                               const CustomSizedBoxForTTS(), // Define the word "breath" as
                               Column(
                                 children: [
@@ -360,272 +370,294 @@ class EnglishEntrybreath extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She was very short of breath (= had difficulty breathing)."),
-                          const ExampleSentenceKurdish(
-                          text: "زۆر هەناسەبڕکێی بوو."),
-                          const CustomSizedBoxForTTS(),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was very short of breath (= had difficulty breathing)."),
+                              const ExampleSentenceKurdish(
+                                  text: "زۆر ھەناسەبڕکێی بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaths2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaths2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Patients develop a cough and shortness of breath."),
-                          const ExampleSentenceKurdish(
-                          text: "نەخۆشەکان تووشی کۆکە و هەناسەتەنگی دەبن."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "We had to stop for breath before we got to the top."),
-                          const ExampleSentenceKurdish(
-                          text: "دەبوو بۆ هەناسە هەڵکێشانێک بوەستین پێش ئەوەی بگەینە لوتکەکە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "While there is breath left in my body, I will refuse."),
-                          const ExampleSentenceKurdish(
-                          text: "تە هەناسەم مابێ ڕەتیدەکەمەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He came up out of the water gasping for breath."),
-                          const ExampleSentenceKurdish(
-                          text: "لە ئاوەکە هاتە دەرەوە و هەنکەهەنکی بوو بۆ هەناسە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She could feel his warm breath against her cheek."),
-                          const ExampleSentenceKurdish(
-                          text: "هەستی بە هەناسە گەرمەکەی دەکرد لەسەر گۆنای."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Patients develop a cough and shortness of breath."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "نەخۆشەکان تووشی کۆکە و ھەناسەتەنگی دەبن."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "We had to stop for breath before we got to the top."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "دەبوو بۆ ھەناسە ھەڵکێشانێک بوەستین پێش ئەوەی بگەینە لوتکەکە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "While there is breath left in my body, I will refuse."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "تە ھەناسەم مابێ ڕەتیدەکەمەوە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "He came up out of the water gasping for breath."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "لە ئاوەکە ھاتە دەرەوە و ھەنکەھەنکی بوو بۆ ھەناسە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "She could feel his warm breath against her cheek."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ھەستی بە ھەناسە گەرمەکەی دەکرد لەسەر گۆنای."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) ئەو ڕێژە هەوایەی کە دەچێتە سنگەوە لە یەک کاتدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ئەو ڕێژە ھەوایەی کە دەچێتە سنگەوە لە یەک کاتدا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Take a deep breath and try to relax."),
-                          const ExampleSentenceKurdish(
-                          text: "هەناسەیەکی قووڵ هەڵبمژە و بحەسێوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Take a deep breath and try to relax."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەناسەیەکی قووڵ ھەڵبمژە و بحەسێوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaths8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaths8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He sucked in a deep breath."),
-                          const ExampleSentenceKurdish(
-                          text: "هەناسەیەکی قووڵی هەڵمژی."),
-                          const CustomSizedBoxForTTS(),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He sucked in a deep breath."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەناسەیەکی قووڵی ھەڵمژی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaths9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaths9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He let out a long breath."),
-                          const ExampleSentenceKurdish(
-                          text: "هەناسەیەکی درێژی دایەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths10("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I opened the window and took a deep breath."),
-                          const ExampleSentenceKurdish(
-                          text: "پەنجەرەکەم کردەوە و هەناسەیەکی قووڵم هەڵمژی."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths11("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text: "He let out a long breath."),
+                                      const ExampleSentenceKurdish(
+                                          text: "ھەناسەیەکی درێژی دایەوە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths10("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths10("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "I opened the window and took a deep breath."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "پەنجەرەکەم کردەوە و ھەناسەیەکی قووڵم ھەڵمژی."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbreaths11("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbreaths11("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ڕێژەیەکی کەم لە شتێک"),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) ڕێژەیەکی کەم لە شتێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Journalists eagerly sought any breath of political scandal in the upcoming election."),
-                          const ExampleSentenceKurdish(
-                          text: "ڕۆژنامەنووسان بە پەرۆشەوە بەدوای پڕووشێک لە ئابڕووچوونی سیاسیدا دەگەڕان لەم هەڵبژاردنی دادێت."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Journalists eagerly sought any breath of political scandal in the upcoming election."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕۆژنامەنووسان بە پەرۆشەوە بەدوای پڕووشێک لە ئابڕووچوونی سیاسیدا دەگەڕان لەم ھەڵبژاردنی دادێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaths12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaths12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ناو) کەمێک جووڵەی هەوا"),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) کەمێک جووڵەی ھەوا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "It was a still day, without a breath of wind"),
-                          const ExampleSentenceKurdish(
-                          text: "ڕۆژێکی کپ بوو بەبێ شنە هەوایەک."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbreaths13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbreaths13("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It was a still day, without a breath of wind"),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕۆژێکی کپ بوو بەبێ شنە ھەوایەک."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbreaths13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbreaths13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -678,7 +710,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breath (Derived forms: breaths)
+- Noun: breath (derived forms: breaths)
 1. The process of taking in and expelling air during breathing
 "he took a deep breath and dived into the pool"; "he was fighting to his last breath"
  
@@ -710,7 +742,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/HvNdJ2RCReg?t=";
+  static String myVideoId = "HvNdJ2RCReg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -735,7 +767,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/DO9U_XxN-Kc?t=";
+  static String myVideoId = "DO9U_XxN-Kc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -760,7 +792,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/nRafaCcfrcI?t=";
+  static String myVideoId = "nRafaCcfrcI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -785,7 +817,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/3cxHwQl9pNM?t=";
+  static String myVideoId = "3cxHwQl9pNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -810,7 +842,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/WYW1g6u9M5I?t=";
+  static String myVideoId = "WYW1g6u9M5I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -835,7 +867,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/z4L2E6_Gmkk?t=";
+  static String myVideoId = "z4L2E6_Gmkk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -860,7 +892,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -885,7 +917,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/2fOWFfpLYW0?t=";
+  static String myVideoId = "2fOWFfpLYW0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -910,7 +942,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/qsYUDM15T8U?t=";
+  static String myVideoId = "qsYUDM15T8U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -935,7 +967,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/HAJGcDw5CRY?t=";
+  static String myVideoId = "HAJGcDw5CRY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -960,7 +992,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/xq9fTToqEYg?t=";
+  static String myVideoId = "xq9fTToqEYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -985,7 +1017,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/nsGBVBAtXJg?t=";
+  static String myVideoId = "nsGBVBAtXJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

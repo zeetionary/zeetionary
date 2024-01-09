@@ -175,7 +175,7 @@ class EnglishEntrybreed extends StatelessWidget {
                                       "Many animals breed only at certain times of the year."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر ئاژەڵ تەنها لە هەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
+                                      "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
                               const CustomSizedBoxForTTS(), // Define the word "breed" as
                               Column(
                                 children: [
@@ -216,7 +216,7 @@ class EnglishEntrybreed extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) بوون بە هۆکاری شتێک"),
+                              text: "٣. (کردار) بوون بە ھۆکاری شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -224,7 +224,7 @@ class EnglishEntrybreed extends StatelessWidget {
                                       "Some teachers believe that early failures can later breed success."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک مامۆستا باوەڕیان وایە شکستهێنانی سەرەتا دەبێتەهۆی سەرکەوتن لە داهاتوودا."),
+                                      "ھەندێک مامۆستا باوەڕیان وایە شکستھێنانی سەرەتا دەبێتەھۆی سەرکەوتن لە داھاتوودا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -274,7 +274,7 @@ class EnglishEntrybreed extends StatelessWidget {
                                       "This breed is used for both milk and meat production."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم چەشنە بەکاردێت بۆ بەرهەمهێنانی شیر و گۆشت."),
+                                      "ئەم چەشنە بەکاردێت بۆ بەرھەمھێنانی شیر و گۆشت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -383,14 +383,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breed (Derived forms: breeds)
+- Noun: breed (derived forms: breeds)
 1. A special variety of domesticated animals within a species (= strain, stock)
 "he experimented on a particular breed of white rats";
  
 2. A special type
 "Google represents a new breed of entrepreneurs"
 
-- Verb: breed (Derived forms: breeds, bred, breeding)
+- Verb: breed (derived forms: breeds, bred, breeding)
 1. Call forth (= engender, spawn)
  
 2. (animal husbandry) copulate with a female, used especially of horses (= cover)
@@ -413,7 +413,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/qUNYPkroz18?t=";
+  static String myVideoId = "qUNYPkroz18";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +438,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/QLq6GEiHqR8?t=";
+  static String myVideoId = "QLq6GEiHqR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,7 +463,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/XnbCSboujF4?t=";
+  static String myVideoId = "XnbCSboujF4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -488,7 +488,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/wir7jmefyec?t=";
+  static String myVideoId = "wir7jmefyec";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -513,7 +513,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/p3O6bKdPLbw?t=";
+  static String myVideoId = "p3O6bKdPLbw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -538,7 +538,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/GIJ_olY4BnE?t=";
+  static String myVideoId = "GIJ_olY4BnE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -563,7 +563,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/XvNm3zfvpW4?t=";
+  static String myVideoId = "XvNm3zfvpW4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -588,7 +588,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/iBp2Zc2pQs0?t=";
+  static String myVideoId = "iBp2Zc2pQs0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -613,7 +613,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/3tQnWR3PSO8";
+  static String myVideoId = "3tQnWR3PSO8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -638,7 +638,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/qSYgR3ZQGXk?t=";
+  static String myVideoId = "qSYgR3ZQGXk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

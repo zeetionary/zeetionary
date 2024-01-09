@@ -162,9 +162,9 @@ class EnglishEntrybreakup extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جیابوونەوە، دابەش‌بوون، لێک‌بوونەوە، داقڵیشان، هەرەس‌هێنان، لێک‌هەڵوەشان، ڕووخان، هەڕەمیان، داڕووخان، کوتایی‌پێهاتن، تەواوبوون، دوایی‌پێهاتن، پارچەپارچەبوون، شیتاڵ‌شیتاڵ‌بوون، کەرت‌بوون
+کوردی: جیابوونەوە، دابەش‌بوون، لێک‌بوونەوە، داقڵیشان، ھەرەس‌ھێنان، لێک‌ھەڵوەشان، ڕووخان، ھەڕەمیان، داڕووخان، کوتایی‌پێھاتن، تەواوبوون، دوایی‌پێھاتن، پارچەپارچەبوون، شیتاڵ‌شیتاڵ‌بوون، کەرت‌بوون
 
-١. (ناو) کۆتایی هاتنی پەیوەندی"""),
+١. (ناو) کۆتایی ھاتنی پەیوەندی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -189,7 +189,7 @@ class EnglishEntrybreakup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دابەشبوونی دامەزراوەیەک یان وڵاتێکی گەورە بۆ هی بچووکتر"),
+                                  "٢. (ناو) دابەشبوونی دامەزراوەیەک یان وڵاتێکی گەورە بۆ ھی بچووکتر"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -262,7 +262,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breakup (Derived forms: breakups)
+- Noun: breakup (derived forms: breakups)
 1. The termination or disintegration of a relationship (between persons or nations) (= dissolution)
  
 2. Coming apart (= separation, detachment)
@@ -279,7 +279,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/VvJm4pQZ04s?t=";
+  static String myVideoId = "VvJm4pQZ04s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +304,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/gR9izDp89c0?t=";
+  static String myVideoId = "gR9izDp89c0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +329,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/t9nQCsFIACg?t=";
+  static String myVideoId = "t9nQCsFIACg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +354,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Ys1EjAGzuDk?t=";
+  static String myVideoId = "Ys1EjAGzuDk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +379,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/JJUhcJogl1M?t=";
+  static String myVideoId = "JJUhcJogl1M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +404,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/gPHdypbzUU8?t=";
+  static String myVideoId = "gPHdypbzUU8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +429,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/d3Ggya2fTbQ?t=";
+  static String myVideoId = "d3Ggya2fTbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +454,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/NSn1QnS__Yg?t=";
+  static String myVideoId = "NSn1QnS__Yg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +479,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/kBHZiXUDV6A?t=";
+  static String myVideoId = "kBHZiXUDV6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +504,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/KMbZkR9vOrw?t=";
+  static String myVideoId = "KMbZkR9vOrw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -529,7 +529,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/xDDgN80UuJI?t=";
+  static String myVideoId = "xDDgN80UuJI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

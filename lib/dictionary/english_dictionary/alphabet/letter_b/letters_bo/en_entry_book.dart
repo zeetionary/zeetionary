@@ -570,7 +570,7 @@ class EnglishEntrybook extends StatelessWidget {
                                               "The book has received some terrible reviews."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "کتێبەکە ھەندێک پێداچوونەوەی خراپی وەرگرتووە."),
+                                              "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

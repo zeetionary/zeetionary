@@ -566,7 +566,7 @@ class EnglishEntrybreast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) هەبوونی ئەو جۆرە سنگ یان مەمکەی کە باسکراوە"),
+                                  "٥. (ناو) ھەبوونی ئەو جۆرە سنگ یان مەمکەی کە باسکراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -574,7 +574,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       "The fashion industry features both small-breasted and full-breasted models."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پیشەسازی فاشن نمایشکارانی هەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت."),
+                                      "پیشەسازی فاشن نمایشکارانی ھەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -591,7 +591,7 @@ class EnglishEntrybreast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) ئەو بەشەی جەستە کە باوەڕ وایە هەست و سۆزی تێدایە"),
+                                  "٦. (ناو) ئەو بەشەی جەستە کە باوەڕ وایە ھەست و سۆزی تێدایە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -599,7 +599,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       "A feeling of love surged in his breast."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند."),
+                                      "ھەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -615,7 +615,7 @@ class EnglishEntrybreast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (کردار) گەشتنە لوتکەی گردێک، هتد"),
+                              text: "٧. (کردار) گەشتنە لوتکەی گردێک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -711,7 +711,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breast (Derived forms: breasts)
+- Noun: breast (derived forms: breasts)
 1. Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (= bosom)
  
 2. The front of the body from the neck to the abdomen (= chest)
@@ -721,7 +721,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. The part of an animal's body that corresponds to a person's chest
 
-- Verb: breast (Derived forms: breasts, breasted, breasting)
+- Verb: breast (derived forms: breasts, breasted, breasting)
 1. Meet at breast level
 "The runner breasted the tape"
  
@@ -743,7 +743,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/3cxHwQl9pNM?t=";
+  static String myVideoId = "3cxHwQl9pNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -768,7 +768,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/S-4rhjO6xYg?t=";
+  static String myVideoId = "S-4rhjO6xYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -793,7 +793,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/BZbChKzedEk?t=";
+  static String myVideoId = "BZbChKzedEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -818,7 +818,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/XG8b7WhANNA?t=";
+  static String myVideoId = "XG8b7WhANNA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -843,7 +843,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/y6GNrpcXtqM?t=";
+  static String myVideoId = "y6GNrpcXtqM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -868,7 +868,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/8UkNOQDTb7c?t=";
+  static String myVideoId = "8UkNOQDTb7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -893,7 +893,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/rmULxmptzG8";
+  static String myVideoId = "rmULxmptzG8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -918,7 +918,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/yRD0516eE9Q?t=";
+  static String myVideoId = "yRD0516eE9Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -943,7 +943,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/_ppsDRDxBgg?t=";
+  static String myVideoId = "_ppsDRDxBgg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -968,7 +968,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/hEJNSA-LkAo";
+  static String myVideoId = "hEJNSA-LkAo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -993,7 +993,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/B6oR4izFuPo?t=";
+  static String myVideoId = "B6oR4izFuPo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1018,7 +1018,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/OL01D8VPPxY?t=";
+  static String myVideoId = "OL01D8VPPxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

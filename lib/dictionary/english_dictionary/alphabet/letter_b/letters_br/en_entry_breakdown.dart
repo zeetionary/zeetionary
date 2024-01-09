@@ -167,7 +167,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەکارکەوتن، خراپ‌بوون، تێکچوون، پەککەوتن، گرفت، دابڕان، شێوان، نەمان، تێشکان، سەرنەکەوتن، سەرنەگرتن، (کیمیا) شی‌بوونەوە، شی‌بوونەوەی سەرژمێری‌یانە، لێکدانەوەی ڕوون‌کردنەوەیی، تێک‌ڕووخاوی، تیاچوون، لەناوچوون، هەرەس‌هێنان، داڕووخان، هەڕەمیان، شێوان یان تێکچوونی دەروونی، وردەکاری
+کوردی: لەکارکەوتن، خراپ‌بوون، تێکچوون، پەککەوتن، گرفت، دابڕان، شێوان، نەمان، تێشکان، سەرنەکەوتن، سەرنەگرتن، (کیمیا) شی‌بوونەوە، شی‌بوونەوەی سەرژمێری‌یانە، لێکدانەوەی ڕوون‌کردنەوەیی، تێک‌ڕووخاوی، تیاچوون، لەناوچوون، ھەرەس‌ھێنان، داڕووخان، ھەڕەمیان، شێوان یان تێکچوونی دەروونی، وردەکاری
 
 ١. (ناو) وەستانی ئامێرێکی گوازەرەوە یان دەزگایەک"""),
                           Row(
@@ -177,7 +177,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                       "Most breakdown services give priority to women travelling alone."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنها گەشت دەکەن."),
+                                      "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنھا گەشت دەکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,7 +216,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەڵوەشانەوەی پەیوەندی، گفتوگۆ، سیستەمێک، هتد"),
+                                  "٢. (ناو) ھەڵوەشانەوەی پەیوەندی، گفتوگۆ، سیستەمێک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -224,7 +224,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                       "The only ground for divorce is the irretrievable breakdown of the marriage."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەنها هۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی هاوسەرگیرییەکەیە."),
+                                      "تەنھا ھۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی ھاوسەرگیرییەکەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,7 +246,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                       "Both sides blamed each other for the breakdown of talks."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان."),
+                                      "ھەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,7 +320,7 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                       "The pain all became too much and he had some sort of breakdown."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئازارەکە هەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو."),
+                                      "ئازارەکە ھەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -385,7 +385,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breakdown (Derived forms: breakdowns)
+- Noun: breakdown (derived forms: breakdowns)
 1. The act of disrupting an established order so it fails to continue (= dislocation)
 "his warning came after the breakdown of talks in London";
  
@@ -412,7 +412,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/dqcSk-EDrRo?t=";
+  static String myVideoId = "dqcSk-EDrRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -437,7 +437,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/QruHsyt8paY?t=";
+  static String myVideoId = "QruHsyt8paY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -462,7 +462,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/1Gxrwh4zGPg?t=";
+  static String myVideoId = "1Gxrwh4zGPg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -487,7 +487,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Wiy8icSKKQs?t=";
+  static String myVideoId = "Wiy8icSKKQs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -512,7 +512,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/T48_SrFCdaQ?t=";
+  static String myVideoId = "T48_SrFCdaQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -537,7 +537,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/BuX6-lvUwd0?t=";
+  static String myVideoId = "BuX6-lvUwd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -562,7 +562,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/MLd4K5hKosw?t=";
+  static String myVideoId = "MLd4K5hKosw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -587,7 +587,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/b_rjBWmc1iQ?t=";
+  static String myVideoId = "b_rjBWmc1iQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -612,7 +612,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/PSI5AejsFbU?t=";
+  static String myVideoId = "PSI5AejsFbU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -637,7 +637,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/wMv9YN11xkY?t=";
+  static String myVideoId = "wMv9YN11xkY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -662,7 +662,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/7UlQp4G-aME?t=";
+  static String myVideoId = "7UlQp4G-aME";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

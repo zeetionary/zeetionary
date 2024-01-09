@@ -33,14 +33,14 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
           Routemaster.of(context).pop();
         },
       ),
-      actions: [
-        IconButton(
-          icon: const Icon(Icons.history),
-          onPressed: () {
-            Routemaster.of(context).push('/history-screen');
-          },
-        ),
-      ],
+      // actions: [
+      //   IconButton(
+      //     icon: const Icon(Icons.history),
+      //     onPressed: () {
+      //       Routemaster.of(context).push('/history-screen');
+      //     },
+      //   ),
+      // ],
     );
   }
 
@@ -114,9 +114,9 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     final currentTheme = ref.watch(themeNotifierProvider);
 
     return Text(
-      'Dictionary test',
+      'Test',
       style: TextStyle(
-        fontSize: 30.0, // Adjust font size as needed
+        fontSize: 26.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
         color: currentTheme.primaryColor
             .withOpacity(0.8), // Text color (will be masked by the gradient)

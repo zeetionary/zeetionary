@@ -979,7 +979,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) کردنی شتێک کە دژی یاسا، بەڵین، ڕێککەوتن، ھتد"),
+                                  "٤. (کردار) کردنی شتێک کە دژە بە یاسا، بەڵین، ڕێککەوتن، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1889,7 +1889,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٨. (ناو) ماوەیەکی کەم پڕؤگرامێکی تەلەفیزیۆنی یان ڕادیۆ دەوەستێت بۆ پیشاندانی سپۆنسەر"),
+                                  "٢٨. (ناو) ماوەیەکی کەم کە پڕۆگرامێکی تەلەفیزیۆنی یان ڕادیۆ دەوەستێت بۆ پیشاندانی سپۆنسەر"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

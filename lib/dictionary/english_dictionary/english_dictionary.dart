@@ -2086,36 +2086,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "breadth",
     "breadwinner",
     "break",
-    // "breakable",
-    // "breakaway",
-    // "break-in",
-    // "breakout",
-    // "breakthrough",
-    // "break-up",
-    // "breakage",
-    // "breakdown",
-    // "breaker",
-    // "breakfast",
-    // "breakneck",
-    // "breakwater",
-    // "breast",
-    // "breastbone",
-    // "breaststroke",
-    // "breath",
-    // "breathless",
-    // "breathlessly",
-    // "breathtaking",
-    // "breathalyser",
-    // "breathe",
-    // "breather",
-    // "breed",
-    // "breeder",
-    // "breeding",
-    // "breeze",
-    // "breezily",
-    // "breezy",
-    // "brevity",
-    // "brew",
+    "breakable",
+    "breakaway",
+    "break-in",
+    "breakout",
+    "breakthrough",
+    "break-up",
+    "breakage",
+    "breakdown",
+    "breaker",
+    "breakfast",
+    "breakneck",
+    "breakwater",
+    "breast",
+    "breastbone",
+    "breaststroke",
+    "breath",
+    "breathless",
+    "breathlessly",
+    "breathtaking",
+    "breathalyser",
+    "breathe",
+    "breather",
+    "breed",
+    "breeder",
+    "breeding",
+    "breeze",
+    "breezily",
+    "breezy",
+    "brevity",
+    "brew",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -10887,126 +10887,126 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-break");
                   }
-                  // if (wordsEnglish == "breakable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakable");
-                  // }
-                  // if (wordsEnglish == "breakaway") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakaway");
-                  // }
-                  // if (wordsEnglish == "break-in") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-break-in");
-                  // }
-                  // if (wordsEnglish == "breakout") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakout");
-                  // }
-                  // if (wordsEnglish == "breakthrough") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakthrough");
-                  // }
-                  // if (wordsEnglish == "break-up") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-break-up");
-                  // }
-                  // if (wordsEnglish == "breakage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakage");
-                  // }
-                  // if (wordsEnglish == "breakdown") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakdown");
-                  // }
-                  // if (wordsEnglish == "breaker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breaker");
-                  // }
-                  // if (wordsEnglish == "breakfast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakfast");
-                  // }
-                  // if (wordsEnglish == "breakneck") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakneck");
-                  // }
-                  // if (wordsEnglish == "breakwater") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breakwater");
-                  // }
-                  // if (wordsEnglish == "breast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breast");
-                  // }
-                  // if (wordsEnglish == "breastbone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breastbone");
-                  // }
-                  // if (wordsEnglish == "breaststroke") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breaststroke");
-                  // }
-                  // if (wordsEnglish == "breath") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breath");
-                  // }
-                  // if (wordsEnglish == "breathless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breathless");
-                  // }
-                  // if (wordsEnglish == "breathlessly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breathlessly");
-                  // }
-                  // if (wordsEnglish == "breathtaking") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breathtaking");
-                  // }
-                  // if (wordsEnglish == "breathalyser") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breathalyser");
-                  // }
-                  // if (wordsEnglish == "breathe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breathe");
-                  // }
-                  // if (wordsEnglish == "breather") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breather");
-                  // }
-                  // if (wordsEnglish == "breed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breed");
-                  // }
-                  // if (wordsEnglish == "breeder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breeder");
-                  // }
-                  // if (wordsEnglish == "breeding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breeding");
-                  // }
-                  // if (wordsEnglish == "breeze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breeze");
-                  // }
-                  // if (wordsEnglish == "breezily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breezily");
-                  // }
-                  // if (wordsEnglish == "breezy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-breezy");
-                  // }
-                  // if (wordsEnglish == "brevity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brevity");
-                  // }
-                  // if (wordsEnglish == "brew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brew");
-                  // }
+                  if (wordsEnglish == "breakable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakable");
+                  }
+                  if (wordsEnglish == "breakaway") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakaway");
+                  }
+                  if (wordsEnglish == "break-in") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-break-in");
+                  }
+                  if (wordsEnglish == "breakout") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakout");
+                  }
+                  if (wordsEnglish == "breakthrough") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakthrough");
+                  }
+                  if (wordsEnglish == "break-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-break-up");
+                  }
+                  if (wordsEnglish == "breakage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakage");
+                  }
+                  if (wordsEnglish == "breakdown") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakdown");
+                  }
+                  if (wordsEnglish == "breaker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breaker");
+                  }
+                  if (wordsEnglish == "breakfast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakfast");
+                  }
+                  if (wordsEnglish == "breakneck") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakneck");
+                  }
+                  if (wordsEnglish == "breakwater") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breakwater");
+                  }
+                  if (wordsEnglish == "breast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breast");
+                  }
+                  if (wordsEnglish == "breastbone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breastbone");
+                  }
+                  if (wordsEnglish == "breaststroke") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breaststroke");
+                  }
+                  if (wordsEnglish == "breath") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breath");
+                  }
+                  if (wordsEnglish == "breathless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breathless");
+                  }
+                  if (wordsEnglish == "breathlessly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breathlessly");
+                  }
+                  if (wordsEnglish == "breathtaking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breathtaking");
+                  }
+                  if (wordsEnglish == "breathalyser") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breathalyser");
+                  }
+                  if (wordsEnglish == "breathe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breathe");
+                  }
+                  if (wordsEnglish == "breather") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breather");
+                  }
+                  if (wordsEnglish == "breed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breed");
+                  }
+                  if (wordsEnglish == "breeder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breeder");
+                  }
+                  if (wordsEnglish == "breeding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breeding");
+                  }
+                  if (wordsEnglish == "breeze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breeze");
+                  }
+                  if (wordsEnglish == "breezily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breezily");
+                  }
+                  if (wordsEnglish == "breezy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-breezy");
+                  }
+                  if (wordsEnglish == "brevity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brevity");
+                  }
+                  if (wordsEnglish == "brew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brew");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -27,7 +27,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakbrews111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "This beer is brewed in the Czech Republic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He brewed some coffee for us."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Always let tea brew for a few minutes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A storm was brewing up out at sea."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews55"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I thought I'd try the local brew."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews6(String languageCode) async {
@@ -67,7 +71,7 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's have a brew."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrews7(String languageCode) async {
@@ -75,13 +79,14 @@ class EnglishEntrybrew extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrews77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The movie is a potent brew of adventure, sex and comedy."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -126,18 +131,18 @@ class EnglishEntrybrew extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
-                  // VideoIconForTab(), // 07 --- FIND: speakbrews111111111111111111111111111111111
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -159,16 +164,16 @@ class EnglishEntrybrew extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: بیرە، دەم‌کراو، دەم‌کردە، کوڵاندوو، تێکەڵە
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (کردار) درووستکردنی بیرە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "speakbrews111111111111111111111111111111111"),
+                                      "This beer is brewed in the Czech Republic."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text: "بیرەکە لە کۆماری چیک درووستکراوە."),
                               const CustomSizedBoxForTTS(), // Define the word "brew" as
                               Column(
                                 children: [
@@ -182,21 +187,160 @@ class EnglishEntrybrew extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) ئامادەکردنی خواردنەوەی چا و قاوە بە تێکردنی ئاوی گەرم، یان بهێڵیت تام بداتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He brewed some coffee for us."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەندێک قاوەی بۆ ئامادەکردین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Always let tea brew for a few minutes."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەمیشە بهێڵە چایەکە بۆ چەند خولەکێک تام بداتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) شتێک کە ئەگەری ڕوودانی هەیە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "A storm was brewing up out at sea."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زریانێک لە دەریاکەوە خەریک بوو هەڵیدەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) جۆرە بیرەیەک کە لە شوێنێک درووستکراوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I thought I'd try the local brew."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بیرم لەوە کردەوە بیرە لۆکاڵییەکە تاقیبکەمەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٥. (ناو) بڕێک چای ئامادەکراو"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Let's have a brew."),
+                              const ExampleSentenceKurdish(
+                                  text: "با چایەک ئامادە بکەین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) تێکەڵەیەک لە کۆمەڵە بیرۆکەیەک، ڕووداوێک، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The movie is a potent brew of adventure, sex and comedy."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فیلمەکە تێکەڵەیەک لە سەرکێشی و سێکس و درامایە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrews7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrews7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
-                    // YoutubeEmbeddedone(),
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedone(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),

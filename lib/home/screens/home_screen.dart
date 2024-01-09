@@ -6,11 +6,12 @@ import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/home/drawers/community_list_drawer.dart';
+// import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 // import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/questions/question_screen.dart';
-import 'package:zeetionary/quiz/quiz_screen.dart';
+// import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -20,11 +21,13 @@ class HomeScreen extends ConsumerStatefulWidget {
 }
 
 class _HomeScreenState extends ConsumerState<HomeScreen> {
-  int currentPageIndex = 0;
+  // int currentPageIndex = 0;
+  int _currentIndex = 0;
+  final PageController _pageController = PageController();
 
-  void displayDrawer(BuildContext context) {
-    Scaffold.of(context).openDrawer();
-  }
+  // void displayDrawer(BuildContext context) {
+  //   Scaffold.of(context).openDrawer();
+  // }
 
   void toggleTheme(WidgetRef ref) {
     ref.read(themeNotifierProvider.notifier).toggleTheme();
@@ -68,12 +71,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         //   'assets/images/zeetionary_three.png',
         //   width: 200,
         // ),
-        leading: Builder(builder: (context) {
-          return IconButton(
-            icon: const Icon(Icons.menu),
-            onPressed: () => displayDrawer(context),
-          );
-        }),
+        // leading: Builder(builder: (context) {
+        //   return IconButton(
+        //     icon: const Icon(Icons.menu),
+        //     onPressed: () => displayDrawer(context),
+        //   );
+        // }),
         actions: [
           // Switch.adaptive(
           //   value: ref.watch(themeNotifierProvider.notifier).mode ==
@@ -102,83 +105,144 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           ),
         ],
       ),
-      drawer: const CommunityListDrawer(),
-      bottomNavigationBar: NavigationBarTheme(
-        data: NavigationBarThemeData(
-            // backgroundColor: Colors.grey.withOpacity(0.1),
-            indicatorColor: currentTheme.scaffoldBackgroundColor,
-            labelTextStyle: MaterialStateProperty.all(
-              const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
-            )),
-        child: NavigationBar(
-          height: 60,
-          labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
-          animationDuration: const Duration(milliseconds: 600),
-          // backgroundColor: currentTheme.backgroundColor,
-          onDestinationSelected: (int index) {
-            setState(() {
-              currentPageIndex = index;
-            });
-          },
-          indicatorColor: currentTheme.scaffoldBackgroundColor,
-          selectedIndex: currentPageIndex,
-          destinations: <Widget>[
-            NavigationDestination(
-              selectedIcon: const Icon(Icons.home),
-              icon: Image.asset(
-                'assets/images/uk_one.png',
-                width: 28,
-              ),
-              label: 'English',
+      // drawer: const CommunityListDrawer(),
+      bottomNavigationBar: BottomNavyBar(
+        selectedIndex: _currentIndex,
+        showElevation: true,
+        itemCornerRadius: 24,
+        curve: Curves.easeIn,
+        onItemSelected: (index) {
+          setState(() {
+            _currentIndex = index;
+            _pageController.animateToPage(index,
+                duration: const Duration(milliseconds: 300),
+                curve: Curves.easeIn);
+          });
+        },
+        items: <BottomNavyBarItem>[
+          BottomNavyBarItem(
+            icon: Image.asset(
+              'assets/images/uk_one.png',
+              width: 28,
             ),
-            NavigationDestination(
-              selectedIcon: const Icon(Icons.home),
-              icon: Image.asset(
-                'assets/images/kurd_one.png',
-                width: 28,
-              ),
-              label: 'کوردی',
+            title: const Text('English'),
+            activeColor: currentTheme.primaryColor.withOpacity(0.8),
+            textAlign: TextAlign.center,
+          ),
+          BottomNavyBarItem(
+            icon: Image.asset(
+              'assets/images/kurd_one.png',
+              width: 28,
             ),
-            const NavigationDestination(
-              selectedIcon: Icon(Icons.home),
-              icon: Icon(Icons.book),
-              label: 'Grammar',
-            ),
-            const NavigationDestination(
-              selectedIcon: Icon(Icons.home),
-              icon: Icon(Icons.question_answer),
-              label: 'Q&A',
-            ),
-            const NavigationDestination(
-              selectedIcon: Icon(Icons.home),
-              icon: Icon(Icons.quiz),
-              label: 'Quiz',
-            ),
-          ],
-        ),
+            title: const Text('کوردی'),
+            activeColor: currentTheme.primaryColor.withOpacity(0.8),
+            textAlign: TextAlign.center,
+          ),
+          BottomNavyBarItem(
+            icon: const Icon(Icons.book),
+            title: const Text('Grammar'),
+            activeColor: currentTheme.primaryColor.withOpacity(0.8),
+            textAlign: TextAlign.center,
+          ),
+          BottomNavyBarItem(
+            icon: const Icon(Icons.quiz),
+            title: const Text('Quiz'),
+            activeColor: currentTheme.primaryColor.withOpacity(0.8),
+            textAlign: TextAlign.center,
+          ),
+        ],
       ),
-      body: <Widget>[
-        Container(
-          alignment: Alignment.center,
-          child: const DictionaryScreenEnglish(),
-        ),
-        Container(
-          alignment: Alignment.center,
-          child: const DictionaryScreenKurdish(),
-        ),
-        Container(
-          alignment: Alignment.center,
-          child: const GrammarScreen(),
-        ),
-        Container(
-          alignment: Alignment.center,
-          child: const QuestionsScreen(),
-        ),
-        Container(
-          alignment: Alignment.center,
-          child: const QuizScreen(),
-        ),
-      ][currentPageIndex],
+      body: PageView(
+        controller: _pageController,
+        children: const [
+          DictionaryScreenEnglish(),
+          DictionaryScreenKurdish(),
+          GrammarScreen(),
+          QuestionsScreen(),
+          // QuizScreen(),
+        ],
+        onPageChanged: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+      ),
+      // bottomNavigationBar: NavigationBarTheme(
+      //   data: NavigationBarThemeData(
+      //       // backgroundColor: Colors.grey.withOpacity(0.1),
+      //       indicatorColor: currentTheme.scaffoldBackgroundColor,
+      //       labelTextStyle: MaterialStateProperty.all(
+      //         const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+      //       )),
+      //   child: NavigationBar(
+      //     height: 60,
+      //     labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
+      //     animationDuration: const Duration(milliseconds: 600),
+      //     // backgroundColor: currentTheme.backgroundColor,
+      //     onDestinationSelected: (int index) {
+      //       setState(() {
+      //         currentPageIndex = index;
+      //       });
+      //     },
+      //     indicatorColor: currentTheme.scaffoldBackgroundColor,
+      //     selectedIndex: currentPageIndex,
+      //     destinations: <Widget>[
+      //       NavigationDestination(
+      //         selectedIcon: const Icon(Icons.home),
+      //         icon: Image.asset(
+      //           'assets/images/uk_one.png',
+      //           width: 28,
+      //         ),
+      //         label: 'English',
+      //       ),
+      //       NavigationDestination(
+      //         selectedIcon: const Icon(Icons.home),
+      //         icon: Image.asset(
+      //           'assets/images/kurd_one.png',
+      //           width: 28,
+      //         ),
+      //         label: 'کوردی',
+      //       ),
+      //       const NavigationDestination(
+      //         selectedIcon: Icon(Icons.home),
+      //         icon: Icon(Icons.book),
+      //         label: 'Grammar',
+      //       ),
+      //       const NavigationDestination(
+      //         selectedIcon: Icon(Icons.home),
+      //         icon: Icon(Icons.question_answer),
+      //         label: 'Q&A',
+      //       ),
+      //       const NavigationDestination(
+      //         selectedIcon: Icon(Icons.home),
+      //         icon: Icon(Icons.quiz),
+      //         label: 'Quiz',
+      //       ),
+      //     ],
+      //   ),
+      // ),
+      // body: <Widget>[
+      //   Container(
+      //     alignment: Alignment.center,
+      //     child: const DictionaryScreenEnglish(),
+      //   ),
+      //   Container(
+      //     alignment: Alignment.center,
+      //     child: const DictionaryScreenKurdish(),
+      //   ),
+      //   Container(
+      //     alignment: Alignment.center,
+      //     child: const GrammarScreen(),
+      //   ),
+      //   Container(
+      //     alignment: Alignment.center,
+      //     child: const QuestionsScreen(),
+      //   ),
+      //   Container(
+      //     alignment: Alignment.center,
+      //     child: const QuizScreen(),
+      //   ),
+      // ][currentPageIndex],
     );
   }
 }

@@ -106,6 +106,21 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ],
       ),
       // drawer: const CommunityListDrawer(),
+      body: PageView(
+        controller: _pageController,
+        children: const [
+          DictionaryScreenEnglish(),
+          DictionaryScreenKurdish(),
+          GrammarScreen(),
+          QuestionsScreen(),
+          // QuizScreen(),
+        ],
+        onPageChanged: (index) {
+          setState(() {
+            _currentIndex = index;
+          });
+        },
+      ),
       bottomNavigationBar: BottomNavyBar(
         selectedIndex: _currentIndex,
         showElevation: true,
@@ -151,21 +166,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             textAlign: TextAlign.center,
           ),
         ],
-      ),
-      body: PageView(
-        controller: _pageController,
-        children: const [
-          DictionaryScreenEnglish(),
-          DictionaryScreenKurdish(),
-          GrammarScreen(),
-          QuestionsScreen(),
-          // QuizScreen(),
-        ],
-        onPageChanged: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
       ),
       // bottomNavigationBar: NavigationBarTheme(
       //   data: NavigationBarThemeData(

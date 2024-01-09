@@ -2169,6 +2169,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+import 'package:zeetionary/quiz/quiz_screen.dart';
 
 final loggedOutRoute = RouteMap(routes: {
   "/": (_) => const MaterialPage(child: LoginScreen()),
@@ -2180,6 +2181,7 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
+  '/quiz-screen': (_) => MaterialPage(child: QuizScreen(currentTheme: ThemeData.light())),
   // English dictionary starts here
   // English dictionary starts here
   // English dictionary starts here
@@ -4378,7 +4380,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brain-drain": (_) => MaterialPage(child: EnglishEntrybraindrain()),
   "/english-brainless": (_) => MaterialPage(child: EnglishEntrybrainless()),
   "/english-brainstorm": (_) => MaterialPage(child: EnglishEntrybrainstorm()),
-  "/english-brainstorming": (_) => MaterialPage(child: EnglishEntrybrainstorming()),
+  "/english-brainstorming": (_) =>
+      MaterialPage(child: EnglishEntrybrainstorming()),
   "/english-brainwash": (_) => MaterialPage(child: EnglishEntrybrainwash()),
   "/english-brainwave": (_) => MaterialPage(child: EnglishEntrybrainwave()),
   "/english-brainy": (_) => MaterialPage(child: EnglishEntrybrainy()),
@@ -4408,7 +4411,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brazen": (_) => MaterialPage(child: EnglishEntrybrazen()),
   "/english-brazier": (_) => MaterialPage(child: EnglishEntrybrazier()),
   "/english-breach": (_) => MaterialPage(child: EnglishEntrybreach()),
-  "/english-breach-of-the-peace": (_) => MaterialPage(child: EnglishEntrybreachofthepeace()),
+  "/english-breach-of-the-peace": (_) =>
+      MaterialPage(child: EnglishEntrybreachofthepeace()),
   "/english-bread": (_) => MaterialPage(child: EnglishEntrybread()),
   "/english-breadcrumbs": (_) => MaterialPage(child: EnglishEntrybreadcrumbs()),
   "/english-breadline": (_) => MaterialPage(child: EnglishEntrybreadline()),
@@ -4419,7 +4423,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-breakaway": (_) => MaterialPage(child: EnglishEntrybreakaway()),
   "/english-break-in": (_) => MaterialPage(child: EnglishEntrybreakin()),
   "/english-breakout": (_) => MaterialPage(child: EnglishEntrybreakout()),
-  "/english-breakthrough": (_) => MaterialPage(child: EnglishEntrybreakthrough()),
+  "/english-breakthrough": (_) =>
+      MaterialPage(child: EnglishEntrybreakthrough()),
   "/english-break-up": (_) => MaterialPage(child: EnglishEntrybreakup()),
   "/english-breakage": (_) => MaterialPage(child: EnglishEntrybreakage()),
   "/english-breakdown": (_) => MaterialPage(child: EnglishEntrybreakdown()),
@@ -4429,12 +4434,16 @@ final loggedInRoute = RouteMap(routes: {
   "/english-breakwater": (_) => MaterialPage(child: EnglishEntrybreakwater()),
   "/english-breast": (_) => MaterialPage(child: EnglishEntrybreast()),
   "/english-breastbone": (_) => MaterialPage(child: EnglishEntrybreastbone()),
-  "/english-breaststroke": (_) => MaterialPage(child: EnglishEntrybreaststroke()),
+  "/english-breaststroke": (_) =>
+      MaterialPage(child: EnglishEntrybreaststroke()),
   "/english-breath": (_) => MaterialPage(child: EnglishEntrybreath()),
   "/english-breathless": (_) => MaterialPage(child: EnglishEntrybreathless()),
-  "/english-breathlessly": (_) => MaterialPage(child: EnglishEntrybreathlessly()),
-  "/english-breathtaking": (_) => MaterialPage(child: EnglishEntrybreathtaking()),
-  "/english-breathalyser": (_) => MaterialPage(child: EnglishEntrybreathalyser()),
+  "/english-breathlessly": (_) =>
+      MaterialPage(child: EnglishEntrybreathlessly()),
+  "/english-breathtaking": (_) =>
+      MaterialPage(child: EnglishEntrybreathtaking()),
+  "/english-breathalyser": (_) =>
+      MaterialPage(child: EnglishEntrybreathalyser()),
   "/english-breathe": (_) => MaterialPage(child: EnglishEntrybreathe()),
   "/english-breather": (_) => MaterialPage(child: EnglishEntrybreather()),
   "/english-breed": (_) => MaterialPage(child: EnglishEntrybreed()),

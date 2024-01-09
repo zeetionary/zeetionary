@@ -114,7 +114,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     final currentTheme = ref.watch(themeNotifierProvider);
 
     return Text(
-      'Test',
+      "Dictionary",
       style: TextStyle(
         fontSize: 26.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed

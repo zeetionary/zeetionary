@@ -178,6 +178,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             // QuestionsScreen(),
             // QuizScreen(currentTheme: currentTheme),
             QuizScreen(currentTheme: currentTheme),
+            QuizScreen(currentTheme: currentTheme),
           ],
           onPageChanged: (index) {
             setState(() {
@@ -186,7 +187,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           },
         ),
         bottomNavigationBar: BottomNavyBar(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           containerHeight: 44,
           // backgroundColor: currentTheme.scaffoldBackgroundColor,
           selectedIndex: _currentIndex,
@@ -238,23 +239,23 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               activeColor: currentTheme.scaffoldBackgroundColor,
               textAlign: TextAlign.center,
             ),
-            // BottomNavyBarItem(
-            //   icon: Icon(
-            //     Icons.quiz,
-            //     color: currentTheme.primaryColor,
-            //   ),
-            //   title: Text(
-            //     'Grammar',
-            //     style: TextStyle(
-            //       color: currentTheme
-            //           .primaryColor, // Replace with your desired color
-            //       fontSize: 12,
-            //       // fontWeight: FontWeight.bold,
-            //     ),
-            //   ),
-            //   activeColor: currentTheme.scaffoldBackgroundColor,
-            //   textAlign: TextAlign.center,
-            // ),
+            BottomNavyBarItem(
+              icon: Icon(
+                Icons.quiz,
+                color: currentTheme.primaryColor,
+              ),
+              title: Text(
+                'Grammar',
+                style: TextStyle(
+                  color: currentTheme
+                      .primaryColor, // Replace with your desired color
+                  fontSize: 12,
+                  // fontWeight: FontWeight.bold,
+                ),
+              ),
+              activeColor: currentTheme.scaffoldBackgroundColor,
+              textAlign: TextAlign.center,
+            ),
             BottomNavyBarItem(
               icon: Icon(
                 Icons.quiz,

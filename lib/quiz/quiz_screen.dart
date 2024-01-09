@@ -63,45 +63,48 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       // appBar: const ZeetionaryAppbar(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            DecoratedBox(
-              decoration: BoxDecoration(
-                border: Border.all(
-                    color: widget.currentTheme.primaryColor, width: 2),
-                borderRadius: BorderRadius.circular(12),
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              DecoratedBox(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                      color: widget.currentTheme.primaryColor, width: 2),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: QuestionCard(
+                  question: questions[currentIndex],
+                  onAnswerSelected: (answer) => checkAnswer(answer),
+                  currentTheme: widget.currentTheme,
+                ),
               ),
-              child: QuestionCard(
-                question: questions[currentIndex],
-                onAnswerSelected: (answer) => checkAnswer(answer),
-                currentTheme: widget.currentTheme,
+              const SizedBox(height: 20),
+              Container(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                      color: widget.currentTheme.primaryColor, width: 2),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                padding: const EdgeInsets.all(12),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    const Icon(Icons.close, color: Colors.red),
+                    Text(
+                        '${userAnswers.where((answer) => answer == false).length}',
+                        style:
+                            const TextStyle(fontSize: 20, color: Colors.red)),
+                    const Icon(Icons.check, color: Colors.green),
+                    Text(
+                        '${userAnswers.where((answer) => answer == true).length}',
+                        style:
+                            const TextStyle(fontSize: 20, color: Colors.green)),
+                  ],
+                ),
               ),
-            ),
-            const SizedBox(height: 20),
-            Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                    color: widget.currentTheme.primaryColor, width: 2),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              padding: const EdgeInsets.all(16),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  const Icon(Icons.close, color: Colors.red),
-                  Text(
-                      '${userAnswers.where((answer) => answer == false).length}',
-                      style: const TextStyle(fontSize: 20, color: Colors.red)),
-                  const Icon(Icons.check, color: Colors.green),
-                  Text(
-                      '${userAnswers.where((answer) => answer == true).length}',
-                      style:
-                          const TextStyle(fontSize: 20, color: Colors.green)),
-                ],
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -174,13 +177,13 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Padding(
-          padding: const EdgeInsets.all(20.0),
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
           child: Container(
             decoration: BoxDecoration(
               color: Colors.transparent,
               borderRadius: BorderRadius.circular(12),
             ),
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.symmetric(horizontal: 0),
             child: Text(
               widget.question.questionText,
               style: TextStyle(
@@ -195,11 +198,13 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
         Column(
           children: widget.question.options.map((option) {
             return Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
               child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
                 decoration: BoxDecoration(
                   border: Border.all(
-                      color: widget.currentTheme.primaryColor, width: 2),
+                      color: widget.currentTheme.primaryColor.withOpacity(0.8),
+                      width: 1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: ElevatedButton(
@@ -212,13 +217,20 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  child: Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(16.0),
-                    alignment: Alignment.center,
-                    child: Text(
-                      option,
-                      style: const TextStyle(fontSize: 16, color: Colors.black),
+                  child: Padding(
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
+                    child: Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12.0),
+                      alignment: Alignment.center,
+                      child: Text(
+                        option,
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: widget.currentTheme.primaryColor,
+                        ),
+                      ),
                     ),
                   ),
                 ),

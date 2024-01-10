@@ -385,7 +385,7 @@ class EnglishEntryallow extends StatelessWidget {
                                       "The law allowed companies to dismiss workers without any reason."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یاساکە ڕێگە بە کۆمپانیاکان کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
+                                      "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

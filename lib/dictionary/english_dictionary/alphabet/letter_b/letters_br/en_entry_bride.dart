@@ -3,128 +3,83 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace EnglishEntryAdopsum - replace speakAnybody
-
-// replace anybody - /ˈenibɒdi/ - find WORD_WEB
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryanybody extends StatelessWidget {
-  // blank divider
-  EnglishEntryanybody({super.key});
-  // blank divider
+class EnglishEntrybride extends StatelessWidget {
+// blank divider
+  EnglishEntrybride({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnybody(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
+  Future<void> speakbride(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bride"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody926(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Does anybody else want to come?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnybody927(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
+  Future<void> speakbrides1(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I forbid anybody to touch that clock."); // DOPSUM: CHANGE TEXT
+        .speak("He introduced his new bride."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody1055(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Is there anybody who can help me?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnybody1056(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
+  Future<void> speakbrides2(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
+        "The bride looked radiant in her white gown."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody1059(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Anybody could dress well with all that money."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnybody929(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
+  Future<void> speakbrides3(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Anybody can see that it's wrong."); // DOPSUM: CHANGE TEXT
+        .speak("You may now kiss the bride."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody931(String languageCode) async {
-    // DOPSUM: CHANGE speakAnybody
+  Future<void> speakbrides4(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
+        "The bride and groom posed for pictures outside the church."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnybody(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnybody
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbrides5(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrides55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnybody(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnybody
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbrides6(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrides66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnybody(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnybody
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnybody(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnybody
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnybody(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnybody
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbrides7(String languageCode) async {
+    // DOPSUM: CHANGE speakbride
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrides77"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -146,27 +101,22 @@ class EnglishEntryanybody extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "anybody"), // Find /ˈenibɒdi/
-                            // divvviiider
+                            EntryTitle(word: "bride"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈenibɒdi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /braɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnybody("en-GB"),
+                              onPressed: () => speakbride("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈenibɑːdi/,  /ˈenibʌdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /braɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnybody("en-US"),
+                              onPressed: () => speakbride("en-US"),
                             ),
                           ],
                         ),
@@ -184,8 +134,8 @@ class EnglishEntryanybody extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -194,6 +144,11 @@ class EnglishEntryanybody extends StatelessWidget {
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -207,44 +162,23 @@ class EnglishEntryanybody extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھیچ‌کەس، کەسێ، ھەرکەس، ھەرکەسێ
+کوردی: بووک، وەوی، تازەبووک
 
-١. (جێناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لە دوای ھەندێ کردار، بۆ نموونە prevent و forbid و avoid"""),
+١. (ناو) ژنێک لە ڕۆژی هاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Is there anybody who can help me?"),
+                                  text: "He introduced his new bride."),
                               const ExampleSentenceKurdish(
-                                  text: "کەس ھەیە بتوانێ یارمەتیم بدا؟"),
-                              const CustomSizedBoxForTTS(),
+                                  text: "بووکە تازەکەی ناساند."),
+                              const CustomSizedBoxForTTS(), // Define the word "bride" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody1055("en-GB"),
+                                    onPressed: () => speakbrides1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody1055("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Does anybody else want to come?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کەسی تر دەیەوێت بێت؟"),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody926("en-US"),
+                                    onPressed: () => speakbrides1("en-US"),
                                   ),
                                 ],
                               ),
@@ -255,45 +189,18 @@ class EnglishEntryanybody extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I forbid anybody to touch that clock."),
+                                      "The bride looked radiant in her white gown."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
+                                      "بووکەکە دڵخۆش دیاربوو لە جلە سپییەکەیدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody927("en-GB"),
+                                    onPressed: () => speakbrides2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody927("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (جێناو) ھەرکەسێک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Anybody could dress well with all that money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody1059("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody1059(
-                                        // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
-                                        "en-US"),
+                                    onPressed: () => speakbrides2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,54 +210,49 @@ class EnglishEntryanybody extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Anybody can see that it's wrong."),
+                                  text: "You may now kiss the bride."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
+                                      "ئێستا دەتوانی ماچی بووکەکە بکەیت (پیر و خەڕۆ بن پێکەوە)."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody929("en-GB"),
+                                    onPressed: () => speakbrides3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody929("en-US"),
+                                    onPressed: () => speakbrides3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (جێناو) لە ڕستەی نەرێدا بە واتای کەسێکی گرنگ"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She wasn't anybody before she got that job."),
+                                      "The bride and groom posed for pictures outside the church."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
+                                      "بووک و زاواکە وێنەیان لە دەرەوەی کڵێساکە گرت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody931("en-GB"),
+                                    onPressed: () => speakbrides4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody931("en-US"),
+                                    onPressed: () => speakbrides4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -365,6 +267,12 @@ class EnglishEntryanybody extends StatelessWidget {
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -392,9 +300,13 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Pronoun: anybody 
-- Any person (= anyone)
-"has anybody seen my wallet?";
+- Noun: bride (Derived forms: brides)
+1. A woman who has recently been married
+ 
+2. A woman participant in her own marriage ceremony
+
+- Noun: Bride
+1. Irish abbess; a patron saint of Ireland (453-523) (= Brigit of Kildare, Bridget, Saint Bridget, St. Bridget, Brigid, Saint Brigid, St. Brigid, Saint Bride, St. Bride)
 """,
           )
         ],
@@ -406,12 +318,14 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "-LHXbw4x2Ws";
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 556, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,8 +333,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -431,12 +343,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "LDflrf85h9Y";
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/4FSKz0-a-qQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 114, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,8 +358,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -456,7 +368,184 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "VBDaJZegkao";
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/L81XWiDgmTk?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 144, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/HvpX-AIBjkk?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 272, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/B0lwiInZG1E?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 317, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/etq5gOc4F0M?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 927, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/OoVYhJmKB4k?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2014, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/xv-RvCrCvoU?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 41, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/0j5Rm7FxaQU?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 339, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/sFiHGTjgGMY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,183 +559,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedthree({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "44HXLCsdIk8";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 257, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedfour({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "qxVWpWNPEWU";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedfive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "MGO4_8YRKro";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 596, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedsix({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "2ihOXaU0I8o";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 279, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedseven({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "GjMmsEwIcl0";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 350, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedeight({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "qWAagS_MANg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 290, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddednine({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "-l2KPjQ2lJA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 35, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedten({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -656,12 +568,14 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "gdgPAetNY5U";
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/ErFr88-RY0I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 610, // DOPSUM: CHANGE IT
+      startAt: 661, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -669,8 +583,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -681,12 +593,14 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "nLiSWJDhAmQ";
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "https://youtu.be/TT4It1JdayQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 599, // DOPSUM: CHANGE IT
+      startAt: 578, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -694,8 +608,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwelve({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -705,67 +617,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
-
-// class YoutubeEmbeddethirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddethirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// More sentences is NOT done
-
-// end // TODO Implement this library.
+// end WORD_WEB

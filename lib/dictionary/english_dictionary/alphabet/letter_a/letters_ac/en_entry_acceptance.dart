@@ -213,7 +213,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                       "The idea was slow to gain general acceptance."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەنددەکرا."),
+                                      "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەند دەکرا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

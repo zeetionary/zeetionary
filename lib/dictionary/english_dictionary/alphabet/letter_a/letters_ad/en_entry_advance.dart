@@ -273,7 +273,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text:
                                       "The publishers have paid me an advance."),
                               const ExampleSentenceKurdish(
-                                  text: "بڵاکەرەوەکان پێشەکییەکیان داوە پێم."),
+                                  text: "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

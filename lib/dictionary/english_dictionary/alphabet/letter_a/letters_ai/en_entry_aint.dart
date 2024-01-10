@@ -145,8 +145,9 @@ am not/is not/are not"""),
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کورتکراوە) کورتکراوە بۆ
+٢. (کورتکراوە) کورتکراوە بۆ
 has not/have not"""),
                           Row(
                             children: [

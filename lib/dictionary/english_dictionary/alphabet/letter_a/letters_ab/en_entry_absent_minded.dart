@@ -116,7 +116,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                                   text:
                                       "Grandpa’s becoming quite absent-minded."),
                               const ExampleSentenceKurdish(
-                                  text: "باپیرە خەیکە خەیاڵپڵاو دەبێت."),
+                                  text: "باپیرە خەریکە خەیاڵپڵاو دەبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

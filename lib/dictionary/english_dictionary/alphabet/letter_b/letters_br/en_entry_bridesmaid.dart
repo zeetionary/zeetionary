@@ -7,78 +7,76 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrick extends StatelessWidget {
+class EnglishEntrybridesmaid extends StatelessWidget {
 // blank divider
-  EnglishEntrybrick({super.key});
+  EnglishEntrybridesmaid({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrick(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaid(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brick"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bridesmaid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The school is built of brick."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbricks2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We rebuilt the fireplace using bricks."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbricks3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaids1(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Without a fast connection, your tablet turns into a brick."); // DOPSUM: CHANGE TEXT
+        "Tim asked her sister to be (a) bridesmaid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaids2(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Thanks for looking after the children today—you're a real brick."); // DOPSUM: CHANGE TEXT
+        "Her sister asked her to be chief bridesmaid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaids3(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridesmaids33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaids4(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridesmaids44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridesmaids5(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridesmaids55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbridesmaids6(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbridesmaids66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbridesmaids7(String languageCode) async {
+    // DOPSUM: CHANGE speakbridesmaid
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbridesmaids77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -101,22 +99,22 @@ class EnglishEntrybrick extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brick"),
+                            EntryTitle(word: "bridesmaid"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /brɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbraɪdzmeɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrick("en-GB"),
+                              onPressed: () => speakbridesmaid("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /brɪk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbraɪdzmeɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrick("en-US"),
+                              onPressed: () => speakbridesmaid("en-US"),
                             ),
                           ],
                         ),
@@ -162,23 +160,25 @@ class EnglishEntrybrick extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خشت، کەرپووچ، تابووگ، ئاجور 
+کوردی: ئاوەڵ‌بووک، برازاوا، شۆشبان (کچ و ژن)
 
-١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"""),
+١. (ھاوەڵناو) کچێک یان ژنێکی گەنج کە لەگەڵ بووکدا دەبێت پێش و لەکاتی ئاهەنگی هاوسەرگیریدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The school is built of brick."),
+                                  text:
+                                      "Tim asked her sister to be (a) bridesmaid."),
                               const ExampleSentenceKurdish(
-                                  text: "قوتابخانەکە لە خشت درووستکراوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "brick" as
+                                  text:
+                                      "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک."),
+                              const CustomSizedBoxForTTS(), // Define the word "bridesmaid" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbricks1("en-GB"),
+                                    onPressed: () => speakbridesmaids1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks1("en-US"),
+                                    onPressed: () => speakbridesmaids1("en-US"),
                                   ),
                                 ],
                               ),
@@ -189,67 +189,18 @@ class EnglishEntrybrick extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We rebuilt the fireplace using bricks."),
+                                      "Her sister asked her to be chief bridesmaid."),
                               const ExampleSentenceKurdish(
-                                  text: "ئاگردانەکەمان درووستکردەوە بە خشت."),
+                                  text:
+                                      "خوشکەکەی داوای لێی‌کرد ببێت بە ئاوەڵ‌بووکی سەرەکی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbricks2("en-GB"),
+                                    onPressed: () => speakbridesmaids2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئامێرێکی کارەبایی کە سووتاوە و بەکارنایەت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Without a fast connection, your tablet turns into a brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ھاوڕێیەک کە دەکرێت پشتی پێ ببەستیت کە پێویستیت بە یارمەتییە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thanks for looking after the children today—you're a real brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks4("en-US"),
+                                    onPressed: () => speakbridesmaids2("en-US"),
                                   ),
                                 ],
                               ),
@@ -306,15 +257,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brick (derived forms: bricks)
-1. Rectangular block of clay baked by the sun or in a kiln; used as a building or paving material
- 
-2. A good fellow; helpful and trustworthy
-
-- Verb: brick (derived forms: bricked, bricks, bricking)
-1. To stop working (of an electronic device)
- 
-2. Wall up with brick (= brick in, brick up, brick over)
+- Noun: bridesmaid (Derived forms: bridesmaids)
+1. An unmarried woman who attends the bride at a wedding (= maid of honor [US], maid of honour [Brit, Cdn])
 """,
           )
         ],
@@ -328,12 +272,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "DTvS9lvRxZ8";
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 144, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +297,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "ntYs7pnoxAM";
+  static String myVideoId = "https://youtu.be/v14PWuURC7Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +322,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "iFcPqXxAUWM";
+  static String myVideoId = "https://youtu.be/9TugA_z5vQE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +347,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "tkOeqa-y890";
+  static String myVideoId = "https://youtu.be/JNpKUp5FTeY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 32, // DOPSUM: CHANGE IT
+      startAt: 616, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,32 +372,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "2fXiboAGQvM";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "WPeG-x9Lz1A";
+  static String myVideoId = "https://youtu.be/4Rjxj_5Y5go?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -475,15 +394,40 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "a-PNYKX8tYo";
+  static String myVideoId = "https://youtu.be/ywuyOG0Jj9M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 937, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/X7MUCK6LwiE?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 687, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +447,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "V8SzqfEk7Fo";
+  static String myVideoId = "https://youtu.be/hSVTKustxH0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 228, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +472,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "R9XMWHFzPs8";
+  static String myVideoId = "https://youtu.be/PGu_g9De_Ms?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 202, // DOPSUM: CHANGE IT
+      startAt: 547, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +497,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "lAUivF-NEuM";
+  static String myVideoId = "https://youtu.be/sRTxO2fT7Tw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 96, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +522,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "L05ajpJRrXc";
+  static String myVideoId = "https://youtu.be/PP4l--a81r0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 414, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +547,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "9FlkbzTOiJ4";
+  static String myVideoId = "https://youtu.be/ZVc22knOWzk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 34, // DOPSUM: CHANGE IT
+      startAt: 1084, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

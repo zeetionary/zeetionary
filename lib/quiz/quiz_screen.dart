@@ -143,6 +143,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
               child: const Center(
                 child: Text(
                   'پرسیاری دواتر',
+                  style: TextStyle(fontSize: 24),
                   textAlign: TextAlign.center,
                   textDirection: TextDirection.rtl,
                 ),

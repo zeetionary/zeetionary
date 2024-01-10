@@ -7,84 +7,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrick extends StatelessWidget {
+class EnglishEntrybridgehead extends StatelessWidget {
 // blank divider
-  EnglishEntrybrick({super.key});
+  EnglishEntrybridgehead({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrick(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgehead(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brick"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bridgehead"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The school is built of brick."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbricks2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We rebuilt the fireplace using bricks."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbricks3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgeheads1(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Without a fast connection, your tablet turns into a brick."); // DOPSUM: CHANGE TEXT
+        "speakbridgeheads111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgeheads2(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Thanks for looking after the children today—you're a real brick."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridgeheads22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgeheads3(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridgeheads33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgeheads4(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridgeheads44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbricks7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrick
+  Future<void> speakbridgeheads5(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbricks77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridgeheads55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbridgeheads6(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbridgeheads66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbridgeheads7(String languageCode) async {
+    // DOPSUM: CHANGE speakbridgehead
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbridgeheads77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -101,22 +98,22 @@ class EnglishEntrybrick extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brick"),
+                            EntryTitle(word: "bridgehead"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /brɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrɪdʒhed/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrick("en-GB"),
+                              onPressed: () => speakbridgehead("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /brɪk/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbrɪdʒhed/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrick("en-US"),
+                              onPressed: () => speakbridgehead("en-US"),
                             ),
                           ],
                         ),
@@ -129,18 +126,18 @@ class EnglishEntrybrick extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
-                  VideoIconForTab(), // 02
-                  VideoIconForTab(), // 03
-                  VideoIconForTab(), // 04
-                  VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 01
+                  // VideoIconForTab(), // 02
+                  // VideoIconForTab(), // 03
+                  // VideoIconForTab(), // 04
+                  // VideoIconForTab(), // 05
+                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
+                  // VideoIconForTab(), // 07 --- FIND: speakbridgeheads111111111111111111111111111111111
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -162,94 +159,24 @@ class EnglishEntrybrick extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خشت، کەرپووچ، تابووگ، ئاجور 
+کوردی: 
 
-١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The school is built of brick."),
-                              const ExampleSentenceKurdish(
-                                  text: "قوتابخانەکە لە خشت درووستکراوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "brick" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
+١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We rebuilt the fireplace using bricks."),
+                                      "speakbridgeheads111111111111111111111111111111111"),
                               const ExampleSentenceKurdish(
-                                  text: "ئاگردانەکەمان درووستکردەوە بە خشت."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "رستە_رستە_رستە_رستە."),
+                              const CustomSizedBoxForTTS(), // Define the word "bridgehead" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbricks2("en-GB"),
+                                    onPressed: () => speakbridgeheads1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ئامێرێکی کارەبایی کە سووتاوە و بەکارنایەت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Without a fast connection, your tablet turns into a brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ھاوڕێیەک کە دەکرێت پشتی پێ ببەستیت کە پێویستیت بە یارمەتییە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thanks for looking after the children today—you're a real brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks4("en-US"),
+                                    onPressed: () => speakbridgeheads1("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,18 +185,18 @@ class EnglishEntrybrick extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(),
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedone(),
+                    // YoutubeEmbeddedtwo(),
+                    // YoutubeEmbeddedthree(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -306,15 +233,11 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: brick (derived forms: bricks)
-1. Rectangular block of clay baked by the sun or in a kiln; used as a building or paving material
- 
-2. A good fellow; helpful and trustworthy
+- Noun: bridgehead (Derived forms: bridgeheads)
+1. An area in hostile territory that has been captured and is held awaiting further troops and supplies (= foothold)
+"an attempt to secure a bridgehead behind enemy lines";
 
-- Verb: brick (derived forms: bricked, bricks, bricking)
-1. To stop working (of an electronic device)
- 
-2. Wall up with brick (= brick in, brick up, brick over)
+2. A defensive post at the end of a bridge nearest to the enemy
 """,
           )
         ],
@@ -328,12 +251,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "DTvS9lvRxZ8";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +276,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "ntYs7pnoxAM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +301,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "iFcPqXxAUWM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +326,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "tkOeqa-y890";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 32, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +351,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "2fXiboAGQvM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +376,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "WPeG-x9Lz1A";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 150, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +401,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "a-PNYKX8tYo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +426,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "V8SzqfEk7Fo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +451,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "R9XMWHFzPs8";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 202, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +476,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "lAUivF-NEuM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +501,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "L05ajpJRrXc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +526,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "9FlkbzTOiJ4";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 34, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

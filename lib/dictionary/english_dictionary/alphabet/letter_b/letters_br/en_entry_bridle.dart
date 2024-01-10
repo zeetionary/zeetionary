@@ -7,75 +7,77 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybridgehead extends StatelessWidget {
+class EnglishEntrybridle extends StatelessWidget {
 // blank divider
-  EnglishEntrybridgehead({super.key});
+  EnglishEntrybridle({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbridgehead(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridle(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bridgehead"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bridle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads1(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles1(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The advance troops established a bridgehead early in the fighting."); // DOPSUM: CHANGE TEXT
+        "She held his stirrup for him while Adam took the bridle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads2(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles2(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Polly saddled and bridled her favourite horse."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads3(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles3(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She bridled at the suggestion that she was lying."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads4(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles4(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads5(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles5(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads6(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles6(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbridgeheads7(String languageCode) async {
-    // DOPSUM: CHANGE speakbridgehead
+  Future<void> speakbridles7(String languageCode) async {
+    // DOPSUM: CHANGE speakbridle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbridgeheads77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbridles77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -98,22 +100,22 @@ class EnglishEntrybridgehead extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bridgehead"),
+                            EntryTitle(word: "bridle"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɪdʒhed/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbraɪdl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbridgehead("en-GB"),
+                              onPressed: () => speakbridle("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɪdʒhed/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbraɪdl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbridgehead("en-US"),
+                              onPressed: () => speakbridle("en-US"),
                             ),
                           ],
                         ),
@@ -159,25 +161,74 @@ class EnglishEntrybridgehead extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرپرد، سەرەتا، شوێن یان خاڵی دەسپێک، شوێنی پتەو، ڕەوشی باش، هەل‌ومەرجی لەبار
+کوردی: لەغاو، هەوسار، پاڵەنگ، لیاڤۆک، دەڤگەم، دەسەجڵەو، بزمک، ڕێشمە، سەرکەللە، گوریس و کابلی مەهار یان ڕاگرتنی کەشتی
 
-١. (ناو) شوێنێکی بەهێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دووژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"""),
+١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The advance troops established a bridgehead early in the fighting."),
+                                      "She held his stirrup for him while Adam took the bridle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
-                              const CustomSizedBoxForTTS(), // Define the word "bridgehead" as
+                                      "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم هەوسارەکەی بۆ گرتبوو."),
+                              const CustomSizedBoxForTTS(), // Define the word "bridle" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbridgeheads1("en-GB"),
+                                    onPressed: () => speakbridles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbridgeheads1("en-US"),
+                                    onPressed: () => speakbridles1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) دانانی هەوسار لە دەوری سەری ئەسپ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Polly saddled and bridled her favourite horse."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پۆڵی زین و هەوساری لە ئەسپی دڵخوازی پۆشی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbridles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbridles2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) تووڕەبوونی لەناکاو"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She bridled at the suggestion that she was lying."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تووڕەبوو بەو بۆچوونەی کە کچەکە درۆی کردووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbridles3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbridles3("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,11 +285,20 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bridgehead (Derived forms: bridgeheads)
-1. An area in hostile territory that has been captured and is held awaiting further troops and supplies (= foothold)
-"an attempt to secure a bridgehead behind enemy lines";
+- Noun: bridle (Derived forms: bridled, bridles, bridling)
+1. Headgear for a horse; includes a headstall and bit and reins to give the rider or driver control
+ 
+2. The act of restraining power, action or limiting excess (= check, curb)
+"his common sense is a bridle to his quick temper";
 
-2. A defensive post at the end of a bridge nearest to the enemy
+- Verb: bridle 
+1. Anger or take offence
+"She bridled at his suggestion to elope"
+ 
+2. Put a bridle on
+"bridle horses"
+ 
+3. Respond to the reins, as of horses
 """,
           )
         ],
@@ -252,12 +312,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/c_Bqcg52pr0?t=";
+  static String myVideoId = "https://youtu.be/2kGBv1-Q0ew?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 67, // DOPSUM: CHANGE IT
+      // startAt: 3333333333333301, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -277,12 +337,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/uNm0d7-OLKY?t=";
+  static String myVideoId = "https://youtu.be/LkEVKw66Xf0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1095, // DOPSUM: CHANGE IT
+      startAt: 169, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -302,12 +362,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/xCSCa34ufDs?t=";
+  static String myVideoId = "https://youtu.be/g-11Au4KgfQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 392, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -327,12 +387,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/XLtwqX9iQ5U?t=";
+  static String myVideoId = "https://youtu.be/RV2ftqfYk_s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 167, // DOPSUM: CHANGE IT
+      startAt: 99, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +412,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/d8uaFZAxzpw?t=";
+  static String myVideoId = "https://youtu.be/A90BDh1ZrHI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 441, // DOPSUM: CHANGE IT
+      startAt: 1963, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +437,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/pWs0xkpkU-s?t=";
+  static String myVideoId = "https://youtu.be/ldgecWJMGfs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 105, // DOPSUM: CHANGE IT
+      startAt: 1133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +462,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/uJsjxSfB7Ls?t=";
+  static String myVideoId = "https://youtu.be/yBhVBS16NFU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6127, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +487,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/kPu6Crjai4I?t=";
+  static String myVideoId = "https://youtu.be/AsnpCuqyeow?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 35, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +512,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/pI46QXNM-1s?t=";
+  static String myVideoId = "https://youtu.be/T7lGsWO5R10?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1943, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

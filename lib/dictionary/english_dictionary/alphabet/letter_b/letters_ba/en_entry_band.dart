@@ -253,7 +253,7 @@ class EnglishEntryband extends StatelessWidget {
                                       "All babies in the hospital have name bands on their wrists."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێک لە مەچەکە کە ناویانی لەسەر نووسراوە."),
+                                      "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

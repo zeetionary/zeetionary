@@ -97,19 +97,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       childDecoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(16)),
       ),
-      drawer: SafeArea(
+      drawer: const SafeArea(
         child: ListTileTheme(
           textColor: Colors.white,
           iconColor: Colors.white,
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              const DrawerListTile(),
-              Switch.adaptive(
-                value: ref.watch(themeNotifierProvider.notifier).mode ==
-                    ThemeMode.dark,
-                onChanged: (val) => toggleTheme(ref),
-              ),
+              DrawerListTile(),
             ],
           ),
         ),
@@ -188,7 +183,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ),
         bottomNavigationBar: BottomNavyBar(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          containerHeight: 44,
+          // containerHeight: 50,
           // backgroundColor: currentTheme.scaffoldBackgroundColor,
           selectedIndex: _currentIndex,
           showElevation: false,
@@ -212,13 +207,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               title: Text(
                 'English',
                 style: TextStyle(
+                  // backgroundColor: currentTheme.primaryColor,
                   color: currentTheme
                       .primaryColor, // Replace with your desired color
                   fontSize: 12,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
-              activeColor: currentTheme.scaffoldBackgroundColor,
+              activeColor: Colors.blue.shade300,
+              // activeColor: currentTheme.primaryColor,
+              inactiveColor: Colors.red,
               textAlign: TextAlign.center,
             ),
             BottomNavyBarItem(
@@ -236,7 +234,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // fontWeight: FontWeight.bold,
                 ),
               ),
-              activeColor: currentTheme.scaffoldBackgroundColor,
+              activeColor: Colors.blue.shade300,
               textAlign: TextAlign.center,
             ),
             BottomNavyBarItem(
@@ -253,7 +251,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // fontWeight: FontWeight.bold,
                 ),
               ),
-              activeColor: currentTheme.scaffoldBackgroundColor,
+              activeColor: Colors.blue.shade300,
+              // inactiveColor: Colors.red,
               textAlign: TextAlign.center,
             ),
             BottomNavyBarItem(
@@ -270,7 +269,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // fontWeight: FontWeight.bold,
                 ),
               ),
-              activeColor: currentTheme.scaffoldBackgroundColor,
+              activeColor: Colors.blue.shade300,
               textAlign: TextAlign.center,
             ),
           ],

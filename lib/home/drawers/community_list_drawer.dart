@@ -22,46 +22,60 @@ class _DrawerListTileState extends ConsumerState<DrawerListTile> {
     ref.read(authControllerProvider.notifier).logout();
   }
 
+  void toggleTheme(WidgetRef ref) {
+    ref.read(themeNotifierProvider.notifier).toggleTheme();
+  }
+
   @override
   Widget build(BuildContext context) {
     final currentTheme = ref.watch(themeNotifierProvider);
 
-    return Column(
-      children: [
-        ListTile(
-          title: Text(
-            'Quiz',
-            style: TextStyle(
-              fontSize: 16.0,
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          ListTile(
+            title: const Text(
+              "Quiz",
+              style: TextStyle(
+                fontSize: 16.0,
+                // color: Colors.blue,
+              ),
+            ),
+            leading: Icon(
+              Icons.question_answer,
               color: currentTheme.primaryColor,
             ),
+            onTap: () {
+              Routemaster.of(context).push('/quiz-screen');
+            },
           ),
-          leading: Icon(
-            Icons.question_answer,
-            color: currentTheme.primaryColor,
-          ),
-          onTap: () {
-            Routemaster.of(context).push('/quiz-screen');
-          },
-        ),
-        ListTile(
-          title: Text(
-            'بچۆ دەرەوە',
-            style: TextStyle(
-              fontSize: 16.0,
+          ListTile(
+            title: Text(
+              'بچۆ دەرەوە',
+              style: TextStyle(
+                fontSize: 16.0,
+                color: Pallete.redColor,
+              ),
+            ),
+            leading: Icon(
+              Icons.logout,
               color: Pallete.redColor,
             ),
+            onTap: () => logOut(ref),
           ),
-          leading: Icon(
-            Icons.logout,
-            color: Pallete.redColor,
+          // Add more ListTile widgets as needed
+          const SizedBox(height: 40),
+          Switch.adaptive(
+            value: ref.watch(themeNotifierProvider.notifier).mode ==
+                ThemeMode.dark,
+            onChanged: (val) => toggleTheme(ref),
           ),
-          onTap: () => logOut(ref),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
+
 
 
 

@@ -118,7 +118,19 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: isCorrect ? const Text('Correct!') : const Text('Incorrect!'),
+          title: isCorrect
+              ? const Text(
+                  'بژیت 👍',
+                  style: TextStyle(fontSize: 26),
+                  textAlign: TextAlign.right,
+                  textDirection: TextDirection.rtl,
+                )
+              : const Text(
+                  'بەداخەوە 😥',
+                  style: TextStyle(fontSize: 26),
+                  textAlign: TextAlign.right,
+                  textDirection: TextDirection.rtl,
+                ),
           content: isCorrect
               ? const Icon(Icons.check, color: Colors.green, size: 50)
               : const Icon(Icons.close, color: Colors.red, size: 50),
@@ -128,7 +140,13 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                 Navigator.of(context).pop();
                 moveToNextQuestion();
               },
-              child: const Text('Next Question'),
+              child: const Center(
+                child: Text(
+                  'پرسیاری دواتر',
+                  textAlign: TextAlign.center,
+                  textDirection: TextDirection.rtl,
+                ),
+              ),
             ),
           ],
         );

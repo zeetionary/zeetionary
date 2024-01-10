@@ -34,11 +34,11 @@ class _DrawerListTileState extends ConsumerState<DrawerListTile> {
       child: Column(
         children: [
           ListTile(
-            title: const Text(
+            title: Text(
               "Quiz",
               style: TextStyle(
                 fontSize: 16.0,
-                // color: Colors.blue,
+                color: currentTheme.primaryColor,
               ),
             ),
             leading: Icon(

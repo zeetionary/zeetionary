@@ -5,88 +5,83 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "breakthrough" as
-
 enum TtsState { playing }
 
-class EnglishEntrybreakthrough extends StatelessWidget {
+class EnglishEntrybrightly extends StatelessWidget {
 // blank divider
-  EnglishEntrybreakthrough({super.key});
+  EnglishEntrybrightly({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbreakthrough(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightly(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("breakthrough"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brightly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new deal represents a major breakthrough for the company."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The sun was shining brightly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Scientists are hoping for a breakthrough in the search for a cure for cancer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a breakthrough album for the band."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The article described the impact of their breakthrough discovery of the structure of DNA."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbreakthroughs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbreakthrough
+  Future<void> speakbrightlys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrightly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbreakthroughs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrightlys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +98,22 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "breakthrough"),
+                            EntryTitle(word: "brightly"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbreɪkθruː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbraɪtli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbreakthrough("en-GB"),
+                              onPressed: () => speakbrightly("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbreɪkθruː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbraɪtli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbreakthrough("en-US"),
+                              onPressed: () => speakbrightly("en-US"),
                             ),
                           ],
                         ),
@@ -136,13 +131,13 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -164,105 +159,23 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دزە، چوونەنێو، ڕەخنە، پێشکەوتن، پێشڤەچوون، پەرەسەندن، سەرکەوتن، پەرەسەندن یان دۆزینەوەی گرنگ
+کوردی: بەشێوەیەکی ڕووناک، بەشەوقانە، بەگوڕەوە، بە خۆشحاڵی‌یەوە
 
-١. (ناو) ڕووداو یان دۆزینەوەیەکی گەورە"""),
+١. (ھاوەڵکار) بەدرەوشاوەیی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The new deal represents a major breakthrough for the company."),
+                                  text: "The sun was shining brightly."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنە نوێیەکە پيشکەوتنێکی بایەخدارە بۆ کۆمپانیاکە."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "خۆر بە پڕتیشکانەوە دەدرەوشایەوە."),
+                              const CustomSizedBoxForTTS(), // Define the word "brightly" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs1("en-GB"),
+                                    onPressed: () => speakbrightlys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are hoping for a breakthrough in the search for a cure for cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان ھیوا بۆ پەرەسەندنێکی گەورە دەخوازن لە ھەوڵ بۆ دۆزینەوەی چارەسەرێک بۆ شێرپەنجە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک یان شتێک بۆ یەکەم جار سەرکەوتووە و ئەگەری بەرەوپێشچوونی زیاتری ھەیە لە داھاتوودا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a breakthrough album for the band."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەلبوومەکە بۆ باندەکە دەرگای سەرکەوتنی کردەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ھاوەڵناو) زۆر گرنگ لە پەرەسەندنی کەسێک یان شتێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article described the impact of their breakthrough discovery of the structure of DNA."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە باسی کاریگەریی دۆزینەوە گەورەکەیانی دەکرد کە لەسەر پێکھاتەی DNA بوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs4("en-US"),
+                                    onPressed: () => speakbrightlys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -281,8 +194,8 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -319,12 +232,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: breakthrough (derived forms: breakthroughs)
-1. A productive insight (= discovery, find)
- 
-2. Making an important discovery
- 
-3. A penetration of a barrier such as an enemy's defence
+- Adverb: brightly
+1. With brightness (= brilliantly, bright)
+"the stars shone brightly";
 """,
           )
         ],
@@ -338,12 +248,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "bHIhgxav9LY";
+  static String myVideoId = "https://youtu.be/7Fjn4GRw8qE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 201, // DOPSUM: CHANGE IT
+      startAt: 196, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -363,12 +273,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "sV6uuMAnJUE";
+  static String myVideoId = "https://youtu.be/tJuYL3nPINM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1057, // DOPSUM: CHANGE IT
+      startAt: 306, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -388,12 +298,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "58XEfDtU0Z4";
+  static String myVideoId = "https://youtu.be/Axg27gwEqCE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1532, // DOPSUM: CHANGE IT
+      startAt: 374, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -413,12 +323,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "WnozP8OWeik";
+  static String myVideoId = "https://youtu.be/qS_VWG3JEZg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 508, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -438,12 +348,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8FpPSMIB4uA";
+  static String myVideoId = "https://youtu.be/Cpiy3XhxuFw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 49, // DOPSUM: CHANGE IT
+      startAt: 593, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -463,12 +373,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "DxL2HoqLbyA";
+  static String myVideoId = "https://youtu.be/Q1bSDnuIPbo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 191, // DOPSUM: CHANGE IT
+      startAt: 110, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -488,12 +398,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ASlx70G2x-c";
+  static String myVideoId = "https://youtu.be/Z9AsWp1JjA4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 167, // DOPSUM: CHANGE IT
+      startAt: 1476, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -513,12 +423,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "_uTZWaJU6ho";
+  static String myVideoId = "https://youtu.be/Y4B8M56w0Yk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 43, // DOPSUM: CHANGE IT
+      startAt: 2841, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -538,12 +448,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "MZ3ldOYGzOI";
+  static String myVideoId = "https://youtu.be/jigjbF9-TEU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 11, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -563,12 +473,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "gHhP6cjAvPE";
+  static String myVideoId = "https://youtu.be/0yNg2ZMZCG0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 369, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -588,12 +498,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "f0gg1PtBp9A";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 599, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -613,12 +523,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PaRWSFrZcMc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 48, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

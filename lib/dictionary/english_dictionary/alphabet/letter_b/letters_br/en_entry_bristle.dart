@@ -3,86 +3,88 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaffair - replace speakAffair - replace affair - /əˈfeər/ - find Dopsum2
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryaffair extends StatelessWidget {
-  EnglishEntryaffair({super.key});
+class EnglishEntrybristle extends StatelessWidget {
+// blank divider
+  EnglishEntrybristle({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffair(String languageCode) async {
-    // DOPSUM: CHANGE speakAffair
+  Future<void> speakbristle(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bristle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff25941(String languageCode) async {
-    // DOPSUM: CHANGE speakAffair
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's always interfering in other people's affairs."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAffa35228(String languageCode) async {
-    // DOPSUM: CHANGE speakAffair
+  Future<void> speakbristles1(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "As a leader, he's been criticized for his inexperience in foreign affairs."); // DOPSUM: CHANGE TEXT
+        "The old woman had a few grey bristles sprouting from her chin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffa25677(String languageCode) async {
-    // DOPSUM: CHANGE speakAffair
+  Future<void> speakbristles2(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The newspapers exaggerated the whole affair wildly."); // DOPSUM: CHANGE TEXT
+        "My toothbrush has blue and white plastic bristles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffa2411(String languageCode) async {
-    // DOPSUM: CHANGE speakAffair
+  Future<void> speakbristles3(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("His lies made her bristle with rage."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbristles4(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was having an affair with a co-worker."); // DOPSUM: CHANGE TEXT
+        "The cat's fur bristled and it arched its back."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffair(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffair
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbristles5(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbristles55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAffair(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffair
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbristles6(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbristles66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAffair(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffair
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbristles7(String languageCode) async {
+    // DOPSUM: CHANGE speakbristle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbristles77"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -99,24 +101,22 @@ class EnglishEntryaffair extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affair"), // Find /əˈfeə(r)/
+                            EntryTitle(word: "bristle"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈfeə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrɪsl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffair("en-GB"),
+                              onPressed: () => speakbristle("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfeər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈbrɪsl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffair("en-US"),
+                              onPressed: () => speakbristle("en-US"),
                             ),
                           ],
                         ),
@@ -129,21 +129,26 @@ class EnglishEntryaffair extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -157,103 +162,98 @@ class EnglishEntryaffair extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کار، کردە، شت، کاروبار (کۆ)، پرس، دۆز، بابەت، مژار، بوویەر، ڕووداو، کاروباری بازرگانی یان دارایی، پێوەندی سێکسی، دڵداری، حەزلێ‌کردوویی، تێکەڵ‌بوونی ژن و پیاوێ
+کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و هتد)
 
-١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی"""),
+١. (ناو) تاڵە قژێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He's always interfering in (= trying to influence) other people's affairs."),
+                                      "The old woman had a few grey bristles sprouting from her chin."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
-                              const CustomSizedBoxForTTS(),
+                                      "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی هەبوو لە چەناگەیەوە دەرچووبوون."),
+                              const CustomSizedBoxForTTS(), // Define the word "bristle" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff25941("en-GB"),
+                                    onPressed: () => speakbristles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAff25941(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As a leader, he's been criticized for his inexperience in foreign affairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAffa35228("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa35228(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
+                                    onPressed: () => speakbristles1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) ڕووداوێک کە خەڵکی قسەی لەسەر دەکەن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) تاڵ یان دانەکانی فڵچەیەک یان شانەیەک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The newspapers exaggerated the whole affair wildly."),
+                                      "My toothbrush has blue and white plastic bristles."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕۆژنامەکان تەواوی ڕووداوەکەی زۆر گەورە کرد."),
+                                      "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی هەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffa25677("en-GB"),
+                                    onPressed: () => speakbristles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa25677(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
+                                    onPressed: () => speakbristles2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) پەیوەندی سێکسی نێوان دوو کەس، زۆرجار لە کاتێکدا یەکێک یان ھەردووکیان لە پەیوەندین لەگەڵ کەسێکی تردا"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) لەناکاو تەواو تووڕەبوون بەوەی کەسێک وتویەتی یان کردوویەتی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She was having an affair with a co-worker."),
+                                  text: "His lies made her bristle with rage."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
+                                  text: "درۆکانی لە داخدا تووڕەی کرد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffa2411("en-GB"),
+                                    onPressed: () => speakbristles3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa2411(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
+                                    onPressed: () => speakbristles3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) مووی ئاژەڵێک کە گیڤ بووەتەوە بەهۆی ترسەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The cat's fur bristled and it arched its back."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbristles4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbristles4("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,7 +262,7 @@ class EnglishEntryaffair extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -272,11 +272,17 @@ class EnglishEntryaffair extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -304,14 +310,23 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: affair (derived forms: affairs)
-1. A vaguely specified concern (= matter, thing)
-"it is none of your affair";
+- Noun: bristle (Derived forms: bristles)
+1. A stiff fibre (coarse hair or filament); natural or synthetic
+ 
+2. A stiff hair
 
-2. A usually secretive or illicit sexual relationship (= affaire, intimacy, liaison, involvement, amour)
-
-3. A formal or official social gathering or ceremony of people (= occasion, social occasion, function, social function)
-"the party was quite an affair";
+- Verb: bristle (Derived forms: bristled, bristles, bristling)
+1. Be in a state of movement or action (= abound, burst)
+"The garden bristled with toddlers";
+ 
+2. Rise up as in fear (= uprise, stand up)
+"The dog's fur bristled";
+ 
+3. Have or be thickly covered with or as if with bristles
+"bristling leaves"
+ 
+4. React in an offended or angry manner
+"He bristled at her suggestion that he should teach her how to use the program"
 """,
           )
         ],
@@ -323,20 +338,21 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'Un1gfVckcVw';
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/nLiSWJDhAmQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 445, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 514, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -347,20 +363,21 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'XZNHRE96q6Y';
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/b2lDdwxNWto?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 315, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 37, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -371,20 +388,21 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'aLU1wNntRa0';
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/jltLSczolzM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 299, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 399, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -395,20 +413,21 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ky3gAwxC4KI';
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/v_pjQkiXOng?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 292, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 36, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -419,20 +438,21 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'yE_nDzzWrb4';
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/dNEp3hoHSDI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 59, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 65, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -443,20 +463,21 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '5M4I6Oa4E_I';
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/XvH2ukztRzs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 669, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 8, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -467,20 +488,21 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'wcnpVuJIJjQ';
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/chBHaXh8iko?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 126, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 58, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -491,20 +513,21 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '3X0zokF_hHg';
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/n1cAX-gTAYk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 228, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -515,20 +538,21 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'RYe2tJ8EDFI';
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/oNjcBk4C4kQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 35, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 29, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -539,20 +563,21 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'VlhdgHLCtrk';
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/yADLp4o9TpM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 205, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 11, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -562,4 +587,54 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/5F9m2ctpPwE?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 578, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "https://youtu.be/2yj9i_kna_U?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 49, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// end WORD_WEB

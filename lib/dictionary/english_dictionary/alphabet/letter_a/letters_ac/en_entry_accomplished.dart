@@ -108,7 +108,7 @@ class EnglishEntryaccomplished extends StatelessWidget {
                                   text:
                                       "She was an elegant and accomplished woman."),
                               const ExampleSentenceKurdish(
-                                  text: "ژنێکی ڕێکپۆش و کارامە بوو بوو."),
+                                  text: "ژنێکی ڕێکپۆش و کارامە بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

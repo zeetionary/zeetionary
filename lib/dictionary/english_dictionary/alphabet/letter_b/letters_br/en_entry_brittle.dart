@@ -3,96 +3,90 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryanother - replace speakAnother - replace another - /əˈnʌðə(r)/ - find Dopsum2
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryanother extends StatelessWidget {
-  // blank divider
-  EnglishEntryanother({super.key});
+class EnglishEntrybrittle extends StatelessWidget {
+// blank divider
+  EnglishEntrybrittle({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnother(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
+  Future<void> speakbrittle(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("another"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brittle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnother935(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
+  Future<void> speakbrittles1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Would you like another drink?"); // DOPSUM: CHANGE TEXT
+        .speak("The paint was brittle with age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnother937(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
+  Future<void> speakbrittles2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm going to have another piece of cake."); // DOPSUM: CHANGE TEXT
+        "As you get older your bones become increasingly brittle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnother938(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We can fit another person in my car."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnother940(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's do it another time."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnother942(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
+  Future<void> speakbrittles3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't like this room. I'm going to ask for another."); // DOPSUM: CHANGE TEXT
+        "The pond was covered in a brittle layer of ice."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnother944(String languageCode) async {
-    // DOPSUM: CHANGE speakAnother
+  Future<void> speakbrittles4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The character she plays is successful but emotionally brittle."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrittles5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("There'll never be another like him."); // DOPSUM: CHANGE TEXT
+        .speak("She greeted him with a brittle smile."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnother(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnother
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("another"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbrittles6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "‘Not at all,’ she said in a brittle voice, avoiding his eye."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnother(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnother
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("another"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakbrittles7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrittle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("They gave us pieces of almond brittle coated in chocolate."); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,27 +103,22 @@ class EnglishEntryanother extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "another"), // Find /əˈnʌðə(r)/
-                            // divvviiider
+                            EntryTitle(word: "brittle"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈnʌðə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbrɪtl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnother("en-GB"),
+                              onPressed: () => speakbrittle("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈnʌðər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈbrɪtl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnother("en-US"),
+                              onPressed: () => speakbrittle("en-US"),
                             ),
                           ],
                         ),
@@ -147,16 +136,21 @@ class EnglishEntryanother extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -170,159 +164,169 @@ class EnglishEntryanother extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: یەکێکی تر، یەکێکی دی، دانەیێکی تر، تر، دی، دن، کەسێکی تر، ئەویدی، ئەویتر
+کوردی: قرپ، قرچ، تورت، خاو، دانەهاتوو، ناسک، زووشکاو، هەستیار، زووهەڵچوو، دڵ‌ناسک، تیژ (دەنگ)
 
-١. (دیارخەر، جێناو) یەکێکی تر"""),
+١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Would you like another drink?"),
+                                  text: "The paint was brittle with age."),
                               const ExampleSentenceKurdish(
-                                  text: "حەزت بە خواردنەوەیەکی ترە؟"),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnother935("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother935(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
                                   text:
-                                      "I'm going to have another piece of cake."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارچە کێکێکی تر دەخۆم."),
-                              const CustomSizedBoxForTTS(),
+                                      "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو."),
+                              const CustomSizedBoxForTTS(), // Define the word "brittle" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnother937("en-GB"),
+                                    onPressed: () => speakbrittles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother937(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
+                                    onPressed: () => speakbrittles1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "We can fit another person in my car."),
+                                  text:
+                                      "As you get older your bones become increasingly brittle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە."),
+                                      "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر هەستیار دەبن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnother938("en-GB"),
+                                    onPressed: () => speakbrittles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother938(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (دیارخەر، جێناو) یەکێکی تر کە جیاوازە """),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's do it another time."),
-                              const ExampleSentenceKurdish(
-                                  text: "با کاتێکی تر بیکەین."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAnother940("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother940(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
+                                    onPressed: () => speakbrittles2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I don't like this room. I'm going to ask for another."),
+                                      "The pond was covered in a brittle layer of ice."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم."),
+                                      "زۆنگاوەکە بە چینێک لە شەختەی ناسک داپۆشرابوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnother942("en-GB"),
+                                    onPressed: () => speakbrittles3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother942(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
+                                    onPressed: () => speakbrittles3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (دیارخەر، جێناو) کەسێک یان شتێک کە وەک یەکێکی تە """),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) کەشێک کە تێیدا کەسێک دڵخۆش و بەهێز دەردەکەوێت بەڵام لە ڕاستیدا قەلەقە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "There'll never be another like him."),
+                                  text:
+                                      "The character she plays is successful but emotionally brittle."),
                               const ExampleSentenceKurdish(
-                                  text: "کەسێکی تری وەک ئەو دووبارە نابێتەوە."),
+                                  text:
+                                      "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووهەڵچووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnother944("en-GB"),
+                                    onPressed: () => speakbrittles4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnother944(
-                                        // REPLACE: another /əˈnʌðər/
-                                        "en-US"),
+                                    onPressed: () => speakbrittles4("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She greeted him with a brittle smile."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە بزەیەکی ساختەوە خێراتنی کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrittles5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrittles5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ھاوەڵناو) دەنگێکی زیق"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "‘Not at all,’ she said in a brittle voice, avoiding his eye."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە دەنگێکی زیقەوە و دوورگرتنی چاوی گوتی 'شایەنی نییە'."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrittles6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrittles6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٤. (ناو) شیرینییەکی ڕەق کە لە کەرە و شەکر درووست دەکرێت و بستەی تێدایە"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "They gave us pieces of almond brittle coated in chocolate."),
+                          const ExampleSentenceKurdish(
+                          text: "شیرینی بادەمیان پێمان دا کە بە چکلێت داپۆشرابوو."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbrittles7("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbrittles7("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -333,10 +337,16 @@ class EnglishEntryanother extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -364,12 +374,17 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: another 
-1. Any of various alternatives; some other; entity, singular, other pronoun; quantifier, singular, another (some other)
-"put it off to another day";
+- Adjective: brittle (Derived forms: brittler, brittlest)
+1. Having little elasticity; hence easily cracked, fractured or snapped (= brickle, brickly)
+"brittle bones"; "glass is brittle";
  
-2. One more, in addition to a former
-"have another drink"
+2. Lacking warmth and generosity of spirit
+"a brittle and calculating woman"
+ 
+3. (of metal or glass) not annealed and consequently easily cracked or fractured (= unannealed)
+
+- Noun: brittle (Derived forms: brittles)
+1. Caramelized sugar cooled in thin sheets (= toffee, toffy)
 """,
           )
         ],
@@ -381,12 +396,14 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "JoNj0KDuDR8";
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/6c5XDMczC3U?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 225, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -394,8 +411,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -406,12 +421,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "OP7l1n_8Lh4";
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/GcdB5bFwio4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 548, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,8 +436,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -431,12 +446,14 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "fVN35EoLtZw";
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/gjySnrspD7E?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 91, // DOPSUM: CHANGE IT
+      startAt: 1579, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,8 +461,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -456,12 +471,14 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "MiTG1ride7s";
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/Bbi0kEaTgio?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 405, // DOPSUM: CHANGE IT
+      startAt: 1228, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -469,8 +486,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -481,12 +496,14 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "P8lFcp4GjaI";
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/DuFyGHgGIKg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 462, // DOPSUM: CHANGE IT
+      startAt: 261, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,8 +511,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -506,12 +521,14 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "KjuyvkCGZis";
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/8hTarWb0C9M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 599, // DOPSUM: CHANGE IT
+      startAt: 218, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,8 +536,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -531,12 +546,14 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "Gc-B-a5FrvU";
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/Zx1CYQWkfYg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 153, // DOPSUM: CHANGE IT
+      startAt: 392, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,8 +561,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -556,12 +571,14 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Gx4HxgJMDHo";
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/bDLON75YDJw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 483, // DOPSUM: CHANGE IT
+      startAt: 260, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,8 +586,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -581,7 +596,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "Un75CN1X3h8";
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/3vDzuT9qPq8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -595,8 +612,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddednine({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -606,12 +621,14 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "d3DuOWARCCc";
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/JoyvSJ0ofxY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 74, // DOPSUM: CHANGE IT
+      startAt: 293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -619,8 +636,6 @@ class YoutubeEmbeddedten extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -631,12 +646,14 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "D5SYrX41BtA";
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/_sOiTwUbxqk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 50, // DOPSUM: CHANGE IT
+      startAt: 464, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -644,8 +661,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -656,12 +671,14 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "1LdeBY9uNUg";
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -669,8 +686,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwelve({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -680,65 +695,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
-
-// class YoutubeEmbeddethirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddethirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// end 
+// end WORD_WEB

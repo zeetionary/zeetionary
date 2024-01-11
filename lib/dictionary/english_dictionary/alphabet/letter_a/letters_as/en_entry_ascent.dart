@@ -184,7 +184,7 @@ class EnglishEntryascent extends StatelessWidget {
                                       "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یەکەم سەرکەوتن  بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
+                                      "یەکەم سەرکەوتن بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

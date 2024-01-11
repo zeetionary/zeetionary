@@ -123,7 +123,7 @@ class EnglishEntryadjective extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ئاوەڵ‌ناو، ڕەنگدێر، سەربە یا وەک ئاوەڵ‌ناو کار دەکا
 
-١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە  وشەی جوان لە "ماڵێکی جوان."""),
+١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە وشەی جوان لە "ماڵێکی جوان."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

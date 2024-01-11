@@ -177,7 +177,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                                       "During the Cold War the threat of nuclear annihilation was always on people's minds."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
+                                      "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

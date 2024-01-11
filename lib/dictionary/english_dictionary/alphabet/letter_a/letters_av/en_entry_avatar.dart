@@ -202,7 +202,7 @@ class EnglishEntryavatar extends StatelessWidget {
                                       "The game creates a virtual world where people interact and participate in activities through their avatars."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات  کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),
+                                      "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

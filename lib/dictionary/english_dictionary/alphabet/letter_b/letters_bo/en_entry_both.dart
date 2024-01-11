@@ -441,7 +441,7 @@ class EnglishEntryboth extends StatelessWidget {
                                           "Both his mother and his father will be there."),
                                   const ExampleSentenceKurdish(
                                       text:
-                                          "ھەم دایکی و ھەم باوکی  لەوێ دەبن."),
+                                          "ھەم دایکی و ھەم باوکی لەوێ دەبن."),
                                   const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [

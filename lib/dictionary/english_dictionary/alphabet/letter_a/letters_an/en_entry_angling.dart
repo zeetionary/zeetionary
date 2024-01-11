@@ -173,7 +173,7 @@ class EnglishEntryangling extends StatelessWidget {
                                       "On weekends, they often go angling by the lake."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
+                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

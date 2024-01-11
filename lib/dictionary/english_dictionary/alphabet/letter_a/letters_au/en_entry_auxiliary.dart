@@ -260,7 +260,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                       "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاگرکوژێنەرەوەکان  لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
+                                      "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

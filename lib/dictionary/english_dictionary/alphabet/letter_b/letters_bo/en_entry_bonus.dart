@@ -174,7 +174,7 @@ class EnglishEntrybonus extends StatelessWidget {
                                       "All employees get an annual bonus before the summer holidays."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن  پێش پشووی ھاوین."),
+                                      "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -132,7 +132,7 @@ class EnglishEntryaggrieved extends StatelessWidget {
                                       "He had every right to feel aggrieved at the decision."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات  بەھۆی بڕیارەکەوە."),
+                                      "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات بەھۆی بڕیارەکەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

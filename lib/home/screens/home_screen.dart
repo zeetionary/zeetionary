@@ -5,14 +5,14 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
-import 'package:zeetionary/home/drawers/community_list_drawer.dart';
+// import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 // import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
-// import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
+import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
@@ -35,6 +35,18 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     ref.read(themeNotifierProvider.notifier).toggleTheme();
   }
 
+  final _advancedDrawerController = AdvancedDrawerController();
+
+  void _handleMenuButtonPressed() {
+    // NOTICE: Manage Advanced Drawer state through the Controller.
+    // _advancedDrawerController.value = AdvancedDrawerValue.visible();
+    _advancedDrawerController.showDrawer();
+  }
+
+  void logOut(WidgetRef ref) {
+    ref.read(authControllerProvider.notifier).logout();
+  }
+
   // void goToHistory(BuildContext context) {
   //   Navigator.of(context).push(
   //     MaterialPageRoute(
@@ -55,18 +67,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   //   setState(() {
   //     _selectedIndex = index;
   //   });
-  // }
-
-  final _advancedDrawerController = AdvancedDrawerController();
-
-  void _handleMenuButtonPressed() {
-    // NOTICE: Manage Advanced Drawer state through the Controller.
-    // _advancedDrawerController.value = AdvancedDrawerValue.visible();
-    _advancedDrawerController.showDrawer();
-  }
-
-  // void logOut(WidgetRef ref) {
-  //   ref.read(authControllerProvider.notifier).logout();
   // }
 
   @override
@@ -97,14 +97,69 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       childDecoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(16)),
       ),
-      drawer: const SafeArea(
+      drawer: SafeArea(
         child: ListTileTheme(
           textColor: Colors.white,
           iconColor: Colors.white,
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              DrawerListTile(),
+              ListTile(
+                title: Text(
+                  "Quiz",
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    color: currentTheme.primaryColor,
+                  ),
+                ),
+                leading: Icon(
+                  Icons.question_answer,
+                  color: currentTheme.primaryColor,
+                ),
+                onTap: () {
+                  Routemaster.of(context).push('/quiz-screen');
+                },
+              ),
+              ListTile(
+                title: Text(
+                  'بچۆ دەرەوە',
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    color: Pallete.redColor,
+                  ),
+                ),
+                leading: Icon(
+                  Icons.logout,
+                  color: Pallete.redColor,
+                ),
+                onTap: () => logOut(ref),
+              ),
+              // Add more ListTile widgets as needed
+              const SizedBox(height: 40),
+              Switch.adaptive(
+                value: ref.watch(themeNotifierProvider.notifier).mode ==
+                    ThemeMode.dark,
+                onChanged: (val) => toggleTheme(ref),
+              ),
+              const Spacer(),
+              DefaultTextStyle(
+                style: const TextStyle(
+                  fontSize: 12,
+                  color: Colors.white54,
+                ),
+                child: Container(
+                  margin: const EdgeInsets.symmetric(
+                    vertical: 16.0,
+                  ),
+                  child: Text(
+                    "Dictionary",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: currentTheme.primaryColor.withOpacity(0.4),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

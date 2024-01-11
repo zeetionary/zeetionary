@@ -185,7 +185,7 @@ class EnglishEntryartificially extends StatelessWidget {
                                       "Most mushrooms sold in supermarkets have been grown artificially in manure."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
+                                      "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

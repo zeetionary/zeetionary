@@ -174,7 +174,7 @@ class EnglishEntrybollard extends StatelessWidget {
                                       "Bollards line the pedestrian area, protecting it from vehicle intrusion."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان  بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
+                                      "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

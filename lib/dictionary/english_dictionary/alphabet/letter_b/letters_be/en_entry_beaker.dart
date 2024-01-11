@@ -192,7 +192,7 @@ class EnglishEntrybeaker extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) ئەو ڕێژەیەی لە گڵاسێکدا جێی دەبێتەوە   """),
+٢. (ناو) ئەو ڕێژەیەی لە گڵاسێکدا جێی دەبێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -215,7 +215,7 @@ class EnglishEntrybeaker extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) گڵاسێک کە لە کیمیادا بەکاردێت بۆ پێوان   """),
+٣. (ناو) گڵاسێک کە لە کیمیادا بەکاردێت بۆ پێوان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

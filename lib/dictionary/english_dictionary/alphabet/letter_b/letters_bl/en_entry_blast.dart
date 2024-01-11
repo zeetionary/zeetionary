@@ -422,7 +422,7 @@ class EnglishEntryblast extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "We had a blast at the party."),
                               const ExampleSentenceKurdish(
-                                  text: "جەوێکی خۆشمان  ھەبوو لە ئاھەنگەکە."),
+                                  text: "جەوێکی خۆشمان ھەبوو لە ئاھەنگەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

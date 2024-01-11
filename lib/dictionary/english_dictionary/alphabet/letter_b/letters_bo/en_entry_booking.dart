@@ -218,7 +218,7 @@ class EnglishEntrybooking extends StatelessWidget {
                                   text: "His bookings rise around Christmas."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گرتنەکانی بەرزدەبێتەوە  لە نزیکی کریسمس."),
+                                      "گرتنەکانی بەرزدەبێتەوە لە نزیکی کریسمس."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

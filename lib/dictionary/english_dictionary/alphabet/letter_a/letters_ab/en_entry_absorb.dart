@@ -248,7 +248,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی   """),
+٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -272,7 +272,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات   """),
+٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

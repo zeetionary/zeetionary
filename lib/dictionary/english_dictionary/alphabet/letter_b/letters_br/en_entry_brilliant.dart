@@ -350,7 +350,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                               "Her performance was technically brilliant but lacked feeling."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە هەست و  سۆز بوو."),
+                                              "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە هەست و سۆز بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

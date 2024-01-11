@@ -185,7 +185,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                                       "I didn't realize you had political aspirations."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نەمزانی‌بوو ئارەزووت بۆ سیاسەت ھەبوو."),
+                                      "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

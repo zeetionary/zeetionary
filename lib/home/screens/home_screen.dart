@@ -122,7 +122,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               ),
               ListTile(
                 title: Text(
-                  'بچۆ دەرەوە',
+                  'Log out',
                   style: TextStyle(
                     fontSize: 16.0,
                     color: Pallete.redColor,

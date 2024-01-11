@@ -16,12 +16,12 @@ class EnglishHistoryScreen extends StatelessWidget {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text(
-            'دڵنیایی‌ کردنەوە',
+            'Confirmation',
             textDirection: TextDirection.rtl,
           ),
           // content: const Text(''),
           content: const Text(
-            'دەتەوێت ھەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
+            'Do you really want to clear search history?',
             textDirection: TextDirection.rtl,
           ),
           actions: <Widget>[
@@ -29,13 +29,13 @@ class EnglishHistoryScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).pop(false);
               },
-              child: const Text('نەخێر'),
+              child: const Text('No'),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop(true);
               },
-              child: const Text('بەڵێ'),
+              child: const Text('Yes'),
             ),
           ],
         );
@@ -49,7 +49,7 @@ class EnglishHistoryScreen extends StatelessWidget {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.rtl,
-          child: Text('پاککرایەوە'),
+          child: Text('Cleared'),
         ),
       ));
     }

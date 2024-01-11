@@ -40,7 +40,7 @@ class EnglishEntryapproximate extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The train's approximate time of arrival is 10.30."); // DOPSUM: CHANGE TEXT
+        "The train's approximate time of arrival is 10:30."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakApproximate954(String languageCode) async {
@@ -206,7 +206,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The train's approximate time of arrival is 10.30."),
+                                      "The train's approximate time of arrival is 10:30."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),

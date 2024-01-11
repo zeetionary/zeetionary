@@ -178,7 +178,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: نووسەرایەتی، نووسەری
 
-١. (ناو) ناسنامەی کەسێک کە شتێک نووسیوە"""),
+١. (ناو) ناسنامەی کەسێک کە شتێکی نووسیوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

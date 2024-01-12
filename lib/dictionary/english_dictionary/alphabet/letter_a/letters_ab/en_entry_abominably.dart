@@ -206,7 +206,12 @@ Adverb: abominably
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+Adverb: abominably
+1. In an offensive and hateful manner (= detestably, repulsively, odiously)
+"I don't know anyone who could have behaved so abominably";
+ 
+2. In a terrible manner (= terribly, atrociously, awfully, abysmally, rottenly, execrably, appallingly)
+"she sings abominably";
 """);
 
     // Update the state to reflect that TTS is in progress

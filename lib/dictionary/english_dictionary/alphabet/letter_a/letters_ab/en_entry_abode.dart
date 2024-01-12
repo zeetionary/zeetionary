@@ -208,7 +208,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abode (derived forms: abodes)
+1. Any address at which you dwell more than temporarily (=residence)
+"a person can have several abodes";
+ 
+2. Housing that someone is living in (=dwelling, home, domicile, habitation, dwelling house, domicil [rare])
+"he built a modest abode near the pond";
 """);
 
     // Update the state to reflect that TTS is in progress

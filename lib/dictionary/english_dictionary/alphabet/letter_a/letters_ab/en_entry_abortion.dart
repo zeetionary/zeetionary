@@ -276,7 +276,16 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abortion (derived forms: abortions)
+1. A deliberate termination of pregnancy (= induced abortion, termination)
+ 
+2. (medicine) the cessation of pregnancy or foetal development; a miscarriage
+ 
+3. Failure of a plan (= induced abortion, termination)
+ 
+4. (biology) an early stop to the development of an organ, so that it is not fully formed or is absorbed
+ 
+5. Something ugly or badly made; a useless failure
 """);
 
     // Update the state to reflect that TTS is in progress

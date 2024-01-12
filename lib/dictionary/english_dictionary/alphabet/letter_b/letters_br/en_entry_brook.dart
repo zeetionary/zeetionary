@@ -7,83 +7,84 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybroker extends StatelessWidget {
+class EnglishEntrybrook extends StatelessWidget {
 // blank divider
-  EnglishEntrybroker({super.key});
+  EnglishEntrybrook({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroker(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrook(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brook"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We'll have to cross the brook to get to the road."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrooks2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Ask advice from an insurance broker."); // DOPSUM: CHANGE TEXT
+        .speak("The road goes over a small brook."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He offered to act as a broker between the rebels and the government."); // DOPSUM: CHANGE TEXT
+        "The tone in his voice brooked no argument."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The diplomats have failed in their attempts to broker a ceasefire."); // DOPSUM: CHANGE TEXT
+        "She would brook no criticism of her son."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrooks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrooks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrooks7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrokers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrooks77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +101,22 @@ class EnglishEntrybroker extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broker"),
+                            EntryTitle(word: "brook"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrəʊkə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /brʊk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroker("en-GB"),
+                              onPressed: () => speakbrook("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrəʊkər/"),
+                            const IPAofEnglish(text: "IpaUS: /brʊk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroker("en-US"),
+                              onPressed: () => speakbrook("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +134,11 @@ class EnglishEntrybroker extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -161,23 +162,45 @@ class EnglishEntrybroker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەڵاڵ، کارچی
+کوردی: جۆگە، جۆگاو، جۆبار، نیرە
 
-١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
+١. (ناو) ڕووبارێکی بچووک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Ask advice from an insurance broker."),
+                                  text:
+                                      "We'll have to cross the brook to get to the road."),
                               const ExampleSentenceKurdish(
-                                  text: "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "broker" as
+                                  text:
+                                      "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە."),
+                              const CustomSizedBoxForTTS(), // Define the word "brook" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers1("en-GB"),
+                                    onPressed: () => speakbrooks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers1("en-US"),
+                                    onPressed: () => speakbrooks1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The road goes over a small brook."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕێگاکە بەسەر جۆگەیەکی بچووکدا دەچێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrooks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrooks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -185,49 +208,45 @@ class EnglishEntrybroker extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) کەسێک کە ناوبژیکاری دوو لایەنی دژبەر دەبێت"),
+                              text: "٢. (کردار) ڕێگەنەدان بە شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He offered to act as a broker between the rebels and the government."),
+                                      "The tone in his voice brooked no argument."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
+                                      "تۆنی قسەکردنی هیچ ڕێگەی بە ناڕەزایی دەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers2("en-GB"),
+                                    onPressed: () => speakbrooks3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers2("en-US"),
+                                    onPressed: () => speakbrooks3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) ناوبژی کردن لە نێوان دوو لایەنی دژبەردا"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The diplomats have failed in their attempts to broker a ceasefire."),
+                                      "She would brook no criticism of her son."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیپلۆماتکارەکان شکستیان هێناوە لە هێنانە کایەی ئاگربەستەوە."),
+                                      "ڕێگەی بە هیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers3("en-GB"),
+                                    onPressed: () => speakbrooks4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers3("en-US"),
+                                    onPressed: () => speakbrooks4("en-US"),
                                   ),
                                 ],
                               ),
@@ -245,7 +264,7 @@ class EnglishEntrybroker extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -310,11 +329,13 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: broker (Derived forms: brokers)
-1. A businessman who buys or sells for another in exchange for a commission (= agent, factor)
+- Noun: brook (Derived forms: brooks)
+1. A natural stream of water smaller than a river (and often a tributary of a river) (= creek)
+"the brook dried up every summer";
 
-- Verb: broker (Derived forms: brokers, brokering, brokered)
-1. Act as a broker
+- Verb: brook (Derived forms: brooked, brooking, brooks)
+1. Put up with something or somebody unpleasant (= digest, endure, stick out, stomach, bear, stand, tolerate, support, abide, suffer, put up)
+"The new secretary had to brook a lot of unprofessional remarks";
 """,
           ),
         ],
@@ -326,7 +347,13 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: brook (Derived forms: brooks)
+1. A natural stream of water smaller than a river (and often a tributary of a river) (= creek)
+"the brook dried up every summer";
+
+- Verb: brook (Derived forms: brooked, brooking, brooks)
+1. Put up with something or somebody unpleasant (= digest, endure, stick out, stomach, bear, stand, tolerate, support, abide, suffer, put up)
+"The new secretary had to brook a lot of unprofessional remarks";
 """);
 
     // Update the state to reflect that TTS is in progress
@@ -351,12 +378,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "XnbCSboujF4";
+  static String myVideoId = "hGLY5MAAFO4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 471, // DOPSUM: CHANGE IT
+      startAt: 1629, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,12 +403,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "4GL8gk3b2L8";
+  static String myVideoId = "SsuWS6yE478";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 168, // DOPSUM: CHANGE IT
+      startAt: 1382, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +428,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Ov2rndaPlwA";
+  static String myVideoId = "lEgPVrSZa6w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 696, // DOPSUM: CHANGE IT
+      startAt: 184, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +453,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "4l8M3dQlUwg";
+  static String myVideoId = "2KoVXYGfzDY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 763, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +478,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "0tl4S1KvH6o";
+  static String myVideoId = "pDU9BOtX80A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 405, // DOPSUM: CHANGE IT
+      startAt: 930, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +503,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "NSn1QnS__Yg";
+  static String myVideoId = "RaGXY3JVlMI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1210, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -501,12 +528,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "x94BqWK1Ks4";
+  static String myVideoId = "Z_HF0MfvUkA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 191, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -526,12 +553,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "jtVfXLkc-ko";
+  static String myVideoId = "sBbM3PIy1yk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 320, // DOPSUM: CHANGE IT
+      startAt: 1816, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,12 +578,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "gFQNPmLKj1k";
+  static String myVideoId = "73XP2e9TSdo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 436, // DOPSUM: CHANGE IT
+      startAt: 1057, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,12 +603,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "3JOSkB_DM_0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

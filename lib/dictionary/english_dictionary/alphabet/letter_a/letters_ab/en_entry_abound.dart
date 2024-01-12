@@ -205,7 +205,11 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abound (derived forms: abounds, abounded, abounding)
+1. Be abundant or plentiful; exist in large quantities
+ 
+2. Be in a state of movement or action (= burst, bristle)
+"The room abounded with screaming children";
 """);
 
     // Update the state to reflect that TTS is in progress

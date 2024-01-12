@@ -230,7 +230,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abhor (derived forms: abhorred, abhorring, abhors)
+1. Find repugnant (=loathe, abominate, execrate)
+"She abhors cats";
 """);
 
     // Update the state to reflect that TTS is in progress

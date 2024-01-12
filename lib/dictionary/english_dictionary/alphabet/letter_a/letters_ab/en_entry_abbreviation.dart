@@ -199,7 +199,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abbreviation (derived forms: abbreviations)
+1. A shortened form of a word or phrase
+ 
+2. Shortening something by omitting parts of it
 """);
 
     // Update the state to reflect that TTS is in progress

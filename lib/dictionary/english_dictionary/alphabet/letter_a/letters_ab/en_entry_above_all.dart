@@ -215,7 +215,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: above all 
+1. Above and beyond all other consideration (= most importantly, most especially)
+"above all, you must be independent";
+ 
+2. Taking everything together (= first and last)
+"she was above all a scientist";
 """);
 
     // Update the state to reflect that TTS is in progress

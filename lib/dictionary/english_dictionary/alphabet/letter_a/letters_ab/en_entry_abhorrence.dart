@@ -199,7 +199,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abhorrence (derived forms: abhorrences)
+1. Hate coupled with disgust (=abomination, detestation, execration, loathing, odium)
+"a cordial abhorrence of waste";
 """);
 
     // Update the state to reflect that TTS is in progress

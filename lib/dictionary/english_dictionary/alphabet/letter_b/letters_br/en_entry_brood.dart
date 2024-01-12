@@ -7,83 +7,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybroker extends StatelessWidget {
+class EnglishEntrybrood extends StatelessWidget {
 // blank divider
-  EnglishEntrybroker({super.key});
+  EnglishEntrybrood({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroker(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbrood(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brood"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroods1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You're not still brooding over what he said, are you?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbroods2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The hen would brood over her eggs to ensure they received the necessary warmth."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbroods3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The blackbird flew back and forth to its brood."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbroods4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Ask advice from an insurance broker."); // DOPSUM: CHANGE TEXT
+        .speak("Ann was at the party with her brood."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroods5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He offered to act as a broker between the rebels and the government."); // DOPSUM: CHANGE TEXT
+        "She grew up amidst a brood of brothers and sisters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroods6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The diplomats have failed in their attempts to broker a ceasefire."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroods66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroods7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers44"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrokers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers55"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrokers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrokers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroods77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +102,22 @@ class EnglishEntrybroker extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broker"),
+                            EntryTitle(word: "brood"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrəʊkə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /bruːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroker("en-GB"),
+                              onPressed: () => speakbrood("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrəʊkər/"),
+                            const IPAofEnglish(text: "IpaUS: /bruːd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroker("en-US"),
+                              onPressed: () => speakbrood("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +135,11 @@ class EnglishEntrybroker extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -161,23 +163,25 @@ class EnglishEntrybroker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەڵاڵ، کارچی
+کوردی: بەرەڕاوکە، جووجەڵە پێکەوەبووەکان، دەستە، کۆمەڵ، گروپە جۆر، چەشن، زاروزێچ یان فرزەند و منداڵانی خێزانێ، کرمۆکە یان لارڤەکانی هەنگ یان هەنگەژاڵە 
 
-١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
+١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Ask advice from an insurance broker."),
+                                  text:
+                                      "You're not still brooding over what he said, are you?"),
                               const ExampleSentenceKurdish(
-                                  text: "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "broker" as
+                                  text:
+                                      "هێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
+                              const CustomSizedBoxForTTS(), // Define the word "brood" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers1("en-GB"),
+                                    onPressed: () => speakbroods1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers1("en-US"),
+                                    onPressed: () => speakbroods1("en-US"),
                                   ),
                                 ],
                               ),
@@ -186,23 +190,23 @@ class EnglishEntrybroker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە ناوبژیکاری دوو لایەنی دژبەر دەبێت"),
+                                  "٢. (کردار) دانیشتنی مریشکێک لەسەر هێلکە بۆ دانیشتن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He offered to act as a broker between the rebels and the government."),
+                                      "The hen would brood over her eggs to ensure they received the necessary warmth."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
+                                      "مریشکەکە کڕ کەوت لەسەر هێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers2("en-GB"),
+                                    onPressed: () => speakbroods2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers2("en-US"),
+                                    onPressed: () => speakbroods2("en-US"),
                                   ),
                                 ],
                               ),
@@ -211,23 +215,69 @@ class EnglishEntrybroker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ناوبژی کردن لە نێوان دوو لایەنی دژبەردا"),
+                                  "٣. (ناو) تەواوی ئەو ئاژەڵ و باڵندانەی دایکێک لە یەک کاتدا دەیانهێنێتە دونیا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The diplomats have failed in their attempts to broker a ceasefire."),
+                                      "The blackbird flew back and forth to its brood."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیپلۆماتکارەکان شکستیان هێناوە لە هێنانە کایەی ئاگربەستەوە."),
+                                      "ڕەشپەڕەکە هاتوچۆی بوو بۆ لای بێچووەکانی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers3("en-GB"),
+                                    onPressed: () => speakbroods3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers3("en-US"),
+                                    onPressed: () => speakbroods3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) خێزانێکی گەورە لە منداڵ؛ منداڵەکانی کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Ann was at the party with her brood."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئانا لەگەڵ منداڵەکانی لە ئاهەنگەکە بوون."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbroods4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbroods4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She grew up amidst a brood of brothers and sisters."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەناو ژمارەیەک لە خوشک و برادا گەورە بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbroods5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbroods5("en-US"),
                                   ),
                                 ],
                               ),
@@ -245,7 +295,7 @@ class EnglishEntrybroker extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -310,11 +360,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: broker (Derived forms: brokers)
-1. A businessman who buys or sells for another in exchange for a commission (= agent, factor)
+- Noun: brood (Derived forms: broods)
+1. The young of an animal cared for at one time
 
-- Verb: broker (Derived forms: brokers, brokering, brokered)
-1. Act as a broker
+- Verb: brood (Derived forms: brooded, broods, brooding)
+1. Think moodily or anxiously about something (= dwell)
+ 
+2. Hang over, as of something threatening, dark, or menacing (= hover, loom, bulk large)
+"The terrible vision brooded over her all day long";
+
+3. Be in a huff and display one's displeasure (= sulk, pout)
+"She is brooding because she didn't get what she wanted";
+ 
+4. Be in a huff; be silent or sullen (= grizzle [informal], stew [informal])
+ 
+5. Sit on (eggs) (= hatch, cover, incubate)
+"Birds brood";
 """,
           ),
         ],
@@ -326,7 +387,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: brood (Derived forms: broods)
+1. The young of an animal cared for at one time
+
+- Verb: brood (Derived forms: brooded, broods, brooding)
+1. Think moodily or anxiously about something (= dwell)
+ 
+2. Hang over, as of something threatening, dark, or menacing (= hover, loom, bulk large)
+"The terrible vision brooded over her all day long";
+
+3. Be in a huff and display one's displeasure (= sulk, pout)
+"She is brooding because she didn't get what she wanted";
+ 
+4. Be in a huff; be silent or sullen (= grizzle [informal], stew [informal])
+ 
+5. Sit on (eggs) (= hatch, cover, incubate)
+"Birds brood";
 """);
 
     // Update the state to reflect that TTS is in progress
@@ -351,12 +427,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "XnbCSboujF4";
+  static String myVideoId = "-HyHZsa79LU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 471, // DOPSUM: CHANGE IT
+      startAt: 519, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,12 +452,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "4GL8gk3b2L8";
+  static String myVideoId = "W-ZuKp8P7gA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 168, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +477,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Ov2rndaPlwA";
+  static String myVideoId = "EmT0i0xG6zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 696, // DOPSUM: CHANGE IT
+      startAt: 2490, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +502,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "4l8M3dQlUwg";
+  static String myVideoId = "A8f_aHL1ALI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +527,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "0tl4S1KvH6o";
+  static String myVideoId = "uR3GCIjqIFs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 405, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +552,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "NSn1QnS__Yg";
+  static String myVideoId = "sY8aFSY2zv4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1210, // DOPSUM: CHANGE IT
+      startAt: 3524, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -501,12 +577,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "x94BqWK1Ks4";
+  static String myVideoId = "B9_RUwR3RFU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 191, // DOPSUM: CHANGE IT
+      startAt: 500, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -526,12 +602,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "jtVfXLkc-ko";
+  static String myVideoId = "XTk0iROhSOc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 320, // DOPSUM: CHANGE IT
+      startAt: 4665, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,12 +627,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "gFQNPmLKj1k";
+  static String myVideoId = "oG7KcezbpDk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 436, // DOPSUM: CHANGE IT
+      startAt: 197, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,12 +652,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "3JOSkB_DM_0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -247,7 +247,19 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: aboriginal (derived forms: aboriginals)
+1. Characteristic of or relating to people inhabiting a region from the beginning (= native, indigenous)
+"the aboriginal peoples of Australia";
+ 
+2. Having existed from the beginning; in an earliest or original stage or state (= primal, primeval, primaeval, primordial)
+"aboriginal forests";
+
+- Noun: aboriginal
+1. An indigenous person who was born in a particular place (= native, indigen, indigene, aborigine)
+"the Canadian government scrapped plans to tax the grants to aboriginal college students";
+
+- Noun: Aboriginal (derived forms: Aboriginals)
+A member of the people living in Australia when Europeans arrived (= Aborigine, native Australian, Australian Aborigine)
 """);
 
     // Update the state to reflect that TTS is in progress

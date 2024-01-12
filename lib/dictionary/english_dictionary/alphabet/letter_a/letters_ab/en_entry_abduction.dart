@@ -197,7 +197,10 @@ Noun: abduction (derived forms: abductions)
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+Noun: abduction (derived forms: abductions)
+1. The criminal act of capturing and carrying away by force a family member; if a man's wife is abducted it is a crime against the family relationship and against the wife
+ 
+2. (physiology) moving of a body part away from the central axis of the body
 """);
 
     // Update the state to reflect that TTS is in progress

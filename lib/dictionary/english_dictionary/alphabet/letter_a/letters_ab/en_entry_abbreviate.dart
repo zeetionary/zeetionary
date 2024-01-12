@@ -204,7 +204,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abbreviate (abbreviated, abbreviates, abbreviating)
+1. Reduce in scope while retaining essential elements (=abridge, foreshorten, shorten, cut, contract, reduce)
+"The manuscript must be abbreviated";
+ 
+2. Shorten
+"Abbreviate 'New York' and write 'NY'"
 """);
 
     // Update the state to reflect that TTS is in progress

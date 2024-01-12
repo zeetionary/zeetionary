@@ -272,7 +272,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: able (derived forms: ablest, abler)
+1. Having the skills and qualifications to do things well (=capable)
+"able teachers";
+ 
+2. (usually followed by 'to') having the necessary means, skill, know-how or authority to do something
+"able to swim"; "she was able to program her computer"; "we were at last able to buy a car"; "able to get a grant for the project"
+ 
+3. Having inherent physical or mental ability or capacity
+"able to learn"; "human beings are able to walk on two feet"; "Superman is able to leap tall buildings"
+ 
+4. Having a strong healthy body (=able-bodied)
+"an able seaman"; "every able-bodied young man served in the army";
+
+- Adjective suffix: -able
+5۔ Able to be, subject to (=-ible)
 """);
 
     // Update the state to reflect that TTS is in progress

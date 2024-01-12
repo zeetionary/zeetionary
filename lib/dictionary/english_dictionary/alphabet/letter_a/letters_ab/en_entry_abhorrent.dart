@@ -199,7 +199,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abhorrent
+1. Offensive to the mind (=detestable, obscene, repugnant, repulsive, absonant [archaic])
+"an abhorrent deed";
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -204,7 +204,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: about turn  u'bawt turn (derived forms: about turns)
+1. Act of pivoting 180 degrees, especially in a military formation (= about-face)
 """);
 
     // Update the state to reflect that TTS is in progress

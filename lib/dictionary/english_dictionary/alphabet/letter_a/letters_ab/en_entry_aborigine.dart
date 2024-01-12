@@ -178,7 +178,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: aborigine (derived forms: aborigines)
+1. An indigenous person who was born in a particular place (= native, indigen, indigene, aboriginal)
+"the art of the aborigines of the northwest coast";
+
+- Noun: Aborigine (derived forms: Aborigines)
+1. A member of the people living in Australia when Europeans arrived (= native Australian, Australian Aborigine, Aboriginal)
 """);
 
     // Update the state to reflect that TTS is in progress

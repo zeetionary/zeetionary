@@ -199,7 +199,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abiding 
+1. Lasting a long time (=enduring, imperishable)
+"an abiding belief";
 """);
 
     // Update the state to reflect that TTS is in progress

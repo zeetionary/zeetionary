@@ -197,7 +197,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: able-bodied
+1. Having a strong healthy body (=able)
+"every able-bodied young man served in the army";
 """);
 
     // Update the state to reflect that TTS is in progress

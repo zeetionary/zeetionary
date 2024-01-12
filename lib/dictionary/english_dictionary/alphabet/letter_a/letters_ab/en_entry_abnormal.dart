@@ -265,7 +265,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abnormal 
+1. Much greater than the normal
+"abnormal profits"; "abnormal ambition"
+ 
+2. Not normal; not typical, usual, regular or conforming to a norm (=unnatural)
+"abnormal amounts of rain"; "an abnormal interest in food"; "abnormal powers of concentration";
+ 
+3. (psychology) departing from the normal in e.g. intelligence and development
+"they were heartbroken when they learned their child was abnormal"; "an abnormal personality"
 """);
 
     // Update the state to reflect that TTS is in progress

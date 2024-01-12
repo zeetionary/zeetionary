@@ -207,7 +207,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abject
+1. Of the most contemptible kind (=low, low-down, miserable, scummy, scurvy)
+"abject cowardice";
+ 
+2. Most unfortunate or miserable
+"the most abject slaves joined in the revolt"; "abject poverty"
+ 
+3. Showing utter resignation or hopelessness (=unhopeful)
+"abject surrender";
+ 
+4. Showing humiliation or submissiveness
+"an abject apology"
 """);
 
     // Update the state to reflect that TTS is in progress

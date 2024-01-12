@@ -226,7 +226,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: abjectly
+1. In a hopeless resigned manner (=resignedly)
+"she shrugged her shoulders abjectly";
 """);
 
     // Update the state to reflect that TTS is in progress

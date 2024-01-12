@@ -330,7 +330,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: ablaze
+1. Keenly excited (especially sexually) or indicating excitement (=aflame, aroused)
+"his face all ablaze with excitement";
+ 
+2. Flaming as it burns (=afire [literary], aflame, aflare [rare], alight, on fire, burning, in flames)
+"forests set ablaze by lightning";
+ 
+3. Resembling flame in brilliance or colour
+"maple trees ablaze in autumn"
+ 
+4. Lighted with red light as if with flames (=inflamed, reddened)
+"streets ablaze with lighted Christmas trees";
 """);
 
     // Update the state to reflect that TTS is in progress

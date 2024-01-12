@@ -7,83 +7,83 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybroker extends StatelessWidget {
+class EnglishEntrybroody extends StatelessWidget {
 // blank divider
-  EnglishEntrybroker({super.key});
+  EnglishEntrybroody({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroker(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroody(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broker"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("broody"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Ask advice from an insurance broker."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrokers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He offered to act as a broker between the rebels and the government."); // DOPSUM: CHANGE TEXT
+        "I reached the age of 27 and suddenly started to feel broody."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The diplomats have failed in their attempts to broker a ceasefire."); // DOPSUM: CHANGE TEXT
+        "The broody hen refused to leave the nest."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Ruth started feeling broody in her late twenties."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroodys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroodys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrokers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroker
+  Future<void> speakbroodys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrokers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbroodys66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbroodys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbroody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbroodys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +100,22 @@ class EnglishEntrybroker extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broker"),
+                            EntryTitle(word: "broody"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrəʊkə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbruːdi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroker("en-GB"),
+                              onPressed: () => speakbroody("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrəʊkər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbruːdi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroker("en-US"),
+                              onPressed: () => speakbroody("en-US"),
                             ),
                           ],
                         ),
@@ -133,12 +133,12 @@ class EnglishEntrybroker extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -161,23 +161,25 @@ class EnglishEntrybroker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەڵاڵ، کارچی
+کوردی: بەکڕ، بەکڕک، لەبیروخەم‌دا، دڵتەنگ، کز، مات، خەمبار، (ژن) بە مەراقی و ئارەزووی مناڵەوە
 
-١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
+١. (ھاوەڵناو) حەزی زۆر بۆ بوونی منداڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Ask advice from an insurance broker."),
+                                  text:
+                                      "I reached the age of 27 and suddenly started to feel broody."),
                               const ExampleSentenceKurdish(
-                                  text: "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "broker" as
+                                  text:
+                                      "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم."),
+                              const CustomSizedBoxForTTS(), // Define the word "broody" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers1("en-GB"),
+                                    onPressed: () => speakbroodys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers1("en-US"),
+                                    onPressed: () => speakbroodys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -186,23 +188,23 @@ class EnglishEntrybroker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە ناوبژیکاری دوو لایەنی دژبەر دەبێت"),
+                                  "٢. (ھاوەڵناو) مریشکێک کە حەزی لییە لەسەر هێلکە کڕ بکەوێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He offered to act as a broker between the rebels and the government."),
+                                      "The broody hen refused to leave the nest."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
+                                      "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێهێشتنی کولانەکەی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers2("en-GB"),
+                                    onPressed: () => speakbroodys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers2("en-US"),
+                                    onPressed: () => speakbroodys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -211,23 +213,23 @@ class EnglishEntrybroker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ناوبژی کردن لە نێوان دوو لایەنی دژبەردا"),
+                                  "٣. (ھاوەڵناو) بێ دەنگ لە کاتێکدا بیر لە شتێک دەکەیتەوە بەهۆی ئەوەی بێزاریت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The diplomats have failed in their attempts to broker a ceasefire."),
+                                      "Ruth started feeling broody in her late twenties."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیپلۆماتکارەکان شکستیان هێناوە لە هێنانە کایەی ئاگربەستەوە."),
+                                      "ڕوس خەمبار بوو لە بیستەکانی تەمەنیدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers3("en-GB"),
+                                    onPressed: () => speakbroodys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers3("en-US"),
+                                    onPressed: () => speakbroodys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -246,7 +248,7 @@ class EnglishEntrybroker extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -310,11 +312,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: broker (Derived forms: brokers)
-1. A businessman who buys or sells for another in exchange for a commission (= agent, factor)
+- Adjective: broody (Derived forms: broodies, broodier, broodiest)
+1. Physiologically ready to incubate eggs
+"a broody hen"
+ 
+2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
+"Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
 
-- Verb: broker (Derived forms: brokers, brokering, brokered)
-1. Act as a broker
+- Noun: broody (Derived forms: broodies)
+1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
 """,
           ),
         ],
@@ -326,7 +332,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: broody (Derived forms: broodies, broodier, broodiest)
+1. Physiologically ready to incubate eggs
+"a broody hen"
+ 
+2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
+"Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
+
+- Noun: broody (Derived forms: broodies)
+1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
 """);
 
     // Update the state to reflect that TTS is in progress
@@ -351,12 +365,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "XnbCSboujF4";
+  static String myVideoId = "x33xMd_xkuQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 471, // DOPSUM: CHANGE IT
+      startAt: 497, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,7 +390,182 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "4GL8gk3b2L8";
+  static String myVideoId = "647AHRtlkPs";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 208, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "IuBYiWIlwvs";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 83, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "9voWMSdack8";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 331, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "rq6s9e_O-K4";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "FEzoh5HlSGE";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 165, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "-bmhb9XVV0Y";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 12, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "Ugss0AHjb-0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "bYQeG7Z5qzE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,190 +587,15 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "Ov2rndaPlwA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 696, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "4l8M3dQlUwg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "0tl4S1KvH6o";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 405, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "NSn1QnS__Yg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 1210, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "x94BqWK1Ks4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 191, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "jtVfXLkc-ko";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 320, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "gFQNPmLKj1k";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 436, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "3JOSkB_DM_0";
+  static String myVideoId = "oG7KcezbpDk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 186, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -601,12 +615,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "PFIRUZTEhFU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 811, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

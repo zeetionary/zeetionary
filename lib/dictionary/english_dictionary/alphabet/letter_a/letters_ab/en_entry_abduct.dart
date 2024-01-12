@@ -201,7 +201,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abduct (derived forms: abducted, abducting, abducts)
+1. Take away to an undisclosed location against their will and usually in order to extract a ransom (=kidnap, nobble [Brit, informal], snatch)
+"The industrialist's son was abducted";
+ 
+2. Pull away from the body
+"this muscle abducts"
 """);
 
     // Update the state to reflect that TTS is in progress

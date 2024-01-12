@@ -206,7 +206,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abolition (derived forms: abolitions)
+1. The act of abolishing a system, practice or institution (especially abolishing slavery) (=abolishment)
+"the abolition of capital punishment";
 """);
 
     // Update the state to reflect that TTS is in progress

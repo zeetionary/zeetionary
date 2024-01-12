@@ -199,7 +199,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abbey (plural: abbeys)
+1. A church associated with a monastery or convent
+ 
+2. A convent ruled by an abbess
+ 
+3. A monastery ruled by an abbot
 """);
 
     // Update the state to reflect that TTS is in progress

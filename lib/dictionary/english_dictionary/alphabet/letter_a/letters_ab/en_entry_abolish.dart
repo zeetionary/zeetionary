@@ -204,7 +204,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abolish (derived forms: abolished, abolishes, abolishing)
+1. Do away with (=get rid of)
+"Slavery was abolished in the mid-19th century in America and in Russia";
 """);
 
     // Update the state to reflect that TTS is in progress

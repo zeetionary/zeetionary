@@ -197,7 +197,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abet (derived forms: abets, abetted, abetting)
+1. Assist or encourage, usually in some wrongdoing
+"Did Herald aid and abet a crime?"
 """);
 
     // Update the state to reflect that TTS is in progress

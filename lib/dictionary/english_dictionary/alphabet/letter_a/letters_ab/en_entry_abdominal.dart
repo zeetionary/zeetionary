@@ -200,7 +200,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abdominal (plural: abdominals)
+1. Of or relating to or near the abdomen
+"abdominal muscles"
+
+- Noun: abdominal  ub'dóm(-u)-nul
+2۔ The muscles of the abdomen (=abdominal muscle, ab)
 """);
 
     // Update the state to reflect that TTS is in progress

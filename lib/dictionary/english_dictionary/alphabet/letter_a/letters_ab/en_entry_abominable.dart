@@ -271,7 +271,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abominable
+1. Unequivocally detestable (=detestable, execrable, odious)
+"abominable treatment of prisoners";
+ 
+2. Exceptionally bad or displeasing (=atrocious, awful, dreadful, painful, terrible, unspeakable, horrible)
+"abominable workmanship";
 """);
 
     // Update the state to reflect that TTS is in progress

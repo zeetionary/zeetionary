@@ -200,7 +200,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abdication (plural: abdications)
+1. A formal resignation and renunciation of powers (=stepping down)
+ 
+2. The act of abdicating (=stepping down)
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -201,7 +201,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abound in (derived forms: abounds in, abounding in, abounded in)
+1. Exist in large quantity (= teem in, pullulate with)
 """);
 
     // Update the state to reflect that TTS is in progress

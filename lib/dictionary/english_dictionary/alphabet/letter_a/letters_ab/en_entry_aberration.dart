@@ -235,7 +235,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: aberration (derived forms: aberrations)
+1. A state or condition markedly different from the norm (=aberrance, aberrancy, deviance, deviancy)
+ 
+2. A disorder in one's mental state
+ 
+3. An optical phenomenon resulting from the failure of a lens or mirror to produce a good image (=distortion, optical aberration)
 """);
 
     // Update the state to reflect that TTS is in progress

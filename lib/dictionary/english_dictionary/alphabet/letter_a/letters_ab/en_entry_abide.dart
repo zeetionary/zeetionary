@@ -232,7 +232,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abide (derived forms: abides, abiding, abided)
+1. Put up with something or somebody unpleasant (=digest, endure, stick out, stomach, bear, stand, tolerate, support, brook, suffer, put up)
+"The new secretary had to abide a lot of unprofessional remarks";
+ 
+2. [archaic] Dwell (=bide [archaic], stay)
+"You can abide with me while you are in town";
 """);
 
     // Update the state to reflect that TTS is in progress

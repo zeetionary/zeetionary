@@ -206,7 +206,14 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abnormality (derived forms: abnormalities)
+1. An abnormal physical condition resulting from defective genes or developmental deficiencies (=abnormalcy [US])
+ 
+2. Retardation sufficient to fall outside the normal range of intelligence (=mental defectiveness)
+ 
+3. Marked strangeness as a consequence of being abnormal (=freakishness)
+ 
+4. Behaviour that breaches the rule, etiquette, custom or morality (=irregularity)
 """);
 
     // Update the state to reflect that TTS is in progress

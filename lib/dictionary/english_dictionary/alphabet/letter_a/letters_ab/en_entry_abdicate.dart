@@ -228,7 +228,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abdicate (abdicated, abdicates, abdicating)
+1. Give up, such as power, as of monarchs and emperors, or duties and obligations (=renounce)
+"The King abdicated when he married a divorcee";
 """);
 
     // Update the state to reflect that TTS is in progress

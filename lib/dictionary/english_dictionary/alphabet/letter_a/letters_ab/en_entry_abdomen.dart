@@ -200,7 +200,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abdomen (plural: abdomens)
+1. The region of the body of a vertebrate between the thorax and the pelvis (=venter, stomach, belly)
+ 
+2. The cavity containing the major viscera; in mammals it is separated from the thorax by the diaphragm (=abdominal cavity)
 """);
 
     // Update the state to reflect that TTS is in progress

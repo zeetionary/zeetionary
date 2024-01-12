@@ -240,7 +240,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abortive  u'bor-tiv
+1. Failing to accomplish an intended result (= stillborn, unsuccessful)
+"an abortive revolt";
+ 
+2. (biology) imperfectly formed or developed; rudimentary
+"an abortive organ"
 """);
 
     // Update the state to reflect that TTS is in progress

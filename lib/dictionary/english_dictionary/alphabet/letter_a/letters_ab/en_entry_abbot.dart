@@ -197,7 +197,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abbot (plural: abbots)
+1. The superior of an abbey of monks (=archimandrite)
 """);
 
     // Update the state to reflect that TTS is in progress

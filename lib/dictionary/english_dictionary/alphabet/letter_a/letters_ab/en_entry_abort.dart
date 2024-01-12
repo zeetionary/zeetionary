@@ -281,7 +281,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abort (derived forms: aborts)
+1. The act of terminating a project or procedure before it is completed
+"I wasted a year of my life working on an abort"; "he sent a short message requesting an abort due to extreme winds in the area"
+
+- Verb: abort (derived forms: aborting, aborted, aborts)
+1. Terminate before completion
+"abort the mission"; "abort the process running on my computer"
+ 
+2. Cease development, die, and be aborted
+"an aborting foetus"
+ 
+3. Terminate a pregnancy by undergoing an abortion
 """);
 
     // Update the state to reflect that TTS is in progress

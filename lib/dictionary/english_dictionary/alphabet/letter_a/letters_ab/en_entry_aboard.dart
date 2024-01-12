@@ -247,7 +247,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: aboard 
+1. On a ship, train, plane or other vehicle (=on board)
+ 
+2. (baseball) on first, second or third base
+"Their second homer with Bob Allison aboard"
+ 
+3. Side by side (=alongside)
+"anchored close aboard another ship";
+
+4. Part of a group
+"Bill's been aboard for three years now"
+
+- Preposition: aboard
+5. On board of
+"We all went aboard the ship"
 """);
 
     // Update the state to reflect that TTS is in progress

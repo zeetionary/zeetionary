@@ -326,7 +326,11 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: ability (derived forms: abilities)
+1. The quality of being able to perform; a quality that permits or facilitates achievement or accomplishment
+
+2. Possession of the qualities (especially mental qualities) required to do something or get something done (=power)
+"danger heightened his abilities of discrimination";
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -100,8 +100,7 @@ class EnglishEntryabdomen extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سک، زگ، ورگ، سگ
 
-١. (ناو) ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە
-                            """),
+١. (ناو) ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -5,11 +5,11 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
+import 'package:zeetionary/grammar/grammar_screen.dart';
 // import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 // import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
-import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
@@ -104,6 +104,22 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
+              // ListTile(
+              //   title: Text(
+              //     "Grammar",
+              //     style: TextStyle(
+              //       fontSize: 16.0,
+              //       color: currentTheme.primaryColor,
+              //     ),
+              //   ),
+              //   leading: Icon(
+              //     Icons.question_answer,
+              //     color: currentTheme.primaryColor,
+              //   ),
+              //   onTap: () {
+              //     Routemaster.of(context).push('/grammar-screen');
+              //   },
+              // ),
               ListTile(
                 title: Text(
                   "Quiz",
@@ -120,6 +136,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   Routemaster.of(context).push('/quiz-screen');
                 },
               ),
+
               // ListTile(
               //   title: Text(
               //     "Settings",
@@ -238,14 +255,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         // drawer: const SecondDrawer(),
         body: PageView(
           controller: _pageController,
-          children: [
-            const DictionaryScreenEnglish(),
-            const DictionaryScreenKurdish(),
-            // GrammarScreen(),
+          children: const [
+            DictionaryScreenEnglish(),
+            DictionaryScreenKurdish(),
+            GrammarScreen(),
             // QuestionsScreen(),
             // QuizScreen(currentTheme: currentTheme),
-            QuizScreen(currentTheme: currentTheme),
-            QuizScreen(currentTheme: currentTheme),
           ],
           onPageChanged: (index) {
             setState(() {
@@ -311,7 +326,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             ),
             BottomNavyBarItem(
               icon: Icon(
-                Icons.quiz,
+                Icons.book,
                 color: currentTheme.primaryColor,
               ),
               title: Text(
@@ -327,23 +342,23 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               // inactiveColor: Colors.red,
               textAlign: TextAlign.center,
             ),
-            BottomNavyBarItem(
-              icon: Icon(
-                Icons.quiz,
-                color: currentTheme.primaryColor,
-              ),
-              title: Text(
-                'Quiz',
-                style: TextStyle(
-                  color: currentTheme
-                      .primaryColor, // Replace with your desired color
-                  fontSize: 12,
-                  // fontWeight: FontWeight.bold,
-                ),
-              ),
-              activeColor: Colors.blue.shade200,
-              textAlign: TextAlign.center,
-            ),
+            // BottomNavyBarItem(
+            //   icon: Icon(
+            //     Icons.quiz,
+            //     color: currentTheme.primaryColor,
+            //   ),
+            //   title: Text(
+            //     'Quiz',
+            //     style: TextStyle(
+            //       color: currentTheme
+            //           .primaryColor, // Replace with your desired color
+            //       fontSize: 12,
+            //       // fontWeight: FontWeight.bold,
+            //     ),
+            //   ),
+            //   activeColor: Colors.blue.shade200,
+            //   textAlign: TextAlign.center,
+            // ),
           ],
         ),
         // bottomNavigationBar: NavigationBarTheme(

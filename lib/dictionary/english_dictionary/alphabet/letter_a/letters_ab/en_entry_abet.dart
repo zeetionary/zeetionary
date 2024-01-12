@@ -98,8 +98,7 @@ class EnglishEntryabet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە
-                            """),
+١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

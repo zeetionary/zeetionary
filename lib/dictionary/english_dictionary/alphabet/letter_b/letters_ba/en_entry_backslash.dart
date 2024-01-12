@@ -165,9 +165,7 @@ class EnglishEntrybackslash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          Text("""
 ١. (ناو) نیشانەی ( \ ) کە لە کۆمپیوتەردا بەکاردێت"""),
                         ],
                       ),

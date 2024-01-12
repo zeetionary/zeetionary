@@ -2123,55 +2123,55 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bric-a-brac",
     "brick",
     "bricklayer",
-    // "brickwork",
-    // "bridal",
-    // "bride",
-    // "bridegroom",
-    // "bridesmaid",
-    // "bridge",
-    // "bridgehead",
-    // "bridle",
-    // "brief",
-    // "briefcase",
-    // "briefly",
-    // "briefs",
-    // "brigade",
-    // "brigadier",
-    // "bright",
-    // "brighten",
-    // "brightly",
-    // "brightness",
-    // "brilliance",
-    // "brilliant",
-    // "brilliantly",
-    // "brim",
-    // "brine",
-    // "bring",
-    // "brink",
-    // "brisk",
-    // "briskly",
-    // "bristle",
-    // "brittle",
-    // "broach",
-    // "broad",
-    // "broadband",
-    // "broaden",
-    // "broadly",
-    // "broad-minded",
-    // "broadcast",
-    // "broadcaster",
-    // "broadcasting",
-    // "broadside",
-    // "broccoli",
-    // "brochure",
-    // "broil",
-    // "broke",
-    // "broken",
-    // "broken home",
-    // "broker",
-    // "brolly",
-    // "bronchial",
-    // "bronchitis",
+    "brickwork",
+    "bridal",
+    "bride",
+    "bridegroom",
+    "bridesmaid",
+    "bridge",
+    "bridgehead",
+    "bridle",
+    "brief",
+    "briefcase",
+    "briefly",
+    "briefs",
+    "brigade",
+    "brigadier",
+    "bright",
+    "brighten",
+    "brightly",
+    "brightness",
+    "brilliance",
+    "brilliant",
+    "brilliantly",
+    "brim",
+    "brine",
+    "bring",
+    "brink",
+    "brisk",
+    "briskly",
+    "bristle",
+    "brittle",
+    "broach",
+    "broad",
+    "broadband",
+    "broaden",
+    "broadly",
+    "broad-minded",
+    "broadcast",
+    "broadcaster",
+    "broadcasting",
+    "broadside",
+    "broccoli",
+    "brochure",
+    "broil",
+    "broke",
+    "broken",
+    "broken home",
+    "broker",
+    "brolly",
+    "bronchial",
+    "bronchitis",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -11031,202 +11031,202 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bricklayer");
                   }
-                  // if (wordsEnglish == "brickwork") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brickwork");
-                  // }
-                  // if (wordsEnglish == "bridal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridal");
-                  // }
-                  // if (wordsEnglish == "bride") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bride");
-                  // }
-                  // if (wordsEnglish == "bridegroom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridegroom");
-                  // }
-                  // if (wordsEnglish == "bridesmaid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridesmaid");
-                  // }
-                  // if (wordsEnglish == "bridge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridge");
-                  // }
-                  // if (wordsEnglish == "bridgehead") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridgehead");
-                  // }
-                  // if (wordsEnglish == "bridle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bridle");
-                  // }
-                  // if (wordsEnglish == "brief") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brief");
-                  // }
-                  // if (wordsEnglish == "briefly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-briefly");
-                  // }
-                  // if (wordsEnglish == "briefcase") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-briefcase");
-                  // }
-                  // if (wordsEnglish == "briefs") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-briefs");
-                  // }
-                  // if (wordsEnglish == "brigade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brigade");
-                  // }
-                  // if (wordsEnglish == "brigadier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brigadier");
-                  // }
-                  // if (wordsEnglish == "bright") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bright");
-                  // }
-                  // if (wordsEnglish == "brighten") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brighten");
-                  // }
-                  // if (wordsEnglish == "brightly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brightly");
-                  // }
-                  // if (wordsEnglish == "brightness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brightness");
-                  // }
-                  // if (wordsEnglish == "brilliant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brilliant");
-                  // }
-                  // if (wordsEnglish == "brilliance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brilliance");
-                  // }
-                  // if (wordsEnglish == "brilliantly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brilliantly");
-                  // }
-                  // if (wordsEnglish == "brim") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brim");
-                  // }
-                  // if (wordsEnglish == "brine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brine");
-                  // }
-                  // if (wordsEnglish == "bring") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bring");
-                  // }
-                  // if (wordsEnglish == "brink") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brink");
-                  // }
-                  // if (wordsEnglish == "brisk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brisk");
-                  // }
-                  // if (wordsEnglish == "briskly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-briskly");
-                  // }
-                  // if (wordsEnglish == "bristle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bristle");
-                  // }
-                  // if (wordsEnglish == "brittle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brittle");
-                  // }
-                  // if (wordsEnglish == "broach") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broach");
-                  // }
-                  // if (wordsEnglish == "broad") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broad");
-                  // }
-                  // if (wordsEnglish == "broadband") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadband");
-                  // }
-                  // if (wordsEnglish == "broaden") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broaden");
-                  // }
-                  // if (wordsEnglish == "broadly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadly");
-                  // }
-                  // if (wordsEnglish == "broad-minded") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broad-minded");
-                  // }
-                  // if (wordsEnglish == "broadcast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadcast");
-                  // }
-                  // if (wordsEnglish == "broadcaster") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadcaster");
-                  // }
-                  // if (wordsEnglish == "broadcasting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadcasting");
-                  // }
-                  // if (wordsEnglish == "broadside") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broadside");
-                  // }
-                  // if (wordsEnglish == "broccoli") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broccoli");
-                  // }
-                  // if (wordsEnglish == "brochure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brochure");
-                  // }
-                  // if (wordsEnglish == "broil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broil");
-                  // }
-                  // if (wordsEnglish == "broke") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broke");
-                  // }
-                  // if (wordsEnglish == "broken") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broken");
-                  // }
-                  // if (wordsEnglish == "broken home") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broken-home");
-                  // }
-                  // if (wordsEnglish == "broker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broker");
-                  // }
-                  // if (wordsEnglish == "brolly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brolly");
-                  // }
-                  // if (wordsEnglish == "bronchial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bronchial");
-                  // }
-                  // if (wordsEnglish == "bronchitis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bronchitis");
-                  // }
+                  if (wordsEnglish == "brickwork") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brickwork");
+                  }
+                  if (wordsEnglish == "bridal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridal");
+                  }
+                  if (wordsEnglish == "bride") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bride");
+                  }
+                  if (wordsEnglish == "bridegroom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridegroom");
+                  }
+                  if (wordsEnglish == "bridesmaid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridesmaid");
+                  }
+                  if (wordsEnglish == "bridge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridge");
+                  }
+                  if (wordsEnglish == "bridgehead") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridgehead");
+                  }
+                  if (wordsEnglish == "bridle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bridle");
+                  }
+                  if (wordsEnglish == "brief") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brief");
+                  }
+                  if (wordsEnglish == "briefly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-briefly");
+                  }
+                  if (wordsEnglish == "briefcase") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-briefcase");
+                  }
+                  if (wordsEnglish == "briefs") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-briefs");
+                  }
+                  if (wordsEnglish == "brigade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brigade");
+                  }
+                  if (wordsEnglish == "brigadier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brigadier");
+                  }
+                  if (wordsEnglish == "bright") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bright");
+                  }
+                  if (wordsEnglish == "brighten") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brighten");
+                  }
+                  if (wordsEnglish == "brightly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brightly");
+                  }
+                  if (wordsEnglish == "brightness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brightness");
+                  }
+                  if (wordsEnglish == "brilliant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brilliant");
+                  }
+                  if (wordsEnglish == "brilliance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brilliance");
+                  }
+                  if (wordsEnglish == "brilliantly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brilliantly");
+                  }
+                  if (wordsEnglish == "brim") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brim");
+                  }
+                  if (wordsEnglish == "brine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brine");
+                  }
+                  if (wordsEnglish == "bring") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bring");
+                  }
+                  if (wordsEnglish == "brink") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brink");
+                  }
+                  if (wordsEnglish == "brisk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brisk");
+                  }
+                  if (wordsEnglish == "briskly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-briskly");
+                  }
+                  if (wordsEnglish == "bristle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bristle");
+                  }
+                  if (wordsEnglish == "brittle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brittle");
+                  }
+                  if (wordsEnglish == "broach") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broach");
+                  }
+                  if (wordsEnglish == "broad") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broad");
+                  }
+                  if (wordsEnglish == "broadband") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadband");
+                  }
+                  if (wordsEnglish == "broaden") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broaden");
+                  }
+                  if (wordsEnglish == "broadly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadly");
+                  }
+                  if (wordsEnglish == "broad-minded") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broad-minded");
+                  }
+                  if (wordsEnglish == "broadcast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadcast");
+                  }
+                  if (wordsEnglish == "broadcaster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadcaster");
+                  }
+                  if (wordsEnglish == "broadcasting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadcasting");
+                  }
+                  if (wordsEnglish == "broadside") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broadside");
+                  }
+                  if (wordsEnglish == "broccoli") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broccoli");
+                  }
+                  if (wordsEnglish == "brochure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brochure");
+                  }
+                  if (wordsEnglish == "broil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broil");
+                  }
+                  if (wordsEnglish == "broke") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broke");
+                  }
+                  if (wordsEnglish == "broken") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broken");
+                  }
+                  if (wordsEnglish == "broken home") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broken-home");
+                  }
+                  if (wordsEnglish == "broker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broker");
+                  }
+                  if (wordsEnglish == "brolly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brolly");
+                  }
+                  if (wordsEnglish == "bronchial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bronchial");
+                  }
+                  if (wordsEnglish == "bronchitis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bronchitis");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

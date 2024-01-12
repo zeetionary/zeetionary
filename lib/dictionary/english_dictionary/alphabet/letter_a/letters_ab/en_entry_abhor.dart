@@ -109,8 +109,7 @@ class EnglishEntryabhor extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕق‌لێ‌بوون، بێزکردنەوە،
 
-١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە
-                            """),
+١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 
 import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
+import 'package:zeetionary/grammar/grammar_screen.dart';
 // C:\Users\HAWKAR STORE\Desktop\zeetionary\lib\home\screens\history_screens\history_screen.dart
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 // import 'package:zeetionary/home/screens/settings_screens/settings.dart';
@@ -2137,7 +2138,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_broker.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brolly.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronchial.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronchitis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronchitis.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -2181,6 +2182,7 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
+  "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
   // "/settings-screen": (_) => MaterialPage(child: SettingsPage()),
   // "/settings-screen": (_) => const MaterialPage(child: SettingsPage(initialTextSize: null,)),
   // "/settings-screen": (_) =>
@@ -2193,6 +2195,7 @@ final loggedInRoute = RouteMap(routes: {
   // English dictionary starts here
   "/english-a": (_) => MaterialPage(child: EnglishEntrya()),
   "/english-aback": (_) => MaterialPage(child: EnglishEntryaback()),
+  "/english/grammar/aback": (_) => MaterialPage(child: EnglishEntryaback()),
   "/english-abacus": (_) => MaterialPage(child: EnglishEntryabacus()),
   "/english-abandon": (_) => MaterialPage(child: EnglishEntryabandon()),
   "/english-abandoned": (_) => MaterialPage(child: EnglishEntryabandoned()),
@@ -4516,7 +4519,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-broker": (_) => MaterialPage(child: EnglishEntrybroker()),
   "/english-brolly": (_) => MaterialPage(child: EnglishEntrybrolly()),
   "/english-bronchial": (_) => MaterialPage(child: EnglishEntrybronchial()),
-  // "/english-bronchitis": (_) => MaterialPage(child: EnglishEntrybronchitis()),
+  "/english-bronchitis": (_) => MaterialPage(child: EnglishEntrybronchitis()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/theme/pallete.dart';
 // import 'package:zeetionary/constants.dart';
 
 // class QuizScreen extends ConsumerWidget {
@@ -59,8 +61,10 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+
     return Scaffold(
-      // appBar: const ZeetionaryAppbar(),
+      appBar: const ZeetionaryAppbar(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
@@ -69,21 +73,21 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             children: [
               DecoratedBox(
                 decoration: BoxDecoration(
-                  border: Border.all(
-                      color: widget.currentTheme.primaryColor, width: 2),
+                  border:
+                      Border.all(color: currentTheme.primaryColor, width: 2),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: QuestionCard(
                   question: questions[currentIndex],
                   onAnswerSelected: (answer) => checkAnswer(answer),
-                  currentTheme: widget.currentTheme,
+                  currentTheme: currentTheme,
                 ),
               ),
               const SizedBox(height: 20),
               Container(
                 decoration: BoxDecoration(
-                  border: Border.all(
-                      color: widget.currentTheme.primaryColor, width: 2),
+                  border:
+                      Border.all(color: currentTheme.primaryColor, width: 2),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 padding: const EdgeInsets.all(12),
@@ -192,6 +196,8 @@ class QuestionCard extends ConsumerStatefulWidget {
 class _QuestionCardState extends ConsumerState<QuestionCard> {
   @override
   Widget build(BuildContext context) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -208,7 +214,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: widget.currentTheme.primaryColor),
+                  color: currentTheme.primaryColor),
               textAlign: TextAlign.center,
             ),
           ),
@@ -222,7 +228,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                 padding: const EdgeInsets.symmetric(horizontal: 0),
                 decoration: BoxDecoration(
                   border: Border.all(
-                      color: widget.currentTheme.primaryColor.withOpacity(0.8),
+                      color: currentTheme.primaryColor.withOpacity(0.8),
                       width: 1),
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -247,7 +253,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                         option,
                         style: TextStyle(
                           fontSize: 16,
-                          color: widget.currentTheme.primaryColor,
+                          color: currentTheme.primaryColor,
                         ),
                       ),
                     ),

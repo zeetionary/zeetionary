@@ -168,9 +168,7 @@ class EnglishEntryapplet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          Text("""
 ١. (ناو) پڕۆگرامێک کە لەناو یەکێکی تردا کاردەکات، بۆ نموونە پڕۆگرامێک کە لەناو گەڕانچییەک، بۆ نموونە کرۆم، کاربکات"""),
                         ],
                       ),

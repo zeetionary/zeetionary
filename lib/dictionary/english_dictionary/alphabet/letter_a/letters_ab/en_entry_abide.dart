@@ -107,8 +107,7 @@ class EnglishEntryabide extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت
-                            """),
+١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

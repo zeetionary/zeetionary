@@ -100,8 +100,7 @@ class EnglishEntryabhorrent extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بێزار، بێزراو، بێزەون، قێزەون، ناشیرین، ناحەز، دزێو
 
-١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات
-                            """),
+١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

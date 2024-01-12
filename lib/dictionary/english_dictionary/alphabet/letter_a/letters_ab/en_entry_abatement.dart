@@ -100,8 +100,7 @@ class EnglishEntryabatement extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، ھاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان، نەھێشتن، لابردن، پێش‌گرتن، (ماف) وەستاندن، ڕاگرتن، تەواوکردن
 
-١. (ناو) کردەی کەمکردنەوەی ھێزی شتێک
-                            """),
+١. (ناو) کردەی کەمکردنەوەی ھێزی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

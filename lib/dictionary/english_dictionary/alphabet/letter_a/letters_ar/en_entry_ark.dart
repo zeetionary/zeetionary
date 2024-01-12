@@ -168,9 +168,7 @@ class EnglishEntryark extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          Text("""
 کوردی: (لە ئینجیلدا) کەشتی نووح، سنووق، دارەمەیت، داڵدە، پەنا
 
 ١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک"""),

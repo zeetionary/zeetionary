@@ -184,7 +184,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                       "His work suffered because of his total absorption in sport."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی بەناو وەرزشدا."),
+                                      "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

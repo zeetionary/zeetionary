@@ -165,9 +165,7 @@ class EnglishEntrybackbencher extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          Text("""
 ١. (ناو) لە پەرلەماندا، کەسێکە کە لە پشتەوە دادەنیشێت و ڕۆڵێکی گرنگی نییە لە حکومەت یان ئۆپۆزسیۆندا"""),
                         ],
                       ),

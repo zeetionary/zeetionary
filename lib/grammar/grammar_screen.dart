@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
-// import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:routemaster/routemaster.dart';
+// import 'package:zeetionary/constants.dart';
 
 class GrammarScreen extends StatefulWidget {
   const GrammarScreen({super.key});
@@ -12,35 +12,67 @@ class GrammarScreen extends StatefulWidget {
 class _GrammarScreenState extends State<GrammarScreen> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allGrammarSubjects = [
+    // "dopsum",
     "present simple",
+    "present perfect",
     "past simple",
+    "past perfect",
   ];
-  List<String> filteredsubjects = [];
+
+  List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    filteredsubjects = List.from(allGrammarSubjects);
+    filteredWords = List.from(allGrammarSubjects);
   }
+
+  // void filterResults(String query) {
+  //   setState(() {
+  //     filteredWords = allGrammarSubjects
+  //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+  //         .toList();
+  //   });
+  // }
 
   void filterResults(String query) {
     setState(() {
-      filteredsubjects = allGrammarSubjects
-          .where(
-              (subject) => subject.toLowerCase().contains(query.toLowerCase()))
-          .toList();
+      if (query.isEmpty) {
+        // If the query is empty, show all words
+        filteredWords = List.from(allGrammarSubjects);
+      } else {
+        // Sort words to prioritize exact matches first
+        filteredWords = allGrammarSubjects
+            .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+            .toList();
+
+        filteredWords.sort((a, b) {
+          bool exactMatchA = a.toLowerCase() == query.toLowerCase();
+          bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+
+          if (exactMatchA && !exactMatchB) {
+            return -1; // A is an exact match, so it comes first.
+          } else if (!exactMatchA && exactMatchB) {
+            return 1; // B is an exact match, so it comes first.
+          } else {
+            // If both are exact matches or neither are, sort them based on lexicographic order.
+            return a.toLowerCase().compareTo(b.toLowerCase());
+          }
+        });
+      }
     });
   }
 
   void clearSearch() {
     _searchController.clear();
-    filterResults('');
+    filterResults("");
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // appBar: const ZeetionaryAppbar(),
       key: scaffoldKey,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -71,20 +103,17 @@ class _GrammarScreenState extends State<GrammarScreen> {
             ),
           ),
           Expanded(
-            child: EnglishGrammar(
-              subjects: filteredsubjects,
-              onTapSubject: (subjectsEnglish) {
-                if (subjectsEnglish == "present simple") {
-                  // Handle the onTap event for the word "dog" here.
-                  // You can navigate to a different screen or perform any desired action.
-                  // For example:
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaback(),
-                    ),
-                  );
-                }
-              },
+            child: Directionality(
+              textDirection:
+                  TextDirection.ltr, // Set the text direction to right-to-left
+              child: EnglishGrammar(
+                words: filteredWords,
+                onTapWord: (allGrammarSubjects) {
+                  if (allGrammarSubjects == "present simple") {
+                    Routemaster.of(context).push("/english/grammar/aback");
+                  }
+                },
+              ),
             ),
           ),
         ],
@@ -100,24 +129,24 @@ class _GrammarScreenState extends State<GrammarScreen> {
 }
 
 class EnglishGrammar extends StatelessWidget {
-  final List<String> subjects;
-  final Function(String) onTapSubject;
+  final List<String> words;
+  final Function(String) onTapWord;
 
   const EnglishGrammar({
     super.key,
-    required this.subjects,
-    required this.onTapSubject,
+    required this.words,
+    required this.onTapWord,
   });
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: subjects.length,
+      itemCount: words.length,
       itemBuilder: (BuildContext context, int index) {
-        return ListTileEnglishGrammar(
-          subjectsEnglish: subjects[index],
+        return ListTileGrammar(
+          allGrammarSubjects: words[index],
           onTap: () {
-            onTapSubject(subjects[index]);
+            onTapWord(words[index]);
           },
         );
       },
@@ -125,13 +154,13 @@ class EnglishGrammar extends StatelessWidget {
   }
 }
 
-class ListTileEnglishGrammar extends StatelessWidget {
-  final String subjectsEnglish;
+class ListTileGrammar extends StatelessWidget {
+  final String allGrammarSubjects;
   final VoidCallback? onTap;
 
-  const ListTileEnglishGrammar({
+  const ListTileGrammar({
     super.key,
-    required this.subjectsEnglish,
+    required this.allGrammarSubjects,
     this.onTap,
   });
 
@@ -141,7 +170,7 @@ class ListTileEnglishGrammar extends StatelessWidget {
       onTap: onTap,
       child: ListTile(
         key: key,
-        title: Text(subjectsEnglish),
+        title: Text(allGrammarSubjects),
         trailing: const Icon(Icons.arrow_forward),
       ),
     );

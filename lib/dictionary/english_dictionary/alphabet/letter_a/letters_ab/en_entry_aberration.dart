@@ -110,8 +110,7 @@ class EnglishEntryaberration extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
 
-١. (ناو) شتێک یان ڕەدتارێک کە ئاسایی و گونجاو نییە
-                            """),
+١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -100,8 +100,7 @@ class EnglishEntryabduct extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: مرۆڤ ڕفاندن، مرۆ(ڤ)دزی، ھەڵگرتن، فڕاندن، ڕفاندن
 
-١. (کردار) بردنی کەسێک بەزۆر و نایاسایی
-                            """),
+١. (کردار) بردنی کەسێک بەزۆر و نایاسایی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

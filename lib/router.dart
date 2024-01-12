@@ -2139,7 +2139,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brolly.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronchial.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronchitis.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bronze.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -4520,7 +4520,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brolly": (_) => MaterialPage(child: EnglishEntrybrolly()),
   "/english-bronchial": (_) => MaterialPage(child: EnglishEntrybronchial()),
   "/english-bronchitis": (_) => MaterialPage(child: EnglishEntrybronchitis()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bronze": (_) => MaterialPage(child: EnglishEntrybronze()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

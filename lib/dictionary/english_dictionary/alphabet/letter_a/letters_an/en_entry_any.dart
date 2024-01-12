@@ -473,19 +473,45 @@ class EnglishEntryany extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Adverb: any 
 1. To any degree or extent
@@ -495,10 +521,33 @@ class EnglishMeaning extends StatelessWidget {
 1. One, some, every or all without specification; entity, elective existential pronoun; quantifier, elective existential (= whatever, whatsoever)
 "give me any peaches you don't want"; "not any milk is left"; "any child would know that"; "pick any card"; "any day now"; "cars can be rented at almost any airport"; "at twilight or any other time"; "beyond any doubt"; "need any help we can get";
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

@@ -298,19 +298,45 @@ class EnglishEntrybird extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Noun: bird (derived forms: birds)
 1. Warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings (= birdie [informal])
@@ -324,10 +350,33 @@ class EnglishMeaning extends StatelessWidget {
 - Verb: bird (derived forms: birds, birded, birding)
 1. Watch and study birds in their natural habitat (= birdwatch)
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

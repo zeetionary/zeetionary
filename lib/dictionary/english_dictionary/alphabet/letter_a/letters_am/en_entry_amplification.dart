@@ -255,19 +255,45 @@ class EnglishEntryamplification extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Noun: amplification (derived forms: amplifications)
 1. Addition of extra material, illustration or clarifying detail (= elaboration)
@@ -277,10 +303,33 @@ class EnglishMeaning extends StatelessWidget {
  
 3. (electronics) the act of increasing voltage, power or current
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

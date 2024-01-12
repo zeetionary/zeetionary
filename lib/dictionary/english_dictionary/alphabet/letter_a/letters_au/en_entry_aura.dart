@@ -230,19 +230,45 @@ class EnglishEntryaura extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Noun: aura (derived forms: aurae, auras)
 1. A sensation (as of a cold breeze or bright light) that precedes the onset of certain disorders such as a migraine attack or epileptic seizure
@@ -252,10 +278,33 @@ class EnglishMeaning extends StatelessWidget {
 3. A distinctive but intangible quality surrounding a person or thing (= air, atmosphere)
 "the place had an aura of romance";
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

@@ -228,29 +228,78 @@ class EnglishEntrybile extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Noun: bile (derived forms: biles)
 1. A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats (= gall)
  
 2. A feeling of deep and bitter anger and ill-will (= resentment, bitterness, gall, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness)
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

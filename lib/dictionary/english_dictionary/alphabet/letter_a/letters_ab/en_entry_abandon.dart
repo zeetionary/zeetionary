@@ -252,19 +252,45 @@ class EnglishEntryabandon extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Verb: abandon (abandoned, abandons, abandoning)
 1. Forsake, leave behind
@@ -288,10 +314,53 @@ class EnglishMeaning extends StatelessWidget {
 
 2. A feeling of extreme emotional intensity
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+- Verb: abandon (abandoned, abandons, abandoning)
+1. Forsake, leave behind
+"We abandoned the old car in the empty parking lot"
+
+2. Give up with the intent of never claiming again (=give up)
+"Abandon your life to God";
+
+3.Leave behind empty; move out of (=vacate, empty)
+"You must abandon your office by tonight";
+
+4. Stop maintaining or insisting on ideas or claims (=give up)
+"He abandoned the thought of asking for her hand in marriage";
+
+5. Leave someone who needs or counts on you; leave in the lurch (=forsake [literary], desolate, desert)
+"The mother abandoned her children";
+
+- Noun: abandon
+1. The trait of lacking restraint or control; reckless freedom from inhibition or worry (=wantonness, unconstraint)
+"she danced with abandon";
+
+2. A feeling of extreme emotional intensity
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

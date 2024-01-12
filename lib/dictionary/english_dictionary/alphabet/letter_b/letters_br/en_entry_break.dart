@@ -1504,7 +1504,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       "When his head broke the surface he took in deep gulps of air."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە لە ڕووی دەریاکەوە ھاتە دەرەوە ھەناسەی قووڵی ھەڵمژی."),
+                                      "کە سەری دەرکرد لە ئاوەکە ھەناسەی قووڵی ھەڵمژی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -2187,19 +2187,45 @@ class EnglishEntrybreak extends StatelessWidget {
 
 // DOPSUM: ENGLISH MEANING
 
-class EnglishMeaning extends StatelessWidget {
-  const EnglishMeaning({
-    super.key,
-  });
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DividerDefinition(),
-          EnglishMeaningConst(
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB"),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US"),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
+          ),
+          // Speaker icon for American English
+          const EnglishMeaningConst(
             text: """
 - Verb: break (derived forms: broken, breaking, breaks, broke)
 1. Destroy the integrity of; usually by force; cause to separate into pieces or fragments
@@ -2423,10 +2449,33 @@ class EnglishMeaning extends StatelessWidget {
 16. An escape from jail (= breakout, jailbreak, gaolbreak, prisonbreak, prison-breaking)
 "the break was carefully planned";
 """,
-          )
+          ),
         ],
       ),
     );
+  }
+
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak("""
+ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+""");
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
   }
 }
 

@@ -7,79 +7,80 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrow extends StatelessWidget {
+class EnglishEntrybrowse extends StatelessWidget {
 // blank divider
-  EnglishEntrybrow({super.key});
+  EnglishEntrybrowse({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrow(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowse(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("browse"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrows1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The nurse mopped his fevered brow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrows2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her brow furrowed in concentration."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrows3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowses1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His brows drew together in a worried frown when he heard the remark."); // DOPSUM: CHANGE TEXT
+        "We went for a browse around an antique shop."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrows4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowses2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His brows snapped together ferociously when he heard the remark."); // DOPSUM: CHANGE TEXT
+        "I had a browse through the books on his desk."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrows5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowses3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The path disappeared over the brow of the hill."); // DOPSUM: CHANGE TEXT
+        "She browsed the shelves for something interesting to read."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrows6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowses4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrows66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I spent the whole evening just browsing on the internet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrows7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrow
+  Future<void> speakbrowses5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrows77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I found the article while I was browsing through some old magazines."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrowses6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Deer were browsing (on grass) under the trees."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrowses7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrowse
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrowses77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +103,22 @@ class EnglishEntrybrow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brow"),
+                            EntryTitle(word: "browse"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /braʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /braʊz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrow("en-GB"),
+                              onPressed: () => speakbrowse("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /braʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /braʊz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrow("en-US"),
+                              onPressed: () => speakbrowse("en-US"),
                             ),
                           ],
                         ),
@@ -163,24 +164,100 @@ class EnglishEntrybrow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: برۆ، ناوچاوان، ئەنی، تەوێڵ، دەم‌وچاو، چڕوچاو، دیم، ڕوخسار، نووک، نووچکە، سەر، ژوور، تەوق 
+کوردی: لەوەڕین، چەرین، چرپی، هەژگ، گەڵاوپژ، پەڕهەڵدانەوە، هەڵدانەوە، گەڕان 
 
-١. (ناو) ناوچاوان؛ تەوێڵ؛ ئەو بەشە تەختەی ڕووخسار کە لە نێوان چاوان و قژە"""),
+١. (ناو) کرداری سەیرکردنی ژمارەیەکی زۆر شت لە فرۆشگایەکدا وەک لە یەک شت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The nurse mopped his fevered brow."),
+                                  text:
+                                      "We went for a browse around an antique shop."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی."),
-                              const CustomSizedBoxForTTS(), // Define the word "brow" as
+                                      "چووین بۆ گەڕانێک لە فرۆشگای ئەنتیکەکەدا."),
+                              const CustomSizedBoxForTTS(), // Define the word "browse" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrows1("en-GB"),
+                                    onPressed: () => speakbrowses1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows1("en-US"),
+                                    onPressed: () => speakbrowses1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کرداری سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، هتد بەبێ خوێندنەوەی هەموو شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I had a browse through the books on his desk."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چاوێکم خشاند بە کتێبەکانی سەر مێزەکەیدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrowses2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrowses2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) سەیرکردنی ژمارەیەک شت لە فرۆشگایەکدا لە جیاتی یەک شت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She browsed the shelves for something interesting to read."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕووانی لە ڕەفەکان بۆ شتێکی سەرنجڕاکێش کە بیخوێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrowses3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrowses3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، هتد بەبێ خوێندنەوەی هەموو شتێک "),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I spent the whole evening just browsing on the internet."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەموو ئێوارەکەم بەسەربرد بە گەڕان بە ئینتەرنێتدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrowses4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrowses4("en-US"),
                                   ),
                                 ],
                               ),
@@ -190,17 +267,19 @@ class EnglishEntrybrow extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Her brow furrowed in concentration."),
+                                  text:
+                                      "I found the article while I was browsing through some old magazines."),
                               const ExampleSentenceKurdish(
-                                  text: "ناوچاوانی گرژبوو لە سەرنجداندا."),
+                                  text:
+                                      "وتارەکەم دۆزییەوە کە بە ژمارەیەک گۆڤاری کۆندا دەگەڕام."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrows2("en-GB"),
+                                    onPressed: () => speakbrowses5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows2("en-US"),
+                                    onPressed: () => speakbrowses5("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,69 +287,24 @@ class EnglishEntrybrow extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) برۆ؛ مووی سەر چاوان"),
+                              text:
+                                  "٥. (کردار) لەوەڕانی ئاژەڵ؛ خواردنی گیا و گەڵا بە ئاسوودەیی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "His brows drew together in a worried frown when he heard the remark."),
+                                      "Deer were browsing (on grass) under the trees."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "برۆیەکانی چوون بە یەکدا لە گرژیدا کە قسەکەی بیست."),
+                                      "ئاسک گیایان دەخوارد لە ژێر دارەکاندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrows3("en-GB"),
+                                    onPressed: () => speakbrowses6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His brows snapped together ferociously when he heard the remark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برۆیەکانی بە توندی چوون بە یەکدا کە قسەکەی بیست."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) بەشی سەرەوەی گردێکدا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The path disappeared over the brow of the hill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە دیار نەما لەسەر نووچکەی گردەکە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows5("en-US"),
+                                    onPressed: () => speakbrowses6("en-US"),
                                   ),
                                 ],
                               ),
@@ -353,13 +387,26 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: brow (Derived forms: brows)
-1. The part of the face above the eyes (= forehead)
+- Noun: browse (Derived forms: browses)
+1. Vegetation (such as young shoots, twigs, and leaves) that is suitable for animals to eat
+"a deer needs to eat twenty pounds of browse every day"
  
-2. The arch of hair above each eye (= eyebrow, supercilium)
+2. Reading superficially or at random (= browsing)
  
-3. The peak of a hill (= hilltop)
-"the sun set behind the brow of distant hills";
+3. The act of feeding by continual nibbling (= browsing)
+
+- Verb: browse (Derived forms: browsing, browses, browsed)
+1. Visit and look around a shop or shops, not necessarily buying (= shop)
+"I don't need help, I'm just browsing";
+
+2. Feed as in a meadow or pasture (= crop, graze, range, pasture)
+"the herd was browsing";
+
+3. Look around casually and randomly, without seeking anything in particular (= surf)
+"browse a computer directory";
+ 
+4. Eat lightly, try different dishes (= graze)
+"There was so much food at the party that we quickly got sated just by browsing";
 """,
           ),
         ],
@@ -370,13 +417,26 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-- Noun: brow (Derived forms: brows)
-1. The part of the face above the eyes (= forehead)
+- Noun: browse (Derived forms: browses)
+1. Vegetation (such as young shoots, twigs, and leaves) that is suitable for animals to eat
+"a deer needs to eat twenty pounds of browse every day"
  
-2. The arch of hair above each eye (= eyebrow, supercilium)
+2. Reading superficially or at random (= browsing)
  
-3. The peak of a hill (= hilltop)
-"the sun set behind the brow of distant hills";
+3. The act of feeding by continual nibbling (= browsing)
+
+- Verb: browse (Derived forms: browsing, browses, browsed)
+1. Visit and look around a shop or shops, not necessarily buying (= shop)
+"I don't need help, I'm just browsing";
+
+2. Feed as in a meadow or pasture (= crop, graze, range, pasture)
+"the herd was browsing";
+
+3. Look around casually and randomly, without seeking anything in particular (= surf)
+"browse a computer directory";
+ 
+4. Eat lightly, try different dishes (= graze)
+"There was so much food at the party that we quickly got sated just by browsing";
 """);
 
     setState(() {
@@ -399,12 +459,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
+  static String myVideoId = "https://youtu.be/iZZApfdRwYI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 356, // DOPSUM: CHANGE IT
+      startAt: 141, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +484,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/CXvG2CBJ3SE?t=";
+  static String myVideoId = "https://youtu.be/72QPp0lzYcc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 319, // DOPSUM: CHANGE IT
+      startAt: 393, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +509,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/9K_CZizKdVs?t=";
+  static String myVideoId = "https://youtu.be/9rCSVWQG_Z0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 252, // DOPSUM: CHANGE IT
+      startAt: 334, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +534,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Ax5eAzV5U5s?t=";
+  static String myVideoId = "https://youtu.be/WdRJnzt_RCU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 66, // DOPSUM: CHANGE IT
+      startAt: 565, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +559,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/DsKTLOkwws4?t=";
+  static String myVideoId = "https://youtu.be/aaCm1AfOPTg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 299, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +584,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/ZINI2McuqT8?t=";
+  static String myVideoId = "https://youtu.be/K8B0bWO9u3M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 344, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,12 +609,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/NLl8xAponRY?t=";
+  static String myVideoId = "https://youtu.be/s93JwdmZieA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 121, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -574,12 +634,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/eHqQm3qpOkM?t=";
+  static String myVideoId = "https://youtu.be/996wliAI_y4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 318, // DOPSUM: CHANGE IT
+      startAt: 1513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -599,12 +659,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/JiMMne7F7Oo?t=";
+  static String myVideoId = "https://youtu.be/STYohijxBNY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 348, // DOPSUM: CHANGE IT
+      startAt: 176, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -624,12 +684,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/UHi0RlI0Ur4?t=";
+  static String myVideoId = "https://youtu.be/PwmIcl4GIOw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 356, // DOPSUM: CHANGE IT
+      startAt: 904, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -649,12 +709,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/1q-pwV9cSnk?t=";
+  static String myVideoId = "https://youtu.be/B3o2tuN4rlQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 88, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -158,23 +158,38 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   Routemaster.of(context).push('/quiz-screen');
                 },
               ),
-
-              // ListTile(
-              //   title: Text(
-              //     "Settings",
-              //     style: TextStyle(
-              //       fontSize: 16.0,
-              //       color: currentTheme.primaryColor,
-              //     ),
-              //   ),
-              //   leading: Icon(
-              //     Icons.settings,
-              //     color: currentTheme.primaryColor,
-              //   ),
-              //   onTap: () {
-              //     Routemaster.of(context).push('/settings-screen');
-              //   },
-              // ),
+              ListTile(
+                title: Text(
+                  "TTS",
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    color: currentTheme.primaryColor,
+                  ),
+                ),
+                leading: Icon(
+                  Icons.volume_up,
+                  color: currentTheme.primaryColor,
+                ),
+                onTap: () {
+                  Routemaster.of(context).push('/tts-screen');
+                },
+              ),
+              ListTile(
+                title: Text(
+                  "Settings",
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    color: currentTheme.primaryColor,
+                  ),
+                ),
+                leading: Icon(
+                  Icons.settings,
+                  color: currentTheme.primaryColor,
+                ),
+                onTap: () {
+                  Routemaster.of(context).push('/settings-screen');
+                },
+              ),
               const SizedBox(height: 40),
               Switch.adaptive(
                 value: ref.watch(themeNotifierProvider.notifier).mode ==

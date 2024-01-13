@@ -48,7 +48,7 @@ class EnglishHistoryScreen extends StatelessWidget {
       // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
-          textDirection: TextDirection.rtl,
+          textDirection: TextDirection.ltr,
           child: Text('Cleared'),
         ),
       ));

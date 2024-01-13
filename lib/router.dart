@@ -5,6 +5,7 @@ import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 // C:\Users\HAWKAR STORE\Desktop\zeetionary\lib\home\screens\history_screens\history_screen.dart
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
+import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
 // import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
@@ -2153,11 +2154,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brother_in_law.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brotherly.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brow.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_browbeat.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brown.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_browse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_browser.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_bruise.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -2182,8 +2183,9 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
+  "/tts-screen": (_) => const MaterialPage(child: TTSPage()),
   "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
-  // "/settings-screen": (_) => MaterialPage(child: SettingsPage()),
+  // "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),
   // "/settings-screen": (_) => const MaterialPage(child: SettingsPage(initialTextSize: null,)),
   // "/settings-screen": (_) =>
   //     MaterialPage(child: SettingsPage()), // (initialTextSize: 20.0)),
@@ -4534,11 +4536,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brother-in-law": (_) => MaterialPage(child: EnglishEntrybrotherinlaw()),
   "/english-brotherly": (_) => MaterialPage(child: EnglishEntrybrotherly()),
   "/english-brow": (_) => MaterialPage(child: EnglishEntrybrow()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-browbeat": (_) => MaterialPage(child: EnglishEntrybrowbeat()),
+  "/english-brown": (_) => MaterialPage(child: EnglishEntrybrown()),
+  "/english-browse": (_) => MaterialPage(child: EnglishEntrybrowse()),
+  "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntrybrowser()),
+  "/english-bruise": (_) => MaterialPage(child: EnglishEntrybruise()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

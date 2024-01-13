@@ -174,6 +174,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   Routemaster.of(context).push('/tts-screen');
                 },
               ),
+              const Spacer(),
+              Switch.adaptive(
+                value: ref.watch(themeNotifierProvider.notifier).mode ==
+                    ThemeMode.dark,
+                onChanged: (val) => toggleTheme(ref),
+              ),
+              const SizedBox(height: 20),
               ListTile(
                 title: Text(
                   "Settings",
@@ -190,13 +197,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   Routemaster.of(context).push('/settings-screen');
                 },
               ),
-              const SizedBox(height: 40),
-              Switch.adaptive(
-                value: ref.watch(themeNotifierProvider.notifier).mode ==
-                    ThemeMode.dark,
-                onChanged: (val) => toggleTheme(ref),
-              ),
-              const Spacer(),
               ListTile(
                 title: Text(
                   'Log out',

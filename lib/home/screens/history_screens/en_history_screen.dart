@@ -17,12 +17,12 @@ class EnglishHistoryScreen extends StatelessWidget {
         return AlertDialog(
           title: const Text(
             'Confirmation',
-            textDirection: TextDirection.rtl,
+            textDirection: TextDirection.ltr,
           ),
           // content: const Text(''),
           content: const Text(
             'Do you really want to clear search history?',
-            textDirection: TextDirection.rtl,
+            textDirection: TextDirection.ltr,
           ),
           actions: <Widget>[
             TextButton(

@@ -187,7 +187,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Idiom: above/beyond suspicion
+​1. Too good, honest, etc. to have done something wrong, illegal or dishonest
+"Nobody who was near the scene of the crime is above suspicion."; "They thought the head teacher was beyond suspicion.";
 """);
 
     // Update the state to reflect that TTS is in progress

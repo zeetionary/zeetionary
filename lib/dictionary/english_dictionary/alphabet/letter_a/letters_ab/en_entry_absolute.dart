@@ -361,7 +361,25 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: absolute
+1. Perfect, complete or pure
+"absolute loyalty"; "absolute silence"; "absolute truth"; "absolute alcohol"
+ 
+2. Complete and without restriction or qualification; sometimes used informally as an intensifier (=downright, out-and-out, rank, right-down, sheer, down-the-line [informal])
+"absolute freedom"; "an absolute dimwit";
+ 
+3. Not limited by law
+"an absolute monarch"
+ 
+4. Expressing finality with no implication of possible change
+"an absolute guarantee to respect the nation's authority"
+ 
+5. Not capable of being violated or infringed (= infrangible, inviolable)
+"absolute human rights";
+
+- Noun: absolute (derived forms: absolutes)
+1. Something that is conceived or that exists independently and not in relation to other things; something that does not depend on anything else and is beyond human control; something that is not relative
+"no mortal being can influence the absolute"
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -217,7 +217,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: absolute zero
+1. (cryogenics) the lowest temperature theoretically attainable (at which the kinetic energy of atoms and molecules is minimal); 0 Kelvin or -273.15 centigrade or -459.67 Fahrenheit
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -221,7 +221,13 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abruptness  
+1. An abrupt discourteous manner (= brusqueness, curtness, gruffness, shortness)
+"his antagonistic abruptness";
+ 
+2. The property possessed by a slope that is very steep (= precipitousness, steepness)
+ 
+3. The quality of happening with headlong haste or without warning (= precipitateness, precipitousness, precipitance, precipitancy, suddenness)
 """);
 
     // Update the state to reflect that TTS is in progress

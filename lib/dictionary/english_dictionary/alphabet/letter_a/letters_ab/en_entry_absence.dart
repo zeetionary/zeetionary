@@ -256,7 +256,16 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: absence (derived forms: absences)
+1. The state of being absent
+"he was surprised by the absence of any explanation"
+ 
+2. Failure to be present
+ 
+3. The time interval during which something or somebody is away
+"he visited during my absence"
+ 
+4.The occurrence of an abrupt, transient loss or impairment of consciousness (which is not subsequently remembered), sometimes with light twitching, fluttering eyelids, etc.; common in petit mal epilepsy (= absence seizure)
 """);
 
     // Update the state to reflect that TTS is in progress

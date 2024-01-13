@@ -249,7 +249,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: absent 
+1. Not being in a specified place
+ 
+2. Nonexistent (= lacking, missing, wanting)
+"the thumb is absent";
+ 
+3. Lost in thought; showing preoccupation (= absentminded, abstracted, scatty [Brit, informal])
+"an absent stare";
+
+- Verb: absent (derived forms: absented, absenting, absents)
+1. Stay away or leave (= remove)
+"He absented himself";
+
+- Preposition: absent
+1. In absence of (= without)
+"absent the latter assumption, we get a different result";
 """);
 
     // Update the state to reflect that TTS is in progress

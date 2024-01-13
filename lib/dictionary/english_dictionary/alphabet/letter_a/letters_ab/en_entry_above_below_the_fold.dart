@@ -185,7 +185,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Idiom: above/below-the-fold
+1. In a position where it is seen/not seen first, for example on the top/bottom half of the front page of a newspaper or in the part of a web page that you see first/last when you open it
+"above-the-fold images"; "the company logo must be placed in an above-the-fold position."
 """);
 
     // Update the state to reflect that TTS is in progress

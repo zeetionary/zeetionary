@@ -217,7 +217,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: absolute majority (derived forms: absolute majorities)
+1. (elections) more than half of the votes (= majority)
 """);
 
     // Update the state to reflect that TTS is in progress

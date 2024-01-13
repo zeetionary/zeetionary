@@ -290,7 +290,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: atheist 
+1. Related to or characterized by or given to atheism (= atheistic, atheistical)
+"atheist leanings";
+
+- Noun: atheist (derived forms: atheists)
+1. Someone who does not believe in the existence of a god
 """);
 
     // Update the state to reflect that TTS is in progress

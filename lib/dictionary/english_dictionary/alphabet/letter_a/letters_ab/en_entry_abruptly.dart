@@ -213,7 +213,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: abruptly
+1. Quickly and without warning (= suddenly, all of a sudden, on the spur of the moment, of a sudden, dead, short)
+"he stopped abruptly";
 """);
 
     // Update the state to reflect that TTS is in progress

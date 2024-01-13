@@ -287,7 +287,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: abroad
+1. To or in a foreign country
+"they had never travelled abroad"
+ 
+2. Faraway from home or one's usual surroundings (= afield)
+"looking abroad for new lands to conquer";
+ 
+3. In a place across an ocean (= overseas)
+
+- Adjective: abroad
+1. In a foreign country (= overseas)
+"markets abroad";
 """);
 
     // Update the state to reflect that TTS is in progress

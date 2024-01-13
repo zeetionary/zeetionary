@@ -184,7 +184,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Verb: abate (abating, abated, abates)
+- Verb: abate (derived forms: abating, abated, abates)
 1.Make less active or intense (=slake, slack)
 
 2. Become less in amount or intensity (=let up, slack off, slack, die away)
@@ -200,7 +200,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-- Verb: abate (abating, abated, abates)
+- Verb: abate (derived forms: abating, abated, abates)
 1.Make less active or intense (=slake, slack)
 
 2. Become less in amount or intensity (=let up, slack off, slack, die away)

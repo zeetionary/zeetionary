@@ -215,7 +215,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: absentminded
+1. Lost in thought; showing preoccupation (= absent, abstracted, scatty [Brit, informal])
+"an absentminded professor";
 """);
 
     // Update the state to reflect that TTS is in progress

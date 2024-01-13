@@ -251,7 +251,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abrasion (derived forms: abrasions)
+1. An abraded area where the skin is torn or worn off (= scratch, scrape, excoriation)
+ 
+2. Erosion by friction (= attrition, corrasion, detrition)
+ 
+3. The wearing down of rock particles by friction due to water, wind or ice (= grinding, attrition, detrition)
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -215,7 +215,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: absentee (derived forms: absentees)
+1. One that is absent or not in residence
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -216,7 +216,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abscond (derived forms: absconded, absconds, absconding)
+1. Run away; usually includes taking something or somebody along (= bolt, absquatulate [N. Amer], decamp, run off, go off, make off, make away)
+"the accountant absconded with the cash from the safe";
 """);
 
     // Update the state to reflect that TTS is in progress

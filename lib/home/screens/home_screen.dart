@@ -104,6 +104,28 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
+              Container(
+                width: 150.0,
+                height: 150.0,
+                margin: const EdgeInsets.only(
+                  top: 50.0,
+                  bottom: 64.0,
+                ),
+                clipBehavior: Clip.antiAlias,
+                padding: const EdgeInsets.all(2.0),
+                decoration: BoxDecoration(
+                  color: currentTheme.primaryColor.withOpacity(0.01),
+                  borderRadius: BorderRadius.circular(55.0),
+                  border: Border.all(
+                    color: currentTheme.primaryColor.withOpacity(0.07),
+                    width: 2.0,
+                  ),
+                ),
+                child: Image.asset(
+                  'assets/images/zeetionary_one.png',
+                ),
+              ),
+              const Divider(),
               // ListTile(
               //   title: Text(
               //     "Grammar",

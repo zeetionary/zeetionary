@@ -219,7 +219,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abreast  u'brest
+1. Being up to particular standard or level especially in being up to date in knowledge (=au courant, au fait, up on, apace [N. Amer])
+"kept abreast of the latest developments";
+
+- Adverb: abreast  u'brest
+1 Alongside each other, facing in the same direction (= apace [N. Amer])
 """);
 
     // Update the state to reflect that TTS is in progress

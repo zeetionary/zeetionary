@@ -205,7 +205,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abscess (derived forms: abscesses)
+1. Symptom consisting of a localized collection of pus surrounded by inflamed tissue
 """);
 
     // Update the state to reflect that TTS is in progress

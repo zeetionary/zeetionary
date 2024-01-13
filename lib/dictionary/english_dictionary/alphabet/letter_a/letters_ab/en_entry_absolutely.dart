@@ -276,7 +276,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: absolutely 
+1. Completely and without qualification; used informally as an intensifier (= perfectly, utterly, dead)
+"an absolutely magnificent painting";
+ 
+2. Totally and definitely; without question
+"we are absolutely opposed to the idea"; "he forced himself to lie absolutely still"; "iron is absolutely necessary"
 """);
 
     // Update the state to reflect that TTS is in progress

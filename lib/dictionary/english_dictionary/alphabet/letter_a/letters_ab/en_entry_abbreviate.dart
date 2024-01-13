@@ -187,7 +187,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Verb: abbreviate (abbreviated, abbreviates, abbreviating)
+- Verb: abbreviate (derived forms: abbreviated, abbreviates, abbreviating)
 1. Reduce in scope while retaining essential elements (=abridge, foreshorten, shorten, cut, contract, reduce)
 "The manuscript must be abbreviated";
  
@@ -204,7 +204,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-- Verb: abbreviate (abbreviated, abbreviates, abbreviating)
+- Verb: abbreviate (derived forms: abbreviated, abbreviates, abbreviating)
 1. Reduce in scope while retaining essential elements (=abridge, foreshorten, shorten, cut, contract, reduce)
 "The manuscript must be abbreviated";
  

@@ -183,7 +183,8 @@ Idiom: above yourself
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+Idiom: above yourself
+1. ​(disapproving) having too high an opinion of yourself
 """);
 
     // Update the state to reflect that TTS is in progress

@@ -217,7 +217,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abseil (N. Amer: rappel) (derived forms: abseiled, abseils, abseiling)
+1. (mountaineering) a descent of a vertical cliff or wall made by using a doubled rope that is fixed to a higher point and wrapped around the body (= rappel)
+
+- Verb: abseil
+1. (sport) descend by means of a rappel (= rappel, rope down)
+"You have to learn how to abseil when you want to do technical climbing";
 """);
 
     // Update the state to reflect that TTS is in progress

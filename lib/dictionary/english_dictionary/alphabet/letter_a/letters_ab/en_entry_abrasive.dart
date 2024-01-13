@@ -254,7 +254,14 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abrasive (derived forms: abrasives)
+1. Causing abrasion (= scratchy)
+ 
+2. Sharply disagreeable; rigorous (= harsh)
+"an abrasive character";
+
+- Noun: abrasive
+1. A substance that abrades or wears down (= abradant, abrasive material)
 """);
 
     // Update the state to reflect that TTS is in progress

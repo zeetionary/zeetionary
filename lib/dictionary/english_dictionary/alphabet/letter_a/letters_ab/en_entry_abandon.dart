@@ -292,7 +292,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Verb: abandon (abandoned, abandons, abandoning)
+- Verb: abandon (derived forms: abandoned, abandons, abandoning)
 1. Forsake, leave behind
 "We abandoned the old car in the empty parking lot"
 
@@ -324,7 +324,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-- Verb: abandon (abandoned, abandons, abandoning)
+- Verb: abandon (derived forms: abandoned, abandons, abandoning)
 1. Forsake, leave behind
 "We abandoned the old car in the empty parking lot"
 

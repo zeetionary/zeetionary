@@ -258,7 +258,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abrupt (derived forms: abrupter, abruptest)
+1. Marked by sudden changes in subject and sharp transitions (= disconnected)
+"abrupt prose";
+
+2. Exceedingly sudden and unexpected
+"came to an abrupt stop"; "an abrupt change in the weather"
+ 
+3. Dangerously steep (= precipitous, sharp)
+"an abrupt canyon";
+ 
+4. Surprisingly and unceremoniously brusque in manner
+"an abrupt reply"
 """);
 
     // Update the state to reflect that TTS is in progress

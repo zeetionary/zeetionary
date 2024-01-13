@@ -216,7 +216,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abridgement (derived forms: abridgements)
+1. A shortened version of a written work (= condensation, abridgment, capsule)
 """);
 
     // Update the state to reflect that TTS is in progress

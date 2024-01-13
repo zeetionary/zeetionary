@@ -219,7 +219,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+-Verb: abridge (derived forms: abridged, abridging, abridges)
+1. Reduce in scope while retaining essential elements (= foreshorten, abbreviate, shorten, cut, contract, reduce)
+"The manuscript must be abridged";
+ 
+2. Lessen, diminish, or curtail
+"the new law might abridge our freedom of expression"
 """);
 
     // Update the state to reflect that TTS is in progress

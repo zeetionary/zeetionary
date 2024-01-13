@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
 // import 'package:zeetionary/quiz/quiz_screen.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
@@ -601,6 +602,10 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
   Widget build(BuildContext context) {
     final currentTheme = ref.watch(themeNotifierProvider);
 
+    // Widget build(BuildContext context, WidgetRef ref) {
+    final textSize =
+        ref.watch(textSizeProvider) + 14; // Get text size and add 3
+
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
@@ -674,7 +679,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
                 return Text(
                   widget.word.substring(0, lettersCount),
                   style: TextStyle(
-                    fontSize: 26,
+                    fontSize: textSize,
                     fontWeight: FontWeight.bold,
                     color: currentTheme.primaryColor.withOpacity(0.8),
                   ),
@@ -705,38 +710,61 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
 //   }
 // }
 
-class IPAofEnglish extends StatelessWidget {
+class IPAofEnglish extends ConsumerWidget {
   final String text;
 
   // const IPAofEnglish({Key? key, required this.text}) : super(key: key);
   const IPAofEnglish({super.key, required this.text});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
     return Container(
       constraints: const BoxConstraints(maxWidth: 300),
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       // padding: const EdgeInsets.all(8.0), // Add padding here
       child: Text(
         text,
-        style: const TextStyle(fontSize: 16),
+        style: TextStyle(fontSize: textSize),
       ),
     );
   }
 }
 
-class DefinitionKurdish extends StatelessWidget {
+class IPAofEnglishtest extends ConsumerWidget {
+  // Renamed to IPAofEnglishtest
+  final String text;
+
+  const IPAofEnglishtest({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
+
+    return Container(
+      constraints: const BoxConstraints(maxWidth: 300),
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      child: Text(
+        text,
+        style: TextStyle(fontSize: textSize), // Use adjusted text size
+      ),
+    );
+  }
+}
+
+class DefinitionKurdish extends ConsumerWidget {
   final String text;
 
   const DefinitionKurdish({super.key, required this.text});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 6; // Get text size and add 3
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(
         text,
-        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+        style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w500),
         textAlign: TextAlign.right,
         textDirection: TextDirection.rtl,
       ),
@@ -744,13 +772,14 @@ class DefinitionKurdish extends StatelessWidget {
   }
 }
 
-class ExampleSentenceEnglish extends StatelessWidget {
+class ExampleSentenceEnglish extends ConsumerWidget {
   final String text;
 
   const ExampleSentenceEnglish({super.key, required this.text});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 4.0),
@@ -758,7 +787,7 @@ class ExampleSentenceEnglish extends StatelessWidget {
           alignment: Alignment.topLeft,
           child: Text(
             text,
-            style: const TextStyle(fontSize: 14),
+            style: TextStyle(fontSize: textSize),
             textDirection: TextDirection.ltr,
             textAlign: TextAlign.left,
           ),
@@ -768,19 +797,20 @@ class ExampleSentenceEnglish extends StatelessWidget {
   }
 }
 
-class ExampleSentenceKurdish extends StatelessWidget {
+class ExampleSentenceKurdish extends ConsumerWidget {
   final String text;
 
   const ExampleSentenceKurdish({super.key, required this.text});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
     return Expanded(
       child: Align(
         alignment: Alignment.topLeft,
         child: Text(
           text,
-          style: const TextStyle(fontSize: 14),
+          style: TextStyle(fontSize: textSize),
           textDirection: TextDirection.rtl,
           textAlign: TextAlign.right,
         ),
@@ -869,7 +899,7 @@ class CustomIconButtonAmerican extends StatelessWidget {
   }
 }
 
-class EnglishMeaningConst extends StatelessWidget {
+class EnglishMeaningConst extends ConsumerWidget {
   final String text;
 
   const EnglishMeaningConst({
@@ -878,7 +908,8 @@ class EnglishMeaningConst extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 4.0),
@@ -887,7 +918,7 @@ class EnglishMeaningConst extends StatelessWidget {
           children: [
             Text(
               text,
-              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+              style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
             ),
           ],
         ),

@@ -48,10 +48,6 @@ class EnglishEntryaback extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "aback"), // DOPSUM: CHANGE WORD ENTRY
-
-                            //   '(adverb)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(

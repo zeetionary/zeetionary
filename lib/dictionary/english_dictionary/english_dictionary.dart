@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({super.key});
@@ -18022,7 +18024,7 @@ class EnglishDictionary extends StatelessWidget {
   }
 }
 
-class ListTileEnglish extends StatelessWidget {
+class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;
   final VoidCallback? onTap;
 
@@ -18033,19 +18035,25 @@ class ListTileEnglish extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2;
     return InkWell(
       onTap: onTap,
       child: ListTile(
         key: key,
-        title: Text(wordsEnglish),
+        title: Text(
+          wordsEnglish,
+          style: TextStyle(
+            fontSize: textSize, // Set your desired font size
+          ),
+        ),
         trailing: const Icon(Icons.arrow_forward),
       ),
     );
   }
 }
 
-class CardButton extends StatelessWidget {
+class CardButton extends ConsumerWidget {
   final String label;
   final VoidCallback? onPressed;
 
@@ -18056,7 +18064,8 @@ class CardButton extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2;
     return SizedBox(
       height: 50,
       child: Card(
@@ -18065,7 +18074,7 @@ class CardButton extends StatelessWidget {
           child: Center(
             child: Text(
               label,
-              style: const TextStyle(fontSize: 16),
+              style: TextStyle(fontSize: textSize),
             ),
           ),
         ),

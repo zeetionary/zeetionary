@@ -6,7 +6,7 @@ import 'package:zeetionary/grammar/grammar_screen.dart';
 // C:\Users\HAWKAR STORE\Desktop\zeetionary\lib\home\screens\history_screens\history_screen.dart
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
-// import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
@@ -2185,7 +2185,7 @@ final loggedInRoute = RouteMap(routes: {
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
   "/tts-screen": (_) => const MaterialPage(child: TTSPage()),
   "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
-  // "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),
+  "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),
   // "/settings-screen": (_) => const MaterialPage(child: SettingsPage(initialTextSize: null,)),
   // "/settings-screen": (_) =>
   //     MaterialPage(child: SettingsPage()), // (initialTextSize: 20.0)),

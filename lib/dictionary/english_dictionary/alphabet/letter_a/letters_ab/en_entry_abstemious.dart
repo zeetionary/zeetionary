@@ -220,7 +220,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abstemious
+1. Sparing in consumption of especially food and drink
+"the pleasures of the table, never of much consequence to one naturally abstemious"
+ 
+2. Marked by temperance in indulgence (= light)
+"abstemious with the use of adverbs";
 """);
 
     // Update the state to reflect that TTS is in progress

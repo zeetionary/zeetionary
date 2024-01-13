@@ -160,7 +160,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) خێزانی لێک‌هەڵوەشاو؛ خێزانێک کە دایک و باوکەکەی جیابوونەتەوە یان بە جیایی دەژین"""),
+١. (ناو) خێزانی لێک‌ھەڵوەشاو؛ خێزانێک کە دایک و باوکەکەی جیابوونەتەوە یان بە جیایی دەژین"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -188,7 +188,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                                       "Almost all of these young people came from broken homes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەنزیکەیی زۆرینەی ئەم منداڵە گەنجانە لە خێزانە لێک‌هەڵوەشاوەکانن."),
+                                      "بەنزیکەیی زۆرینەی ئەم منداڵە گەنجانە لە خێزانە لێک‌ھەڵوەشاوەکانن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

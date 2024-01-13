@@ -245,7 +245,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abundant
+1. Present in great quantity
+"an abundant supply of water"
 """);
 
     // Update the state to reflect that TTS is in progress

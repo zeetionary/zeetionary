@@ -216,7 +216,7 @@ class EnglishEntrybrook extends StatelessWidget {
                                       "The tone in his voice brooked no argument."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تۆنی قسەکردنی هیچ ڕێگەی بە ناڕەزایی دەدا."),
+                                      "تۆنی قسەکردنی ھیچ ڕێگەی بە ناڕەزایی دەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,7 +238,7 @@ class EnglishEntrybrook extends StatelessWidget {
                                       "She would brook no criticism of her son."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێگەی بە هیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
+                                      "ڕێگەی بە ھیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

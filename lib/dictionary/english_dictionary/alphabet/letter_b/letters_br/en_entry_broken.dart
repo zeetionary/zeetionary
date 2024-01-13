@@ -262,7 +262,7 @@ class EnglishEntrybroken extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شکاو، وردوخاش، سەقەت، لێک‌هەڵوەشاو، نیوەچڵ، ناتەواو، پچڕپچڕ، نابەردەوام، بێ‌سەرەوبەرە، شپرزە، تێ‌شکاو، سەرنەگرتوو، بە ئەنجام‌نەگەیشتوو، ناهومێد، هێوابڕاو، لاواز، بێ‌گیان، کز، پێچوو، پێشێل‌کراو، ڕانەگیراو، شکێنراو، لەبەرچاونەگیراو، (زەوی و زار) ناڕێک، ناتەخت، گورگەپشت، تەپ‌ودۆڵ، کۆتایی‌پێهاتوو، (زمان) ناڕەوان، شپرزە، دەس(ـت)وپێ‌شکاو
+کوردی: شکاو، وردوخاش، سەقەت، لێک‌ھەڵوەشاو، نیوەچڵ، ناتەواو، پچڕپچڕ، نابەردەوام، بێ‌سەرەوبەرە، شپرزە، تێ‌شکاو، سەرنەگرتوو، بە ئەنجام‌نەگەیشتوو، ناھومێد، ھێوابڕاو، لاواز، بێ‌گیان، کز، پێچوو، پێشێل‌کراو، ڕانەگیراو، شکێنراو، لەبەرچاونەگیراو، (زەوی و زار) ناڕێک، ناتەخت، گورگەپشت، تەپ‌ودۆڵ، کۆتایی‌پێھاتوو، (زمان) ناڕەوان، شپرزە، دەس(ـت)وپێ‌شکاو
 
 ١. (ھاوەڵناو) شتێک کە شکاوە"""),
                           Row(
@@ -363,7 +363,7 @@ class EnglishEntrybroken extends StatelessWidget {
                                       "When children are forced to move schools, education is interrupted and friendships are broken."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە خوێندکار ناچار دەبێت خوێندنگە بگۆڕێت، خوێندن پچڕانی تێدەکەوێت و پەیوەندی هاوڕێیەتی کۆتایی دێت."),
+                                      "کە خوێندکار ناچار دەبێت خوێندنگە بگۆڕێت، خوێندن پچڕانی تێدەکەوێت و پەیوەندی ھاوڕێیەتی کۆتایی دێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -380,7 +380,7 @@ class EnglishEntrybroken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (هاوەڵناو) شتێک کە بەردەوام نییە و پچڕانی تێدەکەوێت"),
+                                  "٤. (ھاوەڵناو) شتێک کە بەردەوام نییە و پچڕانی تێدەکەوێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -403,7 +403,7 @@ class EnglishEntrybroken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ھاوەڵناو) کەسێکی ماندوو و لاواز بەهۆی نەخۆشی و ناڕەحەتییەوە"),
+                                  "٥. (ھاوەڵناو) کەسێکی ماندوو و لاواز بەھۆی نەخۆشی و ناڕەحەتییەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -411,7 +411,7 @@ class EnglishEntrybroken extends StatelessWidget {
                                       "He was a broken man after the failure of his business."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پیاوێکی داڕووخاو بوو لە دوای شکستهێنانی بازرگانییەکەی."),
+                                      "پیاوێکی داڕووخاو بوو لە دوای شکستھێنانی بازرگانییەکەی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -436,7 +436,7 @@ class EnglishEntrybroken extends StatelessWidget {
                                       "He tried to explain what had happened in broken English."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵی دا ڕوونی بکاتەوە چی ڕوویدا بە ئینگلیزییەکی شپرزەوە."),
+                                      "ھەوڵی دا ڕوونی بکاتەوە چی ڕوویدا بە ئینگلیزییەکی شپرزەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

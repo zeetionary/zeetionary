@@ -190,7 +190,7 @@ class EnglishEntrybriefs extends StatelessWidget {
                                       "I'm looking for some plain cotton briefs."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەشوێن هەندێک شۆرتی سادەی کەتاندا دەگەڕێم."),
+                                      "بەشوێن ھەندێک شۆرتی سادەی کەتاندا دەگەڕێم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

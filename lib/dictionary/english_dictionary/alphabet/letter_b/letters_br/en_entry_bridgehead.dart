@@ -159,9 +159,9 @@ class EnglishEntrybridgehead extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرپرد، سەرەتا، شوێن یان خاڵی دەسپێک، شوێنی پتەو، ڕەوشی باش، هەل‌ومەرجی لەبار
+کوردی: سەرپرد، سەرەتا، شوێن یان خاڵی دەسپێک، شوێنی پتەو، ڕەوشی باش، ھەل‌ومەرجی لەبار
 
-١. (ناو) شوێنێکی بەهێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دووژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"""),
+١. (ناو) شوێنێکی بەھێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دووژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -169,7 +169,7 @@ class EnglishEntrybridgehead extends StatelessWidget {
                                       "The advance troops established a bridgehead early in the fighting."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
+                                      "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
                               const CustomSizedBoxForTTS(), // Define the word "bridgehead" as
                               Column(
                                 children: [

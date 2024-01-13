@@ -162,7 +162,7 @@ class EnglishEntrybrisk extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مەزبووت، لەش‌سووک، توندوتۆڵ، چابک، چالاک، تاشک، گوربز، فرز، چوست، هەڵسووڕ، توند، فێنک، خۆش، تازە
+کوردی: مەزبووت، لەش‌سووک، توندوتۆڵ، چابک، چالاک، تاشک، گوربز، فرز، چوست، ھەڵسووڕ، توند، فێنک، خۆش، تازە
 
 ١. (ھاوەڵناو) سەرقاڵ و بەبێ وەستان"""),
                           Row(
@@ -172,7 +172,7 @@ class EnglishEntrybrisk extends StatelessWidget {
                                       "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فرۆشیارانی ئایس کریم بازاڕی باشیان هەبوو."),
+                                      "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو."),
                               const CustomSizedBoxForTTS(), // Define the word "brisk" as
                               Column(
                                 children: [

@@ -219,7 +219,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abysmal
+1. Very bad
+"it was an abysmal performance"
+ 
+2. Very great; limitless
+"abysmal misery"; "abysmal stupidity"
+ 
+3. [literary] Resembling an abyss in depth; so deep as to be unmeasurable (= abyssal, unfathomable)
+"the abysmal depths of the ocean";
 """);
 
     // Update the state to reflect that TTS is in progress

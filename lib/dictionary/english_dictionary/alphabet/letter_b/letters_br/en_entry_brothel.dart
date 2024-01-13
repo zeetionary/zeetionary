@@ -7,84 +7,82 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybristle extends StatelessWidget {
+class EnglishEntrybrothel extends StatelessWidget {
 // blank divider
-  EnglishEntrybristle({super.key});
+  EnglishEntrybrothel({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbristle(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothel(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bristle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brothel"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The old woman had a few grey bristles sprouting from her chin."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbristles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My toothbrush has blue and white plastic bristles."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbristles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothels1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His lies made her bristle with rage."); // DOPSUM: CHANGE TEXT
+        .speak("He used to visit a brothel in Paris."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothels2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The cat's fur bristled and it arched its back."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She ran a brothel in Las Vegas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothels3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothels33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothels4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothels44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrothels5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothels55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothels6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothels66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothels7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrothel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothels77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -101,22 +99,22 @@ class EnglishEntrybristle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bristle"),
+                            EntryTitle(word: "brothel"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɪsl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrɒθl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbristle("en-GB"),
+                              onPressed: () => speakbrothel("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɪsl/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbrɑːθl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbristle("en-US"),
+                              onPressed: () => speakbrothel("en-US"),
                             ),
                           ],
                         ),
@@ -134,13 +132,13 @@ class EnglishEntrybristle extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -162,98 +160,45 @@ class EnglishEntrybristle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و ھتد)
+کوردی: قاحبەخانە، قەحبەخانە، حیزخانە، جندەخانە
 
-١. (ناو) تاڵە قژێک"""),
+١. (ناو) شوێنێک کە خەڵکی تێدا سێکس دەکەن بە پارە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The old woman had a few grey bristles sprouting from her chin."),
+                                  text: "He used to visit a brothel in Paris."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون."),
-                              const CustomSizedBoxForTTS(), // Define the word "bristle" as
+                                      "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد."),
+                              const CustomSizedBoxForTTS(), // Define the word "brothel" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbristles1("en-GB"),
+                                    onPressed: () => speakbrothels1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles1("en-US"),
+                                    onPressed: () => speakbrothels1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) تاڵ یان دانەکانی فڵچەیەک یان شانەیەک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "My toothbrush has blue and white plastic bristles."),
+                                  text: "She ran a brothel in Las Vegas."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە."),
+                                      "بەرپرسی قەحبەخانەیەک بوو لە لاس ڤێگاس."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbristles2("en-GB"),
+                                    onPressed: () => speakbrothels2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) لەناکاو تەواو تووڕەبوون بەوەی کەسێک وتویەتی یان کردوویەتی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His lies made her bristle with rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "درۆکانی لە داخدا تووڕەی کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) مووی ئاژەڵێک کە گیڤ بووەتەوە بەھۆی ترسەوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cat's fur bristled and it arched its back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles4("en-US"),
+                                    onPressed: () => speakbrothels2("en-US"),
                                   ),
                                 ],
                               ),
@@ -272,8 +217,8 @@ class EnglishEntrybristle extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -336,23 +281,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: bristle (Derived forms: bristles)
-1. A stiff fibre (coarse hair or filament); natural or synthetic
- 
-2. A stiff hair
-
-- Verb: bristle (Derived forms: bristled, bristles, bristling)
-1. Be in a state of movement or action (= abound, burst)
-"The garden bristled with toddlers";
- 
-2. Rise up as in fear (= uprise, stand up)
-"The dog's fur bristled";
- 
-3. Have or be thickly covered with or as if with bristles
-"bristling leaves"
- 
-4. React in an offended or angry manner
-"He bristled at her suggestion that he should teach her how to use the program"
+- Noun: brothel (Derived forms: brothels)
+1. A building where prostitutes are available (= house of prostitution, house of ill repute, sporting house [N. Amer])
 """,
           ),
         ],
@@ -364,7 +294,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: brothel (Derived forms: brothels)
+1. A building where prostitutes are available (= house of prostitution, house of ill repute, sporting house [N. Amer])
 """);
 
     // Update the state to reflect that TTS is in progress
@@ -389,12 +320,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "nLiSWJDhAmQ";
+  static String myVideoId = "https://youtu.be/YkmlPaGui5k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 445, // DOPSUM: CHANGE IT
+      startAt: 447, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +345,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "b2lDdwxNWto";
+  static String myVideoId = "https://youtu.be/thR7IhHV554?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 315, // DOPSUM: CHANGE IT
+      startAt: 116, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +370,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "jltLSczolzM";
+  static String myVideoId = "https://youtu.be/PsZpnoELOus?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 299, // DOPSUM: CHANGE IT
+      startAt: 632, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +395,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "v_pjQkiXOng";
+  static String myVideoId = "https://youtu.be/_B7EFelDQlQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 292, // DOPSUM: CHANGE IT
+      startAt: 42, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +420,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "dNEp3hoHSDI";
+  static String myVideoId = "https://youtu.be/cVf4XoxVBGM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +445,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "XvH2ukztRzs";
+  static String myVideoId = "https://youtu.be/C6ppTQNppaI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 669, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +470,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "chBHaXh8iko";
+  static String myVideoId = "https://youtu.be/aEStnWhrILw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 126, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +495,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "n1cAX-gTAYk";
+  static String myVideoId = "https://youtu.be/SnOtK6IXvGA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 228, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +520,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "oNjcBk4C4kQ";
+  static String myVideoId = "https://youtu.be/NzOWEC7_COk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 35, // DOPSUM: CHANGE IT
+      startAt: 188, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -614,12 +545,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "yADLp4o9TpM";
+  static String myVideoId = "https://youtu.be/ZY0M1emTeBg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 2521, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -639,12 +570,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "5F9m2ctpPwE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 578, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -664,12 +595,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "2yj9i_kna_U";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 49, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

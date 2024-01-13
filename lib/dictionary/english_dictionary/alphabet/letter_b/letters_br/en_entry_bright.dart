@@ -356,7 +356,7 @@ class EnglishEntrybright extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پڕشنگدار، درەوشاوە، ڕووناک، ڕوون، پڕتیشک، زەڕقی، ورشن، ڕۆشن، گەش، ڕۆهن، بریقەدار، بەشەوق، شاد، دڵخۆش، خۆشحاڵ، بەگوڕ، گەش، بەکەیف، زیرەک، زووفێر، وریا، بەهۆش، زیت، سەرکەوتوو، هیوادار، دڵ‌گەرم، تازە، نەو، (دەنگ) گڕ، زوڵاڵ
+کوردی: پڕشنگدار، درەوشاوە، ڕووناک، ڕوون، پڕتیشک، زەڕقی، ورشن، ڕۆشن، گەش، ڕۆھن، بریقەدار، بەشەوق، شاد، دڵخۆش، خۆشحاڵ، بەگوڕ، گەش، بەکەیف، زیرەک، زووفێر، وریا، بەھۆش، زیت، سەرکەوتوو، ھیوادار، دڵ‌گەرم، تازە، نەو، (دەنگ) گڕ، زوڵاڵ
 
 ١. (ھاوەڵناو) ڕۆشن و درەوشاوە"""),
                           Row(
@@ -386,7 +386,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       "All of these stars are bigger and brighter than our sun."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو ئەم ئەستێرانە ڕۆشنتر و گەورەترن لە خۆر."),
+                                      "ھەموو ئەم ئەستێرانە ڕۆشنتر و گەورەترن لە خۆر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -411,7 +411,7 @@ class EnglishEntrybright extends StatelessWidget {
                                               "The morning was quite bright, but it clouded over in the afternoon."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "بەیانییەکە تەواو ڕۆشن بوو، بەڵام لە نیوەڕۆدا هەور داهات."),
+                                              "بەیانییەکە تەواو ڕۆشن بوو، بەڵام لە نیوەڕۆدا ھەور داھات."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -435,7 +435,7 @@ class EnglishEntrybright extends StatelessWidget {
                                               "The sky was still bright in the west."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ئاسمان هێشتا لە ڕۆژئاواوە ڕۆشن بوو."),
+                                              "ئاسمان ھێشتا لە ڕۆژئاواوە ڕۆشن بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -484,7 +484,7 @@ class EnglishEntrybright extends StatelessWidget {
                                   text: "Leslie always wears bright colours."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لێزلی هەمیشە جلی ڕەنگ درەوشاوە دەپۆشیت."),
+                                      "لێزلی ھەمیشە جلی ڕەنگ درەوشاوە دەپۆشیت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -501,7 +501,7 @@ class EnglishEntrybright extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) پڕ لە هیوا بۆ سەرکەوتن و خۆشی"),
+                                  "٣. (ھاوەڵناو) پڕ لە ھیوا بۆ سەرکەوتن و خۆشی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -509,7 +509,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       "This young musician has a bright future."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم میوزیکژەنە گەنجە پاشەڕۆژێکی درەوشاوەی هەیە."),
+                                      "ئەم میوزیکژەنە گەنجە پاشەڕۆژێکی درەوشاوەی ھەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -531,7 +531,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       "Prospects for the coming year look bright."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێشبینییەکان بۆ ساڵی داهاتوو گەشبینانەن."),
+                                      "پێشبینییەکان بۆ ساڵی داھاتوو گەشبینانەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -554,7 +554,7 @@ class EnglishEntrybright extends StatelessWidget {
                                   text:
                                       "Do you have any bright ideas (= clever ideas)?"),
                               const ExampleSentenceKurdish(
-                                  text: "هیچ بیرۆکەیەکی زیرەکانەت هەیە؟"),
+                                  text: "ھیچ بیرۆکەیەکی زیرەکانەت ھەیە؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -656,7 +656,7 @@ class EnglishEntrybright extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) لایتی ئۆتۆمبێل کە بەوپەڕی ڕۆشناییەوە بۆ پێشەوە هەڵکراون"),
+                                  "٧. (ناو) لایتی ئۆتۆمبێل کە بەوپەڕی ڕۆشناییەوە بۆ پێشەوە ھەڵکراون"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -664,7 +664,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       "You can't just go around driving with your brights on."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نابێت هەر لێبخوڕیت و لایتەکانت لە فوول (عالی) ئیش بکەن."),
+                                      "نابێت ھەر لێبخوڕیت و لایتەکانت لە فوول (عالی) ئیش بکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,7 +170,7 @@ class EnglishEntrybroom extends StatelessWidget {
                                   text: "Grab a broom and let’s clean up."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گەسکێک هەڵبگرە و با دەست بە پاککردنەوە بکەین."),
+                                      "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین."),
                               const CustomSizedBoxForTTS(), // Define the word "broom" as
                               Column(
                                 children: [
@@ -187,7 +187,7 @@ class EnglishEntrybroom extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) داری جادووگەران کە لە چیرۆکدا هەیە"),
+                                  "٢. (ناو) داری جادووگەران کە لە چیرۆکدا ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -211,7 +211,7 @@ class EnglishEntrybroom extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) دەوەنێکی کێوی گوڵی زەردی هەیە"),
+                              text: "٣. (ناو) دەوەنێکی کێوی گوڵی زەردی ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

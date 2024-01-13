@@ -217,7 +217,7 @@ class EnglishEntrybriskly extends StatelessWidget {
                                       "'Let's get started,' he said, rubbing his hands briskly together."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کاتێکی دەستی بە یەکدا دەهێنا وتی 'با دەستپێ بکەین'."),
+                                      "لە کاتێکی دەستی بە یەکدا دەھێنا وتی 'با دەستپێ بکەین'."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,13 +234,13 @@ class EnglishEntrybriskly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵکار) کە بایەک بە ساردی بەڵام خۆشی هەڵدەکات"),
+                                  "٣. (ھاوەڵکار) کە بایەک بە ساردی بەڵام خۆشی ھەڵدەکات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The wind was blowing briskly."),
                               const ExampleSentenceKurdish(
-                                  text: "بایەکە بە فێنکی هەڵیکردبوو."),
+                                  text: "بایەکە بە فێنکی ھەڵیکردبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

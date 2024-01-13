@@ -195,7 +195,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                                   text:
                                       "The morning sunshine brightened the room."),
                               const ExampleSentenceKurdish(
-                                  text: "هەتاوی بەیانی ژوورەوەی ڕووناککردەوە."),
+                                  text: "ھەتاوی بەیانی ژوورەوەی ڕووناککردەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,7 +253,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) هێنانی هیوا و گەشبینی"),
+                              text: "٣. (کردار) ھێنانی ھیوا و گەشبینی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -286,7 +286,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                                       "Fresh flowers will brighten up any room in the house."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوڵی تازە هەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە."),
+                                      "گوڵی تازە ھەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,7 +303,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) خۆشتربوونی کەشووهەوا، یان ڕووناک ببێتەوە"),
+                                  "٥. (کردار) خۆشتربوونی کەشووھەوا، یان ڕووناک ببێتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

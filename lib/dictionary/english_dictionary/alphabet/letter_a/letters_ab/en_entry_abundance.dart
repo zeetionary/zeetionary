@@ -220,7 +220,13 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abundance (derived forms: abundances)
+1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
+"an age of abundance";
+ 
+2. (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present
+ 
+3. (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million
 """);
 
     // Update the state to reflect that TTS is in progress

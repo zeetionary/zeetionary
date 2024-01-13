@@ -215,7 +215,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: absurdly  ub'surd-lee or ub'zurd-lee
+1. In an absurd manner or to an absurd degree
+"an absurdly rich young woman"
 """);
 
     // Update the state to reflect that TTS is in progress

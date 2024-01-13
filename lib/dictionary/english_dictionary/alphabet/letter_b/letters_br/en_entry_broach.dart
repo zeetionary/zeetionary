@@ -162,7 +162,7 @@ class EnglishEntrybroach extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بابەت، تەوەر، مژار، کردنەوەی باسێک
 
-١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەهۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی هەیە لەسەری"""),
+١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەھۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی ھەیە لەسەری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -192,7 +192,7 @@ class EnglishEntrybroach extends StatelessWidget {
                                       "The report fails to broach some important questions."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕاپۆرتەکە شکستی هێناوە لە باسکردنی هەندێک پرسیاری گرنگ."),
+                                      "ڕاپۆرتەکە شکستی ھێناوە لە باسکردنی ھەندێک پرسیاری گرنگ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

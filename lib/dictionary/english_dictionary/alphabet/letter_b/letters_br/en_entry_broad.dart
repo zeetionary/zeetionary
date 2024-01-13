@@ -355,7 +355,7 @@ class EnglishEntrybroad extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پان، بەرین، بەپانایی، بەبەرینی، فراوان، گەورە، کەشنار، بەربڵاو، بەرفرەهـ هەراو
+کوردی: پان، بەرین، بەپانایی، بەبەرینی، فراوان، گەورە، کەشنار، بەربڵاو، بەرفرەھـ ھەراو
 
 
 لیبڕاڵ، ئازاد، ڕۆشن، کراوە، تێگەیشتوو، شل‌گرتوو، ئاسان‌گیر، سنگ‌فراوان، نادەمارگرژ، تۆلێرانت، گشتی، گەلەمپەری، نەبەوردەکاری، بەتەواوەتی، دیار، بەرچاو، ئاشکرا، خۆیا خەست (زۆر تایبەتمەندی زاراوەیەکی ناوچەیی پێوە دیار بێ)، بێ‌ڕەوشتانە، پیس، لەماریفەت‌بەدوور، (لە ئەمریکا، نافەرمی) ژن، بەشی پان، پانایی، بەرینایی
@@ -366,7 +366,7 @@ class EnglishEntrybroad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "He's got broad shoulders."),
                               const ExampleSentenceKurdish(
-                                  text: "شانی پانی هەیە."),
+                                  text: "شانی پانی ھەیە."),
                               const CustomSizedBoxForTTS(), // Define the word "broad" as
                               Column(
                                 children: [
@@ -513,7 +513,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       "There is broad support for the government's policies."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پشتیوانی فراوان هەیە بۆ سیاسەتەکانی حکومەت."),
+                                      "پشتیوانی فراوان ھەیە بۆ سیاسەتەکانی حکومەت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -538,7 +538,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                               "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things)."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ڕوانگەیەکی فراوانی هەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
+                                              "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -562,7 +562,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                               "The promotion helped the company reach a much broader audience."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە هاوڵاتی زیاتر."),
+                                              "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -615,7 +615,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       "In broad terms, the paper argues that each country should develop its own policy."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە هەر وڵاتێک دەبێت سیاسەتی خۆی هەبێت."),
+                                      "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە ھەر وڵاتێک دەبێت سیاسەتی خۆی ھەبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -656,7 +656,7 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ھاوەڵناو) شێوازێکی قسەکردن کە هێندە ڕوونە دەتوانی شوێنی ژیانی کەسەکەی پێ دیاری بکەیت"),
+                                  "٦. (ھاوەڵناو) شێوازێکی قسەکردن کە ھێندە ڕوونە دەتوانی شوێنی ژیانی کەسەکەی پێ دیاری بکەیت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

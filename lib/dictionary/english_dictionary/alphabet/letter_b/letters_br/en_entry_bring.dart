@@ -352,9 +352,9 @@ class EnglishEntrybring extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هێنان، گەیاندن، بوون بە هۆ (هۆکار)
+کوردی: ھێنان، گەیاندن، بوون بە ھۆ (ھۆکار)
 
-١. (کردار) هێنانی شتێک"""),
+١. (کردار) ھێنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -407,7 +407,7 @@ class EnglishEntrybring extends StatelessWidget {
                                               "She brought her boyfriend to the party."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "دۆستە کوڕەکەی لەگەڵ خۆی هێنا بۆ ئاهەنگەکە."),
+                                              "دۆستە کوڕەکەی لەگەڵ خۆی ھێنا بۆ ئاھەنگەکە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -429,7 +429,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "Bring a present for Helen."),
                                       const ExampleSentenceKurdish(
-                                          text: "دیارییەک بۆ هێلین بهێنە."),
+                                          text: "دیارییەک بۆ ھێلین بھێنە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -451,7 +451,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text: "Bring Helen a present."),
                                       const ExampleSentenceKurdish(
-                                          text: "دیارییەک بۆ هێلین بهێنە."),
+                                          text: "دیارییەک بۆ ھێلین بھێنە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -474,7 +474,7 @@ class EnglishEntrybring extends StatelessWidget {
                                           text:
                                               "Did you bring anything back with you?"),
                                       const ExampleSentenceKurdish(
-                                          text: "هیچت لەگەڵ خۆت هێنایەوە؟"),
+                                          text: "ھیچت لەگەڵ خۆت ھێنایەوە؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -502,7 +502,7 @@ class EnglishEntrybring extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "They brought us some good news."),
                               const ExampleSentenceKurdish(
-                                  text: "هەندێک هەواڵی خۆشیان پێداین."),
+                                  text: "ھەندێک ھەواڵی خۆشیان پێداین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -524,7 +524,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "We'll bring you the election results as soon as we have them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەنجامەکانی هەڵبژاردنتان پێدەدەین هەرکە بەدەستمان بگات."),
+                                      "ئەنجامەکانی ھەڵبژاردنتان پێدەدەین ھەرکە بەدەستمان بگات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -546,7 +546,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "His writing brings him £10 000 a year."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نووسینەکانی ١٠,٠٠٠ پاوەندی ساڵانەی بۆ دەهێنێت."),
+                                      "نووسینەکانی ١٠,٠٠٠ پاوەندی ساڵانەی بۆ دەھێنێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -562,14 +562,14 @@ class EnglishEntrybring extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) بوون بە هۆکاری شتێک"),
+                              text: "٣. (کردار) بوون بە ھۆکاری شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The revolution brought many changes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شۆڕشەکە گۆڕانکاری زۆری بەدوای خۆیدا هێنا."),
+                                      "شۆڕشەکە گۆڕانکاری زۆری بەدوای خۆیدا ھێنا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -590,7 +590,7 @@ class EnglishEntrybring extends StatelessWidget {
                                   text:
                                       "The news brought tears to his eyes (= made him cry)."),
                               const ExampleSentenceKurdish(
-                                  text: "هەواڵەکە گریاندی."),
+                                  text: "ھەواڵەکە گریاندی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -612,7 +612,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "Retirement often brings with it a massive drop in income."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خانەنشین بوون زۆرجار دەبێتەهۆی کەمبوونێکی زۆری داهات."),
+                                      "خانەنشین بوون زۆرجار دەبێتەھۆی کەمبوونێکی زۆری داھات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -637,7 +637,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "No one has worked harder to bring peace to the region."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هیچ کەس زیاتر (لە ئەو) هەوڵی نەداوە ئاشتی بۆ هەرێمەکە بێنێت."),
+                                      "ھیچ کەس زیاتر (لە ئەو) ھەوڵی نەداوە ئاشتی بۆ ھەرێمەکە بێنێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -700,7 +700,7 @@ class EnglishEntrybring extends StatelessWidget {
                                   text:
                                       "The issue was only brought to my attention this morning."),
                               const ExampleSentenceKurdish(
-                                  text: "بابەتەکەم تەنها ئەمڕۆ پێڕاگەیەندرا."),
+                                  text: "بابەتەکەم تەنھا ئەمڕۆ پێڕاگەیەندرا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -725,7 +725,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "This brings me to the second point I'd like to make, which is freedom of expression."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەمەش دەمهێنێتە سەر خاڵی دووەم کە دەمەوێت باسی بکەم، ئەویش ئازادی ڕادەربڕینە."),
+                                      "ئەمەش دەمھێنێتە سەر خاڵی دووەم کە دەمەوێت باسی بکەم، ئەویش ئازادی ڕادەربڕینە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -772,7 +772,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "Her cries brought the neighbours running (= made them run to her)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قیژانەکەی دراوسێیەکانی بە ڕاکردن هێنا."),
+                                      "قیژانەکەی دراوسێیەکانی بە ڕاکردن ھێنا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -821,7 +821,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       "She could not bring herself to tell him the news."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نەیدەتوانی وا لە خۆی بکات هەواڵەکەی پێ بڵێت."),
+                                      "نەیدەتوانی وا لە خۆی بکات ھەواڵەکەی پێ بڵێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

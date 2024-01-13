@@ -7,78 +7,77 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybristle extends StatelessWidget {
+class EnglishEntrybrotherhood extends StatelessWidget {
 // blank divider
-  EnglishEntrybristle({super.key});
+  EnglishEntrybrotherhood({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbristle(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhood(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bristle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brotherhood"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The old woman had a few grey bristles sprouting from her chin."); // DOPSUM: CHANGE TEXT
+        "The group tries to promote a spirit of brotherhood among its members."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My toothbrush has blue and white plastic bristles."); // DOPSUM: CHANGE TEXT
+        "The various groups eventually fused into a single brotherhood."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His lies made her bristle with rage."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbristles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cat's fur bristled and it arched its back."); // DOPSUM: CHANGE TEXT
+        "The ties of brotherhood strengthened as they faced challenges together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrotherhoods44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrotherhoods55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbristles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbristle
+  Future<void> speakbrotherhoods6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbristles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrotherhoods66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrotherhoods7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrotherhood
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrotherhoods77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -101,22 +100,22 @@ class EnglishEntrybristle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bristle"),
+                            EntryTitle(word: "brotherhood"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɪsl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrʌðəhʊd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbristle("en-GB"),
+                              onPressed: () => speakbrotherhood("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɪsl/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbrʌðərhʊd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbristle("en-US"),
+                              onPressed: () => speakbrotherhood("en-US"),
                             ),
                           ],
                         ),
@@ -162,25 +161,27 @@ class EnglishEntrybristle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و ھتد)
+کوردی: برایەتی، کۆمەڵە، کۆڕ، پێوەندی برادەری
 
-١. (ناو) تاڵە قژێک"""),
+١. (ناو) هاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The old woman had a few grey bristles sprouting from her chin."),
+                                      "The group tries to promote a spirit of brotherhood among its members."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون."),
-                              const CustomSizedBoxForTTS(), // Define the word "bristle" as
+                                      "گرووپەکە هەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
+                              const CustomSizedBoxForTTS(), // Define the word "brotherhood" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbristles1("en-GB"),
+                                    onPressed: () =>
+                                        speakbrotherhoods1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles1("en-US"),
+                                    onPressed: () =>
+                                        speakbrotherhoods1("en-US"),
                                   ),
                                 ],
                               ),
@@ -189,23 +190,25 @@ class EnglishEntrybristle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) تاڵ یان دانەکانی فڵچەیەک یان شانەیەک"),
+                                  "٢. (ناو) دامەزراوەیەک کە بۆ مەبەستێکی دیاریکراو درووستکراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "My toothbrush has blue and white plastic bristles."),
+                                      "The various groups eventually fused into a single brotherhood."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە."),
+                                      "گرووپە جیاوازەکان لە کۆتایی بوون بە یەک دامەزراوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbristles2("en-GB"),
+                                    onPressed: () =>
+                                        speakbrotherhoods2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles2("en-US"),
+                                    onPressed: () =>
+                                        speakbrotherhoods2("en-US"),
                                   ),
                                 ],
                               ),
@@ -213,47 +216,25 @@ class EnglishEntrybristle extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) لەناکاو تەواو تووڕەبوون بەوەی کەسێک وتویەتی یان کردوویەتی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His lies made her bristle with rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "درۆکانی لە داخدا تووڕەی کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) مووی ئاژەڵێک کە گیڤ بووەتەوە بەھۆی ترسەوە"),
+                              text: "٣. (ناو) پەیوەندی نێوان ژمارەیەک برا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The cat's fur bristled and it arched its back."),
+                                      "The ties of brotherhood strengthened as they faced challenges together."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
+                                      "پەیوەندیی برایانەیان بەهێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbristles4("en-GB"),
+                                    onPressed: () =>
+                                        speakbrotherhoods3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles4("en-US"),
+                                    onPressed: () =>
+                                        speakbrotherhoods3("en-US"),
                                   ),
                                 ],
                               ),
@@ -336,23 +317,16 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Noun: bristle (Derived forms: bristles)
-1. A stiff fibre (coarse hair or filament); natural or synthetic
+- Noun: brotherhood (Derived forms: brotherhoods)
+1. The kinship relation between a male offspring and the siblings
  
-2. A stiff hair
+2. People engaged in a particular occupation (= fraternity, sodality)
+"the medical brotherhood";
 
-- Verb: bristle (Derived forms: bristled, bristles, bristling)
-1. Be in a state of movement or action (= abound, burst)
-"The garden bristled with toddlers";
+3. The feeling that men should treat one another like brothers
  
-2. Rise up as in fear (= uprise, stand up)
-"The dog's fur bristled";
- 
-3. Have or be thickly covered with or as if with bristles
-"bristling leaves"
- 
-4. React in an offended or angry manner
-"He bristled at her suggestion that he should teach her how to use the program"
+4. An organization of employees formed to bargain with the employer (= union, labor union [US], trade union, trades union, labour union [Brit, Cdn])
+"you have to join the brotherhood in order to get a job";
 """,
           ),
         ],
@@ -360,14 +334,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
     );
   }
 
-  // Function to start TTS
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: brotherhood (Derived forms: brotherhoods)
+1. The kinship relation between a male offspring and the siblings
+ 
+2. People engaged in a particular occupation (= fraternity, sodality)
+"the medical brotherhood";
+
+3. The feeling that men should treat one another like brothers
+ 
+4. An organization of employees formed to bargain with the employer (= union, labor union [US], trade union, trades union, labour union [Brit, Cdn])
+"you have to join the brotherhood in order to get a job";
 """);
 
-    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -377,7 +358,6 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });
@@ -389,12 +369,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "nLiSWJDhAmQ";
+  static String myVideoId = "https://youtu.be/vCZId5-lmbk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 445, // DOPSUM: CHANGE IT
+      startAt: 154, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +394,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "b2lDdwxNWto";
+  static String myVideoId = "https://youtu.be/zpFB2q_3pJo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 315, // DOPSUM: CHANGE IT
+      startAt: 282, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,182 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "jltLSczolzM";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 299, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "v_pjQkiXOng";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 292, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "dNEp3hoHSDI";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "XvH2ukztRzs";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 669, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "chBHaXh8iko";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 126, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "n1cAX-gTAYk";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 228, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "oNjcBk4C4kQ";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 35, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "yADLp4o9TpM";
+  static String myVideoId = "https://youtu.be/DFfULc9vxWw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -636,15 +441,190 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "5F9m2ctpPwE";
+  static String myVideoId = "https://youtu.be/Zv1oyMXUcgQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 578, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/Uytdg1WUQ2o?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 76, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/p3O6bKdPLbw?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 783, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/u2PaAoihWTY?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1365, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/wV0HXgoRpAg?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 50, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/6h74ayKXbcQ?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 52, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/_LtUN186uzc?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 926, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/04LaVptc-Tg?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1722, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -664,12 +644,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "2yj9i_kna_U";
+  static String myVideoId = "https://youtu.be/RltxmrJc-_s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 49, // DOPSUM: CHANGE IT
+      startAt: 244, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

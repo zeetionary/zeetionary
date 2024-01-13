@@ -160,9 +160,9 @@ class EnglishEntrybrilliance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: درەوشانەوە، ورشانەوە، بریقەدانەوە، پڕشنگدانەوە، بریسکەدانەوە، زیرەکی، هەڵکەوتوویی، بلیمەتی، شارەزایی، مامۆستایی، هیواداری، هومێدەواری، سەرکەوتوویی
+کوردی: درەوشانەوە، ورشانەوە، بریقەدانەوە، پڕشنگدانەوە، بریسکەدانەوە، زیرەکی، ھەڵکەوتوویی، بلیمەتی، شارەزایی، مامۆستایی، ھیواداری، ھومێدەواری، سەرکەوتوویی
 
-١. (ناو) خاسیەتی هەبوونی یان زیرەکی تەواو"""),
+١. (ناو) خاسیەتی ھەبوونی یان زیرەکی تەواو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -194,7 +194,7 @@ class EnglishEntrybrilliance extends StatelessWidget {
                                       "I had never seen diamonds shine with such brilliance before."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە."),
+                                      "ھەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -221,7 +221,7 @@ class EnglishEntrybrightness extends StatelessWidget {
                                       "Repeated use of some washing powders can lead to a loss of brightness in colours."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەکارهێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە هۆی کەمبوونی پرشنگداریی ڕەنگ."),
+                                      "بەکارھێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە ھۆی کەمبوونی پرشنگداریی ڕەنگ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,7 +238,7 @@ class EnglishEntrybrightness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ڕەفتار و هەڵسوکەوتی بەگوڕ و بەکەیف"),
+                                  "٤. (ناو) ڕەفتار و ھەڵسوکەوتی بەگوڕ و بەکەیف"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -246,7 +246,7 @@ class EnglishEntrybrightness extends StatelessWidget {
                                       "Her brightness and energy kept us all together."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کامەرانیی و گوڕ و تینی هەموومانی پێکەوە هێشربووەوە."),
+                                      "کامەرانیی و گوڕ و تینی ھەموومانی پێکەوە ھێشربووەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

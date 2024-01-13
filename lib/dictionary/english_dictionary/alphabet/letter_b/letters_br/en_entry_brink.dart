@@ -193,7 +193,7 @@ class EnglishEntrybrink extends StatelessWidget {
                                   text:
                                       "He's pulled the company back from the brink (= he has saved it from disaster)."),
                               const ExampleSentenceKurdish(
-                                  text: "کۆمپانیاکەی لە هەڵدێرێک گەڕاندەوە."),
+                                  text: "کۆمپانیاکەی لە ھەڵدێرێک گەڕاندەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,7 +218,7 @@ class EnglishEntrybrink extends StatelessWidget {
                                               "Extreme stress had driven him to the brink of a nervous breakdown."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "دوودڵی زۆر هێناویەتییە قەراخی داڕمانی دەروونی."),
+                                              "دوودڵی زۆر ھێناویەتییە قەراخی داڕمانی دەروونی."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

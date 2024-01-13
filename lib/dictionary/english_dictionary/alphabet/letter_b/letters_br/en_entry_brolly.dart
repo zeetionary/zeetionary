@@ -166,7 +166,7 @@ class EnglishEntrybrolly extends StatelessWidget {
                                   text:
                                       "I left my brolly on the bus yesterday."),
                               const ExampleSentenceKurdish(
-                                  text: "دوێنێ چەترەکەم لە پاسەکە جێهێشت."),
+                                  text: "دوێنێ چەترەکەم لە پاسەکە جێھێشت."),
                               const CustomSizedBoxForTTS(), // Define the word "brolly" as
                               Column(
                                 children: [

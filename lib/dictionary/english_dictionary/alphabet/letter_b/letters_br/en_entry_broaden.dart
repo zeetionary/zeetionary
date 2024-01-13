@@ -192,7 +192,7 @@ class EnglishEntrybroaden extends StatelessWidget {
                                       "This seems to be an attempt to broaden his political appeal."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەمە وەک هەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
+                                      "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,7 +209,7 @@ class EnglishEntrybroaden extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) زیادکردنی ئەزموون، شارەزایی، هتد"),
+                                  "٣. (کردار) زیادکردنی ئەزموون، شارەزایی، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -326,7 +326,7 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پرد، پر، (وەنەن: پردی لە دار و تەناف)، (کەشتی) سەکۆی کەشتی‌یەوانی، سەکۆ یان سەرپشتی فەرماندەر و ئەفسەرەکان، سەکۆ یان پلاتفۆڕمی کەشتی‌یەوان، پردی لووت، بەرزایی لووت، بەشی سەرەوەی ئێسکی لووت، پردی چاویلکە، سەرلووت، پردی ددانەکان، بەست، پردە، پردەڵە (بەشێ لە ئامێری ژێداری موسیقا)
 
-١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، هتد درووست دەکرێت بۆ پەڕینەوە"""),
+١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، ھتد درووست دەکرێت بۆ پەڕینەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -619,7 +619,7 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) نەهێشتن یان کەمکردنەوەی ناکۆکی یان جیاوازی"),
+                                  "٧. (کردار) نەھێشتن یان کەمکردنەوەی ناکۆکی یان جیاوازی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

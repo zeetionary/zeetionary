@@ -219,7 +219,7 @@ class EnglishEntrybroker extends StatelessWidget {
                                       "The diplomats have failed in their attempts to broker a ceasefire."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیپلۆماتکارەکان شکستیان هێناوە لە هێنانە کایەی ئاگربەستەوە."),
+                                      "دیپلۆماتکارەکان شکستیان ھێناوە لە ھێنانە کایەی ئاگربەستەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

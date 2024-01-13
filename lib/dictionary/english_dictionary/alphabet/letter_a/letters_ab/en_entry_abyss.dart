@@ -216,7 +216,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: abyss  u'bis (derived forms: abysses)
+1. A bottomless gulf or pit; any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively) (= abysm)
+"a yawning abyss";
 """);
 
     // Update the state to reflect that TTS is in progress

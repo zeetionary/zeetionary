@@ -249,7 +249,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: abundantly
+1. In an abundant manner (= copiously, profusely, extravagantly, prolifically)
+"they were abundantly supplied with food";
 """);
 
     // Update the state to reflect that TTS is in progress

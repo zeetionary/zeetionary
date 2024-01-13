@@ -217,7 +217,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: absorbent (derived forms: absorbents)
+1. Having power or capacity or tendency to absorb or soak up something (liquids or energy etc.) (= absorptive)
+"as absorbent as a sponge";
+
+- Noun: absorbent  ub'sor-bunt or ub'zor-bunt
+1. A material having capacity or tendency to absorb another substance (= absorbent material)
 """);
 
     // Update the state to reflect that TTS is in progress

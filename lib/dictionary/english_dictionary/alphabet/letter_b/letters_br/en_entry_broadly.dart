@@ -169,7 +169,7 @@ class EnglishEntrybroadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Broadly speaking, I agree with you."),
                               const ExampleSentenceKurdish(
-                                  text: "بەشێوەیەکی گشتی، لەگەڵت هاوڕام."),
+                                  text: "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام."),
                               const CustomSizedBoxForTTS(), // Define the word "broadly" as
                               Column(
                                 children: [
@@ -214,7 +214,7 @@ class EnglishEntrybroadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "He jumped up, grinning broadly."),
                               const ExampleSentenceKurdish(
-                                  text: "هەستایە سەر پێ و زەردەخەنەی بوو."),
+                                  text: "ھەستایە سەر پێ و زەردەخەنەی بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -217,7 +217,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: absolve (derived forms: absolving, absolved, absolves)
+1. Grant remission of a sin to (= shrive [archaic])
+"The priest absolved him and told him to say ten Hail Marys";
+ 
+2. Let off the hook (= free)
+"I absolve you from this responsibility";
 """);
 
     // Update the state to reflect that TTS is in progress

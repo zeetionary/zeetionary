@@ -272,14 +272,12 @@ WORD_WEB
     );
   }
 
-  // Function to start TTS
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
 ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 """);
 
-    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -289,7 +287,6 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

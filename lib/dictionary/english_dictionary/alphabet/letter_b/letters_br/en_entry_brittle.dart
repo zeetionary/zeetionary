@@ -165,7 +165,7 @@ class EnglishEntrybrittle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قرپ، قرچ، تورت، خاو، دانەهاتوو، ناسک، زووشکاو، هەستیار، زووهەڵچوو، دڵ‌ناسک، تیژ (دەنگ)
+کوردی: قرپ، قرچ، تورت، خاو، دانەھاتوو، ناسک، زووشکاو، ھەستیار، زووھەڵچوو، دڵ‌ناسک، تیژ (دەنگ)
 
 ١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
                           Row(
@@ -196,7 +196,7 @@ class EnglishEntrybrittle extends StatelessWidget {
                                       "As you get older your bones become increasingly brittle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر هەستیار دەبن."),
+                                      "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر ھەستیار دەبن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,7 +235,7 @@ class EnglishEntrybrittle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) کەشێک کە تێیدا کەسێک دڵخۆش و بەهێز دەردەکەوێت بەڵام لە ڕاستیدا قەلەقە"),
+                                  "٢. (ھاوەڵناو) کەشێک کە تێیدا کەسێک دڵخۆش و بەھێز دەردەکەوێت بەڵام لە ڕاستیدا قەلەقە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -243,7 +243,7 @@ class EnglishEntrybrittle extends StatelessWidget {
                                       "The character she plays is successful but emotionally brittle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووهەڵچووە."),
+                                      "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووھەڵچووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

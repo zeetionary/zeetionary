@@ -165,7 +165,7 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لێو، لێواری کڵاو، شەپکە
 
-١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، هتد"""),
+١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -193,7 +193,7 @@ class EnglishEntrybrim extends StatelessWidget {
                                       "She felt suddenly alive and full to the brim with enthusiasm."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "(بەکارهێنانی خوازراوی) لەناکاو هەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو."),
+                                      "(بەکارھێنانی خوازراوی) لەناکاو ھەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,7 +234,7 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) هەبوونی ئەو جۆرە لێوارەی کە باسکراوە"),
+                                  "٣. (ناو) ھەبوونی ئەو جۆرە لێوارەی کە باسکراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

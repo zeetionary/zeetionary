@@ -159,7 +159,7 @@ class EnglishEntrybronchitis extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) نەخۆشی کە تووشی ئەو بۆڕیچکانە دەبن کە لە قوڕگەوە بۆ سنگ دەچن و دەبێتە هۆی ئاوساوی و کۆکە و هەناسەتەنگی"""),
+١. (ناو) نەخۆشی کە تووشی ئەو بۆڕیچکانە دەبن کە لە قوڕگەوە بۆ سنگ دەچن و دەبێتە ھۆی ئاوساوی و کۆکە و ھەناسەتەنگی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -167,7 +167,7 @@ class EnglishEntrybronchitis extends StatelessWidget {
                                       "He was suffering from chronic bronchitis."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تووشی هەوکردنی درێژخایەنی لقە بۆرییەکانی هەوای بوو."),
+                                      "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو."),
                               const CustomSizedBoxForTTS(), // Define the word "bronchitis" as
                               Column(
                                 children: [

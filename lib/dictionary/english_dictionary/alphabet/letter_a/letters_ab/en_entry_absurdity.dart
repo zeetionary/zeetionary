@@ -218,7 +218,11 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: absurdity
+1. Something that is absurd or ridiculous; a logical contradiction (= absurdness, ridiculousness)
+ 
+2. A ludicrous folly (= fatuity, fatuousness, silliness)
+"the crowd laughed at the absurdity of the clown's behaviour";
 """);
 
     // Update the state to reflect that TTS is in progress

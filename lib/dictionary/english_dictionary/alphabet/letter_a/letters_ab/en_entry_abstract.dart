@@ -340,7 +340,34 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abstract
+1. Not representing or imitating external reality or the objects of nature (= abstractionist, nonfigurative, nonobjective)
+"a large abstract painting";
+ 
+2. Dealing with a subject in the abstract without practical purpose or intention
+"abstract reasoning"; "abstract science"
+ 
+3. Existing only in the mind; separated from embodiment
+"abstract words like 'truth' and 'justice'"
+ 
+4. (computing) of a class in object-oriented programming, being a partial basis for subclasses rather than being completely defined and directly usable
+
+- Verb: abstract (derived forms: abstracted, abstracting, abstracts)
+1. Consider a concept without thinking of a specific example; consider abstractly or theoretically
+ 
+2. Consider apart from a particular case or instance
+"Let's abstract away from this particular example"
+ 
+3. Give an abstract (of)
+ 
+4. Take by theft
+- hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, cabbage [informal], purloin, pinch [Brit, informal], snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal]
+
+- Noun: abstract (derived forms: abstracts)
+1. A concept or idea not associated with any specific instance (= abstraction)
+"he loved her only in the abstract--not in person";
+ 
+2. A sketchy summary of the main points of an argument or theory (= outline, synopsis, précis, rundown)
 """);
 
     // Update the state to reflect that TTS is in progress

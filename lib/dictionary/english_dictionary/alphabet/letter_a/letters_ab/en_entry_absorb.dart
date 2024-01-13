@@ -401,7 +401,32 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: absorb (derived forms: absorbed, absorbing, absorbs)
+1. Take in, also metaphorically (= suck, imbibe, soak up, sop up, suck up, draw, take in, take up)
+"The sponge absorbs water well";
+ 
+2. (chemistry) become imbued
+"The liquids, light, and gases absorb"
+ 
+3. Take up mentally (= assimilate, ingest, take in)
+"he absorbed the knowledge or beliefs of his tribe";
+ 
+4. Take up, as of debts or payments (= take over)
+"absorb the costs for something";
+ 
+5. Cause to become one with
+"The sales tax is absorbed into the state income tax"
+ 
+6. Suck or take up or in (= take in)
+"A black star absorbs all matter";
+ 
+7. Devote (oneself) fully to (= steep, immerse, engulf, plunge, engross, soak up, ingulf [archaic])
+ 
+8. Assimilate or take in
+"The immigrants were quickly absorbed into society"
+ 
+9. Consume all of one's attention or time (= engross, engage, occupy)
+"Her interest in butterflies absorbs her completely";
 """);
 
     // Update the state to reflect that TTS is in progress

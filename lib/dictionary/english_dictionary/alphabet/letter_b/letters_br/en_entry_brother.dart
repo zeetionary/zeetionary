@@ -7,264 +7,267 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrief extends StatelessWidget {
+class EnglishEntrybrother extends StatelessWidget {
 // blank divider
-  EnglishEntrybrief({super.key});
+  EnglishEntrybrother({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrief(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrother(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brief"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brother"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Mozart's life was brief."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We're brothers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        " He said nothing during the brief court appearance."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's my brother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He died after a relatively brief period of suffering."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Could you make it brief? I've got a meeting in ten minutes."); // DOPSUM: CHANGE TEXT
+        "Does she have any brothers and sisters?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Please be brief."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Section 1 of the book gives a brief history of Mexico."); // DOPSUM: CHANGE TEXT
+        "Edward was the youngest of the Kennedy brothers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was wearing a fairly brief skirt, as I recall."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs8(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It wasn't part of his brief to speak to the press."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs9(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's not part of my brief to advise on financial matters."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs10(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Will you accept this brief?"); // DOPSUM: CHANGE TEXT
+        .speak("He was like a brother to me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs11(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I want to see my brief."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("My son really wanted a little brother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs12(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We were given daily briefs by the general."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbriefs13(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I expect to be kept fully briefed at all times."); // DOPSUM: CHANGE TEXT
+        "Henry VIII married the wife of his late brother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs14(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers8(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We must work together, brothers!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers9(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The officer briefed her on what to expect."); // DOPSUM: CHANGE TEXT
+        "We are all brothers in the fight against injustice."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs15(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers10(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We must support our weaker brethren."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers11(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We had already been briefed about what the job would entail."); // DOPSUM: CHANGE TEXT
+        "The Brethren meet regularly for prayer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs16(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers12(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The men have been fully briefed about the mission."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Oh brother!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs17(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers13(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "On several occasions government officials briefed against their own ministers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs18(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers14(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs19(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers15(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs20(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers16(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs21(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers17(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs22(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers18(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs23(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers19(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs24(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers20(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs25(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers21(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs26(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers22(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs27(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers23(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs28(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers24(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbriefs29(String languageCode) async {
-    // DOPSUM: CHANGE speakbrief
+  Future<void> speakbrothers25(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbriefs2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrothers2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers26(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothers2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers27(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothers2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers28(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothers2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers29(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothers2929"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrothers30(String languageCode) async {
+    // DOPSUM: CHANGE speakbrother
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrothers3030"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -287,22 +290,22 @@ class EnglishEntrybrief extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brief"),
+                            EntryTitle(word: "brother"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /briːf/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrʌðə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrief("en-GB"),
+                              onPressed: () => speakbrother("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /briːf/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbrʌðər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrief("en-US"),
+                              onPressed: () => speakbrother("en-US"),
                             ),
                           ],
                         ),
@@ -348,23 +351,20 @@ class EnglishEntrybrief extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کورت (جل‌وبەرگ)، تیژپەڕ، کورت‌ماوە، کورتە، پوختە، نویشک، توند، بڕا، یەکلایی‌کەرەوە، دەستوور، فەرمان، ئەرک، چوارچێوەی دەسەڵات، دەستوورەکان، ڕاسپاردەکان، کورتەی داواکاری یان دۆسیە (ماف)، ڕاسپاردە
-
-١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
+١. (ناو) کوڕێک یان پیاوێک کە ھەمان دایک و باوکی کەسێکی تری ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Mozart's life was brief."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانی مۆزارت کورتخایەن بوو."),
-                              const CustomSizedBoxForTTS(), // Define the word "brief" as
+                                  text: "We're brothers."),
+                              const ExampleSentenceKurdish(text: "ئێمە براین."),
+                              const CustomSizedBoxForTTS(), // Define the word "brother" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs1("en-GB"),
+                                    onPressed: () => speakbrothers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs1("en-US"),
+                                    onPressed: () => speakbrothers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -374,19 +374,16 @@ class EnglishEntrybrief extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      " He said nothing during the brief court appearance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچی نەگوت لە ئامادەبوونە کورتەکەی لە دادگادا."),
+                                  text: "He's my brother."),
+                              const ExampleSentenceKurdish(text: "ئەو برامە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs2("en-GB"),
+                                    onPressed: () => speakbrothers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs2("en-US"),
+                                    onPressed: () => speakbrothers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -400,20 +397,19 @@ class EnglishEntrybrief extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "He died after a relatively brief period of suffering."),
+                                              "Does she have any brothers and sisters?"),
                                       const ExampleSentenceKurdish(
-                                          text:
-                                              "گیانی لەدەستدا لە دوای ماوەیەکی کەم لە ئازارکێشان."),
+                                          text: "ھیچ برا و خوشکی ھەیە؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbriefs3("en-GB"),
+                                                speakbrothers3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbriefs3("en-US"),
+                                                speakbrothers3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -424,285 +420,20 @@ class EnglishEntrybrief extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "Could you make it brief? I've got a meeting in ten minutes."),
+                                              "Edward was the youngest of the Kennedy brothers."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "ئەتوانی بە کورتی بیڵێیت؟ کۆبوونەوەیەکم ھەیە لە چەند خولەکێکی تردا."),
+                                              "ئێدوارد بچووکترین بوو لەناو براکانی خێزانی کەنەدیدا."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbriefs4("en-GB"),
+                                                speakbrothers4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbriefs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) بەکارھێنانی وشەی کەم"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please be brief (= say what you want to say quickly)."),
-                              const ExampleSentenceKurdish(
-                                  text: "تکایە بە کورتی/زوویی بیڵێ."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Section 1 of the book gives a brief history of Mexico."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشی یەکەمی کتێبەکە مێژووی کورتی مەکسیک دەخاتە بەردەست."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ھاوەڵناو) جلێکی کورت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a fairly brief skirt, as I recall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی ئەوەی بیرم بێت تەنوورەیەکی تاڕادەیەک کورتی لەبەربوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) کۆمەڵێک ڕێنمایی کە بە کەسێک دەدرێت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It wasn't part of his brief to speak to the press."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە بەشێک لە ڕێنمایەکانی نەبوو کە بە میدیاکان بڵێت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's not part of my brief to advise on financial matters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە بەشێک لە ڕاسپاردەکانم نییە کە ڕاوێژ کە باسی ئابووریدا بدەم."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) کەیسێکی یاسایی کە دەدرێت بە پارێزەرێک بۆ ئەوەی لە دادگا بەرگری لێ بکات"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Will you accept this brief?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم کەیسە وەردەگریت؟"),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٦. (ناو) پارێزەرێک کە بەرگری لە کەیسێک دەکات"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I want to see my brief."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەمەوێت پارێزەرەکەم ببینم."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) زانیاری و ڕێنمایی کە لە کۆبوونەوەیەکدا دەدرێت"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were given daily briefs by the general."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاری ڕۆژانەمان پێدەدرا لەلایەن ژەنەراڵەکەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٨. (کردار) پێدانی زانیاری بە کەسێک بۆ ئەوەی ئامادە بێت مامەڵەی لەگەڵدا بکات"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I expect to be kept fully briefed at all times."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەڕێی ئەوە دەکەم ھەموو کات زانیاریم پێ بدرێت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The officer briefed her on what to expect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرەکە زانیاریی پێدا لەسەر ئەوەی چاوەڕێی چی بکات."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "We had already been briefed about/on what the job would entail."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "پێشوەختە زانیاریمان پێدرابوو کە کارەکە چی لەخۆدەگرێت."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbriefs15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbriefs15("en-US"),
+                                                speakbrothers4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -713,20 +444,67 @@ class EnglishEntrybrief extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The men have been fully briefed about the mission."),
+                                              "He was like a brother to me (= very close)."),
                                       const ExampleSentenceKurdish(
-                                          text:
-                                              "سەربازەکان بە تەواوی زانیارییان پێدراوە لەسەر ئەرکەکە."),
+                                          text: "وەک برا وابوو بۆم."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbriefs16("en-GB"),
+                                                speakbrothers5("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbriefs16("en-US"),
+                                                speakbrothers5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "My son really wanted a little brother."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "کوڕەکەم زۆر حەزی لە برایەکی بچووک بوو."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbrothers6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbrothers6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Henry VIII married the wife of his late brother."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ھێنری ھەشتەم ژنی برا کۆچکردووەکەی خواست."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbrothers7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbrothers7("en-US"),
                                           ),
                                         ],
                                       ),
@@ -739,23 +517,109 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) ئاشکراکردنی زانیاری لەسەر کەسێک یان شتێک بە مەبەستی دژایەتی یان پەسندانی"),
+                                  "٢. (ناو) پیاوانی دامەزراوەیەک یان پیاوانێک کە ھەمان باوەڕ و بیرۆکەیان ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "On several occasions government officials briefed against their own ministers."),
+                                  text: "We must work together, brothers!"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژمارەیەک بۆنەدا بەرپرسانی حکومەت زانیارییان دژ بە وەزیرەکانی خۆیان ئاشکراکردووە."),
+                                  text: "برایان، دەبێت پێکەوە کاربکەین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs17("en-GB"),
+                                    onPressed: () => speakbrothers8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs17("en-US"),
+                                    onPressed: () => speakbrothers8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We are all brothers in the fight against injustice."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەموومان برای یەکین لە شەڕی دژ بە نادادیدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrothers9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrothers9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We must support our weaker brethren."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت پشتگیری برا لاوازەکانمان بکەین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrothers10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrothers10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) پیاوانی گرووپێکی ئاینی، بەتایبەتی ڕەبەنێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Brethren meet regularly for prayer."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەندامەکان زووزوو یەکیان دەدی بۆ نزاکردن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrothers11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrothers11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (سەرسوڕمان) بۆ دەبڕینی بێزاری"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(text: "Oh brother!"),
+                              const ExampleSentenceKurdish(text: "ئەھ برا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrothers12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrothers12("en-US"),
                                   ),
                                 ],
                               ),
@@ -838,27 +702,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Adjective: brief (Derived forms: briefer, briefest)
-1. Of short duration or distance
-"a brief stay in the country"
+- Noun: brother (Derived forms: brothers)
+1. A male with the same parents as someone else (= blood brother)
+"my brother still lives with our parents";
  
-2. Concise and succinct
-"covered the matter in a brief statement"
+2. (religion) a male person who is a fellow member (of a fraternity, religion or other group)
+"none of his brothers would betray him"
  
-3. (of clothing) very short (= abbreviated)
-"a brief bikini";
+3. A close friend, esp. one who often acts as a companion (= buddy [informal], chum [informal], crony [informal], pal [informal], cobber [Austral, informal], bud [N. Amer, informal], compadre, paisano [US])
+ 
+4. Used as a term of address for those male persons engaged in the same movement (= comrade)
+"Greetings, brother!";
 
-- Noun: brief (Derived forms: briefs)
-1. (law) a document stating the facts and points of law of a client's case (= legal brief)
- 
-2. A condensed written summary or abstract
- 
-3. The topic that a person, committee, or piece of research is expected to deal with or has authority to deal with (= remit [Brit], responsibility)
-"they set up a group with a brief to suggest ways for strengthening family life";
-
-- Verb: brief (Derived forms: briefed, briefing, briefs)
-1. Give essential information to someone
-"The reporters were briefed about the President's plan to invade"
+- Noun: Brother (Derived forms: Brothers)
+1. (Roman Catholic Church) a title given to a monk and used as form of address
+"a Benedictine Brother"
 """,
           ),
         ],
@@ -870,7 +728,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Noun: brother (Derived forms: brothers)
+1. A male with the same parents as someone else (= blood brother)
+"my brother still lives with our parents";
+ 
+2. (religion) a male person who is a fellow member (of a fraternity, religion or other group)
+"none of his brothers would betray him"
+ 
+3. A close friend, esp. one who often acts as a companion (= buddy [informal], chum [informal], crony [informal], pal [informal], cobber [Austral, informal], bud [N. Amer, informal], compadre, paisano [US])
+ 
+4. Used as a term of address for those male persons engaged in the same movement (= comrade)
+"Greetings, brother!";
+
+- Noun: Brother (Derived forms: Brothers)
+1. (Roman Catholic Church) a title given to a monk and used as form of address
+"a Benedictine Brother"
 """);
 
     // Update the state to reflect that TTS is in progress
@@ -895,12 +767,12 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "hFZFjoX2cGg";
+  static String myVideoId = "https://youtu.be/21Z4RIOFhMA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 675, // DOPSUM: CHANGE IT
+      startAt: 408, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -920,12 +792,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "khOUvmOQExc";
+  static String myVideoId = "https://youtu.be/QCdqHswGS5A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 273, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -945,12 +817,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "QiKZYt9070U";
+  static String myVideoId = "https://youtu.be/tpOsDC0KNjw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 480, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -970,12 +842,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "-L7o6HtX8Vg";
+  static String myVideoId = "https://youtu.be/bRVueBoZjEA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1070, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -995,12 +867,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "mY3SEMTROas";
+  static String myVideoId = "https://youtu.be/u1GZk3TWNQQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 916, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1020,12 +892,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "a9m3GD0DbPY";
+  static String myVideoId = "https://youtu.be/II-OP6vdMs8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 162, // DOPSUM: CHANGE IT
+      startAt: 160, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1045,12 +917,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "EkIbC5JqVck";
+  static String myVideoId = "https://youtu.be/DEHJ8vVP324?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 216, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1070,12 +942,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "C-qYgs_yOXA";
+  static String myVideoId = "https://youtu.be/02l6OL0Op9I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10805, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1095,12 +967,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "knjliFs3gR8";
+  static String myVideoId = "https://youtu.be/dGMNgOlEvA0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 83, // DOPSUM: CHANGE IT
+      startAt: 124, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1120,12 +992,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "fKaZLR2C88E";
+  static String myVideoId = "https://youtu.be/sAp1RGtWghQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 496, // DOPSUM: CHANGE IT
+      startAt: 155, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1145,12 +1017,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "kotoNOAvNGk";
+  static String myVideoId = "https://youtu.be/QjveCvqxiRo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2950, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1170,12 +1042,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "1kNNVgsmMSE";
+  static String myVideoId = "https://youtu.be/hjqPAmjDwXs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 216, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -167,7 +167,7 @@ class EnglishEntrybroadband extends StatelessWidget {
                                       "Internet connection via broadband offers many advantages."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری هەیە."),
+                                      "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری ھەیە."),
                               const CustomSizedBoxForTTS(), // Define the word "broadband" as
                               Column(
                                 children: [

@@ -175,7 +175,7 @@ class EnglishEntrybedpan extends StatelessWidget {
                                       "She was too weak to get out of bed, so she used a bedpan."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەهێنا."),
+                                      "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەھێنا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

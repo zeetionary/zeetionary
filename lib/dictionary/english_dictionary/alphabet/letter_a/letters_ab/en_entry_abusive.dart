@@ -249,7 +249,11 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: abusive  u'byoo-siv
+1. Expressing offensive reproach (= opprobrious, scurrilous)
+ 
+2. Characterized by physical or psychological maltreatment
+"abusive punishment"; "argued...that foster homes are abusive"
 """);
 
     // Update the state to reflect that TTS is in progress

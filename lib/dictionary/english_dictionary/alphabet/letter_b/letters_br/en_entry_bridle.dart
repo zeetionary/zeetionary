@@ -161,7 +161,7 @@ class EnglishEntrybridle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەغاو، هەوسار، پاڵەنگ، لیاڤۆک، دەڤگەم، دەسەجڵەو، بزمک، ڕێشمە، سەرکەللە، گوریس و کابلی مەهار یان ڕاگرتنی کەشتی
+کوردی: لەغاو، ھەوسار، پاڵەنگ، لیاڤۆک، دەڤگەم، دەسەجڵەو، بزمک، ڕێشمە، سەرکەللە، گوریس و کابلی مەھار یان ڕاگرتنی کەشتی
 
 ١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
                           Row(
@@ -171,7 +171,7 @@ class EnglishEntrybridle extends StatelessWidget {
                                       "She held his stirrup for him while Adam took the bridle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم هەوسارەکەی بۆ گرتبوو."),
+                                      "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو."),
                               const CustomSizedBoxForTTS(), // Define the word "bridle" as
                               Column(
                                 children: [
@@ -188,7 +188,7 @@ class EnglishEntrybridle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دانانی هەوسار لە دەوری سەری ئەسپ"),
+                                  "٢. (کردار) دانانی ھەوسار لە دەوری سەری ئەسپ"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +196,7 @@ class EnglishEntrybridle extends StatelessWidget {
                                       "Polly saddled and bridled her favourite horse."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پۆڵی زین و هەوساری لە ئەسپی دڵخوازی پۆشی."),
+                                      "پۆڵی زین و ھەوساری لە ئەسپی دڵخوازی پۆشی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

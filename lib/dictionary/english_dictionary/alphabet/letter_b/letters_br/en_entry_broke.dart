@@ -169,7 +169,7 @@ class EnglishEntrybroke extends StatelessWidget {
                                   text:
                                       "I'm always broke by the end of the month."),
                               const ExampleSentenceKurdish(
-                                  text: "هەمیشە لەکۆتایی مانگدا بێ پارەم."),
+                                  text: "ھەمیشە لەکۆتایی مانگدا بێ پارەم."),
                               const CustomSizedBoxForTTS(), // Define the word "broke" as
                               Column(
                                 children: [

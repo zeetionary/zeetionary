@@ -163,7 +163,7 @@ class EnglishEntrybrood extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەرەڕاوکە، جووجەڵە پێکەوەبووەکان، دەستە، کۆمەڵ، گروپە جۆر، چەشن، زاروزێچ یان فرزەند و منداڵانی خێزانێ، کرمۆکە یان لارڤەکانی هەنگ یان هەنگەژاڵە 
+کوردی: بەرەڕاوکە، جووجەڵە پێکەوەبووەکان، دەستە، کۆمەڵ، گروپە جۆر، چەشن، زاروزێچ یان فرزەند و منداڵانی خێزانێ، کرمۆکە یان لارڤەکانی ھەنگ یان ھەنگەژاڵە 
 
 ١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"""),
                           Row(
@@ -173,7 +173,7 @@ class EnglishEntrybrood extends StatelessWidget {
                                       "You're not still brooding over what he said, are you?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
+                                      "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
                               const CustomSizedBoxForTTS(), // Define the word "brood" as
                               Column(
                                 children: [
@@ -190,7 +190,7 @@ class EnglishEntrybrood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دانیشتنی مریشکێک لەسەر هێلکە بۆ دانیشتن"),
+                                  "٢. (کردار) دانیشتنی مریشکێک لەسەر ھێلکە بۆ دانیشتن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -198,7 +198,7 @@ class EnglishEntrybrood extends StatelessWidget {
                                       "The hen would brood over her eggs to ensure they received the necessary warmth."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مریشکەکە کڕ کەوت لەسەر هێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
+                                      "مریشکەکە کڕ کەوت لەسەر ھێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,7 +215,7 @@ class EnglishEntrybrood extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) تەواوی ئەو ئاژەڵ و باڵندانەی دایکێک لە یەک کاتدا دەیانهێنێتە دونیا"),
+                                  "٣. (ناو) تەواوی ئەو ئاژەڵ و باڵندانەی دایکێک لە یەک کاتدا دەیانھێنێتە دونیا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -223,7 +223,7 @@ class EnglishEntrybrood extends StatelessWidget {
                                       "The blackbird flew back and forth to its brood."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕەشپەڕەکە هاتوچۆی بوو بۆ لای بێچووەکانی."),
+                                      "ڕەشپەڕەکە ھاتوچۆی بوو بۆ لای بێچووەکانی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,7 +247,7 @@ class EnglishEntrybrood extends StatelessWidget {
                                   text: "Ann was at the party with her brood."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئانا لەگەڵ منداڵەکانی لە ئاهەنگەکە بوون."),
+                                      "ئانا لەگەڵ منداڵەکانی لە ئاھەنگەکە بوون."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

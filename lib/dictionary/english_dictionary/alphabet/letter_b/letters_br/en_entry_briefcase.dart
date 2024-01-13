@@ -161,7 +161,7 @@ class EnglishEntrybriefcase extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کیف یان جانتای دەستی (پیاوانە)
 
-١. (ناو) جانتایەکی تەخت کە بۆ هەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"""),
+١. (ناو) جانتایەکی تەخت کە بۆ ھەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -169,7 +169,7 @@ class EnglishEntrybriefcase extends StatelessWidget {
                                       "He wore a torn suit and carried a battered briefcase."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی هەڵگرتبوو."),
+                                      "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو."),
                               const CustomSizedBoxForTTS(), // Define the word "briefcase" as
                               Column(
                                 children: [

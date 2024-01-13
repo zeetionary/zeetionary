@@ -160,7 +160,7 @@ class EnglishEntrybroadside extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هێرش، ڕەخنە، بەقسەداگرتن، تەنیشتی کەشتی، لاپاڵی کەشتی
+کوردی: ھێرش، ڕەخنە، بەقسەداگرتن، تەنیشتی کەشتی، لاپاڵی کەشتی
 
 ١. (ناو) ڕەخنەی توند"""),
                           Row(
@@ -170,7 +170,7 @@ class EnglishEntrybroadside extends StatelessWidget {
                                       "The prime minister fired a broadside at his critics."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرۆک وەزیران هێرشی توندی کردە سەر ڕەخنەگرانی."),
+                                      "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی."),
                               const CustomSizedBoxForTTS(), // Define the word "broadside" as
                               Column(
                                 children: [
@@ -218,7 +218,7 @@ class EnglishEntrybroadside extends StatelessWidget {
                                       "The driver ran a stop light and broadsided the truck."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارهەڵگرێکدا."),
+                                      "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارھەڵگرێکدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

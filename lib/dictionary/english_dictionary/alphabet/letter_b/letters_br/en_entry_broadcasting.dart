@@ -161,7 +161,7 @@ class EnglishEntrybroadcasting extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بڵاوکردنەوە، وەشان
 
-١. (ناو) کاری بەرهەمهێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"""),
+١. (ناو) کاری بەرھەمھێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

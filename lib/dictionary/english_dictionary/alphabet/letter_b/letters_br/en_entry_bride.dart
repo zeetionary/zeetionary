@@ -164,7 +164,7 @@ class EnglishEntrybride extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بووک، وەوی، تازەبووک
 
-١. (ناو) ژنێک لە ڕۆژی هاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
+١. (ناو) ژنێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

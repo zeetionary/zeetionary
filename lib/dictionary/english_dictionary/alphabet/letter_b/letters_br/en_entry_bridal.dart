@@ -171,7 +171,7 @@ class EnglishEntrybridal extends StatelessWidget {
                                       "She spent the afternoon trying on bridal gowns for her wedding."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاهەنگەکە."),
+                                      "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە."),
                               const CustomSizedBoxForTTS(), // Define the word "bridal" as
                               Column(
                                 children: [
@@ -193,7 +193,7 @@ class EnglishEntrybridal extends StatelessWidget {
                                       "The members of the bridal party posed for photographs."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەژداربووانی ئاهەنگی بووک وێنەیەکیان گرت."),
+                                      "بەژداربووانی ئاھەنگی بووک وێنەیەکیان گرت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,7 +215,7 @@ class EnglishEntrybridal extends StatelessWidget {
                                       "The magazine had a section on bridal wear (= the clothes that a woman wears at her marriage)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گۆڤارەکە بەشێکی هەبوو تایبەت بە جلی بووکێنی."),
+                                      "گۆڤارەکە بەشێکی ھەبوو تایبەت بە جلی بووکێنی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

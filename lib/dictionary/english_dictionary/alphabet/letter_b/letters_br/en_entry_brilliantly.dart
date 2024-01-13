@@ -169,7 +169,7 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                                       "He seems to do everything brilliantly - piano playing, skiing, sailing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وا دەردەکەوێت هەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی."),
+                                      "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی."),
                               const CustomSizedBoxForTTS(), // Define the word "brilliantly" as
                               Column(
                                 children: [
@@ -193,7 +193,7 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                                       "The novel brilliantly captures the complex feel of modern life."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕۆمانەکە بلیمەتانە هەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت."),
+                                      "ڕۆمانەکە بلیمەتانە ھەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

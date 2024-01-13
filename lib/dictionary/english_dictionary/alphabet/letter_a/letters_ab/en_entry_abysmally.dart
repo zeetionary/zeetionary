@@ -216,7 +216,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adverb: abysmally 
+1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
+"she sings abysmally";
 """);
 
     // Update the state to reflect that TTS is in progress

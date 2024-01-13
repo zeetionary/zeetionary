@@ -186,7 +186,7 @@ class EnglishEntrybrigade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کۆمەڵە کەسێک کە خاڵێکی هاوبەشیان هەیە"),
+                                  "٢. (ناو) کۆمەڵە کەسێک کە خاڵێکی ھاوبەشیان ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -194,7 +194,7 @@ class EnglishEntrybrigade extends StatelessWidget {
                                       "Since she gave up smoking she's joined the anti-smoking brigade."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەوەتەی وازی لە جگەرەکێشان هێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە."),
+                                      "لەوەتەی وازی لە جگەرەکێشان ھێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

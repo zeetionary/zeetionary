@@ -295,7 +295,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پڕشنگدار، بریسکەدار، ورشن، درەوشەر، ڕووناک، ڕۆشن، درەوشاوە، بریقەدار، شارەزا، شارەزایانە، وەستایانە، مامۆستا، بەهۆش، زیرەک، هەڵکەوتوو، بلیمەت، هیوادار، هومێدەوار، سەرکەوتوو، زۆرباش، یەکجار چاک
+کوردی: پڕشنگدار، بریسکەدار، ورشن، درەوشەر، ڕووناک، ڕۆشن، درەوشاوە، بریقەدار، شارەزا، شارەزایانە، وەستایانە، مامۆستا، بەھۆش، زیرەک، ھەڵکەوتوو، بلیمەت، ھیوادار، ھومێدەوار، سەرکەوتوو، زۆرباش، یەکجار چاک
 
 ١. (ھاوەڵناو) تەواو زیرەک"""),
                           Row(
@@ -325,7 +325,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                       "He made two brilliant saves to keep his side in the match."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ هێشتنەوەی لایەنەکەی لە یارییەکەدا."),
+                                      "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ ھێشتنەوەی لایەنەکەی لە یارییەکەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -350,7 +350,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                               "Her performance was technically brilliant but lacked feeling."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە هەست و سۆز بوو."),
+                                              "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە ھەست و سۆز بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -440,7 +440,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ھاوەڵناو) زۆر زیرەک و بەهرەدار"),
+                              text: "٣. (ھاوەڵناو) زۆر زیرەک و بەھرەدار"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

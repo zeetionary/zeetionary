@@ -266,7 +266,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                       "The evening news broadcasts are very different today than they were 25 years ago."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەخشێ هەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                                      "پەخشێ ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

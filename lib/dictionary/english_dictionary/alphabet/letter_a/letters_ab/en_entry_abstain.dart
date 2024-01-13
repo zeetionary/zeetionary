@@ -250,7 +250,11 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Verb: abstain (derived forms: abstained, abstains, abstaining)
+1. Refrain from voting
+ 
+2. Restrain oneself from consuming or doing something (= refrain, desist)
+"I abstain from alcohol";
 """);
 
     // Update the state to reflect that TTS is in progress

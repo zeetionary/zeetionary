@@ -188,7 +188,7 @@ class EnglishEntrybroody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) مریشکێک کە حەزی لییە لەسەر هێلکە کڕ بکەوێت"),
+                                  "٢. (ھاوەڵناو) مریشکێک کە حەزی لییە لەسەر ھێلکە کڕ بکەوێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +196,7 @@ class EnglishEntrybroody extends StatelessWidget {
                                       "The broody hen refused to leave the nest."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێهێشتنی کولانەکەی."),
+                                      "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێھێشتنی کولانەکەی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,7 +213,7 @@ class EnglishEntrybroody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) بێ دەنگ لە کاتێکدا بیر لە شتێک دەکەیتەوە بەهۆی ئەوەی بێزاریت"),
+                                  "٣. (ھاوەڵناو) بێ دەنگ لە کاتێکدا بیر لە شتێک دەکەیتەوە بەھۆی ئەوەی بێزاریت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

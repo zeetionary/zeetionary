@@ -197,7 +197,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                                       "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بی بی سی گەورەترین دەزگای پەخشی جیهانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
+                                      "بی بی سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

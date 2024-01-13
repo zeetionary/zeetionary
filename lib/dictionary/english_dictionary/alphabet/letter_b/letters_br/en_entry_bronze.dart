@@ -212,7 +212,7 @@ class EnglishEntrybronze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کارێکی هونەری کە لە برۆنز درووست کراوە"),
+                                  "٣. (ناو) کارێکی ھونەری کە لە برۆنز درووست کراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

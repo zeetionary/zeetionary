@@ -6,6 +6,7 @@ import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 // import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
@@ -71,6 +72,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+
     // final user = ref.watch(userProvider)!;
     // final currentTheme = ref.watch(themeNotifierProvider);
 
@@ -151,7 +154,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   title: Text(
                     "Quiz",
                     style: TextStyle(
-                      fontSize: 16.0,
+                      fontSize: textSize,
                       color: Theme.of(context).primaryColor,
                     ),
                   ),
@@ -167,7 +170,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   title: Text(
                     "TTS",
                     style: TextStyle(
-                      fontSize: 16.0,
+                      fontSize: textSize,
                       color: Theme.of(context).primaryColor,
                     ),
                   ),
@@ -191,7 +194,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   title: Text(
                     "Settings",
                     style: TextStyle(
-                      fontSize: 16.0,
+                      fontSize: textSize,
                       color: Theme.of(context).primaryColor,
                     ),
                   ),
@@ -207,7 +210,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   title: Text(
                     'Log out',
                     style: TextStyle(
-                      fontSize: 16.0,
+                      fontSize: textSize,
                       color: Pallete.redColor,
                     ),
                   ),

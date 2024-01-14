@@ -719,7 +719,7 @@ class IPAofEnglish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
     return Container(
       constraints: const BoxConstraints(maxWidth: 300),
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
@@ -760,7 +760,7 @@ class DefinitionKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 4; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(

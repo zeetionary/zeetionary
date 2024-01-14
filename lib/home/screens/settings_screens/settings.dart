@@ -59,7 +59,7 @@ class ThemeNotifier extends StateNotifier<ThemeMode> {
 // final textSizeProvider = StateProvider<double>((ref) => 16.0);
 
 final textSizeProvider =
-    StateProvider<double>((ref) => 13.0); // Default value now 16
+    StateProvider<double>((ref) => 15.0); // Default value now 16
 
 // Function to update text size
 void updateTextSize(WidgetRef ref, double newSize) {
@@ -88,20 +88,23 @@ class SettingsPage extends ConsumerWidget {
             children: [
               SliderTheme(
                 data: SliderThemeData(
-                  activeTrackColor: Colors.blue,
-                  inactiveTrackColor: Colors.grey[300],
-                  thumbColor: Colors.blue,
-                  overlayColor: Colors.blue.withOpacity(0.2),
+                  activeTrackColor: Colors.blue.withOpacity(0.8),
+                  inactiveTrackColor:
+                      Theme.of(context).primaryColor.withOpacity(0.3),
+                  // thumbColor: Colors.blue,
+                  thumbColor: Theme.of(context).primaryColor.withOpacity(0.7),
+                  // overlayColor: Colors.blue.withOpacity(0.2),
+                  overlayColor: Theme.of(context).primaryColor.withOpacity(0.6),
                   thumbShape:
-                      const RoundSliderThumbShape(enabledThumbRadius: 12),
+                      const RoundSliderThumbShape(enabledThumbRadius: 8),
                 ),
                 child: Slider(
                   value: textSize,
                   min: 10,
-                  max: 18,
+                  max: 20,
                   divisions: 20, // Add divisions for numbered marks
                   label: textSize
-                      .toStringAsFixed(1), // Show current value as a label
+                      .toStringAsFixed(0), // Show current value as a label
                   onChanged: (newSize) => updateTextSize(ref, newSize),
                 ),
               ),
@@ -111,7 +114,12 @@ class SettingsPage extends ConsumerWidget {
             height: 20,
           ),
           ExpansionTile(
-            title: const Text('Select Theme'),
+            title: const Text(
+              'Select Theme',
+              // style: TextStyle(
+              //   color: Theme.of(context).primaryColor.withOpacity(0.9),
+              // ),
+            ),
             initiallyExpanded: false,
             children: [
               SingleChildScrollView(
@@ -124,9 +132,18 @@ class SettingsPage extends ConsumerWidget {
                         themeNotifier.setThemeMode(mode);
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: themeMode == mode ? Colors.blue : null,
+                        backgroundColor: themeMode == mode
+                            ? Colors.blue.withOpacity(0.4)
+                            : null,
+                        // : Colors.blue.withOpacity(0.2),
                       ),
-                      child: Text(_getThemeDisplayName(mode)),
+                      child: Text(
+                        _getThemeDisplayName(mode),
+                        style: TextStyle(
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.9),
+                        ),
+                      ),
                     );
                   }).toList(),
                 ),

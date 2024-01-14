@@ -72,7 +72,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     // final user = ref.watch(userProvider)!;
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return AdvancedDrawer(
       // backdrop: Container(
@@ -82,13 +82,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       //     gradient: LinearGradient(
       //       begin: Alignment.topLeft,
       //       end: Alignment.bottomRight,
-      //       colors: [currentTheme.scaffoldBackgroundColor.withOpacity(0)],
+      //       colors: [Theme.of(context).scaffoldBackgroundColor.withOpacity(0)],
       //     ),
       //   ),
       // ),
       controller: _advancedDrawerController,
       animationCurve: Curves.easeInOut,
-      backdropColor: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+      backdropColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
       animationDuration: const Duration(milliseconds: 300),
       animateChildDecoration: true,
       rtlOpening: false,
@@ -101,143 +101,149 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         child: ListTileTheme(
           textColor: Colors.white,
           iconColor: Colors.white,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Container(
-                width: 150.0,
-                height: 150.0,
-                margin: const EdgeInsets.only(
-                  top: 50.0,
-                  bottom: 64.0,
-                ),
-                clipBehavior: Clip.antiAlias,
-                padding: const EdgeInsets.all(2.0),
-                decoration: BoxDecoration(
-                  color: currentTheme.primaryColor.withOpacity(0.01),
-                  borderRadius: BorderRadius.circular(55.0),
-                  border: Border.all(
-                    color: currentTheme.primaryColor.withOpacity(0.07),
-                    width: 2.0,
+          child: Container(
+            constraints: BoxConstraints(
+              maxHeight: MediaQuery.of(context).size.height * 5,
+              // minHeight: MediaQuery.of(context).size.height * 0.8,
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Container(
+                  width: 150.0,
+                  height: 150.0,
+                  margin: const EdgeInsets.only(
+                    top: 50.0,
+                    bottom: 33.0,
+                  ),
+                  clipBehavior: Clip.antiAlias,
+                  padding: const EdgeInsets.all(1.0),
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    borderRadius: BorderRadius.circular(55.0),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.02),
+                      width: 1.0,
+                    ),
+                  ),
+                  child: Image.asset(
+                    'assets/images/zeetionary_one.png',
                   ),
                 ),
-                child: Image.asset(
-                  'assets/images/zeetionary_one.png',
-                ),
-              ),
-              const Divider(),
-              // ListTile(
-              //   title: Text(
-              //     "Grammar",
-              //     style: TextStyle(
-              //       fontSize: 16.0,
-              //       color: currentTheme.primaryColor,
-              //     ),
-              //   ),
-              //   leading: Icon(
-              //     Icons.question_answer,
-              //     color: currentTheme.primaryColor,
-              //   ),
-              //   onTap: () {
-              //     Routemaster.of(context).push('/grammar-screen');
-              //   },
-              // ),
-              ListTile(
-                title: Text(
-                  "Quiz",
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    color: currentTheme.primaryColor,
+                const Divider(),
+                // ListTile(
+                //   title: Text(
+                //     "Grammar",
+                //     style: TextStyle(
+                //       fontSize: 16.0,
+                //       color: Theme.of(context).primaryColor,
+                //     ),
+                //   ),
+                //   leading: Icon(
+                //     Icons.question_answer,
+                //     color: Theme.of(context).primaryColor,
+                //   ),
+                //   onTap: () {
+                //     Routemaster.of(context).push('/grammar-screen');
+                //   },
+                // ),
+                ListTile(
+                  title: Text(
+                    "Quiz",
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Theme.of(context).primaryColor,
+                    ),
                   ),
-                ),
-                leading: Icon(
-                  Icons.question_answer,
-                  color: currentTheme.primaryColor,
-                ),
-                onTap: () {
-                  Routemaster.of(context).push('/quiz-screen');
-                },
-              ),
-              ListTile(
-                title: Text(
-                  "TTS",
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    color: currentTheme.primaryColor,
+                  leading: Icon(
+                    Icons.question_answer,
+                    color: Theme.of(context).primaryColor,
                   ),
+                  onTap: () {
+                    Routemaster.of(context).push('/quiz-screen');
+                  },
                 ),
-                leading: Icon(
-                  Icons.volume_up,
-                  color: currentTheme.primaryColor,
-                ),
-                onTap: () {
-                  Routemaster.of(context).push('/tts-screen');
-                },
-              ),
-              const Spacer(),
-              Switch.adaptive(
-                value: ref.watch(themeNotifierProvider.notifier).mode ==
-                    ThemeMode.dark,
-                onChanged: (val) => toggleTheme(ref),
-              ),
-              const SizedBox(height: 20),
-              ListTile(
-                title: Text(
-                  "Settings",
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    color: currentTheme.primaryColor,
+                ListTile(
+                  title: Text(
+                    "TTS",
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Theme.of(context).primaryColor,
+                    ),
                   ),
+                  leading: Icon(
+                    Icons.volume_up,
+                    color: Theme.of(context).primaryColor,
+                  ),
+                  onTap: () {
+                    Routemaster.of(context).push('/tts-screen');
+                  },
                 ),
-                leading: Icon(
-                  Icons.settings,
-                  color: currentTheme.primaryColor,
+                // const Divider(),
+                // Switch.adaptive(
+                //   value: ref.watch(themeNotifierProvider.notifier).mode ==
+                //       ThemeMode.dark,
+                //   onChanged: (val) => toggleTheme(ref),
+                // ),
+                // const SizedBox(height: 20),
+                const Spacer(),
+                ListTile(
+                  title: Text(
+                    "Settings",
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                  leading: Icon(
+                    Icons.settings,
+                    color: Theme.of(context).primaryColor,
+                  ),
+                  onTap: () {
+                    Routemaster.of(context).push('/settings-screen');
+                  },
                 ),
-                onTap: () {
-                  Routemaster.of(context).push('/settings-screen');
-                },
-              ),
-              ListTile(
-                title: Text(
-                  'Log out',
-                  style: TextStyle(
-                    fontSize: 16.0,
+                ListTile(
+                  title: Text(
+                    'Log out',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      color: Pallete.redColor,
+                    ),
+                  ),
+                  leading: Icon(
+                    Icons.logout,
                     color: Pallete.redColor,
                   ),
+                  onTap: () => logOut(ref),
                 ),
-                leading: Icon(
-                  Icons.logout,
-                  color: Pallete.redColor,
-                ),
-                onTap: () => logOut(ref),
-              ),
-              // Add more ListTile widgets as needed
-
-              DefaultTextStyle(
-                style: const TextStyle(
-                  fontSize: 12,
-                  color: Colors.white54,
-                ),
-                child: Container(
-                  margin: const EdgeInsets.symmetric(
-                    vertical: 16.0,
+                // Add more ListTile widgets as needed
+                DefaultTextStyle(
+                  style: const TextStyle(
+                    fontSize: 12,
+                    color: Colors.white54,
                   ),
-                  child: Text(
-                    "Dictionary",
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: currentTheme.primaryColor.withOpacity(0.4),
+                  child: Container(
+                    margin: const EdgeInsets.symmetric(
+                      vertical: 16.0,
+                    ),
+                    child: Text(
+                      "Dictionary",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Theme.of(context).primaryColor.withOpacity(0.4),
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
       child: Scaffold(
         appBar: AppBar(
-          // backgroundColor: currentTheme.appBarTheme.backgroundColor,
+          // backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
           // centerTitle: true,
           scrolledUnderElevation: 0,
           // backgroundColor: Colors.grey.withOpacity(0.1),
@@ -308,7 +314,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         bottomNavigationBar: BottomNavyBar(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           // containerHeight: 50,
-          // backgroundColor: currentTheme.scaffoldBackgroundColor,
+          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           selectedIndex: _currentIndex,
           showElevation: false,
           itemCornerRadius: 24,
@@ -331,15 +337,15 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               title: Text(
                 'English',
                 style: TextStyle(
-                  // backgroundColor: currentTheme.primaryColor,
-                  color: currentTheme
+                  // backgroundColor: Theme.of(context).primaryColor,
+                  color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
                   fontSize: 12,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
               activeColor: Colors.blue.shade200,
-              // activeColor: currentTheme.primaryColor,
+              // activeColor: Theme.of(context).primaryColor,
               inactiveColor: Colors.red,
               textAlign: TextAlign.center,
             ),
@@ -352,7 +358,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               title: Text(
                 'کوردی',
                 style: TextStyle(
-                  color: currentTheme
+                  color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
                   fontSize: 12,
                   // fontWeight: FontWeight.bold,
@@ -364,12 +370,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             BottomNavyBarItem(
               icon: Icon(
                 Icons.book,
-                color: currentTheme.primaryColor,
+                color: Theme.of(context).primaryColor,
               ),
               title: Text(
                 'Grammar',
                 style: TextStyle(
-                  color: currentTheme
+                  color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
                   fontSize: 12,
                   // fontWeight: FontWeight.bold,
@@ -382,12 +388,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             // BottomNavyBarItem(
             //   icon: Icon(
             //     Icons.quiz,
-            //     color: currentTheme.primaryColor,
+            //     color: Theme.of(context).primaryColor,
             //   ),
             //   title: Text(
             //     'Quiz',
             //     style: TextStyle(
-            //       color: currentTheme
+            //       color: Theme.of(context)
             //           .primaryColor, // Replace with your desired color
             //       fontSize: 12,
             //       // fontWeight: FontWeight.bold,
@@ -401,7 +407,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         // bottomNavigationBar: NavigationBarTheme(
         //   data: NavigationBarThemeData(
         //       // backgroundColor: Colors.grey.withOpacity(0.1),
-        //       indicatorColor: currentTheme.scaffoldBackgroundColor,
+        //       indicatorColor: Theme.of(context).scaffoldBackgroundColor,
         //       labelTextStyle: MaterialStateProperty.all(
         //         const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
         //       )),
@@ -409,13 +415,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         //     height: 60,
         //     labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
         //     animationDuration: const Duration(milliseconds: 600),
-        //     // backgroundColor: currentTheme.backgroundColor,
+        //     // backgroundColor: Theme.of(context).backgroundColor,
         //     onDestinationSelected: (int index) {
         //       setState(() {
         //         currentPageIndex = index;
         //       });
         //     },
-        //     indicatorColor: currentTheme.scaffoldBackgroundColor,
+        //     indicatorColor: Theme.of(context).scaffoldBackgroundColor,
         //     selectedIndex: currentPageIndex,
         //     destinations: <Widget>[
         //       NavigationDestination(
@@ -522,8 +528,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 //       body: Constants.tabWidgets[_page],
 //       drawer: const CommunityListDrawer(),
 //       bottomNavigationBar: CupertinoTabBar(
-//         // activeColor: currentTheme.iconTheme.color,
-//         backgroundColor: currentTheme.backgroundColor,
+//         // activeColor: Theme.of(context).iconTheme.color,
+//         backgroundColor: Theme.of(context).backgroundColor,
 //         items: [
 //           BottomNavigationBarItem(
             // icon: Image.asset(

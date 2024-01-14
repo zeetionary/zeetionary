@@ -12,6 +12,7 @@ import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'package:zeetionary/firebase/models/user_model.dart';
 import 'package:zeetionary/firebase_options.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/router.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
@@ -97,11 +98,16 @@ class _MyAppState extends ConsumerState<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    // final themeMode = ref.watch(themeProvider);
+
     return ref.watch(authStateChangeProvider).when(
           data: (data) => MaterialApp.router(
             debugShowCheckedModeBanner: false,
             title: 'Zettionary App',
-            theme: ref.watch(themeNotifierProvider),
+            // theme: ref.watch(themeNotifierProvider), // use toggle
+            theme: Pallete.lightModeAppTheme, // use system phone
+            darkTheme: Pallete.darkModeAppTheme, 
+            themeMode: ref.watch(themeProvider),
             routerDelegate: RoutemasterDelegate(
               routesBuilder: (context) {
                 if (data != null) {

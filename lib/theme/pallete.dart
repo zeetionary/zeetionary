@@ -7,6 +7,8 @@ final themeNotifierProvider =
   return ThemeNotifier();
 });
 
+
+
 class Pallete {
   // Colors
   static const blackColor = Color(0xFF0F0F0F); // primary color

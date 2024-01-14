@@ -7,7 +7,7 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 // import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
-import 'package:zeetionary/theme/pallete.dart';
+// import 'package:zeetionary/theme/pallete.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class Constants {
@@ -74,10 +74,10 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 
 //   @override
 //   Widget build(BuildContext context) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 
 //     return AppBar(
-//       backgroundColor: currentTheme.appBarTheme.backgroundColor,
+//       backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
 //       // centerTitle: true,
 //       scrolledUnderElevation: 0,
 //       title: const ZeetionaryAppbarStyle(),
@@ -112,15 +112,16 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Text(
       "Dictionary",
       style: TextStyle(
         fontSize: 26.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
-        color: currentTheme.primaryColor
-            .withOpacity(0.8), // Text color (will be masked by the gradient)
+        color: Theme.of(context).primaryColor,
+        // color: Theme.of(context).primaryColor
+        //     .withOpacity(0.8), // Text color (will be masked by the gradient)
       ),
     );
   }
@@ -133,15 +134,15 @@ class CustomTabBar extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
         // boxShadow: [
         //   BoxShadow(
-        //     color: currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-        //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
+        //     color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
         //     blurRadius: 4.0,
         //   ),
         // ],
@@ -149,14 +150,14 @@ class CustomTabBar extends ConsumerWidget {
         //   begin: Alignment.topLeft,
         //   end: Alignment.bottomRight,
         //   colors: [
-        //     currentTheme.primaryColor.withOpacity(0.06),
-        //     currentTheme.primaryColor.withOpacity(0.06),
-        //     // currentTheme.primaryColor.withOpacity(0.08),
-        //     // currentTheme.primaryColor.withOpacity(0.05),
+        //     Theme.of(context).primaryColor.withOpacity(0.06),
+        //     Theme.of(context).primaryColor.withOpacity(0.06),
+        //     // Theme.of(context).primaryColor.withOpacity(0.08),
+        //     // Theme.of(context).primaryColor.withOpacity(0.05),
         //   ],
         // ),
         border: Border.all(
-          color: currentTheme.primaryColor.withOpacity(0.08),
+          color: Theme.of(context).primaryColor.withOpacity(0.08),
           width: 1.0,
           style: BorderStyle.solid,
         ),
@@ -169,21 +170,21 @@ class CustomTabBar extends ConsumerWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              currentTheme.scaffoldBackgroundColor.withOpacity(0.25),
-              currentTheme.scaffoldBackgroundColor.withOpacity(0.45),
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
               // Colors.red.shade800.withOpacity(0.09),
               // Colors.red.shade800.withOpacity(0.07),
-              // currentTheme.primaryColor.withOpacity(0.08),
-              // currentTheme.primaryColor.withOpacity(0.05),
+              // Theme.of(context).primaryColor.withOpacity(0.08),
+              // Theme.of(context).primaryColor.withOpacity(0.05),
             ],
           ),
-          // color: currentTheme.primaryColor.withOpacity(0.1),
+          // color: Theme.of(context).primaryColor.withOpacity(0.1),
           borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(12.0),
             bottomRight: Radius.circular(12.0),
           ),
           border: Border.all(
-            color: currentTheme.primaryColor.withOpacity(0.18),
+            color: Theme.of(context).primaryColor.withOpacity(0.18),
             width: 1.0,
             style: BorderStyle.solid,
           ),
@@ -197,8 +198,8 @@ class CustomTabBar extends ConsumerWidget {
         //     bottomRight: Radius.circular(12.0),
         //   ),
         //   border: Border.all(
-        //     color: currentTheme.primaryColor.withOpacity(0.5),
-        //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+        //     color: Theme.of(context).primaryColor.withOpacity(0.5),
+        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         //     width: 2.0,
         //   ),
         // ),
@@ -216,7 +217,7 @@ class CustomTabBar extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 
 //     return TabBar(
 //       isScrollable: true,
@@ -239,7 +240,7 @@ class CustomTabBar extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 
 //     return TabBar(
 //       isScrollable: true,
@@ -344,7 +345,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Column(
       children: [
@@ -356,13 +357,13 @@ class YouTubeContainerDesign extends ConsumerWidget {
             // Add to the BoxDecoration of the outer Container:
             boxShadow: [
               BoxShadow(
-                color: currentTheme.primaryColor.withOpacity(0.06),
+                color: Theme.of(context).primaryColor.withOpacity(0.06),
                 offset: const Offset(0, 4),
                 blurRadius: 8,
               ),
             ],
             border: Border.all(
-              color: currentTheme.primaryColor.withOpacity(0.1),
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
               width: 1.0,
             ),
             borderRadius: BorderRadius.circular(
@@ -392,7 +393,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 
 //     return Column(
 //       children: [
@@ -403,7 +404,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 //           padding: const EdgeInsets.all(8.0),
 //           decoration: BoxDecoration(
 //             border: Border.all(
-//               color: currentTheme.primaryColor.withOpacity(0.1),
+//               color: Theme.of(context).primaryColor.withOpacity(0.1),
 //               width: 3.0, // Adjust the width as needed
 //             ),
 //           ),
@@ -475,7 +476,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 
 // class EntryTitle extends ConsumerWidget {
 //   final String word;
@@ -484,13 +485,13 @@ class YouTubeContainerDesign extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 //     return Expanded(
 //       child: Padding(
 //         padding: const EdgeInsets.symmetric(horizontal: 10.0),
 //         child: Container(
 //           decoration: BoxDecoration(
-//             color: currentTheme.primaryColor
+//             color: Theme.of(context).primaryColor
 //                 .withOpacity(0.05), // Add a background color
 //             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
 //           ),
@@ -500,7 +501,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 //               style: TextStyle(
 //                 fontSize: 26,
 //                 fontWeight: FontWeight.bold,
-//                 color: currentTheme.primaryColor
+//                 color: Theme.of(context).primaryColor
 //                     .withOpacity(0.8), // Set text color to white
 //               ),
 //             ),
@@ -540,13 +541,13 @@ class YouTubeContainerDesign extends ConsumerWidget {
 
 //   @override
 //   Widget build(BuildContext context, WidgetRef ref) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 //     return Expanded(
 //       child: Padding(
 //         padding: const EdgeInsets.symmetric(horizontal: 10.0),
 //         child: Container(
 //           decoration: BoxDecoration(
-//             color: currentTheme.primaryColor
+//             color: Theme.of(context).primaryColor
 //                 .withOpacity(0.05), // Add a background color
 //             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
 //           ),
@@ -556,7 +557,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
 //               style: TextStyle(
 //                 fontSize: 26,
 //                 fontWeight: FontWeight.bold,
-//                 color: currentTheme.primaryColor
+//                 color: Theme.of(context).primaryColor
 //                     .withOpacity(0.8), // Set text color to white
 //               ),
 //             ),
@@ -600,7 +601,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     // Widget build(BuildContext context, WidgetRef ref) {
     final textSize =
@@ -611,19 +612,19 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
           decoration: BoxDecoration(
-            // color: currentTheme.primaryColor.withOpacity(0.01),
+            // color: Theme.of(context).primaryColor.withOpacity(0.01),
             // gradient: LinearGradient(
             //   begin: Alignment.topLeft,
             //   end: Alignment.bottomRight,
             //   colors: [
-            //     currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-            //     currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-            //     // currentTheme.primaryColor.withOpacity(0.05),
-            //     // currentTheme.primaryColor.withOpacity(0.09),
+            //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+            //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+            //     // Theme.of(context).primaryColor.withOpacity(0.05),
+            //     // Theme.of(context).primaryColor.withOpacity(0.09),
             //     // Colors.red.shade800.withOpacity(0.09),
             //     // Colors.red.shade800.withOpacity(0.07),
-            //     // currentTheme.primaryColor.withOpacity(0.08),
-            //     // currentTheme.primaryColor.withOpacity(0.05),
+            //     // Theme.of(context).primaryColor.withOpacity(0.08),
+            //     // Theme.of(context).primaryColor.withOpacity(0.05),
             //   ],
             // ),
             borderRadius: const BorderRadius.only(
@@ -631,7 +632,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
               bottomRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              color: currentTheme.primaryColor.withOpacity(0.18),
+              color: Theme.of(context).primaryColor.withOpacity(0.18),
               // color: Colors.blue.withOpacity(0.3),
               width: 1.0,
               style: BorderStyle.solid,
@@ -646,8 +647,8 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
           //     bottomRight: Radius.circular(12.0),
           //   ),
           //   border: Border.all(
-          //     color: currentTheme.primaryColor.withOpacity(0.5),
-          //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+          //     color: Theme.of(context).primaryColor.withOpacity(0.5),
+          //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
           //     width: 2.0,
           //   ),
           // ),
@@ -656,8 +657,8 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
           //     colors: [
           //       Colors.blue.shade200.withOpacity(0.1),
           //       Colors.blue.shade700.withOpacity(0.2)
-          //       // currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
-          //       // currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
+          //       // Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+          //       // Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
           //     ],
           //   ),
           //   borderRadius: const BorderRadius.only(
@@ -666,7 +667,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
           //   ),
           //   border: Border.all(
           //     color: Colors.blue.shade800.withOpacity(0.4),
-          //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+          //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
           //     width: 2.0,
           //   ),
           // ),
@@ -681,7 +682,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
                   style: TextStyle(
                     fontSize: textSize,
                     fontWeight: FontWeight.bold,
-                    color: currentTheme.primaryColor.withOpacity(0.8),
+                    color: Theme.of(context).primaryColor.withOpacity(0.8),
                   ),
                 );
               },
@@ -759,7 +760,7 @@ class DefinitionKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 6; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 4; // Get text size and add 3
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(
@@ -909,7 +910,7 @@ class EnglishMeaningConst extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 4.0),
@@ -1040,9 +1041,9 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 
 //   @override
 //   Widget build(BuildContext context) {
-//     final currentTheme = ref.watch(themeNotifierProvider);
+//     // final currentTheme = ref.watch(themeNotifierProvider);
 //     return Card(
-//       color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+//       color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
 //       elevation: 3,
 //       // shadowColor: Colors.grey.withOpacity(0.5),
 //       margin: const EdgeInsets.all(8.0),
@@ -1054,9 +1055,9 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 //           borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
 //           side: _isExpanded
 //               // ? BorderSide(color: Colors.blue.withOpacity(0.3))
-//               ? BorderSide(color: currentTheme.primaryColor.withOpacity(0.3))
+//               ? BorderSide(color: Theme.of(context).primaryColor.withOpacity(0.3))
 //               // : BorderSide(color: Colors.blue.withOpacity(0.3)),
-//               : BorderSide(color: currentTheme.primaryColor.withOpacity(0.3))),
+//               : BorderSide(color: Theme.of(context).primaryColor.withOpacity(0.3))),
 //       child: Column(
 //         crossAxisAlignment: CrossAxisAlignment.end,
 //         children: [
@@ -1090,7 +1091,7 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 //                       Icon(
 //                         Icons.book,
 //                         color: Colors.blue.withOpacity(0.9),
-//                         // color: currentTheme.primaryColor.withOpacity(0.3),
+//                         // color: Theme.of(context).primaryColor.withOpacity(0.3),
 //                         size: 20.0,
 //                       ),
 //                     ],
@@ -1134,22 +1135,22 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
     return Container(
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
           ? BoxDecoration(
-              color: currentTheme.primaryColor.withOpacity(0.01),
+              color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
-                color: currentTheme.primaryColor.withOpacity(0.18),
+                color: Theme.of(context).primaryColor.withOpacity(0.18),
                 width: 1.0,
               ),
               borderRadius: const BorderRadius.all(Radius.circular(8.0)),
             )
           : BoxDecoration(
-              // color: currentTheme.primaryColor.withOpacity(0.01),
+              // color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
-                color: currentTheme.primaryColor.withOpacity(0.18),
+                color: Theme.of(context).primaryColor.withOpacity(0.18),
                 width: 1.0,
               ),
               borderRadius: const BorderRadius.all(Radius.circular(8.0)),
@@ -1195,7 +1196,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                       Icon(
                         Icons.book,
                         // color: Colors.blue.withOpacity(0.9),
-                        // color: currentTheme.primaryColor.withOpacity(0.3),
+                        // color: Theme.of(context).primaryColor.withOpacity(0.3),
                         size: 20.0,
                       ),
                     ],

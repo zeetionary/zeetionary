@@ -28,7 +28,7 @@ class _DrawerListTileState extends ConsumerState<DrawerListTile> {
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return SingleChildScrollView(
       child: Column(
@@ -38,12 +38,12 @@ class _DrawerListTileState extends ConsumerState<DrawerListTile> {
               "Quiz",
               style: TextStyle(
                 fontSize: 16.0,
-                color: currentTheme.primaryColor,
+                color: Theme.of(context).primaryColor,
               ),
             ),
             leading: Icon(
               Icons.question_answer,
-              color: currentTheme.primaryColor,
+              color: Theme.of(context).primaryColor,
             ),
             onTap: () {
               Routemaster.of(context).push('/quiz-screen');

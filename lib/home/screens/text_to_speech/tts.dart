@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/theme/pallete.dart';
+// import 'package:zeetionary/theme/pallete.dart';
 
 class TTSPage extends ConsumerStatefulWidget {
   const TTSPage({super.key});
@@ -37,7 +37,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -51,8 +51,8 @@ class _TTSPageState extends ConsumerState<TTSPage> {
               padding: const EdgeInsets.all(16.0),
               child: Container(
                 decoration: BoxDecoration(
-                  color: currentTheme.scaffoldBackgroundColor,
-                  border: Border.all(color: currentTheme.primaryColor),
+                  color: Theme.of(context).scaffoldBackgroundColor,
+                  border: Border.all(color: Theme.of(context).primaryColor),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Row(
@@ -63,12 +63,13 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(
-                              color: currentTheme.primaryColor, width: 1.0),
+                              color: Theme.of(context).primaryColor,
+                              width: 1.0),
                         ),
                         padding: const EdgeInsets.all(6.0),
                         child: Icon(
                           Icons.clear,
-                          color: currentTheme.primaryColor,
+                          color: Theme.of(context).primaryColor,
                           size: 15.0,
                         ),
                       ),
@@ -100,12 +101,12 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                       //       decoration: BoxDecoration(
                       //         shape: BoxShape.circle,
                       //         border: Border.all(
-                      //             color: currentTheme.primaryColor, width: 1.0),
+                      //             color: Theme.of(context).primaryColor, width: 1.0),
                       //       ),
                       //       padding: const EdgeInsets.all(6.0),
                       //       child: Icon(
                       //         Icons.pause,
-                      //         color: currentTheme.primaryColor,
+                      //         color: Theme.of(context).primaryColor,
                       //         size: 15.0,
                       //       )),
                       IconButton(
@@ -113,12 +114,14 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(
-                                color: currentTheme.primaryColor, width: 1.0),
+                                color: Theme.of(context).primaryColor,
+                                width: 1.0),
                           ),
                           padding: const EdgeInsets.all(6.0),
                           child: Icon(
                             Icons.pause,
-                            color: currentTheme.primaryColor,
+                            color: Theme.of(context).primaryColor,
+                            // color: Theme.of(context).primaryColor,
                             size: 15.0,
                           ),
                         ),
@@ -138,9 +141,10 @@ class _TTSPageState extends ConsumerState<TTSPage> {
               padding: const EdgeInsets.only(bottom: 16, left: 16, right: 16),
               child: Container(
                 decoration: BoxDecoration(
-                  color: currentTheme.scaffoldBackgroundColor,
+                  color: Theme.of(context).scaffoldBackgroundColor,
+                  // color: Theme.of(context).scaffoldBackgroundColor,
                   border: Border.all(
-                    color: currentTheme.primaryColor,
+                    color: Theme.of(context).primaryColor,
                   ),
                   borderRadius: BorderRadius.circular(8),
                 ),

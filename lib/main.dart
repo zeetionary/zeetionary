@@ -103,10 +103,10 @@ class _MyAppState extends ConsumerState<MyApp> {
     return ref.watch(authStateChangeProvider).when(
           data: (data) => MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            title: 'Zettionary App',
+            title: 'Zeetionary App',
             // theme: ref.watch(themeNotifierProvider), // use toggle
             theme: Pallete.lightModeAppTheme, // use system phone
-            darkTheme: Pallete.darkModeAppTheme, 
+            darkTheme: Pallete.darkModeAppTheme,
             themeMode: ref.watch(themeProvider),
             routerDelegate: RoutemasterDelegate(
               routesBuilder: (context) {

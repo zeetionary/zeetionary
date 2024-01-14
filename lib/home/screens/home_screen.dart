@@ -13,7 +13,7 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
-import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
+// import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
@@ -44,9 +44,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     _advancedDrawerController.showDrawer();
   }
 
-  void logOut(WidgetRef ref) {
-    ref.read(authControllerProvider.notifier).logout();
-  }
+  // void logOut(WidgetRef ref) {
+  //   ref.read(authControllerProvider.notifier).logout();
+  // }
 
   // void goToHistory(BuildContext context) {
   //   Navigator.of(context).push(
@@ -206,20 +206,20 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     Routemaster.of(context).push('/settings-screen');
                   },
                 ),
-                ListTile(
-                  title: Text(
-                    'Log out',
-                    style: TextStyle(
-                      fontSize: textSize,
-                      color: Pallete.redColor,
-                    ),
-                  ),
-                  leading: Icon(
-                    Icons.logout,
-                    color: Pallete.redColor,
-                  ),
-                  onTap: () => logOut(ref),
-                ),
+                // ListTile(
+                //   title: Text(
+                //     'Log out',
+                //     style: TextStyle(
+                //       fontSize: textSize,
+                //       color: Pallete.redColor,
+                //     ),
+                //   ),
+                //   leading: Icon(
+                //     Icons.logout,
+                //     color: Pallete.redColor,
+                //   ),
+                //   onTap: () => logOut(ref),
+                // ),
                 // Add more ListTile widgets as needed
                 DefaultTextStyle(
                   style: const TextStyle(

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 // import 'dart:ui' as ui; // Add this import
 
 // Theme Provider (zee; created system follow theme) https://chat.openai.com/c/e0708e57-3dee-4ffb-91b0-2b6358190057
@@ -69,10 +71,15 @@ void updateTextSize(WidgetRef ref, double newSize) {
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({super.key});
 
+  void logOut(WidgetRef ref) {
+    ref.read(authControllerProvider.notifier).logout();
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
     final isSliderExpanded = ref.watch(isSliderExpandedProvider);
+    final isLogoutExpanded = ref.watch(isLogoutExpandedProvider);
     final themeNotifier = ref.read(themeProvider.notifier);
     final themeMode = ref.watch(themeProvider);
 
@@ -86,6 +93,9 @@ class SettingsPage extends ConsumerWidget {
             onExpansionChanged: (expanded) =>
                 ref.read(isSliderExpandedProvider.notifier).state = expanded,
             children: [
+              const SizedBox(
+                height: 10,
+              ),
               SliderTheme(
                 data: SliderThemeData(
                   activeTrackColor: Colors.blue.withOpacity(0.8),
@@ -110,9 +120,9 @@ class SettingsPage extends ConsumerWidget {
               ),
             ],
           ),
-          const SizedBox(
-            height: 20,
-          ),
+          // const SizedBox(
+          //   height: 20,
+          // ),
           ExpansionTile(
             title: const Text(
               'Select Theme',
@@ -120,8 +130,11 @@ class SettingsPage extends ConsumerWidget {
               //   color: Theme.of(context).primaryColor.withOpacity(0.9),
               // ),
             ),
-            initiallyExpanded: false,
+            initiallyExpanded: true,
             children: [
+              const SizedBox(
+                height: 10,
+              ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
@@ -149,7 +162,46 @@ class SettingsPage extends ConsumerWidget {
                 ),
               ),
             ],
-          )
+          ),
+          // const SizedBox(
+          //   height: 30,
+          // ),
+          ExpansionTile(
+            leading: const Icon(
+              Icons.logout,
+              color: Colors.red,
+            ),
+            title: const Text(
+              'Log Out',
+              style: TextStyle(color: Colors.red),
+            ),
+            initiallyExpanded: isLogoutExpanded,
+            onExpansionChanged: (expanded) =>
+                ref.read(isLogoutExpandedProvider.notifier).state = expanded,
+            children: [
+              const SizedBox(
+                height: 10,
+              ),
+              ListTile(
+                title: Text(
+                  'Tap to log out',
+                  style: TextStyle(
+                    fontSize: textSize,
+                    color: Colors.red,
+                  ),
+                ),
+                // leading: const Icon(
+                //   Icons.logout,
+                //   color: Colors.red,
+                // ),
+                // onTap: () => logOut(ref),
+                onTap: () {
+                  logOut(ref);
+                  Routemaster.of(context).pop("/settings-screen");
+                },
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -170,4 +222,5 @@ class SettingsPage extends ConsumerWidget {
 }
 
 // Provider for managing slider expansion state
-final isSliderExpandedProvider = StateProvider<bool>((ref) => false);
+final isSliderExpandedProvider = StateProvider<bool>((ref) => true);
+final isLogoutExpandedProvider = StateProvider<bool>((ref) => false);

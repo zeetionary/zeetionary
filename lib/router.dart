@@ -2183,6 +2183,7 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
+  "/login-screen": (_) => const MaterialPage(child: LoginScreen()),
   "/tts-screen": (_) => const MaterialPage(child: TTSPage()),
   "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
   "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),

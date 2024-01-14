@@ -65,13 +65,13 @@ class EnglishEntryadverse extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "adverse"), // Find /ˈædvɜːs/,  /ədˈvɜːs/
+                                word: "adverse"), // Find /ˈædvɜːs/, /ədˈvɜːs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈædvɜːs/,  /ədˈvɜːs/"),
+                                text: "IpaUK: /ˈædvɜːs/, /ədˈvɜːs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdverse("en-GB"),
                             ),
@@ -81,7 +81,7 @@ class EnglishEntryadverse extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈædvɜːrs/,  /ədˈvɜːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ˈædvɜːrs/, /ədˈvɜːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAdverse("en-US"),
                             ),

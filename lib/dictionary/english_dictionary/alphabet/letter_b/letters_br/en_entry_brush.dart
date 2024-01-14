@@ -26,8 +26,8 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "speakbrushs111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A tiled floor is easy to brush clean."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When did he last brush his teeth, she wondered."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He brushed the dirt off his jacket."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Mike brushed a strand of hair out of her eyes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Brush the pastry with beaten egg."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs6(String languageCode) async {
@@ -67,7 +71,7 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She brushed past him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbrushs7(String languageCode) async {
@@ -75,7 +79,190 @@ class EnglishEntrybrush extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrushs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He brushed her lips with his."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs8(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I can't find my brush, but I still have my comb."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs9(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You'll need a stiff brush to scrape off the rust."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs10(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Change your toothbrush every month."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs11(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Give your teeth a good brush before going to bed."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs12(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He felt the brush of her hand on his."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs13(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She had a nasty brush with her boss this morning."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs14(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs15(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs16(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs17(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs18(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs19(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs20(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs21(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs22(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs23(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs24(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs25(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs26(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs27(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs28(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs29(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs2929"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -132,7 +319,7 @@ class EnglishEntrybrush extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -159,16 +346,17 @@ class EnglishEntrybrush extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: فڵچە، بڕۆس، پەڕەمووچ، کلکی ڕێوی، دەوەن، دارۆکە، بێشە، دڕوو، سێرت، دڕک، جاڕەدەوەن، وشکەڵ، لق‌وپۆپی بڕاو یان شکاو، ورکەدار، لقی شکاو یا بڕاو، شەڕوشۆڕ، تێکهەڵچوون، لێکدان، سڕین، فڵچەکاری، فڵچەلێدان، (ئەوسترالیا) کچ یان ژنی لەبار
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (کردار) پاککردنەوە بە فڵچە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "speakbrushs111111111111111111111111111111111"),
+                                      "A tiled floor is easy to brush clean."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text:
+                                      "زەوییەکی کاشیکراو ئاسان پاکدەکرێتەوە."),
                               const CustomSizedBoxForTTS(), // Define the word "brush" as
                               Column(
                                 children: [
@@ -177,6 +365,275 @@ class EnglishEntrybrush extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakbrushs1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "When did he last brush his teeth, she wondered."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تێ ڕاما کە کۆتا جار کەی بوو ددانی شووشت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) جوڵاندنی یان لێکردنەوەی شتێک بە فڵچەیەک یان بە دەستت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He brushed the dirt off his jacket."),
+                              const ExampleSentenceKurdish(
+                                  text: "تۆزەکەی بە چاکەتەکەیەوە تەکاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Mike brushed a strand of hair out of her eyes."),
+                              const ExampleSentenceKurdish(
+                                  text: "مایک تاڵە قژێکی بە چاوییەوە تەکاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) کردنی شیر، ڕۆن، یان هێلکە بە شتێکەوە بە بەکارهێنانی فڵچەیەک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Brush the pastry with beaten egg."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەویرەکە تەڕ بکە بە هێلکەی تێکدراو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) کێشان بە شتێکدا بە هێواشی لە کاتێکدا بە هێواشی بە لایاندا تێدەپەڕی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She brushed past him."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە لایدا تێپەڕی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He brushed her lips with his."),
+                              const ExampleSentenceKurdish(
+                                  text: "کوڕەکە لێوی نا بە لێوییەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) فڵچە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I can't find my brush, but I still have my comb."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فڵچەکەم دیار نییە، بەڵام شانەکەمم پێیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You'll need a stiff brush to scrape off the rust."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستیت بە فڵچەیەکە بۆ ئەوەی هەموو تۆزەکە بتەکێنی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Change your toothbrush every month."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەموو مانگێک فڵچەی ددانەکەت بگۆڕە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) شۆردن یان پاککردنەوە بە فڵچە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Give your teeth a good brush before going to bed."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێش ئەوەی بخەویت ششتنێکی باشی ددانت بکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (ناو) بەرکەوتنێکی هێواش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He felt the brush of her hand on his."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەستی بە بەرکەوتنی دەستی بە هی خۆی کەوت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (ناو) تێکهەڵچوونێک لەگەڵ کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had a nasty brush with her boss this morning."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەمەقاڵێیەکی توندی ئەم بەیانییە لەگەڵ بەڕێوبەرەکەی هەبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrushs13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrushs13("en-US"),
                                   ),
                                 ],
                               ),

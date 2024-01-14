@@ -3,53 +3,86 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaesthetic - replace speakAesthetic - replace aesthetic - /esˈθetɪk/ - find Dopsum2
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryaesthetic extends StatelessWidget {
-  EnglishEntryaesthetic({super.key});
+class EnglishEntrybrusque extends StatelessWidget {
+// blank divider
+  EnglishEntrybrusque({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAesthetic(String languageCode) async {
-    // DOPSUM: CHANGE speakAesthetic
+  Future<void> speakbrusque(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aesthetic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brusque"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAesth6588(String languageCode) async {
-    // DOPSUM: CHANGE speakAesthetic
+  Future<void> speakbrusques1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The doctor spoke in a brusque tone."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrusques2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The works of art are judged on purely aesthetic grounds."); // DOPSUM: CHANGE TEXT
+        "His secretary was a little brusque with me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAest67451(String languageCode) async {
-    // DOPSUM: CHANGE speakAesthetic
+  Future<void> speakbrusques3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their furniture was more aesthetic than functional."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrusques33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAest52887(String languageCode) async {
-    // DOPSUM: CHANGE speakAesthetic
+  Future<void> speakbrusques4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The students debated the aesthetic of the poems."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrusques44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrusques5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrusques55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrusques6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrusques66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrusques7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrusque
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrusques77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,27 +99,23 @@ class EnglishEntryaesthetic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aesthetic"), // Find /iːsˈθetɪk/,  /esˈθetɪk/
+                            EntryTitle(word: "brusque"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /iːsˈθetɪk/, /esˈθetɪk/"),
+                                text: "IpaUK: /bruːsk/,  /brʊsk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAesthetic("en-GB"),
+                              onPressed: () => speakbrusque("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /esˈθetɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /brʌsk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAesthetic("en-US"),
+                              onPressed: () => speakbrusque("en-US"),
                             ),
                           ],
                         ),
@@ -99,21 +128,26 @@ class EnglishEntryaesthetic extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -127,79 +161,46 @@ class EnglishEntryaesthetic extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جوانی‌ناسی‌یانە، ئیستێتیک، ھونەرمەندانە، ھونەری، ھونەرناس
+کوردی: بێ‌ڕەوشت، بێ‌ڕەوشتانە، بێ‌ماریفەت، بەپەلە، بێ‌تاقەت، بەهەشتاو، توند، توند و کت‌وپڕ (قسەکردن)
 
-١. (ھاوەڵناو) پەیوەندیدار بە جوانی ھونەر"""),
+١. (ھاوەڵناو) بەکارهێنانی وشەی کەم و بەشێوەیەک دەرکەوتن کە بێ‌شەرم"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The works of art are judged on purely aesthetic grounds."),
+                                  text: "The doctor spoke in a brusque tone."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت."),
-                              const CustomSizedBoxForTTS(),
+                                      "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد."),
+                              const CustomSizedBoxForTTS(), // Define the word "brusque" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAesth6588("en-GB"),
+                                    onPressed: () => speakbrusques1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAesth6588(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
+                                    onPressed: () => speakbrusques1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) درووستکراو بەشێوەیەکی ھونەری کە جوانە بۆ سەیرکردن"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Their furniture was more aesthetic than functional."),
+                                      "His secretary was a little brusque with me."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن."),
+                                      "سکرتێرەکەی کەمێک بێ‌ڕەوشت بوو لەگەڵم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAest67451("en-GB"),
+                                    onPressed: () => speakbrusques2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAest67451(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) جوانکاری و بیرۆکەکانی ناو کارێکی ھونەری یان ئەدەبی"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The students debated the aesthetic of the poems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAest52887("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAest52887(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
+                                    onPressed: () => speakbrusques2("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,7 +209,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -218,11 +219,17 @@ class EnglishEntryaesthetic extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -276,19 +283,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Adjective: aesthetic 
-1. Relating to or dealing with beauty (= esthetic [US])
-"aesthetic values";
- 
-2. Aesthetically pleasing (= esthetic [US], artistic)
-"an aesthetic flower arrangement";
- 
-3. Concerning or characterized by an appreciation of beauty or good taste (= esthetic [US], aesthetical, esthetical [US])
-"an aesthetic person"; "aesthetic feeling"; "the illustrations made the book an aesthetic success"; "the aesthetic faculties";
-
-- Noun: aesthetic (derived forms: aesthetics)
-1. (philosophy) a philosophical theory as to what is beautiful (= esthetic [US])
-"he despised the aesthetic of minimalism";
+- Adjective: brusque (Derived forms: brusquer, brusquest)
+1. Marked by rude or peremptory shortness (= brusk [non-standard], curt, short, snippy [informal])
+"try to cultivate a less brusque manner";
 """,
           ),
         ],
@@ -296,14 +293,14 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
     );
   }
 
-  // Function to start TTS
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
+- Adjective: brusque (Derived forms: brusquer, brusquest)
+1. Marked by rude or peremptory shortness (= brusk [non-standard], curt, short, snippy [informal])
+"try to cultivate a less brusque manner";
 """);
 
-    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -313,7 +310,6 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });
@@ -323,20 +319,21 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZ
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '-YWblbbMsFs';
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/3JnbhpPGMvY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 44, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 179, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -347,20 +344,21 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'V6yZi-Wrv8s';
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/em5lUKr7iWM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 31, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 59, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -371,20 +369,21 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'lfeYMl9ycFo';
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/hMNzZiN0-P0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1462, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 20, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -395,20 +394,21 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'fL4BXfaSXMU';
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/kajwtgDdLyI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 350, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 15, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -419,20 +419,21 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'EbxHATiIfUQ';
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/uplxc5lB7cQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 9512, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -443,20 +444,21 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'e3oHZ8YchsE';
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/rnBQXmO_StE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 577, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 226, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -467,20 +469,21 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '1WHMENFzCEw';
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/R32ldzx_JGc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 9464, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 232, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -491,20 +494,21 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'MJYK8x6krqI';
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/4JFEunuAFgw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1059, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 17, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -515,20 +519,21 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'AqvBmfpalQA';
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/xfYTqt_QAI8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 344, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 8, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -539,20 +544,21 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'Qdccz0_wfpk';
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/dnFsjuYuMvg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 81, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 121, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -562,4 +568,54 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "https://youtu.be/qiDMeT1JnVc?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 313, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// end WORD_WEB

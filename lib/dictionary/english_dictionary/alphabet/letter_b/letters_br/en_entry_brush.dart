@@ -7,80 +7,75 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybruise extends StatelessWidget {
+class EnglishEntrybrush extends StatelessWidget {
 // blank divider
-  EnglishEntrybruise({super.key});
+  EnglishEntrybrush({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbruise(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrush(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bruise"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brush"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises1(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His legs were covered in bruises."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbruises2(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She suffered only minor cuts and bruises."); // DOPSUM: CHANGE TEXT
+        "speakbrushs111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises3(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The apple had a small bruise, but it was still perfectly edible."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrushs22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises4(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had slipped and badly bruised her face."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrushs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises5(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Strawberries bruise easily."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrushs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises6(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They had been badly bruised by the defeat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrushs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbruises7(String languageCode) async {
-    // DOPSUM: CHANGE speakbruise
+  Future<void> speakbrushs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbruises77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrushs66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrushs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbrushs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -103,22 +98,22 @@ class EnglishEntrybruise extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bruise"),
+                            EntryTitle(word: "brush"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bruːz/"),
+                            const IPAofEnglish(text: "IpaUK: /brʌʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbruise("en-GB"),
+                              onPressed: () => speakbrush("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bruːz/"),
+                            const IPAofEnglish(text: "IpaUS: /brʌʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbruise("en-US"),
+                              onPressed: () => speakbrush("en-US"),
                             ),
                           ],
                         ),
@@ -137,7 +132,7 @@ class EnglishEntrybruise extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- FIND: 
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -164,139 +159,24 @@ class EnglishEntrybruise extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شین‌بوونەوە، کەووبوون، ڕەش‌بوونەوە، خوێن‌تێزان، لکە، لەکە، شینکە 
+کوردی: 
 
-١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His legs were covered in bruises."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاقی شینبووبووەوە."),
-                              const CustomSizedBoxForTTS(), // Define the word "bruise" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
+١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She suffered only minor cuts and bruises."),
+                                      "speakbrushs111111111111111111111111111111111"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنها تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "رستە_رستە_رستە_رستە."),
+                              const CustomSizedBoxForTTS(), // Define the word "brush" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbruises2("en-GB"),
+                                    onPressed: () => speakbrushs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بەشێک لەسەر میوە یان سەوزە کە خراپ بووە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The apple had a small bruise, but it was still perfectly edible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام هێشتا بە تەواوی خواردەنی بوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) شینبوونەوە یان شینکردنەوەی کەسێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had slipped and badly bruised her face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە خراپی کەوتبوو و ڕووخساری شینبووبوویەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Strawberries bruise easily."),
-                              const ExampleSentenceKurdish(
-                                  text: "تووت فەرەنگی زوو ڕەنگی دەگۆڕێت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) کاریگەری درووستکردن لەسەر کەسێک و وایان لێ بکەیت خەمبار بێ‌ورە بن"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had been badly bruised by the defeat."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە خراپی بێ‌ورە بووبوون بە شکستەکە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises6("en-US"),
+                                    onPressed: () => speakbrushs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -379,21 +259,46 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           // Speaker icon for American English
           const EnglishMeaningConst(
             text: """
-- Verb: bruise (Derived forms: bruising, bruises, bruised)
-1. Injure the underlying soft tissue or bone of (= contuse)
-"I bruised my knee";
-
-2. Cause (somebody) emotional pain or offence (= hurt, wound, injure, offend, spite)
-"This remark really bruised my ego";
+- Noun: brush (Derived forms: brushes)
+1. An implement that has hairs or bristles firmly set into a handle
  
-3. (cooking) break up into small pieces for food preparation
-"bruise the berries with a wooden spoon and strain them"
+2. A dense growth of bushes and small trees (= brushwood, coppice, copse, thicket)
  
-4. Damage (plant tissue) by abrasion or pressure
-"The customer bruised the strawberries by squeezing them"
+3. Momentary contact (= light touch)
+ 
+4. The act of brushing your teeth (= brushing)
+"the dentist recommended two brushes a day";
+ 
+5. The act of brushing your hair (= brushing)
+"he gave his hair a quick brush";
+ 
+6. Contact with something dangerous or undesirable
+"I had a brush with danger on my way to work"; "he tried to avoid any brushes with the police"
+ 
+7. A minor short-term fight (= clash, encounter, skirmish)
+ 
+8. A spring-loaded electrical contact between the stationary and rotating parts of a machine
+ 
+9. A bushy tail or part of a bushy tail (especially of the fox)
 
-- Noun: bruise (Derived forms: bruises)
-1. An injury that doesn't break the skin but results in some discolouration (= contusion)
+- Verb: brush (Derived forms: brushes, brushing, brushed)
+1. Rub with a brush, or as if with a brush
+"Johnson brushed the hairs from his jacket"
+ 
+2. Touch lightly and briefly
+"He brushed the wall lightly"
+ 
+3. Clean with a brush
+"She brushed the suit before hanging it back into the closet"
+ 
+4. Move across a surface or touching a surface (= sweep)
+"Her long skirt brushed the floor";
+
+5. Remove with or as if with a brush
+"brush away the crumbs"; "brush the dust from the jacket"; "brush aside the objections"
+ 
+6. Cover by brushing
+"brush the bread with melted butter"
 """,
           ),
         ],
@@ -404,21 +309,46 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> startSpeaking(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak("""
-- Verb: bruise (Derived forms: bruising, bruises, bruised)
-1. Injure the underlying soft tissue or bone of (= contuse)
-"I bruised my knee";
-
-2. Cause (somebody) emotional pain or offence (= hurt, wound, injure, offend, spite)
-"This remark really bruised my ego";
+- Noun: brush (Derived forms: brushes)
+1. An implement that has hairs or bristles firmly set into a handle
  
-3. (cooking) break up into small pieces for food preparation
-"bruise the berries with a wooden spoon and strain them"
+2. A dense growth of bushes and small trees (= brushwood, coppice, copse, thicket)
  
-4. Damage (plant tissue) by abrasion or pressure
-"The customer bruised the strawberries by squeezing them"
+3. Momentary contact (= light touch)
+ 
+4. The act of brushing your teeth (= brushing)
+"the dentist recommended two brushes a day";
+ 
+5. The act of brushing your hair (= brushing)
+"he gave his hair a quick brush";
+ 
+6. Contact with something dangerous or undesirable
+"I had a brush with danger on my way to work"; "he tried to avoid any brushes with the police"
+ 
+7. A minor short-term fight (= clash, encounter, skirmish)
+ 
+8. A spring-loaded electrical contact between the stationary and rotating parts of a machine
+ 
+9. A bushy tail or part of a bushy tail (especially of the fox)
 
-- Noun: bruise (Derived forms: bruises)
-1. An injury that doesn't break the skin but results in some discolouration (= contusion)
+- Verb: brush (Derived forms: brushes, brushing, brushed)
+1. Rub with a brush, or as if with a brush
+"Johnson brushed the hairs from his jacket"
+ 
+2. Touch lightly and briefly
+"He brushed the wall lightly"
+ 
+3. Clean with a brush
+"She brushed the suit before hanging it back into the closet"
+ 
+4. Move across a surface or touching a surface (= sweep)
+"Her long skirt brushed the floor";
+
+5. Remove with or as if with a brush
+"brush away the crumbs"; "brush the dust from the jacket"; "brush aside the objections"
+ 
+6. Cover by brushing
+"brush the bread with melted butter"
 """);
 
     setState(() {
@@ -441,12 +371,12 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/1KgSp94nCZw?t=";
+  static String myVideoId = "https://youtu.be/1vJVe5Byuv0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 598, // DOPSUM: CHANGE IT
+      startAt: 59, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +396,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/AKNcIO3mum0?t=";
+  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 57, // DOPSUM: CHANGE IT
+      startAt: 155, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +421,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/Zj-dUiYYH64?t=";
+  static String myVideoId = "https://youtu.be/CkDwF8RQ2Ow?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 623, // DOPSUM: CHANGE IT
+      startAt: 39, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +446,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/cmSphKD18uo?t=";
+  static String myVideoId = "https://youtu.be/u1GZk3TWNQQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 527, // DOPSUM: CHANGE IT
+      startAt: 122, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +471,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/MEkCi7c9oD0?t=";
+  static String myVideoId = "https://youtu.be/8E6jKFHD9Vk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 14, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +496,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/vzxwdxl0kSE?t=";
+  static String myVideoId = "https://youtu.be/ceFaIRjCBP8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +521,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/k6aloFwLASQ?t=";
+  static String myVideoId = "https://youtu.be/Jv81p3glM2Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 139, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +546,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/ZZm30vRf48U?t=";
+  static String myVideoId = "https://youtu.be/o2CVh2WjS6Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,12 +571,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/V-Rv-I9nK50?t=";
+  static String myVideoId = "https://youtu.be/XGwqw6lLn54?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1037, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -666,12 +596,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/szxyOJNTYZ0?t=";
+  static String myVideoId = "https://youtu.be/UDJE9SbGz-Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1996, // DOPSUM: CHANGE IT
+      startAt: 132, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -691,12 +621,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/xzBynfWHUMY?t=";
+  static String myVideoId = "https://youtu.be/zweO7OJ_PFo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 250, // DOPSUM: CHANGE IT
+      startAt: 253, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -716,12 +646,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/VaT7IYQgyqo?t=";
+  static String myVideoId = "https://youtu.be/zvyVU9-NSoE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 66, // DOPSUM: CHANGE IT
+      startAt: 3573, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

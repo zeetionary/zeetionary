@@ -454,7 +454,7 @@ class EnglishEntrybreathe extends StatelessWidget {
                                       "Cotton clothing allows your skin to breathe."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسەبکێشێت."),
+                                      "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسە بکێشێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

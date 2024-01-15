@@ -572,7 +572,7 @@ class EnglishEntrybrief extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Will you accept this brief?"),
                               const ExampleSentenceKurdish(
-                                  text: "ئەم کەیسە وەردەگریت؟"),
+                                  text: "ئەم کەیسە/دۆسیەیە وەردەگریت؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

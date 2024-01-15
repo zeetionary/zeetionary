@@ -159,7 +159,7 @@ class EnglishEntryBSE extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نەخۆشی هاری یان شێتی گایی 
+کوردی: نەخۆشی ھاری یان شێتی گایی 
 
 ١. (ناو) نەخۆشییەک کە تووشی مێشکی مانگا دەبێت و دەیکوژێت"""),
                           Row(
@@ -169,7 +169,7 @@ class EnglishEntryBSE extends StatelessWidget {
                                       "The discovery of a case of BSE in the cattle herd raised concerns about food safety."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دۆزینەوەی حاڵەتێکی نەخۆشی هاری بووە بەهۆی نیگەرانی سەبارەت بە سەلامەتی خواردن."),
+                                      "دۆزینەوەی حاڵەتێکی نەخۆشی ھاری بووە بەھۆی نیگەرانی سەبارەت بە سەلامەتی خواردن."),
                               const CustomSizedBoxForTTS(), // Define the word "BSE" as
                               Column(
                                 children: [

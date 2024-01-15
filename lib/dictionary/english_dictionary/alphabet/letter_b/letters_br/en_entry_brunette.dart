@@ -159,7 +159,7 @@ class EnglishEntrybrunette extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ژنێکی سپی پێستی کە قژێکی قاوەیی تاریکی هەیە"""),
+١. (ناو) ژنێکی سپی پێستی کە قژێکی قاوەیی تاریکی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

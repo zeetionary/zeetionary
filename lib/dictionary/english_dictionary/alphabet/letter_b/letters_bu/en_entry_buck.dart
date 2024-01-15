@@ -165,7 +165,7 @@ class EnglishEntrybuck extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گاکێوی، (نێرە)گاکێوی، کەڵ، نێراسک، ئافوور، ئاڤۆر، کەروێشکی نێر، ئاسک، لێپرسراوێتی، بەرپرسایەتی، شەقە، چێوشەق، ئەسپەدارین
 
-١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی هندی، ڕاندی ئەفریقای باشوور"""),
+١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -279,14 +279,14 @@ class EnglishEntrybuck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) هەڵبەز و دابەزکردنی شتێک وەک ئەوەی کۆنترۆڵی نەبێت"),
+                                  "٥. (کردار) ھەڵبەز و دابەزکردنی شتێک وەک ئەوەی کۆنترۆڵی نەبێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The boat bucked beneath them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەلەمەکە هەڵبەز و دابەزی بوو لە ژێریاندا."),
+                                      "بەلەمەکە ھەڵبەز و دابەزی بوو لە ژێریاندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -162,7 +162,7 @@ class EnglishEntrybrusqueness extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پەلە، توندی
 
-١. (ناو) هەڵسوکەوتێک یان قسەکردنێک کە خێرا و بێ‌ڕێزانەیە"""),
+١. (ناو) ھەڵسوکەوتێک یان قسەکردنێک کە خێرا و بێ‌ڕێزانەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

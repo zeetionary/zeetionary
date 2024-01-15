@@ -159,7 +159,7 @@ class EnglishEntrybruschetta extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) خواردنێکی ئیتالییە کە لە نانێکی گەرم پێکهاتووە کە ڕۆنی زەیتوون و پارچەی بچووکی تەماتەی پێوەیە لەگەڵ کەرە، سەوزە، گۆشت، هتد"""),
+١. (ناو) خواردنێکی ئیتالییە کە لە نانێکی گەرم پێکھاتووە کە ڕۆنی زەیتوون و پارچەی بچووکی تەماتەی پێوەیە لەگەڵ کەرە، سەوزە، گۆشت، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -167,7 +167,7 @@ class EnglishEntrybruschetta extends StatelessWidget {
                                       "At the party, everyone loved the bruschetta appetizers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ئاهەنگەکە هەمووان حەزیان بە بروسشێتا بەرخۆراکەکە هەبوو."),
+                                      "لە ئاھەنگەکە ھەمووان حەزیان بە بروسشێتا بەرخۆراکەکە ھەبوو."),
                               const CustomSizedBoxForTTS(), // Define the word "bruschetta" as
                               Column(
                                 children: [

@@ -194,7 +194,7 @@ class EnglishEntrybruise extends StatelessWidget {
                                       "She suffered only minor cuts and bruises."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەنها تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
+                                      "تەنھا تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,7 +219,7 @@ class EnglishEntrybruise extends StatelessWidget {
                                       "The apple had a small bruise, but it was still perfectly edible."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام هێشتا بە تەواوی خواردەنی بوو."),
+                                      "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام ھێشتا بە تەواوی خواردەنی بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

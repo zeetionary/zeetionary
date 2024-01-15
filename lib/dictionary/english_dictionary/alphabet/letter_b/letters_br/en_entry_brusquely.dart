@@ -161,7 +161,7 @@ class EnglishEntrybrusquely extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵکار) بە بەکارهێنانی وشەی کەم و بێ‌شەرمانە دەرکەوتن"""),
+١. (ھاوەڵکار) بە بەکارھێنانی وشەی کەم و بێ‌شەرمانە دەرکەوتن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -159,7 +159,7 @@ class EnglishEntrybubblegum extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بنێشتی تۆقلەدار یان تۆقلەهەڵدەر
+کوردی: بنێشتی تۆقلەدار یان تۆقلەھەڵدەر
 
 ١. (ناو) جۆرە بنێشتێک کە گڵۆپی پێ دەکرێت"""),
                           Row(
@@ -169,7 +169,7 @@ class EnglishEntrybubblegum extends StatelessWidget {
                                       "The children enjoyed the sweet bubblegum."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان حەزیان بە بنێشتە شیرینەکە هەبوو."),
+                                      "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو."),
                               const CustomSizedBoxForTTS(), // Define the word "bubblegum" as
                               Column(
                                 children: [

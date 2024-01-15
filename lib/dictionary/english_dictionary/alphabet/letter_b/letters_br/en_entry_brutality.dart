@@ -160,9 +160,9 @@ class EnglishEntrybrutality extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دڕندایەتی، دڕندەیی، هۆڤیگەری، نەپارێزی، دڵڕەقی، توندوتیژی، ستەم، زوڵم، زۆرداری، زەبروزەنگ، گیانەوەرخوویی، دڕندەڕەفتاری
+کوردی: دڕندایەتی، دڕندەیی، ھۆڤیگەری، نەپارێزی، دڵڕەقی، توندوتیژی، ستەم، زوڵم، زۆرداری، زەبروزەنگ، گیانەوەرخوویی، دڕندەڕەفتاری
 
-١. (ناو) هەڵسوکەوتی دڕندانە و توندوتیژانە"""),
+١. (ناو) ھەڵسوکەوتی دڕندانە و توندوتیژانە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -187,7 +187,7 @@ class EnglishEntrybrutality extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕوون و ئاشکرا لەسەر شتێکی ناخۆش؛ بەبێ گرنگیدان بە هەستی خەڵکی"),
+                                  "٢. (ناو) ڕوون و ئاشکرا لەسەر شتێکی ناخۆش؛ بەبێ گرنگیدان بە ھەستی خەڵکی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

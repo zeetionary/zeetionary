@@ -161,7 +161,7 @@ class EnglishEntrybrutal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دڕندە، هۆڤ، بێ‌بەزەیی، نەپارێز، دڵڕەق، گیانەوەرخوو، دڵڕەش، توندوتیژ، زۆردار، زاڵم، بەزەبروزەنگ، دڕندانە، بێ‌بەزەیی‌یانە، ناخۆش، تاڵ
+کوردی: دڕندە، ھۆڤ، بێ‌بەزەیی، نەپارێز، دڵڕەق، گیانەوەرخوو، دڵڕەش، توندوتیژ، زۆردار، زاڵم، بەزەبروزەنگ، دڕندانە، بێ‌بەزەیی‌یانە، ناخۆش، تاڵ
 
 ١. (ھاوەڵناو) توندوتیژ و دڕندانە"""),
                           Row(
@@ -171,7 +171,7 @@ class EnglishEntrybrutal extends StatelessWidget {
                                       "He had presided over a brutal regime in which thousands of people had been killed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا هەزاران کەس کوژران."),
+                                      "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران."),
                               const CustomSizedBoxForTTS(), // Define the word "brutal" as
                               Column(
                                 children: [
@@ -210,7 +210,7 @@ class EnglishEntrybrutal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بە ڕوونی و بەبێ گرنگیدان بە هەستەکانی کەسێک"),
+                                  "٢. (ھاوەڵناو) بە ڕوونی و بەبێ گرنگیدان بە ھەستەکانی کەسێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -161,7 +161,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئاوزوونە، ئاغزۆنە، ئاوزوونگە، ئاوزێنە، پزیم، سێر، بەرەزمانە، بەلەزوانە، قولاپ، لاری، خواری، بادران، پێچ‌خواردن، چەمانەوە، داهاتنەوە، گەڕان 
+کوردی: ئاوزوونە، ئاغزۆنە، ئاوزوونگە، ئاوزێنە، پزیم، سێر، بەرەزمانە، بەلەزوانە، قولاپ، لاری، خواری، بادران، پێچ‌خواردن، چەمانەوە، داھاتنەوە، گەڕان 
 
 ١. (کردار) بەستن بە ئاوزوونە"""),
                           Row(
@@ -236,7 +236,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                                       "A weaker man would have buckled under the pressure."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "(بەکارهێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
+                                      "(بەکارھێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,7 +253,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، هتد"),
+                                  "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

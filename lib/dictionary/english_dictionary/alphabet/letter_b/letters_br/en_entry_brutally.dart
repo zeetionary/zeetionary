@@ -167,7 +167,7 @@ class EnglishEntrybrutally extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "He was brutally assaulted."),
                               const ExampleSentenceKurdish(
-                                  text: "بە دڕندانە هێرشی کرایە سەر."),
+                                  text: "بە دڕندانە ھێرشی کرایە سەر."),
                               const CustomSizedBoxForTTS(), // Define the word "brutally" as
                               Column(
                                 children: [
@@ -184,13 +184,13 @@ class EnglishEntrybrutally extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵکار) بە ڕوونی و ڕاستەوخۆ، بەبێ گرنگیدان بە هەستی خەڵکی"),
+                                  "٢. (ھاوەڵکار) بە ڕوونی و ڕاستەوخۆ، بەبێ گرنگیدان بە ھەستی خەڵکی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Let me be brutally frank about this."),
                               const ExampleSentenceKurdish(
-                                  text: "بهێڵە تەواو ڕاستگۆ بم سەبارەت بەمە."),
+                                  text: "بھێڵە تەواو ڕاستگۆ بم سەبارەت بەمە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

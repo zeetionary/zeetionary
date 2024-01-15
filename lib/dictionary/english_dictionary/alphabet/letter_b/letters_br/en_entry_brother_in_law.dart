@@ -159,9 +159,9 @@ class EnglishEntrybrotherinlaw extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شووبرا، هێوەر، تی
+کوردی: شووبرا، ھێوەر، تی
 
-١. (ھاوەڵناو) برای هاوسەرەکەت یان ژنەکەت؛ هاوسەری خوشک یان براکەت؛ هاوسەری خوشک و برای هاوژینەکەت"""),
+١. (ھاوەڵناو) برای ھاوسەرەکەت یان ژنەکەت؛ ھاوسەری خوشک یان براکەت؛ ھاوسەری خوشک و برای ھاوژینەکەت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

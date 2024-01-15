@@ -164,7 +164,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەوەڕین، چەرین، چرپی، هەژگ، گەڵاوپژ، پەڕهەڵدانەوە، هەڵدانەوە، گەڕان 
+کوردی: لەوەڕین، چەرین، چرپی، ھەژگ، گەڵاوپژ، پەڕھەڵدانەوە، ھەڵدانەوە، گەڕان 
 
 ١. (ناو) کرداری سەیرکردنی ژمارەیەکی زۆر شت لە فرۆشگایەکدا وەک لە یەک شت"""),
                           Row(
@@ -191,7 +191,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کرداری سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، هتد بەبێ خوێندنەوەی هەموو شتێک"),
+                                  "٢. (ناو) کرداری سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، ھتد بەبێ خوێندنەوەی ھەموو شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -241,7 +241,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، هتد بەبێ خوێندنەوەی هەموو شتێک "),
+                                  "٤. (کردار) سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، ھتد بەبێ خوێندنەوەی ھەموو شتێک "),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -249,7 +249,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                                       "I spent the whole evening just browsing on the internet."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو ئێوارەکەم بەسەربرد بە گەڕان بە ئینتەرنێتدا."),
+                                      "ھەموو ئێوارەکەم بەسەربرد بە گەڕان بە ئینتەرنێتدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

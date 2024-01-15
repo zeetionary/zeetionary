@@ -220,7 +220,7 @@ class EnglishEntrybucket extends StatelessWidget {
                                       "The excavator's bucket scooped up the loose earth."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قەپی حەفارەکە زەوییە نەرمەکەی هەڵکەند."),
+                                      "قەپی حەفارەکە زەوییە نەرمەکەی ھەڵکەند."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

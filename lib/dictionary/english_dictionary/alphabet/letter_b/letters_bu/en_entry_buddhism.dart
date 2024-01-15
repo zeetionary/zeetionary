@@ -163,7 +163,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بوداییزم، بوداباوەڕی
 
-١. (ناو) بودیزم؛ ئاینێکی هندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"""),
+١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -191,7 +191,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                                       "The practice of meditation is a very important part of Buddhism."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕاهێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە."),
+                                      "ڕاھێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

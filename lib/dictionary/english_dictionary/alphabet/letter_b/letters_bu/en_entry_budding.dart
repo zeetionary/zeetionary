@@ -170,7 +170,7 @@ class EnglishEntrybudding extends StatelessWidget {
                                       "The budding young star is now hot property in Hollywood."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە هۆڵیهوددا."),
+                                      "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا."),
                               const CustomSizedBoxForTTS(), // Define the word "budding" as
                               Column(
                                 children: [
@@ -192,7 +192,7 @@ class EnglishEntrybudding extends StatelessWidget {
                                       "While still at school she was clearly a budding genius."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە هێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی هەڵکوتوو بوو."),
+                                      "کە ھێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی ھەڵکوتوو بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

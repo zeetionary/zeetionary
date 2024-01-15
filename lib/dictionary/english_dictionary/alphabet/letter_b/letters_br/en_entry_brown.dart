@@ -194,7 +194,7 @@ class EnglishEntrybrown extends StatelessWidget {
                                       "Henry has short brown hair and green eyes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێنری قژی قاوەیی کورتی هەیە لەگەڵ چاوی سەوزدا."),
+                                      "ھێنری قژی قاوەیی کورتی ھەیە لەگەڵ چاوی سەوزدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,7 +211,7 @@ class EnglishEntrybrown extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هەبوونی پێستێک کە بەسرووشتی قاوەییە یان بەهۆی خۆرەوە گۆڕاوە"),
+                                  "٢. (ھاوەڵناو) ھەبوونی پێستێک کە بەسرووشتی قاوەییە یان بەھۆی خۆرەوە گۆڕاوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

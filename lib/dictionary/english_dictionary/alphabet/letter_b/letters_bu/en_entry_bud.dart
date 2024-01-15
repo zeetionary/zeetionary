@@ -185,7 +185,7 @@ class EnglishEntrybud extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) بۆ ناوهێنانی پیاوێک کە نایناسیت"),
+                              text: "٢. (ناو) بۆ ناوھێنانی پیاوێک کە نایناسیت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -216,7 +216,7 @@ class EnglishEntrybud extends StatelessWidget {
                                       "In early spring the trees begin to bud."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە سەرەتای بەهاردا دارەکان دەست دەکەن بە خونچە گرتن."),
+                                      "لە سەرەتای بەھاردا دارەکان دەست دەکەن بە خونچە گرتن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

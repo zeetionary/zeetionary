@@ -161,7 +161,7 @@ class EnglishEntrybrowser extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەڵدەرەوە، گەڕانچی، وێب‌گەڕۆک
+کوردی: ھەڵدەرەوە، گەڕانچی، وێب‌گەڕۆک
 
 ١. (ناو) پڕۆگرامێکی کۆمپیوتەری کە بەکاردێت بۆ گيران بە ئینتەرنێت و خوێندنەوە تێیدا"""),
                           Row(
@@ -171,7 +171,7 @@ class EnglishEntrybrowser extends StatelessWidget {
                                       "What do you use as your default browser?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چی وەک وێب‌گەڕۆکێکی پێش‌هەڵبژاردەت (سەرەکی) بەکاردێنیت؟."),
+                                      "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟."),
                               const CustomSizedBoxForTTS(), // Define the word "browser" as
                               Column(
                                 children: [
@@ -209,7 +209,7 @@ class EnglishEntrybrowser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە سەیری گۆڤار، کتێب، هتد یان شت بۆ فرۆشتن دەکات بەڵام ڕەنگە مەبەستی نەبێت هیچ بکڕێت"),
+                                  "٢. (ناو) کەسێک کە سەیری گۆڤار، کتێب، ھتد یان شت بۆ فرۆشتن دەکات بەڵام ڕەنگە مەبەستی نەبێت ھیچ بکڕێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

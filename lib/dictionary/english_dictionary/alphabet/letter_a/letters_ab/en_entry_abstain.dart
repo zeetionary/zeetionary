@@ -149,7 +149,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                   text: "to abstain from alcohol/sex/drugs"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی هۆشبەر."),
+                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

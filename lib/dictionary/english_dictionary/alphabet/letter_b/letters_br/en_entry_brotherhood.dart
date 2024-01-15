@@ -163,7 +163,7 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: برایەتی، کۆمەڵە، کۆڕ، پێوەندی برادەری
 
-١. (ناو) هاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
+١. (ناو) ھاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                                       "The group tries to promote a spirit of brotherhood among its members."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گرووپەکە هەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
+                                      "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
                               const CustomSizedBoxForTTS(), // Define the word "brotherhood" as
                               Column(
                                 children: [
@@ -224,7 +224,7 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                                       "The ties of brotherhood strengthened as they faced challenges together."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیوەندیی برایانەیان بەهێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
+                                      "پەیوەندیی برایانەیان بەھێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

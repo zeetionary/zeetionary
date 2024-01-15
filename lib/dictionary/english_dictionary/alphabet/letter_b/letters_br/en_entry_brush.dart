@@ -346,7 +346,7 @@ class EnglishEntrybrush extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: فڵچە، بڕۆس، پەڕەمووچ، کلکی ڕێوی، دەوەن، دارۆکە، بێشە، دڕوو، سێرت، دڕک، جاڕەدەوەن، وشکەڵ، لق‌وپۆپی بڕاو یان شکاو، ورکەدار، لقی شکاو یا بڕاو، شەڕوشۆڕ، تێکهەڵچوون، لێکدان، سڕین، فڵچەکاری، فڵچەلێدان، (ئەوسترالیا) کچ یان ژنی لەبار
+کوردی: فڵچە، بڕۆس، پەڕەمووچ، کلکی ڕێوی، دەوەن، دارۆکە، بێشە، دڕوو، سێرت، دڕک، جاڕەدەوەن، وشکەڵ، لق‌وپۆپی بڕاو یان شکاو، ورکەدار، لقی شکاو یا بڕاو، شەڕوشۆڕ، تێکھەڵچوون، لێکدان، سڕین، فڵچەکاری، فڵچەلێدان، (ئەوسترالیا) کچ یان ژنی لەبار
 
 ١. (کردار) پاککردنەوە بە فڵچە"""),
                           Row(
@@ -439,13 +439,13 @@ class EnglishEntrybrush extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) کردنی شیر، ڕۆن، یان هێلکە بە شتێکەوە بە بەکارهێنانی فڵچەیەک"),
+                                  "٣. (کردار) کردنی شیر، ڕۆن، یان ھێلکە بە شتێکەوە بە بەکارھێنانی فڵچەیەک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Brush the pastry with beaten egg."),
                               const ExampleSentenceKurdish(
-                                  text: "هەویرەکە تەڕ بکە بە هێلکەی تێکدراو."),
+                                  text: "ھەویرەکە تەڕ بکە بە ھێلکەی تێکدراو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -462,7 +462,7 @@ class EnglishEntrybrush extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) کێشان بە شتێکدا بە هێواشی لە کاتێکدا بە هێواشی بە لایاندا تێدەپەڕی"),
+                                  "٤. (کردار) کێشان بە شتێکدا بە ھێواشی لە کاتێکدا بە ھێواشی بە لایاندا تێدەپەڕی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -533,7 +533,7 @@ class EnglishEntrybrush extends StatelessWidget {
                                       "You'll need a stiff brush to scrape off the rust."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێویستیت بە فڵچەیەکە بۆ ئەوەی هەموو تۆزەکە بتەکێنی."),
+                                      "پێویستیت بە فڵچەیەکە بۆ ئەوەی ھەموو تۆزەکە بتەکێنی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -553,7 +553,7 @@ class EnglishEntrybrush extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Change your toothbrush every month."),
                               const ExampleSentenceKurdish(
-                                  text: "هەموو مانگێک فڵچەی ددانەکەت بگۆڕە."),
+                                  text: "ھەموو مانگێک فڵچەی ددانەکەت بگۆڕە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -593,7 +593,7 @@ class EnglishEntrybrush extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) بەرکەوتنێکی هێواش"),
+                              text: "٧. (ناو) بەرکەوتنێکی ھێواش"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -601,7 +601,7 @@ class EnglishEntrybrush extends StatelessWidget {
                                       "He felt the brush of her hand on his."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەستی بە بەرکەوتنی دەستی بە هی خۆی کەوت."),
+                                      "ھەستی بە بەرکەوتنی دەستی بە ھی خۆی کەوت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -617,7 +617,7 @@ class EnglishEntrybrush extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (ناو) تێکهەڵچوونێک لەگەڵ کەسێک"),
+                              text: "٨. (ناو) تێکھەڵچوونێک لەگەڵ کەسێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -625,7 +625,7 @@ class EnglishEntrybrush extends StatelessWidget {
                                       "She had a nasty brush with her boss this morning."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەمەقاڵێیەکی توندی ئەم بەیانییە لەگەڵ بەڕێوبەرەکەی هەبوو."),
+                                      "دەمەقاڵێیەکی توندی ئەم بەیانییە لەگەڵ بەڕێوبەرەکەی ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

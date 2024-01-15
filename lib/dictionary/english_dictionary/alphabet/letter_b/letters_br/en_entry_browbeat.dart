@@ -161,7 +161,7 @@ class EnglishEntrybrowbeat extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ترساندن، تۆقاندن، تێڕاخوڕین
 
-١. (کردار) ترساندن یان هەڕەشەکردن لە کەسێک بۆ ئەوەی شتێک بکات"""),
+١. (کردار) ترساندن یان ھەڕەشەکردن لە کەسێک بۆ ئەوەی شتێک بکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -296,9 +296,9 @@ class EnglishEntrybubble extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بڵق، تۆقلە، پۆڕگاو، قوڵپ، پەقژک، هەک، بڵقەبڵق، کوڵەکوڵ، قوڵتەقوڵ
+کوردی: بڵق، تۆقلە، پۆڕگاو، قوڵپ، پەقژک، ھەک، بڵقەبڵق، کوڵەکوڵ، قوڵتەقوڵ
 
-١. (ناو) بڵق؛ تۆپەڵەیەک لە هەوا یان گاز لە ناو شلەدا"""),
+١. (ناو) بڵق؛ تۆپەڵەیەک لە ھەوا یان گاز لە ناو شلەدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -327,7 +327,7 @@ class EnglishEntrybubble extends StatelessWidget {
                                       "There are air bubbles trapped inside the ice."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بڵقە هەوا لە ناو سەهۆڵەکەدا گیریان خواردووە."),
+                                      "بڵقە ھەوا لە ناو سەھۆڵەکەدا گیریان خواردووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,7 +343,7 @@ class EnglishEntrybubble extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) کەفی سابوون، تایت، هتد"),
+                              text: "٢. (ناو) کەفی سابوون، تایت، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -368,7 +368,7 @@ class EnglishEntrybubble extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەمێک لە هەست کە کەسێک دەیەوێت دەری ببڕێت"),
+                                  "٣. (ناو) کەمێک لە ھەست کە کەسێک دەیەوێت دەری ببڕێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -376,7 +376,7 @@ class EnglishEntrybubble extends StatelessWidget {
                                       "A simple act of kindness can create a powerful bubble of hope."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەهێز لە هیوا درووست بکات."),
+                                      "ھەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەھێز لە ھیوا درووست بکات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -426,7 +426,7 @@ class EnglishEntrybubble extends StatelessWidget {
                                       "He's been staying with his sister and her husband at weekends since he chose to form a bubble with them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کۆتایی هەفتە لەگەڵ خوشکەکەی و هاوسەرەکەی ماوەتەوە بەهۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە."),
+                                      "لە کۆتایی ھەفتە لەگەڵ خوشکەکەی و ھاوسەرەکەی ماوەتەوە بەھۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -490,7 +490,7 @@ class EnglishEntrybubble extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (کردار) پڕ لە هەستێکی دیاریکراو"),
+                              text: "٨. (کردار) پڕ لە ھەستێکی دیاریکراو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -514,7 +514,7 @@ class EnglishEntrybubble extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) هەستێک کە بە بەهێزی بوونی هەیە"),
+                                  "٩. (کردار) ھەستێک کە بە بەھێزی بوونی ھەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

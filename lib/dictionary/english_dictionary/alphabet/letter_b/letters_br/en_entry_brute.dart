@@ -165,7 +165,7 @@ class EnglishEntrybrute extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دڕندە، گیانەوەرخوو، گیانەوەری، بێ‌بەزەیی، نامرۆڤانە، هۆڤ، جەستەیی، لەشی، تێنەگەیشتوو، شەهوانی، بنچینەیی، سادە و ناخۆش، گیانەوەر، گیان‌لەبەر (زلە و دڕ)، مرۆڤ یان گیانەوەری دڕندە، دڕندە، کێوی، گیانەوەری بێ‌زمان
+کوردی: دڕندە، گیانەوەرخوو، گیانەوەری، بێ‌بەزەیی، نامرۆڤانە، ھۆڤ، جەستەیی، لەشی، تێنەگەیشتوو، شەھوانی، بنچینەیی، سادە و ناخۆش، گیانەوەر، گیان‌لەبەر (زلە و دڕ)، مرۆڤ یان گیانەوەری دڕندە، دڕندە، کێوی، گیانەوەری بێ‌زمان
 
 ١. (ناو) کەسێکی دڕندە"""),
                           Row(
@@ -195,7 +195,7 @@ class EnglishEntrybrute extends StatelessWidget {
                                       "You've forgotten my birthday again, you brute!"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، هەی بێ‌هەست!"),
+                                      "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، ھەی بێ‌ھەست!"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,7 +258,7 @@ class EnglishEntrybrute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) شتێک کە پێویستی تەنها بەهێزە نەک بیرکردنەوە و زیرەکی"),
+                                  "٤. (ھاوەڵناو) شتێک کە پێویستی تەنھا بەھێزە نەک بیرکردنەوە و زیرەکی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -266,7 +266,7 @@ class EnglishEntrybrute extends StatelessWidget {
                                       "In the end she used brute force to push him out."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کۆتاییدا هێزی جەستەیی بەکارهێنا بۆ ئەوەی بیکاتە دەرەوە."),
+                                      "لە کۆتاییدا ھێزی جەستەیی بەکارھێنا بۆ ئەوەی بیکاتە دەرەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,7 +290,7 @@ class EnglishEntrybrute extends StatelessWidget {
                                       "Their desire for independence has to do with brute economics."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت هەیە."),
+                                      "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت ھەیە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -307,7 +307,7 @@ class EnglishEntrybrute extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە و هەستکردن، وەک ئاژەڵ"),
+                                  "٦. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە و ھەستکردن، وەک ئاژەڵ"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

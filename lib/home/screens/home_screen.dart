@@ -234,7 +234,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       "Dictionary",
                       style: TextStyle(
                         fontSize: 20,
-                        color: Theme.of(context).primaryColor.withOpacity(0.4),
+                        color: Theme.of(context).primaryColor.withOpacity(0.3),
                       ),
                     ),
                   ),
@@ -261,7 +261,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               valueListenable: _advancedDrawerController,
               builder: (_, value, __) {
                 return AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 250),
+                  duration: const Duration(milliseconds: 50),
                   child: Icon(
                     value.visible ? Icons.clear : Icons.menu,
                     key: ValueKey<bool>(value.visible),
@@ -294,6 +294,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               icon: const Icon(Icons.history),
               onPressed: () {
                 Routemaster.of(context).push('/history-screen');
+                // Routemaster.of(context).pop('/history-screen');
+                // Routemaster.of(context).replace('/history-screen');
               },
             ),
           ],
@@ -316,7 +318,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ),
         bottomNavigationBar: BottomNavyBar(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          // containerHeight: 50,
+          containerHeight: 60,
           // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           selectedIndex: _currentIndex,
           showElevation: false,
@@ -343,7 +345,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // backgroundColor: Theme.of(context).primaryColor,
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 12,
+                  fontSize: 14,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
@@ -363,7 +365,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 style: TextStyle(
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 12,
+                  fontSize: 14,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
@@ -380,7 +382,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 style: TextStyle(
                   color: Theme.of(context)
                       .primaryColor, // Replace with your desired color
-                  fontSize: 12,
+                  fontSize: 14,
                   // fontWeight: FontWeight.bold,
                 ),
               ),
@@ -398,7 +400,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             //     style: TextStyle(
             //       color: Theme.of(context)
             //           .primaryColor, // Replace with your desired color
-            //       fontSize: 12,
+            //       fontSize: 14,
             //       // fontWeight: FontWeight.bold,
             //     ),
             //   ),

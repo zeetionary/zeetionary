@@ -928,6 +928,75 @@ class EnglishMeaningConst extends ConsumerWidget {
   }
 }
 
+class EnglishButtonTTS extends StatefulWidget {
+  final Function(String) onBritishPressed;
+  final Function(String) onAmericanPressed;
+  final VoidCallback onStopPressed;
+
+  const EnglishButtonTTS({
+    required this.onBritishPressed,
+    required this.onAmericanPressed,
+    required this.onStopPressed,
+    super.key,
+  });
+
+  @override
+  // _EnglishButtonTTSState createState() => _EnglishButtonTTSState();
+  State<EnglishButtonTTS> createState() => _EnglishButtonTTSState();
+}
+
+class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
+  bool isSpeaking = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return IntrinsicWidth(
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: Theme.of(context).primaryColor.withOpacity(0.2),
+            width: 2.0, // You can adjust the border width
+          ),
+          borderRadius: BorderRadius.circular(50.0),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            CustomIconButtonBritish(
+              onPressed: () {
+                widget.onBritishPressed("en-GB");
+                updateSpeakingState(true);
+              },
+            ),
+            CustomIconButtonAmerican(
+              onPressed: () {
+                widget.onAmericanPressed("en-US");
+                updateSpeakingState(true);
+              },
+            ),
+            // Conditional rendering of pause button
+            if (isSpeaking)
+              IconButton(
+                icon: const Icon(Icons.pause, size: 30),
+                onPressed: () {
+                  widget.onStopPressed();
+                  updateSpeakingState(false);
+                },
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // Function to update the speaking state
+  void updateSpeakingState(bool speaking) {
+    setState(() {
+      isSpeaking = speaking;
+    });
+  }
+}
+
 class CustomSizedBoxForTTS extends StatelessWidget {
   const CustomSizedBoxForTTS({
     super.key,

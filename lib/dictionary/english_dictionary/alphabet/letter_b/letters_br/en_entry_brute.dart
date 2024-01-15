@@ -7,76 +7,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrutality extends StatelessWidget {
+class EnglishEntrybrute extends StatelessWidget {
 // blank divider
-  EnglishEntrybrutality({super.key});
+  EnglishEntrybrute({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrutality(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrute(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brutality"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brute"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The brutality of the dictator's regime shocked the international community."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbrutalitys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The comedian's humor had brutality."); // DOPSUM: CHANGE TEXT
+        .speak("His father was a drunken brute."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrutalitys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You've forgotten my birthday again, you brute!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrutalitys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We, unlike dumb brutes, can reflect on our experiences."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrutalitys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That was a brute of an exam paper."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrutalitys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the end she used brute force to push him out."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrutalitys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrutality
+  Future<void> speakbrutes6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrutalitys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their desire for independence has to do with brute economics."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbrutes7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrute
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "What distinguishes humans from the rest of the brute creation?"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -99,22 +104,22 @@ class EnglishEntrybrutality extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brutality"),
+                            EntryTitle(word: "brute"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bruːˈtæləti/"),
+                            const IPAofEnglish(text: "IpaUK: /bruːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrutality("en-GB"),
+                              onPressed: () => speakbrute("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bruːˈtæləti/"),
+                            const IPAofEnglish(text: "IpaUS: /bruːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrutality("en-US"),
+                              onPressed: () => speakbrute("en-US"),
                             ),
                           ],
                         ),
@@ -160,25 +165,91 @@ class EnglishEntrybrutality extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دڕندایەتی، دڕندەیی، هۆڤیگەری، نەپارێزی، دڵڕەقی، توندوتیژی، ستەم، زوڵم، زۆرداری، زەبروزەنگ، گیانەوەرخوویی، دڕندەڕەفتاری
+کوردی: دڕندە، گیانەوەرخوو، گیانەوەری، بێ‌بەزەیی، نامرۆڤانە، هۆڤ، جەستەیی، لەشی، تێنەگەیشتوو، شەهوانی، بنچینەیی، سادە و ناخۆش، گیانەوەر، گیان‌لەبەر (زلە و دڕ)، مرۆڤ یان گیانەوەری دڕندە، دڕندە، کێوی، گیانەوەری بێ‌زمان
 
-١. (ناو) هەڵسوکەوتی دڕندانە و توندوتیژانە"""),
+١. (ناو) کەسێکی دڕندە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "His father was a drunken brute."),
+                              const ExampleSentenceKurdish(
+                                  text: "باوکی دڕندەیەکی سەرخۆش بوو."),
+                              const CustomSizedBoxForTTS(), // Define the word "brute" as
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutes1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutes1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The brutality of the dictator's regime shocked the international community."),
+                                      "You've forgotten my birthday again, you brute!"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند."),
-                              const CustomSizedBoxForTTS(), // Define the word "brutality" as
+                                      "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، هەی بێ‌هەست!"),
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrutalitys1("en-GB"),
+                                    onPressed: () => speakbrutes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutalitys1("en-US"),
+                                    onPressed: () => speakbrutes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) نامرۆڤ؛ ئاژەڵ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We, unlike dumb brutes, can reflect on our experiences."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئێمە، بەپێچەوانەی حاژەڵە نەزانەکان، دەتوانین لە ئەزموونمان فێربین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutes3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutes3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) شتێکی گران و ناخۆش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "That was a brute of an exam paper."),
+                              const ExampleSentenceKurdish(
+                                  text: "تاقیکردنەوەیەکی زۆر گران بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutes4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -187,21 +258,72 @@ class EnglishEntrybrutality extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕوون و ئاشکرا لەسەر شتێکی ناخۆش؛ بەبێ گرنگیدان بە هەستی خەڵکی"),
+                                  "٤. (ھاوەڵناو) شتێک کە پێویستی تەنها بەهێزە نەک بیرکردنەوە و زیرەکی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The comedian's humor had brutality."),
+                                  text:
+                                      "In the end she used brute force to push him out."),
                               const ExampleSentenceKurdish(
-                                  text: "گاڵتەکانی کۆمیدیانەکە توند بوون."),
+                                  text:
+                                      "لە کۆتاییدا هێزی جەستەیی بەکارهێنا بۆ ئەوەی بیکاتە دەرەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbrutalitys2("en-GB"),
+                                    onPressed: () => speakbrutes5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutalitys2("en-US"),
+                                    onPressed: () => speakbrutes5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٥. (ھاوەڵناو) سەخت و ناخۆش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their desire for independence has to do with brute economics."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutes6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutes6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە و هەستکردن، وەک ئاژەڵ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "What distinguishes humans from the rest of the brute creation?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چی مرۆڤ جیادەکاتەوە لە گیانلەبەرە بێ‌زمانەکانی دیکە؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutes7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutes7("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,11 +380,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brutality (Derived forms: brutalities)
-1. The trait of extreme cruelty (= ferociousness, viciousness, savagery)
+- Noun: brute (Derived forms: brutes)
+1. A cruelly rapacious person (= beast, wolf, savage, wildcat [informal])
  
-2. A barbarous, cruel, or savage act (= barbarity, barbarism, savagery)
-"the people slowly progressed from brutality to civilization";
+2. A living organism characterized by voluntary movement (= animal, animate being, beast, creature, fauna)
+ 
+3. Someone who treats others inhumanely, or is regarded as wildly violent or uncivilized (= animal)
+
+- Adjective: brute 
+1. Resembling a beast; showing lack of human sensibility (= beastly, bestial, brutish, brutal)
+"brute force";
+
+2. Devoid of any qualifications, disguise or adornment (= blunt, crude, stark)
+"the brute truth";
 """,
   );
 
@@ -332,12 +462,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
+  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 889, // DOPSUM: CHANGE IT
+      startAt: 495, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -357,12 +487,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/OZ_xhkg32nk?t=";
+  static String myVideoId = "https://youtu.be/yRmOWcWdQAo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 794, // DOPSUM: CHANGE IT
+      startAt: 374, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -382,12 +512,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/bcdEFos9YQQ?t=";
+  static String myVideoId = "https://youtu.be/PmlRbfSavbI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1775, // DOPSUM: CHANGE IT
+      startAt: 643, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,12 +537,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/z56j06plUgs?t=";
+  static String myVideoId = "https://youtu.be/ofTb57aZHZs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 11, // DOPSUM: CHANGE IT
+      startAt: 394, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -432,12 +562,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/CX0XP3d0q2Q?t=";
+  static String myVideoId = "https://youtu.be/f7QWMUCMYOE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 239, // DOPSUM: CHANGE IT
+      startAt: 426, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,12 +587,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/R6reyiSpKuw?t=";
+  static String myVideoId = "https://youtu.be/3xneva3vFAI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 330, // DOPSUM: CHANGE IT
+      startAt: 99, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -482,12 +612,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/4kEil-H7490?t=";
+  static String myVideoId = "https://youtu.be/3pbTmXsfiYk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 387, // DOPSUM: CHANGE IT
+      startAt: 240, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -507,12 +637,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/gPHdypbzUU8?t=";
+  static String myVideoId = "https://youtu.be/ZryhmfcCWkE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 289, // DOPSUM: CHANGE IT
+      startAt: 202, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -532,12 +662,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/awXXb0_jdgQ?t=";
+  static String myVideoId = "https://youtu.be/7NZ9X9A2efA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 142, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,12 +687,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/OEilasT3hEI?t=";
+  static String myVideoId = "https://youtu.be/0iuRGYB9QLQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1758, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -582,12 +712,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/5nikgw5YqqA?t=";
+  static String myVideoId = "https://youtu.be/-tvA3Ezqjl8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 930, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -607,12 +737,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/wAJWXtVPB0k?t=";
+  static String myVideoId = "https://youtu.be/Gtp51eZkwoI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 39, // DOPSUM: CHANGE IT
+      startAt: 6490, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -7,81 +7,83 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybrusselssprout extends StatelessWidget {
+class EnglishEntrybrutal extends StatelessWidget {
 // blank divider
-  EnglishEntrybrusselssprout({super.key});
+  EnglishEntrybrutal({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbrusselssprout(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutal(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("brussels sprout"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("brutal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals1(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She reluctantly tried a Brussels sprout and was pleasantly surprised."); // DOPSUM: CHANGE TEXT
+        "He had presided over a brutal regime in which thousands of people had been killed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals2(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals3(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "With brutal honesty she told him she did not love him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals4(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrutals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals5(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrutals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals6(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrutals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbrusselssprouts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
+  Future<void> speakbrutals7(String languageCode) async {
+    // DOPSUM: CHANGE speakbrutal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbrusselssprouts77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbrutals77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -98,24 +100,22 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Brussels sprout"),
+                            EntryTitle(word: "brutal"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˌbrʌslz ˈspraʊt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbruːtl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbrusselssprout("en-GB"),
+                              onPressed: () => speakbrutal("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌbrʌslz ˈspraʊt/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbruːtl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbrusselssprout("en-US"),
+                              onPressed: () => speakbrutal("en-US"),
                             ),
                           ],
                         ),
@@ -133,12 +133,12 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -161,27 +161,72 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کەلەرمی سەوز، کەلەمە دوگمە، کەلەم‌فندقی، کەلەمی ڕاسێلی، کەلەمی برۆکسێلی
+کوردی: دڕندە، هۆڤ، بێ‌بەزەیی، نەپارێز، دڵڕەق، گیانەوەرخوو، دڵڕەش، توندوتیژ، زۆردار، زاڵم، بەزەبروزەنگ، دڕندانە، بێ‌بەزەیی‌یانە، ناخۆش، تاڵ
 
-١. (ناو) سەوزەیەکی خڕی بچووکی سەوز کە وەک کەلەرمێکی بچووکە"""),
+١. (ھاوەڵناو) توندوتیژ و دڕندانە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She reluctantly tried a Brussels sprout and was pleasantly surprised."),
+                                      "He had presided over a brutal regime in which thousands of people had been killed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە نابەدڵییەوە کەلەرمێکی سەوزی تاقیکردەوە و سەرسام بوو پێی."),
-                              const CustomSizedBoxForTTS(), // Define the word "brussels sprout" as
+                                      "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا هەزاران کەس کوژران."),
+                              const CustomSizedBoxForTTS(), // Define the word "brutal" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrusselssprouts1("en-GB"),
+                                    onPressed: () => speakbrutals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrusselssprouts1("en-US"),
+                                    onPressed: () => speakbrutals1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ساڵی ١٩٤٥ زیندانی کرا بۆ تیرۆری دڕندانەی کچێکی ١٢ ساڵان."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutals2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) بە ڕوونی و بەبێ گرنگیدان بە هەستەکانی کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "With brutal honesty she told him she did not love him."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە ڕاستگۆییەکی تاڵەوە پێی گوت کە خۆشی ناوێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbrutals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbrutals3("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,8 +244,8 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -238,8 +283,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: Brussels sprout (Derived forms: brussels sprouts)
-1. Plant grown for its stout stalks of edible small green heads resembling diminutive cabbages (= Brassica oleracea gemmifera)
+- Adjective: brutal 
+1. (of persons or their actions) able or disposed to inflict pain or suffering (= barbarous, cruel, fell, roughshod, savage, vicious)
+"brutal beatings";
+
+2. Punishingly harsh (= unrelenting)
+"a brutal winter"; "the brutal summer sun";
+ 
+3. Resembling a beast; showing lack of human sensibility (= beastly, bestial, brute, brutish)
+"brutal desires";
+
+4. Disagreeably direct and precise
+"he spoke with brutal honesty"
 """,
   );
 
@@ -309,12 +364,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/b7R9aIq2wYM?t=";
+  static String myVideoId = "https://youtu.be/8HEfIJlcFbs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 77, // DOPSUM: CHANGE IT
+      startAt: 104, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -334,12 +389,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/35Y06i7HnVo?t=";
+  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 1711, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,7 +414,32 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/TioJd76SIJg?t=";
+  static String myVideoId = "https://youtu.be/HKqEuFKEWLU?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 289, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/-zee6PV8Q2o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -381,40 +461,15 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "https://youtu.be/GjtnhE14muE?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 106, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/snQvpue6BKc?t=";
+  static String myVideoId = "https://youtu.be/kFjxhMbHqqo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 149, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +489,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/4RY1Z9pG_34?t=";
+  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 424, // DOPSUM: CHANGE IT
+      startAt: 1557, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +514,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/c8XHpLFDsQw";
+  static String myVideoId = "https://youtu.be/dJzTse9Dsaw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 369, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +539,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/G6LdQeCREHo?t=";
+  static String myVideoId = "https://youtu.be/Su2ylDHYO2U?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 14, // DOPSUM: CHANGE IT
+      startAt: 1906, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +564,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/w1JxNkMl7TA?t=";
+  static String myVideoId = "https://youtu.be/OEilasT3hEI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 126, // DOPSUM: CHANGE IT
+      startAt: 1372, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +589,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/wjtcu0yMR04?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 223, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +614,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/1odMnxoKKWc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1235, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

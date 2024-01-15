@@ -2166,9 +2166,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brusquely.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brusqueness.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brussels_sprout.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brutal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_brutality.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_br/en_entry_DOPSUM.dart';
@@ -4537,7 +4536,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bronchial": (_) => MaterialPage(child: EnglishEntrybronchial()),
   "/english-bronchitis": (_) => MaterialPage(child: EnglishEntrybronchitis()),
   "/english-bronze": (_) => MaterialPage(child: EnglishEntrybronze()),
-  "/english-bronze-medal": (_) => MaterialPage(child: EnglishEntrybronzemedal()),
+  "/english-bronze-medal": (_) =>
+      MaterialPage(child: EnglishEntrybronzemedal()),
   "/english-brooch": (_) => MaterialPage(child: EnglishEntrybrooch()),
   "/english-brood": (_) => MaterialPage(child: EnglishEntrybrood()),
   "/english-broody": (_) => MaterialPage(child: EnglishEntrybroody()),
@@ -4547,7 +4547,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brothel": (_) => MaterialPage(child: EnglishEntrybrothel()),
   "/english-brother": (_) => MaterialPage(child: EnglishEntrybrother()),
   "/english-brotherhood": (_) => MaterialPage(child: EnglishEntrybrotherhood()),
-  "/english-brother-in-law": (_) => MaterialPage(child: EnglishEntrybrotherinlaw()),
+  "/english-brother-in-law": (_) =>
+      MaterialPage(child: EnglishEntrybrotherinlaw()),
   "/english-brotherly": (_) => MaterialPage(child: EnglishEntrybrotherly()),
   "/english-brow": (_) => MaterialPage(child: EnglishEntrybrow()),
   "/english-browbeat": (_) => MaterialPage(child: EnglishEntrybrowbeat()),
@@ -4561,9 +4562,10 @@ final loggedInRoute = RouteMap(routes: {
   "/english-brusque": (_) => MaterialPage(child: EnglishEntrybrusque()),
   "/english-brusquely": (_) => MaterialPage(child: EnglishEntrybrusquely()),
   "/english-brusqueness": (_) => MaterialPage(child: EnglishEntrybrusqueness()),
-  "/english-brussels-sprout": (_) => MaterialPage(child: EnglishEntrybrusselssprout()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-brussels-sprout": (_) =>
+      MaterialPage(child: EnglishEntrybrusselssprout()),
+  "/english-brutal": (_) => MaterialPage(child: EnglishEntrybrutal()),
+  "/english-brutality": (_) => MaterialPage(child: EnglishEntrybrutality()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

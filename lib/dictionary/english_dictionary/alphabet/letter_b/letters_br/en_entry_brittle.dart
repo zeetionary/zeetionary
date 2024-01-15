@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: brittle (Derived forms: brittler, brittlest)
+- Adjective: brittle (derived forms: brittler, brittlest)
 1. Having little elasticity; hence easily cracked, fractured or snapped (= brickle, brickly)
 "brittle bones"; "glass is brittle";
  
@@ -413,7 +413,7 @@ ${englishMeaningConst.text}
  
 3. (of metal or glass) not annealed and consequently easily cracked or fractured (= unannealed)
 
-- Noun: brittle (Derived forms: brittles)
+- Noun: brittle (derived forms: brittles)
 1. Caramelized sugar cooled in thin sheets (= toffee, toffy)
 """,
   );

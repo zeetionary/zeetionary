@@ -360,10 +360,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brood (Derived forms: broods)
+- Noun: brood (derived forms: broods)
 1. The young of an animal cared for at one time
 
-- Verb: brood (Derived forms: brooded, broods, brooding)
+- Verb: brood (derived forms: brooded, broods, brooding)
 1. Think moodily or anxiously about something (= dwell)
  
 2. Hang over, as of something threatening, dark, or menacing (= hover, loom, bulk large)

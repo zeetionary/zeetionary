@@ -283,7 +283,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bridesmaid (Derived forms: bridesmaids)
+- Noun: bridesmaid (derived forms: bridesmaids)
 1. An unmarried woman who attends the bride at a wedding (= maid of honor [US], maid of honour [Brit, Cdn])
 """,
   );

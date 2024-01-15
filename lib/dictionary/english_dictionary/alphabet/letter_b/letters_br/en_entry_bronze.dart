@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bronze (Derived forms: bronzes)
+- Noun: bronze (derived forms: bronzes)
 1. An alloy of copper and tin and sometimes other elements; also any copper-base alloy containing other elements in place of tin
  
 2. A sculpture made of bronze
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
  
 4. A yellowish-brown colour, the colour of bronze
 
-- Verb: bronze (Derived forms: bronzed, bronzing, bronzes)
+- Verb: bronze (derived forms: bronzed, bronzing, bronzes)
 1. Give the colour and appearance of bronze to something
 "bronze baby shoes"
  

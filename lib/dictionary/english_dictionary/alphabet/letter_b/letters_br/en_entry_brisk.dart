@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: brisk (Derived forms: brisker, briskest)
+- Adjective: brisk (derived forms: brisker, briskest)
 1. Quick and energetic (= alert, lively, merry, rattling, snappy [informal], spanking [informal], zippy [informal])
 "a brisk walk in the park";
  
@@ -346,7 +346,7 @@ ${englishMeaningConst.text}
 3. Very active
 "doing a brisk business"
 
-- Verb: brisk (Derived forms: brisked, brisks, brisking)
+- Verb: brisk (derived forms: brisked, brisks, brisking)
 1. Become brisk (= brisk up, brisken)
 "business brisked up";
 """,

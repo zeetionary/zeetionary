@@ -379,13 +379,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcast (Derived forms: broadcasts)
+- Noun: broadcast (derived forms: broadcasts)
 1. Message that is transmitted by radio or television
  
 2. A radio or television show (= program [N. Amer], programme [Brit, Cdn])
 "did you see his broadcast last night?";
 
-- Verb: broadcast (Derived forms: broadcasted, broadcast, broadcasts, broadcasting)
+- Verb: broadcast (derived forms: broadcasted, broadcast, broadcasts, broadcasting)
 1. (broadcast medium) broadcast over the airwaves, as in radio or television (= air, send, beam, transmit)
 "We cannot broadcast this X-rated song";
 

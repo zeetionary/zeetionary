@@ -258,7 +258,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bronze medal (= Derived forms: bronze medals)
+- Noun: bronze medal (= derived forms: bronze medals)
 A trophy made of bronze (or having the appearance of bronze) that is usually awarded for winning third place in a competition (= bronze)
 """,
   );

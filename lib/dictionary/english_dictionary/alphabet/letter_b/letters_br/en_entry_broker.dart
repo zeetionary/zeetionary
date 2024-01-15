@@ -310,10 +310,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broker (Derived forms: brokers)
+- Noun: broker (derived forms: brokers)
 1. A businessman who buys or sells for another in exchange for a commission (= agent, factor)
 
-- Verb: broker (Derived forms: brokers, brokering, brokered)
+- Verb: broker (derived forms: brokers, brokering, brokered)
 1. Act as a broker
 """,
   );

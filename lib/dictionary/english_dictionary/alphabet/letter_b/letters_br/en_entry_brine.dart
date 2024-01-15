@@ -260,13 +260,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brine (Derived forms: brines)
+- Noun: brine (derived forms: brines)
 1. Water containing salts (= seawater, saltwater)
 "the water in the ocean is all brine";
  
 2. A strong solution of salt and water used for pickling
 
-- Verb: brine (Derived forms: brines, brining, brined)
+- Verb: brine (derived forms: brines, brining, brined)
 1. (cooking) soak in brine
 """,
   );

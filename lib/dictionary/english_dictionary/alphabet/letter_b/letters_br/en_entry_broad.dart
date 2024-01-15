@@ -780,7 +780,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: broad (Derived forms: broader, broadest)
+- Adjective: broad (derived forms: broader, broadest)
 1. Broad in scope or content (= across-the-board, all-embracing, all-encompassing, all-inclusive, blanket, encompassing, extensive, panoptic, wide)
 "an invention with broad applications";
  
@@ -805,7 +805,7 @@ ${englishMeaningConst.text}
 8. Showing or characterized by broad-mindedness (= large-minded, liberal, tolerant)
 "a broad political stance"; "generous and broad sympathies";
 
-- Noun: broad (Derived forms: broads)
+- Noun: broad (derived forms: broads)
 Usage: slang
 1. Slang term for a woman
 "a broad is a woman who can throw a mean punch"

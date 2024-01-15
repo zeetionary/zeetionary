@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brink (Derived forms: brinks)
+- Noun: brink (derived forms: brinks)
 1. A region marking a boundary (= threshold, verge)
  
 2. The edge of a steep place

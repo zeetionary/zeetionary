@@ -257,7 +257,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brolly (Derived forms: brollies)
+- Noun: brolly (derived forms: brollies)
 Usage: Brit, informal
 1. Colloquial term for an umbrella (= gamp [Brit, informal], bumbershoot [US, informal])
 """,

@@ -280,7 +280,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bridegroom (Derived forms: bridegrooms)
+- Noun: bridegroom (derived forms: bridegrooms)
 1. A man who has recently been married (= groom)
  
 2. A man participant in his own marriage ceremony (= groom)

@@ -261,10 +261,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brooch (Derived forms: brooches)
+- Noun: brooch (derived forms: brooches)
 1. A decorative pin worn by women (= breastpin)
 
-- Verb: brooch ((Derived forms: brooching, brooches, brooched))
+- Verb: brooch ((derived forms: brooching, brooches, brooched))
 1. Fasten with or as if with a brooch (= clasp)
 """,
   );

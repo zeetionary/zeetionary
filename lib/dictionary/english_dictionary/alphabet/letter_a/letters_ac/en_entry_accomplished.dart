@@ -24,7 +24,8 @@ class EnglishEntryaccomplished extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was an elegant and accomplished woman."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was an elegant and accomplished woman."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -121,10 +122,12 @@ class EnglishEntryaccomplished extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAccomplisheds1("en-GB"),
+                                    onPressed: () =>
+                                        speakAccomplisheds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAccomplisheds1("en-US"),
+                                    onPressed: () =>
+                                        speakAccomplisheds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,7 +204,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: accomplished  u'kúm-plisht
+- Adjective: accomplished
 1. Highly skilled (= complete)
 "an accomplished pianist";
  

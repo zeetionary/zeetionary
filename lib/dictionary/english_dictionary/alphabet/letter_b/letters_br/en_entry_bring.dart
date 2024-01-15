@@ -912,7 +912,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bring (Derived forms: brings, brought, bringing)
+- Verb: bring (derived forms: brings, brought, bringing)
 1. Take something or somebody with oneself somewhere (= convey, take)
 "Bring me the box from the other room"; "This brings me to the main point";
  

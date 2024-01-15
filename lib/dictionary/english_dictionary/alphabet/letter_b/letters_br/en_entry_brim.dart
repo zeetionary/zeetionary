@@ -376,12 +376,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brim (Derived forms: brims)
+- Noun: brim (derived forms: brims)
 1. The top edge of a vessel or other container (= rim, lip)
  
 2. A circular projection that sticks outward from the crown of a hat
 
-- Verb: brim (Derived forms: brims, brimming, brimmed)
+- Verb: brim (derived forms: brims, brimming, brimmed)
 1. Be completely full
 "His eyes brimmed with tears"
  

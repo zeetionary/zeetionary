@@ -312,14 +312,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: broody (Derived forms: broodies, broodier, broodiest)
+- Adjective: broody (derived forms: broodies, broodier, broodiest)
 1. Physiologically ready to incubate eggs
 "a broody hen"
  
 2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
 "Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
 
-- Noun: broody (Derived forms: broodies)
+- Noun: broody (derived forms: broodies)
 1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
 """,
   );

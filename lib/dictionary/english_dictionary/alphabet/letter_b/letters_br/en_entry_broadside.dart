@@ -313,7 +313,7 @@ ${englishMeaningConst.text}
 1. Toward a full side
 "a broadside attack"
 
-- Noun: broadside (Derived forms: broadsides)
+- Noun: broadside (derived forms: broadsides)
 1. An advertisement (usually printed on a page or in a leaflet) intended for wide distribution (= circular, handbill, bill, broadsheet, flier, flyer, throwaway)
  
 2. A speech of violent denunciation (= tirade, philippic)
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
 1. With a side facing an object
 "the train hit the truck broadside"; "the wave caught the canoe broadside and capsized it"
 
-- Verb: broadside (Derived forms: broadsided, broadsides, broadsiding)
+- Verb: broadside (derived forms: broadsided, broadsides, broadsiding)
 1. Collide with the broad side of
 """,
   );

@@ -740,7 +740,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bridge (Derived forms: bridges)
+- Noun: bridge (derived forms: bridges)
 1. A structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc. (= span)
  
 2. A circuit consisting of two branches (4 arms arranged in a diamond configuration) across which a meter is connected (= bridge circuit)
@@ -761,7 +761,7 @@ ${englishMeaningConst.text}
  
 9. Any of various card games based on whist for four players
 
-- Verb: bridge (Derived forms: bridging, bridges, bridged)
+- Verb: bridge (derived forms: bridging, bridges, bridged)
 1. Connect or reduce the distance between (= bridge over)
  
 2. Make a bridge across

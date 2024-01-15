@@ -285,10 +285,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brigade (Derived forms: brigades)
+- Noun: brigade (derived forms: brigades)
 1. Army unit smaller than a division, typically consisting of a small number of battalions
 
-- Verb: brigade (Derived forms: brigaded, brigades, brigading)
+- Verb: brigade (derived forms: brigaded, brigades, brigading)
 1. Form or unite into a brigade
 """,
   );

@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brickwork (Derived forms: brickworks)
+- Noun: brickwork (derived forms: brickworks)
 1. Masonry done with bricks and mortar
 """,
   );

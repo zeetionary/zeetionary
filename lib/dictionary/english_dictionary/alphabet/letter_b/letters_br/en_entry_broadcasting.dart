@@ -262,7 +262,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcasting (Derived forms: broadcastings)
+- Noun: broadcasting (derived forms: broadcastings)
 1. A medium that disseminates via telecommunications (= broadcast medium)
 """,
   );

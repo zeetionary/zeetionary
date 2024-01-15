@@ -313,7 +313,7 @@ ${englishMeaningConst.text}
 2. Of or pertaining to a bride
 "bridal gown"
 
-- Noun: bridal (Derived forms: bridals)
+- Noun: bridal (derived forms: bridals)
 Usage: archaic
 1. A wedding or wedding feast (= espousal)
 """,

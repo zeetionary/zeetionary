@@ -279,7 +279,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broken home (Derived forms: broken homes)
+- Noun: broken home (derived forms: broken homes)
 1. A family in which the parents have separated or divorced
 """,
   );

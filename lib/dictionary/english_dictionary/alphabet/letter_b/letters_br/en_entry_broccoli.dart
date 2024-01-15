@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broccoli (Derived forms: broccolis)
+- Noun: broccoli (derived forms: broccolis)
 1. Plant with dense clusters of tight green flower buds (= Brassica oleracea italica)
  
 2. Branched green undeveloped flower heads

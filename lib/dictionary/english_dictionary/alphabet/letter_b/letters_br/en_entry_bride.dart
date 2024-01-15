@@ -326,7 +326,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bride (Derived forms: brides)
+- Noun: bride (derived forms: brides)
 1. A woman who has recently been married
  
 2. A woman participant in her own marriage ceremony

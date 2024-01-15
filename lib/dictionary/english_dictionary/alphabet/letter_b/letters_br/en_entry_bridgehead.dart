@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bridgehead (Derived forms: bridgeheads)
+- Noun: bridgehead (derived forms: bridgeheads)
 1. An area in hostile territory that has been captured and is held awaiting further troops and supplies (= foothold)
 "an attempt to secure a bridgehead behind enemy lines";
 

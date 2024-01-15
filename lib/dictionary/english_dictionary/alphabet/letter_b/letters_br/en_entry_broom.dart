@@ -310,14 +310,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broom (Derived forms: brooms)
+- Noun: broom (derived forms: brooms)
 1. A cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
  
 2. Any of various shrubs of the genera Cytisus, Genista or Spartium having long slender branches and racemes of yellow flowers
  
 3. Common Old World heath represented by many varieties; low evergreen grown widely in the Northern Hemisphere (= heather, ling, Scots heather, Calluna vulgaris)
 
-- Verb: broom (Derived forms: brooming, brooms, broomed)
+- Verb: broom (derived forms: brooming, brooms, broomed)
 1. Collect or move dirt by moving a brush, hand, etc. in contact with a surface (= sweep)
  
 2. Finish with a broom

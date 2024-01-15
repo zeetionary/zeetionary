@@ -282,7 +282,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: broil (Derived forms: broiled, broils, broiling)
+- Verb: broil (derived forms: broiled, broils, broiling)
 Usage: N. Amer (elsewhere: grill)
 1. (cooking) cook under a broiler (= oven broil [N. Amer], grill)
 "broil fish";
@@ -293,7 +293,7 @@ Usage: N. Amer (elsewhere: grill)
 3. Be very hot, due to hot weather or exposure to the sun (= bake, grill)
 "The town was broiling in the sun";
 
-- Noun: broil (Derived forms: broils)
+- Noun: broil (derived forms: broils)
 Usage: N. Amer (elsewhere: grill)
 1. Cooking by direct exposure to radiant heat (as over a fire or under a grill) (= broiling [N. Amer], grilling, grill)
 """,

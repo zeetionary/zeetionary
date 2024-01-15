@@ -838,7 +838,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: brief (Derived forms: briefer, briefest)
+- Adjective: brief (derived forms: briefer, briefest)
 1. Of short duration or distance
 "a brief stay in the country"
  
@@ -848,7 +848,7 @@ ${englishMeaningConst.text}
 3. (of clothing) very short (= abbreviated)
 "a brief bikini";
 
-- Noun: brief (Derived forms: briefs)
+- Noun: brief (derived forms: briefs)
 1. (law) a document stating the facts and points of law of a client's case (= legal brief)
  
 2. A condensed written summary or abstract
@@ -856,7 +856,7 @@ ${englishMeaningConst.text}
 3. The topic that a person, committee, or piece of research is expected to deal with or has authority to deal with (= remit [Brit], responsibility)
 "they set up a group with a brief to suggest ways for strengthening family life";
 
-- Verb: brief (Derived forms: briefed, briefing, briefs)
+- Verb: brief (derived forms: briefed, briefing, briefs)
 1. Give essential information to someone
 "The reporters were briefed about the President's plan to invade"
 """,

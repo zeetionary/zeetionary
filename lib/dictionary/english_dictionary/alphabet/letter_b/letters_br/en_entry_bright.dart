@@ -755,7 +755,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bright (= Derived forms: brighter, brightest)
+- Adjective: bright (= derived forms: brighter, brightest)
 1. Having strong or striking colour (= brilliant, vivid)
 "bright dress";
 

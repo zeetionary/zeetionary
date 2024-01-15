@@ -283,7 +283,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: broach (Derived forms: broached, broaches, broaching)
+- Verb: broach (derived forms: broached, broaches, broaching)
 1. Bring up a topic for discussion (= initiate)
  
 2. Make an opening into (a container, bottle, etc)
@@ -292,7 +292,7 @@ ${englishMeaningConst.text}
 3. (sailing) lose control by becoming turned sideways to oncoming waves; become submerged by waves or water
 "Other than sinking, broaching can create one of sailing's most hair-raising moments"
 
-- Noun: broach (Derived forms: broaches)
+- Noun: broach (derived forms: broaches)
 1. A sharp tool for making or enlarging holes
  
 2. [non-standard] Alternative spelling of brooch

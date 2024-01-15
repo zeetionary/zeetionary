@@ -329,11 +329,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brook (Derived forms: brooks)
+- Noun: brook (derived forms: brooks)
 1. A natural stream of water smaller than a river (and often a tributary of a river) (= creek)
 "the brook dried up every summer";
 
-- Verb: brook (Derived forms: brooked, brooking, brooks)
+- Verb: brook (derived forms: brooked, brooking, brooks)
 1. Put up with something or somebody unpleasant (= digest, endure, stick out, stomach, bear, stand, tolerate, support, abide, suffer, put up)
 "The new secretary had to brook a lot of unprofessional remarks";
 """,

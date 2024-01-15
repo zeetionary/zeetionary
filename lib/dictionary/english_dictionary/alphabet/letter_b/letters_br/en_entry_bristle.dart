@@ -336,12 +336,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bristle (Derived forms: bristles)
+- Noun: bristle (derived forms: bristles)
 1. A stiff fibre (coarse hair or filament); natural or synthetic
  
 2. A stiff hair
 
-- Verb: bristle (Derived forms: bristled, bristles, bristling)
+- Verb: bristle (derived forms: bristled, bristles, bristling)
 1. Be in a state of movement or action (= abound, burst)
 "The garden bristled with toddlers";
  

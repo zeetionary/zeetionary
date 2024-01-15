@@ -26,7 +26,7 @@ class EnglishEntryannulment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The king sought an annulment of his marriage to Catherine of Aragon."); // DOPSUM: CHANGE TEXT
+        "Henry VIII sought an annulment of his marriage to Catherine of Aragon."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnnulment(String languageCode) async {
@@ -173,10 +173,10 @@ class EnglishEntryannulment extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The king sought an annulment of his marriage to Catherine of Aragon."),
+                                      "Henry VIII sought an annulment of his marriage to Catherine of Aragon."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا."),
+                                      "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

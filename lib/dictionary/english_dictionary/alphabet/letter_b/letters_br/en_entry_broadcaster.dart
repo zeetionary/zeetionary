@@ -290,7 +290,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: broadcaster (Derived forms: broadcasters)
+- Noun: broadcaster (derived forms: broadcasters)
 1. Someone who broadcasts on radio or television
  
 2. A mechanical device for scattering something (seed, fertilizer or sand etc.) in all directions (= spreader)

@@ -402,7 +402,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: brighten (Derived forms: brightens, brightening, brightened)
+- Verb: brighten (derived forms: brightens, brightening, brightened)
 1. Make more cheerful through the use of colour (= lighten up, lighten)
 "The paint will brighten the room";
  

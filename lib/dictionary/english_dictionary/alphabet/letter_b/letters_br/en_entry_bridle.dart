@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bridle (Derived forms: bridled, bridles, bridling)
+- Noun: bridle (derived forms: bridled, bridles, bridling)
 1. Headgear for a horse; includes a headstall and bit and reins to give the rider or driver control
  
 2. The act of restraining power, action or limiting excess (= check, curb)

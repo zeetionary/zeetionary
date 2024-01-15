@@ -258,7 +258,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bronchitis (Derived forms: bronchitises)
+- Noun: bronchitis (derived forms: bronchitises)
 1. Inflammation of the membranes lining the bronchial tubes
 """,
   );

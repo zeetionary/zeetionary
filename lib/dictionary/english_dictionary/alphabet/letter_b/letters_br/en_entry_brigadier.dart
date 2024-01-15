@@ -280,7 +280,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brigadier (Derived forms: brigadiers)
+- Noun: brigadier (derived forms: brigadiers)
 1. A general officer ranking below a major general (= brigadier general)
 """,
   );

@@ -2174,48 +2174,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "brolly",
     "bronchial",
     "bronchitis",
-    // "bronze",
-    // "bronze medal",
-    // "brooch",
-    // "brood",
-    // "broody",
-    // "brook",
-    // "broom",
-    // "broth",
-    // "brothel",
-    // "brother",
-    // "brotherhood",
-    // "brother-in-law",
-    // "brotherly",
-    // "brought",
-    // "brow",
-    // "browbeat",
-    // "brown",
-    // "browse",
-    // "browser",
-    // "bruise",
-    // "brunette",
-    // "bruschetta",
-    // "brush",
-    // "brusque",
-    // "brusquely",
-    // "brusqueness",
-    // "Brussels sprout",
-    // "brutal",
-    // "brutality",
-    // "brutally",
-    // "brute",
-    // "brutish",
-    // "BSE",
-    // "bubble",
-    // "bubblegum",
-    // "bubbly",
-    // "buck",
-    // "bucket",
-    // "buckle",
-    // "bud",
-    // "Buddhism",
-    // "budding",
+    "bronze",
+    "bronze medal",
+    "brooch",
+    "brood",
+    "broody",
+    "brook",
+    "broom",
+    "broth",
+    "brothel",
+    "brother",
+    "brotherhood",
+    "brother-in-law",
+    "brotherly",
+    "brought",
+    "brow",
+    "browbeat",
+    "brown",
+    "browse",
+    "browser",
+    "bruise",
+    "brunette",
+    "bruschetta",
+    "brush",
+    "brusque",
+    "brusquely",
+    "brusqueness",
+    "Brussels sprout",
+    "brutal",
+    "brutality",
+    "brutally",
+    "brute",
+    "brutish",
+    "BSE",
+    "bubble",
+    "bubblegum",
+    "bubbly",
+    "buck",
+    "bucket",
+    "buckle",
+    "bud",
+    "Buddhism",
+    "budding",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -11233,174 +11233,174 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bronchitis");
                   }
-                  // if (wordsEnglish == "bronze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bronze");
-                  // }
-                  // if (wordsEnglish == "bronze medal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bronze-medal");
-                  // }
-                  // if (wordsEnglish == "brooch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brooch");
-                  // }
-                  // if (wordsEnglish == "brood") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brood");
-                  // }
-                  // if (wordsEnglish == "broody") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broody");
-                  // }
-                  // if (wordsEnglish == "brook") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brook");
-                  // }
-                  // if (wordsEnglish == "broom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broom");
-                  // }
-                  // if (wordsEnglish == "broth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-broth");
-                  // }
-                  // if (wordsEnglish == "brothel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brothel");
-                  // }
-                  // if (wordsEnglish == "brother") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brother");
-                  // }
-                  // if (wordsEnglish == "brotherhood") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brotherhood");
-                  // }
-                  // if (wordsEnglish == "brother-in-law") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brother-in-law");
-                  // }
-                  // if (wordsEnglish == "brotherly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brotherly");
-                  // }
-                  // if (wordsEnglish == "brow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brow");
-                  // }
-                  // if (wordsEnglish == "browbeat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-browbeat");
-                  // }
-                  // if (wordsEnglish == "brown") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brown");
-                  // }
-                  // if (wordsEnglish == "browse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-browse");
-                  // }
-                  // if (wordsEnglish == "browser") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-browser");
-                  // }
-                  // if (wordsEnglish == "bruise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bruise");
-                  // }
-                  // if (wordsEnglish == "brunette") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brunette");
-                  // }
-                  // if (wordsEnglish == "bruschetta") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bruschetta");
-                  // }
-                  // if (wordsEnglish == "brush") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brush");
-                  // }
-                  // if (wordsEnglish == "brusque") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brusque");
-                  // }
-                  // if (wordsEnglish == "brusquely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brusquely");
-                  // }
-                  // if (wordsEnglish == "brusqueness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brusqueness");
-                  // }
-                  // if (wordsEnglish == "Brussels sprout") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brussels-sprout");
-                  // }
-                  // if (wordsEnglish == "brutal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brutal");
-                  // }
-                  // if (wordsEnglish == "brutality") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brutality");
-                  // }
-                  // if (wordsEnglish == "brutally") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brutally");
-                  // }
-                  // if (wordsEnglish == "brute") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brute");
-                  // }
-                  // if (wordsEnglish == "brutish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-brutish");
-                  // }
-                  // if (wordsEnglish == "BSE") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bse");
-                  // }
-                  // if (wordsEnglish == "mad cow disease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bse");
-                  // }
-                  // if (wordsEnglish == "bubble") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bubble");
-                  // }
-                  // if (wordsEnglish == "bubblegum") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bubblegum");
-                  // }
-                  // if (wordsEnglish == "bubbly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bubbly");
-                  // }
-                  // if (wordsEnglish == "buck") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buck");
-                  // }
-                  // if (wordsEnglish == "bucket") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bucket");
-                  // }
-                  // if (wordsEnglish == "buckle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buckle");
-                  // }
-                  // if (wordsEnglish == "bud") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bud");
-                  // }
-                  // if (wordsEnglish == "budding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-budding");
-                  // }
-                  // if (wordsEnglish == "Buddhism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buddhism");
-                  // }
+                  if (wordsEnglish == "bronze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bronze");
+                  }
+                  if (wordsEnglish == "bronze medal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bronze-medal");
+                  }
+                  if (wordsEnglish == "brooch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brooch");
+                  }
+                  if (wordsEnglish == "brood") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brood");
+                  }
+                  if (wordsEnglish == "broody") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broody");
+                  }
+                  if (wordsEnglish == "brook") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brook");
+                  }
+                  if (wordsEnglish == "broom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broom");
+                  }
+                  if (wordsEnglish == "broth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-broth");
+                  }
+                  if (wordsEnglish == "brothel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brothel");
+                  }
+                  if (wordsEnglish == "brother") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brother");
+                  }
+                  if (wordsEnglish == "brotherhood") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brotherhood");
+                  }
+                  if (wordsEnglish == "brother-in-law") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brother-in-law");
+                  }
+                  if (wordsEnglish == "brotherly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brotherly");
+                  }
+                  if (wordsEnglish == "brow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brow");
+                  }
+                  if (wordsEnglish == "browbeat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-browbeat");
+                  }
+                  if (wordsEnglish == "brown") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brown");
+                  }
+                  if (wordsEnglish == "browse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-browse");
+                  }
+                  if (wordsEnglish == "browser") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-browser");
+                  }
+                  if (wordsEnglish == "bruise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bruise");
+                  }
+                  if (wordsEnglish == "brunette") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brunette");
+                  }
+                  if (wordsEnglish == "bruschetta") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bruschetta");
+                  }
+                  if (wordsEnglish == "brush") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brush");
+                  }
+                  if (wordsEnglish == "brusque") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brusque");
+                  }
+                  if (wordsEnglish == "brusquely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brusquely");
+                  }
+                  if (wordsEnglish == "brusqueness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brusqueness");
+                  }
+                  if (wordsEnglish == "Brussels sprout") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brussels-sprout");
+                  }
+                  if (wordsEnglish == "brutal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brutal");
+                  }
+                  if (wordsEnglish == "brutality") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brutality");
+                  }
+                  if (wordsEnglish == "brutally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brutally");
+                  }
+                  if (wordsEnglish == "brute") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brute");
+                  }
+                  if (wordsEnglish == "brutish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-brutish");
+                  }
+                  if (wordsEnglish == "BSE") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bse");
+                  }
+                  if (wordsEnglish == "mad cow disease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bse");
+                  }
+                  if (wordsEnglish == "bubble") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bubble");
+                  }
+                  if (wordsEnglish == "bubblegum") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bubblegum");
+                  }
+                  if (wordsEnglish == "bubbly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bubbly");
+                  }
+                  if (wordsEnglish == "buck") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buck");
+                  }
+                  if (wordsEnglish == "bucket") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bucket");
+                  }
+                  if (wordsEnglish == "buckle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buckle");
+                  }
+                  if (wordsEnglish == "bud") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bud");
+                  }
+                  if (wordsEnglish == "budding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-budding");
+                  }
+                  if (wordsEnglish == "Buddhism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buddhism");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

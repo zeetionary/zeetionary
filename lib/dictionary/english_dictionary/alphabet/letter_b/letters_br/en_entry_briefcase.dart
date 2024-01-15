@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: briefcase (Derived forms: briefcases)
+- Noun: briefcase (derived forms: briefcases)
 1. A case with a handle; for carrying papers, files or books
 """,
   );

@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brochure (Derived forms: brochures)
+- Noun: brochure (derived forms: brochures)
 1. A small book usually having a paper cover (= booklet, folder, leaflet, pamphlet)
 """,
   );

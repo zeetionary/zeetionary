@@ -285,7 +285,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: brilliance (Derived forms: brilliances)
+- Noun: brilliance (derived forms: brilliances)
 1. A light within the field of vision that is brighter than the brightness to which the eyes are adapted (= glare, blaze)
 "a brilliance of sunlight";
 

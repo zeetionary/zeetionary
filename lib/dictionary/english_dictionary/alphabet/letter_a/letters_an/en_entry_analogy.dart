@@ -287,54 +287,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: analogy (derived forms: analogies)
-1. An inference that if things agree in some respects they probably agree in others
- 
-2. Drawing a comparison in order to show a similarity in some respect
-"the operation of a computer presents an interesting analogy to the working of the brain"; "the models show by analogy how matter is built up"
- 
-3. The religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate (= doctrine of analogy)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -357,6 +311,41 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: analogy (derived forms: analogies)
+1. An inference that if things agree in some respects they probably agree in others
+ 
+2. Drawing a comparison in order to show a similarity in some respect
+"the operation of a computer presents an interesting analogy to the working of the brain"; "the models show by analogy how matter is built up"
+ 
+3. The religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate (= doctrine of analogy)
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

@@ -316,55 +316,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: bread (derived forms: breads)
-1. Food made from dough of flour or meal and usually raised with yeast or baking powder and then baked (= breadstuff, staff of life)
- 
-2. [informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], cabbage [US, informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
-
-- Verb: bread (derived forms: breaded, breading, breads)
-1. (cooking) cover with bread crumbs
-"bread the pork chops before frying them"
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -387,6 +340,42 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: bread (derived forms: breads)
+1. Food made from dough of flour or meal and usually raised with yeast or baking powder and then baked (= breadstuff, staff of life)
+ 
+2. [informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], cabbage [US, informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
+
+- Verb: bread (derived forms: breaded, breading, breads)
+1. (cooking) cover with bread crumbs
+"bread the pork chops before frying them"
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

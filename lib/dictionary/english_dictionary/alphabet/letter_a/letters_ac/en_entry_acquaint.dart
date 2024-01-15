@@ -189,56 +189,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Verb: acquaint (derived forms: acquainted, acquaints, acquainting)
-1. Cause to come to know personally (= introduce, present)
-"permit me to acquaint you with my son";
- 
-2. Make familiar or conversant with (= familiarize, familiarise [Brit])
-"you should acquaint yourself with your new computer";
- 
-3. Inform
-"Please acquaint your colleagues of your plans to move"
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -261,6 +213,43 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: acquaint (derived forms: acquainted, acquaints, acquainting)
+1. Cause to come to know personally (= introduce, present)
+"permit me to acquaint you with my son";
+ 
+2. Make familiar or conversant with (= familiarize, familiarise [Brit])
+"you should acquaint yourself with your new computer";
+ 
+3. Inform
+"Please acquaint your colleagues of your plans to move"
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

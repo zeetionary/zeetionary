@@ -288,53 +288,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Verb: apologise (derived forms: apologised, apologises, apologising)
-Usage: Brit (N. Amer: apologize)
-1. Defend, explain, clear away, or make excuses for by reasoning (= apologize, excuse, rationalize, rationalise [Brit])
- 
-2. Express regret for something bad that one has done; acknowledge faults and mistakes (= apologize)
-"I apologised for being late"; "He apologised for the many typos";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -357,6 +312,40 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: apologise (derived forms: apologised, apologises, apologising)
+Usage: Brit (N. Amer: apologize)
+1. Defend, explain, clear away, or make excuses for by reasoning (= apologize, excuse, rationalize, rationalise [Brit])
+ 
+2. Express regret for something bad that one has done; acknowledge faults and mistakes (= apologize)
+"I apologised for being late"; "He apologised for the many typos";
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

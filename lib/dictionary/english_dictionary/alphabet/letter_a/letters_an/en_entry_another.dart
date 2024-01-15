@@ -295,7 +295,7 @@ class EnglishEntryanother extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (دیارخەر، جێناو) کەسێک یان شتێک کە وەک یەکێکی تە """),
+٣. (دیارخەر، جێناو) کەسێک یان شتێک کە وەک یەکێکی ترە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -361,53 +361,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Adjective: another 
-1. Any of various alternatives; some other; entity, singular, other pronoun; quantifier, singular, another (some other)
-"put it off to another day";
- 
-2. One more, in addition to a former
-"have another drink"
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -430,6 +385,40 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: another 
+1. Any of various alternatives; some other; entity, singular, other pronoun; quantifier, singular, another (some other)
+"put it off to another day";
+ 
+2. One more, in addition to a former
+"have another drink"
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

@@ -245,52 +245,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: aubergine (derived forms: aubergines)
-Usage: UK (=eggplant)
-1. Egg-shaped vegetable having a shiny skin typically dark purple but occasionally white or yellow (= eggplant [N. Amer, Austral, NZ], mad apple)
- 
-2. Hairy upright herb native to southeastern Asia but widely cultivated for its large glossy edible fruit commonly used as a vegetable (= eggplant [N. Amer, Austral, NZ], brinjal [S.Africa, Asia], eggplant bush [N. Amer, Austral, NZ], garden egg [N. Amer], mad apple, Solanum melongena)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -313,6 +269,39 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: aubergine (derived forms: aubergines)
+Usage: UK (=eggplant)
+1. Egg-shaped vegetable having a shiny skin typically dark purple but occasionally white or yellow (= eggplant [N. Amer, Austral, NZ], mad apple)
+ 
+2. Hairy upright herb native to southeastern Asia but widely cultivated for its large glossy edible fruit commonly used as a vegetable (= eggplant [N. Amer, Austral, NZ], brinjal [S.Africa, Asia], eggplant bush [N. Amer, Austral, NZ], garden egg [N. Amer], mad apple, Solanum melongena)
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

@@ -145,34 +145,35 @@ class EnglishEntryamen extends StatelessWidget {
                                     onPressed: () => speakAmen2411(
                                         // REPLACE: amen /eɪˈmen/,  /ɑːˈmen/
                                         "en-US"),
-                                  ),],),
-                                ],
-                              ),
-                              const DividerSentences(),
-                              // const DividerDefinition(),
-                              Row(
-                                children: [
-                                  const ExampleSentenceEnglish(
-                                      text:
-                                          "Amen to that (= I certainly agree with that)."),
-                                  const ExampleSentenceKurdish(
-                                      text: "خودا بکات (ئەوە ڕووبدات)."),
-                                  const CustomSizedBoxForTTS(),
-                                  Column(
-                                    children: [
-                                      CustomIconButtonBritish(
-                                        onPressed: () =>
-                                            speakAmen96552("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakAmen96552(
-                                            // REPLACE: amen /eɪˈmen/,  /ɑːˈmen/
-                                            "en-US"),
-                                      ),
-                                    ],
                                   ),
                                 ],
                               ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Amen to that (= I certainly agree with that)."),
+                              const ExampleSentenceKurdish(
+                                  text: "خودا بکات (ئەوە ڕووبدات)."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAmen96552("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmen96552(
+                                        // REPLACE: amen /eɪˈmen/,  /ɑːˈmen/
+                                        "en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -217,53 +218,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Interjection: amen 
-1. Expression used at the end of prayers, meaning So be it
-
-- Noun: Amen 
-1. A primeval Egyptian personification of air and breath; worshipped especially at Thebes (= Amon, Amun)
-"And blessed be his glorious name for ever: and let the whole earth be filled with his glory; Amen";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -286,6 +242,40 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Interjection: amen 
+1. Expression used at the end of prayers, meaning So be it
+
+- Noun: Amen 
+1. A primeval Egyptian personification of air and breath; worshipped especially at Thebes (= Amon, Amun)
+"And blessed be his glorious name for ever: and let the whole earth be filled with his glory; Amen";
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

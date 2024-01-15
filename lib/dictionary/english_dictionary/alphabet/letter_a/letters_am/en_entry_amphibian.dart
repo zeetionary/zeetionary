@@ -181,14 +181,16 @@ class EnglishEntryamphibian extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmphibian4410("en-GB"),
+                                    onPressed: () =>
+                                        speakAmphibian4410("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphibian4410(
+                                        // REPLACE: amphibian /æmˈfɪbiən/
+                                        "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphibian4410(
-                                    // REPLACE: amphibian /æmˈfɪbiən/
-                                    "en-US"),
-                              ),
-                                ],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -206,12 +208,13 @@ class EnglishEntryamphibian extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmphibian44588("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAmphibian44588(
-                                    // REPLACE: amphibian /æmˈfɪbiən/
-                                    "en-US"),
+                                    onPressed: () =>
+                                        speakAmphibian44588("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAmphibian44588(
+                                        // REPLACE: amphibian /æmˈfɪbiən/
+                                        "en-US"),
                                   ),
                                 ],
                               ),
@@ -259,56 +262,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Adjective: amphibian
-1. Relating to or characteristic of animals of the class Amphibia (= amphibious)
-
-- Noun: amphibian (derived forms: amphibians)
-1. A flat-bottomed motor vehicle that can travel on land or water (= amphibious vehicle)
- 
-2. An aeroplane designed to take off and land on water (= amphibious aircraft)
- 
-3. any animal that can live both on land and in water. Amphibians have cold blood and skin without scales. Frogs, toads and newts are all amphibians.
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -331,6 +286,43 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: amphibian
+1. Relating to or characteristic of animals of the class Amphibia (= amphibious)
+
+- Noun: amphibian (derived forms: amphibians)
+1. A flat-bottomed motor vehicle that can travel on land or water (= amphibious vehicle)
+ 
+2. An aeroplane designed to take off and land on water (= amphibious aircraft)
+ 
+3. any animal that can live both on land and in water. Amphibians have cold blood and skin without scales. Frogs, toads and newts are all amphibians.
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

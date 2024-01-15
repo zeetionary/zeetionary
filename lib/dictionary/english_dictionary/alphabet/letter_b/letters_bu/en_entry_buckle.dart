@@ -26,8 +26,7 @@ class EnglishEntrybuckle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She buckled her belt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She buckled her belt."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckles2(String languageCode) async {
@@ -43,7 +42,8 @@ class EnglishEntrybuckle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The steel frames began to buckle under the strain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The steel frames began to buckle under the strain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckles4(String languageCode) async {
@@ -51,7 +51,8 @@ class EnglishEntrybuckle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A weaker man would have buckled under the pressure."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A weaker man would have buckled under the pressure."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckles5(String languageCode) async {
@@ -59,7 +60,8 @@ class EnglishEntrybuckle extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She adjusted the tightness of her belt by moving the buckle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She adjusted the tightness of her belt by moving the buckle."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckles6(String languageCode) async {
@@ -132,7 +134,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -165,8 +167,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She buckled her belt."),
+                                  text: "She buckled her belt."),
                               const ExampleSentenceKurdish(
                                   text: "قایشەکەی بە ئاوەزوونەکە بەست."),
                               const CustomSizedBoxForTTS(), // Define the word "buckle" as
@@ -184,89 +185,95 @@ class EnglishEntrybuckle extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He buckled on his sword."),
-                          const ExampleSentenceKurdish(
-                          text: "شمشێرەکەی لە خۆی بەست."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckles2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckles2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He buckled on his sword."),
+                              const ExampleSentenceKurdish(
+                                  text: "شمشێرەکەی لە خۆی بەست."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckles2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) لاربوون یان شکان لەژێر کێشی شتێکدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) لاربوون یان شکان لەژێر کێشی شتێکدا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The steel frames began to buckle under the strain."),
-                          const ExampleSentenceKurdish(
-                          text: "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckles3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckles3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The steel frames began to buckle under the strain."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckles3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckles3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "A weaker man would have buckled under the pressure."),
-                          const ExampleSentenceKurdish(
-                          text: "(بەکارهێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckles4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckles4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A weaker man would have buckled under the pressure."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "(بەکارهێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckles4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckles4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، هتد"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، هتد"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She adjusted the tightness of her belt by moving the buckle."),
-                          const ExampleSentenceKurdish(
-                          text: "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckles5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckles5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She adjusted the tightness of her belt by moving the buckle."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckles5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckles5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -316,6 +323,32 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
@@ -342,56 +375,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
           ),
           // Speaker icon for American English
           englishMeaningConst,
         ],
       ),
     );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    // Update the state to reflect that TTS is in progress
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
   }
 }
 

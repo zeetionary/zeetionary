@@ -171,10 +171,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAckn1254("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAckn1254(
-                                    "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAckn1254(
+                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],
                               ),
@@ -194,11 +194,13 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAckn1427("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAckn1427(
+                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAckn1427(
-                                    "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -217,12 +219,13 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAckn12569("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAckn12569(
+                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAckn12569(
-                                    "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                              ),
-                                ],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -241,10 +244,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAckn647("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakAckn647(
-                                    "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAckn647(
+                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],
                               ),
@@ -292,6 +295,32 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
@@ -323,56 +352,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
           ),
           // Speaker icon for American English
           englishMeaningConst,
         ],
       ),
     );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    // Update the state to reflect that TTS is in progress
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
   }
 }
 

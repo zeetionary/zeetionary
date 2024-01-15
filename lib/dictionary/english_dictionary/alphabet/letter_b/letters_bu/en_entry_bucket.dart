@@ -35,7 +35,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cleaner put down his mop and bucket and sat down."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The cleaner put down his mop and bucket and sat down."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckets3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The excavator's bucket scooped up the loose earth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The excavator's bucket scooped up the loose earth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckets4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They used to drink tea by the bucketful."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They used to drink tea by the bucketful."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckets5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She poured the bucket of dirty water down the drain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She poured the bucket of dirty water down the drain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckets6(String languageCode) async {
@@ -67,7 +71,8 @@ class EnglishEntrybucket extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was sweating buckets by the end of the race."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was sweating buckets by the end of the race."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuckets7(String languageCode) async {
@@ -132,7 +137,7 @@ class EnglishEntrybucket extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -168,7 +173,8 @@ class EnglishEntrybucket extends StatelessWidget {
                                   text:
                                       "The children ran down to the beach with their buckets and spades."),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە."),
+                                  text:
+                                      "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە."),
                               const CustomSizedBoxForTTS(), // Define the word "bucket" as
                               Column(
                                 children: [
@@ -184,111 +190,119 @@ class EnglishEntrybucket extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The cleaner put down his mop and bucket and sat down."),
-                          const ExampleSentenceKurdish(
-                          text: "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckets2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckets2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) قەپی شۆفڵ یان حەفارە"),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The excavator's bucket scooped up the loose earth."),
-                          const ExampleSentenceKurdish(
-                          text: "قەپی حەفارەکە زەوییە نەرمەکەی هەڵکەند."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckets3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckets3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The cleaner put down his mop and bucket and sat down."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckets2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckets2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ئەو ڕێژەیەی لە سەتڵێکدا جێگای دەبێتەوە"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) قەپی شۆفڵ یان حەفارە"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "They used to drink tea by the bucketful (= in large quantities)."),
-                          const ExampleSentenceKurdish(
-                          text: "جاران چایان زۆر دەخواردەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckets4("en-GB"),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The excavator's bucket scooped up the loose earth."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەپی حەفارەکە زەوییە نەرمەکەی هەڵکەند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckets3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckets3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckets4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ئەو ڕێژەیەی لە سەتڵێکدا جێگای دەبێتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They used to drink tea by the bucketful (= in large quantities)."),
+                              const ExampleSentenceKurdish(
+                                  text: "جاران چایان زۆر دەخواردەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckets4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckets4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She poured the bucket of dirty water down the drain."),
-                          const ExampleSentenceKurdish(
-                          text: "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckets5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckets5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She poured the bucket of dirty water down the drain."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckets5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckets5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ناو) ڕێژەیەکی زۆر"),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) ڕێژەیەکی زۆر"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He was sweating buckets by the end of the race."),
-                          const ExampleSentenceKurdish(
-                          text: "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuckets6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuckets6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was sweating buckets by the end of the race."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuckets6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuckets6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -338,6 +352,32 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
@@ -370,56 +410,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
           ),
           // Speaker icon for American English
           englishMeaningConst,
         ],
       ),
     );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    // Update the state to reflect that TTS is in progress
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
   }
 }
 

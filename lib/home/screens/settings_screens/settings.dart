@@ -183,10 +183,10 @@ class SettingsPage extends ConsumerWidget {
                 height: 10,
               ),
               ListTile(
-                title: Text(
+                title: const Text(
                   'Tap to log out',
                   style: TextStyle(
-                    fontSize: textSize,
+                    fontSize: 16,
                     color: Colors.red,
                   ),
                 ),

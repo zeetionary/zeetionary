@@ -118,7 +118,7 @@ class EnglishEntryabstain extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: خۆبەدوورگرتن، خۆپاراستن،
 
-١. (کردار) بێلایەنبوون لە دەنگداندا"""),
+١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -149,7 +149,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                   text: "to abstain from alcohol/sex/drugs"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی خۆشبەر."),
+                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی هۆشبەر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,52 +205,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Verb: abstain (derived forms: abstained, abstains, abstaining)
-1. Refrain from voting
- 
-2. Restrain oneself from consuming or doing something (= refrain, desist)
-"I abstain from alcohol";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -273,6 +229,39 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: abstain (derived forms: abstained, abstains, abstaining)
+1. Refrain from voting
+ 
+2. Restrain oneself from consuming or doing something (= refrain, desist)
+"I abstain from alcohol";
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

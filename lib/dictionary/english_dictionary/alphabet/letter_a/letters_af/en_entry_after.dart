@@ -259,11 +259,11 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter157("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter157(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter157("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter157(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
                                 ],
@@ -283,13 +283,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter2499("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter2499(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter2499("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter2499(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -307,11 +309,11 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter4888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter4888(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter4888("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter4888(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
                                 ],
@@ -330,13 +332,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter4666("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter4666(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter4666("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter4666(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -353,13 +357,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter7928("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter7928(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter7928("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter7928(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -377,13 +383,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter4855("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter4855(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter4855("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter4855(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -402,12 +410,14 @@ class EnglishEntryafter extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAfter5622("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter5622(// REPLACE: after /ˈɑːftər/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter5622(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -426,12 +436,14 @@ class EnglishEntryafter extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAfter96771("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter96771(// REPLACE: after /ˈɑːftər/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter96771(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -450,12 +462,14 @@ class EnglishEntryafter extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAfter152888("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter152888(// REPLACE: after /ˈɑːftər/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter152888(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -471,13 +485,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter1255("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter1255(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter1255("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter1255(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -494,13 +510,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter945111("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter945111(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter945111("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter945111(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -518,13 +536,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfter459322("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter459322(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfter459322("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter459322(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -542,13 +562,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAft2566("en-GB"),
+                                    onPressed: () => speakAft2566("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakAft2566(// REPLACE: after /ˈɑːftər/
+                                            "en-US"),
+                                  ),
+                                ],
                               ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAft2566(// REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                              ),],),
                             ],
                           ),
                           const DividerDefinition(),
@@ -564,13 +586,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfte499352("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfte499352(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfte499352("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfte499352(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -588,13 +612,15 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                onPressed: () => speakAfte98332("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfte98332(// REPLACE: after /ˈɑːftər/
+                                    onPressed: () => speakAfte98332("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfte98332(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
-                              ),],),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                           const DividerDefinition(),
@@ -612,10 +638,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () => speakAfter5355("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAfter5355(// REPLACE: after /ˈɑːftər/
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAfter5355(
+                                        // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
                                 ],
@@ -663,6 +689,32 @@ class EnglishMeaning extends StatefulWidget {
 class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
 
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
@@ -712,56 +764,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
           ),
           // Speaker icon for American English
           englishMeaningConst,
         ],
       ),
     );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    // Extract text from EnglishMeaningConst and store it in textToSpeak
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    // Update the state to reflect that TTS is in progress
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
   }
 }
 

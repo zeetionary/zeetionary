@@ -950,13 +950,23 @@ class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
 
   @override
   Widget build(BuildContext context) {
+    // Theme.of(context).primaryColor.withOpacity(0.009),
     return IntrinsicWidth(
       child: Container(
         decoration: BoxDecoration(
+          // color: Theme.of(context).primaryColor.withOpacity(0.04),
           border: Border.all(
             color: Theme.of(context).primaryColor.withOpacity(0.2),
-            width: 2.0, // You can adjust the border width
+            width: 1.0, // Adjust the border width
           ),
+          // boxShadow: [
+          //   BoxShadow(
+          //     color: Theme.of(context).primaryColor.withOpacity(0.2),
+          //     spreadRadius: 2,
+          //     blurRadius: 4,
+          //     offset: Offset(0, 2), // Add a subtle shadow
+          //   ),
+          // ],
           borderRadius: BorderRadius.circular(50.0),
         ),
         child: Row(
@@ -1005,7 +1015,7 @@ class CustomSizedBoxForTTS extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SizedBox(
-      width: 2,
+      width: 0.2,
     );
   }
 }

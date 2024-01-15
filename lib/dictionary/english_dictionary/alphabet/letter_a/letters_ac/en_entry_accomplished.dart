@@ -19,6 +19,14 @@ class EnglishEntryaccomplished extends StatelessWidget {
     await flutterTts.speak("accomplished"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAccomplisheds1(String languageCode) async {
+    // DOPSUM: CHANGE speakAccomplished
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She was an elegant and accomplished woman."); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -113,10 +121,10 @@ class EnglishEntryaccomplished extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAccomplished("en-GB"),
+                                    onPressed: () => speakAccomplisheds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAccomplished("en-US"),
+                                    onPressed: () => speakAccomplisheds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -164,56 +172,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Adjective: accomplished  u'kúm-plisht
-1. Highly skilled (= complete)
-"an accomplished pianist";
- 
-2. Successfully completed or brought to an end (= completed, realized, realised [Brit])
-"his mission accomplished he took a vacation";
- 
-3. Settled securely and unconditionally (= effected, established)
-"that smoking causes health problems is an accomplished fact";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -236,6 +196,43 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: accomplished  u'kúm-plisht
+1. Highly skilled (= complete)
+"an accomplished pianist";
+ 
+2. Successfully completed or brought to an end (= completed, realized, realised [Brit])
+"his mission accomplished he took a vacation";
+ 
+3. Settled securely and unconditionally (= effected, established)
+"that smoking causes health problems is an accomplished fact";
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

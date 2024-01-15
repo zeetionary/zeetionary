@@ -187,33 +187,34 @@ class EnglishEntryanalyst extends StatelessWidget {
                                     onPressed: () => speakAnalyst45888(
                                         // REPLACE: analyst /ˈænəlɪst/
                                         "en-US"),
-                                  ),],),
-                                ],
-                              ),
-                              const DividerSentences(),
-                              // const DividerDefinition(),
-                              Row(
-                                children: [
-                                  const ExampleSentenceEnglish(
-                                      text: "She is a financial analyst."),
-                                  const ExampleSentenceKurdish(
-                                      text: "لێکۆڵەرێکی ئابوورییە."),
-                                  const CustomSizedBoxForTTS(),
-                                  Column(
-                                    children: [
-                                      CustomIconButtonBritish(
-                                        onPressed: () =>
-                                            speakAnalyst7401("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakAnalyst7401(
-                                            // REPLACE: analyst /ˈænəlɪst/
-                                            "en-US"),
-                                      ),
-                                    ],
                                   ),
                                 ],
                               ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She is a financial analyst."),
+                              const ExampleSentenceKurdish(
+                                  text: "لێکۆڵەرێکی ئابوورییە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakAnalyst7401("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakAnalyst7401(
+                                        // REPLACE: analyst /ˈænəlɪst/
+                                        "en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -258,53 +259,8 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: analyst (derived forms: analysts)
-1. Someone who is skilled at analysing data
- 
-2. An expert who studies financial data (on credit, securities, sales or financial patterns etc.) and recommends appropriate business actions
- 
-3. A licensed practitioner of psychoanalysis (= psychoanalyst)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US", englishMeaningConst),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-
-  // Function to start TTS
-  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
     // Extract text from EnglishMeaningConst and store it in textToSpeak
     String textToSpeak = """
 ${englishMeaningConst.text}
@@ -327,6 +283,40 @@ ${englishMeaningConst.text}
     setState(() {
       isSpeaking = false;
     });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: analyst (derived forms: analysts)
+1. Someone who is skilled at analysing data
+ 
+2. An expert who studies financial data (on credit, securities, sales or financial patterns etc.) and recommends appropriate business actions
+ 
+3. A licensed practitioner of psychoanalysis (= psychoanalyst)
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
   }
 }
 

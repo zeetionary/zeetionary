@@ -967,7 +967,7 @@ class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
           //     offset: Offset(0, 2), // Add a subtle shadow
           //   ),
           // ],
-          borderRadius: BorderRadius.circular(50.0),
+          borderRadius: BorderRadius.circular(51.0),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

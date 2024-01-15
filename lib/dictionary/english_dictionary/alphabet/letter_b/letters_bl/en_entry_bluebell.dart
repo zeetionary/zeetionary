@@ -233,6 +233,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: bluebell (derived forms: bluebells)
+1. Sometimes placed in genus Scilla (= wild hyacinth, wood hyacinth, harebell, Hyacinthoides nonscripta, Scilla nonscripta)
+ 
+2. One of the most handsome prairie wildflowers having large erect bell-shaped bluish flowers; of moist places in prairies and fields from eastern Colorado and Nebraska south to New Mexico and Texas (= prairie gentian, tulip gentian, Eustoma grandiflorum)
+ 
+3. Perennial of Northern Hemisphere with slender stems and bell-shaped blue flowers (= harebell, Campanula rotundifolia)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -244,10 +256,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -260,27 +272,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: bluebell (derived forms: bluebells)
-1. Sometimes placed in genus Scilla (= wild hyacinth, wood hyacinth, harebell, Hyacinthoides nonscripta, Scilla nonscripta)
- 
-2. One of the most handsome prairie wildflowers having large erect bell-shaped bluish flowers; of moist places in prairies and fields from eastern Colorado and Nebraska south to New Mexico and Texas (= prairie gentian, tulip gentian, Eustoma grandiflorum)
- 
-3. Perennial of Northern Hemisphere with slender stems and bell-shaped blue flowers (= harebell, Campanula rotundifolia)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

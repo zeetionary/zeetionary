@@ -262,6 +262,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: ballgame (derived forms: ballgames)
+1. A particular situation that is radically different from the preceding situation (= new ballgame, ball game)
+"HDTV looks the same but it's really a whole new ballgame";
+
+2. (baseball) a field game played with a ball (especially baseball) (= ball game [N. Amer])
+
+- Noun: ball game (derived forms: ball games)
+1. Any sport played with a ball
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -273,10 +287,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -289,29 +303,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: ballgame (derived forms: ballgames)
-1. A particular situation that is radically different from the preceding situation (= new ballgame, ball game)
-"HDTV looks the same but it's really a whole new ballgame";
-
-2. (baseball) a field game played with a ball (especially baseball) (= ball game [N. Amer])
-
-- Noun: ball game (derived forms: ball games)
-1. Any sport played with a ball
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

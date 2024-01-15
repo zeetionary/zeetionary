@@ -215,6 +215,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: airlift (derived forms: airlifting, airlifted, airlifts)
+1. Transportation of people or goods by air (especially when other means of access are unavailable) (= lift)
+
+1. Verb: airlift 
+1. Fly people or goods to or from places not accessible by other means (= lift)
+"Food is airlifted into Bosnia";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -226,10 +238,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -242,27 +254,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: airlift (derived forms: airlifting, airlifted, airlifts)
-1. Transportation of people or goods by air (especially when other means of access are unavailable) (= lift)
-
-1. Verb: airlift 
-1. Fly people or goods to or from places not accessible by other means (= lift)
-"Food is airlifted into Bosnia";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

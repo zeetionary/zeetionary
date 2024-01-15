@@ -261,6 +261,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: bivouac (derived forms: bivouacs, bivouacking, bivouacked)
+1. (military) temporary living quarters specially built by the army for soldiers (= camp, encampment, cantonment)
+"wherever he went in the bivouac the men were grumbling";
+
+2. A site where people on holiday can pitch a tent (= campsite, campground, camping site, camping ground, encampment, camping area)
+
+- Verb: bivouac (derived forms: bivouacs, bivouacking, bivouacked)
+1. Live in or as if in a tent (= camp, encamp, camp out, tent, bivvy [informal], bivvy up [informal])
+"Can we go bivouacking again this summer?";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -272,10 +287,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -288,30 +303,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: bivouac (derived forms: bivouacs, bivouacking, bivouacked)
-1. (military) temporary living quarters specially built by the army for soldiers (= camp, encampment, cantonment)
-"wherever he went in the bivouac the men were grumbling";
-
-2. A site where people on holiday can pitch a tent (= campsite, campground, camping site, camping ground, encampment, camping area)
-
-- Verb: bivouac (derived forms: bivouacs, bivouacking, bivouacked)
-1. Live in or as if in a tent (= camp, encamp, camp out, tent, bivvy [informal], bivvy up [informal])
-"Can we go bivouacking again this summer?";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -851,6 +851,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: boy (derived forms: boys)
+1. A youthful male person (= male child)
+"she made the boy brush his teeth every night"; "most soldiers are only boys in uniform"; "the baby was a boy";
+ 
+2. A friendly informal reference to a grown man
+"he likes to play golf with the boys"
+ 
+3. A male human offspring (= son)
+"his boy is taller than he is";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -862,10 +877,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -878,30 +893,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: boy (derived forms: boys)
-1. A youthful male person (= male child)
-"she made the boy brush his teeth every night"; "most soldiers are only boys in uniform"; "the baby was a boy";
- 
-2. A friendly informal reference to a grown man
-"he likes to play golf with the boys"
- 
-3. A male human offspring (= son)
-"his boy is taller than he is";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

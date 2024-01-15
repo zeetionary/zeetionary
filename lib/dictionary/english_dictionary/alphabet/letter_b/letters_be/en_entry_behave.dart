@@ -508,6 +508,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: behave (derived forms: behaved, behaves, behaving)
+1. Show a certain behaviour; conduct or comport oneself (= act, do)
+"Don't behave like a fool";
+ 
+2. Behave in a certain manner (= acquit, bear, deport, conduct, comport, carry)
+"he behaved himself with dignity";
+ 
+3. Act well or properly; not be naughty (= comport)
+"The children must learn to behave";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -519,10 +534,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -535,30 +550,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: behave (derived forms: behaved, behaves, behaving)
-1. Show a certain behaviour; conduct or comport oneself (= act, do)
-"Don't behave like a fool";
- 
-2. Behave in a certain manner (= acquit, bear, deport, conduct, comport, carry)
-"he behaved himself with dignity";
- 
-3. Act well or properly; not be naughty (= comport)
-"The children must learn to behave";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

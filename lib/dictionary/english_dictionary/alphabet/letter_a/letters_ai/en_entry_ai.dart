@@ -188,6 +188,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: ai (derived forms: ais)
+1. A sloth that has three long claws on each forefoot and each hindfoot (= three-toed sloth, Bradypus tridactylus)
+
+- Noun: AI
+1. The branch of computer science that deal with writing computer programs that can solve problems creatively (= artificial intelligence)
+"workers in AI hope to imitate or duplicate intelligence in computers and robots";
+ 
+2. (military) an agency of the United States Army responsible for providing timely and relevant and accurate and synchronized intelligence to tactical and operational and strategic level commanders (= Army Intelligence)
+ 
+3. The introduction of semen into the oviduct or uterus by some means other than sexual intercourse (= artificial insemination)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -199,10 +215,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -215,31 +231,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: ai (derived forms: ais)
-1. A sloth that has three long claws on each forefoot and each hindfoot (= three-toed sloth, Bradypus tridactylus)
-
-- Noun: AI
-1. The branch of computer science that deal with writing computer programs that can solve problems creatively (= artificial intelligence)
-"workers in AI hope to imitate or duplicate intelligence in computers and robots";
- 
-2. (military) an agency of the United States Army responsible for providing timely and relevant and accurate and synchronized intelligence to tactical and operational and strategic level commanders (= Army Intelligence)
- 
-3. The introduction of semen into the oviduct or uterus by some means other than sexual intercourse (= artificial insemination)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

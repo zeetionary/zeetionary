@@ -369,35 +369,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Verb: abuse (derived forms: abused, abuses, abusing)
 1. Treat badly (= mistreat, maltreat, ill-use, ill-treat, step on [informal])
 "This boss abuses his workers";
@@ -427,45 +401,50 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 4. (law) a statutory offence that provides that it is a crime to knowingly cause another person to engage in an unwanted sexual act by force or threat (= sexual assault, sexual abuse, sex crime, sex offense [US], sex offence [Brit, Cdn])
 "most states have replaced the common law definition of rape with statutes defining sexual abuse";
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Verb: abuse (derived forms: abused, abuses, abusing)
-1. Treat badly (= mistreat, maltreat, ill-use, ill-treat, step on [informal])
-"This boss abuses his workers";
- 
-2. Use to one's advantage in a way that was not intended (= pervert, misuse)
-"Don't abuse the system";
- 
-3. Use foul or abusive language towards (= clapperclaw [archaic], blackguard, shout)
-"The actress abused the policeman who gave her a parking ticket";
- 
-4. Use wrongly, improperly or excessively
-"Her husband often abuses alcohol"; "while she was pregnant, she abused drugs"
- 
-5. Subject to sexual assault (= sexually assault)
-"she was abused by her uncle";
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
 
-- Noun: abuse (derived forms: abuses)
-1.Cruel or inhumane treatment (= maltreatment, ill-treatment, ill-usage)
-"the child showed signs of physical abuse";
- 
-2. A rude expression intended to offend or hurt (= insult, revilement, contumely [archaic], vilification)
-"when a student made a stupid mistake he spared them no abuse";
- 
-3. Improper or excessive use (= misuse)
-"the abuse of public funds"; "alcohol abuse";
- 
-4. (law) a statutory offence that provides that it is a crime to knowingly cause another person to engage in an unwanted sexual act by force or threat (= sexual assault, sexual abuse, sex crime, sex offense [US], sex offence [Brit, Cdn])
-"most states have replaced the common law definition of rape with statutes defining sexual abuse";
-""");
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -269,6 +269,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: ascertain (derived forms: ascertained, ascertains, ascertaining)
+1. Establish after a calculation, investigation, experiment, survey, or study (= determine, find, find out)
+"ascertain the product of two numbers";
+
+2. Be careful or certain to do something; make certain of something (= see, check, insure, see to it, ensure, control, assure)
+ 
+3. Find out, learn, or determine with certainty, usually by making an inquiry or other effort (= determine, check, find out, see, watch, learn)
+"ascertain whether the train leaves on time";
+
+4. Learn or discover with certainty
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -280,10 +296,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -296,31 +312,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: ascertain (derived forms: ascertained, ascertains, ascertaining)
-1. Establish after a calculation, investigation, experiment, survey, or study (= determine, find, find out)
-"ascertain the product of two numbers";
-
-2. Be careful or certain to do something; make certain of something (= see, check, insure, see to it, ensure, control, assure)
- 
-3. Find out, learn, or determine with certainty, usually by making an inquiry or other effort (= determine, check, find out, see, watch, learn)
-"ascertain whether the train leaves on time";
-
-4. Learn or discover with certainty
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

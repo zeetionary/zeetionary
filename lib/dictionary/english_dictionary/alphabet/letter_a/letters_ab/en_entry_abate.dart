@@ -155,6 +155,17 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: abate (derived forms: abating, abated, abates)
+1.Make less active or intense (=slake, slack)
+
+2. Become less in amount or intensity (=let up, slack off, slack, die away)
+"The storm abated";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -166,10 +177,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -182,30 +193,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: abate (derived forms: abating, abated, abates)
-1.Make less active or intense (=slake, slack)
-
-2. Become less in amount or intensity (=let up, slack off, slack, die away)
-"The storm abated";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Verb: abate (derived forms: abating, abated, abates)
-1.Make less active or intense (=slake, slack)
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
 
-2. Become less in amount or intensity (=let up, slack off, slack, die away)
-"The storm abated";
-""");
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

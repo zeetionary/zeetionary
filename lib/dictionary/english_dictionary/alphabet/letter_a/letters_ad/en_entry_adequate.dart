@@ -213,6 +213,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: adequate 
+1. Having the requisite qualities or resources to meet a task (= equal)
+"she had adequate training"; "her training was adequate"; "she was adequate to the job";
+ 
+2. Sufficient for the purpose (= enough, nuff [non-standard])
+"an adequate income"; "the food was adequate";
+ 
+3. About average; acceptable (= passable, fair to middling, tolerable)
+"more than adequate as a secretary";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -224,10 +239,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -240,30 +255,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: adequate 
-1. Having the requisite qualities or resources to meet a task (= equal)
-"she had adequate training"; "her training was adequate"; "she was adequate to the job";
- 
-2. Sufficient for the purpose (= enough, nuff [non-standard])
-"an adequate income"; "the food was adequate";
- 
-3. About average; acceptable (= passable, fair to middling, tolerable)
-"more than adequate as a secretary";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

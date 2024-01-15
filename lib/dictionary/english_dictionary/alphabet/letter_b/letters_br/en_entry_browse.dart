@@ -358,35 +358,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Noun: browse (Derived forms: browses)
 1. Vegetation (such as young shoots, twigs, and leaves) that is suitable for animals to eat
 "a deer needs to eat twenty pounds of browse every day"
@@ -408,37 +382,52 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 4. Eat lightly, try different dishes (= graze)
 "There was so much food at the party that we quickly got sated just by browsing";
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: browse (Derived forms: browses)
-1. Vegetation (such as young shoots, twigs, and leaves) that is suitable for animals to eat
-"a deer needs to eat twenty pounds of browse every day"
- 
-2. Reading superficially or at random (= browsing)
- 
-3. The act of feeding by continual nibbling (= browsing)
+    await flutterTts.speak(textToSpeak);
 
-- Verb: browse (Derived forms: browsing, browses, browsed)
-1. Visit and look around a shop or shops, not necessarily buying (= shop)
-"I don't need help, I'm just browsing";
-
-2. Feed as in a meadow or pasture (= crop, graze, range, pasture)
-"the herd was browsing";
-
-3. Look around casually and randomly, without seeking anything in particular (= surf)
-"browse a computer directory";
- 
-4. Eat lightly, try different dishes (= graze)
-"There was so much food at the party that we quickly got sated just by browsing";
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -448,6 +437,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

@@ -244,6 +244,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: augur (derived forms: augurs)
+1. (ancient Rome) a religious official who interpreted omens to guide public policy (= auspex)
+
+- Verb: augur (derived forms: auguring, augurs, augured)
+1. Be a sign of something to come, esp. something important or bad (= bode, portend, auspicate, prognosticate, omen, presage, betoken [archaic], foreshadow, foretell, prefigure, forecast, predict, foretoken)
+"These signs augur bad news";
+ 
+2. Predict from an omen
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -255,10 +269,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -271,29 +285,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: augur (derived forms: augurs)
-1. (ancient Rome) a religious official who interpreted omens to guide public policy (= auspex)
-
-- Verb: augur (derived forms: auguring, augurs, augured)
-1. Be a sign of something to come, esp. something important or bad (= bode, portend, auspicate, prognosticate, omen, presage, betoken [archaic], foreshadow, foretell, prefigure, forecast, predict, foretoken)
-"These signs augur bad news";
- 
-2. Predict from an omen
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

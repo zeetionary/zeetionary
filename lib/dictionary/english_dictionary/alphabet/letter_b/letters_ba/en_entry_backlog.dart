@@ -236,6 +236,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: backlog (derived forms: backlogs)
+1. An accumulation of jobs not done or materials not processed that are yet to be dealt with (especially unfilled customer orders for products or services)
+ 
+2. The large log at the back of a hearth fire
+ 
+3. Something kept back or saved for future use or a special purpose (= reserve, stockpile)
+
+- Verb: backlog (derived forms: backlogged, backlogging, backlogs)
+1. Accumulate and create a backlog
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -247,10 +262,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -263,30 +278,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: backlog (derived forms: backlogs)
-1. An accumulation of jobs not done or materials not processed that are yet to be dealt with (especially unfilled customer orders for products or services)
- 
-2. The large log at the back of a hearth fire
- 
-3. Something kept back or saved for future use or a special purpose (= reserve, stockpile)
-
-- Verb: backlog (derived forms: backlogged, backlogging, backlogs)
-1. Accumulate and create a backlog
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

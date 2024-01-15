@@ -374,35 +374,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Noun: bath (derived forms: baths)
 1. A vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)
 "she soaked the etching in an acid bath"
@@ -415,18 +389,50 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 - Noun: Bath
 1. A city in southwestern England on the River Avon; famous for its hot springs and Roman remains
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

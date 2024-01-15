@@ -239,6 +239,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: appal (derived forms: appalling, appals)
+Usage: Brit, Cdn (US: appall)
+1. Strike with disgust or revulsion (= shock, offend, scandalize, scandalise [Brit], appall [US], outrage)
+"The scandalous behaviour of this married woman appalled her friends";
+ 
+2. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, alarm, appall [US], horrify)
+"I was appalled at the thought of being late for my interview";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -250,10 +263,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -266,28 +279,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: appal (derived forms: appalling, appals)
-Usage: Brit, Cdn (US: appall)
-1. Strike with disgust or revulsion (= shock, offend, scandalize, scandalise [Brit], appall [US], outrage)
-"The scandalous behaviour of this married woman appalled her friends";
- 
-2. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, alarm, appall [US], horrify)
-"I was appalled at the thought of being late for my interview";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

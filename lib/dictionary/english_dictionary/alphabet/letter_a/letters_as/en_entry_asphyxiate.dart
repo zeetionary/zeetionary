@@ -241,6 +241,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: asphyxiate 
+1. Deprive of oxygen and prevent from breathing (= smother, suffocate)
+"Othello asphyxiated Desdemona with a pillow";
+ 
+2. Impair the respiration of or obstruct the air passage of (= suffocate, stifle, choke)
+"The foul air was slowly asphyxiating the children";
+ 
+3. Be asphyxiated; die from lack of oxygen (= suffocate, stifle) (derived forms: asphyxiated, asphyxiates, asphyxiating)
+"The child asphyxiated under the pillow";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -252,10 +267,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -268,30 +283,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: asphyxiate 
-1. Deprive of oxygen and prevent from breathing (= smother, suffocate)
-"Othello asphyxiated Desdemona with a pillow";
- 
-2. Impair the respiration of or obstruct the air passage of (= suffocate, stifle, choke)
-"The foul air was slowly asphyxiating the children";
- 
-3. Be asphyxiated; die from lack of oxygen (= suffocate, stifle) (derived forms: asphyxiated, asphyxiates, asphyxiating)
-"The child asphyxiated under the pillow";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

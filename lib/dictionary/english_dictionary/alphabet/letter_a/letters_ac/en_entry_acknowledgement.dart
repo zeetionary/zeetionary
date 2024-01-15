@@ -243,6 +243,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: acknowledgment (derived forms: acknowledgments)
+1. The state or quality of being recognized or acknowledged (= recognition, acknowledgement)
+"the partners were delighted with the acknowledgment of their work";
+ 
+2. A short note recognizing a source of information or of a quoted passage (= citation, cite, credit, reference, mention, quotation)
+"the acknowledgments are usually printed at the front of a book";
+ 
+3. A statement acknowledging something or someone (= acknowledgement)
+"the preface contained an acknowledgment of those who had helped her"; "she must have seen him but she gave no sign of acknowledgment";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -254,10 +269,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -270,30 +285,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: acknowledgment (derived forms: acknowledgments)
-1. The state or quality of being recognized or acknowledged (= recognition, acknowledgement)
-"the partners were delighted with the acknowledgment of their work";
- 
-2. A short note recognizing a source of information or of a quoted passage (= citation, cite, credit, reference, mention, quotation)
-"the acknowledgments are usually printed at the front of a book";
- 
-3. A statement acknowledging something or someone (= acknowledgement)
-"the preface contained an acknowledgment of those who had helped her"; "she must have seen him but she gave no sign of acknowledgment";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

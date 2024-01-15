@@ -687,35 +687,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Noun: brush (Derived forms: brushes)
 1. An implement that has hairs or bristles firmly set into a handle
  
@@ -757,57 +731,52 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 6. Cover by brushing
 "brush the bread with melted butter"
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: brush (Derived forms: brushes)
-1. An implement that has hairs or bristles firmly set into a handle
- 
-2. A dense growth of bushes and small trees (= brushwood, coppice, copse, thicket)
- 
-3. Momentary contact (= light touch)
- 
-4. The act of brushing your teeth (= brushing)
-"the dentist recommended two brushes a day";
- 
-5. The act of brushing your hair (= brushing)
-"he gave his hair a quick brush";
- 
-6. Contact with something dangerous or undesirable
-"I had a brush with danger on my way to work"; "he tried to avoid any brushes with the police"
- 
-7. A minor short-term fight (= clash, encounter, skirmish)
- 
-8. A spring-loaded electrical contact between the stationary and rotating parts of a machine
- 
-9. A bushy tail or part of a bushy tail (especially of the fox)
+    await flutterTts.speak(textToSpeak);
 
-- Verb: brush (Derived forms: brushes, brushing, brushed)
-1. Rub with a brush, or as if with a brush
-"Johnson brushed the hairs from his jacket"
- 
-2. Touch lightly and briefly
-"He brushed the wall lightly"
- 
-3. Clean with a brush
-"She brushed the suit before hanging it back into the closet"
- 
-4. Move across a surface or touching a surface (= sweep)
-"Her long skirt brushed the floor";
-
-5. Remove with or as if with a brush
-"brush away the crumbs"; "brush the dust from the jacket"; "brush aside the objections"
- 
-6. Cover by brushing
-"brush the bread with melted butter"
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -817,6 +786,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

@@ -228,6 +228,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: brunette 
+1. Marked by dark or relatively dark pigmentation of hair or skin or eyes (= brunet [US])
+"a brunette beauty";
+
+- Noun: brunette (Derived forms: brunettes) (= brunet [US])
+1. A person with dark (brown) hair
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -239,10 +251,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -255,32 +267,23 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: brunette 
-1. Marked by dark or relatively dark pigmentation of hair or skin or eyes (= brunet [US])
-"a brunette beauty";
-
-- Noun: brunette (Derived forms: brunettes) (= brunet [US])
-1. A person with dark (brown) hair
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Adjective: brunette 
-1. Marked by dark or relatively dark pigmentation of hair or skin or eyes (= brunet [US])
-"a brunette beauty";
+    await flutterTts.speak(textToSpeak);
 
-- Noun: brunette (Derived forms: brunettes) (= brunet [US])
-1. A person with dark (brown) hair
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -290,6 +293,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

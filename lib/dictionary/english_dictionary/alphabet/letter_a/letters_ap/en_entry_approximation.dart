@@ -299,6 +299,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: approximation (derived forms: approximations)
+1. An approximate calculation of quantity, degree or worth (= estimate, estimation, idea)
+"an approximation of what it would cost";
+ 
+2. The quality of coming near to identity (especially close in quantity)
+ 
+3. An imprecise or incomplete account
+"newspapers gave only an approximation of the actual events"
+ 
+4. The act of bringing near or bringing together especially the cut edges of tissue (= bringing close together)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -310,10 +326,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -326,31 +342,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: approximation (derived forms: approximations)
-1. An approximate calculation of quantity, degree or worth (= estimate, estimation, idea)
-"an approximation of what it would cost";
- 
-2. The quality of coming near to identity (especially close in quantity)
- 
-3. An imprecise or incomplete account
-"newspapers gave only an approximation of the actual events"
- 
-4. The act of bringing near or bringing together especially the cut edges of tissue (= bringing close together)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

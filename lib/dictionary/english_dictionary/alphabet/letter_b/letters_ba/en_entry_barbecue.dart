@@ -279,6 +279,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: barbecue (derived forms: barbecuing, barbecues, barbecued)
+1. An event or meal at which food is cooked outdoors over an open grill or fire (= barbeque, barbie [Brit, informal], BBQ [Brit])
+ 
+2. Meat that has been barbecued or grilled in a highly seasoned sauce (= barbeque)
+ 
+3. A rack to hold meat for cooking over hot charcoal usually out of doors (= barbeque, braaistand [S.Africa])
+
+- Verb: barbecue (derived forms: barbecuing, barbecues, barbecued)
+1. (cooking) cook outdoors on a barbecue grill (= barbeque, cook out [N. Amer])
+"let's barbecue that meat";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -290,10 +306,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -306,31 +322,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: barbecue (derived forms: barbecuing, barbecues, barbecued)
-1. An event or meal at which food is cooked outdoors over an open grill or fire (= barbeque, barbie [Brit, informal], BBQ [Brit])
- 
-2. Meat that has been barbecued or grilled in a highly seasoned sauce (= barbeque)
- 
-3. A rack to hold meat for cooking over hot charcoal usually out of doors (= barbeque, braaistand [S.Africa])
-
-- Verb: barbecue (derived forms: barbecuing, barbecues, barbecued)
-1. (cooking) cook outdoors on a barbecue grill (= barbeque, cook out [N. Amer])
-"let's barbecue that meat";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -310,6 +310,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: baton (derived forms: batons)
+1. A thin tapered rod used by a conductor to lead an orchestra or choir (= wand)
+ 
+2. A short stout club used primarily by policemen (= truncheon, nightstick [N. Amer], billy [N. Amer, informal], billystick [N. Amer], billy club [N. Amer])
+ 
+3. A short staff carried by some officials to symbolize an office or an authority
+ 
+4. A hollow metal rod that is wielded or twirled by a drum major or drum majorette
+ 
+5. A hollow cylinder passed from runner to runner in a relay race
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -321,10 +337,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -337,31 +353,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: baton (derived forms: batons)
-1. A thin tapered rod used by a conductor to lead an orchestra or choir (= wand)
- 
-2. A short stout club used primarily by policemen (= truncheon, nightstick [N. Amer], billy [N. Amer, informal], billystick [N. Amer], billy club [N. Amer])
- 
-3. A short staff carried by some officials to symbolize an office or an authority
- 
-4. A hollow metal rod that is wielded or twirled by a drum major or drum majorette
- 
-5. A hollow cylinder passed from runner to runner in a relay race
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

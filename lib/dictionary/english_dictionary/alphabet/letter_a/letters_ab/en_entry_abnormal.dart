@@ -216,6 +216,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: abnormal 
+1. Much greater than the normal
+"abnormal profits"; "abnormal ambition"
+ 
+2. Not normal; not typical, usual, regular or conforming to a norm (=unnatural)
+"abnormal amounts of rain"; "an abnormal interest in food"; "abnormal powers of concentration";
+ 
+3. (psychology) departing from the normal in e.g. intelligence and development
+"they were heartbroken when they learned their child was abnormal"; "an abnormal personality"
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -227,10 +242,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -243,38 +258,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: abnormal 
-1. Much greater than the normal
-"abnormal profits"; "abnormal ambition"
- 
-2. Not normal; not typical, usual, regular or conforming to a norm (=unnatural)
-"abnormal amounts of rain"; "an abnormal interest in food"; "abnormal powers of concentration";
- 
-3. (psychology) departing from the normal in e.g. intelligence and development
-"they were heartbroken when they learned their child was abnormal"; "an abnormal personality"
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Adjective: abnormal 
-1. Much greater than the normal
-"abnormal profits"; "abnormal ambition"
- 
-2. Not normal; not typical, usual, regular or conforming to a norm (=unnatural)
-"abnormal amounts of rain"; "an abnormal interest in food"; "abnormal powers of concentration";
- 
-3. (psychology) departing from the normal in e.g. intelligence and development
-"they were heartbroken when they learned their child was abnormal"; "an abnormal personality"
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

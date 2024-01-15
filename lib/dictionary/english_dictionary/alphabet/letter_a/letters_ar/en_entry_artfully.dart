@@ -271,6 +271,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adverb: artfully 
+1. In a manner exhibiting art or skill
+"her foot pointed artfully toward tapering toes"
+ 
+2. In a disingenuous manner (= disingenuously)
+"artfully, he asked leading questions about his opponent's work";
+ 
+3. In an subtle, cunning manner (= craftily, cunningly, foxily, knavishly, slyly, trickily, slily)
+"he artfully arranged to be there when the decision was announced";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -282,10 +297,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -298,30 +313,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adverb: artfully 
-1. In a manner exhibiting art or skill
-"her foot pointed artfully toward tapering toes"
- 
-2. In a disingenuous manner (= disingenuously)
-"artfully, he asked leading questions about his opponent's work";
- 
-3. In an subtle, cunning manner (= craftily, cunningly, foxily, knavishly, slyly, trickily, slily)
-"he artfully arranged to be there when the decision was announced";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

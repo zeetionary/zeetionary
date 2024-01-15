@@ -285,6 +285,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Phrasal verb: amp up (derived forms: amping up, amps up, amped up)
+1. to make (someone) more excited or energetic (= excite, energize)
+"When Smith came out to accept her trophy, Bieber smothered her with kisses, and then pumped his fist to amp up the crowd.";
+
+2.  to make (something) more intense (= heighten, intensify)
+"The violence is amped by the presence of automatic weapons and gyrating camerawork, but it all feels very familiar.";
+
+3.  to increase the amount of (something) (= raise)
+"As investors get used to steady returns, they start borrowing to amp up gains";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -296,10 +311,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -312,30 +327,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Phrasal verb: amp up (derived forms: amping up, amps up, amped up)
-1. to make (someone) more excited or energetic (= excite, energize)
-"When Smith came out to accept her trophy, Bieber smothered her with kisses, and then pumped his fist to amp up the crowd.";
-
-2.  to make (something) more intense (= heighten, intensify)
-"The violence is amped by the presence of automatic weapons and gyrating camerawork, but it all feels very familiar.";
-
-3.  to increase the amount of (something) (= raise)
-"As investors get used to steady returns, they start borrowing to amp up gains";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

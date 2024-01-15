@@ -284,6 +284,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: bomber (derived forms: bombers)
+1. A military aircraft that drops bombs during flight
+ 
+2. A person who plants bombs
+ 
+3. [US, informal] A large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States (= grinder [US, informal], hero [N. Amer], hero sandwich [N. Amer], hoagie [N. Amer], hoagy [N. Amer], Cuban sandwich [N. Amer], Italian sandwich [N. Amer], poor boy [N. Amer], sub [N. Amer, informal], submarine [N. Amer], submarine sandwich [N. Amer], torpedo [US], wedge [US, informal], zep [N. Amer])
+ 
+4. [slang] A large cannabis cigarette
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -295,10 +309,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -311,29 +325,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: bomber (derived forms: bombers)
-1. A military aircraft that drops bombs during flight
- 
-2. A person who plants bombs
- 
-3. [US, informal] A large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States (= grinder [US, informal], hero [N. Amer], hero sandwich [N. Amer], hoagie [N. Amer], hoagy [N. Amer], Cuban sandwich [N. Amer], Italian sandwich [N. Amer], poor boy [N. Amer], sub [N. Amer, informal], submarine [N. Amer], submarine sandwich [N. Amer], torpedo [US], wedge [US, informal], zep [N. Amer])
- 
-4. [slang] A large cannabis cigarette
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

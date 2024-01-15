@@ -132,6 +132,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: aborigine (derived forms: aborigines)
+1. An indigenous person who was born in a particular place (= native, indigen, indigene, aboriginal)
+"the art of the aborigines of the northwest coast";
+
+- Noun: Aborigine (derived forms: Aborigines)
+1. A member of the people living in Australia when Europeans arrived (= native Australian, Australian Aborigine, Aboriginal)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -143,10 +155,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -159,32 +171,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: aborigine (derived forms: aborigines)
-1. An indigenous person who was born in a particular place (= native, indigen, indigene, aboriginal)
-"the art of the aborigines of the northwest coast";
-
-- Noun: Aborigine (derived forms: Aborigines)
-1. A member of the people living in Australia when Europeans arrived (= native Australian, Australian Aborigine, Aboriginal)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: aborigine (derived forms: aborigines)
-1. An indigenous person who was born in a particular place (= native, indigen, indigene, aboriginal)
-"the art of the aborigines of the northwest coast";
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
 
-- Noun: Aborigine (derived forms: Aborigines)
-1. A member of the people living in Australia when Europeans arrived (= native Australian, Australian Aborigine, Aboriginal)
-""");
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

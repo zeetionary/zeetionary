@@ -236,6 +236,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: avocado (derived forms: avocados)
+1. A pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed (= alligator pear [N. Amer], avocado pear, aguacate, avo [informal])
+ 
+2. Tropical American tree bearing large pulpy green fruits (= avocado tree, Persea Americana)
+ 
+3. A shade of green tinged with yellow (= yellow green, yellowish green, chartreuse, Paris green, pea green)
+
+- Adjective: avocado
+1. Of the dull yellowish green of the meat of an avocado
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -247,10 +262,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -263,30 +278,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: avocado (derived forms: avocados)
-1. A pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed (= alligator pear [N. Amer], avocado pear, aguacate, avo [informal])
- 
-2. Tropical American tree bearing large pulpy green fruits (= avocado tree, Persea Americana)
- 
-3. A shade of green tinged with yellow (= yellow green, yellowish green, chartreuse, Paris green, pea green)
-
-- Adjective: avocado
-1. Of the dull yellowish green of the meat of an avocado
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -173,6 +173,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: abundance (derived forms: abundances)
+1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
+"an age of abundance";
+ 
+2. (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present
+ 
+3. (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -184,10 +197,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -200,34 +213,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: abundance (derived forms: abundances)
-1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
-"an age of abundance";
- 
-2. (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present
- 
-3. (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: abundance (derived forms: abundances)
-1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
-"an age of abundance";
- 
-2. (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present
- 
-3. (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

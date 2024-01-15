@@ -350,35 +350,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Verb: bruise (Derived forms: bruising, bruises, bruised)
 1. Injure the underlying soft tissue or bone of (= contuse)
 "I bruised my knee";
@@ -395,32 +369,52 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 - Noun: bruise (Derived forms: bruises)
 1. An injury that doesn't break the skin but results in some discolouration (= contusion)
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Verb: bruise (Derived forms: bruising, bruises, bruised)
-1. Injure the underlying soft tissue or bone of (= contuse)
-"I bruised my knee";
+    await flutterTts.speak(textToSpeak);
 
-2. Cause (somebody) emotional pain or offence (= hurt, wound, injure, offend, spite)
-"This remark really bruised my ego";
- 
-3. (cooking) break up into small pieces for food preparation
-"bruise the berries with a wooden spoon and strain them"
- 
-4. Damage (plant tissue) by abrasion or pressure
-"The customer bruised the strawberries by squeezing them"
-
-- Noun: bruise (Derived forms: bruises)
-1. An injury that doesn't break the skin but results in some discolouration (= contusion)
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -430,6 +424,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

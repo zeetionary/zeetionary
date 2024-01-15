@@ -258,6 +258,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: blare (derived forms: blares)
+1. A loud harsh or strident noise (= blaring, cacophony, clamor [US], din, clamour [Brit, Cdn])
+
+- Verb: blare (derived forms: blared, blares, blaring)
+1. Make a strident sound (= blast)
+"She tended to blare when speaking into a microphone";
+ 
+2. Make a strident noise (= honk, beep, claxon, toot, parp [informal], klaxon)
+"The horns of the taxis blared";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -269,10 +284,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -285,30 +300,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: blare (derived forms: blares)
-1. A loud harsh or strident noise (= blaring, cacophony, clamor [US], din, clamour [Brit, Cdn])
-
-- Verb: blare (derived forms: blared, blares, blaring)
-1. Make a strident sound (= blast)
-"She tended to blare when speaking into a microphone";
- 
-2. Make a strident noise (= honk, beep, claxon, toot, parp [informal], klaxon)
-"The horns of the taxis blared";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

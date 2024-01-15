@@ -264,6 +264,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: anticlockwise 
+Usage: Brit (N. Amer: counterclockwise)
+1. In the direction opposite to the rotation of the hands of a clock (= counterclockwise [N. Amer], contraclockwise [non-standard])
+
+- Adverb: anticlockwise 
+Usage: Brit (N. Amer: counterclockwise)
+1. In a direction opposite to the direction in which the hands of a clock move (= counterclockwise [N. Amer])
+"please move anticlockwise in a circle!";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -275,10 +289,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -291,29 +305,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: anticlockwise 
-Usage: Brit (N. Amer: counterclockwise)
-1. In the direction opposite to the rotation of the hands of a clock (= counterclockwise [N. Amer], contraclockwise [non-standard])
-
-- Adverb: anticlockwise 
-Usage: Brit (N. Amer: counterclockwise)
-1. In a direction opposite to the direction in which the hands of a clock move (= counterclockwise [N. Amer])
-"please move anticlockwise in a circle!";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

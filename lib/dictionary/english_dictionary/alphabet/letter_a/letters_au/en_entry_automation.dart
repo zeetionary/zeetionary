@@ -246,6 +246,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: automation (derived forms: automations)
+1. The act of implementing the control of equipment with advanced technology; usually involving electronic hardware (= mechanization, mechanisation [Brit])
+"automation replaces human workers by machines";
+ 
+2. The condition of being automatically operated or controlled
+"automation increases productivity"
+ 
+3. Equipment used to achieve automatic control or operation
+"this factory floor is a showcase for automation and robotic equipment"
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -257,10 +272,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -273,30 +288,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: automation (derived forms: automations)
-1. The act of implementing the control of equipment with advanced technology; usually involving electronic hardware (= mechanization, mechanisation [Brit])
-"automation replaces human workers by machines";
- 
-2. The condition of being automatically operated or controlled
-"automation increases productivity"
- 
-3. Equipment used to achieve automatic control or operation
-"this factory floor is a showcase for automation and robotic equipment"
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

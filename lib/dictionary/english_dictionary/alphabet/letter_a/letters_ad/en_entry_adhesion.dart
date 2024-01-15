@@ -165,6 +165,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: adhesion (derived forms: adhesions)
+1. The property of sticking together (as of glue and wood) or the joining of surfaces of different composition (= adhesiveness, adherence, bond)
+"a heated hydraulic press was required for adhesion";
+ 
+2. Abnormal union of bodily tissues; most common in the abdomen
+ 
+3. A fibrous band of scar tissue that binds together normally separate anatomical structures
+ 
+4. Faithfully following a program, regime, party or religion (= attachment, adherence)
+"the adhesion of Seville was decisive";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -176,10 +192,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -192,31 +208,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: adhesion (derived forms: adhesions)
-1. The property of sticking together (as of glue and wood) or the joining of surfaces of different composition (= adhesiveness, adherence, bond)
-"a heated hydraulic press was required for adhesion";
- 
-2. Abnormal union of bodily tissues; most common in the abdomen
- 
-3. A fibrous band of scar tissue that binds together normally separate anatomical structures
- 
-4. Faithfully following a program, regime, party or religion (= attachment, adherence)
-"the adhesion of Seville was decisive";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

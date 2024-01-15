@@ -160,6 +160,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+Adverb: abominably
+1. In an offensive and hateful manner (= detestably, repulsively, odiously)
+"I don't know anyone who could have behaved so abominably";
+ 
+2. In a terrible manner (= terribly, atrociously, awfully, abysmally, rottenly, execrably, appallingly)
+"she sings abominably";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -171,10 +183,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -187,32 +199,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-Adverb: abominably
-1. In an offensive and hateful manner (= detestably, repulsively, odiously)
-"I don't know anyone who could have behaved so abominably";
- 
-2. In a terrible manner (= terribly, atrociously, awfully, abysmally, rottenly, execrably, appallingly)
-"she sings abominably";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-Adverb: abominably
-1. In an offensive and hateful manner (= detestably, repulsively, odiously)
-"I don't know anyone who could have behaved so abominably";
- 
-2. In a terrible manner (= terribly, atrociously, awfully, abysmally, rottenly, execrably, appallingly)
-"she sings abominably";
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

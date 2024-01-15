@@ -332,6 +332,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: boast (derived forms: boasts, boasted, boasting)
+1. Show off, esp. with exaggeration (= tout, swash [archaic], shoot a line [informal], brag, gas [informal], blow, bluster, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
+ 
+2. Wear or display in an ostentatious or proud manner (= sport, feature)
+"she was boasting a new hat";
+
+- Noun: boast
+1. Speaking of oneself in a positive way with too much pride or self-indulgence (= boasting, self-praise, jactitation, skite [Austral, NZ, informal])
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -343,10 +357,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -359,29 +373,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: boast (derived forms: boasts, boasted, boasting)
-1. Show off, esp. with exaggeration (= tout, swash [archaic], shoot a line [informal], brag, gas [informal], blow, bluster, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
- 
-2. Wear or display in an ostentatious or proud manner (= sport, feature)
-"she was boasting a new hat";
-
-- Noun: boast
-1. Speaking of oneself in a positive way with too much pride or self-indulgence (= boasting, self-praise, jactitation, skite [Austral, NZ, informal])
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

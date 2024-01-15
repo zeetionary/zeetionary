@@ -234,6 +234,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adverb: awfully 
+1. Used as an intensifier (= terribly, awful [N. Amer], frightfully, execrably, appallingly)
+"awfully interesting";
+ 
+2. Of a dreadful kind (= dreadfully, horribly, devastatingly, horrendously)
+ 
+3. In a terrible manner (= terribly, atrociously, abominably, abysmally, rottenly, execrably, appallingly)
+"she sings awfully";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -245,10 +259,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -261,29 +275,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adverb: awfully 
-1. Used as an intensifier (= terribly, awful [N. Amer], frightfully, execrably, appallingly)
-"awfully interesting";
- 
-2. Of a dreadful kind (= dreadfully, horribly, devastatingly, horrendously)
- 
-3. In a terrible manner (= terribly, atrociously, abominably, abysmally, rottenly, execrably, appallingly)
-"she sings awfully";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

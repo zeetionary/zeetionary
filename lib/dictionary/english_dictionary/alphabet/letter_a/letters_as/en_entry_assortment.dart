@@ -243,6 +243,17 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: assortment (derived forms: assortments)
+1. A collection containing many different types of things (= mixture, mixed bag [informal], miscellany, miscellanea, variety, salmagundi, smorgasbord, potpourri, motley, smörgåsbord)
+"a great assortment of cars was on display";
+ 
+2. The act of distributing things into classes or categories of the same type (= categorization, categorisation [Brit], classification, compartmentalization, compartmentalisation [Brit])
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -254,10 +265,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -270,26 +281,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: assortment (derived forms: assortments)
-1. A collection containing many different types of things (= mixture, mixed bag [informal], miscellany, miscellanea, variety, salmagundi, smorgasbord, potpourri, motley, smörgåsbord)
-"a great assortment of cars was on display";
- 
-2. The act of distributing things into classes or categories of the same type (= categorization, categorisation [Brit], classification, compartmentalization, compartmentalisation [Brit])
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

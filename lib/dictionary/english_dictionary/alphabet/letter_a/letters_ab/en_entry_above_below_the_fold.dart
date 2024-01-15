@@ -142,6 +142,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Idiom: above/below-the-fold
+1. In a position where it is seen/not seen first, for example on the top/bottom half of the front page of a newspaper or in the part of a web page that you see first/last when you open it
+"above-the-fold images"; "the company logo must be placed in an above-the-fold position."
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -153,10 +162,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -169,26 +178,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Idiom: above/below-the-fold
-1. In a position where it is seen/not seen first, for example on the top/bottom half of the front page of a newspaper or in the part of a web page that you see first/last when you open it
-"above-the-fold images"; "the company logo must be placed in an above-the-fold position."
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Idiom: above/below-the-fold
-1. In a position where it is seen/not seen first, for example on the top/bottom half of the front page of a newspaper or in the part of a web page that you see first/last when you open it
-"above-the-fold images"; "the company logo must be placed in an above-the-fold position."
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

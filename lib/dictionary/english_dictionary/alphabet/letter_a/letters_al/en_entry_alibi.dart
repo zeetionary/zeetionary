@@ -219,6 +219,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: alibi (derived forms: alibis)
+1. (law) a defence by an accused person purporting to show that he or she could not have committed the crime in question
+ 
+2. A defence of some offensive behaviour or some failure to keep a promise etc. (= excuse, exculpation, self-justification)
+"every day he had a new alibi for not getting a job";
+
+- Verb: alibi (derived forms: alibied, alibis, alibiing)
+1. Exonerate by means of an alibi
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -230,10 +244,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -246,29 +260,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: alibi (derived forms: alibis)
-1. (law) a defence by an accused person purporting to show that he or she could not have committed the crime in question
- 
-2. A defence of some offensive behaviour or some failure to keep a promise etc. (= excuse, exculpation, self-justification)
-"every day he had a new alibi for not getting a job";
-
-- Verb: alibi (derived forms: alibied, alibis, alibiing)
-1. Exonerate by means of an alibi
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

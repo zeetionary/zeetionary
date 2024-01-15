@@ -265,6 +265,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: bereft
+1. Unhappy in love; suffering from unrequited love (= lovelorn, unbeloved)
+"I was bereft, and I have never been able to replace her";
+ 
+2. Sorrowful through loss or deprivation (= bereaved, grief-stricken, grieving, mourning, sorrowing)
+"bereft of hope";
+ 
+3. Not present or included (despite being expected, required or desired) (= missing, lacking, devoid, wanting)
+"the film was almost entirely bereft of new jokes";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -276,10 +291,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -292,30 +307,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: bereft
-1. Unhappy in love; suffering from unrequited love (= lovelorn, unbeloved)
-"I was bereft, and I have never been able to replace her";
- 
-2. Sorrowful through loss or deprivation (= bereaved, grief-stricken, grieving, mourning, sorrowing)
-"bereft of hope";
- 
-3. Not present or included (despite being expected, required or desired) (= missing, lacking, devoid, wanting)
-"the film was almost entirely bereft of new jokes";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

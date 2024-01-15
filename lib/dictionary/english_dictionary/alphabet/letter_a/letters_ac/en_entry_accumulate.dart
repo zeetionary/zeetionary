@@ -204,6 +204,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: accumulate (derived forms: accumulated, accumulates, accumulating)
+1. Get or gather together (a large number of something) (= roll up, collect, pile up, amass, compile, hoard)
+"I am accumulating evidence for the man's unfaithfulness to his wife";
+ 
+2. Collect in one place, esp. growing to a large number or quantity (= cumulate, conglomerate, pile up, gather, amass)
+"Journals are accumulating in my office";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -215,10 +227,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -231,27 +243,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: accumulate (derived forms: accumulated, accumulates, accumulating)
-1. Get or gather together (a large number of something) (= roll up, collect, pile up, amass, compile, hoard)
-"I am accumulating evidence for the man's unfaithfulness to his wife";
- 
-2. Collect in one place, esp. growing to a large number or quantity (= cumulate, conglomerate, pile up, gather, amass)
-"Journals are accumulating in my office";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

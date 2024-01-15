@@ -160,6 +160,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: abandonment (derived forms:  abandonments)
+1. The act of giving something up (=forsaking, desertion)
+ 
+2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
+"his abandonment of his wife and children left them penniless";
+ 
+3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -171,10 +184,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -187,34 +200,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: abandonment (derived forms:  abandonments)
-1. The act of giving something up (=forsaking, desertion)
- 
-2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
-"his abandonment of his wife and children left them penniless";
- 
-3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: abandonment (derived forms:  abandonments)
-1. The act of giving something up (=forsaking, desertion)
- 
-2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
-"his abandonment of his wife and children left them penniless";
- 
-3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

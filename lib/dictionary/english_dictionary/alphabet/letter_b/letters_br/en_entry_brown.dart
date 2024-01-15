@@ -345,35 +345,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Adjective: brown (Derived forms: browner, brownest)
 1. Of a colour similar to that of wood or earth (= brownish, chocolate-brown, dark-brown, browny)
  
@@ -398,40 +372,52 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
  
 4. British statesman, Chancellor of the Exchequer 1997-2007 and Labour Prime Minister 2007-2010 (born in 1951) (= Gordon Brown, James Gordon Brown)
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Adjective: brown (Derived forms: browner, brownest)
-1. Of a colour similar to that of wood or earth (= brownish, chocolate-brown, dark-brown, browny)
- 
-2. (of skin) deeply suntanned (= browned)
+    await flutterTts.speak(textToSpeak);
 
-- Noun: brown (Derived forms: browns)
-1. Colour of low brightness and saturation, like wood or earth (= brownness)
-
-- Verb: brown (Derived forms: browning, browns, browned)
-1. (cooking) fry in a pan until it changes colour
-"brown the meat in the pan"
- 
-2. Make brown in colour (= embrown)
-"the drought browned the leaves on the trees in the yard";
-
-- Noun: Brown (Derived forms: Browns)
-1. Scottish botanist who first observed the movement of small particles in fluids now known a Brownian motion (1773-1858) (= Michael Stuart Brown, Robert Brown)
- 
-2. Abolitionist who was hanged after leading an unsuccessful raid at Harper's Ferry, Virginia (1800-1859) (= John Brown)
- 
-3. A university in Rhode Island (= Brown University)
- 
-4. British statesman, Chancellor of the Exchequer 1997-2007 and Labour Prime Minister 2007-2010 (born in 1951) (= Gordon Brown, James Gordon Brown)
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -441,6 +427,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

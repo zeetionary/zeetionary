@@ -283,6 +283,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: broody (Derived forms: broodies, broodier, broodiest)
+1. Physiologically ready to incubate eggs
+"a broody hen"
+ 
+2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
+"Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
+
+- Noun: broody (Derived forms: broodies)
+1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,10 +309,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -310,38 +325,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: broody (Derived forms: broodies, broodier, broodiest)
-1. Physiologically ready to incubate eggs
-"a broody hen"
- 
-2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
-"Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
-
-- Noun: broody (Derived forms: broodies)
-1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Adjective: broody (Derived forms: broodies, broodier, broodiest)
-1. Physiologically ready to incubate eggs
-"a broody hen"
- 
-2. Deeply or seriously thoughtful (= brooding, contemplative, meditative, musing, pensive, pondering, reflective, ruminative)
-"Byron lives on not only in his poetry, but also in his creation of the 'Byronic hero' - the persona of a broody melancholy young man";
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
 
-- Noun: broody (Derived forms: broodies)
-1. A domestic hen ready to brood (= brood hen, broody hen, setting hen, sitter)
-""");
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -283,6 +283,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: analyse (derived forms: analysed, analysing)
+Usage: Brit, Cdn (US: analyze)
+1. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], study, examine, canvass)
+"analyse a sonnet by Shakespeare";
+ 
+2. Make a mathematical, chemical, or grammatical analysis of; break down into components or essential features (= analyze [N. Amer], break down, dissect, take apart)
+"analyse a specimen";
+
+3. (psychiatry) subject to psychoanalytic treatment (= analyze [N. Amer], psychoanalyze [N. Amer], psychoanalyse [Brit, Cdn])
+"I was analysed in Vienna by a famous psychiatrist";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,10 +310,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -310,31 +326,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: analyse (derived forms: analysed, analysing)
-Usage: Brit, Cdn (US: analyze)
-1. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], study, examine, canvass)
-"analyse a sonnet by Shakespeare";
- 
-2. Make a mathematical, chemical, or grammatical analysis of; break down into components or essential features (= analyze [N. Amer], break down, dissect, take apart)
-"analyse a specimen";
-
-3. (psychiatry) subject to psychoanalytic treatment (= analyze [N. Amer], psychoanalyze [N. Amer], psychoanalyse [Brit, Cdn])
-"I was analysed in Vienna by a famous psychiatrist";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

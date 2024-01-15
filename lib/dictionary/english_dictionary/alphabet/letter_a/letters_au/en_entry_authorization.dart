@@ -300,6 +300,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: authorization (derived forms: authorizations)
+1. (law) a document giving an official instruction or command (= mandate, authorisation [Brit])
+ 
+2. The power or right to give orders or make decisions (= authority, authorisation [Brit], potency, dominance, say-so)
+"deputies are given authorization to make arrests";
+ 
+3. Official permission or approval (= authority, authorisation [Brit], sanction, clearance)
+"authorization for the program was renewed several times";
+ 
+4. The act of conferring legality, sanction or formal warrant (= authorisation [Brit], empowerment)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -311,10 +327,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -327,31 +343,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: authorization (derived forms: authorizations)
-1. (law) a document giving an official instruction or command (= mandate, authorisation [Brit])
- 
-2. The power or right to give orders or make decisions (= authority, authorisation [Brit], potency, dominance, say-so)
-"deputies are given authorization to make arrests";
- 
-3. Official permission or approval (= authority, authorisation [Brit], sanction, clearance)
-"authorization for the program was renewed several times";
- 
-4. The act of conferring legality, sanction or formal warrant (= authorisation [Brit], empowerment)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

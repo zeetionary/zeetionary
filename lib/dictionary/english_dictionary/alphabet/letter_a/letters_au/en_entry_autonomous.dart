@@ -304,6 +304,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: autonomous 
+1. (of political bodies) not controlled by outside forces (= independent, self-governing, sovereign)
+"an autonomous judiciary";
+ 
+2. Existing as an independent entity
+"the partitioning of India created two separate and autonomous jute economies"
+ 
+3. (of persons) free from external control and constraint in e.g. action and judgment (= self-directed, self-reliant)
+"Another common form of autonomous violence is self-mutilation";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -315,10 +330,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -331,30 +346,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: autonomous 
-1. (of political bodies) not controlled by outside forces (= independent, self-governing, sovereign)
-"an autonomous judiciary";
- 
-2. Existing as an independent entity
-"the partitioning of India created two separate and autonomous jute economies"
- 
-3. (of persons) free from external control and constraint in e.g. action and judgment (= self-directed, self-reliant)
-"Another common form of autonomous violence is self-mutilation";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

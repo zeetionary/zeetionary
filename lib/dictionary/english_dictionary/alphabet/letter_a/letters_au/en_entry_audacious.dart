@@ -245,6 +245,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: audacious 
+1. Invulnerable to fear or intimidation (= brave, dauntless, fearless, hardy, intrepid, unfearing)
+"audacious explorers";
+ 
+2. Unrestrained by convention or propriety (= barefaced, bodacious [N. Amer, informal], bald-faced, brassy, brazen, brazen-faced, insolent)
+"an audacious trick to pull";
+ 
+3. Disposed to venture or take risks (= daring, venturesome, venturous)
+"audacious visions of the total conquest of space"; "an audacious interpretation of two Jacobean dramas";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -256,10 +271,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -272,30 +287,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: audacious 
-1. Invulnerable to fear or intimidation (= brave, dauntless, fearless, hardy, intrepid, unfearing)
-"audacious explorers";
- 
-2. Unrestrained by convention or propriety (= barefaced, bodacious [N. Amer, informal], bald-faced, brassy, brazen, brazen-faced, insolent)
-"an audacious trick to pull";
- 
-3. Disposed to venture or take risks (= daring, venturesome, venturous)
-"audacious visions of the total conquest of space"; "an audacious interpretation of two Jacobean dramas";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

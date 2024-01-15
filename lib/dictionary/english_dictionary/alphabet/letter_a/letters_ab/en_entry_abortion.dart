@@ -226,6 +226,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: abortion (derived forms: abortions)
+1. A deliberate termination of pregnancy (= induced abortion, termination)
+ 
+2. (medicine) the cessation of pregnancy or foetal development; a miscarriage
+ 
+3. Failure of a plan (= induced abortion, termination)
+ 
+4. (biology) an early stop to the development of an organ, so that it is not fully formed or is absorbed
+ 
+5. Something ugly or badly made; a useless failure
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -237,10 +253,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -253,40 +269,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: abortion (derived forms: abortions)
-1. A deliberate termination of pregnancy (= induced abortion, termination)
- 
-2. (medicine) the cessation of pregnancy or foetal development; a miscarriage
- 
-3. Failure of a plan (= induced abortion, termination)
- 
-4. (biology) an early stop to the development of an organ, so that it is not fully formed or is absorbed
- 
-5. Something ugly or badly made; a useless failure
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: abortion (derived forms: abortions)
-1. A deliberate termination of pregnancy (= induced abortion, termination)
- 
-2. (medicine) the cessation of pregnancy or foetal development; a miscarriage
- 
-3. Failure of a plan (= induced abortion, termination)
- 
-4. (biology) an early stop to the development of an organ, so that it is not fully formed or is absorbed
- 
-5. Something ugly or badly made; a useless failure
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

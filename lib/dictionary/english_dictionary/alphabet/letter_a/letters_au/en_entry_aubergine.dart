@@ -245,6 +245,17 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: aubergine (derived forms: aubergines)
+Usage: UK (=eggplant)
+1. Egg-shaped vegetable having a shiny skin typically dark purple but occasionally white or yellow (= eggplant [N. Amer, Austral, NZ], mad apple)
+ 
+2. Hairy upright herb native to southeastern Asia but widely cultivated for its large glossy edible fruit commonly used as a vegetable (= eggplant [N. Amer, Austral, NZ], brinjal [S.Africa, Asia], eggplant bush [N. Amer, Austral, NZ], garden egg [N. Amer], mad apple, Solanum melongena)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -256,10 +267,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -272,26 +283,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: aubergine (derived forms: aubergines)
-Usage: UK (=eggplant)
-1. Egg-shaped vegetable having a shiny skin typically dark purple but occasionally white or yellow (= eggplant [N. Amer, Austral, NZ], mad apple)
- 
-2. Hairy upright herb native to southeastern Asia but widely cultivated for its large glossy edible fruit commonly used as a vegetable (= eggplant [N. Amer, Austral, NZ], brinjal [S.Africa, Asia], eggplant bush [N. Amer, Austral, NZ], garden egg [N. Amer], mad apple, Solanum melongena)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

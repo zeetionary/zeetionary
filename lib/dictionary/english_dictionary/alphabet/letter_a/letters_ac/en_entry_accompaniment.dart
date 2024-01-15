@@ -237,6 +237,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: accompaniment (derived forms: accompaniments)
+1. An event or situation that happens at the same time as or in connection with another (= concomitant, attendant, co-occurrence)
+ 
+2. A musical part (vocal or instrumental) that supports or provides background for other musical parts (= musical accompaniment, backup, support)
+ 
+3. Something added to complete, embellish or make perfect (= complement)
+"wild rice was served as an accompaniment to the main dish";
+ 
+4. The act of accompanying someone or something in order to protect them (= escort)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -248,10 +263,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -264,30 +279,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: accompaniment (derived forms: accompaniments)
-1. An event or situation that happens at the same time as or in connection with another (= concomitant, attendant, co-occurrence)
- 
-2. A musical part (vocal or instrumental) that supports or provides background for other musical parts (= musical accompaniment, backup, support)
- 
-3. Something added to complete, embellish or make perfect (= complement)
-"wild rice was served as an accompaniment to the main dish";
- 
-4. The act of accompanying someone or something in order to protect them (= escort)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

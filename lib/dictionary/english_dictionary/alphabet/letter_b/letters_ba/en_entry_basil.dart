@@ -228,6 +228,19 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: basil (derived forms: basils)
+1. Any of several Old World tropical aromatic annual or perennial herbs of the genus Ocimum
+ 
+2. Leaves of the common basil; used fresh or dried (= sweet basil)
+
+- Noun: Basil
+1. (Roman Catholic Church) the bishop of Caesarea who defended the Roman Catholic Church against the heresies of the 4th century; a saint and Doctor of the Church (329-379) (= St. Basil, Basil of Caesarea, Basil the Great, St. Basil the Great)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -239,10 +252,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -255,28 +268,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: basil (derived forms: basils)
-1. Any of several Old World tropical aromatic annual or perennial herbs of the genus Ocimum
- 
-2. Leaves of the common basil; used fresh or dried (= sweet basil)
-
-- Noun: Basil
-1. (Roman Catholic Church) the bishop of Caesarea who defended the Roman Catholic Church against the heresies of the 4th century; a saint and Doctor of the Church (329-379) (= St. Basil, Basil of Caesarea, Basil the Great, St. Basil the Great)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

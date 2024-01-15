@@ -349,6 +349,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adverb: anyway 
+1. Used to indicate that a statement explains or supports a previous statement (= anyhow, anyways [N. Amer, informal], in any case, at any rate, in any event, anyroad [UK, dialect])
+"I don't know what happened to it; anyway, it's gone"; "anyway, there is another factor to consider";
+ 
+2. In any way whatsoever (= anyhow)
+"get it done anyway you can";
+ 
+3. In spite of everything; without regard to drawbacks (= regardless, irrespective, disregardless, no matter, disregarding)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -360,10 +374,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -376,29 +390,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adverb: anyway 
-1. Used to indicate that a statement explains or supports a previous statement (= anyhow, anyways [N. Amer, informal], in any case, at any rate, in any event, anyroad [UK, dialect])
-"I don't know what happened to it; anyway, it's gone"; "anyway, there is another factor to consider";
- 
-2. In any way whatsoever (= anyhow)
-"get it done anyway you can";
- 
-3. In spite of everything; without regard to drawbacks (= regardless, irrespective, disregardless, no matter, disregarding)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

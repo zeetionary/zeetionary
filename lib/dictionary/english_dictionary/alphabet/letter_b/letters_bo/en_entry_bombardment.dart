@@ -264,6 +264,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: bombardment (derived forms: bombardments)
+1. The rapid and continuous delivery of linguistic communication (spoken or written) (= barrage, outpouring, onslaught)
+"a bombardment of mail complaining about his mistake";
+
+2. The heavy fire of artillery to saturate an area rather than hit a specific target (= barrage, barrage fire, battery, shelling)
+"they laid down a bombardment in front of the advancing troops";
+
+3. The act (or an instance) of subjecting a body or substance to the impact of high-energy particles (as electrons or alpha rays)
+ 
+4. An attack by dropping bombs (= bombing)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -275,10 +291,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -291,31 +307,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: bombardment (derived forms: bombardments)
-1. The rapid and continuous delivery of linguistic communication (spoken or written) (= barrage, outpouring, onslaught)
-"a bombardment of mail complaining about his mistake";
-
-2. The heavy fire of artillery to saturate an area rather than hit a specific target (= barrage, barrage fire, battery, shelling)
-"they laid down a bombardment in front of the advancing troops";
-
-3. The act (or an instance) of subjecting a body or substance to the impact of high-energy particles (as electrons or alpha rays)
- 
-4. An attack by dropping bombs (= bombing)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -194,35 +194,9 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          // Speaker icon for British English
-          Row(
-            children: [
-              CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
-              ),
-              CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
-              ),
-              // Conditional rendering of pause button
-              if (isSpeaking)
-                IconButton(
-                  icon: const Icon(Icons.pause, size: 30),
-                  onPressed: () {
-                    stopSpeaking();
-                  },
-                ),
-            ],
-          ),
-          // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
 - Adjective: aboriginal (derived forms: aboriginals)
 1. Characteristic of or relating to people inhabiting a region from the beginning (= native, indigenous)
 "the aboriginal peoples of Australia";
@@ -237,30 +211,50 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
 - Noun: Aboriginal (derived forms: Aboriginals)
 A member of the people living in Australia when Europeans arrived (= Aborigine, native Australian, Australian Aborigine)
 """,
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Speaker icon for British English
+          Row(
+            children: [
+              CustomIconButtonBritish(
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
+              ),
+              CustomIconButtonAmerican(
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: const Icon(Icons.pause, size: 30),
+                  onPressed: () {
+                    stopSpeaking();
+                  },
+                ),
+            ],
           ),
+          // Speaker icon for American English
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Adjective: aboriginal (derived forms: aboriginals)
-1. Characteristic of or relating to people inhabiting a region from the beginning (= native, indigenous)
-"the aboriginal peoples of Australia";
- 
-2. Having existed from the beginning; in an earliest or original stage or state (= primal, primeval, primaeval, primordial)
-"aboriginal forests";
-
-- Noun: aboriginal
-1. An indigenous person who was born in a particular place (= native, indigen, indigene, aborigine)
-"the Canadian government scrapped plans to tax the grants to aboriginal college students";
-
-- Noun: Aboriginal (derived forms: Aboriginals)
-A member of the people living in Australia when Europeans arrived (= Aborigine, native Australian, Australian Aborigine)
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

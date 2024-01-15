@@ -288,6 +288,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: brotherhood (Derived forms: brotherhoods)
+1. The kinship relation between a male offspring and the siblings
+ 
+2. People engaged in a particular occupation (= fraternity, sodality)
+"the medical brotherhood";
+
+3. The feeling that men should treat one another like brothers
+ 
+4. An organization of employees formed to bargain with the employer (= union, labor union [US], trade union, trades union, labour union [Brit, Cdn])
+"you have to join the brotherhood in order to get a job";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -299,10 +315,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -315,40 +331,23 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: brotherhood (Derived forms: brotherhoods)
-1. The kinship relation between a male offspring and the siblings
- 
-2. People engaged in a particular occupation (= fraternity, sodality)
-"the medical brotherhood";
-
-3. The feeling that men should treat one another like brothers
- 
-4. An organization of employees formed to bargain with the employer (= union, labor union [US], trade union, trades union, labour union [Brit, Cdn])
-"you have to join the brotherhood in order to get a job";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
-  Future<void> startSpeaking(String languageCode) async {
+  // Function to start TTS
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-- Noun: brotherhood (Derived forms: brotherhoods)
-1. The kinship relation between a male offspring and the siblings
- 
-2. People engaged in a particular occupation (= fraternity, sodality)
-"the medical brotherhood";
+    await flutterTts.speak(textToSpeak);
 
-3. The feeling that men should treat one another like brothers
- 
-4. An organization of employees formed to bargain with the employer (= union, labor union [US], trade union, trades union, labour union [Brit, Cdn])
-"you have to join the brotherhood in order to get a job";
-""");
-
+    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });
@@ -358,6 +357,7 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
+    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

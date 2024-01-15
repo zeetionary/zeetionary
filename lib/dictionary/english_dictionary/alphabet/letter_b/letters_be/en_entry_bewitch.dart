@@ -262,6 +262,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: bewitch (derived forms: bewitching, bewitched, bewitches)
+1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], captivate, beguile, charm, fascinate, entrance, enchant)
+"She bewitched all the men's hearts";
+ 
+3. Maintain the complete attention of (someone), e.g. because they are fascinated (= magnetize, mesmerize, mesmerise [Brit], magnetise [Brit], spellbind, hypnotize, hypnotise [Brit])
+"She bewitched the audience with her tricks";
+
+4. Cast a spell over someone or something; put a hex on someone or something (= hex, glamour, witch, enchant, jinx)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -273,10 +287,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -289,29 +303,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: bewitch (derived forms: bewitching, bewitched, bewitches)
-1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], captivate, beguile, charm, fascinate, entrance, enchant)
-"She bewitched all the men's hearts";
- 
-3. Maintain the complete attention of (someone), e.g. because they are fascinated (= magnetize, mesmerize, mesmerise [Brit], magnetise [Brit], spellbind, hypnotize, hypnotise [Brit])
-"She bewitched the audience with her tricks";
-
-4. Cast a spell over someone or something; put a hex on someone or something (= hex, glamour, witch, enchant, jinx)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

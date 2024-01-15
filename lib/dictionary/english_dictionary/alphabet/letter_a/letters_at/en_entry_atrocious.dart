@@ -274,6 +274,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: atrocious  
+1. Shockingly brutal or cruel (= flagitious, grievous, monstrous)
+"murder is an atrocious crime";
+ 
+2. Exceptionally bad or displeasing (= abominable, awful, dreadful, painful, terrible, unspeakable, horrible)
+"atrocious taste";
+ 
+3. Provoking horror (= frightful, horrifying, horrible, ugly)
+"an atrocious automobile accident";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -285,10 +300,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -301,30 +316,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: atrocious  
-1. Shockingly brutal or cruel (= flagitious, grievous, monstrous)
-"murder is an atrocious crime";
- 
-2. Exceptionally bad or displeasing (= abominable, awful, dreadful, painful, terrible, unspeakable, horrible)
-"atrocious taste";
- 
-3. Provoking horror (= frightful, horrifying, horrible, ugly)
-"an atrocious automobile accident";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

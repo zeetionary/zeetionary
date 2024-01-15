@@ -271,6 +271,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: arsenal (derived forms: arsenals)
+1. All the weapons and equipment that a country has (= armory [US], armoury [Brit, Cdn])
+ 
+2. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= armory [US], armoury [Brit, Cdn])
+ 
+3. A place where arms are manufactured (= armory [US], armoury [Brit, Cdn])
+ 
+4. A supply of something available for future use (= store, stock, fund)
+"he brought back a large arsenal of Cuban cigars";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -282,10 +297,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -298,30 +313,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: arsenal (derived forms: arsenals)
-1. All the weapons and equipment that a country has (= armory [US], armoury [Brit, Cdn])
- 
-2. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= armory [US], armoury [Brit, Cdn])
- 
-3. A place where arms are manufactured (= armory [US], armoury [Brit, Cdn])
- 
-4. A supply of something available for future use (= store, stock, fund)
-"he brought back a large arsenal of Cuban cigars";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

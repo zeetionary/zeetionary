@@ -237,6 +237,15 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: berate (derived forms: berating, berates, berated)
+1. Censure severely or angrily (= call on the carpet [US, informal], take to task, rebuke, rag [informal], trounce, lecture, reprimand, jaw [informal], dress down [informal], call down [informal], scold, chide, bawl out [informal], remonstrate, chew out [N. Amer, informal], chew up [N. Amer, informal], have words, lambaste, lambast, ream [N. Amer, informal], wig [Brit, informal])
+"The deputy berated the Prime Minister";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -248,10 +257,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -264,24 +273,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: berate (derived forms: berating, berates, berated)
-1. Censure severely or angrily (= call on the carpet [US, informal], take to task, rebuke, rag [informal], trounce, lecture, reprimand, jaw [informal], dress down [informal], call down [informal], scold, chide, bawl out [informal], remonstrate, chew out [N. Amer, informal], chew up [N. Amer, informal], have words, lambaste, lambast, ream [N. Amer, informal], wig [Brit, informal])
-"The deputy berated the Prime Minister";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

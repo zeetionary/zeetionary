@@ -204,6 +204,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: allot (derived forms: allots, allotted, allotting)
+1. Give out (= assign, portion)
+"We were allotted new uniforms";
+ 
+2. Let have; give the right to; give the opportunity or permission to (= allow, grant, accord)
+"Mandela was allotted few visitors in prison";
+ 
+3. Give or provide in small portions (= distribute, administer, mete out, deal, parcel out, lot, dispense, deal out, dish out, dole out, mete, dole)
+"allot critical remarks to everyone present";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -215,10 +230,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -231,30 +246,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Verb: allot (derived forms: allots, allotted, allotting)
-1. Give out (= assign, portion)
-"We were allotted new uniforms";
- 
-2. Let have; give the right to; give the opportunity or permission to (= allow, grant, accord)
-"Mandela was allotted few visitors in prison";
- 
-3. Give or provide in small portions (= distribute, administer, mete out, deal, parcel out, lot, dispense, deal out, dish out, dole out, mete, dole)
-"allot critical remarks to everyone present";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -190,6 +190,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: advent (derived forms: advents)
+1. Arrival that has been awaited (especially of something momentous) (= coming)
+"the advent of the computer";
+
+- Noun: Advent (derived forms: Advents)
+1. (Christian theology) the reappearance of Jesus as judge for the Last Judgment (= Second Coming, Second Coming of Christ, Second Advent, Parousia)
+ 
+2. The season including the four Sundays preceding Christmas
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -201,10 +215,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -217,29 +231,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: advent (derived forms: advents)
-1. Arrival that has been awaited (especially of something momentous) (= coming)
-"the advent of the computer";
-
-- Noun: Advent (derived forms: Advents)
-1. (Christian theology) the reappearance of Jesus as judge for the Last Judgment (= Second Coming, Second Coming of Christ, Second Advent, Parousia)
- 
-2. The season including the four Sundays preceding Christmas
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

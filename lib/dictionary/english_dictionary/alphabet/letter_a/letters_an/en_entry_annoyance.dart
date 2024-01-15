@@ -290,6 +290,22 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: annoyance (derived forms: annoyances)
+1. The psychological state of being irritated or annoyed (= irritation, vexation, botheration [informal])
+ 
+2. Anger produced by some annoying irritation (= chafe, vexation)
+ 
+3. An unpleasant person who is annoying or exasperating (= aggravator)
+ 
+4. Something or someone that causes annoyance, inconvenience, or makes life more difficult (= bother, botheration [informal], pain, infliction, pain in the neck [informal], irritation, nuisance)
+ 
+5. The act of troubling or annoying someone (= annoying, irritation, vexation)
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -301,10 +317,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -317,31 +333,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Noun: annoyance (derived forms: annoyances)
-1. The psychological state of being irritated or annoyed (= irritation, vexation, botheration [informal])
- 
-2. Anger produced by some annoying irritation (= chafe, vexation)
- 
-3. An unpleasant person who is annoying or exasperating (= aggravator)
- 
-4. Something or someone that causes annoyance, inconvenience, or makes life more difficult (= bother, botheration [informal], pain, infliction, pain in the neck [informal], irritation, nuisance)
- 
-5. The act of troubling or annoying someone (= annoying, irritation, vexation)
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

@@ -285,6 +285,20 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+Noun: bookmark (derived forms: bookmarks)
+1. A marker (a piece of paper or ribbon) placed between the pages of a book to mark the reader's place (= bookmarker)
+ 
+2. A link to a website, kept in a list for quick access in future (= favorite [US], favourite [Brit, Cdn])
+
+- Verb: bookmark (derived forms: bookmarks, bookmarking, bookmarked)
+1. (computing) create a link to a web page (etc.) for quick future access (= favorite [N. Amer], favourite [Brit, Cdn])
+"if you don't find what you want now remember to bookmark the page and return later"; "List of most bookmarkd blogs";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -296,10 +310,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -312,29 +326,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-Noun: bookmark (derived forms: bookmarks)
-1. A marker (a piece of paper or ribbon) placed between the pages of a book to mark the reader's place (= bookmarker)
- 
-2. A link to a website, kept in a list for quick access in future (= favorite [US], favourite [Brit, Cdn])
-
-- Verb: bookmark (derived forms: bookmarks, bookmarking, bookmarked)
-1. (computing) create a link to a web page (etc.) for quick future access (= favorite [N. Amer], favourite [Brit, Cdn])
-"if you don't find what you want now remember to bookmark the page and return later"; "List of most bookmarkd blogs";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

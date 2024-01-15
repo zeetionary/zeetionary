@@ -295,6 +295,18 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
   bool isSpeaking = false;
 
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: apparent 
+1. Clearly revealed to the mind or the senses or judgment (= evident, manifest, palpable, patent, plain, unmistakable, unmistakeable)
+"the effects of the drought are apparent to anyone who sees the parched fields";
+ 
+2. Appearing as such but not necessarily so (= ostensible, seeming)
+"for all his apparent wealth he had no money to pay the rent"; "the committee investigated some apparent discrepancies";
+""",
+  );
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -306,10 +318,10 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
           Row(
             children: [
               CustomIconButtonBritish(
-                onPressed: () => startSpeaking("en-GB"),
+                onPressed: () => startSpeaking("en-GB", englishMeaningConst),
               ),
               CustomIconButtonAmerican(
-                onPressed: () => startSpeaking("en-US"),
+                onPressed: () => startSpeaking("en-US", englishMeaningConst),
               ),
               // Conditional rendering of pause button
               if (isSpeaking)
@@ -322,27 +334,21 @@ class _EnglishMeaningState extends State<EnglishMeaning> {
             ],
           ),
           // Speaker icon for American English
-          const EnglishMeaningConst(
-            text: """
-- Adjective: apparent 
-1. Clearly revealed to the mind or the senses or judgment (= evident, manifest, palpable, patent, plain, unmistakable, unmistakeable)
-"the effects of the drought are apparent to anyone who sees the parched fields";
- 
-2. Appearing as such but not necessarily so (= ostensible, seeming)
-"for all his apparent wealth he had no money to pay the rent"; "the committee investigated some apparent discrepancies";
-""",
-          ),
+          englishMeaningConst,
         ],
       ),
     );
   }
 
   // Function to start TTS
-  Future<void> startSpeaking(String languageCode) async {
+  Future<void> startSpeaking(String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak("""
-ZZZZZZZZZZZZZZZZZZZZZZZZZZ
-""");
+    await flutterTts.speak(textToSpeak);
 
     // Update the state to reflect that TTS is in progress
     setState(() {

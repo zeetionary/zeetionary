@@ -18,15 +18,72 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     "کوردی",
     "کوردستان",
     "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
+    "کوردس‌تان",
   ];
 
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
+  final ScrollController _scrollController = ScrollController();
+  bool showScrollToTop = false;
+
   @override
   void initState() {
     super.initState();
     filteredWords = List.from(allwordsKurdish);
+    // Add a listener to the scroll controller to determine when to show the scroll-to-top button
+    _scrollController.addListener(() {
+      setState(() {
+        showScrollToTop = _scrollController.offset > 100;
+      });
+    });
+  }
+
+  void _scrollToTop() {
+    _scrollController.animateTo(
+      0.0,
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeInOut,
+    );
   }
 
   void filterResults(String query) {
@@ -81,6 +138,27 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      floatingActionButton: showScrollToTop
+          ? FloatingActionButton(
+              onPressed: _scrollToTop,
+              backgroundColor: Colors.transparent, // Button background color
+              elevation: 0, // Remove elevation
+              shape: RoundedRectangleBorder(
+                borderRadius:
+                    BorderRadius.circular(16.0), // Button border radius
+                side: BorderSide(
+                  color: Colors.white.withOpacity(0.1), // Border color
+                  width: 0.1, // Border width
+                ),
+              ),
+              child: Icon(
+                Icons.arrow_upward,
+                size: 18.0, // Adjust the icon size as needed
+                color: Colors.white.withOpacity(0.6), // Icon color
+              ),
+            )
+          : null,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -116,6 +194,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                   TextDirection.rtl, // Set the text direction to right-to-left
               child: KurdishDictionary(
                 words: filteredWords,
+                scrollController: _scrollController,
                 onTapWord: (wordsKurdish) {
                   if (wordsKurdish == "کوردی") {
                     saveToHistory(wordsKurdish);
@@ -150,16 +229,19 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 class KurdishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
+  final ScrollController scrollController;
 
   const KurdishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
+    required this.scrollController,
   });
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      controller: scrollController, // Use the passed scroll controller
       itemCount: words.length,
       itemBuilder: (BuildContext context, int index) {
         return ListTileKurdish(
@@ -172,6 +254,32 @@ class KurdishDictionary extends StatelessWidget {
     );
   }
 }
+
+// class KurdishDictionary extends StatelessWidget {
+//   final List<String> words;
+//   final Function(String) onTapWord;
+
+//   const KurdishDictionary({
+//     super.key,
+//     required this.words,
+//     required this.onTapWord,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ListView.builder(
+//       itemCount: words.length,
+//       itemBuilder: (BuildContext context, int index) {
+//         return ListTileKurdish(
+//           wordsKurdish: words[index],
+//           onTap: () {
+//             onTapWord(words[index]);
+//           },
+//         );
+//       },
+//     );
+//   }
+// }
 
 class ListTileKurdish extends ConsumerWidget {
   final String wordsKurdish;

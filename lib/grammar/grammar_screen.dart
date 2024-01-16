@@ -94,15 +94,71 @@ class _GrammarScreenState extends State<GrammarScreen> {
     "past simple",
     "past perfect",
     "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
+    "test",
   ];
 
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
+  final ScrollController _scrollController = ScrollController();
+  bool showScrollToTop = false;
+
   @override
   void initState() {
     super.initState();
     filteredWords = List.from(allGrammarSubjects);
+    // Add a listener to the scroll controller to determine when to show the scroll-to-top button
+    _scrollController.addListener(() {
+      setState(() {
+        showScrollToTop = _scrollController.offset > 100;
+      });
+    });
+  }
+
+  void _scrollToTop() {
+    _scrollController.animateTo(
+      0.0,
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeInOut,
+    );
   }
 
   // void filterResults(String query) {
@@ -156,6 +212,28 @@ class _GrammarScreenState extends State<GrammarScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      floatingActionButton: showScrollToTop
+          ? FloatingActionButton(
+              onPressed: _scrollToTop,
+              backgroundColor: Colors.transparent, // Button background color
+              elevation: 0, // Remove elevation
+              shape: RoundedRectangleBorder(
+                borderRadius:
+                    BorderRadius.circular(16.0), // Button border radius
+                side: BorderSide(
+                  color: Colors.white.withOpacity(0.1), // Border color
+                  width: 0.1, // Border width
+                ),
+              ),
+              child: Icon(
+                Icons.arrow_upward,
+                size: 18.0, // Adjust the icon size as needed
+                color: Colors.white.withOpacity(0.6), // Icon color
+              ),
+            )
+          : null,
+      // (zee: scroll top) https://chat.openai.com/c/8f33ee5e-f847-4559-93f1-8869b74f52f9
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -245,6 +323,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
                   TextDirection.ltr, // Set the text direction to right-to-left
               child: EnglishGrammar(
                 words: filteredWords,
+                scrollController: _scrollController,
                 onTapWord: (allGrammarSubjects) {
                   if (allGrammarSubjects == "present simple") {
                     Routemaster.of(context).push("/english/grammar/aback");
@@ -265,16 +344,19 @@ class _GrammarScreenState extends State<GrammarScreen> {
 class EnglishGrammar extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
+  final ScrollController scrollController;
 
   const EnglishGrammar({
     super.key,
     required this.words,
     required this.onTapWord,
+    required this.scrollController,
   });
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      controller: scrollController, // Use the passed scroll controller
       itemCount: words.length,
       itemBuilder: (BuildContext context, int index) {
         return ListTileGrammar(
@@ -287,6 +369,61 @@ class EnglishGrammar extends StatelessWidget {
     );
   }
 }
+
+// class EnglishGrammar extends StatelessWidget {
+//   final List<String> words;
+//   final Function(String) onTapWord;
+//   final ScrollController scrollController;
+
+//   const EnglishGrammar({
+//     super.key,
+//     required this.words,
+//     required this.onTapWord,
+//     required this.scrollController,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ListView.builder(
+//       controller: scrollController, // Use the passed scroll controller
+//       itemCount: words.length,
+//       itemBuilder: (BuildContext context, int index) {
+//         return ListTileGrammar(
+//           allGrammarSubjects: words[index],
+//           onTap: () {
+//             onTapWord(words[index]);
+//           },
+//         );
+//       },
+//     );
+//   }
+// }
+
+// class EnglishGrammar extends StatelessWidget {
+//   final List<String> words;
+//   final Function(String) onTapWord;
+
+//   const EnglishGrammar({
+//     super.key,
+//     required this.words,
+//     required this.onTapWord,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ListView.builder(
+//       itemCount: words.length,
+//       itemBuilder: (BuildContext context, int index) {
+//         return ListTileGrammar(
+//           allGrammarSubjects: words[index],
+//           onTap: () {
+//             onTapWord(words[index]);
+//           },
+//         );
+//       },
+//     );
+//   }
+// }
 
 class ListTileGrammar extends ConsumerWidget {
   final String allGrammarSubjects;

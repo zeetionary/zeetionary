@@ -13,6 +13,8 @@ class DictionaryScreenEnglish extends StatefulWidget {
 }
 
 class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
+  final ScrollController _scrollController = ScrollController();
+  bool showScrollToTop = false;
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsEnglish = [
     // "dopsum",
@@ -2414,6 +2416,20 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   void initState() {
     super.initState();
     filteredWords = List.from(allWordsEnglish);
+    // Add a listener to the scroll controller to determine when to show the scroll-to-top button
+    _scrollController.addListener(() {
+      setState(() {
+        showScrollToTop = _scrollController.offset > 100;
+      });
+    });
+  }
+
+  void _scrollToTop() {
+    _scrollController.animateTo(
+      0.0,
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeInOut,
+    );
   }
 
   // void saveToHistory(String word) async {
@@ -2496,6 +2512,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      floatingActionButton: showScrollToTop
+          ? FloatingActionButton(
+              onPressed: _scrollToTop,
+              backgroundColor: Colors.transparent, // Button background color
+              elevation: 0, // Remove elevation
+              shape: RoundedRectangleBorder(
+                borderRadius:
+                    BorderRadius.circular(16.0), // Button border radius
+                side: BorderSide(
+                  color: Colors.white.withOpacity(0.1), // Border color
+                  width: 0.1, // Border width
+                ),
+              ),
+              child: Icon(
+                Icons.arrow_upward,
+                size: 18.0, // Adjust the icon size as needed
+                color: Colors.white.withOpacity(0.6), // Icon color
+              ),
+            )
+          : null,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -2530,6 +2567,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   TextDirection.ltr, // Set the text direction to right-to-left
               child: EnglishDictionary(
                 words: filteredWords,
+                scrollController: _scrollController,
                 onTapWord: (wordsEnglish) {
                   if (wordsEnglish == "dopsum") {
                     saveToHistory(wordsEnglish);
@@ -18001,16 +18039,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 class EnglishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
+  final ScrollController scrollController;
 
   const EnglishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
+    required this.scrollController,
   });
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      controller: scrollController, // Use the passed scroll controller
       itemCount: words.length,
       itemBuilder: (BuildContext context, int index) {
         return ListTileEnglish(
@@ -18023,6 +18064,32 @@ class EnglishDictionary extends StatelessWidget {
     );
   }
 }
+
+// class EnglishDictionary extends StatelessWidget {
+//   final List<String> words;
+//   final Function(String) onTapWord;
+
+//   const EnglishDictionary({
+//     super.key,
+//     required this.words,
+//     required this.onTapWord,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ListView.builder(
+//       itemCount: words.length,
+//       itemBuilder: (BuildContext context, int index) {
+//         return ListTileEnglish(
+//           wordsEnglish: words[index],
+//           onTap: () {
+//             onTapWord(words[index]);
+//           },
+//         );
+//       },
+//     );
+//   }
+// }
 
 class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;

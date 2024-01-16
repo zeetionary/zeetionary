@@ -79,6 +79,11 @@ class _GrammarScreenState extends State<GrammarScreen> {
   final Map<String, List<String>> filterItems = {
     "present": ["teeeee", "present simple", "present perfect"],
     "past": ["past simple", "past perfect"],
+    // "pasttt": ["past simple", "past perfect"],
+    // "pastttt": ["past simple", "past perfect"],
+    // "pasttttt": ["past simple", "past perfect"],
+    // "pastttttt": ["past simple", "past perfect"],
+    // "pasttttttt": ["past simple", "past perfect"],
   };
 
   String? selectedFilter; // Nullable to represent no selection
@@ -207,16 +212,35 @@ class _GrammarScreenState extends State<GrammarScreen> {
             ),
           ),
           // Tags for filtering
+          // AnimatedContainer(
+          //   duration: const Duration(milliseconds: 150),
+          //   height: isFilterExpanded ? 40 : 0,
+          //   child: Row(
+          //     mainAxisAlignment: MainAxisAlignment.center,
+          //     children: [
+          //       for (var filter in filterItems.keys) _buildFilterTag(filter),
+          //     ],
+          //   ),
+          // ),
           AnimatedContainer(
             duration: const Duration(milliseconds: 150),
             height: isFilterExpanded ? 40 : 0,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                for (var filter in filterItems.keys) _buildFilterTag(filter),
+                Expanded(
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: filterItems.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      var filter = filterItems.keys.toList()[index];
+                      return _buildFilterTag(filter);
+                    },
+                  ),
+                ),
               ],
             ),
           ),
+          // (zee: scrollable: https://chat.openai.com/c/0a2f9950-39d5-4fff-86eb-87635448df3e)
           Expanded(
             child: Directionality(
               textDirection:

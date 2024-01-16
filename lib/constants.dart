@@ -589,7 +589,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     _controller = AnimationController(
       vsync: this,
       duration:
-          const Duration(milliseconds: 800), // Adjust the duration as needed
+          const Duration(milliseconds: 1000), // Adjust the duration as needed
     )..forward();
   }
 

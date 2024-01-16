@@ -92,7 +92,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       controller: _advancedDrawerController,
       animationCurve: Curves.easeInOut,
       backdropColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
-      animationDuration: const Duration(milliseconds: 300),
+      animationDuration: const Duration(milliseconds: 200),
       animateChildDecoration: true,
       rtlOpening: false,
       // openScale: 1.0,
@@ -261,7 +261,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               valueListenable: _advancedDrawerController,
               builder: (_, value, __) {
                 return AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 150),
+                  duration: const Duration(milliseconds: 200),
                   child: Icon(
                     value.visible ? Icons.clear : Icons.menu,
                     key: ValueKey<bool>(value.visible),
@@ -328,7 +328,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             setState(() {
               _currentIndex = index;
               _pageController.animateToPage(index,
-                  duration: const Duration(milliseconds: 300),
+                  duration: const Duration(milliseconds: 200),
                   curve: Curves.easeIn);
             });
           },

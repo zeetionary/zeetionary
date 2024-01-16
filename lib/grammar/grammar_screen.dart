@@ -13,8 +13,71 @@ class GrammarScreen extends StatefulWidget {
 
 class _GrammarScreenState extends State<GrammarScreen> {
   // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
+  // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
+
+  bool isFilterExpanded = false;
+
+  Widget _buildFilterTag(String filter) {
+    return Expanded(
+      child: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 4),
+        child: ElevatedButton(
+          onPressed: () {
+            setState(() {
+              if (selectedFilter == filter) {
+                // If the selected tag is tapped again, unselect it
+                selectedFilter = null;
+                filteredWords = List.from(allGrammarSubjects);
+              } else {
+                // Otherwise, select the tag and update the list
+                selectedFilter = filter;
+                _updateFilteredWords();
+              }
+            });
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: selectedFilter == filter
+                ? Theme.of(context).scaffoldBackgroundColor
+                : Theme.of(context).scaffoldBackgroundColor,
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            side: BorderSide(
+              color: selectedFilter == filter
+                  ? Theme.of(context).primaryColor.withOpacity(0.4)
+                  : Theme.of(context).primaryColor.withOpacity(0.2),
+              width: selectedFilter == filter ? 2 : 0.1,
+            ),
+          ),
+          child: Text(
+            filter.toUpperCase(),
+            style: TextStyle(
+              color: selectedFilter == filter
+                  ? Theme.of(context).primaryColor.withOpacity(0.8)
+                  : Theme.of(context).primaryColor.withOpacity(0.6),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _updateFilteredWords() {
+    setState(() {
+      if (_searchController.text.isNotEmpty) {
+        // If there's a search query, filter based on the query
+        filteredWords = filterItems[selectedFilter!]!
+            .where((word) => word
+                .toLowerCase()
+                .contains(_searchController.text.toLowerCase()))
+            .toList();
+      } else {
+        // If no search query, show all items for the selected filter
+        filteredWords = List.from(filterItems[selectedFilter!]!);
+      }
+    });
+  }
+
   final Map<String, List<String>> filterItems = {
-    "present": ["present simple", "present perfect"],
+    "present": ["teeeee", "present simple", "present perfect"],
     "past": ["past simple", "past perfect"],
   };
 
@@ -89,42 +152,70 @@ class _GrammarScreenState extends State<GrammarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: const ZeetionaryAppbar(),
       key: scaffoldKey,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Directionality(
-            textDirection: TextDirection.ltr,
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: SizedBox(
-                height: 60,
-                child: TextField(
-                  controller: _searchController,
-                  onChanged: filterResults,
-                  decoration: InputDecoration(
-                    labelText: "Search here",
-                    prefixIcon: const Icon(Icons.search),
-                    suffixIcon: _searchController.text.isNotEmpty
-                        ? IconButton(
-                            icon: const Icon(Icons.clear),
-                            onPressed: clearSearch,
-                          )
-                        : null,
-                    border: const OutlineInputBorder(),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: SizedBox(
+              height: 60,
+              child: TextField(
+                controller: _searchController,
+                onChanged: filterResults,
+                decoration: InputDecoration(
+                  labelText: "Search here",
+                  prefixIcon: const Icon(Icons.search),
+                  // suffixIcon: IconButton(
+                  //   icon: Icon(
+                  //     isFilterExpanded
+                  //         ? Icons.arrow_drop_up
+                  //         : Icons.arrow_drop_down,
+                  //   ),
+                  //   onPressed: () {
+                  //     setState(() {
+                  //       isFilterExpanded = !isFilterExpanded;
+                  //     });
+                  //   },
+                  // ),
+                  suffixIcon: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: Icon(
+                          isFilterExpanded
+                              ? Icons.arrow_drop_up
+                              : Icons.arrow_drop_down,
+                        ),
+                        onPressed: () {
+                          setState(() {
+                            isFilterExpanded = !isFilterExpanded;
+                          });
+                        },
+                      ),
+                      if (_searchController.text.isNotEmpty)
+                        IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: clearSearch,
+                        ),
+                    ],
                   ),
+                  border: const OutlineInputBorder(),
                 ),
               ),
             ),
           ),
           // Tags for filtering
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              for (var filter in filterItems.keys) _buildFilterTag(filter),
-            ],
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 150),
+            height: isFilterExpanded ? 40 : 0,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                for (var filter in filterItems.keys) _buildFilterTag(filter),
+              ],
+            ),
           ),
           Expanded(
             child: Directionality(
@@ -143,63 +234,6 @@ class _GrammarScreenState extends State<GrammarScreen> {
         ],
       ),
     );
-  }
-
-  Widget _buildFilterTag(String filter) {
-    return Expanded(
-      child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 4),
-        child: ElevatedButton(
-          onPressed: () {
-            setState(() {
-              if (selectedFilter == filter) {
-                // If the selected tag is tapped again, unselect it
-                selectedFilter = null;
-                filteredWords = List.from(allGrammarSubjects);
-              } else {
-                // Otherwise, select the tag and update the list
-                selectedFilter = filter;
-                _updateFilteredWords();
-              }
-            });
-          },
-          style: ElevatedButton.styleFrom(
-            backgroundColor: selectedFilter == filter
-                ? Theme.of(context).primaryColor.withOpacity(0.005)
-                : Theme.of(context).primaryColor.withOpacity(0.005),
-            padding: const EdgeInsets.symmetric(horizontal: 10),
-            side: BorderSide(
-              color: Theme.of(context).primaryColor.withOpacity(0.3),
-              width: 1,
-            ),
-          ),
-          child: Text(
-            filter.toUpperCase(),
-            style: TextStyle(
-              color: selectedFilter == filter
-                  ? Theme.of(context).primaryColor.withOpacity(0.99)
-                  : Theme.of(context).primaryColor.withOpacity(0.50),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  void _updateFilteredWords() {
-    setState(() {
-      if (_searchController.text.isNotEmpty) {
-        // If there's a search query, filter based on the query
-        filteredWords = filterItems[selectedFilter!]!
-            .where((word) => word
-                .toLowerCase()
-                .contains(_searchController.text.toLowerCase()))
-            .toList();
-      } else {
-        // If no search query, show all items for the selected filter
-        filteredWords = List.from(filterItems[selectedFilter!]!);
-      }
-    });
   }
 }
 

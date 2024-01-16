@@ -18,42 +18,40 @@ class _GrammarScreenState extends State<GrammarScreen> {
   bool isFilterExpanded = false;
 
   Widget _buildFilterTag(String filter) {
-    return Expanded(
-      child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 4),
-        child: ElevatedButton(
-          onPressed: () {
-            setState(() {
-              if (selectedFilter == filter) {
-                // If the selected tag is tapped again, unselect it
-                selectedFilter = null;
-                filteredWords = List.from(allGrammarSubjects);
-              } else {
-                // Otherwise, select the tag and update the list
-                selectedFilter = filter;
-                _updateFilteredWords();
-              }
-            });
-          },
-          style: ElevatedButton.styleFrom(
-            backgroundColor: selectedFilter == filter
-                ? Theme.of(context).scaffoldBackgroundColor
-                : Theme.of(context).scaffoldBackgroundColor,
-            padding: const EdgeInsets.symmetric(horizontal: 10),
-            side: BorderSide(
-              color: selectedFilter == filter
-                  ? Theme.of(context).primaryColor.withOpacity(0.4)
-                  : Theme.of(context).primaryColor.withOpacity(0.2),
-              width: selectedFilter == filter ? 2 : 0.1,
-            ),
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 4),
+      child: ElevatedButton(
+        onPressed: () {
+          setState(() {
+            if (selectedFilter == filter) {
+              // If the selected tag is tapped again, unselect it
+              selectedFilter = null;
+              filteredWords = List.from(allGrammarSubjects);
+            } else {
+              // Otherwise, select the tag and update the list
+              selectedFilter = filter;
+              _updateFilteredWords();
+            }
+          });
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: selectedFilter == filter
+              ? Theme.of(context).scaffoldBackgroundColor
+              : Theme.of(context).scaffoldBackgroundColor,
+          padding: const EdgeInsets.symmetric(horizontal: 10),
+          side: BorderSide(
+            color: selectedFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.4)
+                : Theme.of(context).primaryColor.withOpacity(0.2),
+            width: selectedFilter == filter ? 2 : 0.1,
           ),
-          child: Text(
-            filter.toUpperCase(),
-            style: TextStyle(
-              color: selectedFilter == filter
-                  ? Theme.of(context).primaryColor.withOpacity(0.8)
-                  : Theme.of(context).primaryColor.withOpacity(0.6),
-            ),
+        ),
+        child: Text(
+          filter.toUpperCase(),
+          style: TextStyle(
+            color: selectedFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.8)
+                : Theme.of(context).primaryColor.withOpacity(0.6),
           ),
         ),
       ),
@@ -249,6 +247,9 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 words: filteredWords,
                 onTapWord: (allGrammarSubjects) {
                   if (allGrammarSubjects == "present simple") {
+                    Routemaster.of(context).push("/english/grammar/aback");
+                  }
+                  if (allGrammarSubjects == "teeeee") {
                     Routemaster.of(context).push("/english/grammar/aback");
                   }
                 },

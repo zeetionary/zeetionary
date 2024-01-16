@@ -37,6 +37,41 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     });
   }
 
+  // void saveToHistory(String word) async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   List<String> kurdishhistory = prefs.getStringList("kurdish history") ?? [];
+
+  //   if (!kurdishhistory.contains(word)) {
+  //     kurdishhistory.add(word);
+  //     await prefs.setStringList("kurdish history", kurdishhistory);
+  //   }
+  // }
+
+  void saveToHistory(String word) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> kurdishhistory = prefs.getStringList('kurdish history') ?? [];
+
+    // https://bard.google.com/chat/ad9cccab2b6f39b4
+
+    if (kurdishhistory.contains(word)) {
+      kurdishhistory
+          .remove(word); // Remove the existing item before adding it again.
+    }
+
+    kurdishhistory.insert(0, word); // Add the item back to the top of the list.
+    await prefs.setStringList('kurdish history', kurdishhistory);
+
+    setState(() {}); // Rebuild the list view with the updated order.
+  }
+
+  // (not zee) https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
   void clearSearch() {
     _searchController.clear();
     filterResults('');
@@ -109,41 +144,6 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
         ],
       ),
     );
-  }
-
-  // void saveToHistory(String word) async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   List<String> kurdishhistory = prefs.getStringList("kurdish history") ?? [];
-
-  //   if (!kurdishhistory.contains(word)) {
-  //     kurdishhistory.add(word);
-  //     await prefs.setStringList("kurdish history", kurdishhistory);
-  //   }
-  // }
-
-  void saveToHistory(String word) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> kurdishhistory = prefs.getStringList('kurdish history') ?? [];
-
-    // https://bard.google.com/chat/ad9cccab2b6f39b4
-
-    if (kurdishhistory.contains(word)) {
-      kurdishhistory
-          .remove(word); // Remove the existing item before adding it again.
-    }
-
-    kurdishhistory.insert(0, word); // Add the item back to the top of the list.
-    await prefs.setStringList('kurdish history', kurdishhistory);
-
-    setState(() {}); // Rebuild the list view with the updated order.
-  }
-
-  // (not zee) https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
-
-  @override
-  void dispose() {
-    _searchController.dispose();
-    super.dispose();
   }
 }
 

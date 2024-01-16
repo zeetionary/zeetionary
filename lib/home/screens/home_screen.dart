@@ -261,7 +261,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               valueListenable: _advancedDrawerController,
               builder: (_, value, __) {
                 return AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 50),
+                  duration: const Duration(milliseconds: 150),
                   child: Icon(
                     value.visible ? Icons.clear : Icons.menu,
                     key: ValueKey<bool>(value.visible),

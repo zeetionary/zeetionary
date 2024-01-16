@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/theme/pallete.dart';
+// import 'package:zeetionary/theme/pallete.dart';
 // import 'package:zeetionary/constants.dart';
 
 // class QuizScreen extends ConsumerWidget {
@@ -26,11 +26,11 @@ import 'package:zeetionary/theme/pallete.dart';
 // }
 
 class QuizScreen extends ConsumerStatefulWidget {
-  final ThemeData currentTheme;
+  // final ThemeData currentTheme;
 
   // (zee): https://chat.openai.com/c/fd57b2af-b7b6-472a-98fd-aea0551587d1
 
-  const QuizScreen({super.key, required this.currentTheme});
+  const QuizScreen({super.key});
 
   @override
   // _QuizScreenState createState() => _QuizScreenState();
@@ -61,7 +61,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -73,21 +73,21 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             children: [
               DecoratedBox(
                 decoration: BoxDecoration(
-                  border:
-                      Border.all(color: currentTheme.primaryColor, width: 2),
+                  border: Border.all(
+                      color: Theme.of(context).primaryColor, width: 2),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: QuestionCard(
                   question: questions[currentIndex],
                   onAnswerSelected: (answer) => checkAnswer(answer),
-                  currentTheme: currentTheme,
+                  // currentTheme: currentTheme,
                 ),
               ),
               const SizedBox(height: 20),
               Container(
                 decoration: BoxDecoration(
-                  border:
-                      Border.all(color: currentTheme.primaryColor, width: 2),
+                  border: Border.all(
+                      color: Theme.of(context).primaryColor, width: 2),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 padding: const EdgeInsets.all(12),
@@ -181,12 +181,12 @@ class Question {
 class QuestionCard extends ConsumerStatefulWidget {
   final Question question;
   final Function(String) onAnswerSelected;
-  final ThemeData currentTheme;
+  // final ThemeData currentTheme;
 
   const QuestionCard(
       {required this.question,
       required this.onAnswerSelected,
-      required this.currentTheme,
+      // required this.currentTheme,
       super.key});
 
   @override
@@ -196,7 +196,7 @@ class QuestionCard extends ConsumerStatefulWidget {
 class _QuestionCardState extends ConsumerState<QuestionCard> {
   @override
   Widget build(BuildContext context) {
-    final currentTheme = ref.watch(themeNotifierProvider);
+    // final currentTheme = ref.watch(themeNotifierProvider);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -214,7 +214,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: currentTheme.primaryColor),
+                  color: Theme.of(context).primaryColor),
               textAlign: TextAlign.center,
             ),
           ),
@@ -228,7 +228,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                 padding: const EdgeInsets.symmetric(horizontal: 0),
                 decoration: BoxDecoration(
                   border: Border.all(
-                      color: currentTheme.primaryColor.withOpacity(0.8),
+                      color: Theme.of(context).primaryColor.withOpacity(0.8),
                       width: 1),
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -253,7 +253,7 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                         option,
                         style: TextStyle(
                           fontSize: 16,
-                          color: currentTheme.primaryColor,
+                          color: Theme.of(context).primaryColor,
                         ),
                       ),
                     ),

@@ -2231,8 +2231,8 @@ final loggedInRoute = RouteMap(routes: {
   // "/settings-screen": (_) => const MaterialPage(child: SettingsPage(initialTextSize: null,)),
   // "/settings-screen": (_) =>
   //     MaterialPage(child: SettingsPage()), // (initialTextSize: 20.0)),
-  '/quiz-screen': (_) =>
-      MaterialPage(child: QuizScreen(currentTheme: ThemeData.light())),
+  '/quiz-screen': (_) => const MaterialPage(child: QuizScreen()),
+  // '/quiz-screen': (_) => MaterialPage(child: QuizScreen(currentTheme: ThemeData.light())),
   // English dictionary starts here
   // English dictionary starts here
   // English dictionary starts here

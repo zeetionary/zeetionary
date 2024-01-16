@@ -169,7 +169,7 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                                       "speakdopsum1s111111111111111111111111111111111"),
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
-                              const CustomSizedBoxForTTS(), // Define the word "dopsum1" as
+                              const CustomSizedBoxForTTS(), // With short examples define the word "dopsum1", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(

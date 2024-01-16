@@ -2215,21 +2215,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "buckle",
     "bud",
     "Buddhism",
+    "Buddhist",
     "budding",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "buddy",
+    // "budge",
+    // "budgerigar",
+    // "budget",
+    // "budgie",
+    // "buff",
+    // "buffalo",
+    // "buffer",
+    // "buffet",
+    // "bug",
+    // "bugbear",
+    // "bugger",
+    // "bugle",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -11401,61 +11401,61 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-buddhism");
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "Buddhist") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buddhist");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "buddy") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buddy");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "budge") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-budge");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "budgerigar") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-budgerigar");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "budgie") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-budgerigar");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "budget") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-budget");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "buff") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buff");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "buffalo") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buffalo");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "buffer") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buffer");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "buffet") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-buffet");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bug") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bug");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bugbear") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bugbear");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bugger") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bugger");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bugle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bugle");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

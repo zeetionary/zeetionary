@@ -5,84 +5,83 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blister" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace blister - /ˈblɪstə(r)/
-
 enum TtsState { playing }
 
-class EnglishEntryblister extends StatelessWidget {
+class EnglishEntrybug extends StatelessWidget {
 // blank divider
-  EnglishEntryblister({super.key});
+  EnglishEntrybug({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblister(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbug(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blister"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bug"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters1(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He’d got blisters on his feet from running."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblisters2(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was a blister on her cheek where the boiling milk had splashed her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblisters3(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbugs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His skin was beginning to blister."); // DOPSUM: CHANGE TEXT
+        .speak("There's a bug crawling up your arm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters4(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbugs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I picked up a bug in the office."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbugs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She's been bitten by the travel bug."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbugs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sun blistered the the door's paintwork."); // DOPSUM: CHANGE TEXT
+        "My computer's really slow at the moment—it must be some kind of bug."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters5(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbugs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters55"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They planted a bug in his hotel room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters6(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbugs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters66"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They bugged her hotel room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters7(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbugs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbug
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "What's the matter? Is there something bugging you?"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +104,22 @@ class EnglishEntryblister extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blister"),
+                            EntryTitle(word: "bug"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblɪstə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /bʌɡ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblister("en-GB"),
+                              onPressed: () => speakbug("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblɪstər/"),
+                            const IPAofEnglish(text: "IpaUS: /bʌɡ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblister("en-US"),
+                              onPressed: () => speakbug("en-US"),
                             ),
                           ],
                         ),
@@ -166,70 +165,23 @@ class EnglishEntryblister extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بڵق، تۆقلە، تلۆقە، پۆرگ، بلۆق، گۆزاوڵە، زیپکە، ھەڵتۆقیوی، خاڵ، دەبە، تۆقلە (ھی سەر ڕووی کانزا و ڕەنگ)، (نافەرمی، بریتانیا) کەسێکی وەڕەزکەر
+کوردی: (مێرووناسی) جانەوەر، بەچکەمێروو، مێرووچکە، میکڕۆب، ڤایرۆس، کێشە، گیر، ئیرۆر، گرفت 
 
-١. (ناو) ھەڵئاوسانی سەر پێست کە شلەی تێدایە و درووست بووە بۆ نموونە بەھۆی سووتانەوە"""),
+١. (ناو) هەر مێروویەکی بچووک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He’d got blisters on his feet from running."),
+                                  text: "There's a bug crawling up your arm."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵئاوسانی لەسەر پێی درووست بووە بەھۆی ڕاکردنەوە."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "مێروویەک لەسەر باڵت ڕێ دەکات."),
+                              const CustomSizedBoxForTTS(), // Define the word "bug" as
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblisters1("en-GB"),
+                                    onPressed: () => speakbugs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a blister on her cheek where the boiling milk had splashed her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵئاوسانێک لەسەر گۆنای ھەبوو لەو شوێنەی شیرە گەرمەکە پێیدا پرژابوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) درووستبوونی تلۆقان"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His skin was beginning to blister."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێستی خەریک بوو دەستی بە تلۆقان دەکرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters3("en-US"),
+                                    onPressed: () => speakbugs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,23 +190,139 @@ class EnglishEntryblister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) درووستبوونی تۆپەڵ لەسەر ڕووی شتێک کە ھەوا یان شلەی تێدایە و دەتەقێت"),
+                                  "٢. (ناو) نەخۆشییەک کە سووکە بەڵام ئاسان بڵاودەبێتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The sun blistered the the door's paintwork."),
+                                  text: "I picked up a bug in the office."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆرەکە تۆپەڵی درووستکرد لەسەر بۆیەی دەرگاکە."),
+                                  text: "سووکە نەخۆشییەکم لە ئۆفیوەکەوە گرت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblisters4("en-GB"),
+                                    onPressed: () => speakbugs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters4("en-US"),
+                                    onPressed: () => speakbugs2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) حەزێکی زۆر بۆ شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She's been bitten by the travel bug."),
+                              const ExampleSentenceKurdish(
+                                  text: "مەیلی بۆ گەشتکردن چووە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbugs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbugs3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) هەڵەیەک لە ئامێرێکدا، بەتایبەتی سیستەمێکی کۆمپیوتەر یان پڕۆگرامێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My computer's really slow at the moment—it must be some kind of bug."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbugs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbugs4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) ئامێرێکی بچووک بۆ گوێگرتن لە گفتوگۆی کەسانی تر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They planted a bug in his hotel room."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbugs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbugs5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) دانانی مایکرۆفۆنێک بۆ گوێگرتن لە کەسانی تر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "They bugged her hotel room."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbugs6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbugs6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٧. (کردار) بێزارکردن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "What's the matter? Is there something bugging you?"),
+                              const ExampleSentenceKurdish(
+                                  text: "کێشە چییە؟ شتێک هەیە بێزارت بکات؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbugs7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbugs7("en-US"),
                                   ),
                                 ],
                               ),
@@ -337,23 +405,26 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: blister (derived forms: blisters)
-1. (pathology) an elevation of the skin filled with serous fluid, caused by rubbing or friction (= bulla, bleb)
-"new shoes often give me blisters";
+- Noun: bug (Derived forms: bugs)
+1. General term for any insect or similar creeping or crawling invertebrate
  
-2. A flaw on a surface resulting when an applied substance does not adhere (as an air bubble in a coat of paint)
+2. A fault or defect in a computer program, system, or machine (= glitch)
  
-3. (botany) a swelling on a plant similar to that on the skin
+3. A small hidden microphone; for listening secretly (= wire)
+ 
+4. Insects with sucking mouthparts and forewings thickened and leathery at the base; usually show incomplete metamorphosis (= hemipterous insect, hemipteran, hemipteron)
+ 
+5. A minute life form (especially a disease-causing bacterium); the term is not in technical use (= microbe, germ)
 
-- Verb: blister (derived forms: blistering, blisters, blistered)
-1. Get blistered (= vesicate)
-"Her feet blistered during the long hike";
+- Verb: bug (Derived forms: bugging, bugged, bugs)
+1. Annoy persistently (= tease, badger, pester, beleaguer)
+"The children bugged the boy because of his stammer";
  
-2. Subject to harsh criticism (= scald, whip [informal], scorch)
-"The Senator blistered the administration in his speech on Friday";
- 
-3. Cause blisters to form on
-"the tight shoes and perspiration blistered her feet"
+2. Secretly listen in on a communication channel (esp. a telephone) in order to get information (= wiretap, tap, intercept)
+"Is this hotel room bugged?";
+
+3. Put in place electronic eavesdropping equipment (= wire)
+"his house is bugged";
 """,
   );
 
@@ -385,12 +456,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "dXt1ftcdxNg";
+  static String myVideoId = "https://youtu.be/dqcSk-EDrRo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 178, // DOPSUM: CHANGE IT
+      startAt: 632, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -410,12 +481,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "q8y-RLkpsnk";
+  static String myVideoId = "https://youtu.be/EHJNGdFll4o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1420, // DOPSUM: CHANGE IT
+      startAt: 95, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -435,12 +506,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "FSHITL5oedk";
+  static String myVideoId = "https://youtu.be/XKqWnOtbSr8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 778, // DOPSUM: CHANGE IT
+      startAt: 101, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -460,12 +531,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "tboW11dMeKs";
+  static String myVideoId = "https://youtu.be/wir7jmefyec?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -485,12 +556,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "L87HuKmGwVQ";
+  static String myVideoId = "https://youtu.be/Fr-qagv7ig0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 746, // DOPSUM: CHANGE IT
+      startAt: 523, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -510,12 +581,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "hGLY5MAAFO4";
+  static String myVideoId = "https://youtu.be/LPBEPNmSlec?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1631, // DOPSUM: CHANGE IT
+      startAt: 530, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -535,12 +606,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "Cg10exNmf7I";
+  static String myVideoId = "https://youtu.be/w-oGpGf03Ag?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 56, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -560,12 +631,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wv43IN_cnyw";
+  static String myVideoId = "https://youtu.be/jHOMQt_hSDg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 195, // DOPSUM: CHANGE IT
+      startAt: 164, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -585,12 +656,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "7ziWrneMYss";
+  static String myVideoId = "https://youtu.be/NDpAHCMZ6HA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 571, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -610,12 +681,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "B4Jlofn3qZI";
+  static String myVideoId = "https://youtu.be/WPKo4tSClpE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 593, // DOPSUM: CHANGE IT
+      startAt: 40, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,12 +706,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "0uEw_sltF-s";
+  static String myVideoId = "https://youtu.be/VYRWjZ8B93g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 204, // DOPSUM: CHANGE IT
+      startAt: 323, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -660,12 +731,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "nmsxbY3CQKY";
+  static String myVideoId = "https://youtu.be/_cUHb_fZyME?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 439, // DOPSUM: CHANGE IT
+      startAt: 1097, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -682,6 +753,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// more than one video, only first autoplay
-
-// end blister
+// end WORD_WEB

@@ -48,7 +48,7 @@ class EnglishEntrybleat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbleats33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A goat was bleating afar."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbleats4(String languageCode) async {
@@ -187,7 +187,29 @@ class EnglishEntrybleat extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) بۆڵەبۆڵ"),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (کردار) باعاندن"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "A goat was bleating afar."),
+                          const ExampleSentenceKurdish(
+                          text: "بزنێک لە دوورەوە دەیباعاند."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbleats3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbleats3("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DefinitionKurdish(text: "٣. (کردار) بۆڵەبۆڵکردن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

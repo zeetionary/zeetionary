@@ -5,90 +5,84 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blister" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace blister - /ˈblɪstə(r)/
-
 enum TtsState { playing }
 
-class EnglishEntryblister extends StatelessWidget {
+class EnglishEntrybuffet extends StatelessWidget {
 // blank divider
-  EnglishEntryblister({super.key});
+  EnglishEntrybuffet({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblister(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffet(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blister"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("buffet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters1(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He’d got blisters on his feet from running."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblisters2(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was a blister on her cheek where the boiling milk had splashed her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblisters3(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffets1(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His skin was beginning to blister."); // DOPSUM: CHANGE TEXT
+        .speak("Breakfast is served buffet style."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters4(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffets2(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sun blistered the the door's paintwork."); // DOPSUM: CHANGE TEXT
+        "The little boat was buffeted mercilessly by the waves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters5(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffets3(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuffets33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters6(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffets4(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuffets44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblisters7(String languageCode) async {
-    // DOPSUM: CHANGE speakblister
+  Future<void> speakbuffets5(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblisters77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuffets55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuffets6(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuffets66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuffets7(String languageCode) async {
+    // DOPSUM: CHANGE speakbuffet
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuffets77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -105,22 +99,23 @@ class EnglishEntryblister extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blister"),
+                            EntryTitle(word: "buffet"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblɪstə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈbʌfeɪ/, /ˈbʊfeɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblister("en-GB"),
+                              onPressed: () => speakbuffet("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblɪstər/"),
+                            const IPAofEnglish(text: "IpaUS: /bəˈfeɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblister("en-US"),
+                              onPressed: () => speakbuffet("en-US"),
                             ),
                           ],
                         ),
@@ -138,13 +133,13 @@ class EnglishEntryblister extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -166,70 +161,23 @@ class EnglishEntryblister extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بڵق، تۆقلە، تلۆقە، پۆرگ، بلۆق، گۆزاوڵە، زیپکە، ھەڵتۆقیوی، خاڵ، دەبە، تۆقلە (ھی سەر ڕووی کانزا و ڕەنگ)، (نافەرمی، بریتانیا) کەسێکی وەڕەزکەر
+کوردی: لێدان، پیاکێشان، سیخورمە، مستەکۆڵە، کولم، نقورچ، جەزرەبە، مشت، بووفە، واگۆنی بووفە، دۆڵاب، قەفەسە
 
-١. (ناو) ھەڵئاوسانی سەر پێست کە شلەی تێدایە و درووست بووە بۆ نموونە بەھۆی سووتانەوە"""),
+١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He’d got blisters on his feet from running."),
+                                  text: "Breakfast is served buffet style."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵئاوسانی لەسەر پێی درووست بووە بەھۆی ڕاکردنەوە."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "نانی بەیانی بەشێوەی بووفە دەخورێت."),
+                              const CustomSizedBoxForTTS(), // With short examples define the word "buffet", follow LX strictly.
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblisters1("en-GB"),
+                                    onPressed: () => speakbuffets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a blister on her cheek where the boiling milk had splashed her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵئاوسانێک لەسەر گۆنای ھەبوو لەو شوێنەی شیرە گەرمەکە پێیدا پرژابوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) درووستبوونی تلۆقان"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His skin was beginning to blister."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێستی خەریک بوو دەستی بە تلۆقان دەکرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters3("en-US"),
+                                    onPressed: () => speakbuffets1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,23 +186,23 @@ class EnglishEntryblister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) درووستبوونی تۆپەڵ لەسەر ڕووی شتێک کە ھەوا یان شلەی تێدایە و دەتەقێت"),
+                                  "٢. (کردار) لێدان بە هێزێکی زۆرەوە بە بەردەوامئ؛ پاڵنانی کەسێک/شتێک لە لایەک بۆ لایەکی دیکە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The sun blistered the the door's paintwork."),
+                                      "The little boat was buffeted mercilessly by the waves."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خۆرەکە تۆپەڵی درووستکرد لەسەر بۆیەی دەرگاکە."),
+                                      "شەپۆلەکان بێ‌بەزەییانە لە بەلەمە بچووکەکەیان دەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakblisters4("en-GB"),
+                                    onPressed: () => speakbuffets2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters4("en-US"),
+                                    onPressed: () => speakbuffets2("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,7 +222,7 @@ class EnglishEntryblister extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -337,23 +285,19 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: blister (derived forms: blisters)
-1. (pathology) an elevation of the skin filled with serous fluid, caused by rubbing or friction (= bulla, bleb)
-"new shoes often give me blisters";
+- Verb: buffet (Derived forms: buffets, buffeting, buffeted)
+1. Strike against forcefully (= knock about, batter)
+"Winds buffeted the tent";
  
-2. A flaw on a surface resulting when an applied substance does not adhere (as an air bubble in a coat of paint)
- 
-3. (botany) a swelling on a plant similar to that on the skin
+2. Strike, beat repeatedly (= buff)
+"The wind buffeted him";
 
-- Verb: blister (derived forms: blistering, blisters, blistered)
-1. Get blistered (= vesicate)
-"Her feet blistered during the long hike";
+- Noun: buffet (Derived forms: buffets)
+1. A piece of furniture that stands at the side of a dining room; has shelves and drawers (= counter, sideboard)
  
-2. Subject to harsh criticism (= scald, whip [informal], scorch)
-"The Senator blistered the administration in his speech on Friday";
+2. A meal set out on a buffet at which guests help themselves
  
-3. Cause blisters to form on
-"the tight shoes and perspiration blistered her feet"
+3. A small bar or counter selling light food (= snack bar, snack counter)
 """,
   );
 
@@ -385,12 +329,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "dXt1ftcdxNg";
+  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 178, // DOPSUM: CHANGE IT
+      startAt: 243, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -410,12 +354,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "q8y-RLkpsnk";
+  static String myVideoId = "https://youtu.be/W8uXhQnWgj4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1420, // DOPSUM: CHANGE IT
+      startAt: 1089, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -435,12 +379,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "FSHITL5oedk";
+  static String myVideoId = "https://youtu.be/helhqdNlWhg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 778, // DOPSUM: CHANGE IT
+      startAt: 600, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -460,12 +404,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "tboW11dMeKs";
+  static String myVideoId = "https://youtu.be/yyv2gOHMGEc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 671, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -485,12 +429,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "L87HuKmGwVQ";
+  static String myVideoId = "https://youtu.be/fEywqOIWs5s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 746, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -510,12 +454,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "hGLY5MAAFO4";
+  static String myVideoId = "https://youtu.be/v3aoeKtpH4o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1631, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -535,12 +479,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "Cg10exNmf7I";
+  static String myVideoId = "https://youtu.be/GZejfTnQSqo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 90, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -560,12 +504,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wv43IN_cnyw";
+  static String myVideoId = "https://youtu.be/dzhmA92F77s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 195, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -585,12 +529,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "7ziWrneMYss";
+  static String myVideoId = "https://youtu.be/Ii9o8B_9sXo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 571, // DOPSUM: CHANGE IT
+      startAt: 175, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -610,12 +554,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "B4Jlofn3qZI";
+  static String myVideoId = "https://youtu.be/VaaMtMgNZJ0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 593, // DOPSUM: CHANGE IT
+      startAt: 2056, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,12 +579,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "0uEw_sltF-s";
+  static String myVideoId = "https://youtu.be/yH-Wr1TRC68?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 204, // DOPSUM: CHANGE IT
+      startAt: 106, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -660,12 +604,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "nmsxbY3CQKY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 439, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -682,6 +626,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// more than one video, only first autoplay
-
-// end blister
+// end WORD_WEB

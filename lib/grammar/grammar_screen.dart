@@ -12,6 +12,14 @@ class GrammarScreen extends StatefulWidget {
 }
 
 class _GrammarScreenState extends State<GrammarScreen> {
+  // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
+  final Map<String, List<String>> filterItems = {
+    "present": ["present simple", "present perfect"],
+    "past": ["past simple", "past perfect"],
+  };
+
+  String? selectedFilter; // Nullable to represent no selection
+
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allGrammarSubjects = [
     // "dopsum",
@@ -19,6 +27,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
     "present perfect",
     "past simple",
     "past perfect",
+    "test",
   ];
 
   List<String> filteredWords = [];
@@ -72,6 +81,12 @@ class _GrammarScreenState extends State<GrammarScreen> {
   }
 
   @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       // appBar: const ZeetionaryAppbar(),
@@ -104,6 +119,13 @@ class _GrammarScreenState extends State<GrammarScreen> {
               ),
             ),
           ),
+          // Tags for filtering
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              for (var filter in filterItems.keys) _buildFilterTag(filter),
+            ],
+          ),
           Expanded(
             child: Directionality(
               textDirection:
@@ -123,10 +145,61 @@ class _GrammarScreenState extends State<GrammarScreen> {
     );
   }
 
-  @override
-  void dispose() {
-    _searchController.dispose();
-    super.dispose();
+  Widget _buildFilterTag(String filter) {
+    return Expanded(
+      child: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 4),
+        child: ElevatedButton(
+          onPressed: () {
+            setState(() {
+              if (selectedFilter == filter) {
+                // If the selected tag is tapped again, unselect it
+                selectedFilter = null;
+                filteredWords = List.from(allGrammarSubjects);
+              } else {
+                // Otherwise, select the tag and update the list
+                selectedFilter = filter;
+                _updateFilteredWords();
+              }
+            });
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: selectedFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.005)
+                : Theme.of(context).primaryColor.withOpacity(0.005),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            side: BorderSide(
+              color: Theme.of(context).primaryColor.withOpacity(0.3),
+              width: 1,
+            ),
+          ),
+          child: Text(
+            filter.toUpperCase(),
+            style: TextStyle(
+              color: selectedFilter == filter
+                  ? Theme.of(context).primaryColor.withOpacity(0.99)
+                  : Theme.of(context).primaryColor.withOpacity(0.50),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _updateFilteredWords() {
+    setState(() {
+      if (_searchController.text.isNotEmpty) {
+        // If there's a search query, filter based on the query
+        filteredWords = filterItems[selectedFilter!]!
+            .where((word) => word
+                .toLowerCase()
+                .contains(_searchController.text.toLowerCase()))
+            .toList();
+      } else {
+        // If no search query, show all items for the selected filter
+        filteredWords = List.from(filterItems[selectedFilter!]!);
+      }
+    });
   }
 }
 

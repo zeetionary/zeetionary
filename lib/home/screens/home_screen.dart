@@ -91,7 +91,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       // ),
       controller: _advancedDrawerController,
       animationCurve: Curves.easeInOut,
-      backdropColor: Theme.of(context).primaryColor.withOpacity(0.04),
+      backdropColor: Theme.of(context).primaryColor.withOpacity(0.045),
       animationDuration: const Duration(milliseconds: 200),
       animateChildDecoration: true,
       rtlOpening: false,

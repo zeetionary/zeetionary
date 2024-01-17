@@ -141,23 +141,30 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
       floatingActionButton: showScrollToTop
           ? FloatingActionButton(
               onPressed: _scrollToTop,
-              backgroundColor: Colors.transparent, // Button background color
+              backgroundColor: Theme.of(context)
+                  .primaryColor
+                  .withOpacity(0.007), // background color
               elevation: 0, // Remove elevation
               shape: RoundedRectangleBorder(
                 borderRadius:
                     BorderRadius.circular(16.0), // Button border radius
                 side: BorderSide(
-                  color: Colors.white.withOpacity(0.1), // Border color
+                  color: Theme.of(context)
+                      .primaryColor
+                      .withOpacity(0.5), // Border color
                   width: 0.1, // Border width
                 ),
               ),
               child: Icon(
                 Icons.arrow_upward,
                 size: 18.0, // Adjust the icon size as needed
-                color: Colors.white.withOpacity(0.6), // Icon color
+                color: Theme.of(context)
+                    .primaryColor
+                    .withOpacity(0.9), // Icon color
               ),
             )
           : null,
+      // (zee: scroll top) https://chat.openai.com/c/8f33ee5e-f847-4559-93f1-8869b74f52f9
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

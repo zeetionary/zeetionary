@@ -3,90 +3,20 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-// import 'package:zeetionary/constants.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({super.key});
 
   @override
-  State<DictionaryScreenEnglish> createState() => _DictionaryScreenEnglishState();
+  State<DictionaryScreenEnglish> createState() =>
+      _DictionaryScreenEnglishState();
 }
 
 class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
-  // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
-  // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
+  final ScrollController _scrollController = ScrollController();
+  bool showScrollToTop = false;
 
-  bool isFilterExpanded = false;
-
-  Widget _buildFilterTag(String filter) {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 4),
-      child: ElevatedButton(
-        onPressed: () {
-          setState(() {
-            if (selectedFilter == filter) {
-              // If the selected tag is tapped again, unselect it
-              selectedFilter = null;
-              filteredWords = List.from(allWordsEnglish);
-            } else {
-              // Otherwise, select the tag and update the list
-              selectedFilter = filter;
-              _updateFilteredWords();
-            }
-          });
-        },
-        style: ElevatedButton.styleFrom(
-          backgroundColor: selectedFilter == filter
-              ? Theme.of(context).scaffoldBackgroundColor
-              : Theme.of(context).scaffoldBackgroundColor,
-          padding: const EdgeInsets.symmetric(horizontal: 10),
-          side: BorderSide(
-            color: selectedFilter == filter
-                ? Theme.of(context).primaryColor.withOpacity(0.4)
-                : Theme.of(context).primaryColor.withOpacity(0.2),
-            width: selectedFilter == filter ? 2 : 0.1,
-          ),
-        ),
-        child: Text(
-          filter.toUpperCase(),
-          style: TextStyle(
-            color: selectedFilter == filter
-                ? Theme.of(context).primaryColor.withOpacity(0.8)
-                : Theme.of(context).primaryColor.withOpacity(0.6),
-          ),
-        ),
-      ),
-    );
-  }
-
-  void _updateFilteredWords() {
-    setState(() {
-      if (_searchController.text.isNotEmpty) {
-        // If there's a search query, filter based on the query
-        filteredWords = filterItems[selectedFilter!]!
-            .where((word) => word
-                .toLowerCase()
-                .contains(_searchController.text.toLowerCase()))
-            .toList();
-      } else {
-        // If no search query, show all items for the selected filter
-        filteredWords = List.from(filterItems[selectedFilter!]!);
-      }
-    });
-  }
-
-  final Map<String, List<String>> filterItems = {
-    "100": ["a", "aback", "abandon"],
-    "500": ["aback", "abandon"],
-    // "pasttt": ["past simple", "past perfect"],
-    // "pastttt": ["past simple", "past perfect"],
-    // "pasttttt": ["past simple", "past perfect"],
-    // "pastttttt": ["past simple", "past perfect"],
-    // "pasttttttt": ["past simple", "past perfect"],
-  };
-
-  String? selectedFilter; // Nullable to represent no selection
-
+  
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsEnglish = [
     // "dopsum",
@@ -2484,9 +2414,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
-  final ScrollController _scrollController = ScrollController();
-  bool showScrollToTop = false;
-
   @override
   void initState() {
     super.initState();
@@ -2507,9 +2434,44 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     );
   }
 
+  // void saveToHistory(String word) async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   List<String> englishhistory = prefs.getStringList("english history") ?? [];
+
+  //   if (!englishhistory.contains(word)) {
+  //     englishhistory.add(word);
+  //     await prefs.setStringList("english history", englishhistory);
+  //   }
+  // }
+
+  void saveToHistory(String word) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> englishhistory = prefs.getStringList('english history') ?? [];
+
+    // https://bard.google.com/chat/ad9cccab2b6f39b4
+
+    if (englishhistory.contains(word)) {
+      englishhistory
+          .remove(word); // Remove the existing item before adding it again.
+    }
+
+    englishhistory.insert(0, word); // Add the item back to the top of the list.
+    await prefs.setStringList('english history', englishhistory);
+
+    setState(() {}); // Rebuild the list view with the updated order.
+  }
+
+  // (not zee) https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
   // void filterResults(String query) {
   //   setState(() {
-  //     filteredWords = wordsEnglish
+  //     filteredWords = allWordsEnglish
   //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
   //         .toList();
   //   });
@@ -2543,32 +2505,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     });
   }
 
-  void saveToHistory(String word) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> englishhistory = prefs.getStringList('english history') ?? [];
-
-    // https://bard.google.com/chat/ad9cccab2b6f39b4
-
-    if (englishhistory.contains(word)) {
-      englishhistory
-          .remove(word); // Remove the existing item before adding it again.
-    }
-
-    englishhistory.insert(0, word); // Add the item back to the top of the list.
-    await prefs.setStringList('english history', englishhistory);
-
-    setState(() {}); // Rebuild the list view with the updated order.
-  }
-
   void clearSearch() {
     _searchController.clear();
     filterResults("");
-  }
-
-  @override
-  void dispose() {
-    _searchController.dispose();
-    super.dispose();
   }
 
   @override
@@ -2607,85 +2546,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: SizedBox(
-              height: 60,
-              child: TextField(
-                controller: _searchController,
-                onChanged: filterResults,
-                decoration: InputDecoration(
-                  labelText: "Search here",
-                  prefixIcon: const Icon(Icons.search),
-                  // suffixIcon: IconButton(
-                  //   icon: Icon(
-                  //     isFilterExpanded
-                  //         ? Icons.arrow_drop_up
-                  //         : Icons.arrow_drop_down,
-                  //   ),
-                  //   onPressed: () {
-                  //     setState(() {
-                  //       isFilterExpanded = !isFilterExpanded;
-                  //     });
-                  //   },
-                  // ),
-                  suffixIcon: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      IconButton(
-                        icon: Icon(
-                          isFilterExpanded
-                              ? Icons.arrow_drop_up
-                              : Icons.arrow_drop_down,
-                        ),
-                        onPressed: () {
-                          setState(() {
-                            isFilterExpanded = !isFilterExpanded;
-                          });
-                        },
-                      ),
-                      if (_searchController.text.isNotEmpty)
-                        IconButton(
-                          icon: const Icon(Icons.clear),
-                          onPressed: clearSearch,
-                        ),
-                    ],
+          Directionality(
+            textDirection: TextDirection.ltr,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SizedBox(
+                height: 60,
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: filterResults,
+                  decoration: InputDecoration(
+                    labelText: "Search here",
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchController.text.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: clearSearch,
+                          )
+                        : null,
+                    border: const OutlineInputBorder(),
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),
           ),
-          // Tags for filtering
-          // AnimatedContainer(
-          //   duration: const Duration(milliseconds: 150),
-          //   height: isFilterExpanded ? 40 : 0,
-          //   child: Row(
-          //     mainAxisAlignment: MainAxisAlignment.center,
-          //     children: [
-          //       for (var filter in filterItems.keys) _buildFilterTag(filter),
-          //     ],
-          //   ),
-          // ),
-          AnimatedContainer(
-            duration: const Duration(milliseconds: 150),
-            height: isFilterExpanded ? 40 : 0,
-            child: Row(
-              children: [
-                Expanded(
-                  child: ListView.builder(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: filterItems.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      var filter = filterItems.keys.toList()[index];
-                      return _buildFilterTag(filter);
-                    },
-                  ),
-                ),
-              ],
-            ),
-          ),
-          // (zee: scrollable: https://chat.openai.com/c/0a2f9950-39d5-4fff-86eb-87635448df3e)
           Expanded(
             child: Directionality(
               textDirection:
@@ -18189,35 +18073,6 @@ class EnglishDictionary extends StatelessWidget {
     );
   }
 }
-
-// class EnglishDictionary extends StatelessWidget {
-//   final List<String> words;
-//   final Function(String) onTapWord;
-//   final ScrollController scrollController;
-
-//   const EnglishDictionary({
-//     super.key,
-//     required this.words,
-//     required this.onTapWord,
-//     required this.scrollController,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       controller: scrollController, // Use the passed scroll controller
-//       itemCount: words.length,
-//       itemBuilder: (BuildContext context, int index) {
-//         return ListTileEnglish(
-//           wordsEnglish: words[index],
-//           onTap: () {
-//             onTapWord(words[index]);
-//           },
-//         );
-//       },
-//     );
-//   }
-// }
 
 // class EnglishDictionary extends StatelessWidget {
 //   final List<String> words;

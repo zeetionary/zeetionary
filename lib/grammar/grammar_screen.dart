@@ -215,9 +215,8 @@ class _GrammarScreenState extends State<GrammarScreen> {
       floatingActionButton: showScrollToTop
           ? FloatingActionButton(
               onPressed: _scrollToTop,
-              backgroundColor: Theme.of(context)
-                  .primaryColor
-                  .withOpacity(0.007), // background color
+              backgroundColor:
+                  Theme.of(context).scaffoldBackgroundColor, // background color
               elevation: 0, // Remove elevation
               shape: RoundedRectangleBorder(
                 borderRadius:
@@ -225,8 +224,8 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 side: BorderSide(
                   color: Theme.of(context)
                       .primaryColor
-                      .withOpacity(0.5), // Border color
-                  width: 0.1, // Border width
+                      .withOpacity(0.3), // Border color
+                  width: 0.2, // Border width
                 ),
               ),
               child: Icon(
@@ -234,7 +233,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 size: 18.0, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
-                    .withOpacity(0.9), // Icon color
+                    .withOpacity(0.6), // Icon color
               ),
             )
           : null,

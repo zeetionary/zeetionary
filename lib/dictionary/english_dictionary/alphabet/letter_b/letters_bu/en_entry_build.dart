@@ -7,237 +7,239 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybudget extends StatelessWidget {
+class EnglishEntrybuild extends StatelessWidget {
 // blank divider
-  EnglishEntrybudget({super.key});
+  EnglishEntrybuild({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbudget(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuild(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("budget"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("build"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets1(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Many families struggle to balance the household budget."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets2(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds1(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's one of those big-budget Hollywood movies."); // DOPSUM: CHANGE TEXT
+        "They have permission to build 200 new homes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets3(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds2(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government is planning to double the education budget."); // DOPSUM: CHANGE TEXT
+        "We build computer systems for large companies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets4(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The museum has an annual budget of £3 million with which to acquire new works of art."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets5(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Tax cuts are expected to be a major part of this year's Budget."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets6(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Military spending accounts for around 17% of the federal budget."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets7(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The finance ministry is trying to reduce the budget deficit."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets8(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Find a holiday to suit your time budget."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets9(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "If we budget carefully we'll be able to afford the trip."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets10(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Ten million euros has been budgeted for the project."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudgets11(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds3(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("You can save money on budget flights."); // DOPSUM: CHANGE TEXT
+        .speak("Robins build nests almost anywhere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets12(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds4(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They don't have the money to build roads."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets13(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds5(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They are trying to build long-term relationships."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets14(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds6(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We want to build a better life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets15(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds7(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His animosity toward capitalism built steadily as a result of wealth inequality."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets16(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds8(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was described as a man of average build."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets17(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds9(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is slight of build and very agile."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets18(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds10(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We are just completing the build of our new house."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets19(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds11(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can sign up to help them test the alpha build of the game."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets20(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds12(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The car has an impressive range of features and superb build quality."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets21(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds13(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The story lacked action for me, though I'm sure those that prefer a slow build would love it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets22(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds14(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilds1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets23(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds15(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilds1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets24(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds16(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilds1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets25(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds17(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilds1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudgets26(String languageCode) async {
-    // DOPSUM: CHANGE speakbudget
+  Future<void> speakbuilds18(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudgets2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilds1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds19(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds20(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds21(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds22(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds23(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds24(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds25(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilds26(String languageCode) async {
+    // DOPSUM: CHANGE speakbuild
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilds2626"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -260,22 +262,22 @@ class EnglishEntrybudget extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "budget"),
+                            EntryTitle(word: "build"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʌdʒɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /bɪld/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbudget("en-GB"),
+                              onPressed: () => speakbuild("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʌdʒɪt/"),
+                            const IPAofEnglish(text: "IpaUS: /bɪld/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbudget("en-US"),
+                              onPressed: () => speakbuild("en-US"),
                             ),
                           ],
                         ),
@@ -321,25 +323,24 @@ class EnglishEntrybudget extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دراونامە، بودجە، حیسابی داهات و خەرج، تێچوون، جانتا یان کیفی چەرمی، هەروەها ئەو شتانەی کەوا تیایەتی 
+کوردی: سازکردن، بیناکردن، درووست کردن ئەندام، هەیکەل، قیافە، بنگە، شێوە، بیچم، پەیکەر، چێوە، چوارپەل، داروبار، پێکهاتە، پێکهێنان
 
-١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"""),
+١. (کردار) بنیاتنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Many families struggle to balance the household budget."),
+                                      "They have permission to build 200 new homes."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خێزان تەقەڵایانە هاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budget", follow LX strictly.
+                                  text: "مۆڵەتی درووستکردنی ٢٠٠ ماڵیان هەیە."),
+                              const CustomSizedBoxForTTS(), // With short examples define the word "build", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets1("en-GB"),
+                                    onPressed: () => speakbuilds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets1("en-US"),
+                                    onPressed: () => speakbuilds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -350,18 +351,18 @@ class EnglishEntrybudget extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "It's one of those big-budget Hollywood movies."),
+                                      "We build computer systems for large companies."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یەکێکە لە فیلمە بودجە زۆرەکانی هۆڵیهوود."),
+                                      "سیستەمی کۆمپیوتەری درووست دەکەین بۆ کۆمپانیای گەورە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets2("en-GB"),
+                                    onPressed: () => speakbuilds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets2("en-US"),
+                                    onPressed: () => speakbuilds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -375,20 +376,20 @@ class EnglishEntrybudget extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The museum has an annual budget of £3 million with which to acquire new works of art."),
+                                              "Robins build nests almost anywhere."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی هەیە بۆ کڕینی کاری نوێی هونەری."),
+                                              "بووکەسوورە بەنزیکەیی لە هەموو شوێنێک هێلانە درووست دەکات."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbudgets4("en-GB"),
+                                                speakbuilds3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbudgets4("en-US"),
+                                                speakbuilds3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -399,20 +400,20 @@ class EnglishEntrybudget extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "The government is planning to double the education budget."),
+                                              "They don't have the money to build roads."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "حکومەت پلانی هەیە بودجەی پەروەردە دوو هێندە بکات."),
+                                              "پارەیان نییە ڕێگا درووست بکەن."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakbudgets3("en-GB"),
+                                                speakbuilds4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakbudgets3("en-US"),
+                                                speakbuilds4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -424,24 +425,92 @@ class EnglishEntrybudget extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) بودجەی ساڵانە کە لە باجەوە کۆدەکرێتەوە و شێوازی خەرجکردنی "),
+                              text: "٢. (ناو) درووستکردن یان گەشەپێدانی شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Tax cuts are expected to be a major part of this year's Budget."),
+                                      "They are trying to build long-term relationships."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەمکردنەوەی باج چاوەڕوان دەکرێت بەشێکی گرنگی بودجەی ئەمساڵ بێت."),
+                                      "هەوڵ دەدەن پەیوەندی ماوە درێژ درووست بکەن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets5("en-GB"),
+                                    onPressed: () => speakbuilds5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets5("en-US"),
+                                    onPressed: () => speakbuilds5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We want to build a better life."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەمانەوێت ژیانێکی باشتر درووست بکەین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuilds6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuilds6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) بەهێزتربوون بە هێواشی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His animosity toward capitalism built steadily as a result of wealth inequality."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕقی بۆ سەرمایەداری پەرەی سەند بە هێواشی بەهۆی نابەرامبەری سامانەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuilds7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuilds7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) شێوە و ئەندازەی لەشی مرۆڤ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was described as a man of average build."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەک پیاوێکی ئەندازە مام‌ناوەند ناودەهێنرا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuilds8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuilds8("en-US"),
                                   ),
                                 ],
                               ),
@@ -452,49 +521,17 @@ class EnglishEntrybudget extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Military spending accounts for around 17% of the federal budget."),
+                                      "She is slight of build and very agile."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "خەرجی سەربازی ١٧٪ بودجەی حکومەتی ناوەندی دەبات."),
+                                  text: "کێشی بچووکە و گورجوگۆڵە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets6("en-GB"),
+                                    onPressed: () => speakbuilds9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The finance ministry is trying to reduce the budget deficit."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "وەزیری دارایی هەوڵ دەدات کورتهێنانی بودجە کەم‌بکاتەوە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbudgets7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbudgets7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                    onPressed: () => speakbuilds9("en-US"),
                                   ),
                                 ],
                               ),
@@ -503,23 +540,23 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕێژەیەک لە شتێک کە داتناوە لە پلانەکانتدا"),
+                                  "٥. (ناو) پڕۆسەی درووستکردن یان بنیاتنانی شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Find a holiday to suit your time budget."),
+                                      "We are just completing the build of our new house."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پشوویەک بدۆزەوە کە لەگەڵ کاتی بەردەستت دەگونجێت."),
+                                      "خەریکە درووستکردنی خانووەکەمان تەواو دەکەین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets8("en-GB"),
+                                    onPressed: () => speakbuilds10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets8("en-US"),
+                                    onPressed: () => speakbuilds10("en-US"),
                                   ),
                                 ],
                               ),
@@ -528,68 +565,73 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) وریا سەبارەت بەو بڕە پارەیەی خەرجی دەکەیت"),
+                                  "٦. (ناو) وەشانێکی نەرمامێرێک کە درووستکراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "If we budget carefully we'll be able to afford the trip."),
+                                      "You can sign up to help them test the alpha build of the game."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر بە ئاگایەوە خەرجی بکەین، دەتوانن پارەی گەشتەکە بدەین."),
+                                      "دەتوانی داوای بەژداری بکەیت بۆ یارمەتیدان لە تاقیکردنەوەی وەشانی سەرەتایی یارییەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets9("en-GB"),
+                                    onPressed: () => speakbuilds11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ten million euros has been budgeted for the project."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "١٠ ملیۆن یۆرۆ بۆ پڕۆژەکە تەرخانکراوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets10("en-US"),
+                                    onPressed: () => speakbuilds11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) هەرزان"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) شێواز و ڕواڵەتی درووستکردنی شتێک، بۆ نموونە چەند بەهێز ئۆتۆمبێلێک درووستکراوە و شێوەکەی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "You can save money on budget flights."),
+                                      "The car has an impressive range of features and superb build quality."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی هەرزان."),
+                                      "ئۆتۆمبێلەکە ژمارەیەکی سەرنجڕاکێش لە تایبەتمەندی و کوالێتییەکی ناوازەی بەرهەمهێنانی هەیە ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets11("en-GB"),
+                                    onPressed: () => speakbuilds12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets11("en-US"),
+                                    onPressed: () => speakbuilds12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (ناو) شێوازی پەرەسەندنی فیلـێک یان ڕۆمانێک بۆ گرنگترین ڕووداوەکان"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The story lacked action for me, though I'm sure those that prefer a slow build would love it."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فیلمەکە ڕووداوی خرووشێنەری کەم بوو بەلای منەوە، ئەگەرچی دڵنیام ئەو کەسانەی کە حەزیان بە پەرەسەندنی هێواشە بدڵیان دەبێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuilds13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuilds13("en-US"),
                                   ),
                                 ],
                               ),
@@ -672,18 +714,45 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: budget (Derived forms: budgets)
-1. A sum of money allocated for a particular purpose
-"the laboratory runs on a budget of a million a year"
+- Verb: build (Derived forms: built, building, builds)
+1. Make by combining materials and parts (= construct, make)
+"Some eccentric built an electric brassiere warmer";
  
-2. A summary of intended expenditures along with proposals for how to meet them
-"the president submitted the annual budget to Congress"
+2. Order, supervise, or finance the construction of
+"The government is building new schools in this state"
+ 
+3. Form or accumulate steadily (= build up, work up, progress)
+"Resistance to the manager's plan built up quickly"; "Pressure is building up at the Indian-Pakistani border";
+ 
+4. Build or create something abstract (= establish)
+"build a reputation";
 
-- Verb: budget (Derived forms: budgeted, budgets, budgeting)
-1. Make a budget
+5. Give form to, according to a plan
+"build a modern nation"; "build a million-dollar business"
+ 
+6. (architecture) be engaged in building
+"These architects build in interesting and new styles"
+ 
+7. Found or ground
+"build a defence on nothing but the accused person's reputation"
+ 
+8. Bolster or strengthen (= build up, work up, ramp up)
+"build up confidence";
+ 
+9. Develop and grow
+"Suspense was building right from the beginning of the opera"
+ 
+10. (chemistry) improve the cleansing action of
+"build detergents"
 
-- Adjective: budget 
-1. Relatively low in price or charging low prices (= cheap, inexpensive)
+- Noun: build (Derived forms: builds)
+1. The particular type of human body (size, weight, height, etc.) (= physique, body-build, habitus)
+ 
+2. The physical body of a human being (= human body, physical body, material body, soma, figure, physique, anatomy, shape, bod [informal], chassis [informal], frame, form, flesh)
+ 
+3. The manner of construction of something and the arrangement of its parts (= structure)
+ 
+4. (computing) a particular distinct version of a software product, generated by compiling a specific version of the source code
 """,
   );
 
@@ -715,12 +784,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "e09xig209cQ";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 402, // DOPSUM: CHANGE IT
+      startAt: 200, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -740,12 +809,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "LGgZuv7kUQg";
+  static String myVideoId = "Bcqyzo85A1o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 631, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -765,12 +834,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "OqgMFOaVW9I";
+  static String myVideoId = "DLzA9kcjuGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 391, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -790,12 +859,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "3On3F0jTFuQ";
+  static String myVideoId = "Ka1Mxv9JbiM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 212, // DOPSUM: CHANGE IT
+      startAt: 107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -815,12 +884,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "G1LnTOaZtO4";
+  static String myVideoId = "U_jA2AvKQfU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -840,12 +909,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "A_o83hPJALQ";
+  static String myVideoId = "nQ-Ua6NYago";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 66, // DOPSUM: CHANGE IT
+      startAt: 560, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -865,12 +934,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "bYG1aBU9cI4";
+  static String myVideoId = "LIsUmtxgGF0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 148, // DOPSUM: CHANGE IT
+      startAt: 272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -890,12 +959,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "dThvyim4tbU";
+  static String myVideoId = "1B9Kng2BN7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 151, // DOPSUM: CHANGE IT
+      startAt: 2521, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -915,12 +984,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "yJWqwnkQJd4";
+  static String myVideoId = "_Z0ZQT0FttM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 380, // DOPSUM: CHANGE IT
+      startAt: 2177, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -940,12 +1009,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "LhTLR1i3v_M";
+  static String myVideoId = "RG9TMn1FJzc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 651, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -965,12 +1034,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "mkpCzp0CmjY";
+  static String myVideoId = "c36UNSoJenI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 94, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -990,12 +1059,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "9RCFfThqbe8";
+  static String myVideoId = "qqlJ50zDgeA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 36, // DOPSUM: CHANGE IT
+      startAt: 314, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

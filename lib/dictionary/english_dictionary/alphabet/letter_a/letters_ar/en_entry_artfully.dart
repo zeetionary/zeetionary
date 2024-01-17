@@ -211,7 +211,7 @@ class EnglishEntryartfully extends StatelessWidget {
                                       "She opened her right hand but artfully concealed the key in her left hand."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستی ڕاستی کردەوە بەڵام بە زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
+                                      "دەستی ڕاستی کردەوە بەڵام زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

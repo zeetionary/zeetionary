@@ -93,7 +93,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       animationCurve: Curves.easeInOut,
       // animationCurve: Curves.easeInOutCubicEmphasized,
       // backdropColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
-      animationDuration: const Duration(milliseconds: 200),
+      animationDuration: const Duration(milliseconds: 300),
       animateChildDecoration: true,
       rtlOpening: false,
       // openScale: 1.0,
@@ -151,45 +151,50 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 //     Routemaster.of(context).push('/grammar-screen');
                 //   },
                 // ),
-                ListTile(
-                  title: Text(
-                    "Quiz",
-                    style: TextStyle(
-                      fontSize: textSize,
-                      color: Theme.of(context).primaryColor,
+                Container(
+                  height: 500,
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        ListTile(
+                          title: Text(
+                            "Quiz",
+                            style: TextStyle(
+                              fontSize: textSize,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                          leading: Icon(
+                            Icons.question_answer,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                          onTap: () {
+                            Routemaster.of(context).push('/quiz-screen');
+                          },
+                        ),
+                        const SizedBox(
+                          height: 5,
+                        ),
+                        ListTile(
+                          title: Text(
+                            "TTS",
+                            style: TextStyle(
+                              fontSize: textSize,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                          leading: Icon(
+                            Icons.volume_up,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                          onTap: () {
+                            Routemaster.of(context).push('/tts-screen');
+                          },
+                        ),
+                      ],
                     ),
                   ),
-                  leading: Icon(
-                    Icons.question_answer,
-                    color: Theme.of(context).primaryColor,
-                  ),
-                  onTap: () {
-                    Routemaster.of(context).push('/quiz-screen');
-                  },
                 ),
-                ListTile(
-                  title: Text(
-                    "TTS",
-                    style: TextStyle(
-                      fontSize: textSize,
-                      color: Theme.of(context).primaryColor,
-                    ),
-                  ),
-                  leading: Icon(
-                    Icons.volume_up,
-                    color: Theme.of(context).primaryColor,
-                  ),
-                  onTap: () {
-                    Routemaster.of(context).push('/tts-screen');
-                  },
-                ),
-                // const Divider(),
-                // Switch.adaptive(
-                //   value: ref.watch(themeNotifierProvider.notifier).mode ==
-                //       ThemeMode.dark,
-                //   onChanged: (val) => toggleTheme(ref),
-                // ),
-                // const SizedBox(height: 20),
                 const Spacer(),
                 ListTile(
                   title: Text(
@@ -240,6 +245,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     ),
                   ),
                 ),
+                // const Divider(),
+                // Switch.adaptive(
+                //   value: ref.watch(themeNotifierProvider.notifier).mode ==
+                //       ThemeMode.dark,
+                //   onChanged: (val) => toggleTheme(ref),
+                // ),
+                // const SizedBox(height: 20),
               ],
             ),
           ),
@@ -262,7 +274,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               valueListenable: _advancedDrawerController,
               builder: (_, value, __) {
                 return AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 200),
+                  duration: const Duration(milliseconds: 300),
                   child: Icon(
                     value.visible ? Icons.clear : Icons.menu,
                     key: ValueKey<bool>(value.visible),
@@ -329,7 +341,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             setState(() {
               _currentIndex = index;
               _pageController.animateToPage(index,
-                  duration: const Duration(milliseconds: 200),
+                  duration: const Duration(milliseconds: 300),
                   curve: Curves.easeIn);
             });
           },

@@ -2293,23 +2293,23 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "Buddhism",
     "Buddhist",
     "budding",
-    // "buddy",
-    // "budge",
-    // "budgerigar",
-    // "budget",
-    // "budgie",
-    // "buff",
-    // "buffalo",
-    // "buffer",
-    // "buffet",
-    // "bug",
-    // "bugbear",
-    // "bugger",
-    // "bugle",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "buddy",
+    "budge",
+    "budgerigar",
+    "budget",
+    "budgie",
+    "buff",
+    "buffalo",
+    "buffer",
+    "buffet",
+    "bug",
+    "bugbear",
+    "bugger",
+    "bugle",
+    "bugler",
+    "build",
+    "builder",
+    "build-up",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2633,6 +2633,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      if (_searchController.text.isNotEmpty)
+                        IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: clearSearch,
+                        ),
                       IconButton(
                         icon: Icon(
                           isFilterExpanded
@@ -2645,11 +2650,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                           });
                         },
                       ),
-                      if (_searchController.text.isNotEmpty)
-                        IconButton(
-                          icon: const Icon(Icons.clear),
-                          onPressed: clearSearch,
-                        ),
                     ],
                   ),
                   border: const OutlineInputBorder(),
@@ -2669,7 +2669,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
           //   ),
           // ),
           AnimatedContainer(
-            duration: const Duration(milliseconds: 150),
+            duration: const Duration(milliseconds: 300),
             height: isFilterExpanded ? 40 : 0,
             child: Row(
               children: [
@@ -11625,78 +11625,78 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-buddhism");
                   }
-                  // if (wordsEnglish == "Buddhist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buddhist");
-                  // }
-                  // if (wordsEnglish == "buddy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buddy");
-                  // }
-                  // if (wordsEnglish == "budge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-budge");
-                  // }
-                  // if (wordsEnglish == "budgerigar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-budgerigar");
-                  // }
-                  // if (wordsEnglish == "budgie") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-budgerigar");
-                  // }
-                  // if (wordsEnglish == "budget") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-budget");
-                  // }
-                  // if (wordsEnglish == "buff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buff");
-                  // }
-                  // if (wordsEnglish == "buffalo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buffalo");
-                  // }
-                  // if (wordsEnglish == "buffer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buffer");
-                  // }
-                  // if (wordsEnglish == "buffet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buffet");
-                  // }
-                  // if (wordsEnglish == "bug") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bug");
-                  // }
-                  // if (wordsEnglish == "bugbear") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bugbear");
-                  // }
-                  // if (wordsEnglish == "bugger") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bugger");
-                  // }
-                  // if (wordsEnglish == "bugle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bugle");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "Buddhist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buddhist");
+                  }
+                  if (wordsEnglish == "buddy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buddy");
+                  }
+                  if (wordsEnglish == "budge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-budge");
+                  }
+                  if (wordsEnglish == "budgerigar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-budgerigar");
+                  }
+                  if (wordsEnglish == "budgie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-budgerigar");
+                  }
+                  if (wordsEnglish == "budget") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-budget");
+                  }
+                  if (wordsEnglish == "buff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buff");
+                  }
+                  if (wordsEnglish == "buffalo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buffalo");
+                  }
+                  if (wordsEnglish == "buffer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buffer");
+                  }
+                  if (wordsEnglish == "buffet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buffet");
+                  }
+                  if (wordsEnglish == "bug") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bug");
+                  }
+                  if (wordsEnglish == "bugbear") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bugbear");
+                  }
+                  if (wordsEnglish == "bugger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bugger");
+                  }
+                  if (wordsEnglish == "bugle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bugle");
+                  }
+                  if (wordsEnglish == "bugler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bugler");
+                  }
+                  if (wordsEnglish == "build") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-build");
+                  }
+                  if (wordsEnglish == "builder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-builder");
+                  }
+                  if (wordsEnglish == "build-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-build-up");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

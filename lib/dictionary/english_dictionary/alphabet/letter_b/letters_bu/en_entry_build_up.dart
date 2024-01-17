@@ -7,83 +7,84 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybudge extends StatelessWidget {
+class EnglishEntrybuildup extends StatelessWidget {
 // blank divider
-  EnglishEntrybudge({super.key});
+  EnglishEntrybuildup({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbudge(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildup(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("budge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("build-up"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges1(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups1(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She pushed at the door but it wouldn't budge."); // DOPSUM: CHANGE TEXT
+        "The leak led to a slow build-up of carbon dioxide."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges2(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The dog refused to budge."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudges3(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups2(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Company executives refused to budge from their position."); // DOPSUM: CHANGE TEXT
+        "The build-up of troops in the region makes war seem more likely."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges4(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups3(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was not to be budged on the issue."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was a lot of excitement in the build-up to the Olympics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges5(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups4(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The media have given the movie a huge build-up."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges6(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups5(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildups55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges7(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuildups6(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildups66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuildups7(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuildups77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -100,22 +101,22 @@ class EnglishEntrybudge extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "budge"),
+                            EntryTitle(word: "build-up"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bʌdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbudge("en-GB"),
+                              onPressed: () => speakbuildup("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bʌdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbudge("en-US"),
+                              onPressed: () => speakbuildup("en-US"),
                             ),
                           ],
                         ),
@@ -133,13 +134,13 @@ class EnglishEntrybudge extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -161,24 +162,25 @@ class EnglishEntrybudge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بزاوتن، جووڵان، تەکان دان
+کوردی: کۆکردنەوە، کۆبوونەوە، کەڵەکەکردن، کەڵەکەبوون، خنین، دانان، دروست‌کردن، بنیاتنان، سازکردن، پڕۆپاگەندە، بانگەشە (بەربڵاو)، پیاهەڵدان، ورووژاندن، تاریف(دان)، ئامادەکاری، بەرهەڤ‌کاری (کەم‌کەمە)، زۆربوون (پلەپلە)، زیادکردن، هەڵدان، گەشەکردن
 
-١. (کردار) جوڵان بە کەمی"""),
+١. (ناو) زیادبوونی بڕی شتێک بە درێژایی ماوەیەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She pushed at the door but it wouldn't budge."),
+                                      "The leak led to a slow build-up of carbon dioxide."),
                               const ExampleSentenceKurdish(
-                                  text: "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد."),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budge", follow LX strictly.
+                                  text:
+                                      "قڵشەکە بووە هۆی کەڵەکەبوونی هێواشی دووەم ئۆکسیدی کاربۆن."),
+                              const CustomSizedBoxForTTS(), // With short examples define the word "build-up", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges1("en-GB"),
+                                    onPressed: () => speakbuildups1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges1("en-US"),
+                                    onPressed: () => speakbuildups1("en-US"),
                                   ),
                                 ],
                               ),
@@ -188,17 +190,19 @@ class EnglishEntrybudge extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The dog refused to budge."),
+                                  text:
+                                      "The build-up of troops in the region makes war seem more likely."),
                               const ExampleSentenceKurdish(
-                                  text: "سەگەکە نەدەجووڵا."),
+                                  text:
+                                      "کۆکردنەوەی سەرباز لە هەرێمەکە وادەکات ئەگەری جەنگ بەهێزتر بێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges2("en-GB"),
+                                    onPressed: () => speakbuildups2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges2("en-US"),
+                                    onPressed: () => speakbuildups2("en-US"),
                                   ),
                                 ],
                               ),
@@ -206,44 +210,49 @@ class EnglishEntrybudge extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) گۆڕینی بۆچوونت لەسەر شتێک"),
+                              text:
+                                  "٢. (ناو) کاتی پێش ڕوودانی شتێکی گرنگ و ئامادەکاری خەڵکی بۆی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Company executives refused to budge from their position."),
+                                      "There was a lot of excitement in the build-up to the Olympics."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن."),
+                                      "جۆش‌وخرۆشێکی زۆر هەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges3("en-GB"),
+                                    onPressed: () => speakbuildups3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges3("en-US"),
+                                    onPressed: () => speakbuildups3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) دۆخێک کە تێیدا کەسێک یان شتێک بە شێوەیەکی ئەرێنی باس دەکرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was not to be budged on the issue."),
+                                      "The media have given the movie a huge build-up."),
                               const ExampleSentenceKurdish(
-                                  text: "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو."),
+                                  text:
+                                      "میدیاکان بانگەشەیەکی گەورەیان بۆ فیلمەکە کردووە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges4("en-GB"),
+                                    onPressed: () => speakbuildups4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges4("en-US"),
+                                    onPressed: () => speakbuildups4("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,9 +270,9 @@ class EnglishEntrybudge extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -326,12 +335,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: budge (Derived forms: budging, budged, budges)
-1. Move very slightly (= stir, shift, agitate, scooch [informal])
-"He budged in his seat";
-
-- Noun: Budge 
-1. United States tennis player who in 1938 was the first to win the Australian and French and English and United States singles championship in the same year (1915-2000) (= Don Budge, John Donald Budge)
+- Noun: build-up
+1. The act of building up an accumulation
+"I envied his rapid buildup of assets"; "a military buildup in preparation for the invasion"
+ 
+2. The result of the process of accumulation
+"the buildup of leaves blocked the drain pipes"
+ 
+3. Highly favourable publicity and praise
+"his letter of recommendation gave her a terrific buildup"
 """,
   );
 
@@ -363,12 +375,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "PkUg89kLLBE";
+  static String myVideoId = "GeOUZ_pIwB4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1312, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -388,12 +400,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "ur-hDqFb0HM";
+  static String myVideoId = "Q4Xys-IRMr0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 311, // DOPSUM: CHANGE IT
+      startAt: 115, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -413,12 +425,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "UbnulKZg3L8";
+  static String myVideoId = "DG4Ox2sTrKU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1419, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -438,12 +450,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "ZuEUaGquDXs";
+  static String myVideoId = "0liyz4vpksU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 262, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -463,12 +475,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8zk0v79UvWQ";
+  static String myVideoId = "euf7WlVMoP8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 1452, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -488,12 +500,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "5dsdeoL7E_4";
+  static String myVideoId = "x8qXVIc04eg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 95, // DOPSUM: CHANGE IT
+      startAt: 208, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -513,12 +525,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ROW9EMz_8Tc";
+  static String myVideoId = "j-cLiO0AFDc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 522, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -538,12 +550,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "0RjjxXIVm1I";
+  static String myVideoId = "K3kAA4FBIH4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 1899, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -563,12 +575,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "jr7kptd4DmM";
+  static String myVideoId = "LfXLlrseAxg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1593, // DOPSUM: CHANGE IT
+      startAt: 1885, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -588,12 +600,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "sH06ROrl74w";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -613,12 +625,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "Wg8PwBR7IVM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -638,12 +650,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0HY7R-BsCMs";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 433, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -7,77 +7,76 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybudge extends StatelessWidget {
+class EnglishEntrybuilder extends StatelessWidget {
 // blank divider
-  EnglishEntrybudge({super.key});
+  EnglishEntrybuilder({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbudge(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilder(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("budge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("builder"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges1(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders1(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She pushed at the door but it wouldn't budge."); // DOPSUM: CHANGE TEXT
+        "We got a local builder to do the work for us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges2(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The dog refused to budge."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbudges3(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders2(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Company executives refused to budge from their position."); // DOPSUM: CHANGE TEXT
+        "Going on the course was a real confidence builder for me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges4(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders3(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He was not to be budged on the issue."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilders33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges5(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders4(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilders44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges6(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders5(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilders55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbudges7(String languageCode) async {
-    // DOPSUM: CHANGE speakbudge
+  Future<void> speakbuilders6(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbudges77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuilders66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuilders7(String languageCode) async {
+    // DOPSUM: CHANGE speakbuilder
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuilders77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -100,22 +99,22 @@ class EnglishEntrybudge extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "budge"),
+                            EntryTitle(word: "builder"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bʌdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪldə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbudge("en-GB"),
+                              onPressed: () => speakbuilder("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bʌdʒ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪldər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbudge("en-US"),
+                              onPressed: () => speakbuilder("en-US"),
                             ),
                           ],
                         ),
@@ -161,44 +160,25 @@ class EnglishEntrybudge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بزاوتن، جووڵان، تەکان دان
+کوردی: کۆنتراکت‌کار، بڕکار، سازەر، سازێنەر، دروسکەر، پێکهێنەر، بنیاتنەر، (لە لێکدان‌دا) ـ ساز یان دروسکەر، ـچی
 
-١. (کردار) جوڵان بە کەمی"""),
+١. (ناو) کەسێک یان کۆمپانیایەک کە کاری درووستنکردن یان چاککردنەوەی خانوو و بینا دەکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She pushed at the door but it wouldn't budge."),
+                                      "We got a local builder to do the work for us."),
                               const ExampleSentenceKurdish(
-                                  text: "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد."),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budge", follow LX strictly.
+                                  text:
+                                      "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات."),
+                              const CustomSizedBoxForTTS(), // With short examples define the word "builder", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges1("en-GB"),
+                                    onPressed: () => speakbuilders1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dog refused to budge."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکە نەدەجووڵا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges2("en-US"),
+                                    onPressed: () => speakbuilders1("en-US"),
                                   ),
                                 ],
                               ),
@@ -206,44 +186,24 @@ class EnglishEntrybudge extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) گۆڕینی بۆچوونت لەسەر شتێک"),
+                              text:
+                                  "٢. (ناو) کەسێک یان شتێک کە شتێک درووست دەکات یان پەرەی پێدەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Company executives refused to budge from their position."),
+                                      "Going on the course was a real confidence builder for me."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن."),
+                                      "بەژداری لە کۆرسەکە متمانە درووستکەرێکی تەواو بۆم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbudges3("en-GB"),
+                                    onPressed: () => speakbuilders2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was not to be budged on the issue."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges4("en-US"),
+                                    onPressed: () => speakbuilders2("en-US"),
                                   ),
                                 ],
                               ),
@@ -326,12 +286,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: budge (Derived forms: budging, budged, budges)
-1. Move very slightly (= stir, shift, agitate, scooch [informal])
-"He budged in his seat";
-
-- Noun: Budge 
-1. United States tennis player who in 1938 was the first to win the Australian and French and English and United States singles championship in the same year (1915-2000) (= Don Budge, John Donald Budge)
+- Noun: builder (Derived forms: builders)
+1. A substance added to soaps or detergents to increase their cleansing action (= detergent builder)
+ 
+2. A person who creates a business or who organizes and develops a country
+"empire builder"
+ 
+3. Someone who contracts for and supervises construction (as of a building) (= constructor)
 """,
   );
 
@@ -363,12 +324,12 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "PkUg89kLLBE";
+  static String myVideoId = "8HEfIJlcFbs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1312, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -388,12 +349,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "ur-hDqFb0HM";
+  static String myVideoId = "3cxHwQl9pNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 311, // DOPSUM: CHANGE IT
+      startAt: 128, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -413,12 +374,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "UbnulKZg3L8";
+  static String myVideoId = "ErPsyBUCijM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1419, // DOPSUM: CHANGE IT
+      startAt: 724, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -438,12 +399,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "ZuEUaGquDXs";
+  static String myVideoId = "-obKX-mqjXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 262, // DOPSUM: CHANGE IT
+      startAt: 360, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -463,12 +424,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8zk0v79UvWQ";
+  static String myVideoId = "evvVtqmvE5w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 317, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -488,12 +449,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "5dsdeoL7E_4";
+  static String myVideoId = "xdKUlH-8Too";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 95, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -513,12 +474,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ROW9EMz_8Tc";
+  static String myVideoId = "hsPBcCIvDSg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 106, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -538,12 +499,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "0RjjxXIVm1I";
+  static String myVideoId = "vb-p--iRFew";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 813, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -563,12 +524,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "jr7kptd4DmM";
+  static String myVideoId = "yxwdvt-7Wt4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1593, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -588,12 +549,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "sH06ROrl74w";
+  static String myVideoId = "0HZftd5F0L0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 745, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -613,12 +574,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "Wg8PwBR7IVM";
+  static String myVideoId = "jbv6U0zdHiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -638,12 +599,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0HY7R-BsCMs";
+  static String myVideoId = "QBKVH2T6Qx4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 433, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

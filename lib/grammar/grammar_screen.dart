@@ -268,6 +268,11 @@ class _GrammarScreenState extends State<GrammarScreen> {
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      if (_searchController.text.isNotEmpty)
+                        IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: clearSearch,
+                        ),
                       IconButton(
                         icon: Icon(
                           isFilterExpanded
@@ -280,11 +285,6 @@ class _GrammarScreenState extends State<GrammarScreen> {
                           });
                         },
                       ),
-                      if (_searchController.text.isNotEmpty)
-                        IconButton(
-                          icon: const Icon(Icons.clear),
-                          onPressed: clearSearch,
-                        ),
                     ],
                   ),
                   border: const OutlineInputBorder(),
@@ -304,7 +304,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
           //   ),
           // ),
           AnimatedContainer(
-            duration: const Duration(milliseconds: 150),
+            duration: const Duration(milliseconds: 300),
             height: isFilterExpanded ? 40 : 0,
             child: Row(
               children: [

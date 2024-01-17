@@ -397,14 +397,14 @@ class EnglishEntryaction extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (ناو) ڕووداوی خورۆشێنەر"""),
+٧. (ناو) ڕووداوی خرووشێنەر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I like films with plenty of action."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خورۆشێنەریان تێدایە."),
+                                      "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خرووشێنەریان تێدایە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -105,7 +105,7 @@ class EnglishEntrybiscuit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "biscuit"),
+                            EntryTitle(word: "biscuit (also: cookie)"),
                           ],
                         ),
                         Row(

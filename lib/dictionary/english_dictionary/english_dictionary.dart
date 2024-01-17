@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:zeetionary/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/constants.dart';
@@ -9,7 +10,8 @@ class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({super.key});
 
   @override
-  State<DictionaryScreenEnglish> createState() => _DictionaryScreenEnglishState();
+  State<DictionaryScreenEnglish> createState() =>
+      _DictionaryScreenEnglishState();
 }
 
 class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
@@ -76,7 +78,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   }
 
   final Map<String, List<String>> filterItems = {
-    "100": ["a", "aback", "abandon"],
+    "100": ["What is 100 tag?", "a", "aback", "abandon"],
     "500": ["aback", "abandon"],
     // "pasttt": ["past simple", "past perfect"],
     // "pastttt": ["past simple", "past perfect"],
@@ -2694,6 +2696,31 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 words: filteredWords,
                 scrollController: _scrollController,
                 onTapWord: (wordsEnglish) {
+                  if (wordsEnglish == "What is 100 tag?") {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return const CustomAlertDialog(
+                          // (zee: added dialog)  https://chat.openai.com/c/a248af68-029b-41c6-9bc2-55547b2b3f20
+                          title: "Tag: 100",
+                          content:
+                              "This tag shows the most 100 important English words",
+                        );
+                      },
+                    );
+                  }
+                  // if (wordsEnglish == "What is 100 tag?") {
+                  //   ScaffoldMessenger.of(context).showSnackBar(
+                  //     const SnackBar(
+                  //       content: Text(
+                  //         "100 of most important English words.",
+                  //         style: TextStyle(fontSize: 12.0),
+                  //       ),
+                  //       duration: Duration(
+                  //           seconds: 3), // Adjust the duration as needed
+                  //     ),
+                  //   );
+                  // }
                   if (wordsEnglish == "dopsum") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aback");

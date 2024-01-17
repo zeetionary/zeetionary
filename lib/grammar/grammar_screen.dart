@@ -331,6 +331,9 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 words: filteredWords,
                 scrollController: _scrollController,
                 onTapWord: (allGrammarSubjects) {
+                  if (allGrammarSubjects == "100") {
+                    Routemaster.of(context).push("/english/grammar/aback");
+                  }
                   if (allGrammarSubjects == "present simple") {
                     Routemaster.of(context).push("/english/grammar/aback");
                   }

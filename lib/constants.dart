@@ -900,6 +900,38 @@ class CustomIconButtonAmerican extends StatelessWidget {
   }
 }
 
+class CustomAlertDialog extends ConsumerWidget {
+  final String title;
+  final String content;
+
+  const CustomAlertDialog({
+    super.key,
+    required this.title,
+    required this.content,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final baseTextSize = ref.watch(textSizeProvider);
+    final titleTextSize = baseTextSize + 8;
+    // (zee: added dialog)  https://chat.openai.com/c/a248af68-029b-41c6-9bc2-55547b2b3f20
+
+    return AlertDialog(
+      title: Text(
+        title,
+        style: TextStyle(fontSize: titleTextSize, fontWeight: FontWeight.w600),
+      ),
+      content: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Text(
+          content,
+          style: TextStyle(fontSize: baseTextSize, fontWeight: FontWeight.w400),
+        ),
+      ),
+    );
+  }
+}
+
 class EnglishMeaningConst extends ConsumerWidget {
   final String text;
 

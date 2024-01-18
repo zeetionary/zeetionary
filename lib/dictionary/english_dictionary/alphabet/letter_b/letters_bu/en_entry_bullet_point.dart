@@ -7,84 +7,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybulldoze extends StatelessWidget {
+class EnglishEntrybulletpoint extends StatelessWidget {
 // blank divider
-  EnglishEntrybulldoze({super.key});
+  EnglishEntrybulletpoint({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbulldoze(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoint(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bulldoze"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bullet point"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes1(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints1(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The trees are being bulldozed to make way for a new factory."); // DOPSUM: CHANGE TEXT
+        "Please see the first and second bullet points on the first page."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes2(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints2(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The town was bulldozed in the 1950s."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes3(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints3(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They bulldozed the tax through Parliament."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes4(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints4(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He bulldozed his way to victory."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes5(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints5(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbulldozes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes6(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints6(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbulldozes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbulldozes7(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldoze
+  Future<void> speakbulletpoints7(String languageCode) async {
+    // DOPSUM: CHANGE speakbulletpoint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbulldozes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbulletpoints77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -101,22 +98,22 @@ class EnglishEntrybulldoze extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bulldoze"),
+                            EntryTitle(word: "bullet point"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʊldəʊz/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbulldoze("en-GB"),
+                              onPressed: () => speakbulletpoint("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʊldəʊz/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbulldoze("en-US"),
+                              onPressed: () => speakbulletpoint("en-US"),
                             ),
                           ],
                         ),
@@ -134,13 +131,13 @@ class EnglishEntrybulldoze extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -162,113 +159,25 @@ class EnglishEntrybulldoze extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: عەرز هەڵکەندن، زەوی هەڵکەندن
-
-١. (کردار) ڕووخاندن بە خاکماڵ"""),
+١. (ناو) خاڵێکە کە دەکرێت بازنە، سێگۆشە، یان چوارگۆشە بێت لە نووسیندا لە پێش ڕستەیەک دادەنرێت وەک ئاماژە بەوەی کە گرنگە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The trees are being bulldozed to make way for a new factory."),
+                                      "Please see the first and second bullet points on the first page."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldoze", follow LX strictly
+                                      "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullet point", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes1("en-GB"),
+                                    onPressed: () =>
+                                        speakbulletpoints1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The town was bulldozed in the 1950s."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارۆچکەکە تەختکرا لە ساڵانی ١٩٥٠ کاندا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) بەزۆر چوونە شوێنێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They bulldozed the tax through Parliament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆژە یاسای باجدانیان بەزۆر بە پەرلەماندا تێپەڕاند."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bulldozed his way to victory."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەزۆر خۆی گەیاندە سەرکەوتن."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "ژممارە. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "speakbulldozes55"),
-                              const ExampleSentenceKurdish(
-                                  text: "ناچار بە فرۆشتنیان کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes5("en-US"),
+                                    onPressed: () =>
+                                        speakbulletpoints1("en-US"),
                                   ),
                                 ],
                               ),
@@ -288,7 +197,7 @@ class EnglishEntrybulldoze extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -351,9 +260,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bulldoze (Derived forms: bulldozed, bulldozes, bulldozing)
-1. Flatten with or as if with a bulldozer 
-"The men will bulldoze the unpainted barn to make way for the new barn"
+- Noun: bullet point
+1. An item on a list (marked with a bullet or other non-numerical ordering)
+ 
+2. (typography) a printed symbol in the form of a solid circle, (•), often used for marking items in a list (= bullet)
 """,
   );
 
@@ -384,12 +294,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/PGqZkOveLb8?t=";
+  static String myVideoId = "https://youtu.be/3UxOjc1dR1c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 447, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +319,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/dIMrWQCJ_mA?t=";
+  static String myVideoId = "https://youtu.be/Roy8XciLmsg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1929, // DOPSUM: CHANGE IT
+      startAt: 618, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +344,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/6s8ofnwQCbY?t=";
+  static String myVideoId = "https://youtu.be/7emz4zZ226E?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 95, // DOPSUM: CHANGE IT
+      startAt: 624, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +369,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/rKo8Sv99MkM?t=";
+  static String myVideoId = "https://youtu.be/Ty8ErGGopNM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 306, // DOPSUM: CHANGE IT
+      startAt: 144, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +394,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/Q2L-bZiqckM?t=";
+  static String myVideoId = "https://youtu.be/2vBBt5cKp-8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1086, // DOPSUM: CHANGE IT
+      startAt: 726, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +419,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/fS9ERUreev8?t=";
+  static String myVideoId = "https://youtu.be/kbZejnPXyLM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 302, // DOPSUM: CHANGE IT
+      startAt: 2982, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +444,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/_yHHkFffl34?t=";
+  static String myVideoId = "https://youtu.be/kD0eh1UbeT8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 352, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +469,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/wkQuOrsgVGY?t=";
+  static String myVideoId = "https://youtu.be/XMRvVcP2dPc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3169, // DOPSUM: CHANGE IT
+      startAt: 1838, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +494,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/xRokrPYpNeY?t=";
+  static String myVideoId = "https://youtu.be/rVC-ET8e0sU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 143, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +519,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/EzIq53i_l-U?t=";
+  static String myVideoId = "https://youtu.be/V8inpUXQPI8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 699, // DOPSUM: CHANGE IT
+      startAt: 347, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -634,12 +544,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "https://youtu.be/lTy4HT-h9Ds?t=";
+  static String myVideoId = "https://youtu.be/SANP2AhTyzw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2101, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -659,12 +569,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/HuhLqew9xB8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 415, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

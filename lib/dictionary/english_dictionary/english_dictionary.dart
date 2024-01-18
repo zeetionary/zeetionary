@@ -46,7 +46,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
             color: selectedFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.4)
                 : Theme.of(context).primaryColor.withOpacity(0.2),
-            width: selectedFilter == filter ? 2 : 0.1,
+            width: selectedFilter == filter ? 2 : 0.001,
           ),
         ),
         child: Text(
@@ -2590,7 +2590,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 side: BorderSide(
                   color: Theme.of(context)
                       .primaryColor
-                      .withOpacity(0.3), // Border color
+                      .withOpacity(0.003), // Border color
                   width: 0.2, // Border width
                 ),
               ),

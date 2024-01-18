@@ -150,7 +150,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                 side: BorderSide(
                   color: Theme.of(context)
                       .primaryColor
-                      .withOpacity(0.3), // Border color
+                      .withOpacity(0.003), // Border color
                   width: 0.2, // Border width
                 ),
               ),

@@ -237,7 +237,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: Column(
+        children: [
+          YouTubeContainerDesign(controller: _controller),
+        ],
+      )),
     );
   }
 }

@@ -3,53 +3,85 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaffiliate - replace speakAffiliate - replace affiliate - /əˈfɪlieɪt/ - find Dopsum2
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryaffiliate extends StatelessWidget {
-  EnglishEntryaffiliate({super.key});
+class EnglishEntrybuildingsociety extends StatelessWidget {
+// blank divider
+  EnglishEntrybuildingsociety({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffiliate(String languageCode) async {
-    // DOPSUM: CHANGE speakAffiliate
+  Future<void> speakbuildingsociety(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affiliate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("building society"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffil3588(String languageCode) async {
-    // DOPSUM: CHANGE speakAffiliate
+  Future<void> speakbuildingsocietys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The group is not affiliated to any political party."); // DOPSUM: CHANGE TEXT
+        "She opened an account at the building society."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffi2699(String languageCode) async {
-    // DOPSUM: CHANGE speakAffiliate
+  Future<void> speakbuildingsocietys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The hospital is affiliated with the local university."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildingsocietys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffi25699(String languageCode) async {
-    // DOPSUM: CHANGE speakAffiliate
+  Future<void> speakbuildingsocietys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our college is an affiliate of the university."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbuildingsocietys33"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuildingsocietys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuildingsocietys44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuildingsocietys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuildingsocietys55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuildingsocietys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuildingsocietys66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbuildingsocietys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbuildingsociety
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbuildingsocietys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,24 +98,22 @@ class EnglishEntryaffiliate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affiliate"), // Find /əˈfɪlieɪt/
+                            EntryTitle(word: "building society"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈfɪlieɪt/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffiliate("en-GB"),
+                              onPressed: () => speakbuildingsociety("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfɪlieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffiliate("en-US"),
+                              onPressed: () => speakbuildingsociety("en-US"),
                             ),
                           ],
                         ),
@@ -96,21 +126,26 @@ class EnglishEntryaffiliate extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -124,76 +159,25 @@ class EnglishEntryaffiliate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کۆمپانی، ناوکۆیی، دامەزراوە یان ڕێکخراوی پشت‌بەستوو، ڕێکخراوی پاشکۆ، ئەندامی ناسەربەخۆ یان پشت‌بەستوو، پێوەبەند، پاشکۆ، پشت‌پێ‌بەستوو، خۆبەستە، ناسەربەخۆ، سەربەدی، (پێوە)بەستراو
-
-١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک"""),
+١. (ناو) ڕێکخراوی خانووبەرە یان خانووکڕین؛ دامەزراوەیەک کەپارە بە خەڵک دەدات بۆ کڕینی خانوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The group is not affiliated to any political party."),
+                                      "She opened an account at the building society."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
-                              const CustomSizedBoxForTTS(),
+                                      "هەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples define the word "building society", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffil3588("en-GB"),
+                                    onPressed: () =>
+                                        speakbuildingsocietys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffil3588(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hospital is affiliated with the university."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAffi2699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAffi2699(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our college is an affiliate of the university."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAffi25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAffi25699(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakbuildingsocietys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,7 +186,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -217,6 +201,12 @@ class EnglishEntryaffiliate extends StatelessWidget {
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -270,18 +260,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: affiliate (derived forms: affiliates)
-1. A subordinate or subsidiary associate; a person who is affiliated with another or with an organization
+- Noun: building society (Derived forms: building societies)
+Usage: Brit (N. Amer: savings and loan association)
+1. British equivalent of United States savings and loan association (= savings and loan association [US])
  
-2. A subsidiary or subordinate organization that is affiliated with another organization
-"network affiliates"
-
-- Verb: affiliate (derived forms: affiliating, affiliates, affiliated)
-1. Keep company with; hang out with (= consort, associate, assort)
-"She affiliates with her colleagues";
-
-2. Join in an affiliation
-"The two colleges affiliated"; "They affiliated with a national group"
+2. A thrift institution that is required by law to make a certain percentage of its loans as home mortgages (= savings and loan, savings and loan association [US])
 """,
   );
 
@@ -311,20 +294,21 @@ ${englishMeaningConst.text}
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'mOWXI6VKGpg';
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/isdaYjET9cg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 66, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 22, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -335,20 +319,21 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'yVQneGsDOlc';
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/DSqvZusj-Eg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 13, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 126, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -359,20 +344,21 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '0_UB1KaBIP8';
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/DGQKv4B7FY4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 2872, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 21, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -383,20 +369,21 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'cqidD7kVnxY';
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/jpObPiJwprM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 724, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1396, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -407,20 +394,21 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'cY4e0uvp7uI';
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/_fGN0ciCpBo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 451, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 44, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -431,20 +419,21 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'TLM94DnKkQo';
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/BRPRX0womzQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 4, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 79, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -455,20 +444,21 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'oL0umpPPe-8';
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/xVLXrWFoGiU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 291, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 526, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -479,20 +469,21 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '2ta77xmA7D4';
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/wS2tbPontC0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 120, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 38, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -503,20 +494,21 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'HkOUCgi4WSM';
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/oMvdzicZeoc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 12707, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 615, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -527,20 +519,21 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = '99NA0m6FZRA';
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "https://youtu.be/TXKrnUAF7eM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1402, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1255, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -550,4 +543,54 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// end WORD_WEB

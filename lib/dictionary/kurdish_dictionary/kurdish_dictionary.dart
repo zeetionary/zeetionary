@@ -156,7 +156,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: 18.0, // Adjust the icon size as needed
+                size: 14.0, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
                     .withOpacity(0.6), // Icon color

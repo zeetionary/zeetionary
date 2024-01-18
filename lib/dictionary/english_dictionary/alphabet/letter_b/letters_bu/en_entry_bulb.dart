@@ -35,7 +35,8 @@ class EnglishEntrybulb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Coloured bulbs flashed on and off around the sign."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Coloured bulbs flashed on and off around the sign."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulbs3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybulb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I think the bulb is going to go. It's been flickering all evening."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I think the bulb is going to go. It's been flickering all evening."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulbs4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybulb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She usually waters the indoor bulbs once a week."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She usually waters the indoor bulbs once a week."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulbs5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybulb extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Place the bulbs close together."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Place the bulbs close together."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulbs6(String languageCode) async {
@@ -132,7 +136,7 @@ class EnglishEntrybulb extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -168,7 +172,8 @@ class EnglishEntrybulb extends StatelessWidget {
                                   text:
                                       "Can you remove the bulb and replace it with an energy-efficient one?"),
                               const ExampleSentenceKurdish(
-                                  text: "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟"),
+                                  text:
+                                      "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟"),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulb", follow LX strictly
                               Column(
                                 children: [
@@ -184,95 +189,101 @@ class EnglishEntrybulb extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Coloured bulbs flashed on and off around the sign."),
-                          const ExampleSentenceKurdish(
-                          text: "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد."),
-                          const CustomSizedBoxForTTS(),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Coloured bulbs flashed on and off around the sign."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulbs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulbs2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulbs2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulbs2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I think the bulb is going to go. It's been flickering all evening."),
-                          const ExampleSentenceKurdish(
-                          text: "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulbs3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulbs3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "I think the bulb is going to go. It's been flickering all evening."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbulbs3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbulbs3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) سەلکی ڕووەکێک؛ ئەو بەشەی کە ڕووەکێکی تازەی لێ دەڕوێت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) سەلکی ڕووەکێک؛ ئەو بەشەی کە ڕووەکێکی تازەی لێ دەڕوێت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She usually waters the indoor bulbs once a week."),
-                          const ExampleSentenceKurdish(
-                          text: "بەزۆری سەلکەکانی ژوورەوە هەفتەی جارێک ئاو دەدات."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulbs4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulbs4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She usually waters the indoor bulbs once a week."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەزۆری سەلکەکانی ژوورەوە هەفتەی جارێک ئاو دەدات."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulbs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulbs4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Place the bulbs close together."),
-                          const ExampleSentenceKurdish(
-                          text: "سەلکەکان نزیک لە یەکدی دابنێ."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulbs5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulbs5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Place the bulbs close together."),
+                              const ExampleSentenceKurdish(
+                                  text: "سەلکەکان نزیک لە یەکدی دابنێ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulbs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulbs5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -413,7 +424,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -438,7 +450,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -463,7 +476,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -488,7 +502,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -513,7 +528,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -538,7 +554,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -563,7 +580,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -588,7 +606,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -613,7 +632,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -638,7 +658,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -663,7 +684,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -688,7 +710,8 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }

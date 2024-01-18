@@ -35,7 +35,8 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The great bulk of the work has now been done."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The great bulk of the work has now been done."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulks3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Despite its bulk and weight, the car is extremely fast."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Despite its bulk and weight, the car is extremely fast."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulks4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's cheaper to buy in bulk."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's cheaper to buy in bulk."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulks5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrybulk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She eased her large bulk out of the chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She eased her large bulk out of the chair."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulks6(String languageCode) async {
@@ -185,89 +189,94 @@ class EnglishEntrybulk extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The great bulk of the work has now been done."),
-                          const ExampleSentenceKurdish(
-                          text: "زۆرینەی کارەکە لە ئێستادا کراوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulks2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulks2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The great bulk of the work has now been done."),
+                              const ExampleSentenceKurdish(
+                                  text: "زۆرینەی کارەکە لە ئێستادا کراوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulks2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ڕێژەی گەورەی بڕ یان ئەندازەی شتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ڕێژەی گەورەی بڕ یان ئەندازەی شتێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Despite its bulk and weight, the car is extremely fast."),
-                          const ExampleSentenceKurdish(
-                          text: "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulks3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulks3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Despite its bulk and weight, the car is extremely fast."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulks3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulks3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "It's cheaper to buy in bulk."),
-                          const ExampleSentenceKurdish(
-                          text: "هەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulks4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulks4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "It's cheaper to buy in bulk."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulks4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulks4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) کێش یان شێوەی کەسێک یان شتێکی گەورە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) کێش یان شێوەی کەسێک یان شتێکی گەورە"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She eased/heaved her large bulk out of the chair."),
-                          const ExampleSentenceKurdish(
-                          text: "هەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulks5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulks5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She eased/heaved her large bulk out of the chair."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulks5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulks5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -410,7 +419,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -435,7 +445,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -460,7 +471,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -485,7 +497,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -510,7 +523,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -535,7 +549,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -560,7 +575,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -585,7 +601,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -610,7 +627,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -635,7 +653,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -660,7 +679,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -685,7 +705,8 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }

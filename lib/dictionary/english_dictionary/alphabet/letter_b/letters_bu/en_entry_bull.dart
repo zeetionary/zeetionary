@@ -35,7 +35,8 @@ class EnglishEntrybull extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The bull lowered its horns and charged."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bull lowered its horns and charged."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulls3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybull extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Papal bulls carry significant authority."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Papal bulls carry significant authority."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulls4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybull extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If you want to believe all that bull it’s up to you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you want to believe all that bull it’s up to you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbulls5(String languageCode) async {
@@ -132,7 +135,7 @@ class EnglishEntrybull extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -168,7 +171,8 @@ class EnglishEntrybull extends StatelessWidget {
                                   text:
                                       "They did not see the sign by the gate saying 'Beware of the bull'."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'."),
+                                  text:
+                                      "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'."),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bull", follow LX strictly
                               Column(
                                 children: [
@@ -184,68 +188,74 @@ class EnglishEntrybull extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The bull lowered its horns and charged."),
-                          const ExampleSentenceKurdish(
-                          text: "نێرەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulls2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulls2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) بڕیارێک یان بەیاننامەیەکی پاپا"),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Papal bulls carry significant authority."),
-                          const ExampleSentenceKurdish(
-                          text: "بەیاننامەکانی پاپا گرنگی تایبەتیان هەیە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulls3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulls3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bull lowered its horns and charged."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نێرەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulls2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulls2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) بیرۆکە، باوەڕ، و قسە کە پێتوایە گەمژانەن"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) بڕیارێک یان بەیاننامەیەکی پاپا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "If you want to believe all that bull it’s up to you."),
-                          const ExampleSentenceKurdish(
-                          text: "ئەگەر باوەڕ بەو هەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbulls4("en-GB"),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Papal bulls carry significant authority."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەیاننامەکانی پاپا گرنگی تایبەتیان هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulls3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulls3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbulls4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) بیرۆکە، باوەڕ، و قسە کە پێتوایە گەمژانەن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If you want to believe all that bull it’s up to you."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر باوەڕ بەو هەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbulls4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbulls4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -411,7 +421,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -436,7 +447,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -461,7 +473,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -486,7 +499,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -511,7 +525,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -536,7 +551,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -561,7 +577,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -586,7 +603,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -611,7 +629,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -636,7 +655,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -661,7 +681,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }
@@ -686,7 +707,8 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
     );
   }
 }

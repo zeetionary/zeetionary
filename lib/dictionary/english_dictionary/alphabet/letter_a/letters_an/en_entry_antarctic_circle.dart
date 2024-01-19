@@ -126,7 +126,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ði ænˌtɑːrktɪk ˈsɜːekl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                    "IpaUS: /ði ænˌtɑːrktɪk ˈsɜːrkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAntarcticcircle("en-US"),
                             ),

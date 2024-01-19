@@ -135,7 +135,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                                       "The aid includes 200 supersonic air-to-air missiles and military communications equipment."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ لەگەڵ کەرەستەی پەیوەندی سەربازی."),
+                                      "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

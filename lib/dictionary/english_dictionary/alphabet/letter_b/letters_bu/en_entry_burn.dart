@@ -125,7 +125,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Which fuel burns most efficiently?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns13(String languageCode) async {
@@ -133,7 +134,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Some people burn calories faster than others."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns14(String languageCode) async {
@@ -141,7 +143,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I can smell something burning in the kitchen."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns15(String languageCode) async {
@@ -149,7 +152,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Sorry—I burnt the cake."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns16(String languageCode) async {
@@ -157,7 +160,7 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My skin burns easily."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns17(String languageCode) async {
@@ -165,7 +168,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I burnt my tongue trying to eat a hot soup."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns18(String languageCode) async {
@@ -173,7 +177,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The soup's hot. Don't burn your mouth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns19(String languageCode) async {
@@ -181,7 +186,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His face had been horrifically burnt by acid."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns20(String languageCode) async {
@@ -189,7 +195,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Your forehead's burning. Have you got a fever?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns21(String languageCode) async {
@@ -197,7 +204,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Our eyes were burning from the chemicals in the air."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns22(String languageCode) async {
@@ -205,7 +213,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their torches burned brightly in the dark."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns23(String languageCode) async {
@@ -213,7 +222,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She could sense the anger burning slowly inside him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns24(String languageCode) async {
@@ -221,7 +231,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The car was burning down the road."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns25(String languageCode) async {
@@ -229,7 +240,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("So you did it just to burn me?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns26(String languageCode) async {
@@ -237,7 +249,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The state has already burned through its cash reserves."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns27(String languageCode) async {
@@ -245,7 +258,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She suffered serious burns but is expected to survive."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns28(String languageCode) async {
@@ -253,7 +267,8 @@ class EnglishEntryburn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburns2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He is recovering from burns to his face and hands."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburns29(String languageCode) async {
@@ -620,6 +635,408 @@ class EnglishEntryburn extends StatelessWidget {
                                         ],
                                       ),
                                     ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) سووتاندنی سووتەمەنی بە مەبەستی درووستکردنی گەرمی، ڕۆشنایی، یان وزە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Which fuel burns most efficiently?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چی سووتەمەنییەک بە کاریگەری دەسووتێت؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Some people burn calories (= use food to produce energy) faster than others."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "(بەکارهێنانی خوازراوی) هەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) سووتاندنی خۆراک بەهۆی زۆر گەرمکردن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I can smell something burning in the kitchen."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆنی شتێک دەکەم لە چێشتخانەکە دەسووتێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Sorry—I burnt the cake."),
+                              const ExampleSentenceKurdish(
+                                  text: "ببوورە، کێکەکەم سووتاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) بریندار بوون یان زیان پێگەشتن بە خۆر، گەرمی، ئەسید، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My skin burns easily (= in the sun).."),
+                              const ExampleSentenceKurdish(
+                                  text: "پێستم بە ئاسانی دەسووتێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I burnt my tongue trying to eat a hot soup."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زمانمم سووتاند بە خواردنی شۆربایەکی گەرم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns17("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The soup's hot. Don't burn your mouth."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "شۆرباکە گەرمە. دەمت مەسووتێنە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakburns18("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakburns18("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "His face had been horrifically burnt by acid."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakburns19("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakburns19("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) گەرمبوون یان بەئازاربوونی بەشێکی جەستە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Your forehead's burning. Have you got a fever?"),
+                              const ExampleSentenceKurdish(
+                                  text: "ناوچاوانت گڕی گرتووە. تات هەیە؟."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns20("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our eyes were burning from the chemicals in the air."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چاوەکانمان بە ئازار بوون بەهۆی مادە کیمیاییەکانی ناو هەوا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns21("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) درووستکردنی ڕۆشنایی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their torches burned brightly in the dark."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لایتەکان بە درەوشاوەیی هەڵکردبوو لە تاریکییەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns22("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) هەستکردن بە هەست و ئارەزوویەکی بەهێز"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She could sense the anger burning slowly inside him."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns23("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٠. (کردار) ڕۆشتن زۆر بە خێرایی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The car was burning down the road."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئۆتۆمبێلەکەی گڤەی دەهات بە ڕێگاکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١١. (کردار) تووڕەکردن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "So you did it just to burn me?"),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەوەت کرد بەس بۆ ئەوەی تووڕەم بکەیت؟"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٢. (کردار) پارە خەرجکردن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The state has already burned through its cash reserves."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ویلایەتەکە دەمێک دەبێت هەموو پارەی کاشی یەدەگی بەکارهێناوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٣. (ناو) برین یان نیشانە بە ئاگر، ئەسید، یان گەرمی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She suffered serious burns but is expected to survive."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تووشی سووتانی خراپ بووە بەڵام چاوەڕێ دەکرێت ڕزگاری ببێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns27("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is recovering from burns to his face and hands."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خەریکە چاکدەبێتەوە لە سووتاوی لە ڕووخسار و دەستیدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburns28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburns28("en-US"),
                                   ),
                                 ],
                               ),

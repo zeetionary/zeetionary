@@ -5,85 +5,127 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bourgeois" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
-// bourgeois
-// haʊʊʊʊʊʊʊ4
-
 enum TtsState { playing }
 
-class EnglishEntrybourgeois extends StatelessWidget {
+class EnglishEntryburning extends StatelessWidget {
 // blank divider
-  EnglishEntrybourgeois({super.key});
+  EnglishEntryburning({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbourgeois(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburning(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bourgeois"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burning"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The hat identified him as a bourgeois."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbourgeoiss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings1(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'd forgotten what a bourgeois you are."); // DOPSUM: CHANGE TEXT
+        "He's always had a burning ambition to start his own business."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings2(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's a bit bourgeois, isn't it, joining a golf club?"); // DOPSUM: CHANGE TEXT
+        "This has quickly become the burning issue of the day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings3(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They've become very bourgeois since they got married."); // DOPSUM: CHANGE TEXT
+        "She felt a burning sensation in her throat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings4(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbourgeoiss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburnings44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings5(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbourgeoiss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburnings55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbourgeoiss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbourgeois
+  Future<void> speakburnings6(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbourgeoiss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburnings66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings7(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings8(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings9(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings10(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings11(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings12(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburnings13(String languageCode) async {
+    // DOPSUM: CHANGE speakburning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakburnings1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -106,24 +148,22 @@ class EnglishEntrybourgeois extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bourgeois"),
+                            EntryTitle(word: "burning"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUK: /ˈbʊəʒwɑː/,  /ˌbʊəˈʒwɑː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɜːnɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbourgeois("en-GB"),
+                              onPressed: () => speakburning("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˌbʊrˈʒwɑː/,  /ˈbʊrʒwɑː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrnɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbourgeois("en-US"),
+                              onPressed: () => speakburning("en-US"),
                             ),
                           ],
                         ),
@@ -169,25 +209,25 @@ class EnglishEntrybourgeois extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بورژوا، دووکان‌دار، کاسب‌کار، بازاڕی، سەوداگەر، سەرمایەدار، باژێری، سەرمایەداری، بورژوایی، ئەندامی چینی نێوەڕاست، ژین‌فرەھـ، خۆش‌گوزەران
+کوردی: سووتێنەر، پڕووکێنەر، گەرم، پڕووزە، گڕگرتوو، کڵپەکردوو، ئاورگرتوو، سوورەوەبوو، هەڵبوو، تۆزێنەر، لەڕادەبەدەر، یەکجار، پێویست، گرنگ، توند، مەسەلەیەکی گرنگ و پێویست، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، شەوەتان
 
-١. (ناو) کەسێک کە لە چینی ناوەڕاستە"""),
+١. (ھاوەڵناو) ئێجگار زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The hat identified him as a bourgeois."),
+                                      "He's always had a burning ambition to start his own business."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کڵاوەکەی پیشانی دا کە سەر بە بورژوایە."),
-                              const CustomSizedBoxForTTS(),
+                                      "هەمیشە خولیایەکی زۆری هەبوو کە بازرگانیی خۆی دەستپێ بکات."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burning", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss1("en-GB"),
+                                    onPressed: () => speakburnings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss1("en-US"),
+                                    onPressed: () => speakburnings1("en-US"),
                                   ),
                                 ],
                               ),
@@ -195,23 +235,23 @@ class EnglishEntrybourgeois extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) کەسێک کە گرنگی بە سەروەت و سامان و پێگەی کۆمەڵایەتی دەدات لەگەڵ پشتگیری بەھا کۆنەکان"),
+                              text: "٢. (ھاوەڵناو) کێشەیەکی زۆر گرنگ"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I'd forgotten what a bourgeois you are."),
+                                      "This has quickly become the burning issue of the day."),
                               const ExampleSentenceKurdish(
-                                  text: "لەبیرم چووبوو کە چەندە بورژوایت."),
+                                  text:
+                                      "ئەمە بە زووی بووە بە مژاری گەرمی ڕۆژ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss2("en-GB"),
+                                    onPressed: () => speakburnings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss2("en-US"),
+                                    onPressed: () => speakburnings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -219,48 +259,23 @@ class EnglishEntrybourgeois extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ھاوەڵناو) سەر بە چینی ناوەڕاست"),
+                              text: "٣. (ھاوەڵناو) ئازارێکی زۆر"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "It's a bit bourgeois, isn't it, joining a golf club?"),
+                                      "She felt a burning sensation in her throat."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیوەندیکردن بە یانەیەکی گۆڵفەوە کەمێک بورژوایانەیە، وانییە؟"),
+                                      "هەستی بە ئازارێکی زۆر دەکرد لە قوڕگیدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss3("en-GB"),
+                                    onPressed: () => speakburnings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ھاوەڵناو) حەز بۆ سەروەت و سامان و پێگەی کۆمەڵایەتی و پشتگیری بەھا کۆنەکان"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They've become very bourgeois since they got married."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوەتەی ھاوسەرگیریان کردووە زۆر بورژوا بوونە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss4("en-US"),
+                                    onPressed: () => speakburnings3("en-US"),
                                   ),
                                 ],
                               ),
@@ -343,18 +358,29 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bourgeois  'borzh,waa or ,bûrzh'waa
-1. (according to Marxist thought) being of the property-owning class and exploitive of the working class
+- Noun: burning (Derived forms: burnings)
+1. A process in which a substance reacts with oxygen to give heat and light (= combustion)
  
-2. Conforming to the standards and conventions of the middle class (= conservative, materialistic, bourgie [N. Amer, informal], bougie [N. Amer, informal])
-"a bourgeois mentality";
-
-3. Belonging to the middle class (= bougie [N. Amer, informal], bourgie [N. Amer, informal])
-
-- Noun: bourgeois (derived forms: bourgeoises)
-1. A capitalist who engages in industrial commercial enterprise (= businessperson)
+2. The act of burning something (= combustion)
+"the burning of leaves was prohibited by a town ordinance";
  
-2. A member of the middle class (= burgher)
+3. Pain that feels hot as if it were on fire (= burn)
+ 
+4. Execution by electricity (= electrocution)
+ 
+5. Execution by fire (= burning at the stake)
+ 
+6. A form of torture in which cigarettes, cigars or other hot implements are used to burn the victim's skin
+
+- Adjective: burning 
+1. Flaming as it burns (= ablaze, afire [literary], aflame, aflare [rare], alight, on fire, in flames)
+"forests set burning by lightning";
+ 
+2. With strong feeling or passion
+"a burning desire for revenge"
+ 
+3. Of immediate import
+"burning issues of the day"
 """,
   );
 
@@ -385,13 +411,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-
-  static String myVideoId = "b1reY72ktEc";
+  static String myVideoId = "https://youtu.be/c3hh1AYMo7o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 553, // DOPSUM: CHANGE IT
+      startAt: 204, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -411,13 +436,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "j1vKv2CIdKU";
+  static String myVideoId = "https://youtu.be/PXsZntwnArQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 596, // DOPSUM: CHANGE IT
+      startAt: 396, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -437,13 +461,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "3NVpz6FgwOU";
+  static String myVideoId = "https://youtu.be/737r0mRf0hY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 65, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -463,13 +486,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "H9rO5sKzOiQ";
+  static String myVideoId = "https://youtu.be/yRmOWcWdQAo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3357, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,13 +511,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "Uswf64gpfP0";
+  static String myVideoId = "https://youtu.be/zUbod5t_2oM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 189, // DOPSUM: CHANGE IT
+      startAt: 1029, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -515,13 +536,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "Yj-wc9qugGY";
+  static String myVideoId = "https://youtu.be/uQtw2_7oXV0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4321, // DOPSUM: CHANGE IT
+      startAt: 464, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,13 +561,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "3hyBe3b1sS8";
+  static String myVideoId = "https://youtu.be/FgT3GCsJteA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 384, // DOPSUM: CHANGE IT
+      startAt: 1757, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,13 +586,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "82rKQXEG7bQ";
+  static String myVideoId = "https://youtu.be/1y8AZehBe9A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1019, // DOPSUM: CHANGE IT
+      startAt: 1052, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -593,13 +611,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "eCkyWBPaTC8";
+  static String myVideoId = "https://youtu.be/z4ZrdEt6D_Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3286, // DOPSUM: CHANGE IT
+      startAt: 1545, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -619,13 +636,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "KMLz0eIihcY";
+  static String myVideoId = "https://youtu.be/EHJivie-mSA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2070, // DOPSUM: CHANGE IT
+      startAt: 143, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -643,58 +659,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// more than one video, only first autoplay
-
-// end bourgeois
+// end WORD_WEB

@@ -2258,8 +2258,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_burka.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_burly.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_burn.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_burner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_burning.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
@@ -4745,8 +4745,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-burka": (_) => MaterialPage(child: EnglishEntryburka()),
   "/english-burly": (_) => MaterialPage(child: EnglishEntryburly()),
   "/english-burn": (_) => MaterialPage(child: EnglishEntryburn()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-burner": (_) => MaterialPage(child: EnglishEntryburner()),
+  "/english-burning": (_) => MaterialPage(child: EnglishEntryburning()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

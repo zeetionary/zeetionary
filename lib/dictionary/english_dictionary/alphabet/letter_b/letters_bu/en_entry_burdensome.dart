@@ -7,131 +7,129 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybuoyantly extends StatelessWidget {
+class EnglishEntryburdensome extends StatelessWidget {
 // blank divider
-  EnglishEntrybuoyantly({super.key});
+  EnglishEntryburdensome({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbuoyantly(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensome(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("buoyantly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burdensome"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes1(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They were sailing swiftly and buoyantly on long waves."); // DOPSUM: CHANGE TEXT
+        "The new regulations will be burdensome for small businesses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes2(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She raced buoyantly through the house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes3(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Equity markets continue to rise buoyantly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes4(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes5(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes6(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes7(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes8(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes9(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes10(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes11(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes12(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbuoyantlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakbuoyantly
+  Future<void> speakburdensomes13(String languageCode) async {
+    // DOPSUM: CHANGE speakburdensome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbuoyantlys1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburdensomes1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -148,23 +146,22 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "buoyantly"),
+                            EntryTitle(word: "burdensome"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɔɪəntli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdnsəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbuoyantly("en-GB"),
+                              onPressed: () => speakburdensome("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˈbɔɪəntli/,  /ˈbuːjəntli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdnsəm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbuoyantly("en-US"),
+                              onPressed: () => speakburdensome("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +179,11 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -210,73 +207,25 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەراوکەوتانە، بەشێوەیەکی سەراوکەوتە
+کوردی: گرنگ، سەخت، ئاسێهـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
 
-١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندی بە سەرئاوکەوتووی هەیە"""),
+١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "They were sailing swiftly and buoyantly on long waves."),
+                                      "The new regulations will be burdensome for small businesses."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyantly", follow LX strictly
+                                      "ڕێسا تازەکان دەکرێت ببێتەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys1("en-GB"),
+                                    onPressed: () => speakburdensomes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) بەشێوەیەکی گەشبینانە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She raced buoyantly through the house."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەشبینانە بە ماڵەکەدا ڕاکردنی بوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ھاوەڵناو) بەشێوەیەک کە سەرکەوتووانە و قازانجدارە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Equity markets continue to rise buoyantly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازاڕی پشکەکان بەردەوامن لە بەرزبوونەوە بە سەرکەوتووانە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys3("en-US"),
+                                    onPressed: () => speakburdensomes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -294,7 +243,7 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -359,9 +308,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: buoyantly 
-1. In a cheerfully buoyant manner (= chirpily [informal])
-"we accepted the opportunity buoyantly";
+- Adjective: burdensome 
+1. (of a task) requiring hard or challenging work (= onerous, taxing)
+"the burdensome task of preparing the income tax return";
 """,
   );
 
@@ -392,12 +341,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/vKe-4Fnf7IY?t=";
+  static String myVideoId = "https://youtu.be/b4wRdoWpw0w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2397, // DOPSUM: CHANGE IT
+      startAt: 943, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -417,12 +366,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/jNtWkHrv3_0?t=";
+  static String myVideoId = "https://youtu.be/LtPM7zkXlW8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 421, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -442,12 +391,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/KH4VSwqXiSo?t=";
+  static String myVideoId = "https://youtu.be/pAAv7gWV6SU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1378, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -467,12 +416,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/b-4lirM0czg?t=";
+  static String myVideoId = "https://youtu.be/FIVfu8EfZck?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2680, // DOPSUM: CHANGE IT
+      startAt: 1579, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -492,12 +441,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/Xs5xS63sC6g?t=";
+  static String myVideoId = "https://youtu.be/UX4KklvCDmg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2044, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -517,12 +466,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/i13jknGLtRw?t=";
+  static String myVideoId = "https://youtu.be/1tDgur8HcmU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 266, // DOPSUM: CHANGE IT
+      startAt: 1935, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -542,12 +491,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/mHS0_pDn8NY?t=";
+  static String myVideoId = "https://youtu.be/JAkNcltOwdw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 11, // DOPSUM: CHANGE IT
+      startAt: 486, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,12 +516,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/ZP2lLc333rM?t=";
+  static String myVideoId = "https://youtu.be/TU_JGOMaTYo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3013, // DOPSUM: CHANGE IT
+      startAt: 357, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -592,12 +541,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/6L_zpu1ZBXM?t=";
+  static String myVideoId = "https://youtu.be/7iusErzz5Ng?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 631, // DOPSUM: CHANGE IT
+      startAt: 355, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -617,12 +566,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/y5mWHUiLvhw?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1876, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

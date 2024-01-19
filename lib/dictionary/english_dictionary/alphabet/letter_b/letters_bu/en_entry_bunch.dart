@@ -7,237 +7,129 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybump extends StatelessWidget {
+class EnglishEntrybunch extends StatelessWidget {
 // blank divider
-  EnglishEntrybump({super.key});
+  EnglishEntrybunch({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbump(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunch(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bump"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bunch"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps1(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("In the dark I bumped into a chair."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps2(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The car bumped against the kerb."); // DOPSUM: CHANGE TEXT
+        .speak("She bought me a bunch of flowers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps3(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I bumped my head on the door frame."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps4(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Toddlers are always falling over and bumping their heads."); // DOPSUM: CHANGE TEXT
+        "She put all the flowers together in one big bunch."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps5(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I have a whole bunch of stuff to do this morning."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbunchs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The people that I work with are a great bunch."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbunchs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The members were a genuinely friendly and open bunch."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbunchs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The jeep bumped along the dirt track."); // DOPSUM: CHANGE TEXT
+        .speak("She wore her hair in bunches."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps6(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The coach told him he had been bumped from the crew."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps7(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "If you are bumped from an oversold flight you are entitled to compensation."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps8(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We could hear loud bumps from upstairs where the children were playing."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps9(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She was covered in bumps and bruises."); // DOPSUM: CHANGE TEXT
+        .speak("His muscles bunched under his shirt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps10(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs8(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a black dress that showed off her expanding bump."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps11(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs9(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We hit a bump and the car swerved."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps12(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs10(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I had a bump in the car earlier, but it wasn’t serious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps13(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs11(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps14(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs12(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbumps15(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
+  Future<void> speakbunchs13(String languageCode) async {
+    // DOPSUM: CHANGE speakbunch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1515"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps16(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1616"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps17(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1717"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps18(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1818"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps19(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps1919"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps20(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2020"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps21(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2121"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps22(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2222"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps23(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2323"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps24(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2424"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps25(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2525"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbumps26(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbumps2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbunchs1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -260,22 +152,22 @@ class EnglishEntrybump extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bump"),
+                            EntryTitle(word: "bunch"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bʌmp/"),
+                            const IPAofEnglish(text: "IpaUK: /bʌntʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbump("en-GB"),
+                              onPressed: () => speakbunch("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bʌmp/"),
+                            const IPAofEnglish(text: "IpaUS: /bʌntʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbump("en-US"),
+                              onPressed: () => speakbunch("en-US"),
                             ),
                           ],
                         ),
@@ -321,147 +213,23 @@ class EnglishEntrybump extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، هەڵماسین، هەڵتۆقان، دەرپەڕیوی، هەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
+کوردی: دەسک، دەستک، چەپک، گورزە، هووێزی، تاخە، لاگوێل، گولکم، دەستە، کۆمەڵ، جەماعەت، کۆمەڵە، کۆما، کۆگا، هێشوو، بۆڵ
 
-١. (کردار) لێدان لە شتێک بە ڕێکەوت"""),
+١. (ناو) ژمارەیەک شتی هەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "In the dark I bumped into a chair."),
+                                  text: "She bought me a bunch of flowers."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bump", follow LX strictly
+                                  text: "دەستە گوڵێکی بۆ کڕیم."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunch", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbumps1("en-GB"),
+                                    onPressed: () => speakbunchs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car bumped against the kerb."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Toddlers are always falling over and bumping their heads."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵان هەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbumps4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbumps4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "I bumped my head on the door frame."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "سەرمم کێشا بە چوارچێوەی دەرگاکەدا."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbumps3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbumps3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) جوڵان بەسەر ڕوویەکی سەختدا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The jeep bumped along the dirt track."),
-                              const ExampleSentenceKurdish(
-                                  text: "جیبەکەبە ڕێگا قوڕەکەدا چوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کردار) گواستنەوە یان سڕینەوەی کەسێک لە گرووپێک یان شوێنێکەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The coach told him he had been bumped from the crew."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاهێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps6("en-US"),
+                                    onPressed: () => speakbunchs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -472,18 +240,88 @@ class EnglishEntrybump extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "If you are bumped from an oversold flight you are entitled to compensation."),
+                                      "She put all the flowers together in one big bunch."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەهۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
+                                      "هەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbumps7("en-GB"),
+                                    onPressed: () => speakbunchs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps7("en-US"),
+                                    onPressed: () => speakbunchs2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ڕێژەیەکی زۆر لە شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have a whole bunch of stuff to do this morning."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەیەکی زۆر کارم هەیە ئەم بەیانییە بیکەم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbunchs3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbunchs3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) گرووپێک لە خەڵک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The people that I work with are a great bunch."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو کەسانەی کارم لەگەڵ کردن گرووپێکی ناوازەن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbunchs4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbunchs4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The members were a genuinely friendly and open bunch."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەندامەکان کەسانێکی تەواو دۆستانە و کراوە بوون."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbunchs5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbunchs5("en-US"),
                                   ),
                                 ],
                               ),
@@ -492,122 +330,47 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) کێشان یان دەنگی شتێک کە دەکێشێتە بە ڕوویەکی سەختدا"),
+                                  "٤. (ناو) قژی درێژ کە کراوە بە دوو بەشەوە و لە هەردوو لای سەرەوە بەستراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "We could hear loud bumps from upstairs where the children were playing."),
+                                  text: "She wore her hair in bunches."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێمان لە زرمەی بەرز بوو لە نهۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
+                                  text: "قژی کردبوو بە کەروێشکی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbumps8("en-GB"),
+                                    onPressed: () => speakbunchs6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps8("en-US"),
+                                    onPressed: () => speakbunchs6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ناو) هەڵاوسانێک لەسەر جەستە، بەزۆری بەهۆی بەرکەوتن بە شتێک"),
+                          const DefinitionKurdish(text: "٥. (کردار) توندبوون"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She was covered in bumps and bruises."),
+                                  text: "His muscles bunched under his shirt."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لاشەی پڕ لە پەنەمان و شینبوونەوە بوو."),
+                                      "ماسولکەکانی توندبوو بوون لەژێر جلەکەی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbumps9("en-GB"),
+                                    onPressed: () => speakbunchs7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps9("en-US"),
+                                    onPressed: () => speakbunchs7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. (ناو) زگی ژنێکی دووگیان"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wore a black dress that showed off her expanding bump."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی ڕەشی لەبەرکردبوو کە سکە دووگیانییەکەی دەرخستبوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) بەشێکی شوێنێکی تەخت کە بەرزبووەتەوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We hit a bump and the car swerved."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە هەڵسووڕا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٨. (ناو) ڕووداوێکی بچووک کە تێیدا ئۆتۆمبێلێک لە شتێک دەدات"),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I had a bump in the car earlier, but it wasn’t serious."),
-                          const ExampleSentenceKurdish(
-                          text: "پێکدادانێکی بچووکم هەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbumps12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbumps12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
                           ),
                         ],
                       ),
@@ -686,38 +449,25 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bump (Derived forms: bumped, bumps, bumping)
-1. Collide with force or violence (= knock)
-"My car bumped into the tree";
- 
-2. Come upon, as if by accident; meet with (= find, happen, chance, encounter)
- 
-3. Assign to a lower position; reduce in rank (= demote, relegate, break, kick downstairs)
-"She was bumped because she always speaks up";
- 
-4. Remove or force from a position of dwelling previously occupied (= dislodge)
-"The new employee bumped her by moving into her office space";
- 
-5. To enjoy some music greatly
- 
-6. To play music at loud volume (= slap)
- 
-7. (Internet) post to a thread in a discussion, returning it to the top of the list
- 
-8. Dance erotically or dance with the pelvis thrust forward
-"bump and grind"
+- Noun: bunch (Derived forms: bunches)
+1. A grouping of a number of similar things (= clump, cluster, clustering)
+"a bunch of trees";
 
-- Noun: bump (Derived forms: bumps)
-1. A lump on the body caused by a blow
+2. An informal body of friends (= crowd, crew, gang)
+"he still hangs out with the same bunch";
  
-2. Something that bulges out or is protuberant or projects from its surroundings (= bulge, hump, swelling, gibbosity, gibbousness, jut, prominence, protuberance, protrusion, extrusion, excrescence)
-"the gun in his pocket made an obvious bump";
+3. Any collection in its entirety (= lot, caboodle [informal])
+"she bought the whole bunch";
 
-3. An impact (as from a collision) (= blow)
-"the bump threw him off the bicycle";
+4. [informal] (often followed by 'of') a large number, amount or extent (= batch, deal, flock, good deal, great deal, hatful, heap, lot, mass, mess, mickle [archaic], mint, mountain, muckle, passel [US], peck, pile [informal], plenty, pot, quite a little, raft, sight, slew, spate, stack, tidy sum, wad)
+"a bunch of letters";
+
+- Verb: bunch (Derived forms: bunches, bunching, bunched)
+1. Form into a bunch (= bunch together, bunch up)
+"The frightened children bunched together in the corner of the classroom";
  
-4. [informal] A (small) increase
-"a bump in sales"
+2. Gather or cause to gather into a cluster (= bundle, cluster, clump)
+"She bunched her fingers into a fist";
 """,
   );
 
@@ -748,7 +498,207 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/3YltYCrPZos?t=";
+  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 166, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 690, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "https://youtu.be/BxWw8AO4ZmI?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 465, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/nITZooG6ij8?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 43, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/oIDU5o9uzxs?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 125, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/9gdRVJ_NA5Y?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 82, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+  static String myVideoId = "https://youtu.be/QxCRRcWSt4I?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 56, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+  static String myVideoId = "https://youtu.be/cbB7p46nmeY?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 110, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+  static String myVideoId = "https://youtu.be/cTLCfl01zuE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -771,214 +721,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/pFEB0chiuJA?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 434, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/H7hfOr9Y8BY?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 68, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/iYfQFsilPn8?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 113, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/GyfY3aIDnbA?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 350, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/FgT3GCsJteA?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 880, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/47MNn4bsmSw?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 1689, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/yKXs6mJBUbA?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/NcVeRlPu_5w?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 258, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/edvdzh9Pggg?t=";
+  static String myVideoId = "https://youtu.be/hrdbPEFYj2M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 134, // DOPSUM: CHANGE IT
+      startAt: 776, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -998,12 +748,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "https://youtu.be/cHgxnnXPomM?t=";
+  static String myVideoId = "https://youtu.be/kpy7oWk4ef4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 211, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1023,12 +773,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "https://youtu.be/q8de9PMkZ10";
+  static String myVideoId = "https://youtu.be/v2yV6IeL-Jw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 228, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

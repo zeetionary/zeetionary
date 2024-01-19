@@ -78,6 +78,54 @@ class EnglishEntrydopsum1 extends StatelessWidget {
     await flutterTts.speak("speakdopsum1s77"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakdopsum1s8(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdopsum1s9(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdopsum1s10(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdopsum1s11(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdopsum1s12(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdopsum1s13(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdopsum1s1313"); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

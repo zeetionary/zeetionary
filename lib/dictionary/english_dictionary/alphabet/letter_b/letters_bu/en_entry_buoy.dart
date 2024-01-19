@@ -35,7 +35,8 @@ class EnglishEntrybuoy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Buoyed by their win yesterday the team feel confident of further success."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Buoyed by their win yesterday the team feel confident of further success."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuoys3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybuoy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The very salty water buoyed her (up) as she swam."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The very salty water buoyed her (up) as she swam."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuoys4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybuoy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("House prices have been buoyed (up) in the area by the possibility of a new factory opening."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "House prices have been buoyed (up) in the area by the possibility of a new factory opening."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuoys5(String languageCode) async {
@@ -232,70 +235,79 @@ class EnglishEntrybuoy extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) دڵخۆشکردن یان متمانە بەخشین بە کەسێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) دڵخۆشکردن یان متمانە بەخشین بە کەسێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Buoyed by their win yesterday the team feel confident of further success."),
-                          const ExampleSentenceKurdish(
-                          text: "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە هەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuoys2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuoys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Buoyed by their win yesterday the team feel confident of further success."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە هەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuoys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuoys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) ڕاگرتنی کەسێک یان شتێک بە سەرئاوکەوتووی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) ڕاگرتنی کەسێک یان شتێک بە سەرئاوکەوتووی"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The very salty water buoyed her (up) as she swam."),
-                          const ExampleSentenceKurdish(
-                          text: "ئاوە زۆر سوێرەکە بە سەراوکەوتووی هێشتییەوە کە مەلەوانی دەکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuoys3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuoys3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The very salty water buoyed her (up) as she swam."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاوە زۆر سوێرەکە بە سەراوکەوتووی هێشتییەوە کە مەلەوانی دەکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuoys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuoys3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (کردار) هێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) هێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
-                          const ExampleSentenceKurdish(
-                          text: "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەهۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuoys4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuoys4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەهۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuoys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuoys4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -414,7 +426,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/q8y-RLkpsnk?t=";
+  static String myVideoId = "q8y-RLkpsnk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -439,7 +451,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/IgF3OX8nT0w?t=";
+  static String myVideoId = "IgF3OX8nT0w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,7 +476,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/PoNCG3PZKII?t=";
+  static String myVideoId = "PoNCG3PZKII";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -489,7 +501,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/bPwnDyW26gk?t=";
+  static String myVideoId = "bPwnDyW26gk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -514,7 +526,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/tiQ26wgRfWI?t=";
+  static String myVideoId = "tiQ26wgRfWI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -539,7 +551,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/YI7lgjaLDFk?t=";
+  static String myVideoId = "YI7lgjaLDFk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -564,7 +576,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/lzM7_HI8P4c?t=";
+  static String myVideoId = "lzM7_HI8P4c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -589,7 +601,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/-oVdAUbIXeM?t=";
+  static String myVideoId = "-oVdAUbIXeM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +626,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/bV22vyvQVnw?t=";
+  static String myVideoId = "bV22vyvQVnw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

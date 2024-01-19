@@ -35,7 +35,8 @@ class EnglishEntrybunk extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most economists think his theories are sheer bunk."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most economists think his theories are sheer bunk."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbunks3(String languageCode) async {
@@ -180,7 +181,7 @@ class EnglishEntrybunk extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +217,8 @@ class EnglishEntrybunk extends StatelessWidget {
                                   text:
                                       "I slept in the bottom bunk of a set of bunk beds."),
                               const ExampleSentenceKurdish(
-                                  text: "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونهۆمییەکەدا."),
+                                  text:
+                                      "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونهۆمییەکەدا."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunk", follow LX strictly
                               Column(
                                 children: [
@@ -231,26 +233,28 @@ class EnglishEntrybunk extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) بیرۆکە و قسەی پڕووپووچ"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) بیرۆکە و قسەی پڕووپووچ"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Most economists think his theories are sheer bunk."),
-                          const ExampleSentenceKurdish(
-                          text: "زۆر ئابووریناس وابیردەکەنەوە قسەکانی هەڵیت‌وپەڵیت بن."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbunks2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbunks2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Most economists think his theories are sheer bunk."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆر ئابووریناس وابیردەکەنەوە قسەکانی هەڵیت‌وپەڵیت بن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbunks2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbunks2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -384,7 +388,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/4G-PKhotxeM?t=";
+  static String myVideoId = "4G-PKhotxeM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +413,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/p3O6bKdPLbw?t=";
+  static String myVideoId = "p3O6bKdPLbw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -434,7 +438,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/CpxG8_n18ZY?t=";
+  static String myVideoId = "CpxG8_n18ZY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -459,7 +463,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/D-qQneOnJl0?t=";
+  static String myVideoId = "D-qQneOnJl0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -484,7 +488,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/vx09_4cEzlM?t=";
+  static String myVideoId = "vx09_4cEzlM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -509,7 +513,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/-C3CjOkF-jY?t=";
+  static String myVideoId = "-C3CjOkF-jY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -534,7 +538,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/Uhh_An7FGek?t=";
+  static String myVideoId = "Uhh_An7FGek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -559,7 +563,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/9mM9-vEQEAk?t=";
+  static String myVideoId = "9mM9-vEQEAk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,7 +588,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/gRet96jLR8o?t=";
+  static String myVideoId = "gRet96jLR8o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -609,7 +613,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/0CBioj4y6Kc?t=";
+  static String myVideoId = "0CBioj4y6Kc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -634,7 +638,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "https://youtu.be/0SByNj5jWik?t=";
+  static String myVideoId = "0SByNj5jWik";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

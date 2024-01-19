@@ -35,7 +35,8 @@ class EnglishEntrybumper extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He crashed into the van, denting its bumper."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He crashed into the van, denting its bumper."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbumpers3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybumper extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Farmers have been celebrating bumper crops this year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Farmers have been celebrating bumper crops this year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbumpers4(String languageCode) async {
@@ -180,7 +182,7 @@ class EnglishEntrybumper extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +218,8 @@ class EnglishEntrybumper extends StatelessWidget {
                                   text:
                                       "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching)."),
                               const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە."),
+                                  text:
+                                      "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumper", follow LX strictly
                               Column(
                                 children: [
@@ -232,46 +235,49 @@ class EnglishEntrybumper extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He crashed into the van, denting its bumper."),
-                          const ExampleSentenceKurdish(
-                          text: "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbumpers2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbumpers2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He crashed into the van, denting its bumper."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbumpers2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbumpers2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Farmers have been celebrating bumper crops this year."),
-                          const ExampleSentenceKurdish(
-                          text: "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ ."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbumpers3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbumpers3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Farmers have been celebrating bumper crops this year."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbumpers3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbumpers3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -388,7 +394,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/eTvrSLFWmLo?t=";
+  static String myVideoId = "eTvrSLFWmLo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -413,7 +419,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/8FpPSMIB4uA?t=";
+  static String myVideoId = "8FpPSMIB4uA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +444,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/p3O6bKdPLbw?t=";
+  static String myVideoId = "p3O6bKdPLbw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,7 +469,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/LfR4QfmwTAc?t=";
+  static String myVideoId = "LfR4QfmwTAc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -488,7 +494,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/b_rjBWmc1iQ?t=";
+  static String myVideoId = "b_rjBWmc1iQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -513,7 +519,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/2fch6wJNuxE?t=";
+  static String myVideoId = "2fch6wJNuxE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -538,7 +544,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/WtnTZSJndPc?t=";
+  static String myVideoId = "WtnTZSJndPc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -563,7 +569,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/tUR9UIscLGU?t=";
+  static String myVideoId = "tUR9UIscLGU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -588,7 +594,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/EI9A9RIt4zU?t=";
+  static String myVideoId = "EI9A9RIt4zU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -613,7 +619,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/T8rjSHNP0mE?t=";
+  static String myVideoId = "T8rjSHNP0mE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -638,7 +644,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "https://youtu.be/z4ZrdEt6D_Q?t=";
+  static String myVideoId = "z4ZrdEt6D_Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -663,7 +669,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "https://youtu.be/zMdXCb7qsi8?t=";
+  static String myVideoId = "zMdXCb7qsi8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

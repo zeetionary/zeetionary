@@ -2313,66 +2313,66 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "build-up",
     "built-in",
     "built-up",
-    // "building society",
-    // "bulb",
-    // "bulbous",
-    // "bulge",
-    // "bulimia",
-    // "bulimia nervosa",
-    // "bulimic",
-    // "bulk",
-    // "bulky",
-    // "bull",
-    // "bulldog",
-    // "bullseye",
-    // "bullshit",
-    // "bulldoze",
-    // "bulldozer",
-    // "bullet",
-    // "bullet point",
-    // "bulletin",
-    // "bulletproof",
-    // "bullion",
-    // "bullock",
-    // "bully",
-    // "bulrush",
-    // "bulwark",
-    // "bum",
-    // "bumblebee",
-    // "bump",
-    // "bumpy",
-    // "bumper",
-    // "bun",
-    // "bunch",
-    // "bundle",
-    // "bung",
-    // "bungalow",
-    // "bungee jumping",
-    // "bungle",
-    // "bunion",
-    // "bunk",
-    // "bunker",
-    // "bunny",
-    // "buoy",
-    // "buoyancy",
-    // "buoyant",
-    // "buoyantly",
-    // "burden",
-    // "burdensome",
-    // "bureau",
-    // "bureaucracy",
-    // "bureaucrat",
-    // "bureaucratic",
-    // "burglar",
-    // "burglarize",
-    // "burglary",
-    // "burgle",
-    // "burial",
-    // "burka",
-    // "burkha",
-    // "burly",
-    // "burn",
-    // "burner",
+    "building society",
+    "bulb",
+    "bulbous",
+    "bulge",
+    "bulimia",
+    "bulimia nervosa",
+    "bulimic",
+    "bulk",
+    "bulky",
+    "bull",
+    "bulldog",
+    "bullseye",
+    "bullshit",
+    "bulldoze",
+    "bulldozer",
+    "bullet",
+    "bullet point",
+    "bulletin",
+    "bulletproof",
+    "bullion",
+    "bullock",
+    "bully",
+    "bulrush",
+    "bulwark",
+    "bum",
+    "bumblebee",
+    "bump",
+    "bumpy",
+    "bumper",
+    "bun",
+    "bunch",
+    "bundle",
+    "bung",
+    "bungalow",
+    "bungee jumping",
+    "bungle",
+    "bunion",
+    "bunk",
+    "bunker",
+    "bunny",
+    "buoy",
+    "buoyancy",
+    "buoyant",
+    "buoyantly",
+    "burden",
+    "burdensome",
+    "bureau",
+    "bureaucracy",
+    "bureaucrat",
+    "bureaucratic",
+    "burglar",
+    "burglarize",
+    "burglary",
+    "burgle",
+    "burial",
+    "burka",
+    "burkha",
+    "burly",
+    "burn",
+    "burner",
     // "burning",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -11698,262 +11698,262 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-build-up");
                   }
-                  // if (wordsEnglish == "built-in") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-built-in");
-                  // }
-                  // if (wordsEnglish == "built-up") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-built-up");
-                  // }
-                  // if (wordsEnglish == "building") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-building");
-                  // }
-                  // if (wordsEnglish == "building society") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-building-society");
-                  // }
-                  // if (wordsEnglish == "bulb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulb");
-                  // }
-                  // if (wordsEnglish == "light bulb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulb");
-                  // }
-                  // if (wordsEnglish == "bulbous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulbous");
-                  // }
-                  // if (wordsEnglish == "bulge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulge");
-                  // }
-                  // if (wordsEnglish == "bulimia") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulimia");
-                  // }
-                  // if (wordsEnglish == "bulimia nervosa") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulimia");
-                  // }
-                  // if (wordsEnglish == "bulimic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulimic");
-                  // }
-                  // if (wordsEnglish == "bulk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulk");
-                  // }
-                  // if (wordsEnglish == "bulky") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulky");
-                  // }
-                  // if (wordsEnglish == "bull") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bull");
-                  // }
-                  // if (wordsEnglish == "bulldog") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulldog");
-                  // }
-                  // if (wordsEnglish == "bullseye") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullseye");
-                  // }
-                  // if (wordsEnglish == "bullshit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullshit");
-                  // }
-                  // if (wordsEnglish == "bulldoze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulldoze");
-                  // }
-                  // if (wordsEnglish == "bulldozer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulldozer");
-                  // }
-                  // if (wordsEnglish == "bullet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullet");
-                  // }
-                  // if (wordsEnglish == "bullet point") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullet-point");
-                  // }
-                  // if (wordsEnglish == "bulletproof") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulletproof");
-                  // }
-                  // if (wordsEnglish == "bulletin") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulletin");
-                  // }
-                  // if (wordsEnglish == "bullion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullion");
-                  // }
-                  // if (wordsEnglish == "bullock") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bullock");
-                  // }
-                  // if (wordsEnglish == "bully") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bully");
-                  // }
-                  // if (wordsEnglish == "bulrush") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulrush");
-                  // }
-                  // if (wordsEnglish == "bulwark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bulwark");
-                  // }
-                  // if (wordsEnglish == "bum") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bum");
-                  // }
-                  // if (wordsEnglish == "bumblebee") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bumblebee");
-                  // }
-                  // if (wordsEnglish == "bump") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bump");
-                  // }
-                  // if (wordsEnglish == "bumpy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bumpy");
-                  // }
-                  // if (wordsEnglish == "bumper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bumper");
-                  // }
-                  // if (wordsEnglish == "bun") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bun");
-                  // }
-                  // if (wordsEnglish == "bunch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bunch");
-                  // }
-                  // if (wordsEnglish == "bundle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bundle");
-                  // }
-                  // if (wordsEnglish == "bung") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bung");
-                  // }
-                  // if (wordsEnglish == "bungalow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bungalow");
-                  // }
-                  // if (wordsEnglish == "bungee jumping") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bungee-jumping");
-                  // }
-                  // if (wordsEnglish == "bungle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bungle");
-                  // }
-                  // if (wordsEnglish == "bunion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bunion");
-                  // }
-                  // if (wordsEnglish == "bunk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bunk");
-                  // }
-                  // if (wordsEnglish == "bunker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bunker");
-                  // }
-                  // if (wordsEnglish == "bunny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bunny");
-                  // }
-                  // if (wordsEnglish == "buoy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buoy");
-                  // }
-                  // if (wordsEnglish == "buoyant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buoyant");
-                  // }
-                  // if (wordsEnglish == "buoyancy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buoyancy");
-                  // }
-                  // if (wordsEnglish == "buoyantly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buoyantly");
-                  // }
-                  // if (wordsEnglish == "burden") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burden");
-                  // }
-                  // if (wordsEnglish == "burdensome") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burdensome");
-                  // }
-                  // if (wordsEnglish == "bureau") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bureau");
-                  // }
-                  // if (wordsEnglish == "bureaucracy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bureaucracy");
-                  // }
-                  // if (wordsEnglish == "bureaucrat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bureaucrat");
-                  // }
-                  // if (wordsEnglish == "bureaucratic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bureaucratic");
-                  // }
-                  // if (wordsEnglish == "burglar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burglar");
-                  // }
-                  // if (wordsEnglish == "burglary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burglary");
-                  // }
-                  // if (wordsEnglish == "burgle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burgle");
-                  // }
-                  // if (wordsEnglish == "burglarize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burgle");
-                  // }
-                  // if (wordsEnglish == "burial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burial");
-                  // }
-                  // if (wordsEnglish == "burka") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burka");
-                  // }
-                  // if (wordsEnglish == "burkha") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burka");
-                  // }
-                  // if (wordsEnglish == "burly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burly");
-                  // }
-                  // if (wordsEnglish == "burn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burn");
-                  // }
-                  // if (wordsEnglish == "burner") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burner");
-                  // }
+                  if (wordsEnglish == "built-in") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-built-in");
+                  }
+                  if (wordsEnglish == "built-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-built-up");
+                  }
+                  if (wordsEnglish == "building") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-building");
+                  }
+                  if (wordsEnglish == "building society") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-building-society");
+                  }
+                  if (wordsEnglish == "bulb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulb");
+                  }
+                  if (wordsEnglish == "light bulb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulb");
+                  }
+                  if (wordsEnglish == "bulbous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulbous");
+                  }
+                  if (wordsEnglish == "bulge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulge");
+                  }
+                  if (wordsEnglish == "bulimia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulimia");
+                  }
+                  if (wordsEnglish == "bulimia nervosa") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulimia");
+                  }
+                  if (wordsEnglish == "bulimic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulimic");
+                  }
+                  if (wordsEnglish == "bulk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulk");
+                  }
+                  if (wordsEnglish == "bulky") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulky");
+                  }
+                  if (wordsEnglish == "bull") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bull");
+                  }
+                  if (wordsEnglish == "bulldog") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulldog");
+                  }
+                  if (wordsEnglish == "bullseye") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullseye");
+                  }
+                  if (wordsEnglish == "bullshit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullshit");
+                  }
+                  if (wordsEnglish == "bulldoze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulldoze");
+                  }
+                  if (wordsEnglish == "bulldozer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulldozer");
+                  }
+                  if (wordsEnglish == "bullet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullet");
+                  }
+                  if (wordsEnglish == "bullet point") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullet-point");
+                  }
+                  if (wordsEnglish == "bulletproof") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulletproof");
+                  }
+                  if (wordsEnglish == "bulletin") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulletin");
+                  }
+                  if (wordsEnglish == "bullion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullion");
+                  }
+                  if (wordsEnglish == "bullock") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bullock");
+                  }
+                  if (wordsEnglish == "bully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bully");
+                  }
+                  if (wordsEnglish == "bulrush") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulrush");
+                  }
+                  if (wordsEnglish == "bulwark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bulwark");
+                  }
+                  if (wordsEnglish == "bum") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bum");
+                  }
+                  if (wordsEnglish == "bumblebee") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bumblebee");
+                  }
+                  if (wordsEnglish == "bump") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bump");
+                  }
+                  if (wordsEnglish == "bumpy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bumpy");
+                  }
+                  if (wordsEnglish == "bumper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bumper");
+                  }
+                  if (wordsEnglish == "bun") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bun");
+                  }
+                  if (wordsEnglish == "bunch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bunch");
+                  }
+                  if (wordsEnglish == "bundle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bundle");
+                  }
+                  if (wordsEnglish == "bung") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bung");
+                  }
+                  if (wordsEnglish == "bungalow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bungalow");
+                  }
+                  if (wordsEnglish == "bungee jumping") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bungee-jumping");
+                  }
+                  if (wordsEnglish == "bungle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bungle");
+                  }
+                  if (wordsEnglish == "bunion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bunion");
+                  }
+                  if (wordsEnglish == "bunk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bunk");
+                  }
+                  if (wordsEnglish == "bunker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bunker");
+                  }
+                  if (wordsEnglish == "bunny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bunny");
+                  }
+                  if (wordsEnglish == "buoy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buoy");
+                  }
+                  if (wordsEnglish == "buoyant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buoyant");
+                  }
+                  if (wordsEnglish == "buoyancy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buoyancy");
+                  }
+                  if (wordsEnglish == "buoyantly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buoyantly");
+                  }
+                  if (wordsEnglish == "burden") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burden");
+                  }
+                  if (wordsEnglish == "burdensome") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burdensome");
+                  }
+                  if (wordsEnglish == "bureau") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bureau");
+                  }
+                  if (wordsEnglish == "bureaucracy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bureaucracy");
+                  }
+                  if (wordsEnglish == "bureaucrat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bureaucrat");
+                  }
+                  if (wordsEnglish == "bureaucratic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bureaucratic");
+                  }
+                  if (wordsEnglish == "burglar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burglar");
+                  }
+                  if (wordsEnglish == "burglary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burglary");
+                  }
+                  if (wordsEnglish == "burgle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burgle");
+                  }
+                  if (wordsEnglish == "burglarize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burgle");
+                  }
+                  if (wordsEnglish == "burial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burial");
+                  }
+                  if (wordsEnglish == "burka") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burka");
+                  }
+                  if (wordsEnglish == "burkha") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burka");
+                  }
+                  if (wordsEnglish == "burly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burly");
+                  }
+                  if (wordsEnglish == "burn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burn");
+                  }
+                  if (wordsEnglish == "burner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burner");
+                  }
                   // if (wordsEnglish == "burning") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-burning");

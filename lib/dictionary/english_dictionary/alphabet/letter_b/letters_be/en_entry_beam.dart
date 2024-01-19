@@ -270,7 +270,7 @@ class EnglishEntrybeam extends StatelessWidget {
                                       "It was a charming cottage with original beams and a thatched roof."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خانۆچکەیەکی دڵڕفێن بوو کە کاریتە خۆی پێوەبوو لەگەڵ لەگەڵ سەربانێکی ھەڵاش بەسەردا دراو."),
+                                      "خانۆچکەیەکی دڵڕفێن بوو کە کاریتەی خۆی پێوەبوو لەگەڵ سەربانێکی ھەڵاش بەسەردا دراو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

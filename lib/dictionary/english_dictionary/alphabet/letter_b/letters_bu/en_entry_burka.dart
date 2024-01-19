@@ -7,129 +7,129 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryburdensome extends StatelessWidget {
+class EnglishEntryburka extends StatelessWidget {
 // blank divider
-  EnglishEntryburdensome({super.key});
+  EnglishEntryburka({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakburdensome(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburka(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burdensome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burka"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes1(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas1(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new regulations will be burdensome for small businesses."); // DOPSUM: CHANGE TEXT
+        "The burka is often associated with cultural and religious practices."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes2(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas2(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes3(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas3(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes4(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas4(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes5(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas5(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes6(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas6(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes7(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas7(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes8(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas8(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes9(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas9(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes10(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas10(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes11(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas11(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes12(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas12(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes13(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburkas13(String languageCode) async {
+    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburkas1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -146,22 +146,23 @@ class EnglishEntryburdensome extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burdensome"),
+                            EntryTitle(word: "burka"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdnsəm/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈbʊəkə/,  /ˈbɜːkə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakburdensome("en-GB"),
+                              onPressed: () => speakburka("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdnsəm/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrkə/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakburdensome("en-US"),
+                              onPressed: () => speakburka("en-US"),
                             ),
                           ],
                         ),
@@ -179,13 +180,13 @@ class EnglishEntryburdensome extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -207,25 +208,23 @@ class EnglishEntryburdensome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گرنگ، سەخت، ئاسێهـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
-
-١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
+١. (ناو) بورقە؛ پارچە جلێکی فش و درێژ کە تەواوی جەستە دادەپۆشێت، بە سەر و ڕووخساریشەوە، لە لایەن ژمارەیەک ئافرەتی موسڵمانەوە دەپۆشرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The new regulations will be burdensome for small businesses."),
+                                      "The burka is often associated with cultural and religious practices."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
+                                      "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burka", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdensomes1("en-GB"),
+                                    onPressed: () => speakburkas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdensomes1("en-US"),
+                                    onPressed: () => speakburkas1("en-US"),
                                   ),
                                 ],
                               ),
@@ -243,9 +242,9 @@ class EnglishEntryburdensome extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -308,9 +307,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: burdensome 
-1. (of a task) requiring hard or challenging work (= onerous, taxing)
-"the burdensome task of preparing the income tax return";
+- Noun: burka (Derived forms: burkas)
+1. A loose garment (usually with veiled holes for the eyes) worn by Muslim women especially in India and Pakistan (= burqa, burkha)
+"the Taliban forced all women to wear the burka";
 """,
   );
 
@@ -341,12 +340,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/b4wRdoWpw0w?t=";
+  static String myVideoId = "https://youtu.be/pQG-oIMSbco?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 943, // DOPSUM: CHANGE IT
+      startAt: 92, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +365,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LtPM7zkXlW8?t=";
+  static String myVideoId = "https://youtu.be/ctP88cVuk-k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +390,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/pAAv7gWV6SU?t=";
+  static String myVideoId = "https://youtu.be/gLJw9oCy5VA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 224, // DOPSUM: CHANGE IT
+      startAt: 248, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +415,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/FIVfu8EfZck?t=";
+  static String myVideoId = "https://youtu.be/kVPvNUrjJA4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1579, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +440,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/UX4KklvCDmg?t=";
+  static String myVideoId = "https://youtu.be/tHN2k31jJz8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 73, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +465,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/1tDgur8HcmU?t=";
+  static String myVideoId = "https://youtu.be/iCQ-dP5gfho";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1935, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +490,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/JAkNcltOwdw?t=";
+  static String myVideoId = "https://youtu.be/F2qU_U0I3W8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 486, // DOPSUM: CHANGE IT
+      startAt: 248, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +515,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/TU_JGOMaTYo?t=";
+  static String myVideoId = "https://youtu.be/7hnSAHuSDYQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 357, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +540,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/7iusErzz5Ng?t=";
+  static String myVideoId = "https://youtu.be/WJWNDMY_CQA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 355, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +565,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/4Zm-DelEH74?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +590,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/pqnSihfif50?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1015, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +615,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/jGebkfDNh-I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

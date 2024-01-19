@@ -7,129 +7,131 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryburdensome extends StatelessWidget {
+class EnglishEntrybureau extends StatelessWidget {
 // blank divider
-  EnglishEntryburdensome({super.key});
+  EnglishEntrybureau({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakburdensome(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureau(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burdensome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bureau"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes1(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus1(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new regulations will be burdensome for small businesses."); // DOPSUM: CHANGE TEXT
+        "There was just enough space for a fold-up bed, washstand and bureau."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes2(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus2(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She works for an employment bureau."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes3(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus3(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes4(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus4(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes5(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus5(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes6(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus6(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes7(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus7(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes8(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus8(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes9(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus9(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes10(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus10(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes11(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus11(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes12(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus12(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes13(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakbureaus13(String languageCode) async {
+    // DOPSUM: CHANGE speakbureau
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbureaus1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -146,22 +148,22 @@ class EnglishEntryburdensome extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burdensome"),
+                            EntryTitle(word: "bureau"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdnsəm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbjʊərəʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakburdensome("en-GB"),
+                              onPressed: () => speakbureau("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdnsəm/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbjʊrəʊ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakburdensome("en-US"),
+                              onPressed: () => speakbureau("en-US"),
                             ),
                           ],
                         ),
@@ -179,13 +181,13 @@ class EnglishEntryburdensome extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -207,25 +209,74 @@ class EnglishEntryburdensome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گرنگ، سەخت، ئاسێهـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
+کوردی: بەڕێوەبەری، کارگێڕی، فەرمانگە، ڕێڤەبەری، ئاژانس، نووسینگە، میزی نووسین (زۆرتر کەشەوی‌شی هەبێ)، دۆڵابێ جل، دراوێر 
 
-١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
+١. (ناو) دۆڵابێکی جلوبەرگ، یان مێزێک کە چەکمەجەی هەیە و بەشێکی سەرەوەی هەیە کە دەکرێتەوە بۆ ئەوەی لەسەری بنووسیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The new regulations will be burdensome for small businesses."),
+                                      "There was just enough space for a fold-up bed, washstand and bureau."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
+                                      "تەنها هێندە شوێن هەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureau", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdensomes1("en-GB"),
+                                    onPressed: () => speakbureaus1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdensomes1("en-US"),
+                                    onPressed: () => speakbureaus1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ئۆفیسێک یان دامەزراوەیەک کە زانیاریی لەسەر بابەتێکی دیاریکراو هەیە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She works for an employment bureau."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ دامەزراوەیەکی دامەزراندن کاردەکات."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbureaus2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbureaus2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) بەڕێوبەرایەتییەک لە حکومەتی ئەمریکادا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەڕێوبەرایەتیی لێکۆڵینەوەی نیشتیمانی لە ٢٦ی تەممووزی ١٩٠٨ دامەزرا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbureaus3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbureaus3("en-US"),
                                   ),
                                 ],
                               ),
@@ -243,9 +294,9 @@ class EnglishEntryburdensome extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -308,9 +359,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: burdensome 
-1. (of a task) requiring hard or challenging work (= onerous, taxing)
-"the burdensome task of preparing the income tax return";
+- Noun: bureau (Derived forms: bureaux, bureaus)
+1. An administrative unit of government (= agency, federal agency, government agency, office, authority)
+"the Census Bureau";
+ 
+2. [N. Amer] Furniture with drawers for keeping clothes (= chest of drawers, chest, dresser)
+ 
+3. An organization, department or office for a specific business, esp. news
+ 
+4. [Brit] A desk, usually a piece of furniture with a cover that folds down, with drawers behind and above the writing surface
 """,
   );
 
@@ -341,12 +398,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/b4wRdoWpw0w?t=";
+  static String myVideoId = "https://youtu.be/qr4MSVxfYBE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 943, // DOPSUM: CHANGE IT
+      startAt: 710, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +423,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LtPM7zkXlW8?t=";
+  static String myVideoId = "https://youtu.be/-eq77VHtT28?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 210, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +448,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/pAAv7gWV6SU?t=";
+  static String myVideoId = "https://youtu.be/8tT3FhOA4-g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 224, // DOPSUM: CHANGE IT
+      startAt: 596, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +473,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/FIVfu8EfZck?t=";
+  static String myVideoId = "https://youtu.be/jtVfXLkc-ko?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1579, // DOPSUM: CHANGE IT
+      startAt: 757, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +498,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/UX4KklvCDmg?t=";
+  static String myVideoId = "https://youtu.be/Lb8BNsrZvEk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 73, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +523,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/1tDgur8HcmU?t=";
+  static String myVideoId = "https://youtu.be/JMxRTzsAn-c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1935, // DOPSUM: CHANGE IT
+      startAt: 905, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +548,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/JAkNcltOwdw?t=";
+  static String myVideoId = "https://youtu.be/5xAs62-Un_c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 486, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +573,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/TU_JGOMaTYo?t=";
+  static String myVideoId = "https://youtu.be/i8M6h8zF3Wg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 357, // DOPSUM: CHANGE IT
+      startAt: 176, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +598,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/7iusErzz5Ng?t=";
+  static String myVideoId = "https://youtu.be/feplKyucGkU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 355, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +623,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/ExSsGzTzd8E?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 567, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +648,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/lsrC-UcDZHM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1003, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +673,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Qs940x0DDZ4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 185, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -7,129 +7,130 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryburdensome extends StatelessWidget {
+class EnglishEntryburial extends StatelessWidget {
 // blank divider
-  EnglishEntryburdensome({super.key});
+  EnglishEntryburial({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakburdensome(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburial(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burdensome"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes1(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials1(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Her body was sent home for burial."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburials2(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The new regulations will be burdensome for small businesses."); // DOPSUM: CHANGE TEXT
+        "His family insisted he should be given a proper burial."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes2(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials3(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes3(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials4(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes4(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials5(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes5(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials6(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes6(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials7(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes7(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials8(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes8(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials9(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes9(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials10(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes10(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials11(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes11(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials12(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdensomes12(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
+  Future<void> speakburials13(String languageCode) async {
+    // DOPSUM: CHANGE speakburial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakburdensomes13(String languageCode) async {
-    // DOPSUM: CHANGE speakburdensome
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdensomes1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburials1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -146,22 +147,22 @@ class EnglishEntryburdensome extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burdensome"),
+                            EntryTitle(word: "burial"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdnsəm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈberiəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakburdensome("en-GB"),
+                              onPressed: () => speakburial("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdnsəm/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈberiəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakburdensome("en-US"),
+                              onPressed: () => speakburial("en-US"),
                             ),
                           ],
                         ),
@@ -179,13 +180,13 @@ class EnglishEntryburdensome extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -207,25 +208,46 @@ class EnglishEntryburdensome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گرنگ، سەخت، ئاسێهـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
+کوردی: ناشتن، ڤەشارتن، بنئاخ‌کردن، بنگڵ‌کردن، بەخاک‌سپاردن، ڕێ‌وڕەسمی ناشتن یان بەخاک‌سپاردن، (کۆنەوارناسی) گۆڕ یان پاشماوەی نێوی
 
-١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
+١. (ناو) کردار یان مەراسیمی ناشتنی جەستەیەکی مردوو"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Her body was sent home for burial."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burial", follow LX strictly
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburials1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburials1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The new regulations will be burdensome for small businesses."),
+                                      "His family insisted he should be given a proper burial."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
+                                      "خێزانەکەی پێداگیربوون لەسەر ئەوەی ناشتنێکی شایستەی بۆ بکرێت."),
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdensomes1("en-GB"),
+                                    onPressed: () => speakburials2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdensomes1("en-US"),
+                                    onPressed: () => speakburials2("en-US"),
                                   ),
                                 ],
                               ),
@@ -243,9 +265,9 @@ class EnglishEntryburdensome extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -308,9 +330,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: burdensome 
-1. (of a task) requiring hard or challenging work (= onerous, taxing)
-"the burdensome task of preparing the income tax return";
+- Noun: burial (Derived forms: burials)
+1. The ritual placing of a corpse in a grave (= entombment, inhumation, interment, sepulture [archaic])
+ 
+2. Concealing something under the ground (= burying)
 """,
   );
 
@@ -341,12 +364,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/b4wRdoWpw0w?t=";
+  static String myVideoId = "https://youtu.be/Pon4Zux5MaQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 943, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +389,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LtPM7zkXlW8?t=";
+  static String myVideoId = "https://youtu.be/twAP3buj9Og?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 347, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +414,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/pAAv7gWV6SU?t=";
+  static String myVideoId = "https://youtu.be/CpxG8_n18ZY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 224, // DOPSUM: CHANGE IT
+      startAt: 136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +439,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/FIVfu8EfZck?t=";
+  static String myVideoId = "https://youtu.be/s3YTfhJmh1I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1579, // DOPSUM: CHANGE IT
+      startAt: 241, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +464,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/UX4KklvCDmg?t=";
+  static String myVideoId = "https://youtu.be/kI2XQ67chqE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 73, // DOPSUM: CHANGE IT
+      startAt: 138, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +489,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/1tDgur8HcmU?t=";
+  static String myVideoId = "https://youtu.be/VQiPdZObJkM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1935, // DOPSUM: CHANGE IT
+      startAt: 364, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +514,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/JAkNcltOwdw?t=";
+  static String myVideoId = "https://youtu.be/A5THrqZbQ-w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 486, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +539,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/TU_JGOMaTYo?t=";
+  static String myVideoId = "https://youtu.be/SOeAThye5rQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 357, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +564,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/7iusErzz5Ng?t=";
+  static String myVideoId = "https://youtu.be/kJoaRIy38R8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 355, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +589,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/xFEjcfYOC3I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 287, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +614,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/K23T3WXtqqE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 89, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +639,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/7DP_WjswBWw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

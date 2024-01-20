@@ -175,7 +175,7 @@ class EnglishEntrybackache extends StatelessWidget {
                                   text:
                                       "A lot of sitting gives me such backache."),
                               const ExampleSentenceKurdish(
-                                  text: "دانیشتنی زۆر تووشی پشتئێشەم دەکات."),
+                                  text: "دانیشتنی زۆر تووشی پشتێشەم دەکات."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,7 +264,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: backache (= derived forms: backaches)
+- Noun: backache (derived forms: backaches)
 1. An ache localized in the back
 """,
   );

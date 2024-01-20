@@ -7,126 +7,124 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybush extends StatelessWidget {
+class EnglishEntrybushy extends StatelessWidget {
 // blank divider
-  EnglishEntrybush({super.key});
+  EnglishEntrybushy({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbush(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushy(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bush"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bushy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was hiding in the bushes at the side of the lane."); // DOPSUM: CHANGE TEXT
+        "He was short and stocky, with thick bushy eyebrows."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The baby was born with a bush of black hair."); // DOPSUM: CHANGE TEXT
+        "It grows into a bushy plant, with soft leaves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They went out into the bush."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Children are taught from an early age how to survive in the bush."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs8(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys8(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs9(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys9(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs10(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys10(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs11(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys11(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs12(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys12(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbushs13(String languageCode) async {
-    // DOPSUM: CHANGE speakbush
+  Future<void> speakbushys13(String languageCode) async {
+    // DOPSUM: CHANGE speakbushy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbushs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbushys1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,22 +147,22 @@ class EnglishEntrybush extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bush"),
+                            EntryTitle(word: "bushy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bʊʃ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊʃi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbush("en-GB"),
+                              onPressed: () => speakbushy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bʊʃ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʊʃi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbush("en-US"),
+                              onPressed: () => speakbushy("en-US"),
                             ),
                           ],
                         ),
@@ -210,25 +208,25 @@ class EnglishEntrybush extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پنچ، بنج، بنەگیا، چڵو، کان، دەڤی، دەوەن(د)، داریلە، دارۆکە، شخەڵ، شیخەڵ، تووکەبەری ژن، (مێژوویی) چەپکەلاولاوە (نیشانەی مەی‌فرۆشی)، (وەک ئاوەڵناو) سەرەتایی، بێ‌شارستانیەت، کێوی
+کوردی: پڕ، جەگەنی، جگەن‌ئاسا، پڕدارو دەوەن، دەوەناوی، چڕ، پڕدەوەن، تیسکن، تووکن
 
-١. (ناو) ڕووەکێک کە بە ئەستووری گەشە دەکات و چەند قەدێکی سەختی هەیە کە لە ڕەگەکەیەوە دەردەچن"""),
+١. (ھاوەڵناو) قژ یان فەرووی پڕ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She was hiding in the bushes at the side of the lane."),
+                                      "He was short and stocky, with thick bushy eyebrows."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bush", follow LX strictly
+                                      "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ هەبوونی برۆی ئەستووری پڕدا."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bushy", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbushs1("en-GB"),
+                                    onPressed: () => speakbushys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs1("en-US"),
+                                    onPressed: () => speakbushys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,69 +234,22 @@ class EnglishEntrybush extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ڕێژەیەکی زۆر لە موو، بەتایبەت مووی بەشی بەرگەدەی ژنان"),
+                              text: "٢. (ھاوەڵناو) ڕووەکێک کە پڕ و گەڵا زۆرە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The baby was born with a bush of black hair."),
+                                      "It grows into a bushy plant, with soft leaves."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە لەدایکبوو بە قژێکی زۆری ڕەشەوە."),
+                                  text: "دەبێتە ڕووەکێکی پڕ بە گەڵای نەرمەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbushs2("en-GB"),
+                                    onPressed: () => speakbushys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ناوچەیەک کە پاکنەکراوەتوە، بۆ نموونە لە دار"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They went out into the bush."),
-                              const ExampleSentenceKurdish(
-                                  text: "چوون بۆ دەشت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children are taught from an early age how to survive in the bush."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان لە تەمەنێکی گەنجدا فێردەکرێن چۆن لە دەشتدا دەربازبن."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs4("en-US"),
+                                    onPressed: () => speakbushys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -381,29 +332,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bush (Derived forms: bushes)
-1. A low woody perennial plant usually having several major stems (= shrub)
- 
-2. A large wilderness area
- 
-3. Dense vegetation consisting of stunted trees or bushes (= scrub, chaparral [N. Amer])
- 
-4. [vulgar] Hair growing in the pubic area (= pubic hair, crotch hair)
- 
-5. [Cdn] An area planted with trees for timber or fuel (= woodlot [N. Amer], wood lot [N. Amer], plantation)
+- Adjective: bushy (Derived forms: bushier, bushiest)
+1. Used of hair; thick and poorly groomed (= shaggy, shaggy-haired, shaggy-coated)
+"bushy locks";
 
-- Verb: bush (Derived forms: bushed, bushes, bushing)
-1. Provide with a bushing
-
-- Adjective: bush 
-1. Not of the highest quality or sophistication (= bush-league)
-
-- Noun: Bush 
-1. Vice president under Reagan and 41st President of the United States (born in 1924) (- George Bush, George H.W. Bush, George H. W. Bush, George Herbert Walker Bush, President Bush)
- 
-2. United States electrical engineer who designed an early analogue computer and who led the scientific program of the United States during World War II (1890-1974) (= Vannevar Bush)
- 
-3. 43rd President of the United States; son of George Herbert Walker Bush (born in 1946) (= George Bush, George W. Bush, George Walker Bush, President Bush, President George W. Bush, Dubyuh, Dubya)
+2. Resembling a bush in being thickly branched and spreading
 """,
   );
 
@@ -434,12 +367,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/47MNn4bsmSw?t=";
+  static String myVideoId = "https://youtu.be/7bkGM_zSGOU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6675, // DOPSUM: CHANGE IT
+      startAt: 319, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +392,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/uY3fIry2tOE?t=";
+  static String myVideoId = "https://youtu.be/wjaIRPAxGgA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1317, // DOPSUM: CHANGE IT
+      startAt: 420, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +417,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/xQ1X4N49lnI?t=";
+  static String myVideoId = "https://youtu.be/6BTJ7feX0aQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 919, // DOPSUM: CHANGE IT
+      startAt: 70, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +442,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/l3NS09izxYE?t=";
+  static String myVideoId = "https://youtu.be/8vh4xXbDF8I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1116, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +467,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/H6A-wlwEMow?t=";
+  static String myVideoId = "https://youtu.be/H5PvFM0nwKk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +492,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/uxIH0W4S6LY?t=";
+  static String myVideoId = "https://youtu.be/UHi0RlI0Ur4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 710, // DOPSUM: CHANGE IT
+      startAt: 355, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +517,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/IvtJP1yhvdg?t=";
+  static String myVideoId = "https://youtu.be/JM6w41Trzhc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 363, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +542,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/L3Gd74OjIsY?t=";
+  static String myVideoId = "https://youtu.be/eOkiJ1xiw4s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 331, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -634,12 +567,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/3MAxibJxmnU?t=";
+  static String myVideoId = "https://youtu.be/1VqzZUJpKcQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 681, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -659,12 +592,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/EuWXm5VN8mI?t=";
+  static String myVideoId = "https://youtu.be/eT0wb5qkaQ8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 14, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

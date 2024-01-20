@@ -256,7 +256,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                       "Humans are the only animals to have developed speech."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت."),
+                                      "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

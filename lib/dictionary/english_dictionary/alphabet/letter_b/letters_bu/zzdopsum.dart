@@ -853,6 +853,86 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
 //     await flutterTts.speak("speakbands3030"); // DOPSUM: CHANGE TEXT
 //   }
 
+//   Future<void> speakbands31(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3131"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands32(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3232"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands33(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3333"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands34(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3434"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands35(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3535"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands36(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3636"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands37(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3737"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands38(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3838"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands39(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands3939"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakbands40(String languageCode) async {
+//     // DOPSUM: CHANGE speakband
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakbands4040"); // DOPSUM: CHANGE TEXT
+//   }
+
 // v v
 
 class YoutubeEmbeddedeleven extends StatelessWidget {

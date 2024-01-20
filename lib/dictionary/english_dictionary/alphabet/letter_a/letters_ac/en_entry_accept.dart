@@ -192,7 +192,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                   text: "Please accept our sincere apologies."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تکایە داوای لێبووردنەکەمان پەسەند بکە کە لە دڵەوەیە."),
+                                      "تکایە داوای لێبووردنی پڕبەدڵمان پەسەند بکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,7 +171,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                                       "The story led the television news bulletins that evening."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەواڵەکە سەردێڕی کورتە هەواڵی تەلەفیزیۆنی ئەو شەوە بوو."),
+                                      "هەواڵەکە ئەو شەوە سەردێڕی کورتە هەواڵی تەلەفیزیۆنی بوو."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulletin", follow LX strictly
                               Column(
                                 children: [

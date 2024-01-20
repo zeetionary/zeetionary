@@ -2374,16 +2374,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "burn",
     "burner",
     // "burning",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "burnish",
+    // "burp",
+    // "burrow",
+    // "bursar",
+    // "bursary",
+    // "burst",
+    // "bury",
+    // "bus",
+    // "bus stop",
+    // "bush",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2520,31 +2520,133 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 
   void filterResults(String query) {
     setState(() {
+      // https://chat.openai.com/c/71511b96-b16b-470a-9c54-fba236f23628
       if (query.isEmpty) {
         // If the query is empty, show all words
         filteredWords = List.from(allWordsEnglish);
       } else {
-        // Sort words to prioritize exact matches first
-        filteredWords = allWordsEnglish
-            .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+        // Create a map to store word frequencies
+        Map<String, int> wordFrequencies = {};
+
+        // Update frequencies for exact matches
+        for (String word in allWordsEnglish) {
+          if (word.toLowerCase() == query.toLowerCase()) {
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
+                2; // Higher weight for exact matches
+          }
+        }
+
+        // Update frequencies for relevant matches (contains the query)
+        for (String word in allWordsEnglish) {
+          if (word.toLowerCase().contains(query.toLowerCase())) {
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+          }
+        }
+
+        // Fuzzy search for approximate matches
+        List<String> fuzzyMatches = allWordsEnglish
+            .where(
+                (word) => _fuzzyMatch(word.toLowerCase(), query.toLowerCase()))
             .toList();
 
-        filteredWords.sort((a, b) {
-          bool exactMatchA = a.toLowerCase() == query.toLowerCase();
-          bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+        // Update frequencies for fuzzy matches
+        for (String word in fuzzyMatches) {
+          wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+        }
 
-          if (exactMatchA && !exactMatchB) {
-            return -1; // A is an exact match, so it comes first.
-          } else if (!exactMatchA && exactMatchB) {
-            return 1; // B is an exact match, so it comes first.
-          } else {
-            // If both are exact matches or neither are, sort them based on lexicographic order.
-            return a.toLowerCase().compareTo(b.toLowerCase());
-          }
-        });
+        // Combine and prioritize by relevancy, with exact matches at the top
+        filteredWords = wordFrequencies.keys.toList()
+          ..sort((a, b) {
+            bool exactMatchA = a.toLowerCase() == query.toLowerCase();
+            bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+
+            if (exactMatchA && !exactMatchB) {
+              return -1; // A is an exact match, so it comes first.
+            } else if (!exactMatchA && exactMatchB) {
+              return 1; // B is an exact match, so it comes first.
+            } else {
+              // Sort based on frequencies for non-exact matches
+              int frequencyComparison =
+                  (wordFrequencies[b] ?? 0).compareTo(wordFrequencies[a] ?? 0);
+
+              if (frequencyComparison == 0) {
+                // If frequencies are equal, prioritize words containing the exact match
+                bool containsExactA =
+                    a.toLowerCase().contains(query.toLowerCase());
+                bool containsExactB =
+                    b.toLowerCase().contains(query.toLowerCase());
+
+                if (containsExactA && !containsExactB) {
+                  return -1; // A contains the exact match, so it comes next.
+                } else if (!containsExactA && containsExactB) {
+                  return 1; // B contains the exact match, so it comes next.
+                }
+              }
+
+              return frequencyComparison;
+            }
+          });
       }
     });
   }
+
+  bool _fuzzyMatch(String word, String query) {
+    // Implement an enhanced fuzzy matching algorithm
+    // Consider consecutive character matches and adjust the threshold.
+
+    // Case-insensitive comparison
+    word = word.toLowerCase();
+    query = query.toLowerCase();
+
+    // Exact match
+    if (word == query) {
+      return true;
+    }
+
+    // Check for consecutive character matches
+    int consecutiveMatches = 0;
+    int maxConsecutiveMatches = 2; // Adjust as needed
+
+    for (int i = 0;
+        i < word.length && consecutiveMatches <= maxConsecutiveMatches;
+        i++) {
+      if (i < query.length && word[i] == query[i]) {
+        consecutiveMatches++;
+      } else {
+        consecutiveMatches = 0;
+      }
+    }
+
+    return consecutiveMatches > maxConsecutiveMatches;
+  }
+
+  // void filterResults(String query) {
+  //   setState(() {
+  //     if (query.isEmpty) {
+  //       // If the query is empty, show all words
+  //       filteredWords = List.from(allWordsEnglish);
+  //     } else {
+  //       // Sort words to prioritize exact matches first
+  //       filteredWords = allWordsEnglish
+  //           .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+  //           .toList();
+
+  //       filteredWords.sort((a, b) {
+  //         bool exactMatchA = a.toLowerCase() == query.toLowerCase();
+  //         bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+
+  //         if (exactMatchA && !exactMatchB) {
+  //           return -1; // A is an exact match, so it comes first.
+  //         } else if (!exactMatchA && exactMatchB) {
+  //           return 1; // B is an exact match, so it comes first.
+  //         } else {
+  //           // If both are exact matches or neither are, sort them based on lexicographic order.
+  //           return a.toLowerCase().compareTo(b.toLowerCase());
+  //         }
+  //       });
+  //     }
+  //   });
+  // }
 
   void saveToHistory(String word) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -2596,7 +2698,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: 14.0, // Adjust the icon size as needed
+                size: 16.0, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
                     .withOpacity(0.6), // Icon color
@@ -11958,45 +12060,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-burning");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "burnish") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-burnish");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "burp") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-burp");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "burrow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-burrow");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bursar") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bursar");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bursary") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bursary");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "burst") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-burst");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bury") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bury");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bus") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bus");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bus stop") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bus-stop");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bush") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bush");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

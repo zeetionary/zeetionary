@@ -14,7 +14,7 @@ class DictionaryScreenKurdish extends StatefulWidget {
 
 class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
-  final List<String> allwordsKurdish = [
+  final List<String> allWordsKurdish = [
     "کوردی",
     "کوردستان",
     "کوردس‌تان",
@@ -69,7 +69,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   @override
   void initState() {
     super.initState();
-    filteredWords = List.from(allwordsKurdish);
+    filteredWords = List.from(allWordsKurdish);
     // Add a listener to the scroll controller to determine when to show the scroll-to-top button
     _scrollController.addListener(() {
       setState(() {
@@ -87,12 +87,115 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   }
 
   void filterResults(String query) {
+    // https://chat.openai.com/c/71511b96-b16b-470a-9c54-fba236f23628
     setState(() {
-      filteredWords = allwordsKurdish
-          .where((word) => word.toLowerCase().contains(query.toLowerCase()))
-          .toList();
+      if (query.isEmpty) {
+        // If the query is empty, show all words
+        filteredWords = List.from(allWordsKurdish);
+      } else {
+        // Create a map to store word frequencies
+        Map<String, int> wordFrequencies = {};
+
+        // Update frequencies for exact matches
+        for (String word in allWordsKurdish) {
+          if (word.toLowerCase() == query.toLowerCase()) {
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
+                2; // Higher weight for exact matches
+          }
+        }
+
+        // Update frequencies for relevant matches (contains the query)
+        for (String word in allWordsKurdish) {
+          if (word.toLowerCase().contains(query.toLowerCase())) {
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+          }
+        }
+
+        // Fuzzy search for approximate matches
+        List<String> fuzzyMatches = allWordsKurdish
+            .where(
+                (word) => _fuzzyMatch(word.toLowerCase(), query.toLowerCase()))
+            .toList();
+
+        // Update frequencies for fuzzy matches
+        for (String word in fuzzyMatches) {
+          wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+        }
+
+        // Combine and prioritize by relevancy, with exact matches at the top
+        filteredWords = wordFrequencies.keys.toList()
+          ..sort((a, b) {
+            bool exactMatchA = a.toLowerCase() == query.toLowerCase();
+            bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+
+            if (exactMatchA && !exactMatchB) {
+              return -1; // A is an exact match, so it comes first.
+            } else if (!exactMatchA && exactMatchB) {
+              return 1; // B is an exact match, so it comes first.
+            } else {
+              // Sort based on frequencies for non-exact matches
+              int frequencyComparison =
+                  (wordFrequencies[b] ?? 0).compareTo(wordFrequencies[a] ?? 0);
+
+              if (frequencyComparison == 0) {
+                // If frequencies are equal, prioritize words containing the exact match
+                bool containsExactA =
+                    a.toLowerCase().contains(query.toLowerCase());
+                bool containsExactB =
+                    b.toLowerCase().contains(query.toLowerCase());
+
+                if (containsExactA && !containsExactB) {
+                  return -1; // A contains the exact match, so it comes next.
+                } else if (!containsExactA && containsExactB) {
+                  return 1; // B contains the exact match, so it comes next.
+                }
+              }
+
+              return frequencyComparison;
+            }
+          });
+      }
     });
   }
+
+  bool _fuzzyMatch(String word, String query) {
+    // Implement an enhanced fuzzy matching algorithm
+    // Consider consecutive character matches and adjust the threshold.
+
+    // Case-insensitive comparison
+    word = word.toLowerCase();
+    query = query.toLowerCase();
+
+    // Exact match
+    if (word == query) {
+      return true;
+    }
+
+    // Check for consecutive character matches
+    int consecutiveMatches = 0;
+    int maxConsecutiveMatches = 2; // Adjust as needed
+
+    for (int i = 0;
+        i < word.length && consecutiveMatches <= maxConsecutiveMatches;
+        i++) {
+      if (i < query.length && word[i] == query[i]) {
+        consecutiveMatches++;
+      } else {
+        consecutiveMatches = 0;
+      }
+    }
+
+    return consecutiveMatches > maxConsecutiveMatches;
+  }
+
+
+  // void filterResults(String query) {
+  //   setState(() {
+  //     filteredWords = allWordsKurdish
+  //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+  //         .toList();
+  //   });
+  // }
 
   // void saveToHistory(String word) async {
   //   SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -156,7 +259,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: 14.0, // Adjust the icon size as needed
+                size: 16.0, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
                     .withOpacity(0.6), // Icon color

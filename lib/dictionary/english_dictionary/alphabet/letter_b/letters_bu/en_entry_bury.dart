@@ -7,135 +7,139 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryburden extends StatelessWidget {
+class EnglishEntrybury extends StatelessWidget {
 // blank divider
-  EnglishEntryburden({super.key});
+  EnglishEntrybury({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakburden(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbury(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burden"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bury"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens1(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("They killed her and buried her body."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakburys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The main burden of caring for old people falls on the state."); // DOPSUM: CHANGE TEXT
+        "Those people are now all dead and buried."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens2(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't want to become a burden to my children when I'm old."); // DOPSUM: CHANGE TEXT
+        "She's 85 and has buried three husbands."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens3(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The little donkey struggled under its heavy burden."); // DOPSUM: CHANGE TEXT
+        "We used to dig for hours, looking for buried treasure."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens4(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We need to avoid putting a burden on taxpayers with this project."); // DOPSUM: CHANGE TEXT
+        "The dog had buried its bone in the garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens5(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Buying a house often places a large financial burden on young couples."); // DOPSUM: CHANGE TEXT
+        "The house was buried under ten feet of snow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens6(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't want to burden you with my worries."); // DOPSUM: CHANGE TEXT
+        "A landslide buried about 25 people yesterday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens7(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys8(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She got off the bus, burdened with two heavy suitcases."); // DOPSUM: CHANGE TEXT
+        "He buried his face in his hands and wept."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens8(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys9(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens88"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had learnt to bury her feelings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens9(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys10(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He walked slowly, his hands buried in his pockets."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens10(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys11(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She always has her head buried in a book."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens11(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys12(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburys1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens12(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburys13(String languageCode) async {
+    // DOPSUM: CHANGE speakbury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakburdens13(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakburys1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -152,22 +156,22 @@ class EnglishEntryburden extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burden"),
+                            EntryTitle(word: "bury"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈberi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakburden("en-GB"),
+                              onPressed: () => speakbury("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈberi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakburden("en-US"),
+                              onPressed: () => speakbury("en-US"),
                             ),
                           ],
                         ),
@@ -185,13 +189,13 @@ class EnglishEntryburden extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -213,25 +217,23 @@ class EnglishEntryburden extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: باری قورس، گوشار، قورسایی، بارگرانی، سەنگی، بار، بەرپرسایەتی (قورس)، ئەرک، پەیور، توانایی هەڵگرتنی کەشتی، کەشتی‌بەرە، جێ‌بوونەوە، توانایی، تێبینی یان بابەتی سەرەکی، بیرۆکەی سەرەکی یان بنەڕەتی، سەربەند
+کوردی: ناشتن، ناژتن، ژێرگڵ کردن
 
-١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەهۆی نیگەرانی، گرفت، و کاری قورس"""),
+١. (کردار) ناشتنی کەسێکی مردوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The main burden of caring for old people falls on the state."),
+                                  text: "They killed her and buried her body."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burden", follow LX strictly
+                                  text: "کوشتیان و لاشەکەیان ناشت."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bury", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens1("en-GB"),
+                                    onPressed: () => speakburys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens1("en-US"),
+                                    onPressed: () => speakburys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -242,73 +244,18 @@ class EnglishEntryburden extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I don't want to become a burden to my children when I'm old."),
+                                      "Those people are now all dead and buried."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم."),
+                                      "ئەو کەسانە ئێستا هەموویان مردوو و لەژێر گڵن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens2("en-GB"),
+                                    onPressed: () => speakburys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "We need to avoid putting a burden on taxpayers with this project."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburdens4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburdens4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
-                                  const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Buying a house often places a large financial burden on young couples."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburdens5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburdens5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                    onPressed: () => speakburys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -316,23 +263,23 @@ class EnglishEntryburden extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) بارێکی قورس کە هەڵیدەگریت"),
+                              text: "٢. (کردار) لەدەستدانی کەسێک بە مردن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The little donkey struggled under its heavy burden."),
+                                      "She's 85 and has buried three husbands."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا."),
+                                      "تەمەنی ٨٥ ساڵە و سێ هاوسەری لەدەستداوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens3("en-GB"),
+                                    onPressed: () => speakburys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens3("en-US"),
+                                    onPressed: () => speakburys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -340,23 +287,45 @@ class EnglishEntryburden extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) پێدانی بارگرانییەک بە کەسێک"),
+                              text: "٣. (کردار) شاردنەوەی شتێک لە زەویدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I don't want to burden you with my worries."),
+                                      "We used to dig for hours, looking for buried treasure."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم."),
+                                      "جاران چەندین کاتژمێر دەگەڕاین بۆ گەنجینەی شاردراوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens6("en-GB"),
+                                    onPressed: () => speakburys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens6("en-US"),
+                                    onPressed: () => speakburys4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The dog had buried its bone in the garden."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەگەکە ئێسقانەکەی لە باخچەکەدا شاردبووەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys5("en-US"),
                                   ),
                                 ],
                               ),
@@ -364,23 +333,136 @@ class EnglishEntryburden extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هەڵگرتنی شتێکی قورس"),
+                              text:
+                                  "٣. (کردار) داپۆشینی کەسێک یان شتێک بە خۆڵ، بەرد، گەڵا، هتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She got off the bus, burdened with two heavy suitcases."),
+                                      "The house was buried under ten feet of snow."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو."),
+                                  text: "خانووەکە داپۆشرا بە ١٠ فیت لە بەفر."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens7("en-GB"),
+                                    onPressed: () => speakburys6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens7("en-US"),
+                                    onPressed: () => speakburys6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A landslide buried about 25 people yesterday."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بوومەخزەیەک نزیکەی ٢٥ کەسی کرد بە ژێرەوە دوێنێ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) داپۆشینی شتێک بەشێوەیەک کە نەبینرێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He buried his face in his hands and wept."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕووخساری لە دەستیدا داپۆشی و گریا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (کردار) شاردنەوەی هەست، هەڵە، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She had learnt to bury her feelings."),
+                              const ExampleSentenceKurdish(
+                                  text: "فێربوو بوو کە هەستەکانی بشارێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٧. (کردار) بە قووڵی خستنە ناو شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He walked slowly, his hands buried in his pockets."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە هێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She always has her head buried in a book."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەمیشە سەری لەناو کتێبێکدا بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburys11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburys11("en-US"),
                                   ),
                                 ],
                               ),
@@ -399,8 +481,8 @@ class EnglishEntryburden extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -463,21 +545,24 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burden (Derived forms: burdens)
-1. An onerous or difficult concern (= load, encumbrance, incumbrance, onus)
-"the burden of responsibility";
+- Verb: bury (Derived forms: buried, burying, buries)
+1. Cover from sight
+"Afghani women buried under their burkas"
  
-2. Weight to be borne or conveyed (= load, loading)
+2. Place in a grave or tomb (= entomb, inhume, inter, lay to rest, ensepulchre [Brit, Cdn, literary], ensepulcher [US, literary], tomb)
+"Stalin was buried behind the Kremlin wall on Red Square";
  
-3. The central meaning or theme of a speech or literary work (= effect, essence, core, gist)
+3. Place in the earth and cover with soil
+"They buried the stolen goods"
  
-4. The central idea that is expanded in a document or discourse
-
-- Verb: burden (Derived forms: burdens, burdening, burdened)
-1. Add a heavy load; increase the weight of a load (= burthen, weight, weight down)
+4. Enclose or envelop completely, as if by swallowing (= immerse, swallow, swallow up, eat up)
+"The huge waves buried the small boat and it sank shortly thereafter";
  
-2. Impose a task upon, assign a responsibility to (= charge, saddle, lumber [Brit, informal])
-"He burdened her with cleaning up all the files over the weekend";
+5. Embed deeply (= sink)
+"He buried his head in her lap";
+ 
+6. Dismiss from the mind; stop remembering (= forget, disremember [US, informal])
+"I tried to bury these unpleasant memories";
 """,
   );
 
@@ -508,12 +593,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "ewLpXw6uN28";
+  static String myVideoId = "https://youtu.be/qWAagS_MANg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 433, // DOPSUM: CHANGE IT
+      startAt: 1489, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -533,12 +618,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "HAnw168huqA";
+  static String myVideoId = "https://youtu.be/tXjHb5QmDV0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1008, // DOPSUM: CHANGE IT
+      startAt: 121, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,12 +643,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "C-qYgs_yOXA";
+  static String myVideoId = "https://youtu.be/AwhBTrzzqeg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8595, // DOPSUM: CHANGE IT
+      startAt: 488, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,12 +668,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "wQSxY7TR6mI";
+  static String myVideoId = "https://youtu.be/mY3SEMTROas?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1383, // DOPSUM: CHANGE IT
+      startAt: 1802, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -608,12 +693,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "euf7WlVMoP8";
+  static String myVideoId = "https://youtu.be/oD9BaNAH-eE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1148, // DOPSUM: CHANGE IT
+      startAt: 1534, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -633,12 +718,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "0MJOtVfr0q0";
+  static String myVideoId = "https://youtu.be/IgF3OX8nT0w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 412, // DOPSUM: CHANGE IT
+      startAt: 1119, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -658,12 +743,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "72MBACYaTBU";
+  static String myVideoId = "https://youtu.be/zLvm2EY-36Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 560, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -683,12 +768,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "J7rHpGaA6hA";
+  static String myVideoId = "https://youtu.be/28x9y6h1ZqI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 110, // DOPSUM: CHANGE IT
+      startAt: 40, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -708,12 +793,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "V6rN60Mp2hE";
+  static String myVideoId = "https://youtu.be/AW3KJB6CuJA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 622, // DOPSUM: CHANGE IT
+      startAt: 217, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -733,62 +818,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "0l5tcF6Rao0";
+  static String myVideoId = "https://youtu.be/Nb4xXXBQjtM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 768, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "JJpKvWS-inA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "1tDgur8HcmU";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 3486, // DOPSUM: CHANGE IT
+      startAt: 3210, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

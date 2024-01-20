@@ -7,135 +7,132 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryburden extends StatelessWidget {
+class EnglishEntryburst extends StatelessWidget {
 // blank divider
-  EnglishEntryburden({super.key});
+  EnglishEntryburst({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakburden(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakburst(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("burden"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("burst"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens1(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts1(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The main burden of caring for old people falls on the state."); // DOPSUM: CHANGE TEXT
+        "That balloon will burst if you blow it up any more."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens2(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts2(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don't want to become a burden to my children when I'm old."); // DOPSUM: CHANGE TEXT
+        "The dam burst under the weight of water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens3(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts3(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Shells were bursting all around us."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbursts4(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The little donkey struggled under its heavy burden."); // DOPSUM: CHANGE TEXT
+        "He felt he would burst with anger and shame."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens4(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts5(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We need to avoid putting a burden on taxpayers with this project."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He burst into the room without knocking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens5(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts6(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Buying a house often places a large financial burden on young couples."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The sun burst through the clouds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens6(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts7(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I don't want to burden you with my worries."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The words burst from her in an angry rush."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens7(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts8(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She got off the bus, burdened with two heavy suitcases."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The roads are bursting with cars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens8(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts9(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I’m bursting (for a pee)!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens9(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts10(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I tend to work in bursts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens10(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts11(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There was a spontaneous burst of applause."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens11(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts12(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A burst in the water pipe flooded the floor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakburdens12(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
+  Future<void> speakbursts13(String languageCode) async {
+    // DOPSUM: CHANGE speakburst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakburdens13(String languageCode) async {
-    // DOPSUM: CHANGE speakburden
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburdens1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -152,22 +149,22 @@ class EnglishEntryburden extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burden"),
+                            EntryTitle(word: "burst"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɜːdn/"),
+                            const IPAofEnglish(text: "IpaUK: /bɜːst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakburden("en-GB"),
+                              onPressed: () => speakburst("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɜːrdn/"),
+                            const IPAofEnglish(text: "IpaUS: /bɜːrst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakburden("en-US"),
+                              onPressed: () => speakburst("en-US"),
                             ),
                           ],
                         ),
@@ -185,13 +182,13 @@ class EnglishEntryburden extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -213,25 +210,25 @@ class EnglishEntryburden extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: باری قورس، گوشار، قورسایی، بارگرانی، سەنگی، بار، بەرپرسایەتی (قورس)، ئەرک، پەیور، توانایی هەڵگرتنی کەشتی، کەشتی‌بەرە، جێ‌بوونەوە، توانایی، تێبینی یان بابەتی سەرەکی، بیرۆکەی سەرەکی یان بنەڕەتی، سەربەند
+کوردی: تەقینەوە، تەق، لێک‌بوونەوە، پەقین، دەربوون، ترەکین، درگاکردن، بڵاوبوونەوە، تەنینەوە، تەشەنە، هەڵچوون، فیشقەکردن، گوڕبوون، لە پڕمەدان (گریان یان پێکەنین)، گوللەخستن، تەقاندن، پێوەنان، دەسپێک یان دەرکەوتنی ناکاو، جووڵانی توند و کت‌وپڕ، گڕ، سۆڵە، ڕەهێڵە، ڕێژنە
 
-١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەهۆی نیگەرانی، گرفت، و کاری قورس"""),
+١. (کردار) تەقین"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The main burden of caring for old people falls on the state."),
+                                      "That balloon will burst if you blow it up any more."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burden", follow LX strictly
+                                      "فودانکەکە دەتەقێت ئەگەر هەوای زیاتری تێ بکەیت."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burst", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens1("en-GB"),
+                                    onPressed: () => speakbursts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens1("en-US"),
+                                    onPressed: () => speakbursts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -242,18 +239,17 @@ class EnglishEntryburden extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I don't want to become a burden to my children when I'm old."),
+                                      "The dam burst under the weight of water."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم."),
+                                  text: "بەنداوەکە تەقی لەژێر پەستانی ئاودا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakburdens2("en-GB"),
+                                    onPressed: () => speakbursts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens2("en-US"),
+                                    onPressed: () => speakbursts2("en-US"),
                                   ),
                                 ],
                               ),
@@ -267,20 +263,20 @@ class EnglishEntryburden extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "We need to avoid putting a burden on taxpayers with this project."),
+                                              "Shells were bursting (= exploding) all around us."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
+                                              "گوللەتۆپ دەتەقی لە دەوروبەرمان."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakburdens4("en-GB"),
+                                                speakbursts3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakburdens4("en-US"),
+                                                speakbursts3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -291,20 +287,20 @@ class EnglishEntryburden extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text:
-                                              "Buying a house often places a large financial burden on young couples."),
+                                              "He felt he would burst with anger and shame."),
                                       const ExampleSentenceKurdish(
                                           text:
-                                              "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
+                                              "(بەکارهێنانی خوازراوی) هەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakburdens5("en-GB"),
+                                                speakbursts4("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakburdens5("en-US"),
+                                                speakbursts4("en-US"),
                                           ),
                                         ],
                                       ),
@@ -315,76 +311,205 @@ class EnglishEntryburden extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) بارێکی قورس کە هەڵیدەگریت"),
+                          const DefinitionKurdish(text: "٢. (کردار) چوون بۆ شوێنێک بە خێرایی"),
                           Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The little donkey struggled under its heavy burden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "He burst into the room without knocking."),
+                          const ExampleSentenceKurdish(
+                          text: "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts5("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The sun burst through the clouds."),
+                          const ExampleSentenceKurdish(
+                          text: "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts6("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          Column(
+                          children: [
+                          MyExpansionTile(
+                          children: [
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The words burst from her in an angry rush."),
+                          const ExampleSentenceKurdish(
+                          text: "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts7("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts7("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (کردار) پێدانی بارگرانییەک بە کەسێک"),
+                          const DefinitionKurdish(text: "٣. (کردار) پڕ لە شتێک"),
                           Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't want to burden you with my worries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The roads are bursting with cars."),
+                          const ExampleSentenceKurdish(
+                          text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts8("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts8("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
+                          const ExampleSentenceKurdish(
+                          text: "خەریکە ئەتەقم بۆ میزکردن!"),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts9("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts9("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (کردار) هەڵگرتنی شتێکی قورس"),
+                          const DefinitionKurdish(text: "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان هەستێکی بەهێز کەلەناکاو دەستپێ دەکات"),
                           Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She got off the bus, burdened with two heavy suitcases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "I tend to work in bursts."),
+                          const ExampleSentenceKurdish(
+                          text: "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts10("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts10("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "There was a spontaneous burst of applause."),
+                          const ExampleSentenceKurdish(
+                          text: "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts11("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts11("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) تەقین"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "A burst in the water pipe flooded the floor."),
+                          const ExampleSentenceKurdish(
+                          text: "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts12("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts12("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٦. (ناو) زنجیرەیەک لە تەقەی چەکێک"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
+                          const ExampleSentenceKurdish(
+                          text: "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbursts13("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbursts13("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -399,8 +524,8 @@ class EnglishEntryburden extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -463,21 +588,42 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burden (Derived forms: burdens)
-1. An onerous or difficult concern (= load, encumbrance, incumbrance, onus)
-"the burden of responsibility";
- 
-2. Weight to be borne or conveyed (= load, loading)
- 
-3. The central meaning or theme of a speech or literary work (= effect, essence, core, gist)
- 
-4. The central idea that is expanded in a document or discourse
+- Verb: burst (Derived forms: burst, bursting, bursts)
+1. Come open suddenly and violently, as if from internal pressure (= split, break open)
+"The bubble burst";
 
-- Verb: burden (Derived forms: burdens, burdening, burdened)
-1. Add a heavy load; increase the weight of a load (= burthen, weight, weight down)
+2. Force out or release suddenly and often violently something pent up (= break, erupt)
+"burst into tears";
+
+3. Burst outward, usually with noise (= explode)
+"The champagne bottle burst";
  
-2. Impose a task upon, assign a responsibility to (= charge, saddle, lumber [Brit, informal])
-"He burdened her with cleaning up all the files over the weekend";
+4. Move suddenly, energetically, or violently
+"He burst out of the house into the cool night"
+ 
+5. Be in a state of movement or action (= abound, bristle)
+"The room burst with screaming children";
+ 
+6. Emerge suddenly
+"The sun burst into view"
+ 
+7. Cause to burst (= collapse)
+ 
+8. Break open or apart suddenly and forcefully (= bust [informal])
+"The dam burst";
+
+- Noun: burst (Derived forms: bursts)
+1. The act of exploding or bursting (= explosion)
+"the burst of an atom bomb creates enormous radiation aloft";
+ 
+2. Rapid simultaneous discharge of firearms (= fusillade, salvo, volley)
+"our burst from the left flank caught them by surprise";
+ 
+3. A sudden flurry of activity (often for no obvious reason) (= fit)
+"a burst of applause";
+
+4. A sudden intense happening (= outburst, flare-up)
+"a burst of lightning";
 """,
   );
 
@@ -508,12 +654,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "ewLpXw6uN28";
+  static String myVideoId = "https://youtu.be/qWAagS_MANg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 433, // DOPSUM: CHANGE IT
+      startAt: 124, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -533,12 +679,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "HAnw168huqA";
+  static String myVideoId = "https://youtu.be/NZ74oFctP_g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1008, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,12 +704,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "C-qYgs_yOXA";
+  static String myVideoId = "https://youtu.be/0ST4_hmop9Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8595, // DOPSUM: CHANGE IT
+      startAt: 317, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,12 +729,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "wQSxY7TR6mI";
+  static String myVideoId = "https://youtu.be/L9Mu93VJLcc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1383, // DOPSUM: CHANGE IT
+      startAt: 956, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -608,12 +754,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "euf7WlVMoP8";
+  static String myVideoId = "https://youtu.be/g9QneAV4fVo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1148, // DOPSUM: CHANGE IT
+      startAt: 1057, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -633,12 +779,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "0MJOtVfr0q0";
+  static String myVideoId = "https://youtu.be/yUZA04AtjIs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 412, // DOPSUM: CHANGE IT
+      startAt: 204, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -658,12 +804,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "72MBACYaTBU";
+  static String myVideoId = "https://youtu.be/QEbYo07jLoY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 783, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -683,12 +829,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "J7rHpGaA6hA";
+  static String myVideoId = "https://youtu.be/P4tDxQby99A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 110, // DOPSUM: CHANGE IT
+      startAt: 572, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -708,12 +854,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "V6rN60Mp2hE";
+  static String myVideoId = "https://youtu.be/iiwBuUTTYio?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 622, // DOPSUM: CHANGE IT
+      startAt: 383, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -733,62 +879,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "0l5tcF6Rao0";
+  static String myVideoId = "https://youtu.be/w-4I9OWH_68?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 768, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "JJpKvWS-inA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "1tDgur8HcmU";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 3486, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

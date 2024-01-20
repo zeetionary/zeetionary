@@ -53,7 +53,8 @@ class EnglishEntryburning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakburnings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "People enjoy basking under the burning sun at the beach."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakburnings5(String languageCode) async {
@@ -276,6 +277,30 @@ class EnglishEntryburning extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakburnings3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) زۆر گەرم"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "People enjoy basking under the burning sun at the beach."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خەڵکی حەزدەکەن بە ڕاکشان لە خۆرە گەرمەکەدا لە کەناراوەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakburnings4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakburnings4("en-US"),
                                   ),
                                 ],
                               ),

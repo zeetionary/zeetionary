@@ -1,14 +1,11 @@
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
-import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/home/screens/custom_words.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 // import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
@@ -29,31 +26,6 @@ class HomeScreen extends ConsumerStatefulWidget {
 class _HomeScreenState extends ConsumerState<HomeScreen> {
   // int currentPageIndex = 0;
   int _currentIndex = 0;
-  List<String> shuffledWords = customWords;
-
-  @override
-  void initState() {
-    super.initState();
-    _shuffleWords();
-    _startTimer();
-  }
-
-  void _shuffleWords() {
-    shuffledWords = List.from(customWords)..shuffle(Random());
-  }
-
-  void _startTimer() {
-    Timer.periodic(const Duration(milliseconds: 800), (timer) {
-      setState(() {
-        if (_currentIndex < shuffledWords.length - 1) {
-          _currentIndex++;
-        } else {
-          _currentIndex = 0; // Cycle back to the beginning
-          _shuffleWords(); // Reshuffle the words
-        }
-      });
-    });
-  }
 
   final PageController _pageController = PageController();
 
@@ -165,14 +137,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       child: Image.asset(
                         'assets/images/zeetionary_one.png',
                       ),
-                    ),
-                    ListTile(
-                      // (zee: added shuffle word): https://chat.openai.com/c/1f9cf2bd-5e5b-43d9-9ef0-dacd4d495d4f
-                      title: Text(shuffledWords[_currentIndex],
-                          style: const TextStyle(fontSize: 20)),
-                      onTap: () {
-                        Navigator.pop(context);
-                      },
                     ),
                   ],
                 ),

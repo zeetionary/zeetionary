@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
+import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:zeetionary/home/screens/custom_words.dart';
+
 // import 'package:zeetionary/constants.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
@@ -2500,7 +2504,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         showScrollToTop = _scrollController.offset > 100;
       });
     });
+_shuffleWords();
+    _startTimer();
   }
+
+  int _shuffleCurrentIndex = 0;
+  List<String> shuffledWords = customWords;
+
+  void _shuffleWords() {
+    // (zee: shuffled words in drawer) https://chat.openai.com/c/1f9cf2bd-5e5b-43d9-9ef0-dacd4d495d4f
+    shuffledWords = List.from(customWords)..shuffle(Random());
+  }
+
+  void _startTimer() async {
+  for (var i = 0; i < shuffledWords.length; i++) {
+    await Future.delayed(const Duration(milliseconds: 800), () {
+      setState(() {
+        _shuffleCurrentIndex = i;
+      });
+    });
+  }
+  _shuffleWords(); // Reshuffle the words after the loop
+  _startTimer(); // Restart the timer for continuous cycling
+}
+
 
   void _scrollToTop() {
     _scrollController.animateTo(
@@ -2719,7 +2746,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 controller: _searchController,
                 onChanged: filterResults,
                 decoration: InputDecoration(
-                  labelText: "Search here",
+                  // labelText: "Search here",
+                  hintText: shuffledWords.isEmpty
+                      ? ''
+                      : shuffledWords[_shuffleCurrentIndex],
+                  // labelText: shuffledWords.isEmpty
+                  //     ? ''
+                  //     : shuffledWords[_shuffleCurrentIndex],
                   prefixIcon: const Icon(Icons.search),
                   // suffixIcon: IconButton(
                   //   icon: Icon(

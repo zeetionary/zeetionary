@@ -158,7 +158,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 //   },
                 // ),
                 SizedBox(
-                  height: 400,
+                  height: 480,
                   child: SingleChildScrollView(
                     child: Column(
                       children: [

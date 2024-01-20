@@ -353,7 +353,8 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 controller: _searchController,
                 onChanged: filterResults,
                 decoration: InputDecoration(
-                  labelText: "Search here",
+                  // labelText: "Search here",
+                  hintText: "Search here",
                   prefixIcon: const Icon(Icons.search),
                   // suffixIcon: IconButton(
                   //   icon: Icon(

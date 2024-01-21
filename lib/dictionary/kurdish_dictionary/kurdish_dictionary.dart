@@ -19,6 +19,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final List<String> allWordsKurdish = [
     "کوردی",
     "کوردستان",
+    "کوردس‌تان",
     "کوردی",
     "یەک",
     "دوو",
@@ -62,16 +63,16 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   }
 
   void _startTimer() async {
-  for (var i = 0; i < shuffledWords.length; i++) {
-    await Future.delayed(const Duration(milliseconds: 800), () {
-      setState(() {
-        _shuffleCurrentIndex = i;
+    for (var i = 0; i < shuffledWords.length; i++) {
+      await Future.delayed(const Duration(milliseconds: 800), () {
+        setState(() {
+          _shuffleCurrentIndex = i;
+        });
       });
-    });
+    }
+    _shuffleWords(); // Reshuffle the words after the loop
+    _startTimer(); // Restart the timer for continuous cycling
   }
-  _shuffleWords(); // Reshuffle the words after the loop
-  _startTimer(); // Restart the timer for continuous cycling
-}
 
   void _scrollToTop() {
     _scrollController.animateTo(
@@ -183,7 +184,6 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     return consecutiveMatches > maxConsecutiveMatches;
   }
 
-
   // void filterResults(String query) {
   //   setState(() {
   //     filteredWords = allWordsKurdish
@@ -281,8 +281,8 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     // labelText: "لێرە بگەڕێ",
                     // hintText: "لێرە بگەڕێ",
                     hintText: shuffledWords.isEmpty
-                      ? ''
-                      : shuffledWords[_shuffleCurrentIndex],
+                        ? ''
+                        : shuffledWords[_shuffleCurrentIndex],
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(

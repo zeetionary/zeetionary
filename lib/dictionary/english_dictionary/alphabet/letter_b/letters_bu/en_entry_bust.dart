@@ -5,112 +5,140 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "band" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace band - replace EnglishEntryband
-
-// replace speakBand - /bænd/
-
 enum TtsState { playing }
 
-class EnglishEntryband extends StatelessWidget {
+class EnglishEntrybust extends StatelessWidget {
 // blank divider
-  EnglishEntryband({super.key});
+  EnglishEntrybust({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBand(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbust(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("band"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bust"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands1(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusts1(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He plays drums in a band that he formed with some friends."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I bust my camera."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands2(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He persuaded a small band of volunteers to help."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands3(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All babies in the hospital have name bands on their wrists."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands4(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The light had expanded in a broad band across the sky."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands5(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Short-wave radio uses the 20–50-metre band."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands6(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusts2(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Which tax band do you fall into?"); // DOPSUM: CHANGE TEXT
+        .speak("Come out, or I'll bust the door down!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands7(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We banded the birds put bands around so that we could identify them later."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands8(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusts3(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Tax is banded according to income."); // DOPSUM: CHANGE TEXT
+        .speak("He's been busted for drugs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands9(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusts4(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBands99"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was busted for drunk driving."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts5(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The prime minister unveiled a big bust of the former president."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts6(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("What is your bust measurement, Madam?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts7(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The dress was too big in the bust."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts8(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Will this year be boom or bust for the property market?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts9(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts10(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("As a movie it was a big bust."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts11(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("My watch is bust."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts12(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "More than 20 companies in the district went bust during the last three months."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusts13(String languageCode) async {
+    // DOPSUM: CHANGE speakbust
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusts1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -127,28 +155,22 @@ class EnglishEntryband extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "band"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "bust"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bʌst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBand("en-GB"),
+                              onPressed: () => speakbust("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bʌst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBand("en-US"),
+                              onPressed: () => speakbust("en-US"),
                             ),
                           ],
                         ),
@@ -166,16 +188,21 @@ class EnglishEntryband extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -189,225 +216,284 @@ class EnglishEntryband extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: باریکە، بەنۆکە، سیرمە، تیزماڵک، قایش، تەوق، بەند، بەست، شریت، تەسمە، پێ‌بەست، کۆمەڵ، دەستە، کۆڕ، تیپ، تاقم، سازبەند، دەستەیێکی چکۆلەی میوزیکژەنان کە میوزیکی پاپ، جاز و ڕاک کار دەکەن، دەستەی میوزیکژەنانی ئامێرە بایی (یان فوویی)، زەرد و پیاکێشانەکان، بوار یان مەودای شەپۆلە ڕادیۆیی‌یەکان، باندی شەپۆل، (ئەمریکا) ڕەوە، گەل، مێگەڵ، کەرک
+کوردی: پەیکەری سەرەوەی لەش، سەرباڵا، نیوەپەیکەر، سنگ، مەمک، ئەندازەی دەوری سنگ (ژن)، سەرنەکەوتن، بنکەوتن، تێشکان (یەکجاری)، نابووتی، بەرشکستی، دەس‌بەسەری، گل‌دانەوە، گرتن، مستەکۆڵە، مشت نافەرمی، تەنگژە یا قەیرانی ئابووری، شتێکی بێ‌نرخ یان هیچەکە، شکاو، لەکارکەوتوو، خراپ‌بوو، خەوتوو، نابووت، لات‌کەوتوو، بەرشکست (کەسێ یان کۆمپانیایێ)
 
-١. (ناو) کۆمەڵە میوزیکژەنێک کە لەگەڵ گۆرانیبێژێک یان زیاتر کاردەکەن"""),
+١. (کردار) شکاندن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He plays drums in a band that he formed with some friends."),
+                                  text: "I bust my camera."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "کامێراکەمم شکاند."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bust", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands1("en-GB"),
+                                    onPressed: () => speakbusts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands1(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Come out, or I'll bust the door down!"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەرە دەرەوە، ئەگەرنا دەرگاکە دەشکێنم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) کۆمەڵە کەسێک کە پێکەوە کاردەکەن یان ھەمان بیرۆکەیان ھەیە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) چوونی پۆلیس لەناکاو بۆ شوێنێک بۆ گەڕان یان دەستگیرکردن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He persuaded a small band of volunteers to help."),
+                                  text: "He's been busted for drugs."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
+                                  text: "بەهۆی مادەی هۆشبەرەوە دەستگیرکراوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands2("en-GB"),
+                                    onPressed: () => speakbusts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands2(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He was busted for drunk driving."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستبەسەرکرا بەهۆی شۆفێریکردن بە سەرخۆشی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusts4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) پارچەیەک کە لە دەوری شتێک دەبەسترێت بۆ بەھێزکردنی یان ڕاگرتنی لە شوێنی خۆی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) پەیکەرێک کە ڕووخسار، شانەکان، و سنگ پیشان دەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "All babies in the hospital have name bands on their wrists."),
+                                      "The prime minister unveiled a big bust of the former president."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە."),
+                                      "سەرۆک وەزیران پەردەی لەسەر پەیکەرێکی سەرۆکی پێشوو لادا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands3("en-GB"),
+                                    onPressed: () => speakbusts5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands3(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) ھێڵێک لە ڕەنگ یان مادە کە ڕەنگەکەی جیاوازە لەوەی دەورووبەری"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) سنگی ژنێک یان ئەندازەی دەوری سنگی و پشتەوەی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The light had expanded in a broad band across the sky."),
+                                      "What is your bust measurement, Madam?"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
+                                  text: "قیاسی سنگت چەندە، خاتوون؟."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands4("en-GB"),
+                                    onPressed: () => speakbusts6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands4(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts6("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The dress was too big in the bust."),
+                              const ExampleSentenceKurdish(
+                                  text: "جلەکە لە سنگدا زۆر گەورە بوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusts7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusts7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ناو) شەپۆلی ڕادیۆیی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) ماوەیەک لە قەیرانی ئابووری دژوار"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Short-wave radio uses the 20–50-metre band."),
+                                      "Will this year be boom or bust for the property market?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
+                                      "ئەمساڵ بژێودار یان قەیراناوی دەبێت بۆ بازاڕی خانووبەرە؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands5("en-GB"),
+                                    onPressed: () => speakbusts8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands5(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts8("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (ناو) کۆمەڵێکی جیاواز لە ژمارە، تەمەن، نرخ کە بە گەڕانەوە بۆیان خەڵکی دەژمێردرێن یان دەپێورێن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) هەڵکوتانەسەری شوێنێک لەلایەن پۆلیسەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Which tax band do you fall into?"),
+                                  text:
+                                      "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
+                                      "لە تازەترین هەڵکوتانەسەریاندا، پۆلیس چوونە کۆگایەکەوە کە فرۆشیارانی کۆکاین تێیاندا یەکیان دەدی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands6("en-GB"),
+                                    onPressed: () => speakbusts9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands6(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts9("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٧. (کردار) دانانی پارچەیەکی ڕەنگ یان مادە جیاواز لە دەوری شتێک"""),
+                          const DefinitionKurdish(
+                              text: "٧. (ناو) شتێک کە باش نییە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "We banded the birds (= put bands around their legs) so that we could identify them later."),
+                                  text: "As a movie it was a big bust."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
+                                  text: "وەک فیلمێک زۆر خراپ بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands7("en-GB"),
+                                    onPressed: () => speakbusts10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands7(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts10("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٨. (کردار) دابەشکردن بۆ گرووپی جیاواز"""),
+                          const DefinitionKurdish(text: "٨. (ھاوەڵناو) شکاو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Tax is banded according to income."),
+                                  text: "My watch is bust."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "باجدان دەستە دەستە دەکرێت بەپێی داھات."),
+                                  text: "کاتژمێرەکەم شکاوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands8("en-GB"),
+                                    onPressed: () => speakbusts11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands8(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusts11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (ھاوەڵناو) مایەپووچ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "More than 20 companies in the district went bust during the last three months."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زیاتر لە ٢٠ کۆمپانیا مایەپووچ بوونە لە سێ مانگی ڕابردوودا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusts12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusts12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -417,11 +503,17 @@ class EnglishEntryband extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -475,46 +567,39 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: band (derived forms: bands)
-1. An unofficial association of people or groups (= set, circle, lot)
-"the smart band goes there";
+- Noun: bust (Derived forms: busts)
+1. The chest of a woman (= female chest)
+ 
+2. A sculpture of the head and shoulders of a person
+ 
+3. [informal] A complete failure (= flop [informal], fizzle, clinker [N. Amer, informal], epic fail [informal])
+"the play was a dismal bust";
+ 
+4. [informal] An occasion for excessive eating or drinking (= tear [US, informal], binge [informal], bout)
+"they went on a big bust that lasted three days";
 
-2. Instrumentalists not including string players
+- Adjective: bust 
+Usage: informal
+1. Without or very short of money (= broke [informal], skint [Brit, informal], stone-broke [N. Amer, informal], stony-broke [Brit, informal], strapped [informal], cash-strapped [informal], strapped for cash [informal])
+"not so long ago that he was so bust his debit card was declined";
  
-3. A stripe or stripes of contrasting colour (= banding, stria, striation)
-"chromosomes exhibit characteristic bands";
+2. Financially ruined (= bankrupt, belly-up [informal])
+ 
+3. [Brit, informal] Not in working order; not functioning (= broken, busted, up the spout [informal], knackered [Brit, informal], out of order, on the blink [informal], on the fritz [N. Amer, informal], kaput [informal], rooted [Austral, NZ, informal])
 
-4. An adornment consisting of a strip of a contrasting colour or material (= banding, stripe)
+- Verb: bust (Derived forms: busts, busting, bust)
+Usage: informal
+1. Ruin completely (= break)
  
-5. A group of musicians playing popular music for dancing (= dance band, dance orchestra)
+2. Search without warning, make a sudden surprise attack on (= raid)
+"The police bust the crack house";
  
-6. A range of frequencies between two limits
- 
-7. A thin flat strip of flexible material that is worn around the body or one of the limbs (especially to decorate the body)
- 
-8. A cord-like tissue connecting two larger parts of an anatomical structure (= isthmus)
- 
-9. Jewellery consisting of a circlet of precious metal (often set with jewels) worn on the finger (= ring)
-"he noted that she wore a wedding band";
- 
-10. A driving belt in machinery
- 
-11. A thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
- 
-12. A strip of material attached to the leg of a bird to identify it (as in studies of bird migration) (= ring)
- 
-13. A restraint put around something to hold it together
- 
-14. [Cdn] A group of aboriginals that has official recognition
+3. Separate or cause to separate abruptly (= tear, rupture, snap)
+"bust the paper";
 
-- Verb: band (derived forms: banded, bands, banding)
-1. Bind or tie together, as with a band
+4. Go to pieces (= break, wear, wear out, fall apart)
  
-2. Attach a ring to the foot of, in order to identify (= ring)
-"band the geese to observe their migratory patterns";
- 
-3. Form a group or unite (= band together, confederate)
-"The groups banded together";
+5. Break open or apart suddenly and forcefully (= burst)
 """,
   );
 
@@ -544,12 +629,13 @@ ${englishMeaningConst.text}
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "HDntl7yzzVI";
+  YoutubeEmbeddedone({super.key});
+  static String myVideoId = "https://youtu.be/y1sF6ZeASU0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1533, // DOPSUM: CHANGE IT
+      startAt: 1108, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,8 +643,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -570,7 +654,33 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "9sRQQRiltrE";
+  YoutubeEmbeddedtwo({super.key});
+  static String myVideoId = "https://youtu.be/qm9BsAzMBhU?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 6, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "https://youtu.be/7CO-gpqF7yo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,34 +694,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedtwo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "7kZR_0nUdgM";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedthree({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -622,7 +704,108 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "kcFAeW1DNvk";
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/tMKXbLBgkEc?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 569, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 901, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/m5kIv2s1E6A?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 123, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+  static String myVideoId = "https://youtu.be/dzhmA92F77s?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 4, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+  static String myVideoId = "https://youtu.be/XZVHmRvfDHM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -636,112 +819,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedfour({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "xVvgi-w3kcQ";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 98, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedfive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "RqYg52FF1zI";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedsix({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "KC_KUKlKouQ";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedseven({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "55XJ1ObZKaM";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 765, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedeight({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -752,12 +829,13 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "AwhBTrzzqeg";
+  YoutubeEmbeddednine({super.key});
+  static String myVideoId = "https://youtu.be/Mw_fzNM90a8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 202, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -765,8 +843,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -778,38 +854,13 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "XnbCSboujF4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
   YoutubeEmbeddedten({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "Bl5630CeYFs";
+  static String myVideoId = "https://youtu.be/6sJXXDMtPZU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 138, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -818,8 +869,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedeleven({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -829,91 +878,4 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "HxRUuGqqMG4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 780, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedtwelve({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// morethan one video, only first autoplay
-
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddedthirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// end band// TODO Implement this library.
+// end WORD_WEB

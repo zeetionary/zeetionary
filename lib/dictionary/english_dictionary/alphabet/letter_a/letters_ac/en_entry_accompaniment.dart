@@ -128,7 +128,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (میوزیک) لەگەڵ، ھاوڕێ، پاشکۆ، لەگەڵ‌بوون
 
-١. (ناو) میوزیکیەک کە لەگەڵ گۆرانی لی ئەدرێت"""),
+١. (ناو) میوزیکێک کە لەگەڵ گۆرانی لی ئەدرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

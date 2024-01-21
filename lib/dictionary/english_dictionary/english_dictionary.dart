@@ -6,7 +6,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-import 'package:zeetionary/home/screens/custom_words.dart';
+// import 'package:zeetionary/home/screens/custom_words.dart';
 
 // import 'package:zeetionary/constants.dart';
 
@@ -23,63 +23,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
 
   bool isFilterExpanded = false;
-
-  Widget _buildFilterTag(String filter) {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 4),
-      child: ElevatedButton(
-        onPressed: () {
-          setState(() {
-            if (selectedFilter == filter) {
-              // If the selected tag is tapped again, unselect it
-              selectedFilter = null;
-              filteredWords = List.from(allWordsEnglish);
-            } else {
-              // Otherwise, select the tag and update the list
-              selectedFilter = filter;
-              _updateFilteredWords();
-            }
-          });
-        },
-        style: ElevatedButton.styleFrom(
-          backgroundColor: selectedFilter == filter
-              ? Theme.of(context).scaffoldBackgroundColor
-              : Theme.of(context).scaffoldBackgroundColor,
-          padding: const EdgeInsets.symmetric(horizontal: 10),
-          side: BorderSide(
-            color: selectedFilter == filter
-                ? Theme.of(context).primaryColor.withOpacity(0.4)
-                : Theme.of(context).primaryColor.withOpacity(0.2),
-            width: selectedFilter == filter ? 2 : 0.001,
-          ),
-        ),
-        child: Text(
-          filter.toUpperCase(),
-          style: TextStyle(
-            color: selectedFilter == filter
-                ? Theme.of(context).primaryColor.withOpacity(0.8)
-                : Theme.of(context).primaryColor.withOpacity(0.6),
-          ),
-        ),
-      ),
-    );
-  }
-
-  void _updateFilteredWords() {
-    setState(() {
-      if (_searchController.text.isNotEmpty) {
-        // If there's a search query, filter based on the query
-        filteredWords = filterItems[selectedFilter!]!
-            .where((word) => word
-                .toLowerCase()
-                .contains(_searchController.text.toLowerCase()))
-            .toList();
-      } else {
-        // If no search query, show all items for the selected filter
-        filteredWords = List.from(filterItems[selectedFilter!]!);
-      }
-    });
-  }
 
   final Map<String, List<String>> filterItems = {
     "100": ["What is 100 tag?", "a", "aback", "abandon"],
@@ -2389,15 +2332,15 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "bus stop",
     // "bush",
     // "bushy",
+    // "busily",
     // "business",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "businesslike",
+    // "businessman",
+    // "businesswoman",
+    // "busker",
+    // "bust",
+    // "bustle",
+    // "busy",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2488,6 +2431,63 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "weblog",
   ];
 
+  Widget _buildFilterTag(String filter) {
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 4),
+      child: ElevatedButton(
+        onPressed: () {
+          setState(() {
+            if (selectedFilter == filter) {
+              // If the selected tag is tapped again, unselect it
+              selectedFilter = null;
+              filteredWords = List.from(allWordsEnglish);
+            } else {
+              // Otherwise, select the tag and update the list
+              selectedFilter = filter;
+              _updateFilteredWords();
+            }
+          });
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: selectedFilter == filter
+              ? Theme.of(context).scaffoldBackgroundColor
+              : Theme.of(context).scaffoldBackgroundColor,
+          padding: const EdgeInsets.symmetric(horizontal: 10),
+          side: BorderSide(
+            color: selectedFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.4)
+                : Theme.of(context).primaryColor.withOpacity(0.2),
+            width: selectedFilter == filter ? 2 : 0.001,
+          ),
+        ),
+        child: Text(
+          filter.toUpperCase(),
+          style: TextStyle(
+            color: selectedFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.8)
+                : Theme.of(context).primaryColor.withOpacity(0.6),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _updateFilteredWords() {
+    setState(() {
+      if (_searchController.text.isNotEmpty) {
+        // If there's a search query, filter based on the query
+        filteredWords = filterItems[selectedFilter!]!
+            .where((word) => word
+                .toLowerCase()
+                .contains(_searchController.text.toLowerCase()))
+            .toList();
+      } else {
+        // If no search query, show all items for the selected filter
+        filteredWords = List.from(filterItems[selectedFilter!]!);
+      }
+    });
+  }
+
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
@@ -2504,16 +2504,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         showScrollToTop = _scrollController.offset > 100;
       });
     });
-_shuffleWords();
+    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
     _startTimer();
   }
 
+  List<String> shuffledWords = [];
+
   int _shuffleCurrentIndex = 0;
-  List<String> shuffledWords = customWords;
+  // List<String> shuffledWords = allWordsEnglish;
+  // List<String> shuffledWords = [];
 
   void _shuffleWords() {
     // (zee: shuffled words in drawer) https://chat.openai.com/c/1f9cf2bd-5e5b-43d9-9ef0-dacd4d495d4f
-    shuffledWords = List.from(customWords)..shuffle(Random());
+    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
   }
 
   void _startTimer() async {
@@ -12141,37 +12144,37 @@ _shuffleWords();
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-business");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "businesslike") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-businesslike");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "businessman") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-businessman");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "businesswoman") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-businessman");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "busker") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-busker");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bust") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bust");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bustle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bustle");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "busy") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-busy");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "busily") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-busily");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

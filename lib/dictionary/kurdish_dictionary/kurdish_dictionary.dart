@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
+import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -17,47 +19,15 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final List<String> allWordsKurdish = [
     "کوردی",
     "کوردستان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
-    "کوردس‌تان",
+    "کوردی",
+    "یەک",
+    "دوو",
+    "سێ",
+    "چوار",
+    "پێنج",
+    "شەش",
+    "حەوت",
+    "‌هەشت",
   ];
 
   List<String> filteredWords = [];
@@ -76,7 +46,32 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
         showScrollToTop = _scrollController.offset > 100;
       });
     });
+    shuffledWords = List.from(allWordsKurdish)..shuffle(Random());
+    _startTimer();
   }
+
+  List<String> shuffledWords = [];
+
+  int _shuffleCurrentIndex = 0;
+  // List<String> shuffledWords = allWordsKurdish;
+  // List<String> shuffledWords = [];
+
+  void _shuffleWords() {
+    // (zee: shuffled words in drawer) https://chat.openai.com/c/1f9cf2bd-5e5b-43d9-9ef0-dacd4d495d4f
+    shuffledWords = List.from(allWordsKurdish)..shuffle(Random());
+  }
+
+  void _startTimer() async {
+  for (var i = 0; i < shuffledWords.length; i++) {
+    await Future.delayed(const Duration(milliseconds: 800), () {
+      setState(() {
+        _shuffleCurrentIndex = i;
+      });
+    });
+  }
+  _shuffleWords(); // Reshuffle the words after the loop
+  _startTimer(); // Restart the timer for continuous cycling
+}
 
   void _scrollToTop() {
     _scrollController.animateTo(
@@ -284,7 +279,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                   onChanged: filterResults,
                   decoration: InputDecoration(
                     // labelText: "لێرە بگەڕێ",
-                    hintText: "لێرە بگەڕێ",
+                    // hintText: "لێرە بگەڕێ",
+                    hintText: shuffledWords.isEmpty
+                      ? ''
+                      : shuffledWords[_shuffleCurrentIndex],
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(

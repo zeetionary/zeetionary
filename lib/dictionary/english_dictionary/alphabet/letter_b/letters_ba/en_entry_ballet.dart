@@ -168,7 +168,7 @@ class EnglishEntryballet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەما یان ھەڵپەڕکێی بالی، باڵی، باڵە، بالە، تیپ یا کۆڕی باڵی، موسیقای باڵی
+کوردی: سەما یان ھەڵپەڕکێی بالی، باڵی، باڵە، بالە، تیپ یا کۆڕی باڵی، میوزیکی باڵی
 
 ١. (ناو) جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن"""),
                           Row(

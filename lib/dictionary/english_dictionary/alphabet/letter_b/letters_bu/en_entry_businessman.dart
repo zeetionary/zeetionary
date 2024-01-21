@@ -5,92 +5,133 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "baton" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
-
-// replace baton - replace EnglishEntrybaton
-
-// replace speakBaton - /ˈbætɒn/,  /ˈbætɒ̃/
-
 enum TtsState { playing }
 
-class EnglishEntrybaton extends StatelessWidget {
+class EnglishEntrybusinessman extends StatelessWidget {
 // blank divider
-  EnglishEntrybaton({super.key});
+  EnglishEntrybusinessman({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaton(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessman(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("baton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("businessman"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons1(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans1(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Five people were injured in the baton charge."); // DOPSUM: CHANGE TEXT
+        "He was a successful businessman before becoming a writer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons2(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans2(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She's a shrewd businesswoman."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans3(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The orchestra played brilliantly under Previn’s baton."); // DOPSUM: CHANGE TEXT
+        "I should have got a better price for the car, but I'm not much of a businessman."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons3(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans4(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The President handed over the baton to his successor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusinessmans44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons4(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans5(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The baton dropped to the ground as the third runner stumbled."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusinessmans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons5(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans6(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatons55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusinessmans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons6(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans7(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatons66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusinessmans77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons7(String languageCode) async {
-    // DOPSUM: CHANGE speakBaton
+  Future<void> speakbusinessmans8(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatons77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbusinessmans88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans9(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusinessmans99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans10(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusinessmans1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans11(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusinessmans1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans12(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusinessmans1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusinessmans13(String languageCode) async {
+    // DOPSUM: CHANGE speakbusinessman
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusinessmans1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,23 +148,25 @@ class EnglishEntrybaton extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "baton"),
+                            EntryTitle(
+                                word: "businessman (also: businesswoman)"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK: /ˈbætɒn/,  /ˈbætɒ̃/"),
+                                text: "IpaUK: /ˈbɪznəsmæn/,  /ˈbɪznəsmən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaton("en-GB"),
+                              onPressed: () => speakbusinessman("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bəˈtɑːn/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˈbɪznəsmæn/,  /ˈbɪznəsmən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaton("en-US"),
+                              onPressed: () => speakbusinessman("en-US"),
                             ),
                           ],
                         ),
@@ -141,16 +184,21 @@ class EnglishEntrybaton extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -164,75 +212,27 @@ class EnglishEntrybaton extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەتان، داردەست (پۆلیس)، دار (ڕێبەری ئۆرکێستر یان تیپی میوزیک)، گورز یان گۆچانی دەسەڵات یان پاتشایی
+کوردی: کاردار، بازرگان، تاجر، سەوداگەر، شارەزای کاروباری کارداری
 
-١. (ناو) دارێک یان تێڵایەک کە پۆلیس بەکاریدێنێت"""),
+١. (ناو) بازرگان/ژنە بازرگان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back)."),
+                                      "He was a successful businessman before becoming a writer."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان."),
-                              const CustomSizedBoxForTTS(),
+                                      "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "businessman", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons1("en-GB"),
+                                    onPressed: () =>
+                                        speakbusinessmans1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) دارێک کە سەرپەرشتیاری ئۆرکێسترایەکەوە بەکاردەھێنرێت"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The orchestra played brilliantly under Previn’s baton."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆرکێستراکە بە بلیمەتانە کاریانکرد لەژێر دارەکەی پرێڤندا."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBatons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) دارێک کە لە یاریدا بەکاردێت و کەسێک دەیدات بە دەستی کەسێکی ترەوە کە ڕادەکات """),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baton dropped to the ground as the third runner stumbled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دارەکە کەوتە سەر زەوی کە سێیەم ڕاکەر کەوت."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakBatons4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons4("en-US"),
+                                    onPressed: () =>
+                                        speakbusinessmans1("en-US"),
                                   ),
                                 ],
                               ),
@@ -242,26 +242,51 @@ class EnglishEntrybaton extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The President handed over the baton (= passed responsibility) to his successor."),
+                                  text: "She's a shrewd businesswoman."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک بەرپرسیاریەتی ڕادەستی شوێنگرەوەکەی کرد."),
+                                  text: "ژنە بازرگانێکی بیرتیژە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons3("en-GB"),
+                                    onPressed: () =>
+                                        speakbusinessmans2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons3("en-US"),
+                                    onPressed: () =>
+                                        speakbusinessmans2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) پیاوێک یان ژنێک کە شارەزایی هەیە لە بازرگانی و کاری دارایی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I should have got a better price for the car, but I'm not much of a businessman."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبوو پارەیەکی باشترم بۆ ئۆتۆمبێلەکە وەربگرتایە، بەڵام سەوداگەرێکی باش نیم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakbusinessmans3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakbusinessmans3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -275,7 +300,7 @@ class EnglishEntrybaton extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -339,16 +364,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: baton (derived forms: batons)
-1. A thin tapered rod used by a conductor to lead an orchestra or choir (= wand)
- 
-2. A short stout club used primarily by policemen (= truncheon, nightstick [N. Amer], billy [N. Amer, informal], billystick [N. Amer], billy club [N. Amer])
- 
-3. A short staff carried by some officials to symbolize an office or an authority
- 
-4. A hollow metal rod that is wielded or twirled by a drum major or drum majorette
- 
-5. A hollow cylinder passed from runner to runner in a relay race
+- Noun: businessman (or businesswoman) (Derived forms: businessmen (or businesswomen))
+1. A person (or female businessperson) engaged in commercial or industrial business (especially an owner or executive) (= man of affairs)
 """,
   );
 
@@ -379,13 +396,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-
-  static String myVideoId = "oqFZQdjEoXE";
+  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 580, // DOPSUM: CHANGE IT
+      startAt: 359, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -405,13 +421,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "WWUBLJdmU8g";
+  static String myVideoId = "https://youtu.be/7EnWiGYT1g4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 39, // DOPSUM: CHANGE IT
+      startAt: 42, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -431,13 +446,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "c2z9zFBcZKU";
+  static String myVideoId = "https://youtu.be/Oz9zw7-_vhM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 426, // DOPSUM: CHANGE IT
+      startAt: 634, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,13 +471,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "H9cSPFoN2So";
+  static String myVideoId = "https://youtu.be/X3n5Pk8fkLg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 366, // DOPSUM: CHANGE IT
+      startAt: 516, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -483,13 +496,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "su6zJeRQLUQ";
+  static String myVideoId = "https://youtu.be/-rF6g6laAqU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 260, // DOPSUM: CHANGE IT
+      startAt: 937, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,13 +521,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "L3FHdSxYAQE";
+  static String myVideoId = "https://youtu.be/HpKFL1IP8rk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 410, // DOPSUM: CHANGE IT
+      startAt: 197, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -535,13 +546,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "G_bhvZFTOzM";
+  static String myVideoId = "https://youtu.be/xNtXnfjHcTE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 843, // DOPSUM: CHANGE IT
+      startAt: 247, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -561,13 +571,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "Pl_TJHihEBI";
+  static String myVideoId = "https://youtu.be/p7SAg5nyW_w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 231, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -587,13 +596,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "BLxSdv9D8Lw";
+  static String myVideoId = "https://youtu.be/ChLbqAh0qkg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5345, // DOPSUM: CHANGE IT
+      startAt: 193, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -613,13 +621,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "o6PIcV-suzY";
+  static String myVideoId = "https://youtu.be/Wu1kSXpVV8Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 244, // DOPSUM: CHANGE IT
+      startAt: 1297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,266 +644,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "soOqprg-vbE";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 43, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// morethan one video, only first autoplay
-
-// end baton// TODO Implement this library.
+// end WORD_WEB

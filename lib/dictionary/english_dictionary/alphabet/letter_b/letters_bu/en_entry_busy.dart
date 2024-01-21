@@ -5,112 +5,140 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "band" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace band - replace EnglishEntryband
-
-// replace speakBand - /bænd/
-
 enum TtsState { playing }
 
-class EnglishEntryband extends StatelessWidget {
+class EnglishEntrybusy extends StatelessWidget {
 // blank divider
-  EnglishEntryband({super.key});
+  EnglishEntrybusy({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBand(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusy(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("band"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("busy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands1(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He plays drums in a band that he formed with some friends."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Are you busy tonight?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands2(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He persuaded a small band of volunteers to help."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands3(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All babies in the hospital have name bands on their wrists."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands4(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The light had expanded in a broad band across the sky."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands5(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Short-wave radio uses the 20–50-metre band."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBands6(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Which tax band do you fall into?"); // DOPSUM: CHANGE TEXT
+        .speak("The principal is a very busy woman."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands7(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We banded the birds put bands around so that we could identify them later."); // DOPSUM: CHANGE TEXT
+        "They were busy enjoying themselves at the party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands8(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Tax is banded according to income."); // DOPSUM: CHANGE TEXT
+        .speak("Kate's busy with her homework."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands9(String languageCode) async {
-    // DOPSUM: CHANGE speakBand
+  Future<void> speakbusys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBands99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Have you had a busy day?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We've got a busy week ahead of us."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The place gets very busy at lunchtimes."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys8(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We have to cross a busy main road to get to school."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys9(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The line is busy—I'll try again later."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys10(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This wallpaper is too busy for the bedroom."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys11(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She busied herself with the preparations for the party."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys12(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "While we talked, Bill busied himself fixing lunch."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbusys13(String languageCode) async {
+    // DOPSUM: CHANGE speakbusy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbusys1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -127,28 +155,22 @@ class EnglishEntryband extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "band"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "busy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪzi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBand("en-GB"),
+                              onPressed: () => speakbusy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪzi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBand("en-US"),
+                              onPressed: () => speakbusy("en-US"),
                             ),
                           ],
                         ),
@@ -166,16 +188,21 @@ class EnglishEntryband extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -189,225 +216,282 @@ class EnglishEntryband extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: باریکە، بەنۆکە، سیرمە، تیزماڵک، قایش، تەوق، بەند، بەست، شریت، تەسمە، پێ‌بەست، کۆمەڵ، دەستە، کۆڕ، تیپ، تاقم، سازبەند، دەستەیێکی چکۆلەی میوزیکژەنان کە میوزیکی پاپ، جاز و ڕاک کار دەکەن، دەستەی میوزیکژەنانی ئامێرە بایی (یان فوویی)، زەرد و پیاکێشانەکان، بوار یان مەودای شەپۆلە ڕادیۆیی‌یەکان، باندی شەپۆل، (ئەمریکا) ڕەوە، گەل، مێگەڵ، کەرک
+کوردی: خەریکی، سەرقاڵی، سەرقاڵ، پڕکار، پژگاڵ، پڕ لە چالاکی، پڕکار، نەپەژراو، پڕجم‌وجۆڵ، (سەر)شلوق، (تەلەفون) گیراو، خەریک‌قسە 
 
-١. (ناو) کۆمەڵە میوزیکژەنێک کە لەگەڵ گۆرانیبێژێک یان زیاتر کاردەکەن"""),
+١. (ھاوەڵناو) سەرقاڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He plays drums in a band that he formed with some friends."),
+                                  text: "Are you busy tonight?"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
-                              const CustomSizedBoxForTTS(),
+                                  text: "ئەمشەو سەرقاڵیت؟"),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "busy", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands1("en-GB"),
+                                    onPressed: () => speakbusys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands1(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The principal is a very busy woman."),
+                              const ExampleSentenceKurdish(
+                                  text: "بەڕێوبەرەکە ژنێکی زۆر سەرقاڵە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) کۆمەڵە کەسێک کە پێکەوە کاردەکەن یان ھەمان بیرۆکەیان ھەیە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) پێدانی تەواوی سەرنجت بە چالاکییەک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He persuaded a small band of volunteers to help."),
+                                      "They were busy enjoying themselves at the party."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
+                                      "سەرقاڵبوون بە چێژوەرگرتن لە ئاهەنگەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands2("en-GB"),
+                                    onPressed: () => speakbusys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands2(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Kate's busy with her homework."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەیت سەرقاڵە بە ئەرکی ماڵەوەی."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusys4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) پارچەیەک کە لە دەوری شتێک دەبەسترێت بۆ بەھێزکردنی یان ڕاگرتنی لە شوێنی خۆی"""),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) پڕ لە کار و چالاکی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "All babies in the hospital have name bands on their wrists."),
+                                  text: "Have you had a busy day?"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە."),
+                                  text: "ڕۆژێکی پڕکارت بوو؟"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands3("en-GB"),
+                                    onPressed: () => speakbusys5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands3(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys5("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We've got a busy week ahead of us."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەفتەیەکی پڕجم‌وجۆڵمان لەپێشە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusys6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusys6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) ھێڵێک لە ڕەنگ یان مادە کە ڕەنگەکەی جیاوازە لەوەی دەورووبەری"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ھاوەڵناو) شوێنێک کە پڕ لە چالاکی، خەڵک، ئۆتۆمبێل، هتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The light had expanded in a broad band across the sky."),
+                                      "The place gets very busy at lunchtimes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
+                                      "شوێنەکە لەکاتی نانخواردندا زۆر قەرەباڵخ دەبێت."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands4("en-GB"),
+                                    onPressed: () => speakbusys7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands4(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys7("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have to cross a busy main road to get to school."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت بە شەقامێکی سەرەکیی زۆر قەرەباڵخدا تێپەڕین بۆ گەشتن بە قوتابخانە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbusys8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbusys8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ناو) شەپۆلی ڕادیۆیی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ھاوەڵناو) هێڵێکی پەیوەندی کە پەیوەندی تری لەگەڵدایە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Short-wave radio uses the 20–50-metre band."),
+                                      "The line is busy—I'll try again later."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
+                                      "هێڵەکە گیراوە، دواتر پەیوەندی دەکەمەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands5("en-GB"),
+                                    onPressed: () => speakbusys9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands5(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys9("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (ناو) کۆمەڵێکی جیاواز لە ژمارە، تەمەن، نرخ کە بە گەڕانەوە بۆیان خەڵکی دەژمێردرێن یان دەپێورێن"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) دیزاینێک یان نەخشێک کە پڕ لە وردەکارییە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Which tax band do you fall into?"),
+                                  text:
+                                      "This wallpaper is too busy for the bedroom."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
+                                      "ئەم وێنەیە زۆر پڕوردەکارییە بۆ ژووری خەو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands6("en-GB"),
+                                    onPressed: () => speakbusys10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands6(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys10("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٧. (کردار) دانانی پارچەیەکی ڕەنگ یان مادە جیاواز لە دەوری شتێک"""),
+                          const DefinitionKurdish(
+                              text: "٧. (کردار) خۆسەرقاڵکردن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We banded the birds (= put bands around their legs) so that we could identify them later."),
+                                      "She busied herself with the preparations for the party."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
+                                      "خۆی سەرقاڵکرد بە ئامادەکاری بۆ ئاهەنگەکە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands7("en-GB"),
+                                    onPressed: () => speakbusys11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands7(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys11("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٨. (کردار) دابەشکردن بۆ گرووپی جیاواز"""),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Tax is banded according to income."),
+                                  text:
+                                      "While we talked, Bill busied himself fixing lunch."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باجدان دەستە دەستە دەکرێت بەپێی داھات."),
+                                      "کە قسەمان کرد، بیڵ خۆی سەرقاڵ کرد بە ئامادەکردنی نانی نیوەڕۆ."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands8("en-GB"),
+                                    onPressed: () => speakbusys12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBands8(// REPLACE: band
-                                            "en-US"),
+                                    onPressed: () => speakbusys12("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -417,11 +501,17 @@ class EnglishEntryband extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -475,46 +565,25 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: band (derived forms: bands)
-1. An unofficial association of people or groups (= set, circle, lot)
-"the smart band goes there";
+- Adjective: busy (Derived forms: busier, busiest)
+1. Actively or fully engaged or occupied
+"busy with her work"; "a busy man"; "too busy to eat lunch"
+ 
+2. Overcrowded or cluttered with detail (= fussy)
+"a busy painting";
 
-2. Instrumentalists not including string players
- 
-3. A stripe or stripes of contrasting colour (= banding, stria, striation)
-"chromosomes exhibit characteristic bands";
+3. Intrusive in a meddling or offensive manner (= interfering, meddlesome, meddling, officious, busybodied)
+"busy about other people's business";
 
-4. An adornment consisting of a strip of a contrasting colour or material (= banding, stripe)
+4. Crowded with or characterized by much activity
+"a very busy week"; "a busy life"; "a busy street"; "a busy seaport"
  
-5. A group of musicians playing popular music for dancing (= dance band, dance orchestra)
- 
-6. A range of frequencies between two limits
- 
-7. A thin flat strip of flexible material that is worn around the body or one of the limbs (especially to decorate the body)
- 
-8. A cord-like tissue connecting two larger parts of an anatomical structure (= isthmus)
- 
-9. Jewellery consisting of a circlet of precious metal (often set with jewels) worn on the finger (= ring)
-"he noted that she wore a wedding band";
- 
-10. A driving belt in machinery
- 
-11. A thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
- 
-12. A strip of material attached to the leg of a bird to identify it (as in studies of bird migration) (= ring)
- 
-13. A restraint put around something to hold it together
- 
-14. [Cdn] A group of aboriginals that has official recognition
+5. (of facilities such as telephones or lavatories) unavailable for use by anyone else or indicating unavailability (= engaged, in use)
+"her line is busy"; "kept getting a busy signal";
 
-- Verb: band (derived forms: banded, bands, banding)
-1. Bind or tie together, as with a band
- 
-2. Attach a ring to the foot of, in order to identify (= ring)
-"band the geese to observe their migratory patterns";
- 
-3. Form a group or unite (= band together, confederate)
-"The groups banded together";
+- Verb: busy (Derived forms: busying, busied, busies)
+1. Keep busy with (= occupy)
+"She busies herself with her butterfly collection";
 """,
   );
 
@@ -544,12 +613,13 @@ ${englishMeaningConst.text}
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "HDntl7yzzVI";
+  YoutubeEmbeddedone({super.key});
+  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1533, // DOPSUM: CHANGE IT
+      startAt: 408, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,8 +627,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -570,7 +638,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "9sRQQRiltrE";
+  YoutubeEmbeddedtwo({super.key});
+  static String myVideoId = "https://youtu.be/VZqttqSbvVY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,8 +652,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -596,12 +663,13 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "7kZR_0nUdgM";
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "https://youtu.be/w_uT3GW1ycE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,8 +677,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -622,12 +688,13 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "kcFAeW1DNvk";
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/sZC6-u13-dM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 14, // DOPSUM: CHANGE IT
+      startAt: 4109, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,8 +702,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -648,12 +713,13 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "xVvgi-w3kcQ";
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/cM4q33O2Qys?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 98, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -661,8 +727,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -674,12 +738,13 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "RqYg52FF1zI";
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/h_h7y9HfLgI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 123, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -687,8 +752,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -700,12 +763,13 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "KC_KUKlKouQ";
+  YoutubeEmbeddedseven({super.key});
+  static String myVideoId = "https://youtu.be/TV0mAUczNPc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -713,8 +777,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -726,12 +788,13 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "55XJ1ObZKaM";
+  YoutubeEmbeddedeight({super.key});
+  static String myVideoId = "https://youtu.be/LO9hUrEjLM4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 765, // DOPSUM: CHANGE IT
+      startAt: 54, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -739,8 +802,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -752,12 +813,13 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "AwhBTrzzqeg";
+  YoutubeEmbeddednine({super.key});
+  static String myVideoId = "https://youtu.be/MZxx7H-rTEU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 202, // DOPSUM: CHANGE IT
+      startAt: 892, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -765,8 +827,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -778,38 +838,13 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "XnbCSboujF4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
   YoutubeEmbeddedten({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "Bl5630CeYFs";
+  static String myVideoId = "https://youtu.be/D1dDnuziIa4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 138, // DOPSUM: CHANGE IT
+      startAt: 608, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -818,8 +853,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedeleven({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -829,91 +862,4 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "HxRUuGqqMG4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 780, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  YoutubeEmbeddedtwelve({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// morethan one video, only first autoplay
-
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddedthirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// end band// TODO Implement this library.
+// end WORD_WEB

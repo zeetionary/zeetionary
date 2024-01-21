@@ -2279,7 +2279,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_bustle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_busy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_busily.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_but.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bu/en_entry_DOPSUM.dart';
@@ -4790,7 +4790,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bustle": (_) => MaterialPage(child: EnglishEntrybustle()),
   "/english-busy": (_) => MaterialPage(child: EnglishEntrybusy()),
   "/english-busily": (_) => MaterialPage(child: EnglishEntrybusily()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-but": (_) => MaterialPage(child: EnglishEntrybut()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

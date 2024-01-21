@@ -167,7 +167,7 @@ class EnglishEntrybeef extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گۆشتی گا (یان وڵاخ)، نافەرمی پرتەوبۆڵە، خوتەخوت
+کوردی: گۆشتی گا (یان وڵاخ)، پرتەوبۆڵە، خوتەخوت
 
 ١. (ناو) گۆشتی مانگا"""),
                           Row(

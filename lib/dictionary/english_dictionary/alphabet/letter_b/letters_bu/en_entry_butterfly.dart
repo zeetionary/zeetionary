@@ -7,123 +7,124 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybutler extends StatelessWidget {
+class EnglishEntrybutterfly extends StatelessWidget {
 // blank divider
-  EnglishEntrybutler({super.key});
+  EnglishEntrybutterfly({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbutler(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterfly(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("butler"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("butterfly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The butler announced that dinner was served."); // DOPSUM: CHANGE TEXT
+        "She's like a butterfly. She flits in and out of people's lives."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A butterfly alighted gently on the flower."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers8(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys8(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers9(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys9(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers10(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys10(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers11(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys11(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers12(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys12(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers13(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutterflys13(String languageCode) async {
+    // DOPSUM: CHANGE speakbutterfly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutterflys1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +147,22 @@ class EnglishEntrybutler extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "butler"),
+                            EntryTitle(word: "butterfly"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʌtlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʌtəflaɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbutler("en-GB"),
+                              onPressed: () => speakbutterfly("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʌtlər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʌtərflaɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbutler("en-US"),
+                              onPressed: () => speakbutterfly("en-US"),
                             ),
                           ],
                         ),
@@ -207,30 +208,53 @@ class EnglishEntrybutler extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەورەی کارکەرەکان، سەربەردەست، سەرنۆکەر، سفرەباشی، سەرکارکەر
+کوردی: پەپوولە (ی ڕۆژگەڕ، لەچاو پەپوولەی شەوگەڕ moth)، پەرینانگ، پەروانە، پەلپەلیسک، پەرپەرک، تەیرۆک، نمنمۆک، دڵەتەپە، دڵەکوتێ، دڵەڕاوکێ
 
-١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"""),
+١. (ناو) پەپوولە؛ مێروویەکی فڕیو کە جەستەیەکی باریکی هەیە لەگەڵ چوار باڵ کە زۆرجار ڕەنگاوڕەنگن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The butler announced that dinner was served."),
+                                      "She's like a butterfly. She flits in and out of people's lives."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butler", follow LX strictly
+                                      "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butterfly", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbutlers1("en-GB"),
+                                    onPressed: () => speakbutterflys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbutlers1("en-US"),
+                                    onPressed: () => speakbutterflys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A butterfly alighted gently on the flower."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەپوولەیەک بە نەرمی لەسەر گوڵەکە نیشتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutterflys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutterflys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          // skipped_meaning
                         ],
                       ),
                     ),
@@ -308,12 +332,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: butterfly (Derived forms: butterflies)
+1. Diurnal insect typically having a slender body with knobbed antennae and broad colourful wings
+ 
+2. A swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down (= butterfly stroke)
 
-WORD_WEB
-butler
-WORD_WEB 
-haʊʊʊʊʊʊʊ4
-WORD_WEB
+- Verb: butterfly (Derived forms: butterflied, butterflying, butterflies)
+1. Flutter like a butterfly
+ 
+2. (cooking) cut and spread open, as in preparation for cooking
+"butterflied shrimp"
 """,
   );
 
@@ -344,12 +372,12 @@ WORD_WEB
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/nkA4Xd_HaMU?t=";
+  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 366, // DOPSUM: CHANGE IT
+      startAt: 525, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,12 +397,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LdOixIg9ebU?t=";
+  static String myVideoId = "https://youtu.be/MnExgQ81fhU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 98, // DOPSUM: CHANGE IT
+      startAt: 474, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -394,12 +422,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/moq4dCIEG-0?t=";
+  static String myVideoId = "https://youtu.be/lGSOWwUvJiU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 710, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,12 +447,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/fV6hOxq4-gI?t=";
+  static String myVideoId = "https://youtu.be/A_e0AhXUT0E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 281, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,12 +472,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/h07nBGDrW24?t=";
+  static String myVideoId = "https://youtu.be/yN3hFBik5Sg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -469,12 +497,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/6bUGCZovsIA?t=";
+  static String myVideoId = "https://youtu.be/nRVJCtREW38?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,12 +522,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/4GGuRdotJGA?t=";
+  static String myVideoId = "https://youtu.be/4RaCURU6A2o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 145, // DOPSUM: CHANGE IT
+      startAt: 94, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,12 +547,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/6Hxg5azZgYc?t=";
+  static String myVideoId = "https://youtu.be/AW6TZVwP-FA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,12 +572,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/mmJG1imtPpg?t=";
+  static String myVideoId = "https://youtu.be/xRDAdruKDf0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 402, // DOPSUM: CHANGE IT
+      startAt: 557, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,12 +597,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/5mTfYfqjZMM?t=";
+  static String myVideoId = "https://youtu.be/xkYved-ucGg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 81, // DOPSUM: CHANGE IT
+      startAt: 1513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

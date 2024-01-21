@@ -7,123 +7,125 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybutler extends StatelessWidget {
+class EnglishEntrybutter extends StatelessWidget {
 // blank divider
-  EnglishEntrybutler({super.key});
+  EnglishEntrybutter({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbutler(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutter(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("butler"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("butter"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters1(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Fry the onions in butter."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbutters2(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The butler announced that dinner was served."); // DOPSUM: CHANGE TEXT
+        "Melt the butter in a small pan, add the flour and stir well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters3(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This butter doesn't spread very well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters4(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She buttered four thick slices of bread."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters5(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters6(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters7(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters8(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers8(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters9(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers9(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters10(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers10(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters11(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers11(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters12(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers12(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutters13(String languageCode) async {
+    // DOPSUM: CHANGE speakbutter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbutlers13(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutters1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +148,22 @@ class EnglishEntrybutler extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "butler"),
+                            EntryTitle(word: "butter"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʌtlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʌtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbutler("en-GB"),
+                              onPressed: () => speakbutter("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʌtlər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʌtər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbutler("en-US"),
+                              onPressed: () => speakbutter("en-US"),
                             ),
                           ],
                         ),
@@ -207,25 +209,99 @@ class EnglishEntrybutler extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەورەی کارکەرەکان، سەربەردەست، سەرنۆکەر، سفرەباشی، سەرکارکەر
+کوردی: کەرە، نڤیشک، نیویشک، زمان‌لووسی، ڕیایی، کلکەسووتێ، گیانەوەری شاخ‌وەشێن، سەروەشێن
 
-١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"""),
+١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Fry the onions in butter."),
+                              const ExampleSentenceKurdish(
+                                  text: "پیازەکان لە ڕۆندا سووربکەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butter", follow LX strictly
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutters1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutters1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The butler announced that dinner was served."),
+                                      "Melt the butter in a small pan, add the flour and stir well."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butler", follow LX strictly
+                                      "ڕۆنەکە لە تاوەیەکی بچووکدا بتاوێنەوە و ئاردەکەی تێبکە و جوان تێی ڕادە."),
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbutlers1("en-GB"),
+                                    onPressed: () => speakbutters2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbutlers1("en-US"),
+                                    onPressed: () => speakbutters2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "This butter doesn't spread very well."),
+                                      const ExampleSentenceKurdish(
+                                          text: "ئەم کرێمە باش بڵاونابێتەوە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbutters3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbutters3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (کردار) بڵاوکردنەوەی کەرە لەسەر شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She buttered four thick slices of bread."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چوار پارچە نانی ئەستووری بە کەرە چەور کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutters4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutters4("en-US"),
                                   ),
                                 ],
                               ),
@@ -308,12 +384,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: butter (Derived forms: butters)
+1. An edible emulsion of fat globules made by churning milk or cream; for cooking and table use
+ 
+2. A fighter who strikes the opponent with his head
 
-WORD_WEB
-butler
-WORD_WEB 
-haʊʊʊʊʊʊʊ4
-WORD_WEB
+- Verb: butter (Derived forms: butters, buttered, buttering) 
+1. Spread butter on
+"butter bread"
 """,
   );
 
@@ -344,12 +422,12 @@ WORD_WEB
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/nkA4Xd_HaMU?t=";
+  static String myVideoId = "https://youtu.be/737r0mRf0hY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 366, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,82 +447,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LdOixIg9ebU?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 98, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/moq4dCIEG-0?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/fV6hOxq4-gI?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 281, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/h07nBGDrW24?t=";
+  static String myVideoId = "https://youtu.be/blKCLBWudZ0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,14 +470,89 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/6bUGCZovsIA?t=";
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "https://youtu.be/vWdjqdmFHxw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/tQWETcw-E74?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 101, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/lhnzdRD-hX8?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 32, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/N1Biy5776ec?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 54, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,12 +572,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/4GGuRdotJGA?t=";
+  static String myVideoId = "https://youtu.be/vrU0Odr3_4Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 145, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,12 +597,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/6Hxg5azZgYc?t=";
+  static String myVideoId = "https://youtu.be/4tZt5axOB80?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 90, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,12 +622,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/mmJG1imtPpg?t=";
+  static String myVideoId = "https://youtu.be/BQqJ4SMU6UQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 402, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,12 +647,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/5mTfYfqjZMM?t=";
+  static String myVideoId = "https://youtu.be/RjDtShxr9Uc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 81, // DOPSUM: CHANGE IT
+      startAt: 36, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

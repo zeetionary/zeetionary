@@ -7,123 +7,123 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybutler extends StatelessWidget {
+class EnglishEntrybutt extends StatelessWidget {
 // blank divider
-  EnglishEntrybutler({super.key});
+  EnglishEntrybutt({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbutler(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutt(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("butler"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("butt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts1(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The butler announced that dinner was served."); // DOPSUM: CHANGE TEXT
+        "The goat butted the door to open it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts2(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He butted his opponent in the wrestling match."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts3(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They struck him with their rifle butts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts4(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He flicked the butt of his cigarette into the ashtray."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts5(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Get your butt over here!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts6(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A butt from his head left him momentarily disorientated."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts7(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers8(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts8(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers9(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts9(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers10(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts10(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers11(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts11(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers12(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts12(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbutlers13(String languageCode) async {
-    // DOPSUM: CHANGE speakbutler
+  Future<void> speakbutts13(String languageCode) async {
+    // DOPSUM: CHANGE speakbutt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbutlers1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbutts1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +146,22 @@ class EnglishEntrybutler extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "butler"),
+                            EntryTitle(word: "butt"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʌtlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /bʌt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbutler("en-GB"),
+                              onPressed: () => speakbutt("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʌtlər/"),
+                            const IPAofEnglish(text: "IpaUS: /bʌt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbutler("en-US"),
+                              onPressed: () => speakbutt("en-US"),
                             ),
                           ],
                         ),
@@ -180,7 +180,7 @@ class EnglishEntrybutler extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- FIND: 
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -207,29 +207,138 @@ class EnglishEntrybutler extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەورەی کارکەرەکان، سەربەردەست، سەرنۆکەر، سفرەباشی، سەرکارکەر
+کوردی: کەللە، لێدان بە سەر، مەودای بڕینی تیر، تیراوێژ، سەگمان، نیشانە، ئامانج، بابەتی ڕەخنە، گاڵتەجاڕ، مایەی پێکەنین، بنەچەک، قۆنداخ، پاژنە(چەک)، کنکەچەک، کنگەسیگار، قنچکەسیگار، بنەجگەرە، کنگ، سمت، پاشڵ، بن، قنچک، بێخ، بنک، کۆتەرە، کنگە، (داری ڕاوەماسی) دەسک، قوڵفە، بۆشکە، کۆس، پیپ، بەرمیل، کووپە
 
-١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"""),
+١. (کردار) لێدان لە کەسێک بە سەرت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The butler announced that dinner was served."),
+                                      "The goat butted the door to open it."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butler", follow LX strictly
+                                  text: "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butt", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbutlers1("en-GB"),
+                                    onPressed: () => speakbutts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbutlers1("en-US"),
+                                    onPressed: () => speakbutts1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "He butted his opponent in the wrestling match."),
+                          const ExampleSentenceKurdish(
+                          text: "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbutts2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbutts2("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) دەسکی چەکێک"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "They struck him with their rifle butts."),
+                          const ExampleSentenceKurdish(
+                          text: "بە دەسکە دەمانچەکانیان لێیان دان."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbutts3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbutts3("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "He flicked the butt of his cigarette into the ashtray."),
+                          const ExampleSentenceKurdish(
+                          text: "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbutts4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbutts4("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          // skipped_meaning 3rd oxford
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٤. (ناو) سمت"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "Get your butt over here! (= Come here!)"),
+                          const ExampleSentenceKurdish(
+                          text: "وەرە ئێرە!"),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbutts5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbutts5("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "A butt from his head left him momentarily disorientated."),
+                          const ExampleSentenceKurdish(
+                          text: "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakbutts6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakbutts6("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -308,12 +417,36 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: butt (Derived forms: butted, butts, butting)
+1. To strike, thrust or shove against (= bunt)
+"The goat butted the hiker with his horns"; "He butted his sister out of the way";
+ 
+2. Lie adjacent to another or share a boundary (= border, adjoin, edge, abut, march, butt against, butt on)
+"Canada butts the U.S.";
 
-WORD_WEB
-butler
-WORD_WEB 
-haʊʊʊʊʊʊʊ4
-WORD_WEB
+3. Place end to end without overlapping
+"The frames must be butted at the joints"
+
+- Noun: butt 
+1. Thick end of the handle (= butt end)
+"a rifle butt";
+
+2. Someone who is the target of ridicule or pranks (= stooge)
+ 
+3. [N. Amer, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
+"he deserves a good kick in the butt";
+
+4. A joint made by fastening ends together without overlapping (= butt joint)
+ 
+5. A large cask (especially one holding a volume equivalent to 2 hogsheads or 126 gallons)
+ 
+6. The small unused part of something (especially the end of a cigarette that is left after smoking) (= stub)
+ 
+7. Sports equipment consisting of an object set up for a marksman or archer to aim at (= target)
+ 
+8. The part of a plant from which the roots spring or the part of a stalk or trunk nearest the roots
+ 
+9. Finely ground tobacco wrapped in paper; for smoking (= cigarette, cigaret [US], coffin nail [informal], fag [Brit, informal], gasper [Brit, informal], durry [Austral, informal], cig [informal], ciggy [Brit, informal])
 """,
   );
 
@@ -344,12 +477,12 @@ WORD_WEB
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/nkA4Xd_HaMU?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 366, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,12 +502,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/LdOixIg9ebU?t=";
+  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 98, // DOPSUM: CHANGE IT
+      startAt: 234, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -394,12 +527,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/moq4dCIEG-0?t=";
+  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 1573, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,12 +552,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/fV6hOxq4-gI?t=";
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 281, // DOPSUM: CHANGE IT
+      startAt: 1676, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,12 +577,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/h07nBGDrW24?t=";
+  static String myVideoId = "https://youtu.be/modppXCKk4g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 89, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -469,12 +602,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/6bUGCZovsIA?t=";
+  static String myVideoId = "https://youtu.be/jHOMQt_hSDg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 151, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,12 +627,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/4GGuRdotJGA?t=";
+  static String myVideoId = "https://youtu.be/MGacKah0ASs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 145, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,12 +652,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/6Hxg5azZgYc?t=";
+  static String myVideoId = "https://youtu.be/OXv0dVFsuMI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 65, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,12 +677,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/mmJG1imtPpg?t=";
+  static String myVideoId = "https://youtu.be/p-g8ZcKBcqU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 402, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,12 +702,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/5mTfYfqjZMM?t=";
+  static String myVideoId = "https://youtu.be/Bfjp2ypNwX8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 81, // DOPSUM: CHANGE IT
+      startAt: 398, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

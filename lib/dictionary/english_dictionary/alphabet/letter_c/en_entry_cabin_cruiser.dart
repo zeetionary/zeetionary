@@ -7,124 +7,123 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybusily extends StatelessWidget {
+class EnglishEntrycabincruiser extends StatelessWidget {
 // blank divider
-  EnglishEntrybusily({super.key});
+  EnglishEntrycabincruiser({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbusily(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruiser(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("busily"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cabin cruiser"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was busily engaged repairing his bike."); // DOPSUM: CHANGE TEXT
+        "The cabin cruiser sailed smoothly across the calm waters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was busily preparing for their arrival."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys8(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys9(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys10(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys11(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys12(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys13(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabincruisers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcabincruiser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabincruisers1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +146,23 @@ class EnglishEntrybusily extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "busily"),
+                            EntryTitle(word: "cabin cruiser"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɪzɪli/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈkæbɪn kruːzə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbusily("en-GB"),
+                              onPressed: () => speakcabincruiser("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɪzɪli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkæbɪn kruːzər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbusily("en-US"),
+                              onPressed: () => speakcabincruiser("en-US"),
                             ),
                           ],
                         ),
@@ -181,7 +181,7 @@ class EnglishEntrybusily extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- find: speakcabins111111111111111111111111111111111
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -208,47 +208,27 @@ class EnglishEntrybusily extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: چالاکانە، گورج، گورجانە، بێ‌وچان، شێلگیرانە
+کوردی: کەشتی شەڕکەر، کەشتی جەنگی، بەلەمی ڕابواردن، (نافەرمی، ئەمریکا) ماشێنی چەرخەچی
 
-١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"""),
+١. (ناو) بەلەمێک کە ماتۆڕێکی پێوەیە لەگەڵ ژوورێک بۆ خەوتن تێیدا، بەکاردێت بۆ ڕابواردن لەسەری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was busily engaged repairing his bike."),
+                                      "The cabin cruiser sailed smoothly across the calm waters."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "busily", follow LX strictly
+                                      "بەلەمەکە بە نەرمی بەسەر ئاوە هێمنەکەدا دەچوو."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabin cruiser", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys1("en-GB"),
+                                    onPressed: () =>
+                                        speakcabincruisers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was busily preparing for their arrival."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys2("en-US"),
+                                    onPressed: () =>
+                                        speakcabincruisers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -331,9 +311,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: busily 
-1. In a busy manner
-"they were busily engaged in buying souvenirs"
+- Noun: cabin cruiser (Derived forms: cabin cruisers)
+1. A large motorboat that has a cabin and plumbing and other conveniences necessary for living on board (= cruiser, pleasure boat, pleasure craft)
 """,
   );
 
@@ -364,12 +343,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "6a6RkJbWCos";
+  static String myVideoId = "https://youtu.be/OnjI-FBdRTQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
+      startAt: 17152, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -389,12 +368,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "YJQSuUZdcV4";
+  static String myVideoId = "https://youtu.be/7QO4AJ4hFa4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3454, // DOPSUM: CHANGE IT
+      startAt: 1673, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +393,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "M-JssjBJKMw";
+  static String myVideoId = "https://youtu.be/LEj8qF6LfBc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 517, // DOPSUM: CHANGE IT
+      startAt: 44, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +418,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "iuYlGRnC7J8";
+  static String myVideoId = "https://youtu.be/QDYjgxfwu3Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 244, // DOPSUM: CHANGE IT
+      startAt: 2220, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +443,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "Ot6Irvxn-v4";
+  static String myVideoId = "https://youtu.be/ET15PoGXU74?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 489, // DOPSUM: CHANGE IT
+      startAt: 126, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +468,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "KdwJQbxLFHI";
+  static String myVideoId = "https://youtu.be/6yQWPbqKIHY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 111, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +493,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "C9tfx6rfAIo";
+  static String myVideoId = "https://youtu.be/qGiX4Mlb3f8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 298, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +518,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "IFcrpSnS0RA";
+  static String myVideoId = "https://youtu.be/v_rWjRJ3an8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1103, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +543,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "TSsw4_233YY";
+  static String myVideoId = "https://youtu.be/ILW522RhFOQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 959, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +568,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "N1Fg1imlr18";
+  static String myVideoId = "https://youtu.be/aDgmX9vDbvw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2632, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

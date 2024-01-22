@@ -26,8 +26,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The goat butted the door to open it."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The goat butted the door to open it."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbutts2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He butted his opponent in the wrestling match."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He butted his opponent in the wrestling match."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbutts3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They struck him with their rifle butts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They struck him with their rifle butts."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbutts4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He flicked the butt of his cigarette into the ashtray."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He flicked the butt of his cigarette into the ashtray."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbutts5(String languageCode) async {
@@ -67,7 +70,8 @@ class EnglishEntrybutt extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A butt from his head left him momentarily disorientated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A butt from his head left him momentarily disorientated."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbutts7(String languageCode) async {
@@ -180,7 +184,7 @@ class EnglishEntrybutt extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -213,10 +217,10 @@ class EnglishEntrybutt extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The goat butted the door to open it."),
+                                  text: "The goat butted the door to open it."),
                               const ExampleSentenceKurdish(
-                                  text: "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
+                                  text:
+                                      "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butt", follow LX strictly
                               Column(
                                 children: [
@@ -232,113 +236,116 @@ class EnglishEntrybutt extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He butted his opponent in the wrestling match."),
-                          const ExampleSentenceKurdish(
-                          text: "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbutts2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbutts2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He butted his opponent in the wrestling match."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دەسکی چەکێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "They struck him with their rifle butts."),
-                          const ExampleSentenceKurdish(
-                          text: "بە دەسکە دەمانچەکانیان لێیان دان."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbutts3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbutts3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They struck him with their rifle butts."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە دەسکە دەمانچەکانیان لێیان دان."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutts3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutts3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He flicked the butt of his cigarette into the ashtray."),
-                          const ExampleSentenceKurdish(
-                          text: "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbutts4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbutts4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He flicked the butt of his cigarette into the ashtray."),
+                              const ExampleSentenceKurdish(
+                                  text: "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutts4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutts4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           // skipped_meaning 3rd oxford
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) سمت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Get your butt over here! (= Come here!)"),
-                          const ExampleSentenceKurdish(
-                          text: "وەرە ئێرە!"),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbutts5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbutts5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Get your butt over here! (= Come here!)"),
+                              const ExampleSentenceKurdish(text: "وەرە ئێرە!"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutts5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
+                          const DefinitionKurdish(
+                              text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "A butt from his head left him momentarily disorientated."),
-                          const ExampleSentenceKurdish(
-                          text: "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbutts6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbutts6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A butt from his head left him momentarily disorientated."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbutts6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbutts6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -502,7 +509,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -527,7 +534,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -552,7 +559,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
+  static String myVideoId = "HDntl7yzzVI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -577,7 +584,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/modppXCKk4g?t=";
+  static String myVideoId = "modppXCKk4g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -602,7 +609,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/jHOMQt_hSDg?t=";
+  static String myVideoId = "jHOMQt_hSDg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -627,7 +634,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/MGacKah0ASs?t=";
+  static String myVideoId = "MGacKah0ASs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -652,7 +659,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/OXv0dVFsuMI?t=";
+  static String myVideoId = "OXv0dVFsuMI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -677,7 +684,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/p-g8ZcKBcqU?t=";
+  static String myVideoId = "p-g8ZcKBcqU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -702,7 +709,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/Bfjp2ypNwX8?t=";
+  static String myVideoId = "Bfjp2ypNwX8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

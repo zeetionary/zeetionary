@@ -405,7 +405,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'https://youtu.be/CupbRr2m_sM?t=693';
+  static String myVideoId = 'https://youtu.be/CupbRr2m_sM?t=';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -413,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 472, // DOPSUM: CHANGE IT
+      startAt: 693, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

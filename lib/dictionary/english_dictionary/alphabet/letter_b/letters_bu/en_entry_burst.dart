@@ -62,7 +62,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He burst into the room without knocking."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He burst into the room without knocking."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts6(String languageCode) async {
@@ -70,7 +71,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The sun burst through the clouds."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The sun burst through the clouds."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts7(String languageCode) async {
@@ -78,7 +80,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The words burst from her in an angry rush."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The words burst from her in an angry rush."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts8(String languageCode) async {
@@ -86,7 +89,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The roads are bursting with cars."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The roads are bursting with cars."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts9(String languageCode) async {
@@ -110,7 +114,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There was a spontaneous burst of applause."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was a spontaneous burst of applause."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts12(String languageCode) async {
@@ -118,7 +123,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A burst in the water pipe flooded the floor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A burst in the water pipe flooded the floor."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbursts13(String languageCode) async {
@@ -126,7 +132,8 @@ class EnglishEntryburst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -311,205 +318,213 @@ class EnglishEntryburst extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) چوون بۆ شوێنێک بە خێرایی"),
+                          const DefinitionKurdish(
+                              text: "٢. (کردار) چوون بۆ شوێنێک بە خێرایی"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He burst into the room without knocking."),
-                          const ExampleSentenceKurdish(
-                          text: "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He burst into the room without knocking."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The sun burst through the clouds."),
-                          const ExampleSentenceKurdish(
-                          text: "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
-                          const CustomSizedBoxForTTS(),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The sun burst through the clouds."),
+                              const ExampleSentenceKurdish(
+                                  text: "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The words burst from her in an angry rush."),
-                          const ExampleSentenceKurdish(
-                          text: "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The words burst from her in an angry rush."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbursts7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbursts7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) پڕ لە شتێک"),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) پڕ لە شتێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The roads are bursting with cars."),
-                          const ExampleSentenceKurdish(
-                          text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The roads are bursting with cars."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
-                          const ExampleSentenceKurdish(
-                          text: "خەریکە ئەتەقم بۆ میزکردن!"),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
+                              const ExampleSentenceKurdish(
+                                  text: "خەریکە ئەتەقم بۆ میزکردن!"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان هەستێکی بەهێز کەلەناکاو دەستپێ دەکات"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان هەستێکی بەهێز کەلەناکاو دەستپێ دەکات"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I tend to work in bursts."),
-                          const ExampleSentenceKurdish(
-                          text: "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts10("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I tend to work in bursts."),
+                              const ExampleSentenceKurdish(
+                                  text: "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "There was a spontaneous burst of applause."),
-                          const ExampleSentenceKurdish(
-                          text: "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts11("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was a spontaneous burst of applause."),
+                              const ExampleSentenceKurdish(
+                                  text: "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) تەقین"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "A burst in the water pipe flooded the floor."),
-                          const ExampleSentenceKurdish(
-                          text: "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A burst in the water pipe flooded the floor."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (ناو) زنجیرەیەک لە تەقەی چەکێک"),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) زنجیرەیەک لە تەقەی چەکێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
-                          const ExampleSentenceKurdish(
-                          text: "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbursts13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbursts13("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbursts13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbursts13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -654,7 +669,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/qWAagS_MANg?t=";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -679,7 +694,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/NZ74oFctP_g?t=";
+  static String myVideoId = "NZ74oFctP_g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -704,7 +719,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/0ST4_hmop9Y?t=";
+  static String myVideoId = "0ST4_hmop9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -729,7 +744,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/L9Mu93VJLcc?t=";
+  static String myVideoId = "L9Mu93VJLcc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -754,7 +769,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/g9QneAV4fVo?t=";
+  static String myVideoId = "g9QneAV4fVo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -779,7 +794,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/yUZA04AtjIs?t=";
+  static String myVideoId = "yUZA04AtjIs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -804,7 +819,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/QEbYo07jLoY?t=";
+  static String myVideoId = "QEbYo07jLoY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -829,7 +844,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/P4tDxQby99A?t=";
+  static String myVideoId = "P4tDxQby99A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -854,7 +869,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/iiwBuUTTYio?t=";
+  static String myVideoId = "iiwBuUTTYio";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -879,7 +894,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/w-4I9OWH_68?t=";
+  static String myVideoId = "w-4I9OWH_68";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

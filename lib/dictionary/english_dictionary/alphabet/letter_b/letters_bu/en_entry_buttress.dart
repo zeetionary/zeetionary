@@ -35,7 +35,8 @@ class EnglishEntrybuttress extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The sharp increase in crime seems to buttress the argument for more police officers on the street."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The sharp increase in crime seems to buttress the argument for more police officers on the street."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbuttresss3(String languageCode) async {
@@ -180,7 +181,7 @@ class EnglishEntrybuttress extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +217,8 @@ class EnglishEntrybuttress extends StatelessWidget {
                                   text:
                                       "It was necessary to strengthen the building with large external buttresses."),
                               const ExampleSentenceKurdish(
-                                  text: "گرنگ بوو بیناکە بەهێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
+                                  text:
+                                      "گرنگ بوو بیناکە بەهێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttress", follow LX strictly
                               Column(
                                 children: [
@@ -231,26 +233,29 @@ class EnglishEntrybuttress extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) پشتگیری یان وزە دان بە کەسێک یان شتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) پشتگیری یان وزە دان بە کەسێک یان شتێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The sharp increase in crime seems to buttress the argument for more police officers on the street."),
-                          const ExampleSentenceKurdish(
-                          text: "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbuttresss2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbuttresss2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The sharp increase in crime seems to buttress the argument for more police officers on the street."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbuttresss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbuttresss2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -368,7 +373,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/hSNWkRw53Jo?t=";
+  static String myVideoId = "hSNWkRw53Jo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/ekUROM87vTA?t=";
+  static String myVideoId = "ekUROM87vTA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/M20PiFxMkrs?t=";
+  static String myVideoId = "M20PiFxMkrs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/1UNYWPtg9SQ?t=";
+  static String myVideoId = "1UNYWPtg9SQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/6YCAdQmETDs?t=";
+  static String myVideoId = "6YCAdQmETDs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/kwQQ0kUyrPo?t=";
+  static String myVideoId = "kwQQ0kUyrPo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/L6E-VjbOVEs?t=";
+  static String myVideoId = "L6E-VjbOVEs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/7LF-K-ta9PI?t=";
+  static String myVideoId = "7LF-K-ta9PI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -568,7 +573,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/aowNRbEdqPQ?t=";
+  static String myVideoId = "aowNRbEdqPQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -593,7 +598,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/lgR5hF5kO1o?t=";
+  static String myVideoId = "lgR5hF5kO1o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

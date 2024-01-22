@@ -7,124 +7,123 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybusily extends StatelessWidget {
+class EnglishEntrycabbage extends StatelessWidget {
 // blank divider
-  EnglishEntrybusily({super.key});
+  EnglishEntrycabbage({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbusily(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbage(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("busily"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cabbage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages1(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Do you like cabbage?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcabbages2(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was busily engaged repairing his bike."); // DOPSUM: CHANGE TEXT
+        "We have grown a lot of cabbages this year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages3(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was busily preparing for their arrival."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages4(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages5(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages6(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages7(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages8(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys8(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages9(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys9(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages10(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys10(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages11(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys11(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages12(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbusilys12(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
+  Future<void> speakcabbages13(String languageCode) async {
+    // DOPSUM: CHANGE speakcabbage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbusilys13(String languageCode) async {
-    // DOPSUM: CHANGE speakbusily
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbusilys1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcabbages1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -147,22 +146,22 @@ class EnglishEntrybusily extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "busily"),
+                            EntryTitle(word: "cabbage"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɪzɪli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkæbɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbusily("en-GB"),
+                              onPressed: () => speakcabbage("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɪzɪli/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkæbɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbusily("en-US"),
+                              onPressed: () => speakcabbage("en-US"),
                             ),
                           ],
                         ),
@@ -181,7 +180,7 @@ class EnglishEntrybusily extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -208,25 +207,23 @@ class EnglishEntrybusily extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: چالاکانە، گورج، گورجانە، بێ‌وچان، شێلگیرانە
+کوردی: (ڕووەک‌ناسی) کەلەم، کەلەرم، لانە، تۆپەکەلەم، لەهەن
 
-١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"""),
+١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی هەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He was busily engaged repairing his bike."),
+                                  text: "Do you like cabbage?"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "busily", follow LX strictly
+                                  text: "حەزت لە کەلەرمە؟"),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys1("en-GB"),
+                                    onPressed: () => speakcabbages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys1("en-US"),
+                                    onPressed: () => speakcabbages1("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,18 +234,17 @@ class EnglishEntrybusily extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I was busily preparing for their arrival."),
+                                      "We have grown a lot of cabbages this year."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد."),
+                                  text: "ئەمساڵ کەلەرمی زۆرمان بەرهەمهێناوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys2("en-GB"),
+                                    onPressed: () => speakcabbages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys2("en-US"),
+                                    onPressed: () => speakcabbages2("en-US"),
                                   ),
                                 ],
                               ),
@@ -331,9 +327,18 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: busily 
-1. In a busy manner
-"they were busily engaged in buying souvenirs"
+- Noun: cabbage (Derived forms: cabbages) 
+1. Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers (= cultivated cabbage, Brassica oleracea)
+ 
+2. Any of various types of cabbage (= chou)
+ 
+3. [US, informal] The most common medium of exchange; functions as legal tender (= money, coin [US, informal], boodle [informal], bread [informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lettuce [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
+ 
+4. [Brit, informal] (derogatory) a person whose body or brain has been damaged so that they cannot interact with the surrounding environment (= vegetable [informal])
+
+- Verb: cabbage (Derived forms: cabbages, cabbaging, cabbaged)
+Usage: informal
+1. Take by theft (= hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
 """,
   );
 
@@ -364,12 +369,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "6a6RkJbWCos";
+  static String myVideoId = "https://youtu.be/3cxHwQl9pNM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 71, // DOPSUM: CHANGE IT
+      startAt: 331, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -389,12 +394,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "YJQSuUZdcV4";
+  static String myVideoId = "https://youtu.be/lRI3yNHY7NE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3454, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +419,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "M-JssjBJKMw";
+  static String myVideoId = "https://youtu.be/Kbac8E8TZvs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 517, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +444,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "iuYlGRnC7J8";
+  static String myVideoId = "https://youtu.be/OBM2i6NrAFs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 244, // DOPSUM: CHANGE IT
+      startAt: 426, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +469,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "Ot6Irvxn-v4";
+  static String myVideoId = "https://youtu.be/VKhPYnhUBTo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 489, // DOPSUM: CHANGE IT
+      startAt: 841, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +494,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "KdwJQbxLFHI";
+  static String myVideoId = "https://youtu.be/W9CVzAl0qN8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 111, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +519,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "C9tfx6rfAIo";
+  static String myVideoId = "https://youtu.be/tDRRJsreLvk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 298, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +544,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "IFcrpSnS0RA";
+  static String myVideoId = "https://youtu.be/Yos-oMxLV_M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1103, // DOPSUM: CHANGE IT
+      startAt: 145, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +569,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "TSsw4_233YY";
+  static String myVideoId = "https://youtu.be/VcDYhHe7Cxo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 959, // DOPSUM: CHANGE IT
+      startAt: 227, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +594,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "N1Fg1imlr18";
+  static String myVideoId = "https://youtu.be/RATQTsyH8XY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2632, // DOPSUM: CHANGE IT
+      startAt: 492, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

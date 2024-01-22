@@ -35,7 +35,8 @@ class EnglishEntrybyproduct extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("One of the by-products of unemployment is an increase in crime."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "One of the by-products of unemployment is an increase in crime."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbyproducts3(String languageCode) async {
@@ -180,7 +181,7 @@ class EnglishEntrybyproduct extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +217,8 @@ class EnglishEntrybyproduct extends StatelessWidget {
                                   text:
                                       "When burnt, plastic produces dangerous by-products."),
                               const ExampleSentenceKurdish(
-                                  text: "کە دەسووتێنرێت، پلاستیک لابەرهەمی مەترسیدار درووست دەکات."),
+                                  text:
+                                      "کە دەسووتێنرێت، پلاستیک لابەرهەمی مەترسیدار درووست دەکات."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-product", follow LX strictly
                               Column(
                                 children: [
@@ -231,26 +233,29 @@ class EnglishEntrybyproduct extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) شتێک کە ڕوودەدات، زۆرجار بە چاوەڕواننەکراوی، لە ئەنجامی شتێکی دیکە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) شتێک کە ڕوودەدات، زۆرجار بە چاوەڕواننەکراوی، لە ئەنجامی شتێکی دیکە"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "One of the by-products of unemployment is an increase in crime."),
-                          const ExampleSentenceKurdish(
-                          text: "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbyproducts2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbyproducts2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "One of the by-products of unemployment is an increase in crime."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbyproducts2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbyproducts2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -363,7 +368,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/-cPdImejxEQ?t=";
+  static String myVideoId = "-cPdImejxEQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -388,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/Kou7ur5xt_4?t=";
+  static String myVideoId = "Kou7ur5xt_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -413,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/Ma0b6h4s5bY?t=";
+  static String myVideoId = "Ma0b6h4s5bY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/MhCEdIqFCck?t=";
+  static String myVideoId = "MhCEdIqFCck";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/b4wRdoWpw0w?t=";
+  static String myVideoId = "b4wRdoWpw0w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -488,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/CupbRr2m_sM?t=";
+  static String myVideoId = "CupbRr2m_sM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -513,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/WQWiLZ1M6xw?t=";
+  static String myVideoId = "WQWiLZ1M6xw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -538,7 +543,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/XPZei_UONX0?t=";
+  static String myVideoId = "XPZei_UONX0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -563,7 +568,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/wOE4UegzJ_M?t=";
+  static String myVideoId = "wOE4UegzJ_M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -588,7 +593,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/yNjvAdbrOFA?t=";
+  static String myVideoId = "yNjvAdbrOFA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

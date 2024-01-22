@@ -2351,34 +2351,33 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "butterscotch",
     "butterfly",
     "buttock",
-    // "button",
-    // "buttonhole",
-    // "buttress",
-    // "buxom",
-    // "buy",
-    // "buyer",
-    // "buzz",
-    // "buzzer",
-    // "buzzard",
-    // "by",
-    // "bye",
-    // "bye-bye",
-    // "by-election",
-    // "bygone",
-    // "by-law",
-    // "bye-law",
-    // "bypass",
-    // "by-product",
-    // "bystander",
-    // "byte",
-    // "byword",
-    // "c",
-    // "cab",
-    // "cabaret",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "button",
+    "buttonhole",
+    "buttress",
+    "buxom",
+    "buy",
+    "buyer",
+    "buzz",
+    "buzzer",
+    "buzzard",
+    "by",
+    "bye",
+    "bye-bye",
+    "by-election",
+    "bygone",
+    "by-law",
+    "bye-law",
+    "bypass",
+    "by-product",
+    "bystander",
+    "byte",
+    "byword",
+    "c",
+    "cab",
+    "cabaret",
+    // "cabbage",
+    // "cabin",
+    // "cabin cruiser",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2410,6 +2409,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "come of age",
     "contralto",
     "cookie",
+    "cruiser",
     "far afield",
     "from afar",
     "globe artichoke",
@@ -12092,237 +12092,241 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-burner");
                   }
-                  // if (wordsEnglish == "burning") {
+                  if (wordsEnglish == "burning") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burning");
+                  }
+                  if (wordsEnglish == "burnish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burnish");
+                  }
+                  if (wordsEnglish == "burp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burp");
+                  }
+                  if (wordsEnglish == "burrow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burrow");
+                  }
+                  if (wordsEnglish == "bursar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bursar");
+                  }
+                  if (wordsEnglish == "bursary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bursary");
+                  }
+                  if (wordsEnglish == "burst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-burst");
+                  }
+                  if (wordsEnglish == "bury") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bury");
+                  }
+                  if (wordsEnglish == "bus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bus");
+                  }
+                  if (wordsEnglish == "bus stop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bus-stop");
+                  }
+                  if (wordsEnglish == "bush") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bush");
+                  }
+                  if (wordsEnglish == "bushy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bushy");
+                  }
+                  if (wordsEnglish == "business") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-business");
+                  }
+                  if (wordsEnglish == "businesslike") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-businesslike");
+                  }
+                  if (wordsEnglish == "businessman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-businessman");
+                  }
+                  if (wordsEnglish == "businesswoman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-businessman");
+                  }
+                  if (wordsEnglish == "busker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-busker");
+                  }
+                  if (wordsEnglish == "bust") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bust");
+                  }
+                  if (wordsEnglish == "bustle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bustle");
+                  }
+                  if (wordsEnglish == "busy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-busy");
+                  }
+                  if (wordsEnglish == "busily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-busily");
+                  }
+                  if (wordsEnglish == "but") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-but");
+                  }
+                  if (wordsEnglish == "butcher") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butcher");
+                  }
+                  if (wordsEnglish == "butchery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butchery");
+                  }
+                  if (wordsEnglish == "butler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butler");
+                  }
+                  if (wordsEnglish == "butt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butt");
+                  }
+                  if (wordsEnglish == "butter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butter");
+                  }
+                  if (wordsEnglish == "buttercup") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buttercup");
+                  }
+                  if (wordsEnglish == "butterscotch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butterscotch");
+                  }
+                  if (wordsEnglish == "butterfly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-butterfly");
+                  }
+                  if (wordsEnglish == "buttock") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buttock");
+                  }
+                  if (wordsEnglish == "button") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-button");
+                  }
+                  if (wordsEnglish == "buttonhole") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buttonhole");
+                  }
+                  if (wordsEnglish == "buttress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buttress");
+                  }
+                  if (wordsEnglish == "buxom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buxom");
+                  }
+                  if (wordsEnglish == "buy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buy");
+                  }
+                  if (wordsEnglish == "buyer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buyer");
+                  }
+                  if (wordsEnglish == "buzz") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buzz");
+                  }
+                  if (wordsEnglish == "buzzer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buzzer");
+                  }
+                  if (wordsEnglish == "buzzard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-buzzard");
+                  }
+                  if (wordsEnglish == "by") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-by");
+                  }
+                  if (wordsEnglish == "bye") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bye");
+                  }
+                  if (wordsEnglish == "bye-bye") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bye");
+                  }
+                  if (wordsEnglish == "by-election") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-by-election");
+                  }
+                  if (wordsEnglish == "bygone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bygone");
+                  }
+                  if (wordsEnglish == "by-law") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-by-law");
+                  }
+                  if (wordsEnglish == "bye-law") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-by-law");
+                  }
+                  if (wordsEnglish == "bypass") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bypass");
+                  }
+                  if (wordsEnglish == "by-product") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-by-product");
+                  }
+                  if (wordsEnglish == "bystander") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bystander");
+                  }
+                  if (wordsEnglish == "byte") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-byte");
+                  }
+                  if (wordsEnglish == "byword") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-byword");
+                  }
+                  if (wordsEnglish == "c") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-c");
+                  }
+                  if (wordsEnglish == "cab") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cab");
+                  }
+                  if (wordsEnglish == "cabaret") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabaret");
+                  }
+                  // if (wordsEnglish == "cabbage") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burning");
+                  //   Routemaster.of(context).push("/english-cabbage");
                   // }
-                  // if (wordsEnglish == "burnish") {
+                  // if (wordsEnglish == "cabin") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burnish");
+                  //   Routemaster.of(context).push("/english-cabin");
                   // }
-                  // if (wordsEnglish == "burp") {
+                  // if (wordsEnglish == "cabin cruiser") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burp");
+                  //   Routemaster.of(context).push("/english-cabin-cruiser");
                   // }
-                  // if (wordsEnglish == "burrow") {
+                  // if (wordsEnglish == "cruiser") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burrow");
-                  // }
-                  // if (wordsEnglish == "bursar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bursar");
-                  // }
-                  // if (wordsEnglish == "bursary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bursary");
-                  // }
-                  // if (wordsEnglish == "burst") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-burst");
-                  // }
-                  // if (wordsEnglish == "bury") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bury");
-                  // }
-                  // if (wordsEnglish == "bus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bus");
-                  // }
-                  // if (wordsEnglish == "bus stop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bus-stop");
-                  // }
-                  // if (wordsEnglish == "bush") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bush");
-                  // }
-                  // if (wordsEnglish == "bushy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bushy");
-                  // }
-                  // if (wordsEnglish == "business") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-business");
-                  // }
-                  // if (wordsEnglish == "businesslike") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-businesslike");
-                  // }
-                  // if (wordsEnglish == "businessman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-businessman");
-                  // }
-                  // if (wordsEnglish == "businesswoman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-businessman");
-                  // }
-                  // if (wordsEnglish == "busker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-busker");
-                  // }
-                  // if (wordsEnglish == "bust") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bust");
-                  // }
-                  // if (wordsEnglish == "bustle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bustle");
-                  // }
-                  // if (wordsEnglish == "busy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-busy");
-                  // }
-                  // if (wordsEnglish == "busily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-busily");
-                  // }
-                  // if (wordsEnglish == "but") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-but");
-                  // }
-                  // if (wordsEnglish == "butcher") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butcher");
-                  // }
-                  // if (wordsEnglish == "butchery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butchery");
-                  // }
-                  // if (wordsEnglish == "butler") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butler");
-                  // }
-                  // if (wordsEnglish == "butt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butt");
-                  // }
-                  // if (wordsEnglish == "butter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butter");
-                  // }
-                  // if (wordsEnglish == "buttercup") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buttercup");
-                  // }
-                  // if (wordsEnglish == "butterscotch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butterscotch");
-                  // }
-                  // if (wordsEnglish == "butterfly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-butterfly");
-                  // }
-                  // if (wordsEnglish == "buttock") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buttock");
-                  // }
-                  // if (wordsEnglish == "button") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-button");
-                  // }
-                  // if (wordsEnglish == "buttonhole") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buttonhole");
-                  // }
-                  // if (wordsEnglish == "buttress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buttress");
-                  // }
-                  // if (wordsEnglish == "buxom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buxom");
-                  // }
-                  // if (wordsEnglish == "buy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buy");
-                  // }
-                  // if (wordsEnglish == "buyer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buyer");
-                  // }
-                  // if (wordsEnglish == "buzz") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buzz");
-                  // }
-                  // if (wordsEnglish == "buzzer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buzzer");
-                  // }
-                  // if (wordsEnglish == "buzzard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-buzzard");
-                  // }
-                  // if (wordsEnglish == "by") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-by");
-                  // }
-                  // if (wordsEnglish == "bye") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bye");
-                  // }
-                  // if (wordsEnglish == "bye-bye") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bye");
-                  // }
-                  // if (wordsEnglish == "by-election") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-by-election");
-                  // }
-                  // if (wordsEnglish == "bygone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bygone");
-                  // }
-                  // if (wordsEnglish == "by-law") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-by-law");
-                  // }
-                  // if (wordsEnglish == "bye-law") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-by-law");
-                  // }
-                  // if (wordsEnglish == "bypass") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bypass");
-                  // }
-                  // if (wordsEnglish == "by-product") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-by-product");
-                  // }
-                  // if (wordsEnglish == "bystander") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bystander");
-                  // }
-                  // if (wordsEnglish == "byte") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-byte");
-                  // }
-                  // if (wordsEnglish == "byword") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-byword");
-                  // }
-                  // if (wordsEnglish == "c") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-c");
-                  // }
-                  // if (wordsEnglish == "cab") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cab");
-                  // }
-                  // if (wordsEnglish == "cabaret") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cabaret");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cabin-cruiser");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

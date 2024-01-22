@@ -170,7 +170,6 @@ class _GrammarScreenState extends State<GrammarScreen> {
   // }
 
   void filterResults(String query) {
-    // https://chat.openai.com/c/71511b96-b16b-470a-9c54-fba236f23628
     setState(() {
       if (query.isEmpty) {
         // If the query is empty, show all words
@@ -179,25 +178,35 @@ class _GrammarScreenState extends State<GrammarScreen> {
         // Create a map to store word frequencies
         Map<String, int> wordFrequencies = {};
 
-        // Update frequencies for exact matches
+        // Update frequencies for exact matches, considering hyphens and spaces as the same
         for (String word in allGrammarSubjects) {
-          if (word.toLowerCase() == query.toLowerCase()) {
+          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
+          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+
+          if (normalizedWord == normalizedQuery) {
             wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
                 2; // Higher weight for exact matches
           }
         }
 
-        // Update frequencies for relevant matches (contains the query)
+        // Update frequencies for relevant matches (contains the query), considering hyphens and spaces as the same
         for (String word in allGrammarSubjects) {
-          if (word.toLowerCase().contains(query.toLowerCase())) {
-            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
+          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+
+          if (normalizedWord.contains(normalizedQuery)) {
+            // Prioritize words with more consecutive matching characters
+            int consecutiveMatches =
+                _countConsecutiveMatches(normalizedWord, normalizedQuery);
+            wordFrequencies[word] =
+                (wordFrequencies[word] ?? 0) + consecutiveMatches;
           }
         }
 
-        // Fuzzy search for approximate matches
+        // Fuzzy search for approximate matches, considering hyphens and spaces as the same
         List<String> fuzzyMatches = allGrammarSubjects
-            .where(
-                (word) => _fuzzyMatch(word.toLowerCase(), query.toLowerCase()))
+            .where((word) => _fuzzyMatch(word.replaceAll('-', ' '),
+                query.replaceAll('-', ' ').toLowerCase()))
             .toList();
 
         // Update frequencies for fuzzy matches
@@ -208,8 +217,10 @@ class _GrammarScreenState extends State<GrammarScreen> {
         // Combine and prioritize by relevancy, with exact matches at the top
         filteredWords = wordFrequencies.keys.toList()
           ..sort((a, b) {
-            bool exactMatchA = a.toLowerCase() == query.toLowerCase();
-            bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+            bool exactMatchA = a.replaceAll('-', ' ').toLowerCase() ==
+                query.replaceAll('-', ' ').toLowerCase();
+            bool exactMatchB = b.replaceAll('-', ' ').toLowerCase() ==
+                query.replaceAll('-', ' ').toLowerCase();
 
             if (exactMatchA && !exactMatchB) {
               return -1; // A is an exact match, so it comes first.
@@ -222,15 +233,28 @@ class _GrammarScreenState extends State<GrammarScreen> {
 
               if (frequencyComparison == 0) {
                 // If frequencies are equal, prioritize words containing the exact match
-                bool containsExactA =
-                    a.toLowerCase().contains(query.toLowerCase());
-                bool containsExactB =
-                    b.toLowerCase().contains(query.toLowerCase());
+                bool containsExactA = a
+                    .replaceAll('-', ' ')
+                    .toLowerCase()
+                    .contains(query.replaceAll('-', ' ').toLowerCase());
+                bool containsExactB = b
+                    .replaceAll('-', ' ')
+                    .toLowerCase()
+                    .contains(query.replaceAll('-', ' ').toLowerCase());
 
                 if (containsExactA && !containsExactB) {
                   return -1; // A contains the exact match, so it comes next.
                 } else if (!containsExactA && containsExactB) {
                   return 1; // B contains the exact match, so it comes next.
+                }
+
+                // If not an exact match, prioritize by the length of consecutive matches
+                int consecutiveMatchComparison =
+                    _countConsecutiveMatches(b, query)
+                        .compareTo(_countConsecutiveMatches(a, query));
+
+                if (consecutiveMatchComparison != 0) {
+                  return consecutiveMatchComparison;
                 }
               }
 
@@ -239,6 +263,18 @@ class _GrammarScreenState extends State<GrammarScreen> {
           });
       }
     });
+  }
+
+  int _countConsecutiveMatches(String word, String query) {
+    int count = 0;
+    for (int i = 0; i < word.length && i < query.length; i++) {
+      if (word[i] == query[i]) {
+        count++;
+      } else {
+        break;
+      }
+    }
+    return count;
   }
 
   bool _fuzzyMatch(String word, String query) {

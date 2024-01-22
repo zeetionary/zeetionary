@@ -103,8 +103,13 @@ class EnglishEntryblingbling extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bling-bling (also: bling)"),
+                            EntryTitle(word: "bling-bling"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: bling"),
+                        ],
                         ),
                         Row(
                           children: [

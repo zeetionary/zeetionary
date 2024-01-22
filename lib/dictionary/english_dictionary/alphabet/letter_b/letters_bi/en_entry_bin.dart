@@ -201,7 +201,7 @@ class EnglishEntrybin extends StatelessWidget {
                                       "All their toys are kept in plastic storage bins under the bed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لە ژێر جێخەوەکەدا."),
+                                      "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لەژێر جێخەوەکەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

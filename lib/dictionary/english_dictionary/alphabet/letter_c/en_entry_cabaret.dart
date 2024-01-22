@@ -216,7 +216,7 @@ class EnglishEntrycabaret extends StatelessWidget {
                                       "He gained recognition through cabaret acts performed at restaurants."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناوی دەرکرد بە نمایشە شەوانەکانی لە چیشتخانەکان."),
+                                      "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabaret", follow LX strictly
                               Column(
                                 children: [

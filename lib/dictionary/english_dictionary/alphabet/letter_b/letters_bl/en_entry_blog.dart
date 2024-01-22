@@ -104,8 +104,13 @@ class EnglishEntryblog extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blog (also: weblog)"),
+                            EntryTitle(word: "blog"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: weblog"),
+                        ],
                         ),
                         Row(
                           children: [

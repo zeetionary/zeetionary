@@ -104,8 +104,13 @@ class EnglishEntrybogey extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bogey (also: bogy)"),
+                            EntryTitle(word: "bogey"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: bogy"),
+                        ],
                         ),
                         Row(
                           children: [
@@ -222,7 +227,7 @@ class EnglishEntrybogey extends StatelessWidget {
                                       "The children believed in the friendly bogey that lived under the bed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لە ژێر جێ‌خەوەکە دەژیا."),
+                                      "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لەژێر جێ‌خەوەکە دەژیا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

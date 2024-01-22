@@ -105,7 +105,12 @@ class EnglishEntrybible extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bible (also: (the) Bible)"),
+                            EntryTitle(word: "bible"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(text: "also: (the) Bible"),
                           ],
                         ),
                         Row(

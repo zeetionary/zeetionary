@@ -694,6 +694,31 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
   }
 }
 
+class AlsoEnglish extends ConsumerWidget {
+  final String text;
+
+  // const AlsoEnglish({Key? key, required this.text}) : super(key: key);
+  const AlsoEnglish({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+    return Container(
+      constraints: const BoxConstraints(maxWidth: 300),
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      // padding: const EdgeInsets.all(8.0), // Add padding here
+      child: Text(
+        text,
+        style: TextStyle(
+          fontSize: textSize,
+          // color: Colors.yellow.withOpacity(0.7),
+          color: Theme.of(context).highlightColor,
+        ),
+      ),
+    );
+  }
+}
+
 // class IPAofEnglish extends StatelessWidget {
 //   final String text;
 

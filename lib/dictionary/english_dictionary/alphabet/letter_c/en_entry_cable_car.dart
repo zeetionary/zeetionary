@@ -5,86 +5,131 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bra" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
-
 enum TtsState { playing }
 
-class EnglishEntrybra extends StatelessWidget {
+class EnglishEntrycablecar extends StatelessWidget {
 // blank divider
-  EnglishEntrybra({super.key});
+  EnglishEntrycablecar({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbra(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecar(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bra"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cable car"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras1(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars1(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your shirt's so thin that it shows your bra."); // DOPSUM: CHANGE TEXT
+        "Cable cars offer breathtaking views of the city."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras2(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars2(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You'll need a strapless bra to wear with this dress."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras3(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars3(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbras33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras4(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars4(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbras44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras5(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars5(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbras55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras6(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars6(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbras66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbras7(String languageCode) async {
-    // DOPSUM: CHANGE speakbra
+  Future<void> speakcablecars7(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbras77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcablecars77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars8(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars9(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars10(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars11(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars12(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcablecars13(String languageCode) async {
+    // DOPSUM: CHANGE speakcablecar
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcablecars1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -101,27 +146,22 @@ class EnglishEntrybra extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bra"),
+                            EntryTitle(word: "cable car"),
                           ],
-                        ),
-                        const Row(
-                        children: [
-                        AlsoEnglish(text: "also: brassiere"),
-                        ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /brɑː/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkeɪbl kɑː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbra("en-GB"),
+                              onPressed: () => speakcablecar("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /brɑː/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkeɪbl kɑːr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbra("en-US"),
+                              onPressed: () => speakcablecar("en-US"),
                             ),
                           ],
                         ),
@@ -139,13 +179,13 @@ class EnglishEntrybra extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -167,47 +207,25 @@ class EnglishEntrybra extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مەمک‌بەند، سوخمە، سینەبەند، شاماکی
+کوردی: تەلەفریک، تەلەکابین، تێلەکابین، تێلێ‌کابین
 
-١. (ناو) پارچە جلێکی ژێرەوە ژنان کە لەبەر دەکرێت بۆ داپۆشین و بەرزکردنەوەی مەمک"""),
+١. (ناو) گوازەرەوەیەک کە هەڵواسراوە و خەڵکی دەگوازێتەوە بۆ سەر بەرزایی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Your shirt's so thin that it shows your bra."),
+                                      "Cable cars offer breathtaking views of the city."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جلەکەت ھێندە تەنکە مەمک‌بەندەکەت دیارە."),
-                              const CustomSizedBoxForTTS(),
+                                      "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cable car", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbras1("en-GB"),
+                                    onPressed: () => speakcablecars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbras1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'll need a strapless bra to wear with this dress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستت بە سووخمەیەکی بێ‌بەستە بۆ پۆشین لەگەڵ ئەم جلە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbras2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbras2("en-US"),
+                                    onPressed: () => speakcablecars1("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,9 +243,9 @@ class EnglishEntrybra extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -290,10 +308,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bra (derived forms: bras)
-1. An undergarment worn by women to support their breasts (= brassiere, bandeau)
- 
-2. (quantum mechanics) a conjugate state represented using the left bracket <|
+- Noun: cable car (Derived forms: cable cars)
+1. A conveyance for passengers or freight on a cable railway (= car)
+"they took a cable car to the top of the mountain";
 """,
   );
 
@@ -324,13 +341,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-
-  static String myVideoId = "pTysrwci0pU";
+  static String myVideoId = "https://youtu.be/wGIEy-TQKhI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 914, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,13 +366,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "Aaho62BZH4I";
+  static String myVideoId = "https://youtu.be/LpwaUU6sGFA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 129, // DOPSUM: CHANGE IT
+      startAt: 798, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,60 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "s1yurGsRM_s";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "TMf1RVS6XSA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 23, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "bBmC0j2pc5I";
+  static String myVideoId = "https://youtu.be/s_Jcq7DR4_I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -452,15 +414,64 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "sXw7I9mUaAg";
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/IQzfprW0Yl0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 1238, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/l35cs9_Pb-M?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 71, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/5dqrOSk-Wyk?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2877, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,13 +491,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "GdEMpC6XhPQ";
+  static String myVideoId = "https://youtu.be/gkaZ94cKxVc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 110, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -506,13 +516,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "tUe7fUpXgmY";
+  static String myVideoId = "https://youtu.be/G3eMyjyZ6Aw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -532,13 +541,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "iIpldpv6loA";
+  static String myVideoId = "https://youtu.be/8oiGkB2-rMI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 55, // DOPSUM: CHANGE IT
+      startAt: 123, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,13 +566,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "X_fuXwxeX9A";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -582,59 +589,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "ZbyOns8rca0";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 454, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "ZsOf-vCoj_c";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// more than one video, only first autoplay
-
-// haʊʊʊʊʊʊʊ4
-// end bra
+// end WORD_WEB

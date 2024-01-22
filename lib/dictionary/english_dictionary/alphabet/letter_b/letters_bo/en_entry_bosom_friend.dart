@@ -104,8 +104,13 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "bosom friend (also: bosom buddy, or bosom pal)"),
+                                    "bosom friend"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: bosom buddy, or bosom pal"),
+                        ],
                         ),
                         Row(
                           children: [

@@ -102,8 +102,13 @@ class EnglishEntryboiling extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boiling (also: boiling hot)"),
+                            EntryTitle(word: "boiling"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: boiling hot"),
+                        ],
                         ),
                         Row(
                           children: [

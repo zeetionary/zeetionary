@@ -753,7 +753,7 @@ class EnglishEntryback extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٨. (ھاوەڵکار) لە ژێر کۆنترۆڵ"""),
+١٨. (ھاوەڵکار) لەژێر کۆنترۆڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

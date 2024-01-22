@@ -164,7 +164,7 @@ class EnglishEntrybombard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: بۆمباران کردن، وەبەر تۆپ‌دان
 
 ١. (کردار) ھێرشکردنە سەر شوێنێک بە ھاویشتن یان بەردانەوەی بۆمبێکی زۆر"""),
                           Row(

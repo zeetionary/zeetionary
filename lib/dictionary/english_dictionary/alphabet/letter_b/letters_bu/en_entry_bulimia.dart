@@ -98,8 +98,13 @@ class EnglishEntrybulimia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bulimia (also: bulimia nervosa)"),
+                            EntryTitle(word: "bulimia"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: bulimia nervosa"),
+                        ],
                         ),
                         Row(
                           children: [

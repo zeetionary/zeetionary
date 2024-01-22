@@ -104,10 +104,12 @@ class EnglishEntryavianflu extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "avian flu (also: bird flu, chicken flu)"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "avian flu"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(text: "also: bird flu, chicken flu"),
                           ],
                         ),
                         Row(

@@ -295,8 +295,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                                   text:
                                       "Deer were browsing (on grass) under the trees."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسک گیایان دەخوارد لە ژێر دارەکاندا."),
+                                  text: "ئاسک گیایان دەخوارد لەژێر دارەکاندا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

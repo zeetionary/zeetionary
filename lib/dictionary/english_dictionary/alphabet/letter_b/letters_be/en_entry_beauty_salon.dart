@@ -105,7 +105,12 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "beauty salon (also: beauty parlour)"),
+                                word: "beauty salon"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(text: "also: beauty parlour"),
                           ],
                         ),
                         Row(

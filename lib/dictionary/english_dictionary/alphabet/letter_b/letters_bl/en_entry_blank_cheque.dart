@@ -104,8 +104,13 @@ class EnglishEntryblankcheque extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "blank cheque (also: blank check)"),
+                                word: "blank cheque"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: blank check"),
+                        ],
                         ),
                         Row(
                           children: [

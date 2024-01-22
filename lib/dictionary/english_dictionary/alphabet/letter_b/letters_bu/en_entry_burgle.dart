@@ -146,8 +146,13 @@ class EnglishEntryburgle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "burgle (also: burglarize)"),
+                            EntryTitle(word: "burgle"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: burglarize"),
+                        ],
                         ),
                         Row(
                           children: [

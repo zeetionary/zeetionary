@@ -100,8 +100,13 @@ class EnglishEntrybrandname extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "brand name (also: brand name)"),
+                            EntryTitle(word: "brand name"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: brand name"),
+                        ],
                         ),
                         Row(
                           children: [

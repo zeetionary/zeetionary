@@ -103,8 +103,13 @@ class EnglishEntryblockcapitals extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "block capitals (also: block letters)"),
+                                word: "block capitals"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: block letters"),
+                        ],
                         ),
                         Row(
                           children: [

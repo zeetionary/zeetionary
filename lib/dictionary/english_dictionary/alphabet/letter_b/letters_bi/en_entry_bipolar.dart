@@ -106,8 +106,13 @@ class EnglishEntrybipolar extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "bipolar (also: manic-depressive)"),
+                                word: "bipolar"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: manic-depressive"),
+                        ],
                         ),
                         Row(
                           children: [

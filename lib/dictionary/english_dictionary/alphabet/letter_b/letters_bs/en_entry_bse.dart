@@ -98,8 +98,13 @@ class EnglishEntryBSE extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "BSE (also: mad cow disease)"),
+                            EntryTitle(word: "BSE"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: mad cow disease"),
+                        ],
                         ),
                         Row(
                           children: [

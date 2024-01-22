@@ -161,8 +161,6 @@ class EnglishEntrybracken extends StatelessWidget {
                         children: [
                           DividerDefinition(),
                           DefinitionKurdish(text: """
-کوردی: 
-
 ١. (ناو) گیایەک کە گەڵای گەورەی ھەیە لەسەر گرد و لە دارستانەکان دەڕووێت، و قاوەیی دەبێت لە پاییزدا"""),
                           // Row(
                           //   children: [

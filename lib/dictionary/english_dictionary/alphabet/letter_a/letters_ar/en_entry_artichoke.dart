@@ -112,17 +112,17 @@ class EnglishEntryartichoke extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "artichoke (also: globe artichoke)"), // Find /ˈɑːtɪtʃəʊk/
-                            // divvviiider
+                            EntryTitle(word: "artichoke"),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(text: "also: globe artichoke"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɑːtɪtʃəʊk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɑːtɪtʃəʊk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakArtichoke("en-GB"),
                             ),

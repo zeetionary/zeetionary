@@ -102,8 +102,13 @@ class EnglishEntrybulb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bulb (also: light bulb)"),
+                            EntryTitle(word: "bulb"),
                           ],
+                        ),
+                        const Row(
+                        children: [
+                        AlsoEnglish(text: "also: light bulb"),
+                        ],
                         ),
                         Row(
                           children: [

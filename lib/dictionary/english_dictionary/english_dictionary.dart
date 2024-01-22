@@ -2375,13 +2375,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "c",
     "cab",
     "cabaret",
-    // "cabbage",
-    // "cabin",
-    // "cabin cruiser",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "cabbage",
+    "cabin",
+    "cabin cruiser",
+    "cabinet",
+    // "cable",
+    // "cable car",
+    // "cable television",
+    // "cache",
+    // "cackle",
+    // "cactus",
+    // "cadet",
+    // "cadge",
+    // "cafe",
+    // "cafeteria",
+    // "caffeine",
+    // "cage",
+    // "cagey",
+    // "cagoule",
+    // "cairn",
+    // "cajole",
+    // "cake",
+    // "calamity",
+    // "calcium",
+    // "calculable",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2520,17 +2537,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   }
 
   void _startTimer() async {
-  for (var i = 0; i < shuffledWords.length; i++) {
-    await Future.delayed(const Duration(milliseconds: 800), () {
-      setState(() {
-        _shuffleCurrentIndex = i;
+    for (var i = 0; i < shuffledWords.length; i++) {
+      await Future.delayed(const Duration(milliseconds: 1100), () {
+        setState(() {
+          _shuffleCurrentIndex = i;
+        });
       });
-    });
+    }
+    _shuffleWords(); // Reshuffle the words after the loop
+    _startTimer(); // Restart the timer for continuous cycling
   }
-  _shuffleWords(); // Reshuffle the words after the loop
-  _startTimer(); // Restart the timer for continuous cycling
-}
-
 
   void _scrollToTop() {
     _scrollController.animateTo(
@@ -2550,33 +2566,42 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 
   void filterResults(String query) {
     setState(() {
-      // https://chat.openai.com/c/71511b96-b16b-470a-9c54-fba236f23628
       if (query.isEmpty) {
         // If the query is empty, show all words
         filteredWords = List.from(allWordsEnglish);
       } else {
-        // Create a map to store  word frequencies
+        // Create a map to store word frequencies
         Map<String, int> wordFrequencies = {};
 
-        // Update frequencies for exact matches
+        // Update frequencies for exact matches, considering hyphens and spaces as the same
         for (String word in allWordsEnglish) {
-          if (word.toLowerCase() == query.toLowerCase()) {
+          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
+          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+
+          if (normalizedWord == normalizedQuery) {
             wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
                 2; // Higher weight for exact matches
           }
         }
 
-        // Update frequencies for relevant matches (contains the query)
+        // Update frequencies for relevant matches (contains the query), considering hyphens and spaces as the same
         for (String word in allWordsEnglish) {
-          if (word.toLowerCase().contains(query.toLowerCase())) {
-            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
+          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
+          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+
+          if (normalizedWord.contains(normalizedQuery)) {
+            // Prioritize words with more consecutive matching characters
+            int consecutiveMatches =
+                _countConsecutiveMatches(normalizedWord, normalizedQuery);
+            wordFrequencies[word] =
+                (wordFrequencies[word] ?? 0) + consecutiveMatches;
           }
         }
 
-        // Fuzzy search for approximate matches
+        // Fuzzy search for approximate matches, considering hyphens and spaces as the same
         List<String> fuzzyMatches = allWordsEnglish
-            .where(
-                (word) => _fuzzyMatch(word.toLowerCase(), query.toLowerCase()))
+            .where((word) => _fuzzyMatch(word.replaceAll('-', ' '),
+                query.replaceAll('-', ' ').toLowerCase()))
             .toList();
 
         // Update frequencies for fuzzy matches
@@ -2587,8 +2612,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         // Combine and prioritize by relevancy, with exact matches at the top
         filteredWords = wordFrequencies.keys.toList()
           ..sort((a, b) {
-            bool exactMatchA = a.toLowerCase() == query.toLowerCase();
-            bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+            bool exactMatchA = a.replaceAll('-', ' ').toLowerCase() ==
+                query.replaceAll('-', ' ').toLowerCase();
+            bool exactMatchB = b.replaceAll('-', ' ').toLowerCase() ==
+                query.replaceAll('-', ' ').toLowerCase();
 
             if (exactMatchA && !exactMatchB) {
               return -1; // A is an exact match, so it comes first.
@@ -2601,15 +2628,28 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 
               if (frequencyComparison == 0) {
                 // If frequencies are equal, prioritize words containing the exact match
-                bool containsExactA =
-                    a.toLowerCase().contains(query.toLowerCase());
-                bool containsExactB =
-                    b.toLowerCase().contains(query.toLowerCase());
+                bool containsExactA = a
+                    .replaceAll('-', ' ')
+                    .toLowerCase()
+                    .contains(query.replaceAll('-', ' ').toLowerCase());
+                bool containsExactB = b
+                    .replaceAll('-', ' ')
+                    .toLowerCase()
+                    .contains(query.replaceAll('-', ' ').toLowerCase());
 
                 if (containsExactA && !containsExactB) {
                   return -1; // A contains the exact match, so it comes next.
                 } else if (!containsExactA && containsExactB) {
                   return 1; // B contains the exact match, so it comes next.
+                }
+
+                // If not an exact match, prioritize by the length of consecutive matches
+                int consecutiveMatchComparison =
+                    _countConsecutiveMatches(b, query)
+                        .compareTo(_countConsecutiveMatches(a, query));
+
+                if (consecutiveMatchComparison != 0) {
+                  return consecutiveMatchComparison;
                 }
               }
 
@@ -2618,6 +2658,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
           });
       }
     });
+  }
+
+  int _countConsecutiveMatches(String word, String query) {
+    int count = 0;
+    for (int i = 0; i < word.length && i < query.length; i++) {
+      if (word[i] == query[i]) {
+        count++;
+      } else {
+        break;
+      }
+    }
+    return count;
   }
 
   bool _fuzzyMatch(String word, String query) {
@@ -12312,105 +12364,105 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-cabaret");
                   }
-                  // if (wordsEnglish == "cabbage") {
+                  if (wordsEnglish == "cabbage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabbage");
+                  }
+                  if (wordsEnglish == "cabin") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabin");
+                  }
+                  if (wordsEnglish == "cabin cruiser") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabin-cruiser");
+                  }
+                  if (wordsEnglish == "cruiser") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabin-cruiser");
+                  }
+                  if (wordsEnglish == "cabinet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cabinet");
+                  }
+                  // if (wordsEnglish == "cable") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cabbage");
+                  //   Routemaster.of(context).push("/english-cable");
                   // }
-                  // if (wordsEnglish == "cabin") {
+                  // if (wordsEnglish == "cable television") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cabin");
+                  //   Routemaster.of(context).push("/english-cable");
                   // }
-                  // if (wordsEnglish == "cabin cruiser") {
+                  // if (wordsEnglish == "cable car") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cabin-cruiser");
+                  //   Routemaster.of(context).push("/english-cable-car");
                   // }
-                  // if (wordsEnglish == "cruiser") {
+                  // if (wordsEnglish == "cache") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cabin-cruiser");
+                  //   Routemaster.of(context).push("/english-cache");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cackle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cackle");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cactus") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cactus");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cadet") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cadet");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cadge") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cadge");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cafe") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cafe");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cafeteria") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cafeteria");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "caffeine") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-caffeine");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cage") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cage");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cagey") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cagey");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cagoule") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cagoule");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cairn") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cairn");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cajole") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cajole");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "cake") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-cake");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "calamity") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-calamity");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "calcium") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-calcium");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "calculable") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-calculable");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

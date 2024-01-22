@@ -191,7 +191,7 @@ class EnglishEntrybluster extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) بایەک کە بە خێرایی دەجوڵێت"),
+                              text: "٢. (کردار) بایەک کە بەخێرایی دەجوڵێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

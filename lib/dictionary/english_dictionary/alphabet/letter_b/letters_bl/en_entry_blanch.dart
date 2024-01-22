@@ -200,7 +200,7 @@ class EnglishEntryblanch extends StatelessWidget {
                                       "Blanch the peas quickly before you freeze them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەزالیاکان بە خێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
+                                      "بەزالیاکان بەخێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

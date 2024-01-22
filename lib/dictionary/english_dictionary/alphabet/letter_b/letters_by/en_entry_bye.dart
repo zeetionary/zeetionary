@@ -7,132 +7,128 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybung extends StatelessWidget {
+class EnglishEntrybye extends StatelessWidget {
 // blank divider
-  EnglishEntrybung({super.key});
+  EnglishEntrybye({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbung(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbye(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bung"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bye"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes1(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Bung this in the bin, can you?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Bye! See you next week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes2(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "'Where shall I put my coat?' 'Oh, bung it anywhere.'"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Bye for now Dad!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes3(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The winemaker inserted a tight bung into the wine barrel."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes4(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Both the politicians denied taking bungs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes5(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes6(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes7(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs8(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes8(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs9(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes9(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs10(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes10(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs11(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes11(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs12(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes12(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbungs13(String languageCode) async {
-    // DOPSUM: CHANGE speakbung
+  Future<void> speakbyes13(String languageCode) async {
+    // DOPSUM: CHANGE speakbye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbungs1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbyes1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -149,22 +145,22 @@ class EnglishEntrybung extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bung"),
+                            EntryTitle(word: "bye"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bʌŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /baɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbung("en-GB"),
+                              onPressed: () => speakbye("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bʌŋ/"),
+                            const IPAofEnglish(text: "IpaUS: /baɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbung("en-US"),
+                              onPressed: () => speakbye("en-US"),
                             ),
                           ],
                         ),
@@ -182,13 +178,13 @@ class EnglishEntrybung extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -210,23 +206,23 @@ class EnglishEntrybung extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: درگا، سەر، بان، تۆپەوانە، زارئاخن، زاربێن، زمانە (بەرمیل، شووشە و هتد)، بەرتیل، دەم‌شیرینی، بەکارنەهاتوو، خراپ، کاول، وێران
+کوردی: خوات لەگەڵ
 
-١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"""),
+١. (سەرسوڕمان) بۆ ماڵاوایی کردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Bung this in the bin, can you?"),
+                                  text: "Bye! See you next week."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەتوانیت ئەمە فڕێ بدەیتە زباڵەکەوە؟"),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bung", follow LX strictly
+                                  text: "بای! هەفتەی داهاتوو دەتبینمەوە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bye", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbungs1("en-GB"),
+                                    onPressed: () => speakbyes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs1("en-US"),
+                                    onPressed: () => speakbyes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,69 +232,17 @@ class EnglishEntrybung extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "'Where shall I put my coat?' 'Oh, bung it anywhere.'"),
+                                  text: "Bye for now Dad!"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "'قەمسەڵەکەم بخەمە کوێ؟' 'ئۆه، فڕێی بدە شوێنێک'."),
+                                  text: "خوات لەگەڵ بۆ ئێستا باوکە!"),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbungs2("en-GB"),
+                                    onPressed: () => speakbyes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) پارچەیەکی بچووک کە بەکاردێت بۆ بەستنی بانی بەرمیلێک، دۆڵکەیەک، هتد"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The winemaker inserted a tight bung into the wine barrel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەی‌گرەوەکە قەباغێکی توندی خستەسەر بەرمیلی بیرەکە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) بڕێک پارە کە دەدرێت بە کەسێک بۆ کردنی کارێکی نایاسایی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both the politicians denied taking bungs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەردوو سیاسییەکە نکۆڵییان لە وەرگرتنی بەرتیل کرد."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs4("en-US"),
+                                    onPressed: () => speakbyes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -317,8 +261,8 @@ class EnglishEntrybung extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -381,19 +325,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bung (Derived forms: bungs)
-1. A plug used to close a hole in a barrel or flask (= spile)
- 
-2. [Brit, informal] Payment made to a person in a position of trust to corrupt his judgment (= bribe, payoff, backhander [Brit, informal], kickback [informal])
+- Interjection: bye 
+Usage: informal
+1. An informal farewell remark (= cheers [Brit, informal], chin-chin [Brit, informal], toodle-oo [informal], toodle-pip [Brit, informal], ta-ta [Brit, informal], ta-ra [UK, informal], goodbye, bye-bye [informal], good-bye [N. Amer], good-by [US], farewell, sayonara [US, informal], so long [informal], vale [archaic])
+"We all stopped to say bye before her flight left";
 
-- Verb: bung (Derived forms: bunged, bunging, bungs)
-1. Give a tip or gratuity to in return for a service, beyond the compensation agreed on (= tip, fee)
-"Remember to bung the waiter";
+- Noun: bye (Derived forms: byes)
+1. An automatic advance to the next round in a tournament without playing an opponent (= pass)
+"he had a bye in the first round";
 
-2. Close with a cork or stopper
- 
-3. [Brit, informal] Put, throw
-"bung it in the cupboard"
+2. A farewell remark (= adieu, adios, arrivederci, auf wiedersehen, au revoir, bye-bye, cheerio [Brit, informal], good-by [US], goodby [US], good-bye [N. Amer], goodbye, good day, sayonara [US], so long [informal], farewell)
+"they said their good-byes";
 """,
   );
 
@@ -424,12 +366,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "GIMVge5TYz4";
+  static String myVideoId = "https://youtu.be/rPe4yziWiOg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 28, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +391,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "OubvTOHWTms";
+  static String myVideoId = "https://youtu.be/Oq61TxejZ5g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 24, // DOPSUM: CHANGE IT
+      startAt: 165, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +416,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "L4PKj9UNyGM";
+  static String myVideoId = "https://youtu.be/_GFkHA5EZdE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 454, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +441,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "NXAgjKDFc14";
+  static String myVideoId = "https://youtu.be/wHUMwXUHQmc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 435, // DOPSUM: CHANGE IT
+      startAt: 101, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +466,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "rRkvJpGXFHk";
+  static String myVideoId = "https://youtu.be/bHMmniN2ovM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 318, // DOPSUM: CHANGE IT
+      startAt: 159, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,12 +491,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "OrRXszXW71M";
+  static String myVideoId = "https://youtu.be/mmc9YuMbTnY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 140, // DOPSUM: CHANGE IT
+      startAt: 614, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -574,12 +516,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "5nmCkxjZoPc";
+  static String myVideoId = "https://youtu.be/TYSzPMNjQf4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 201, // DOPSUM: CHANGE IT
+      startAt: 1428, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -599,12 +541,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "nGIIJUNQk88";
+  static String myVideoId = "https://youtu.be/cLb8VRsRKkU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 370, // DOPSUM: CHANGE IT
+      startAt: 7527, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -624,12 +566,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "cFpgcgI3l9o";
+  static String myVideoId = "https://youtu.be/tcL3UyXB5k0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -649,62 +591,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "4SNCh-rMiTE";
+  static String myVideoId = "https://youtu.be/eXPSPugqaiQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1078, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-  static String myVideoId = "J0xdPkg-yUg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 1629, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-  static String myVideoId = "ikr7tUOzVC4";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 848, // DOPSUM: CHANGE IT
+      startAt: 761, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

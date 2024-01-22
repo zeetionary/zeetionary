@@ -228,7 +228,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I took him by the hand."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys25(String languageCode) async {
@@ -236,7 +236,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Pick it up by the handle!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys26(String languageCode) async {
@@ -244,7 +244,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We rented the car by the day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys27(String languageCode) async {
@@ -252,7 +253,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2727"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We only sell it by the metre."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys28(String languageCode) async {
@@ -260,7 +262,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2828"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They're improving day by day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys29(String languageCode) async {
@@ -268,7 +271,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys2929"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We'll do it bit by bit."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys30(String languageCode) async {
@@ -276,7 +279,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The room measures fifteen feet by twenty feet."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys31(String languageCode) async {
@@ -284,7 +288,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3131"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("6 multiplied by 2 equals 12."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys32(String languageCode) async {
@@ -292,7 +297,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3232"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("6 divided by 2 equals 3."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys33(String languageCode) async {
@@ -300,7 +305,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3333"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's German by birth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys34(String languageCode) async {
@@ -308,7 +313,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3434"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They're both doctors by profession."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys35(String languageCode) async {
@@ -316,7 +322,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3535"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I swear by Almighty God…"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys36(String languageCode) async {
@@ -324,7 +330,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3636"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Just drive by. Don't stop."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys37(String languageCode) async {
@@ -332,7 +338,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3737"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Excuse me, I can't get by."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys38(String languageCode) async {
@@ -340,7 +346,7 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3838"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Time goes by so quickly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys39(String languageCode) async {
@@ -348,7 +354,8 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys3939"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He tapped Brown on the shoulder as he went by."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbys40(String languageCode) async {
@@ -356,7 +363,89 @@ class EnglishEntryby extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbys4040"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I've put some money by for college fees."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys41(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I'll come by this evening and pick up the books."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys42(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4242"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys43(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4343"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys44(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4444"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys45(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4545"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys46(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4646"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys47(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4747"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys48(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4848"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys49(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys4949"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbys50(String languageCode) async {
+    // DOPSUM: CHANGE speakby
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbys5050"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -535,7 +624,7 @@ class EnglishEntryby extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) نزیک یان لە تەنیشت شتێک"),
+                              text: "٢. (ئامراز) نزیک یان لە تەنیشت شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -578,7 +667,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) لە ڕستەی نادیاردا بەکاردێت بۆ پیشاندانی ئەنجامدەری کارەکە"),
+                                  "٣. (ئامراز) لە ڕستەی نادیاردا بەکاردێت بۆ پیشاندانی ئەنجامدەری کارەکە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -673,7 +762,8 @@ class EnglishEntryby extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) پێش کاتێک یان دواتر نا لەو کاتە"),
+                              text:
+                                  "٤. (ئامراز) پێش کاتێک یان دواتر نا لەو کاتە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -773,7 +863,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) بەکاردێت لەگەڵ ژمارەیەک ناو بۆ وتنی ئەوەی شتێک بەهۆی شتێکەوە ڕوویدا"),
+                                  "٥. (ئامراز) بەکاردێت لەگەڵ ژمارەیەک ناو بۆ وتنی ئەوەی شتێک بەهۆی شتێکەوە ڕوویدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -816,7 +906,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) بەکاردێت بۆ پیشاندانی بڕ یان ڕێژە"),
+                                  "٦. (ئامراز) بەکاردێت بۆ پیشاندانی بڕ یان ڕێژە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -858,7 +948,7 @@ class EnglishEntryby extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) لە کاتی شتێکدا"),
+                              text: "٧. (ئامراز) لە کاتی شتێکدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -881,7 +971,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) بەپێی ئەوەی شتێک پیشانی دەدات یان دەیڵێت"),
+                                  "٨. (ئامراز) بەپێی ئەوەی شتێک پیشانی دەدات یان دەیڵێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -946,7 +1036,7 @@ class EnglishEntryby extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٩. (ناو) بەلای کەسێک یان شتێک"),
+                              text: "٩. (ئامراز) بەلای کەسێک یان شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -967,13 +1057,15 @@ class EnglishEntryby extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٠. (ناو) پێنناسە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (ئامراز) بەکاردێت بۆ پیشاندانی ئەو بەشەی کەسێک یان شتێک کە کەسێک دەستی لێ دەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "speakbys2424"),
+                                  text: "I took him by the hand."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text: "بەدەست بردم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -982,6 +1074,389 @@ class EnglishEntryby extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakbys24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Pick it up by the handle!"),
+                              const ExampleSentenceKurdish(
+                                  text: "بە دەسکەکەی بەرزی بکەوە!"),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١١. (ئامراز) بەکاردێت بۆ پیشاندانی ماوە یان بڕ لە کاتی کڕین، فرۆشتن، یان پێوانی شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We rented the car by the day."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئۆتۆمبێلەکەمان بە ڕۆژ بە کرێ گرت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We only sell it by the metre."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەنها بە مەتر دەیفرۆشین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys27("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٢. (ئامراز) بەکاردێت بۆ پیشاندانی ئەوەی شتێک بە چی گۆڕانکارییەک بەرەو پێشەوە دەچێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "They're improving day by day."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕۆژ بە ڕۆژ گەشە دەکەن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys28("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We'll do it bit by bit."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەم کەم دەیکەین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys29("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys29("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١٣. (ئامراز) بۆ پیشاندانی پێوانەی شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The room measures fifteen feet by twenty feet."),
+                              const ExampleSentenceKurdish(
+                                  text: "ژوورەکە ١٥ فیت بە ٢٠ فیتە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys30("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys30("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٤. (ئامراز) لە کاتی لێکدان و دابەشدا لە بیرکاریدا بەکاردێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "6 multiplied by 2 equals 12."),
+                              const ExampleSentenceKurdish(
+                                  text: "٦ کەڕەت ٢ یەکسانە بە ١٢."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys31("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys31("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "6 divided by 2 equals 3."),
+                              const ExampleSentenceKurdish(
+                                  text: "٦ دابەشی ٢ دەکاتە ٣."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys32("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys32("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٥. (ئامراز) بۆ زانیاریدان لەسەر کەسێک لە ڕووی کار، شوێنی ژیان، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He's German by birth."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە لەدایکبوونی ئەڵمانییە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys33("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys33("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "They're both doctors by profession."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە پیشە هەردووکیان دکتۆرن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys34("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys34("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٦. (ئامراز) بەکاردێت لە کاتی سوێندخواردن بە ناوی کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I swear by Almighty God…"),
+                              const ExampleSentenceKurdish(
+                                  text: "سوێند بە خودای گەورە..."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys35("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys35("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٧. (ھاوەڵکار) تێپەڕین بەلای شتێکدا یان تێپەڕینی کات"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Just drive by. Don't stop."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە لایدا تێپەڕە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys36("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys36("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Excuse me, I can't get by."),
+                              const ExampleSentenceKurdish(
+                                  text: "ببوورە، ناتوانم تێپەڕبم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys37("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys37("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text: "Time goes by so quickly."),
+                                      const ExampleSentenceKurdish(
+                                          text: "کات زۆر بەخێرایی دەچێت."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbys38("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbys38("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "He tapped Brown on the shoulder as he went by."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "دەستی نا بە شانی براوندا کە تێپەڕی."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakbys39("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakbys39("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٨. (ھاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک هەڵگیردراوە بۆ ئەوەی لە داهاتوودا بەکاربێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've put some money by for college fees."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەندێک پارەم هەڵگرتووە بۆ کرێی زانکۆ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys40("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys40("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٩. (ھاوەڵکار) بۆ سەردانکردنی کەسێک بۆ ماوەیەکی کەم"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'll come by this evening and pick up the books."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەم ئێوارە دێم و کتێبەکان دەبەم."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakbys41("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakbys41("en-US"),
                                   ),
                                 ],
                               ),

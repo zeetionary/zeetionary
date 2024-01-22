@@ -212,7 +212,7 @@ class EnglishEntrybrisk extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) کەسێک، یان دەنگ و ڕەفتاری، کە متمانەی پێوە دیارە و حەزدەکات شتەکان بە خێرایی بکات"),
+                                  "٣. (ھاوەڵناو) کەسێک، یان دەنگ و ڕەفتاری، کە متمانەی پێوە دیارە و حەزدەکات شتەکان بەخێرایی بکات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

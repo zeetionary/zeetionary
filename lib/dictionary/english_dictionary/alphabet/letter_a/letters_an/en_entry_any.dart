@@ -320,7 +320,7 @@ class EnglishEntryany extends StatelessWidget {
                                       "Any teacher will tell you that students learn at different rates."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بە خێرایی جیاواز فێردەبن."),
+                                      "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بەخێرایی جیاواز فێردەبن."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

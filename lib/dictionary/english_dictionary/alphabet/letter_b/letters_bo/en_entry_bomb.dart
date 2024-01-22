@@ -537,7 +537,7 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) جوڵان زۆر بە خێرایی بەتایبەتی لە ئامرازێکی گواستنەوەدا"),
+                                  "٦. (کردار) جوڵان زۆر بەخێرایی بەتایبەتی لە ئامرازێکی گواستنەوەدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

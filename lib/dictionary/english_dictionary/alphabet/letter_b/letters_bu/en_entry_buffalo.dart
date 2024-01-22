@@ -169,7 +169,7 @@ class EnglishEntrybuffalo extends StatelessWidget {
                                       "It is common here to see a water buffalo pulling a cart."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لێرە بینی گامێشێکی ئاوی کە عەڕابەیەک ڕابکێشێت بەربڵاوە."),
+                                      "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە."),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buffalo", follow LX strictly.
                               Column(
                                 children: [

@@ -184,7 +184,7 @@ class EnglishEntryarrange extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The party was arranged quickly."),
                               const ExampleSentenceKurdish(
-                                  text: "ئاھەنگەکە بە خێرایی ڕێکخرا."),
+                                  text: "ئاھەنگەکە بەخێرایی ڕێکخرا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

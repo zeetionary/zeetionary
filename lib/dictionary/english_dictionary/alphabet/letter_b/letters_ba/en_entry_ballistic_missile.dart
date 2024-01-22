@@ -167,7 +167,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
+١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بەخێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

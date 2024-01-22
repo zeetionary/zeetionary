@@ -128,7 +128,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: تەزوو یا تەوژمی گۆڕاو یا دوولایەنە، تەوژمی نۆرەکی
 
-١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بە خێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
+١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بەخێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

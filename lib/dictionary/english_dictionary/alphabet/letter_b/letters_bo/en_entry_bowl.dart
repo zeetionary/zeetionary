@@ -458,7 +458,7 @@ class EnglishEntrybowl extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (کردار) ڕۆشتن بە خێرایی بە ئاراستەیەکی دیاریکراودا"),
+                                  "٧. (کردار) ڕۆشتن بەخێرایی بە ئاراستەیەکی دیاریکراودا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

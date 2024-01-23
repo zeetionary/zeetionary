@@ -20,8 +20,17 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     "کوردی",
     "کوردستان",
     "کوردس‌تان",
+    "کوردس‌ تان",
+    "کورد س‌تان",
     "ھائی کوردی",
     "هائی عەرەبی",
+    "دەست‌پێ‌کردن",
+    "دەستپێکردن",
+    "دەستپێ‌کردن",
+    "دەست‌پێکردن",
+    "دەست پێ کردن",
+    "دەستپێ کردن",
+    "دەست پێکردن",
     "یەک",
     "دوو",
     "سێ",
@@ -94,8 +103,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
         // Update frequencies for exact matches, considering hyphens and spaces as the same
         for (String word in allWordsKurdish) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+          String normalizedWord =
+              normalizeKurdishZWNJ(normalizeKurdishH(word)).toLowerCase();
+          String normalizedQuery =
+              normalizeKurdishZWNJ(normalizeKurdishH(query)).toLowerCase();
 
           if (normalizedWord == normalizedQuery) {
             wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
@@ -105,8 +116,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
         // Update frequencies for relevant matches (contains the query), considering hyphens and spaces as the same
         for (String word in allWordsKurdish) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+          String normalizedWord =
+              normalizeKurdishZWNJ(normalizeKurdishH(word)).toLowerCase();
+          String normalizedQuery =
+              normalizeKurdishZWNJ(normalizeKurdishH(query)).toLowerCase();
 
           if (normalizedWord.contains(normalizedQuery)) {
             // Prioritize words with more consecutive matching characters
@@ -119,8 +132,9 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
         // Fuzzy search for approximate matches, considering hyphens and spaces as the same
         List<String> fuzzyMatches = allWordsKurdish
-            .where((word) => _fuzzyMatch(word.replaceAll('-', ' '),
-                query.replaceAll('-', ' ').toLowerCase()))
+            .where((word) => _fuzzyMatch(
+                normalizeKurdishZWNJ(normalizeKurdishH(word)),
+                normalizeKurdishZWNJ(normalizeKurdishH(query)).toLowerCase()))
             .toList();
 
         // Update frequencies for fuzzy matches
@@ -131,10 +145,12 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
         // Combine and prioritize by relevancy, with exact matches at the top
         filteredWords = wordFrequencies.keys.toList()
           ..sort((a, b) {
-            bool exactMatchA = a.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
-            bool exactMatchB = b.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
+            bool exactMatchA = normalizeKurdishZWNJ(normalizeKurdishH(a))
+                    .toLowerCase() ==
+                normalizeKurdishZWNJ(normalizeKurdishH(query)).toLowerCase();
+            bool exactMatchB = normalizeKurdishZWNJ(normalizeKurdishH(b))
+                    .toLowerCase() ==
+                normalizeKurdishZWNJ(normalizeKurdishH(query)).toLowerCase();
 
             if (exactMatchA && !exactMatchB) {
               return -1; // A is an exact match, so it comes first.
@@ -147,14 +163,12 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
               if (frequencyComparison == 0) {
                 // If frequencies are equal, prioritize words containing the exact match
-                bool containsExactA = a
-                    .replaceAll('-', ' ')
+                bool containsExactA = normalizeKurdishH(a)
                     .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
-                bool containsExactB = b
-                    .replaceAll('-', ' ')
+                    .contains(normalizeKurdishH(query).toLowerCase());
+                bool containsExactB = normalizeKurdishH(b)
                     .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
+                    .contains(normalizeKurdishH(query).toLowerCase());
 
                 if (containsExactA && !containsExactB) {
                   return -1; // A contains the exact match, so it comes next.
@@ -163,9 +177,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                 }
 
                 // If not an exact match, prioritize by the length of consecutive matches
-                int consecutiveMatchComparison =
-                    _countConsecutiveMatches(b, query)
-                        .compareTo(_countConsecutiveMatches(a, query));
+                int consecutiveMatchComparison = _countConsecutiveMatches(
+                        normalizeKurdishH(b), query)
+                    .compareTo(
+                        _countConsecutiveMatches(normalizeKurdishH(a), query));
 
                 if (consecutiveMatchComparison != 0) {
                   return consecutiveMatchComparison;
@@ -177,6 +192,19 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
           });
       }
     });
+  }
+
+  String normalizeKurdishZWNJ(String input) {
+    // Replace ZWNJ with an empty string
+    // https://chat.openai.com/c/3be92bde-854c-4f40-8617-179f3b7602ca
+    return input.replaceAll(
+        '\u200c', ''); // '\u200c' is the Unicode representation of ZWNJ
+  }
+
+  String normalizeKurdishH(String input) {
+    // Replace all occurrences of ھ with ه
+    // https://chat.openai.com/c/3be92bde-854c-4f40-8617-179f3b7602ca
+    return input.replaceAll('ھ', 'ه');
   }
 
   int _countConsecutiveMatches(String word, String query) {

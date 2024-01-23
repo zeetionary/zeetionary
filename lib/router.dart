@@ -2351,23 +2351,23 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calliper.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_callow.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_callus.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calm_down.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calmly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calmness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calorie.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calve.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calypso.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camber.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camcorder.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camel.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cameo.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camera.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camouflage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camp.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_camper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_campaign.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_campaigner.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5898,23 +5898,23 @@ final loggedInRoute = RouteMap(routes: {
   "/english-calliper": (_) => MaterialPage(child: EnglishEntrycalliper()),
   "/english-callow": (_) => MaterialPage(child: EnglishEntrycallow()),
   "/english-callus": (_) => MaterialPage(child: EnglishEntrycallus()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-calm": (_) => MaterialPage(child: EnglishEntrycalm()),
+  "/english-calm-down": (_) => MaterialPage(child: EnglishEntrycalmdown()),
+  "/english-calmly": (_) => MaterialPage(child: EnglishEntrycalmly()),
+  "/english-calmness": (_) => MaterialPage(child: EnglishEntrycalmness()),
+  "/english-calorie": (_) => MaterialPage(child: EnglishEntrycalorie()),
+  "/english-calve": (_) => MaterialPage(child: EnglishEntrycalve()),
+  "/english-calypso": (_) => MaterialPage(child: EnglishEntrycalypso()),
+  "/english-camber": (_) => MaterialPage(child: EnglishEntrycamber()),
+  "/english-camcorder": (_) => MaterialPage(child: EnglishEntrycamcorder()),
+  "/english-camel": (_) => MaterialPage(child: EnglishEntrycamel()),
+  "/english-cameo": (_) => MaterialPage(child: EnglishEntrycameo()),
+  "/english-camera": (_) => MaterialPage(child: EnglishEntrycamera()),
+  "/english-camouflage": (_) => MaterialPage(child: EnglishEntrycamouflage()),
+  "/english-camp": (_) => MaterialPage(child: EnglishEntrycamp()),
+  "/english-camper": (_) => MaterialPage(child: EnglishEntrycamper()),
+  "/english-campaign": (_) => MaterialPage(child: EnglishEntrycampaign()),
+  "/english-campaigner": (_) => MaterialPage(child: EnglishEntrycampaigner()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

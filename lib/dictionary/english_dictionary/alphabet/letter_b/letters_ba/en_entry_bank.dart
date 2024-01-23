@@ -273,7 +273,7 @@ class EnglishEntrybank extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) لە قوماردا ئەو پارەیە کە خاوەنەکەی دەیخاتە گرەو و بەأداربووان دەتوانن بیبەنەوە"""),
+٢. (ناو) لە قوماردا ئەو پارەیە کە خاوەنەکەی دەیخاتە گرەو و بەژداربووان دەتوانن بیبەنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

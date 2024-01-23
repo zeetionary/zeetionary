@@ -388,7 +388,7 @@ class EnglishEntryair extends StatelessWidget {
                                       "There was an air of complete confidence about her."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕواڵەتێکی تەواو متمانە بەخۆبوونی تێدا بوو."),
+                                      "ڕواڵەتێکی تەواو خۆباوەڕی تێدا بوو."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -5,89 +5,131 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "banquet" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace banquet - replace EnglishEntrybanquet
-
-// replace speakBanquet - /ˈbæŋkwɪt/
-
 enum TtsState { playing }
 
-class EnglishEntrybanquet extends StatelessWidget {
+class EnglishEntrycamber extends StatelessWidget {
 // blank divider
-  EnglishEntrybanquet({super.key});
+  EnglishEntrycamber({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanquet(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcamber(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("banquet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("camber"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Over 1 600 people attended a banquet in her honour."); // DOPSUM: CHANGE TEXT
+        "The road was designed with a noticeable camber for water drainage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanquets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBanquet
+  Future<void> speakcambers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanquets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcambers77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcambers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcamber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcambers1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,28 +146,22 @@ class EnglishEntrybanquet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "banquet"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "camber"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋkwɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkæmbə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanquet("en-GB"),
+                              onPressed: () => speakcamber("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋkwɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkæmbər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanquet("en-US"),
+                              onPressed: () => speakcamber("en-US"),
                             ),
                           ],
                         ),
@@ -143,16 +179,21 @@ class EnglishEntrybanquet extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -166,36 +207,34 @@ class EnglishEntrybanquet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ژەمێکی فەرمی و گەورە بۆ ژمارەیەکی زۆر خەڵکی، زۆرجار لە بۆنەی تایبەتدا کە وتاری تێدا پێشکەش دەکرێت"""),
+کوردی: گورگەپشت، کووڕایی (نێوەڕاست ڕێگا)
+
+١. (ناو) داکشانێک لە ناوەڕاستی ڕێگاوە بۆ هەردوو لا بۆ ئەوەی ئاو دەربچێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Over 1 600 people attended a banquet in her honour."),
+                                      "The road was designed with a noticeable camber for water drainage."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),
-                              const CustomSizedBoxForTTS(),
+                                      "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "camber", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanquets1("en-GB"),
+                                    onPressed: () => speakcambers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakBanquets1(// REPLACE: banquet
-                                            "en-US"),
+                                    onPressed: () => speakcambers1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -204,12 +243,18 @@ class EnglishEntrybanquet extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -263,16 +308,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: banquet (derived forms: banqueted, banquets, banqueting)
-1. A ceremonial dinner party for many people (= feast)
+- Noun: camber (Derived forms: cambers)
+1. A slight convexity (as of the surface of a road)
  
-2. A meal that is well prepared and greatly enjoyed (= feast, spread)
-"a banquet for the graduating seniors";
+2. A slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force (= bank, cant)
+ 
+3. The alignment of the wheels of a motor vehicle closer together at the bottom than at the top
 
-- Verb: banquet
-1. Provide a feast or banquet for (= feast, junket)
- 
-2. Partake in a feast or banquet (= feast, junket)
+- Verb: camber (Derived forms: cambered, cambers, cambering)
+1. Curve upward in the middle
 """,
   );
 
@@ -303,13 +347,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-
-  static String myVideoId = "1JH7C8TTGrM";
+  static String myVideoId = "https://youtu.be/B1KuxaAJhfw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -329,13 +372,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "WGgmEvSqQi8";
+  static String myVideoId = "https://youtu.be/VcpKEFhJhdc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -355,13 +397,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "6MxEhUnPxPA";
+  static String myVideoId = "https://youtu.be/MuJv2oTPtTo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 576, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -381,13 +422,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "LmARbYQnodc";
+  static String myVideoId = "https://youtu.be/88EzyI1BqCg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,13 +447,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "cCdK_Yzt5XI";
+  static String myVideoId = "https://youtu.be/ta_O63tJ4nE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 254, // DOPSUM: CHANGE IT
+      startAt: 285, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -433,13 +472,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "j0iOuOMh_JE";
+  static String myVideoId = "https://youtu.be/ZkMqRx8VP6o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 335, // DOPSUM: CHANGE IT
+      startAt: 649, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,13 +497,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "_ZGSLXcJ-rg";
+  static String myVideoId = "https://youtu.be/ijjxidpq154?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 492, // DOPSUM: CHANGE IT
+      startAt: 403, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -485,13 +522,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "Rm9t94mpkjo";
+  static String myVideoId = "https://youtu.be/qW4lIMA5-24?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1612, // DOPSUM: CHANGE IT
+      startAt: 305, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -511,13 +547,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "jFsjf7LevEU";
+  static String myVideoId = "https://youtu.be/sqlJX_-J97M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -537,13 +572,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/wmTdbGAmUNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 473, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -561,149 +595,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-// morethan one video, only first autoplay
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllertwo = YoutubePlayerController(
-    initialVideoId: myVideoIdTwo,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerthree = YoutubePlayerController(
-    initialVideoId: myVideoIdThree,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdFour = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerfour = YoutubePlayerController(
-    initialVideoId: myVideoIdFour,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdFive = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerfive = YoutubePlayerController(
-    initialVideoId: myVideoIdFive,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            YouTubeContainerDesign(controller: _controller),
-            YouTubeContainerDesign(controller: _controllertwo),
-            YouTubeContainerDesign(controller: _controllerthree),
-            YouTubeContainerDesign(controller: _controllerfour),
-            YouTubeContainerDesign(controller: _controllerfive),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// end banquet// TODO Implement this library.
+// end WORD_WEB

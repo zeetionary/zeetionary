@@ -173,7 +173,8 @@ class EnglishEntrybutterscotch extends StatelessWidget {
               const CustomTabBar(
                 tabs: [
                   UkIconForTab(),
-                  // KurdIconForTab(),
+                  // KurdIconForTab(), 
+                  // skipped_kurdish
                   VideoIconForTab(), // 01
                   VideoIconForTab(), // 02
                   VideoIconForTab(), // 03

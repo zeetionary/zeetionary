@@ -1005,6 +1005,9 @@ class EnglishButtonTTS extends StatefulWidget {
 class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
   bool isSpeaking = false;
 
+  // (zee; added tts to meaning text; text comes twice) https://chat.openai.com/c/dff0d3b0-86d4-4ed0-93af-e8272bccfaa5
+  // (zee; tts reads meaning; text comes once) https://chat.openai.com/c/c68e6ebf-f914-4eb6-bfc5-afdc77cc6b72
+
   @override
   Widget build(BuildContext context) {
     // Theme.of(context).primaryColor.withOpacity(0.009),

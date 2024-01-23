@@ -7,125 +7,123 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybustle extends StatelessWidget {
+class EnglishEntrycampaign extends StatelessWidget {
 // blank divider
-  EnglishEntrybustle({super.key});
+  EnglishEntrycampaign({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbustle(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaign(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bustle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("campaign"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles1(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She bustled around in the kitchen."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbustles2(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The nurse bustled us out of the room."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbustles3(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns1(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I sat in a café, watching the (hustle and) bustle of the street outside."); // DOPSUM: CHANGE TEXT
+        "Today police launched a campaign to reduce road accidents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles4(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns2(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The candidates are on the campaign trail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles5(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns3(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She led the campaign for parliamentary reform."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles6(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns4(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She led a successful campaign against the closure of the library."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles7(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns5(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Air battles had dominated the campaign."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles8(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns6(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The government has intensified the military campaign against the rebels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles9(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns7(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The party campaigned vigorously in the north of the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles10(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns8(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We have actively campaigned against whaling for the last 15 years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles11(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns9(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcampaigns99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles12(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns10(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcampaigns1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbustles13(String languageCode) async {
-    // DOPSUM: CHANGE speakbustle
+  Future<void> speakcampaigns11(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbustles1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcampaigns1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcampaigns12(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcampaigns1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcampaigns13(String languageCode) async {
+    // DOPSUM: CHANGE speakcampaign
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcampaigns1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -148,22 +146,22 @@ class EnglishEntrybustle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bustle"),
+                            EntryTitle(word: "campaign"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbʌsl/"),
+                            const IPAofEnglish(text: "IpaUK: /kæmˈpeɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbustle("en-GB"),
+                              onPressed: () => speakcampaign("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbʌsl/"),
+                            const IPAofEnglish(text: "IpaUS: /kæmˈpeɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbustle("en-US"),
+                              onPressed: () => speakcampaign("en-US"),
                             ),
                           ],
                         ),
@@ -182,7 +180,7 @@ class EnglishEntrybustle extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- find: 
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -209,23 +207,24 @@ class EnglishEntrybustle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ژاوە، هەراوهوریا، قاووقیژ، شلوقی، پەلەپچڕکێ، پەلەپڕووزە، پەلەپەل، جم‌وجۆڵ، زەمبەلەک یا تێلی داوێن 
+کوردی: زنجیرە کردارێکی شەڕی، کردار (شەڕ)، هێرش، پەلامار، شاڵاو، هەڵمەت، خەبات، چالاکی، ستراتێژی
 
-١. (کردار) پەلەپەلکردن و هاتووچۆ بە ئاراستەیەکدا"""),
+١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستهێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She bustled around in the kitchen."),
+                                  text:
+                                      "Today police launched a campaign to reduce road accidents."),
                               const ExampleSentenceKurdish(
-                                  text: "بە چێشتخانەکەدا جم‌وجۆڵی بوو."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bustle", follow LX strictly
+                                  text: "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaign", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbustles1("en-GB"),
+                                    onPressed: () => speakcampaigns1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles1("en-US"),
+                                    onPressed: () => speakcampaigns1("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,49 +232,159 @@ class EnglishEntrybustle extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The nurse bustled us out of the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارەکە لە ژوورەکە کردینییە دەرەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbustles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The candidates are on the campaign trail (= travelling around to attract support)."),
+                          const ExampleSentenceKurdish(
+                          text: "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns2("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          Column(
+                          children: [
+                          MyExpansionTile(
+                          children: [
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "She led the campaign for parliamentary reform."),
+                          const ExampleSentenceKurdish(
+                          text: "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns3("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "She led a successful campaign against the closure of the library."),
+                          const ExampleSentenceKurdish(
+                          text: "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns4("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) چالاکی بە دەنگەدەنگ و سەرقاڵانە"),
+                          const DefinitionKurdish(text: "٢. (ناو) زنجیرەیەک لە هێرش و شەڕ کە ئامانجێکی دیاریکراویان هەیە لە جەنگێکدا"),
                           Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I sat in a café, watching the (hustle and) bustle of the street outside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە قاوەخانەکە دانیشتم و دەمڕوانی لە قەرەباڵغی شەقامی دەرەوە."),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbustles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "Air battles had dominated the campaign."),
+                          const ExampleSentenceKurdish(
+                          text: "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns5("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The government has intensified the military campaign against the rebels."),
+                          const ExampleSentenceKurdish(
+                          text: "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns6("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی هەڵمەتێک"),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "The party campaigned vigorously in the north of the country."),
+                          const ExampleSentenceKurdish(
+                          text: "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns7("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns7("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const ExampleSentenceEnglish(
+                          text:
+                          "We have actively campaigned against whaling for the last 15 years."),
+                          const ExampleSentenceKurdish(
+                          text: "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcampaigns8("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcampaigns8("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -354,14 +463,23 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bustle (Derived forms: bustled, bustles, bustling)
-1. Move or cause to move energetically or busily (= bustle about, hustle)
-"The cheerleaders bustled about excitedly before their performance";
+- Noun: campaign (Derived forms: campaigns)
+1. A race between candidates for elective office (= political campaign, run)
+"I managed his campaign for governor";
 
-- Noun: bustle (Derived forms: bustles)
-1. A rapid active commotion (= hustle, flurry, ado, fuss, stir)
+2. A series of actions advancing a principle or tending toward a particular end (= cause, crusade, drive, movement, effort)
+"he supported populist campaigns";
  
-2. A framework worn at the back below the waist for giving fullness to a woman's skirt
+3. (military) several related operations aimed at achieving a particular goal (usually within geographical and temporal constraints) (= military campaign)
+
+4. Verb: campaign (Derived forms: campaigned, campaigns, campaigning)
+1. Stand or compete for an office or a position (= run)
+"Who's campaigning for treasurer this year?";
+ 
+2. Exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for (= crusade, fight, press, push, agitate)
+"She is campaigning for women's rights";
+
+3. Go on a campaign; go off to war (= take the field)
 """,
   );
 
@@ -392,12 +510,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "9TugA_z5vQE";
+  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 841, // DOPSUM: CHANGE IT
+      startAt: 431, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -417,12 +535,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "fL5DLVqVcis";
+  static String myVideoId = "https://youtu.be/CaaJyRvvaq8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1073, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -442,12 +560,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "Ky1c6d7v0pQ";
+  static String myVideoId = "https://youtu.be/7EnWiGYT1g4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      startAt: 44, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -467,12 +585,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "UeRa9bEhgXg";
+  static String myVideoId = "https://youtu.be/AT0NDotcEuk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 400, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -492,12 +610,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "FnBniAE2wiE";
+  static String myVideoId = "https://youtu.be/u0yqMYGC6kc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 315, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -517,12 +635,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "vzISWso8f1E";
+  static String myVideoId = "https://youtu.be/vb-p--iRFew?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 781, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -542,12 +660,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "VagjBaWZsSE";
+  static String myVideoId = "https://youtu.be/cK_RSgDqjX8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 107, // DOPSUM: CHANGE IT
+      startAt: 341, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,12 +685,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "zRXEcG-Oujk";
+  static String myVideoId = "https://youtu.be/p7SAg5nyW_w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 857, // DOPSUM: CHANGE IT
+      startAt: 34, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -592,12 +710,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "t-mqn5kIFwc";
+  static String myVideoId = "https://youtu.be/h810bO-4LIs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 364, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -617,12 +735,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "izrLIMZOqA0";
+  static String myVideoId = "https://youtu.be/t7Y02-03ZFU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 114, // DOPSUM: CHANGE IT
+      startAt: 516, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

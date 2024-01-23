@@ -549,7 +549,7 @@ class EnglishEntryblind extends StatelessWidget {
                                       "The earthquake, with the blind force of nature, shook the region, leaving buildings in ruins."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەأاند و بیناکانی کرد بە وێرانە."),
+                                      "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەژاند و بیناکانی کرد بە وێرانە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

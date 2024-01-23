@@ -7,129 +7,129 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycactus extends StatelessWidget {
+class EnglishEntrycallus extends StatelessWidget {
 // blank divider
-  EnglishEntrycactus({super.key});
+  EnglishEntrycallus({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcactus(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcallus(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cactus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("callus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Spectacular giant cacti stand on the hillside."); // DOPSUM: CHANGE TEXT
+        "He had workman's hands which were rough and covered with calluses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalluss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcallus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalluss1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -146,22 +146,22 @@ class EnglishEntrycactus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cactus"),
+                            EntryTitle(word: "callus"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæktəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkæləs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcactus("en-GB"),
+                              onPressed: () => speakcallus("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæktəs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkæləs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcactus("en-US"),
+                              onPressed: () => speakcallus("en-US"),
                             ),
                           ],
                         ),
@@ -179,12 +179,12 @@ class EnglishEntrycactus extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -207,25 +207,25 @@ class EnglishEntrycactus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (ڕووەک‌ناسی) کەکتێس، کاکتووس، زمانەخەسوو، گوڵەخەپلە، گیاخەپلە
+کوردی: ڕەقێنە، پۆلکە
 
-١. (ناو) ڕووەکێک کە لە ناوچەی وشک و گەرم گەشە دەکات، بەتایبەتی یەکێک کە قەدی ئەستوور و دڕکداری هەیە بەڵام گەڵای نییە. ڕووەکەکە زۆر جۆری هەیە"""),
+١. (ناو) بەشێکی دەست یان پێ کە پێستەکەی ڕەق بووە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Spectacular giant cacti stand on the hillside."),
+                                      "He had workman's hands which were rough and covered with calluses."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cactus", follow LX strictly
+                                      "دەستی کرێکارانەی هەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "callus", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcactuss1("en-GB"),
+                                    onPressed: () => speakcalluss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcactuss1("en-US"),
+                                    onPressed: () => speakcalluss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -244,7 +244,7 @@ class EnglishEntrycactus extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -308,12 +308,19 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cactus (Derived forms: cacti, cactuses)
-1. Any succulent plant of the family Cactaceae native chiefly to arid regions of the New World and usually having spines
+- Noun: callus (Derived forms: calluses)
+1. An area of skin that is thick or hard from continual pressure or friction (as the sole of the foot) (= callosity)
+ 
+2. Bony tissue formed during the healing of a fractured bone
+ 
+3. (botany) an isolated thickening of tissue, especially a stiff protuberance on the lip of an orchid
 
-- Adjective: cactus 
-Usage: Austral, NZ, informal (= broken-down)
-1. Not in working order
+- Verb: callus (Derived forms: calluses, callused, callusing)
+1. Cause a callus to form on
+"The long march had callused his feet"
+ 
+2. Form a callus or calluses
+"His foot callused"
 """,
   );
 
@@ -344,12 +351,12 @@ Usage: Austral, NZ, informal (= broken-down)
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "BxWw8AO4ZmI";
+  static String myVideoId = "Ya6MY4QkHrs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,7 +376,207 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "MnExgQ81fhU";
+  static String myVideoId = "IPf83sg04GA";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 34, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "cvIxMgQ-HYA";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 226, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "ztB8oRQv2w4";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 133, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "IAlmxB0UIB0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 181, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "TxRbrWXE9Gc";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 104, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+  static String myVideoId = "GiXR-DdQpXg";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 205, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+  static String myVideoId = "iHMrAWDTqOY";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 24, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+  static String myVideoId = "jeJRIk1hd4E";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 489, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+  static String myVideoId = "h_CyFoeWU9k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,190 +599,15 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "9TugA_z5vQE";
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+  static String myVideoId = "DiC-oe6alZM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 644, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "7aIS-SLQmOk";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 40, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "iBNySB2jpVg";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 179, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "R75tbPLHb9E";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 93, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "dSiWrmX4cgU";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "UBXeFItQSoc";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-  static String myVideoId = "hCH_W5o_Rog";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-  static String myVideoId = "NL3om8NWaHA";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+      startAt: 763, // DOPSUM: CHANGE IT
+// endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,

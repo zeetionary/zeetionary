@@ -2334,23 +2334,23 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calamity.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calcium.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calculable.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calculate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calculating.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calculation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calculator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calendar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calf.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calibre.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_call.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_caller.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_call_up.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_call_box.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_call_girl.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calligraphy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calling.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_calliper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_callow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_callus.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5881,23 +5881,23 @@ final loggedInRoute = RouteMap(routes: {
   "/english-calamity": (_) => MaterialPage(child: EnglishEntrycalamity()),
   "/english-calcium": (_) => MaterialPage(child: EnglishEntrycalcium()),
   "/english-calculable": (_) => MaterialPage(child: EnglishEntrycalculable()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-calculate": (_) => MaterialPage(child: EnglishEntrycalculate()),
+  "/english-calculating": (_) => MaterialPage(child: EnglishEntrycalculating()),
+  "/english-calculation": (_) => MaterialPage(child: EnglishEntrycalculation()),
+  "/english-calculator": (_) => MaterialPage(child: EnglishEntrycalculator()),
+  "/english-calendar": (_) => MaterialPage(child: EnglishEntrycalendar()),
+  "/english-calf": (_) => MaterialPage(child: EnglishEntrycalf()),
+  "/english-calibre": (_) => MaterialPage(child: EnglishEntrycalibre()),
+  "/english-call": (_) => MaterialPage(child: EnglishEntrycall()),
+  "/english-caller": (_) => MaterialPage(child: EnglishEntrycaller()),
+  "/english-call-up": (_) => MaterialPage(child: EnglishEntrycallup()),
+  "/english-call-box": (_) => MaterialPage(child: EnglishEntrycallbox()),
+  "/english-call-girl": (_) => MaterialPage(child: EnglishEntrycallgirl()),
+  "/english-calligraphy": (_) => MaterialPage(child: EnglishEntrycalligraphy()),
+  "/english-calling": (_) => MaterialPage(child: EnglishEntrycalling()),
+  "/english-calliper": (_) => MaterialPage(child: EnglishEntrycalliper()),
+  "/english-callow": (_) => MaterialPage(child: EnglishEntrycallow()),
+  "/english-callus": (_) => MaterialPage(child: EnglishEntrycallus()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

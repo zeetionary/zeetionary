@@ -7,123 +7,124 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycactus extends StatelessWidget {
+class EnglishEntrycalf extends StatelessWidget {
 // blank divider
-  EnglishEntrycactus({super.key});
+  EnglishEntrycalf({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcactus(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalf(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cactus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("calf"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs1(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Spectacular giant cacti stand on the hillside."); // DOPSUM: CHANGE TEXT
+        "She's been unable to play since January because of a torn calf muscle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs2(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("These calves are reared for beef."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs3(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs4(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs5(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs6(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs7(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs8(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs9(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs10(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs11(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs12(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcactuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcactus
+  Future<void> speakcalfs13(String languageCode) async {
+    // DOPSUM: CHANGE speakcalf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcactuss1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcalfs1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +147,22 @@ class EnglishEntrycactus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cactus"),
+                            EntryTitle(word: "calf"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæktəs/"),
+                            const IPAofEnglish(text: "IpaUK: /kɑːf/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcactus("en-GB"),
+                              onPressed: () => speakcalf("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæktəs/"),
+                            const IPAofEnglish(text: "IpaUS: /kæf/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcactus("en-US"),
+                              onPressed: () => speakcalf("en-US"),
                             ),
                           ],
                         ),
@@ -207,25 +208,49 @@ class EnglishEntrycactus extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (ڕووەک‌ناسی) کەکتێس، کاکتووس، زمانەخەسوو، گوڵەخەپلە، گیاخەپلە
+کوردی: گوێلک، کوێرەکە، پەڵخ، بێچووە مانگا، پەڵخ، پێستە یان کەوڵی گوێلک، گاوس، ماسوولکەی پووز یان بەلەک، نەرمەی پووز
 
-١. (ناو) ڕووەکێک کە لە ناوچەی وشک و گەرم گەشە دەکات، بەتایبەتی یەکێک کە قەدی ئەستوور و دڕکداری هەیە بەڵام گەڵای نییە. ڕووەکەکە زۆر جۆری هەیە"""),
+١. (ھاوەناو) بەشی پشتەوەی قاچ لە خوارەوەی چۆک و سەرەوەی قولەپێ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Spectacular giant cacti stand on the hillside."),
+                                      "She's been unable to play since January because of a torn calf muscle."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cactus", follow LX strictly
+                                      "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەهۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calf", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcactuss1("en-GB"),
+                                    onPressed: () => speakcalfs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcactuss1("en-US"),
+                                    onPressed: () => speakcalfs1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) گوێرەکە؛ بەچکە مانگا، یان ئاژەڵی دیکە، بۆ نموونە بەچکەی فیل و نەهەنگ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "These calves are reared for beef."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم گوێرەکانە بۆ گۆشتەکەیان گەورە دەکرێن."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcalfs2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcalfs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -308,12 +333,16 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cactus (Derived forms: cacti, cactuses)
-1. Any succulent plant of the family Cactaceae native chiefly to arid regions of the New World and usually having spines
-
-- Adjective: cactus 
-Usage: Austral, NZ, informal (= broken-down)
-1. Not in working order
+- Noun: calf (Derived forms: calves)
+1. Young of domestic cattle
+ 
+2. The muscular back part of the shank (= sura)
+ 
+3. Fine leather from the skin of a calf (= calfskin)
+ 
+4. Young of various large placental mammals e.g. whale, giraffe, elephant or buffalo
+ 
+5. A chunk of ice broken off from a larger glacier, iceberg, ice shelf, etc.
 """,
   );
 
@@ -344,12 +373,12 @@ Usage: Austral, NZ, informal (= broken-down)
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "BxWw8AO4ZmI";
+  static String myVideoId = "6c5XDMczC3U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,12 +398,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "MnExgQ81fhU";
+  static String myVideoId = "K4jIAdAUjHc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 290, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -394,12 +423,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "9TugA_z5vQE";
+  static String myVideoId = "KQA4n-QE63E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 644, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,12 +448,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "7aIS-SLQmOk";
+  static String myVideoId = "5KWhnR5sht8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 40, // DOPSUM: CHANGE IT
+      startAt: 57, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,12 +473,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "iBNySB2jpVg";
+  static String myVideoId = "zDvZpZ3ie3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 179, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -469,12 +498,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "R75tbPLHb9E";
+  static String myVideoId = "-M4-G8p8fmc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 93, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,12 +523,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "dSiWrmX4cgU";
+  static String myVideoId = "47MNn4bsmSw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 55, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,12 +548,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "UBXeFItQSoc";
+  static String myVideoId = "_Z0ZQT0FttM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,12 +573,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "hCH_W5o_Rog";
+  static String myVideoId = "nAZt9CtHrMk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 67, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,12 +598,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "NL3om8NWaHA";
+  static String myVideoId = "0Z-R7WRFznE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

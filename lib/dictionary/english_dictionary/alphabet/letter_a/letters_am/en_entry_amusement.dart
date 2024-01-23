@@ -405,7 +405,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'https://youtu.be/CupbRr2m_sM?t=';
+  static String myVideoId = 'https://youtu.be/CupbRr2m_sM"';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

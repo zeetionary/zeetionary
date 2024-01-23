@@ -2379,38 +2379,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "cabin",
     "cabin cruiser",
     "cabinet",
-    // "cable",
-    // "cable car",
-    // "cable television",
-    // "cache",
-    // "cackle",
-    // "cactus",
-    // "cadet",
-    // "cadge",
-    // "cafe",
-    // "cafeteria",
-    // "caffeine",
-    // "cage",
-    // "cagey",
-    // "cagoule",
-    // "cairn",
-    // "cajole",
-    // "cake",
-    // "calamity",
-    // "calcium",
-    // "calculable",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "cable",
+    "cable car",
+    "cable television",
+    "cache",
+    "cackle",
+    "cactus",
+    "cadet",
+    "cadge",
+    "cafe",
+    "cafeteria",
+    "caffeine",
+    "cage",
+    "cagey",
+    "cagoule",
+    "cairn",
+    "cajole",
+    "cake",
+    "calamity",
+    "calcium",
+    "calculable",
+    "calculate",
+    "calculating",
+    "calculation",
+    "calculator",
+    "calendar",
+    "calf",
+    "caliber",
+    "calibre",
+    "caliper",
+    "call",
+    "caller",
+    "call box",
+    "calligraphy",
+    "calling",
+    "calliper",
+    "call girl",
+    "callow",
+    "call-up",
+    "callus",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2442,7 +2449,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "manic-depressive",
     "not come/go amiss",
     "on behalf of",
+    "phone box",
     "take something amiss",
+    "telephone box",
     "trade name",
     "under age",
     "weblog",
@@ -12384,170 +12393,170 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-cabinet");
                   }
-                  // if (wordsEnglish == "cable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cable");
-                  // }
-                  // if (wordsEnglish == "cable television") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cable");
-                  // }
-                  // if (wordsEnglish == "cable car") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cable-car");
-                  // }
-                  // if (wordsEnglish == "cache") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cache");
-                  // }
-                  // if (wordsEnglish == "cackle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cackle");
-                  // }
-                  // if (wordsEnglish == "cactus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cactus");
-                  // }
-                  // if (wordsEnglish == "cadet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cadet");
-                  // }
-                  // if (wordsEnglish == "cadge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cadge");
-                  // }
-                  // if (wordsEnglish == "cafe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cafe");
-                  // }
-                  // if (wordsEnglish == "cafeteria") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cafeteria");
-                  // }
-                  // if (wordsEnglish == "caffeine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caffeine");
-                  // }
-                  // if (wordsEnglish == "cage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cage");
-                  // }
-                  // if (wordsEnglish == "cagey") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cagey");
-                  // }
-                  // if (wordsEnglish == "cagoule") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cagoule");
-                  // }
-                  // if (wordsEnglish == "cairn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cairn");
-                  // }
-                  // if (wordsEnglish == "cajole") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cajole");
-                  // }
-                  // if (wordsEnglish == "cake") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cake");
-                  // }
-                  // if (wordsEnglish == "calamity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calamity");
-                  // }
-                  // if (wordsEnglish == "calcium") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calcium");
-                  // }
-                  // if (wordsEnglish == "calculable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calculable");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "cable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cable");
+                  }
+                  if (wordsEnglish == "cable television") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cable");
+                  }
+                  if (wordsEnglish == "cable car") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cable-car");
+                  }
+                  if (wordsEnglish == "cache") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cache");
+                  }
+                  if (wordsEnglish == "cackle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cackle");
+                  }
+                  if (wordsEnglish == "cactus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cactus");
+                  }
+                  if (wordsEnglish == "cadet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cadet");
+                  }
+                  if (wordsEnglish == "cadge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cadge");
+                  }
+                  if (wordsEnglish == "cafe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cafe");
+                  }
+                  if (wordsEnglish == "cafeteria") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cafeteria");
+                  }
+                  if (wordsEnglish == "caffeine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caffeine");
+                  }
+                  if (wordsEnglish == "cage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cage");
+                  }
+                  if (wordsEnglish == "cagey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cagey");
+                  }
+                  if (wordsEnglish == "cagoule") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cagoule");
+                  }
+                  if (wordsEnglish == "cairn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cairn");
+                  }
+                  if (wordsEnglish == "cajole") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cajole");
+                  }
+                  if (wordsEnglish == "cake") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cake");
+                  }
+                  if (wordsEnglish == "calamity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calamity");
+                  }
+                  if (wordsEnglish == "calcium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calcium");
+                  }
+                  if (wordsEnglish == "calculable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calculable");
+                  }
+                  if (wordsEnglish == "calculate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calculate");
+                  }
+                  if (wordsEnglish == "calculating") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calculating");
+                  }
+                  if (wordsEnglish == "calculation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calculation");
+                  }
+                  if (wordsEnglish == "calculator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calculator");
+                  }
+                  if (wordsEnglish == "calendar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calendar");
+                  }
+                  if (wordsEnglish == "calf") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calf");
+                  }
+                  if (wordsEnglish == "calibre") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calibre");
+                  }
+                  if (wordsEnglish == "caliber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calibre");
+                  }
+                  if (wordsEnglish == "caliper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calliper");
+                  }
+                  if (wordsEnglish == "calliper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calliper");
+                  }
+                  if (wordsEnglish == "call") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call");
+                  }
+                  if (wordsEnglish == "caller") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caller");
+                  }
+                  if (wordsEnglish == "call-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call-up");
+                  }
+                  if (wordsEnglish == "call box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call-box");
+                  }
+                  if (wordsEnglish == "phone box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call-box");
+                  }
+                  if (wordsEnglish == "telephone box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call-box");
+                  }
+                  if (wordsEnglish == "call girl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-call-girl");
+                  }
+                  if (wordsEnglish == "calligraphy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calligraphy");
+                  }
+                  if (wordsEnglish == "calling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calling");
+                  }
+                  if (wordsEnglish == "callow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-callow");
+                  }
+                  if (wordsEnglish == "callus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-callus");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

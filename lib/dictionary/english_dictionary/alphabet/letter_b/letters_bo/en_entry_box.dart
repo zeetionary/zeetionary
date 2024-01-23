@@ -100,7 +100,7 @@ class EnglishEntrybox extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I called him from the phone box ."); // DOPSUM: CHANGE TEXT
+        .speak("I called him from the phone box."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakboxs10(String languageCode) async {
@@ -489,7 +489,7 @@ class EnglishEntrybox extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "I called him from the phone box ."),
+                                  text: "I called him from the phone box."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کیوسکی تەلەفۆنی سەرشەقامەکەوە پەیوەندیم پێوەکرد."),

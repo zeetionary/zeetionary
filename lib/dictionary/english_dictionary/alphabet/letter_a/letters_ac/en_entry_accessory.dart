@@ -126,7 +126,7 @@ class EnglishEntryaccessory extends StatelessWidget {
                                       "We stock a large range of bicycle accessories."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل ھەڵدەگرین."),
+                                      "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل دابین دەکەین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

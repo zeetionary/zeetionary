@@ -7,76 +7,130 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrybroaden extends StatelessWidget {
+class EnglishEntrycalculate extends StatelessWidget {
 // blank divider
-  EnglishEntrybroaden({super.key});
+  EnglishEntrycalculate({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbroaden(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculate(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("broaden"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("calculate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens1(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her smile broadened."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbroadens2(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This seems to be an attempt to broaden his political appeal."); // DOPSUM: CHANGE TEXT
+        "That figure was calculated using the standard equation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens3(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Spending a year working in the city helped to broaden his horizons."); // DOPSUM: CHANGE TEXT
+        "We haven’t really calculated the cost of the vacation yet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens4(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadens44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Use the formula to calculate the volume of the container."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens5(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadens55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You'll need to calculate how much time the assignment will take."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens6(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadens66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The sum involved was calculated at £82 million."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbroadens7(String languageCode) async {
-    // DOPSUM: CHANGE speakbroaden
+  Future<void> speakcalculates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbroadens77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Conservationists calculate that hundreds of species could be lost in this area."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It is impossible to calculate what influence he had on her life."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I tried to calculate how much time it would take me to get there."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcalculates99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcalculates1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcalculates1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcalculates1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcalculates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcalculate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcalculates1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -99,22 +153,22 @@ class EnglishEntrybroaden extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "broaden"),
+                            EntryTitle(word: "calculate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbrɔːdn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkælkjuleɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbroaden("en-GB"),
+                              onPressed: () => speakcalculate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbrɔːdn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkælkjuleɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbroaden("en-US"),
+                              onPressed: () => speakcalculate("en-US"),
                             ),
                           ],
                         ),
@@ -133,7 +187,7 @@ class EnglishEntrybroaden extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -160,47 +214,125 @@ class EnglishEntrybroaden extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پان کردن، بەرفراوان کردن، بەرین کردن
+کوردی: لێکدانەوە، ژمارە لێکدانەوە، هەڵسەنگاندن
 
-١. (کردار) پانبوون، فراوانبوون"""),
+١. (کردار) بەکارهێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Her smile broadened."),
+                                  text:
+                                      "That figure was calculated using the standard equation."),
                               const ExampleSentenceKurdish(
-                                  text: "بزەکەی گەورەبوو."),
-                              const CustomSizedBoxForTTS(), // Define the word "broaden" as
+                                  text:
+                                      "ژمارەکە لێکدرایەوە بە بەکارهێنانی هاوکێشەیەکی ستاندارد."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculate", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens1("en-GB"),
+                                    onPressed: () => speakcalculates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens1("en-US"),
+                                    onPressed: () => speakcalculates1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) زیادبوونی کاریگەری"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "This seems to be an attempt to broaden his political appeal."),
+                                      "We haven’t really calculated the cost of the vacation yet."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
+                                  text: "هێشتا تێچووی."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens2("en-GB"),
+                                    onPressed: () => speakcalculates2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens2("en-US"),
+                                    onPressed: () => speakcalculates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "Use the formula to calculate the volume of the container."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "هاوکێشەکە بەکاربهێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcalculates3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcalculates3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "You'll need to calculate how much time the assignment will take."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcalculates4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcalculates4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "The sum involved was calculated at £82 million."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcalculates5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcalculates5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -209,23 +341,76 @@ class EnglishEntrybroaden extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) زیادکردنی ئەزموون، شارەزایی، ھتد"),
+                                  "٢. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوونێک بە بەکارهێنانی هەموو زانیارییەکی بەردەست"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Spending a year working in the city helped to broaden his horizons."),
+                                      "Conservationists calculate that hundreds of species could be lost in this area."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەسەربردنی ساڵیک لە شار بە کارکردنەوە تێگەشتنی فراوان کرد."),
+                                      "ژینگەپارێزان خەمڵاندوویانە کە سەدان گیانلەبەر لەناودەچن لەم ناوچەیەدا."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens3("en-GB"),
+                                    onPressed: () => speakcalculates6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens3("en-US"),
+                                    onPressed: () => speakcalculates6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is impossible to calculate what influence he had on her life."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی هەیبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcalculates7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcalculates7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "I tried to calculate how much time it would take me to get there."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "هەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcalculates8("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcalculates8("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -308,18 +493,19 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: broaden (Derived forms: broadening, broadened, broadens)
-1. Make broader
-"broaden the road"
+- Verb: calculate (Derived forms: calculated, calculates, calculating)
+1. (mathematics) make a mathematical calculation or computation (= cipher, cypher, compute, work out, reckon, figure [N. Amer])
+"you can calculate the area of a square if you know the length of its sides";
  
-2. Increase in scope, range or area (= widen, extend)
-"broaden your horizon";
-
-3. Vary in order to spread risk or to expand (= diversify, branch out)
-"The company broadened";
-
-4. Become broader
-"The road broadened"
+2. Judge to be probable (= estimate, reckon, count on, figure, forecast)
+ 
+3. Keep an account of (= account)
+ 
+4. Predict in advance (= forecast)
+ 
+5. Specifically design a product, event, or activity for a certain public (= aim, direct)
+ 
+6. Have faith or confidence in (= count, bet, depend, swear, rely, bank, look, reckon)
 """,
   );
 
@@ -350,13 +536,12 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-
-  static String myVideoId = "brKw9KtNm04";
+  static String myVideoId = "Kou7ur5xt_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 640, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -376,13 +561,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-
-  static String myVideoId = "SwQhKFMxmDY";
+  static String myVideoId = "bGqvimnOTeg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5172, // DOPSUM: CHANGE IT
+      startAt: 188, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,13 +586,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "asrGCMGSmY0";
+  static String myVideoId = "bHIhgxav9LY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 326, // DOPSUM: CHANGE IT
+      startAt: 349, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,13 +611,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-
-  static String myVideoId = "2nc9AFcKIuM";
+  static String myVideoId = "KhhU_Ch65YQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 11, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -454,13 +636,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-
-  static String myVideoId = "5zfZhskSmp0";
+  static String myVideoId = "1pZqiuaZYGY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 146, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,13 +661,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "8cS5KOrgJ7Q";
+  static String myVideoId = "NJpJITRFrjg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 102, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -506,13 +686,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "KcG1F39GBA8";
+  static String myVideoId = "1_FyoPDsuGc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1932, // DOPSUM: CHANGE IT
+      startAt: 133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -532,13 +711,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "srT39VGOLMo";
+  static String myVideoId = "vc5dotshPZc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 630, // DOPSUM: CHANGE IT
+      startAt: 3700, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,13 +736,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "bMOOQfeloH0";
+  static String myVideoId = "YcYmbcwmRwQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1034, // DOPSUM: CHANGE IT
+      startAt: 2857, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,65 +761,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "FcSLfGFqNQU";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 798, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "U3eX6QKS9kY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

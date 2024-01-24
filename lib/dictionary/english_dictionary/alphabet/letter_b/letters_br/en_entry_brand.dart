@@ -459,8 +459,7 @@ class EnglishEntrybrand extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٥. (کردار) ناوھێنانی کەسێک یان شتێک بە خراپ"),
+                              text: "٥. (کردار) ناوھێنانی کەسێک/شتێک بە خراپ"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

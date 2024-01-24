@@ -164,7 +164,7 @@ class EnglishEntrybatch extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: تەنوورێ، چین، دەستەوار، بەر، بەرھەمی یەکجار لێ‌نیشتن (نان، کەیک و ھتد)، بەرەلێ‌نیشتن، تیپ، کۆمەڵ، دەستە، گروپە
 
-١. (ناو) کۆمەڵە کەسێک یان شتێک کە وەک گرووپێک سەیردەکرێن"""),
+١. (ناو) کۆمەڵە کەسێک/شتێک کە وەک گرووپێک سەیردەکرێن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -125,7 +125,7 @@ class EnglishEntryallocate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) پێدانی شتێک بە فەرمی بە کەسێک یان شتێک"""),
+١. (کردار) پێدانی شتێک بە فەرمی بە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

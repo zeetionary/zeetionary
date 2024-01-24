@@ -492,7 +492,7 @@ class EnglishEntryaround extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (ئامراز) بۆ گونجاندن لەگەڵ کەسێک یان شتێک"""),
+٥. (ئامراز) بۆ گونجاندن لەگەڵ کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

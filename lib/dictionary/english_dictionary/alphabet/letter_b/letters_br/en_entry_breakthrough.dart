@@ -217,7 +217,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک یان شتێک بۆ یەکەم جار سەرکەوتووە و ئەگەری بەرەوپێشچوونی زیاتری ھەیە لە داھاتوودا"),
+                                  "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک/شتێک بۆ یەکەم جار سەرکەوتووە و ئەگەری بەرەوپێشچوونی زیاتری ھەیە لە داھاتوودا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -244,7 +244,7 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) زۆر گرنگ لە پەرەسەندنی کەسێک یان شتێک"),
+                                  "٣. (ھاوەڵناو) زۆر گرنگ لە پەرەسەندنی کەسێک/شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

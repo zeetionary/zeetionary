@@ -296,7 +296,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ئامراز) لە دوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا"""),
+٢. (ئامراز) لە دوای کەسێک/شتێکەوە لە ڕیزبەندییەکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -474,7 +474,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک یان شتێک"""),
+٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

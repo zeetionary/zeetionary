@@ -255,8 +255,7 @@ class EnglishEntrybulk extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کێش یان شێوەی کەسێک یان شتێکی گەورە"),
+                              text: "٣. (ناو) کێش یان شێوەی کەسێک/شتێکی گەورە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

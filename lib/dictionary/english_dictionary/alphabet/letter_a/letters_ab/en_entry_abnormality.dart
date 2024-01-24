@@ -102,7 +102,7 @@ class EnglishEntryabnormality extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: نائاسایی بوون، سەیربوون، ڕیزپەڕێتی، ناوازەیی، دۆخێکی نائاسایی
 
-١. (ناو) تایبەتمەندییەکی کەسێک یان شتێک کە ئاسایی نییە و زیانی ھەیە"""),
+١. (ناو) تایبەتمەندییەکی کەسێک/شتێک کە ئاسایی نییە و زیانی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -187,7 +187,7 @@ class EnglishEntrybuilder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک یان شتێک کە شتێک درووست دەکات یان پەرەی پێدەدات"),
+                                  "٢. (ناو) کەسێک/شتێک کە شتێک درووست دەکات یان پەرەی پێدەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

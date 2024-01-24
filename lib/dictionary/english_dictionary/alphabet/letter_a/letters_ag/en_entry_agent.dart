@@ -227,7 +227,7 @@ class EnglishEntryagent extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ناو) کەسێک یان شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە"""),
+٤. (ناو) کەسێک/شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

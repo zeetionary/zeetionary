@@ -724,7 +724,7 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٩. (کردار) ھەڵگرتنی کەسێک یان شتێک"""),
+٩. (کردار) ھەڵگرتنی کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

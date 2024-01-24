@@ -193,7 +193,7 @@ class EnglishEntryamong extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (لە) نێوان، لەنێو، لەنێوەڕاست، ل ئۆرتا، لە ڕێزەی، یەکێ لە
 
-١. (ئامراز) دەوردراو بە کەسێک یان شتێک، لە ناوەڕاستی کەسێک یان شتێک"""),
+١. (ئامراز) دەوردراو بە کەسێک/شتێک، لە ناوەڕاستی کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

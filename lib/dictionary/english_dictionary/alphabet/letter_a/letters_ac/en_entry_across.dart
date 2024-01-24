@@ -324,7 +324,7 @@ class EnglishEntryacross extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ھاوەڵکار) بە ئاراستەیەکی دیاریکراو و ڕوو لە کەسێک یان شتێک"""),
+٦. (ھاوەڵکار) بە ئاراستەیەکی دیاریکراو و ڕوو لە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -334,7 +334,7 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) داپۆشینی کەسێک یان شتێک بە خۆڵ، بەرد، گەڵا، هتد"),
+                                  "٣. (کردار) داپۆشینی کەسێک/شتێک بە خۆڵ، بەرد، گەڵا، هتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

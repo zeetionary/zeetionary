@@ -558,7 +558,7 @@ class EnglishEntryat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٠. (ئامراز) بەکاردێت بۆ پیشاندنی ئەو دۆخەی کەسێک یان شتێک تێیدایە، ئەوەی کەسێک دەیکات، یان ئەوەی چی ڕوودەدات"""),
+١٠. (ئامراز) بەکاردێت بۆ پیشاندنی ئەو دۆخەی کەسێک/شتێک تێیدایە، ئەوەی کەسێک دەیکات، یان ئەوەی چی ڕوودەدات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -188,7 +188,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ئامراز) پێش کەسێک یان شتێک"""),
+٢. (ئامراز) پێش کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

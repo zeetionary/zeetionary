@@ -194,7 +194,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) دەوردانی کەسێک یان شتێک بە ژمارەیەکی زۆر"""),
+٢. (کردار) دەوردانی کەسێک/شتێک بە ژمارەیەکی زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

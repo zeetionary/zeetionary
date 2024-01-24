@@ -235,7 +235,7 @@ class EnglishEntryattribute extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) گەڕاندنەوەی شتێک، بۆ نموونە تایبەتمەندییەک یان خاسیەتێک، بۆ کەسێک یان شتێک """),
+٣. (کردار) گەڕاندنەوەی شتێک، بۆ نموونە تایبەتمەندییەک یان خاسیەتێک، بۆ کەسێک/شتێک """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

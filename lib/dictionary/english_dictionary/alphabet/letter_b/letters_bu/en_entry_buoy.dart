@@ -262,7 +262,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ڕاگرتنی کەسێک یان شتێک بە سەرئاوکەوتووی"),
+                                  "٣. (کردار) ڕاگرتنی کەسێک/شتێک بە سەرئاوکەوتووی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

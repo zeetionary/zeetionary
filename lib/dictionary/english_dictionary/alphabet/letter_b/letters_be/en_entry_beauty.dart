@@ -239,7 +239,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) کەسێک یان شتێکی جوان"""),
+٢. (ناو) کەسێک/شتێکی جوان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

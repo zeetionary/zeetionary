@@ -228,7 +228,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کاری لێکدراو) باوەڕبوون بەوەی کەسێک یان شتێک خاسیەتێکی تایبەتی ھەیە، یان دەبێت ھەیبێت"""),
+٣. (کاری لێکدراو) باوەڕبوون بەوەی کەسێک/شتێک خاسیەتێکی تایبەتی ھەیە، یان دەبێت ھەیبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

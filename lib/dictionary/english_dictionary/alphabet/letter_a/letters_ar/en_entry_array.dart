@@ -178,7 +178,7 @@ class EnglishEntryarray extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕیز، ڕێکخستن، ڕێکی، خشتی، تەکوزی، پیشاندان، خستنەڕوو، ڕانان, دەستە، کۆمەڵە، دەستە سەربازێ، شمەک، بەرگ، جل‌وبەرگ
 
-١. (ناو) کۆمەڵە کەسێک یان شتێک"""),
+١. (ناو) کۆمەڵە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

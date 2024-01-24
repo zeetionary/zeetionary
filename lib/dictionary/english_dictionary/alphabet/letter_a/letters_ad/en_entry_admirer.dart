@@ -124,7 +124,7 @@ class EnglishEntryadmirer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پیاھەڵدەر، پەسن‌دەر، تاریف‌دەر، ئەویندار، سەوداسەر، دڵ‌تێچوو، ئەوداڵ، لایەنگر
 
-١. (ناو) کەسێک کە سەرسامە بە کەسێک یان شتێک"""),
+١. (ناو) کەسێک کە سەرسامە بە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

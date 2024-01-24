@@ -169,7 +169,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
 
-١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە"""),
+١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

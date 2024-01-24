@@ -370,7 +370,7 @@ class EnglishEntrybefore extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پێشتر، پێشوو، پێشەکی، لەوەپێش، لەپێش، بەر، لە پێشاندا، لەپێشا، پێشدا، بەرلە، لەمەوبەر، زووتر، پێش لەوەی کە، پێش ئەوەی کە، بەر لەوەی کە، پێشتر لە، لە پێشتر، پێش، لە بەردەم، باشتر لە، ھەتا، تا
 
-١. (ئامراز) پێش کەسێک یان شتێک"""),
+١. (ئامراز) پێش کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -461,7 +461,7 @@ class EnglishEntrybefore extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک یان شتێک لە پێش کەسێک یان شتێکە لە ڕیزبەندییەک یان ڕێکخستنێک"""),
+٢. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک/شتێک لە پێش کەسێک/شتێکە لە ڕیزبەندییەک یان ڕێکخستنێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -507,7 +507,7 @@ class EnglishEntrybefore extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک یان شتێک لە جێگەیەکە کە لە پێش کەسێک یان شتێکە"""),
+٣. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک/شتێک لە جێگەیەکە کە لە پێش کەسێک/شتێکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -642,7 +642,7 @@ class EnglishEntrybefore extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ئامراز) بۆ وتنی ئەوەی چۆن کەسێک ڕەفتاری کرد کە ڕووبەڕووی کەسێک یان شتێک دەبێتەوە"""),
+٦. (ئامراز) بۆ وتنی ئەوەی چۆن کەسێک ڕەفتاری کرد کە ڕووبەڕووی کەسێک/شتێک دەبێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

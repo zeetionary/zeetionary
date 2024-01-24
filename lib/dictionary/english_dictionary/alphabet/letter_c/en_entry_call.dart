@@ -720,7 +720,7 @@ class EnglishEntrycall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) ناساندنی کەسێک یان شتێک بەشێوەیەکی دیاریکراو"),
+                                  "٤. (کردار) ناساندنی کەسێک/شتێک بەشێوەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1417,7 +1417,7 @@ class EnglishEntrycall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٨. (ناو) خواست یان فشار کە لەسەر کەسێک یان شتێک دادەنرێت"),
+                                  "١٨. (ناو) خواست یان فشار کە لەسەر کەسێک/شتێک دادەنرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

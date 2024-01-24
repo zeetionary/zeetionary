@@ -231,7 +231,7 @@ class EnglishEntryappeal extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) خاسیەتێک کە وادەکای کەسێک یان شتێک سەرنجڕاکێش یان سەرسوڕھێنەر بێت"""),
+٢. (ناو) خاسیەتێک کە وادەکای کەسێک/شتێک سەرنجڕاکێش یان سەرسوڕھێنەر بێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

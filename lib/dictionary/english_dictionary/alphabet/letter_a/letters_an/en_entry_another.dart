@@ -295,7 +295,7 @@ class EnglishEntryanother extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (دیارخەر، جێناو) کەسێک یان شتێک کە وەک یەکێکی ترە"""),
+٣. (دیارخەر، جێناو) کەسێک/شتێک کە وەک یەکێکی ترە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

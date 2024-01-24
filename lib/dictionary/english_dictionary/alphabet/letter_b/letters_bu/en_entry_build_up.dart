@@ -236,7 +236,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) دۆخێک کە تێیدا کەسێک یان شتێک بە شێوەیەکی ئەرێنی باس دەکرێت"),
+                                  "٣. (ناو) دۆخێک کە تێیدا کەسێک/شتێک بە شێوەیەکی ئەرێنی باس دەکرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

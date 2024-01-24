@@ -287,8 +287,7 @@ class EnglishEntrybundle extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) کەسێک یان شتێک کە دەتخاتە پێکەنین"),
+                              text: "٣. (ناو) کەسێک/شتێک کە دەتخاتە پێکەنین"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -188,7 +188,7 @@ class EnglishEntrybreakout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) کەسێک یان شتێک کە لەناکاو تەواو ناسراو و سەرکەوتووە"),
+                                  "٢. (ھاوەڵناو) کەسێک/شتێک کە لەناکاو تەواو ناسراو و سەرکەوتووە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

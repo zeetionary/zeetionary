@@ -166,7 +166,7 @@ class EnglishEntrybearable extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) کەسێک یان شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
+١. (ھاوەڵناو) کەسێک/شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

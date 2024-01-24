@@ -739,7 +739,7 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) ئاشکراکردنی زانیاری لەسەر کەسێک یان شتێک بە مەبەستی دژایەتی یان پەسندانی"),
+                                  "٩. (کردار) ئاشکراکردنی زانیاری لەسەر کەسێک/شتێک بە مەبەستی دژایەتی یان پەسندانی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

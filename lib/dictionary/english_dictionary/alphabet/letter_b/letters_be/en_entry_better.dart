@@ -741,7 +741,7 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١١. (کردار) باشتربوون لە کەسێک یان شتێک"""),
+١١. (کردار) باشتربوون لە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

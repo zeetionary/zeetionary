@@ -852,7 +852,7 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٦. (ناو) ڕووداوێکی لەناکاو کە زیانی دەبێت بۆ کەسێک یان شتێک"),
+                                  "١٦. (ناو) ڕووداوێکی لەناکاو کە زیانی دەبێت بۆ کەسێک/شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

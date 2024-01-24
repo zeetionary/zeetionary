@@ -235,7 +235,7 @@ class EnglishEntrybuttress extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) پشتگیری یان وزە دان بە کەسێک یان شتێک"),
+                                  "٢. (کردار) پشتگیری یان وزە دان بە کەسێک/شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

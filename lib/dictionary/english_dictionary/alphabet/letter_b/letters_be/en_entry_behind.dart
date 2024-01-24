@@ -259,7 +259,7 @@ class EnglishEntrybehind extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پشتەوە، دواوە، لە پشتەوە، لە پشت، لە دواوە، لە دوای، لەپاش، درەنگ، درەنگ‌تر لە، بەشی پشتەوە، ئەوبەر، پشتیوانی، لایەنگری، داکۆکی، سمت، کنگ، کەفەڵ، ڕوونەک، پاشەڵ
 
-١. (ئامراز) لە پشتەوە یان بەرەو پشتەوەی کەسێک یان شتێک"""),
+١. (ئامراز) لە پشتەوە یان بەرەو پشتەوەی کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -447,7 +447,7 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ھاوەڵکار) لە پشتەوە یان بەرەو پشتەوەی کەسێک یان شتێک"""),
+٦. (ھاوەڵکار) لە پشتەوە یان بەرەو پشتەوەی کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -515,7 +515,7 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (ھاوەڵکار) لەو شوێنەی کە کەسێک یان شتێکی لێیە"""),
+٧. (ھاوەڵکار) لەو شوێنەی کە کەسێک/شتێکی لێیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

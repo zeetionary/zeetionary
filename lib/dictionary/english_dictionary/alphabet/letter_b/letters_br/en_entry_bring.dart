@@ -496,7 +496,7 @@ class EnglishEntrybring extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) پێدانی شتێک بە کەسێک یان شتێک"),
+                              text: "٢. (کردار) پێدانی شتێک بە کەسێک/شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

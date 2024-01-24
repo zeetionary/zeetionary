@@ -123,7 +123,7 @@ class EnglishEntryadmire extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) ڕێزگرتنی کەسێک یان شتێک بەھۆی کردنی شتێک"""),
+١. (کردار) ڕێزگرتنی کەسێک/شتێک بەھۆی کردنی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

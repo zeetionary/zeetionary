@@ -460,7 +460,7 @@ class EnglishEntryapproach extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (کردار) نزیکبوونەوە لە کەسێک یان شتێک لە کاتدا یان بەپێی دووری"""),
+٧. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -509,7 +509,7 @@ class EnglishEntryapproach extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (کردار) نزیکبوونەوە لە کەسێک یان شتێک لە کاتدا یان بەپێی دووری"""),
+٨. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

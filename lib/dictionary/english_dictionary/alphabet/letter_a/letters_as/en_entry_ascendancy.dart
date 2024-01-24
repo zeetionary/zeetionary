@@ -177,7 +177,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سەردەستی، باڵادەستی، دەسەڵات‌داری، باوسەندوویی، سەرکەوتوویی، زاڵی، بەسەرداشکانەوە، سەرتری، دەس‌ڕۆیشتوویی
 
-١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک یان شتێک"""),
+١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

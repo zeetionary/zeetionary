@@ -127,7 +127,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: مرۆی ھەمەکارە یان فرەزان، فرەبابەت‌زان، ھەزارپیشە، سەرلەھەمووشتێ‌دەرکردوو
 
-١. (ناو) کەسێک یان شتێک کە زۆر شارەزایی، توانا، یان سوودی ھەیە"""),
+١. (ناو) کەسێک/شتێک کە زۆر شارەزایی، توانا، یان سوودی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -369,7 +369,7 @@ class EnglishEntryboost extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) شتێک کە یارمەتی یان ھانی کەسێک یان شتێک دەدات"),
+                                  "٣. (ناو) شتێک کە یارمەتی یان ھانی کەسێک/شتێک دەدات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

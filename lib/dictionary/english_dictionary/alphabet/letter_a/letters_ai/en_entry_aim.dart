@@ -262,7 +262,7 @@ class EnglishEntryaim extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) ڕووکردنی چەک، کامێرا، بۆکس، یان شتێکی تر لە کەسێک یان شتێک"""),
+٤. (کردار) ڕووکردنی چەک، کامێرا، بۆکس، یان شتێکی تر لە کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

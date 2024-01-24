@@ -126,7 +126,7 @@ class EnglishEntryallusion extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ئاماژە، ھێما، برێتی، مێزە، کورتەباس، لاباس، کورتەئاماژە
 
-١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک یان شتێک دەکات"""),
+١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک/شتێک دەکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -168,7 +168,7 @@ class EnglishEntrybecauseof extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ئامراز) بەکاردێت لە پێش ناوێک یان گرێی ناوی بۆ وتنی ئەوەی کەسێک یان شتێک ھۆکارە بۆ شتێک"""),
+١. (ئامراز) بەکاردێت لە پێش ناوێک یان گرێی ناوی بۆ وتنی ئەوەی کەسێک/شتێک ھۆکارە بۆ شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

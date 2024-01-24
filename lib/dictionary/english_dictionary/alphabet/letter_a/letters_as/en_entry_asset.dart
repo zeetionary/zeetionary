@@ -176,7 +176,7 @@ class EnglishEntryasset extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سامان، دارایی، ماڵ، مایە، خوداپێداوی، خوداگەیاندە، نێعمەت، چاوگی ھێز، سەرچاوە یان ژێدەری ھێز، سەرچاوەی دەسەڵات
 
-١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک یان شتێک"""),
+١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک/شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

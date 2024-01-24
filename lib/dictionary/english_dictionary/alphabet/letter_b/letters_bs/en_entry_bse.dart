@@ -102,9 +102,9 @@ class EnglishEntryBSE extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: mad cow disease"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: mad cow disease"),
+                          ],
                         ),
                         Row(
                           children: [

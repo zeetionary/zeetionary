@@ -106,9 +106,9 @@ class EnglishEntryblowlamp extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: blowtorch"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: blowtorch"),
+                          ],
                         ),
                         Row(
                           children: [

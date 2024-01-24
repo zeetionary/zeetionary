@@ -117,7 +117,7 @@ class EnglishEntryartichoke extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: globe artichoke"),
+                            AlsoEnglish(word: "also: globe artichoke"),
                           ],
                         ),
                         Row(

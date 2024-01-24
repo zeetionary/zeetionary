@@ -151,7 +151,7 @@ class EnglishEntrycallbox extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: phone box, telephone box"),
+                            AlsoEnglish(word: "also: phone box, telephone box"),
                           ],
                         ),
                         Row(

@@ -110,7 +110,7 @@ class EnglishEntrybible extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: (the) Bible"),
+                            AlsoEnglish(word: "also: (the) Bible"),
                           ],
                         ),
                         Row(

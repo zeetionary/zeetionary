@@ -106,9 +106,9 @@ class EnglishEntrybloodgroup extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: blood type"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: blood type"),
+                          ],
                         ),
                         Row(
                           children: [

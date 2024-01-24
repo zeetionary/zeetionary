@@ -107,7 +107,7 @@ class EnglishEntrybookshop extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: bookstore"),
+                            AlsoEnglish(word: "also: bookstore"),
                           ],
                         ),
                         Row(

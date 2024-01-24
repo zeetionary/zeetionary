@@ -53,7 +53,8 @@ class EnglishEntrycamouflage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The soldiers camouflaged themselves with leaves."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The soldiers camouflaged themselves with leaves."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamouflages5(String languageCode) async {
@@ -61,7 +62,8 @@ class EnglishEntrycamouflage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The tent was camouflaged to avoid detection by enemy soldiers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The tent was camouflaged to avoid detection by enemy soldiers."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamouflages6(String languageCode) async {
@@ -284,47 +286,50 @@ class EnglishEntrycamouflage extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (کردار) شاردنەوە بە درووستکردنی لێکچوونی ڕەنگ یان شێوەی دەورووبەر"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) شاردنەوە بە درووستکردنی لێکچوونی ڕەنگ یان شێوەی دەورووبەر"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The soldiers camouflaged themselves with leaves."),
-                          const ExampleSentenceKurdish(
-                          text: "سەربازەکان بە گەڵا خۆیان شاردەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamouflages4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamouflages4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The soldiers camouflaged themselves with leaves."),
+                              const ExampleSentenceKurdish(
+                                  text: "سەربازەکان بە گەڵا خۆیان شاردەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamouflages4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamouflages4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The tent was camouflaged to avoid detection by enemy soldiers."),
-                          const ExampleSentenceKurdish(
-                          text: "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دووژمنەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamouflages5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamouflages5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The tent was camouflaged to avoid detection by enemy soldiers."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دووژمنەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamouflages5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamouflages5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -447,7 +452,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/1oa6VziZH78?t=";
+  static String myVideoId = "1oa6VziZH78?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +477,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/6XtMfif98Hs?t=";
+  static String myVideoId = "6XtMfif98Hs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -497,7 +502,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/zDbq7y20wpw?t=";
+  static String myVideoId = "zDbq7y20wpw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -522,7 +527,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/eE1GRyr8CF0?t=";
+  static String myVideoId = "eE1GRyr8CF0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -547,7 +552,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/Q3CtGoqz3ww?t=";
+  static String myVideoId = "Q3CtGoqz3ww?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -572,7 +577,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/hgPnXL_jGTI?t=";
+  static String myVideoId = "hgPnXL_jGTI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -597,7 +602,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/zE0Q072LG8s?t=";
+  static String myVideoId = "zE0Q072LG8s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -622,7 +627,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/lcwfTOg5rnc?t=";
+  static String myVideoId = "lcwfTOg5rnc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -647,7 +652,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/9T1vfsHYiKY?t=";
+  static String myVideoId = "9T1vfsHYiKY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -672,7 +677,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/pgDE2DOICuc";
+  static String myVideoId = "pgDE2DOICuc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

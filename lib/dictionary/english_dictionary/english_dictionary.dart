@@ -2418,41 +2418,59 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "callow",
     "call-up",
     "callus",
-    // "calm",
-    // "calm down",
-    // "calmly",
-    // "calmness",
-    // "calorie",
-    // "calve",
-    // "calypso",
-    // "camber",
-    // "camcorder",
-    // "camel",
-    // "cameo",
-    // "camera",
-    // "camouflage",
-    // "camp",
-    // "camper",
-    // "campaign",
-    // "campaigner",
-    // "campus",
-    // "can",
-    // "canal",
-    // "canary",
-    // "cancel",
-    // "cancellation",
-    // "cancer",
-    // "cancerous",
-    // "candid",
-    // "candidly",
-    // "candidate",
-    // "candle",
-    // "candlestick",
-    // "candor",
-    // "candour",
-    // "candy",
-    // "cane",
-    // "canine",
+    "calm",
+    "calm down",
+    "calmly",
+    "calmness",
+    "calorie",
+    "calve",
+    "calypso",
+    "camber",
+    "camcorder",
+    "camel",
+    "cameo",
+    "camera",
+    "camouflage",
+    "camp",
+    "camper",
+    "campaign",
+    "campaigner",
+    "campus",
+    "can",
+    "canal",
+    "canary",
+    "cancel",
+    "cancellation",
+    "cancer",
+    "cancerous",
+    "candid",
+    "candidly",
+    "candidate",
+    "candle",
+    "candlestick",
+    "candor",
+    "candour",
+    "candy",
+    "cane",
+    "canine",
+    "canister",
+    "canker",
+    "canker sore", // goes to canker
+    "cannabis",
+    "cannery",
+    "cannibal",
+    "cannibalism",
+    "cannibalize",
+    "cannon",
+    "canoe",
+    "canoeist",
+    "canon",
+    "canonical",
+    "canonize",
+    "canon law",
+    "canopy",
+    "cant",
+    "cantankerous",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2460,12 +2478,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "cannery",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2494,6 +2506,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "make amends",
     "manic depression",
     "manic-depressive",
+    "mouth ulcer", // goes to canker
     "not come/go amiss",
     "on behalf of",
     "phone box",
@@ -12604,222 +12617,222 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-callus");
                   }
-                  // if (wordsEnglish == "calm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calm");
-                  // }
-                  // if (wordsEnglish == "calm down") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calm-down");
-                  // }
-                  // if (wordsEnglish == "calmly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calmly");
-                  // }
-                  // if (wordsEnglish == "calmness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calmness");
-                  // }
-                  // if (wordsEnglish == "calorie") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calorie");
-                  // }
-                  // if (wordsEnglish == "calve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calve");
-                  // }
-                  // if (wordsEnglish == "calypso") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-calypso");
-                  // }
-                  // if (wordsEnglish == "camber") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camber");
-                  // }
-                  // if (wordsEnglish == "camcorder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camcorder");
-                  // }
-                  // if (wordsEnglish == "camel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camel");
-                  // }
-                  // if (wordsEnglish == "cameo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cameo");
-                  // }
-                  // if (wordsEnglish == "camera") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camera");
-                  // }
-                  // if (wordsEnglish == "camouflage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camouflage");
-                  // }
-                  // if (wordsEnglish == "camp") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camp");
-                  // }
-                  // if (wordsEnglish == "camper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-camper");
-                  // }
-                  // if (wordsEnglish == "campaign") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-campaign");
-                  // }
-                  // if (wordsEnglish == "campaigner") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-campaigner");
-                  // }
-                  // if (wordsEnglish == "campus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-campus");
-                  // }
-                  // if (wordsEnglish == "can") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-can");
-                  // }
-                  // if (wordsEnglish == "cannery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cannery");
-                  // }
-                  // if (wordsEnglish == "canal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-canal");
-                  // }
-                  // if (wordsEnglish == "canary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-canary");
-                  // }
-                  // if (wordsEnglish == "cancel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cancel");
-                  // }
-                  // if (wordsEnglish == "cancellation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cancellation");
-                  // }
-                  // if (wordsEnglish == "cancer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cancer");
-                  // }
-                  // if (wordsEnglish == "cancerous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cancerous");
-                  // }
-                  // if (wordsEnglish == "candid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candid");
-                  // }
-                  // if (wordsEnglish == "candidly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candidly");
-                  // }
-                  // if (wordsEnglish == "candidate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candidate");
-                  // }
-                  // if (wordsEnglish == "candle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candle");
-                  // }
-                  // if (wordsEnglish == "candlestick") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candlestick");
-                  // }
-                  // if (wordsEnglish == "candour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candour");
-                  // }
-                  // if (wordsEnglish == "candor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candour");
-                  // }
-                  // if (wordsEnglish == "candy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-candy");
-                  // }
-                  // if (wordsEnglish == "cane") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cane");
-                  // }
-                  // if (wordsEnglish == "canine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-canine");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "calm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calm");
+                  }
+                  if (wordsEnglish == "calm down") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calm-down");
+                  }
+                  if (wordsEnglish == "calmly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calmly");
+                  }
+                  if (wordsEnglish == "calmness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calmness");
+                  }
+                  if (wordsEnglish == "calorie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calorie");
+                  }
+                  if (wordsEnglish == "calve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calve");
+                  }
+                  if (wordsEnglish == "calypso") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-calypso");
+                  }
+                  if (wordsEnglish == "camber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camber");
+                  }
+                  if (wordsEnglish == "camcorder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camcorder");
+                  }
+                  if (wordsEnglish == "camel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camel");
+                  }
+                  if (wordsEnglish == "cameo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cameo");
+                  }
+                  if (wordsEnglish == "camera") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camera");
+                  }
+                  if (wordsEnglish == "camouflage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camouflage");
+                  }
+                  if (wordsEnglish == "camp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camp");
+                  }
+                  if (wordsEnglish == "camper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-camper");
+                  }
+                  if (wordsEnglish == "campaign") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-campaign");
+                  }
+                  if (wordsEnglish == "campaigner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-campaigner");
+                  }
+                  if (wordsEnglish == "campus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-campus");
+                  }
+                  if (wordsEnglish == "can") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-can");
+                  }
+                  if (wordsEnglish == "cannery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannery");
+                  }
+                  if (wordsEnglish == "canal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canal");
+                  }
+                  if (wordsEnglish == "canary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canary");
+                  }
+                  if (wordsEnglish == "cancel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cancel");
+                  }
+                  if (wordsEnglish == "cancellation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cancellation");
+                  }
+                  if (wordsEnglish == "cancer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cancer");
+                  }
+                  if (wordsEnglish == "cancerous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cancerous");
+                  }
+                  if (wordsEnglish == "candid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candid");
+                  }
+                  if (wordsEnglish == "candidly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candidly");
+                  }
+                  if (wordsEnglish == "candidate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candidate");
+                  }
+                  if (wordsEnglish == "candle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candle");
+                  }
+                  if (wordsEnglish == "candlestick") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candlestick");
+                  }
+                  if (wordsEnglish == "candour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candour");
+                  }
+                  if (wordsEnglish == "candor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candour");
+                  }
+                  if (wordsEnglish == "candy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-candy");
+                  }
+                  if (wordsEnglish == "cane") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cane");
+                  }
+                  if (wordsEnglish == "canine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canine");
+                  }
+                  if (wordsEnglish == "canister") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canister");
+                  }
+                  if (wordsEnglish == "canker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canker");
+                  }
+                  if (wordsEnglish == "canker sore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canker");
+                  }
+                  if (wordsEnglish == "mouth ulcer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canker");
+                  }
+                  if (wordsEnglish == "cannabis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannabis");
+                  }
+                  if (wordsEnglish == "cannibal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannibal");
+                  }
+                  if (wordsEnglish == "cannibalism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannibalism");
+                  }
+                  if (wordsEnglish == "cannibalize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannibalize");
+                  }
+                  if (wordsEnglish == "cannon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cannon");
+                  }
+                  if (wordsEnglish == "canoe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canoe");
+                  }
+                  if (wordsEnglish == "canoeist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canoeist");
+                  }
+                  if (wordsEnglish == "canon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canon");
+                  }
+                  if (wordsEnglish == "canonical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canonical");
+                  }
+                  if (wordsEnglish == "canonize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canonize");
+                  }
+                  if (wordsEnglish == "canon law") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canon-law");
+                  }
+                  if (wordsEnglish == "canopy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-canopy");
+                  }
+                  if (wordsEnglish == "cant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cant");
+                  }
+                  if (wordsEnglish == "cantankerous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cantankerous");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

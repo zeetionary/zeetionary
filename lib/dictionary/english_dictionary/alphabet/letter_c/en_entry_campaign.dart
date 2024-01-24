@@ -35,7 +35,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The candidates are on the campaign trail."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The candidates are on the campaign trail."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She led the campaign for parliamentary reform."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She led the campaign for parliamentary reform."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She led a successful campaign against the closure of the library."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She led a successful campaign against the closure of the library."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Air battles had dominated the campaign."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Air battles had dominated the campaign."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns6(String languageCode) async {
@@ -67,7 +71,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The government has intensified the military campaign against the rebels."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The government has intensified the military campaign against the rebels."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns7(String languageCode) async {
@@ -75,7 +80,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The party campaigned vigorously in the north of the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The party campaigned vigorously in the north of the country."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns8(String languageCode) async {
@@ -83,7 +89,8 @@ class EnglishEntrycampaign extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We have actively campaigned against whaling for the last 15 years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We have actively campaigned against whaling for the last 15 years."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcampaigns9(String languageCode) async {
@@ -180,7 +187,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +223,8 @@ class EnglishEntrycampaign extends StatelessWidget {
                                   text:
                                       "Today police launched a campaign to reduce road accidents."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
+                                  text:
+                                      "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaign", follow LX strictly
                               Column(
                                 children: [
@@ -232,159 +240,173 @@ class EnglishEntrycampaign extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The candidates are on the campaign trail (= travelling around to attract support)."),
-                          const ExampleSentenceKurdish(
-                          text: "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
-                          const CustomSizedBoxForTTS(),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The candidates are on the campaign trail (= travelling around to attract support)."),
+                              const ExampleSentenceKurdish(
+                                  text: "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcampaigns2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcampaigns2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She led the campaign for parliamentary reform."),
-                          const ExampleSentenceKurdish(
-                          text: "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She led a successful campaign against the closure of the library."),
-                          const ExampleSentenceKurdish(
-                          text: "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "She led the campaign for parliamentary reform."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcampaigns3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcampaigns3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const ExampleSentenceEnglish(
+                                          text:
+                                              "She led a successful campaign against the closure of the library."),
+                                      const ExampleSentenceKurdish(
+                                          text:
+                                              "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcampaigns4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcampaigns4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) زنجیرەیەک لە هێرش و شەڕ کە ئامانجێکی دیاریکراویان هەیە لە جەنگێکدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) زنجیرەیەک لە هێرش و شەڕ کە ئامانجێکی دیاریکراویان هەیە لە جەنگێکدا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Air battles had dominated the campaign."),
-                          const ExampleSentenceKurdish(
-                          text: "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Air battles had dominated the campaign."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcampaigns5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcampaigns5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The government has intensified the military campaign against the rebels."),
-                          const ExampleSentenceKurdish(
-                          text: "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The government has intensified the military campaign against the rebels."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcampaigns6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcampaigns6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی هەڵمەتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی هەڵمەتێک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The party campaigned vigorously in the north of the country."),
-                          const ExampleSentenceKurdish(
-                          text: "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The party campaigned vigorously in the north of the country."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcampaigns7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcampaigns7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "We have actively campaigned against whaling for the last 15 years."),
-                          const ExampleSentenceKurdish(
-                          text: "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcampaigns8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcampaigns8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have actively campaigned against whaling for the last 15 years."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcampaigns8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcampaigns8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -510,7 +532,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
+  static String myVideoId = "zqllxbPWKNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -535,7 +557,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/CaaJyRvvaq8?t=";
+  static String myVideoId = "CaaJyRvvaq8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -560,7 +582,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/7EnWiGYT1g4?t=";
+  static String myVideoId = "7EnWiGYT1g4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -585,7 +607,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/AT0NDotcEuk?t=";
+  static String myVideoId = "AT0NDotcEuk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -610,7 +632,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/u0yqMYGC6kc?t=";
+  static String myVideoId = "u0yqMYGC6kc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -635,7 +657,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/vb-p--iRFew?t=";
+  static String myVideoId = "vb-p--iRFew?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -660,7 +682,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/cK_RSgDqjX8?t=";
+  static String myVideoId = "cK_RSgDqjX8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -685,7 +707,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/p7SAg5nyW_w?t=";
+  static String myVideoId = "p7SAg5nyW_w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -710,7 +732,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/h810bO-4LIs?t=";
+  static String myVideoId = "h810bO-4LIs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -735,7 +757,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/t7Y02-03ZFU?t=";
+  static String myVideoId = "t7Y02-03ZFU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

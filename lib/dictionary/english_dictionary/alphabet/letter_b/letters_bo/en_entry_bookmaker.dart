@@ -106,9 +106,9 @@ class EnglishEntrybookmaker extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: bookie"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: bookie"),
+                          ],
                         ),
                         Row(
                           children: [

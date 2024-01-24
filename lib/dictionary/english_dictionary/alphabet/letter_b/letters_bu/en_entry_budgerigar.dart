@@ -102,9 +102,9 @@ class EnglishEntrybudgerigar extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: budgie"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: budgie"),
+                          ],
                         ),
                         Row(
                           children: [

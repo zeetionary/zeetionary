@@ -153,7 +153,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: businesswoman"),
+                            AlsoEnglish(word: "also: businesswoman"),
                           ],
                         ),
                         Row(

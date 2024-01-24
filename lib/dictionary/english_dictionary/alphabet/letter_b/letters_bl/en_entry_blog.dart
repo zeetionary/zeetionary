@@ -108,9 +108,9 @@ class EnglishEntryblog extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: weblog"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: weblog"),
+                          ],
                         ),
                         Row(
                           children: [

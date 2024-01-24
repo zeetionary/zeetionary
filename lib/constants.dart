@@ -695,10 +695,10 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
 }
 
 class AlsoEnglish extends ConsumerWidget {
-  final String text;
+  final String word;
 
   // const AlsoEnglish({Key? key, required this.text}) : super(key: key);
-  const AlsoEnglish({super.key, required this.text});
+  const AlsoEnglish({super.key, required this.word});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -708,7 +708,7 @@ class AlsoEnglish extends ConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       // padding: const EdgeInsets.all(8.0), // Add padding here
       child: Text(
-        text,
+        word,
         style: TextStyle(
           fontSize: textSize,
           // color: Colors.yellow.withOpacity(0.7),

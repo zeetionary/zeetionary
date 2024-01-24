@@ -26,8 +26,7 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Let's return to camp."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Let's return to camp."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps2(String languageCode) async {
@@ -35,7 +34,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We broke camp early the next morning."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We broke camp early the next morning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps3(String languageCode) async {
@@ -43,7 +43,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He spent two weeks at camp this summer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He spent two weeks at camp this summer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps4(String languageCode) async {
@@ -51,7 +52,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They criticized the appalling conditions in the refugee camps."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They criticized the appalling conditions in the refugee camps."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps5(String languageCode) async {
@@ -59,7 +61,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The military built three new army camps near the German border."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The military built three new army camps near the German border."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps6(String languageCode) async {
@@ -75,7 +78,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The region split into two armed camps."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The region split into two armed camps."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps8(String languageCode) async {
@@ -83,7 +87,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There was an air of confidence in the England camp."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was an air of confidence in the England camp."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps9(String languageCode) async {
@@ -91,7 +96,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I camped overnight in a field."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I camped overnight in a field."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps10(String languageCode) async {
@@ -99,7 +105,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They go camping in France every year."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They go camping in France every year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps11(String languageCode) async {
@@ -107,7 +114,8 @@ class EnglishEntrycamp extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm camping out at a friend's apartment at the moment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I'm camping out at a friend's apartment at the moment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcamps12(String languageCode) async {
@@ -180,7 +188,7 @@ class EnglishEntrycamp extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -213,8 +221,7 @@ class EnglishEntrycamp extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Let's return to camp."),
+                                  text: "Let's return to camp."),
                               const ExampleSentenceKurdish(
                                   text: "با بگەڕێینەوە کەمپ."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camp", follow LX strictly
@@ -232,221 +239,242 @@ class EnglishEntrycamp extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "We broke camp early the next morning."),
-                          const ExampleSentenceKurdish(
-                          text: "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ هێنا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) شێنێک کە منداڵان لە هاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "He spent two weeks at camp this summer."),
-                          const ExampleSentenceKurdish(
-                          text: "دوو هەفتەی لە کامپ بەسەر برد ئەم هاوینە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We broke camp early the next morning."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ هێنا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) شوێنێک کە بینای کاتی یان خێوەتە و حکومەت خەڵکی تێدا ڕادەگرێت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) شێنێک کە منداڵان لە هاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "They criticized the appalling conditions in the refugee camps."),
-                          const ExampleSentenceKurdish(
-                          text: "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He spent two weeks at camp this summer."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دوو هەفتەی لە کامپ بەسەر برد ئەم هاوینە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاهێنان"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) شوێنێک کە بینای کاتی یان خێوەتە و حکومەت خەڵکی تێدا ڕادەگرێت"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The military built three new army camps near the German border."),
-                          const ExampleSentenceKurdish(
-                          text: "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They criticized the appalling conditions in the refugee camps."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ناو) کۆمەڵە کەسێک کە هەمان بیرۆکەیان هەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان هەیە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاهێنان"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "We were in opposing camps."),
-                          const ExampleSentenceKurdish(
-                          text: "لە دوو بەرەی جیاواز بووین."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps6("en-GB"),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The military built three new army camps near the German border."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) کۆمەڵە کەسێک کە هەمان بیرۆکەیان هەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان هەیە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We were in opposing camps."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە دوو بەرەی جیاواز بووین."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The region split into two armed camps."),
-                          const ExampleSentenceKurdish(
-                          text: "هەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (ناو) یەکێک لە لایەنەکانی ڕکابەرییەک"),
-                          Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "There was an air of confidence in the England camp."),
-                          const ExampleSentenceKurdish(
-                          text: "ڕواڵەتێکی خۆباوەڕی هەبوو لە لایەنی ئینگلتەرە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The region split into two armed camps."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٧. (کردار) دانانی خێوەتێک و ژیان تێیدا بۆ ماوەیەک"),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) یەکێک لە لایەنەکانی ڕکابەرییەک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I camped overnight in a field."),
-                          const ExampleSentenceKurdish(
-                          text: "شەو لە کێڵگەیەکدا کەمپم دانا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was an air of confidence in the England camp."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕواڵەتێکی خۆباوەڕی هەبوو لە لایەنی ئینگلتەرە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٨. (کردار) چوون بۆ مانەوە لە کەمپ لەکاتی پشوودا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) دانانی خێوەتێک و ژیان تێیدا بۆ ماوەیەک"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "They go camping in France every year."),
-                          const ExampleSentenceKurdish(
-                          text: "هەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps10("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I camped overnight in a field."),
+                              const ExampleSentenceKurdish(
+                                  text: "شەو لە کێڵگەیەکدا کەمپم دانا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٩. (کردار) مانەوە لە ماڵی کەسێک بۆ ماوەیەکی کاتی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (کردار) چوون بۆ مانەوە لە کەمپ لەکاتی پشوودا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "I'm camping out at a friend's apartment at the moment."),
-                          const ExampleSentenceKurdish(
-                          text: "لە ئێستادا لە دەستەژووری هاوڕێیەکم دەمێنمەوە."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcamps11("en-GB"),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They go camping in France every year."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcamps11("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) مانەوە لە ماڵی کەسێک بۆ ماوەیەکی کاتی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'm camping out at a friend's apartment at the moment."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ئێستادا لە دەستەژووری هاوڕێیەکم دەمێنمەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcamps11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcamps11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -593,7 +621,7 @@ Usage: informal
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/-HyHZsa79LU?t=";
+  static String myVideoId = "-HyHZsa79LU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -618,7 +646,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -643,7 +671,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/_0RTH57v66I?t=";
+  static String myVideoId = "_0RTH57v66I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -668,7 +696,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/FgT3GCsJteA?t=";
+  static String myVideoId = "FgT3GCsJteA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -693,7 +721,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/-jDHmEpZpbI?t=";
+  static String myVideoId = "-jDHmEpZpbI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -718,7 +746,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/gE_uuJckDns?t=";
+  static String myVideoId = "gE_uuJckDns?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -743,7 +771,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/zVpciPkBSgM?t=";
+  static String myVideoId = "zVpciPkBSgM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -768,7 +796,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/V7CmawVRrC0?t=";
+  static String myVideoId = "V7CmawVRrC0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -793,7 +821,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/QKrjcybCnJ8?t=";
+  static String myVideoId = "QKrjcybCnJ8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -818,7 +846,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/2pGfxcZZNfE?t=";
+  static String myVideoId = "2pGfxcZZNfE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

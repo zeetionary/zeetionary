@@ -35,7 +35,8 @@ class EnglishEntrycanal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Panama Canal was not opened until after the outbreak of war."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Panama Canal was not opened until after the outbreak of war."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcanals3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrycanal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The alimentary canal is the path by which food enters the body, and solid waste is passed out."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The alimentary canal is the path by which food enters the body, and solid waste is passed out."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcanals4(String languageCode) async {
@@ -180,7 +182,7 @@ class EnglishEntrycanal extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -216,7 +218,8 @@ class EnglishEntrycanal extends StatelessWidget {
                                   text:
                                       "The barge moved slowly along the canal."),
                               const ExampleSentenceKurdish(
-                                  text: "بەکەمە بارهەڵگرەکە بە هێواشی بە کەناڵەکەدا چوو."),
+                                  text:
+                                      "بەکەمە بارهەڵگرەکە بە هێواشی بە کەناڵەکەدا چوو."),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canal", follow LX strictly
                               Column(
                                 children: [
@@ -232,46 +235,50 @@ class EnglishEntrycanal extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The Panama Canal was not opened until after the outbreak of war."),
-                          const ExampleSentenceKurdish(
-                          text: "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcanals2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcanals2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Panama Canal was not opened until after the outbreak of war."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcanals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcanals2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) ڕێڕەوێک یان جۆگەیەک لە لەشی مرۆڤدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ڕێڕەوێک یان جۆگەیەک لە لەشی مرۆڤدا"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
-                          const ExampleSentenceKurdish(
-                          text: "جۆگەی هەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcanals3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcanals3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جۆگەی هەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcanals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcanals3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -390,7 +397,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/jR3tmxF_LiI?t=";
+  static String myVideoId = "jR3tmxF_LiI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -415,7 +422,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/o2atf6s--w4?t=";
+  static String myVideoId = "o2atf6s--w4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -440,7 +447,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/KgsxapE27NU?t=";
+  static String myVideoId = "KgsxapE27NU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,7 +472,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/XDX1py_tbYE?t=";
+  static String myVideoId = "XDX1py_tbYE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -490,7 +497,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/km3iHbuDJFA?t=";
+  static String myVideoId = "km3iHbuDJFA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -515,7 +522,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/r09U53lpgJo?t=";
+  static String myVideoId = "r09U53lpgJo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -540,7 +547,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/Ma0b6h4s5bY?t=";
+  static String myVideoId = "Ma0b6h4s5bY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -565,7 +572,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/IwJzsE8CvzQ?t=";
+  static String myVideoId = "IwJzsE8CvzQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -590,7 +597,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/ugYPoWShl6k?t=";
+  static String myVideoId = "ugYPoWShl6k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -615,7 +622,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/6gtTUeKATeg?t=";
+  static String myVideoId = "6gtTUeKATeg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

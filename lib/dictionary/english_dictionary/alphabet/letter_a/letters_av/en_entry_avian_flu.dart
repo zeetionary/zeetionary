@@ -109,7 +109,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: bird flu, chicken flu"),
+                            AlsoEnglish(word: "also: bird flu, chicken flu"),
                           ],
                         ),
                         Row(

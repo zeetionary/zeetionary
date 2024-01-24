@@ -109,7 +109,7 @@ class EnglishEntrybettor extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: also: better"),
+                            AlsoEnglish(word: "also: also: better"),
                           ],
                         ),
                         Row(

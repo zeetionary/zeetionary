@@ -26,8 +26,8 @@ class EnglishEntrycandy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Who wants the last piece of candy?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Who wants the last piece of candy?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcandys2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrycandy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She had enough candies in her pocket for all the children."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had enough candies in her pocket for all the children."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcandys3(String languageCode) async {
@@ -180,7 +181,7 @@ class EnglishEntrycandy extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -213,8 +214,7 @@ class EnglishEntrycandy extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Who wants the last piece of candy?"),
+                                  text: "Who wants the last piece of candy?"),
                               const ExampleSentenceKurdish(
                                   text: "کێ کۆتا پارچە شیرینی دەوێت؟"),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candy", follow LX strictly
@@ -232,24 +232,25 @@ class EnglishEntrycandy extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "She had enough candies in her pocket for all the children."),
-                          const ExampleSentenceKurdish(
-                          text: "لە گیرفانەکانیدا بەشی هەموو منداڵەکان شیرینی پێبوو."),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcandys2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcandys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had enough candies in her pocket for all the children."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە گیرفانەکانیدا بەشی هەموو منداڵەکان شیرینی پێبوو."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcandys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcandys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -367,7 +368,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  static String myVideoId = "https://youtu.be/3OIrdqam3sU?t=";
+  static String myVideoId = "3OIrdqam3sU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,7 +393,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  static String myVideoId = "https://youtu.be/qtpCWMnbDaA?t=";
+  static String myVideoId = "qtpCWMnbDaA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +418,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  static String myVideoId = "https://youtu.be/DMkm68LxTNw?t=";
+  static String myVideoId = "DMkm68LxTNw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -442,7 +443,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  static String myVideoId = "https://youtu.be/6MoBvV12C58?t=";
+  static String myVideoId = "6MoBvV12C58?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  static String myVideoId = "https://youtu.be/_GFkHA5EZdE?t=";
+  static String myVideoId = "_GFkHA5EZdE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +493,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  static String myVideoId = "https://youtu.be/dHPTR96Sc1g?t=";
+  static String myVideoId = "dHPTR96Sc1g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -517,7 +518,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  static String myVideoId = "https://youtu.be/uI81vFmlm70?t=";
+  static String myVideoId = "uI81vFmlm70?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -542,7 +543,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  static String myVideoId = "https://youtu.be/kn2eBUPffeA?t=";
+  static String myVideoId = "kn2eBUPffeA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -567,7 +568,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  static String myVideoId = "https://youtu.be/vOMMWPzf1hw?t=";
+  static String myVideoId = "vOMMWPzf1hw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -592,7 +593,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  static String myVideoId = "https://youtu.be/UJER10BE5Uk?t=";
+  static String myVideoId = "UJER10BE5Uk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

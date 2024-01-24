@@ -2386,22 +2386,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_candy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cane.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canine.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canister.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canker.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cannabis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cannibal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cannibalism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cannibalize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cannon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canoe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canoeist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canonical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canonize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canon_law.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canopy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cantankerous.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5933,22 +5933,22 @@ final loggedInRoute = RouteMap(routes: {
   "/english-candy": (_) => MaterialPage(child: EnglishEntrycandy()),
   "/english-cane": (_) => MaterialPage(child: EnglishEntrycane()),
   "/english-canine": (_) => MaterialPage(child: EnglishEntrycanine()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-canister": (_) => MaterialPage(child: EnglishEntrycanister()),
+  "/english-canker": (_) => MaterialPage(child: EnglishEntrycanker()),
+  "/english-cannabis": (_) => MaterialPage(child: EnglishEntrycannabis()),
+  "/english-cannibal": (_) => MaterialPage(child: EnglishEntrycannibal()),
+  "/english-cannibalism": (_) => MaterialPage(child: EnglishEntrycannibalism()),
+  "/english-cannibalize": (_) => MaterialPage(child: EnglishEntrycannibalize()),
+  "/english-cannon": (_) => MaterialPage(child: EnglishEntrycannon()),
+  "/english-canoe": (_) => MaterialPage(child: EnglishEntrycanoe()),
+  "/english-canoeist": (_) => MaterialPage(child: EnglishEntrycanoeist()),
+  "/english-canon": (_) => MaterialPage(child: EnglishEntrycanon()),
+  "/english-canonical": (_) => MaterialPage(child: EnglishEntrycanonical()),
+  "/english-canonize": (_) => MaterialPage(child: EnglishEntrycanonize()),
+  "/english-canon-law": (_) => MaterialPage(child: EnglishEntrycanonlaw()),
+  "/english-canopy": (_) => MaterialPage(child: EnglishEntrycanopy()),
+  "/english-cant": (_) => MaterialPage(child: EnglishEntrycant()),
+  "/english-cantankerous": (_) => MaterialPage(child: EnglishEntrycantankerous()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

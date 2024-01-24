@@ -153,7 +153,7 @@ class EnglishEntrycable extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(text: "also: cable television"),
+                            AlsoEnglish(word: "also: cable television"),
                           ],
                         ),
                         Row(

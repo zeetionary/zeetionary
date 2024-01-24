@@ -105,9 +105,9 @@ class EnglishEntrybra extends StatelessWidget {
                           ],
                         ),
                         const Row(
-                        children: [
-                        AlsoEnglish(text: "also: brassiere"),
-                        ],
+                          children: [
+                            AlsoEnglish(word: "also: brassiere"),
+                          ],
                         ),
                         Row(
                           children: [

@@ -31,7 +31,6 @@ dependencies:
   routemaster: ^1.0.0
   shared_preferences: ^2.2.1
   youtube_player_flutter: ^8.1.2
-  youtube_player_iframe: ^4.0.4
 
 dev_dependencies:
   flutter_test:

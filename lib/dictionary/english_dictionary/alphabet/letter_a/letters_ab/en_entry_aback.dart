@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+// import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 enum TtsState { playing }
 
@@ -245,53 +246,138 @@ Adverb: aback
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'Itl0vr7LBXA';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 255, // DOPSUM: CHANGE IT
-      // endAt: 275, // DOPSUM: CHANGE IT
-    ),
-  );
-
   YoutubeEmbeddedone({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'GfaypJIDolk';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 1387, // DOPSUM: CHANGE IT
-      // endAt: 1430, // DOPSUM: CHANGE IT
-    ),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'GfaypJIDolk',
+    autoPlay: true,
+    startSeconds: 200,
+    params: const YoutubePlayerParams(showFullscreenButton: false),
   );
 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+
+
+class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'GfaypJIDolk',
+    autoPlay: true,
+    // Start Seconds for the video
+    startSeconds: 200,
+    params: const YoutubePlayerParams(showFullscreenButton: false),
+  );
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YoutubePlayer(
+          controller: _controller,
+          aspectRatio: 16 / 9,
+        ),
+      ),
     );
   }
 }
 
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'GfaypJIDolk',
+    autoPlay: true,
+    // Start Seconds for the video
+    startSeconds: 200,
+    params: const YoutubePlayerParams(showFullscreenButton: false),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YoutubePlayer(
+          controller: _controller,
+          aspectRatio: 16 / 9,
+        ),
+      ),
+    );
+  }
+}
+
+// class YoutubeEmbeddedtwo extends StatelessWidget {
+//   static String myVideoId = 'GfaypJIDolk';
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true, enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 1387, // DOPSUM: CHANGE IT
+//       // endAt: 1430, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddedtwo({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//           child: YouTubeContainerDesign(controller: _controller)),
+//     );
+//   }
+// }
+
 // end
+
+class YouTubeContainerDesignNew extends StatelessWidget {
+  const YouTubeContainerDesignNew({super.key, required this.controller});
+
+  final YoutubePlayerController controller;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        const DividerDefinition(),
+        Container(
+          margin: const EdgeInsets.only(top: 20.0),
+          padding: const EdgeInsets.all(8.0),
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Theme.of(context).primaryColor.withOpacity(0.06),
+                offset: const Offset(0, 4),
+                blurRadius: 8,
+              ),
+            ],
+            border: Border.all(
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
+              width: 1.0,
+            ),
+            borderRadius: BorderRadius.circular(15.0),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
+            child: YoutubePlayer(
+              controller: controller,
+              aspectRatio: 16 / 9,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}

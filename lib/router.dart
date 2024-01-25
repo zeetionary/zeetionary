@@ -2402,13 +2402,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canopy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cant.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cantankerous.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canteen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cantilever.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canvas.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canvass.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canvasser.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canyon.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5949,13 +5949,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-canopy": (_) => MaterialPage(child: EnglishEntrycanopy()),
   "/english-cant": (_) => MaterialPage(child: EnglishEntrycant()),
   "/english-cantankerous": (_) => MaterialPage(child: EnglishEntrycantankerous()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-canteen": (_) => MaterialPage(child: EnglishEntrycanteen()),
+  "/english-canter": (_) => MaterialPage(child: EnglishEntrycanter()),
+  "/english-cantilever": (_) => MaterialPage(child: EnglishEntrycantilever()),
+  "/english-canvas": (_) => MaterialPage(child: EnglishEntrycanvas()),
+  "/english-canvass": (_) => MaterialPage(child: EnglishEntrycanvass()),
+  "/english-canvasser": (_) => MaterialPage(child: EnglishEntrycanvasser()),
+  "/english-canyon": (_) => MaterialPage(child: EnglishEntrycanyon()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

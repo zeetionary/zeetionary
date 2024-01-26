@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zeetionary/constants_two.dart';
 
 // More sentences is NOT done
 
@@ -597,313 +598,301 @@ Noun: ask (derived forms: asks)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "_qHHczHsLCo";
+  YoutubeEmbeddedone({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '_qHHczHsLCo',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "DdHqzr4DyIs";
+  YoutubeEmbeddedtwo({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'DdHqzr4DyIs',
+    startSeconds: 41,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "v8bPdC5YXnA";
+  YoutubeEmbeddedthree({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'v8bPdC5YXnA',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "hFZFjoX2cGg";
+  YoutubeEmbeddedfour({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 692, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'hFZFjoX2cGg',
+    startSeconds: 692,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "hS2x1zl4rn0";
+  YoutubeEmbeddedfive({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'hS2x1zl4rn0',
+    startSeconds: 485,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "zAGVQLHvwOY";
+  YoutubeEmbeddedsix({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 32, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'zAGVQLHvwOY',
+    startSeconds: 32,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "9sRQQRiltrE";
+  YoutubeEmbeddedseven({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 140, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '9sRQQRiltrE',
+    startSeconds: 140,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "4J0xFUyz1nw";
+  YoutubeEmbeddedeight({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 866, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '4J0xFUyz1nw',
+    startSeconds: 866,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "Cxqca4RQd_M";
+  YoutubeEmbeddednine({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 465, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'Cxqca4RQd_M',
+    startSeconds: 465,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "qxVWpWNPEWU";
+  YoutubeEmbeddedten({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 131, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'qxVWpWNPEWU',
+    startSeconds: 131,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "t6fIp7mMJ90";
+  YoutubeEmbeddedeleven({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 264, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 't6fIp7mMJ90',
+    startSeconds: 264,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "MGO4_8YRKro";
+  YoutubeEmbeddedtwelve({super.key});
 
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 8, // DOPSUM: CHANGE IT
-
-      autoPlay: true,
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'MGO4_8YRKro',
+    startSeconds: 8,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      showFullscreenButton: false,
       enableCaption: true,
-      loop: true,
       mute: false,
+      strictRelatedVideos: true,
     ),
   );
-
-  YoutubeEmbeddedtwelve({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-          child: YouTubeContainerDesign(controller: _controller)),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
     );
   }
 }

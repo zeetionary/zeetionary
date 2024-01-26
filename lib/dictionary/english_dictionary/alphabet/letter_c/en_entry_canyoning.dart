@@ -1,0 +1,589 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+
+// More sentences is NOT done
+
+enum TtsState { playing }
+
+class EnglishEntrycanyoning extends StatelessWidget {
+// blank divider
+  EnglishEntrycanyoning({super.key});
+// blank divider
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakcanyoning(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("canyoning"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings1(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Canyoning requires a permit in most national parks in the United States."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings2(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings22"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings3(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings33"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings4(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings5(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings6(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings7(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings8(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings9(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings10(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings11(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings12(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcanyonings13(String languageCode) async {
+    // DOPSUM: CHANGE speakcanyoning
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcanyonings1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: Padding(
+          padding:
+              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          // EdgeInsets.zero,
+          child: Column(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Row(
+                          children: [
+                            EntryTitle(word: "canyoning"),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            const IPAofEnglish(text: "IpaUK: /ˈkænjənɪŋ/"),
+                            CustomIconButtonBritish(
+                              onPressed: () => speakcanyoning("en-GB"),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            const IPAofEnglish(text: "IpaUS: /ˈkænjənɪŋ/"),
+                            CustomIconButtonAmerican(
+                              onPressed: () => speakcanyoning("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              const CustomTabBar(
+                tabs: [
+                  UkIconForTab(),
+                  KurdIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
+                ],
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    SingleChildScrollView(
+                      // DOPSUM: KURDISH MEANING
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارهێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارهێنانی پەت، و مەلەکردن :"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Canyoning requires a permit in most national parks in the United States."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت هەیە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "canyoning", follow LX strictly
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcanyonings1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcanyonings1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                    YoutubeEmbeddedone(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddeddfourteen(),
+                    // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// DOPSUM: ENGLISH MEANING
+
+class EnglishMeaning extends StatefulWidget {
+  const EnglishMeaning({super.key});
+
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
+}
+
+class _EnglishMeaningState extends State<EnglishMeaning> {
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  // Function to stop TTS
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  // Create an instance of EnglishMeaningConst with the desired text
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: canyoning 
+Usage: Brit, Cdn (US: canyoneering)
+1. The sport of exploring canyons by rafting, swimming, climbing, etc. (= canyoneering [N. Amer])
+""",
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
+  }
+}
+
+// DOPSUM: FIRST YOUTUBE VIDEO
+
+class YoutubeEmbeddedone extends StatelessWidget {
+  YoutubeEmbeddedone({super.key});
+  static String myVideoId = "https://youtu.be/3UHm7_Q2hOQ?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 472, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
+  static String myVideoId = "https://youtu.be/wj8WUvrXRUw?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1630, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+  static String myVideoId = "https://youtu.be/8lSyW7Pf8rU?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 152, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+  static String myVideoId = "https://youtu.be/4CmIRl7l5jM?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 170, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+  static String myVideoId = "https://youtu.be/gSO8Rh9kTZA?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 517, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+  static String myVideoId = "https://youtu.be/IgI4a-m5bN0?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 94, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+  static String myVideoId = "https://youtu.be/g2VOPF2MyGM?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2086, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+  static String myVideoId = "https://youtu.be/JmIe6gYewdc?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 7, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+  static String myVideoId = "https://youtu.be/S86Zi65NIMw?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 17, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+  static String myVideoId = "https://youtu.be/5ZE38nJh3H4?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 599, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+          child: YouTubeContainerDesign(controller: _controller)),
+    );
+  }
+}
+
+// end WORD_WEB

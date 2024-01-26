@@ -2409,8 +2409,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canvass.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canvasser.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canyon.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_canyoning.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cap.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5956,8 +5956,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-canvass": (_) => MaterialPage(child: EnglishEntrycanvass()),
   "/english-canvasser": (_) => MaterialPage(child: EnglishEntrycanvasser()),
   "/english-canyon": (_) => MaterialPage(child: EnglishEntrycanyon()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-canyoning": (_) => MaterialPage(child: EnglishEntrycanyoning()),
+  "/english-cap": (_) => MaterialPage(child: EnglishEntrycap()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

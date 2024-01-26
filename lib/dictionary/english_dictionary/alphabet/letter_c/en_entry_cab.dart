@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/constants_two.dart';
 
 // More sentences is NOT done
 
@@ -445,7 +444,7 @@ ${englishMeaningConst.text}
 
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'AAGIi62-sAU',
     startSeconds: 1210,
@@ -470,7 +469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'HxRUuGqqMG4',
     startSeconds: 1610,
@@ -495,7 +494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'lszkVa9qaZQ',
     startSeconds: 6,
@@ -520,7 +519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: '31DVeJn9HlM',
     startSeconds: 34,
@@ -545,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'U2QcP1OF6P0',
     startSeconds: 39,
@@ -570,7 +569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'g1eE-wNDJrE',
     startSeconds: 189,
@@ -595,7 +594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'sPliFgBDxfI',
     startSeconds: 22,
@@ -620,7 +619,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'ZMC4Y942avU',
     startSeconds: 17,
@@ -645,7 +644,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'nzNADEkWqs4',
     startSeconds: 269,
@@ -670,7 +669,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  
+
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'TUaFVgoFfOU',
     // startSeconds: 222222222222222,

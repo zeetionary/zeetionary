@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
 // import 'package:zeetionary/quiz/quiz_screen.dart';
@@ -254,6 +255,51 @@ class CustomTabBar extends ConsumerWidget {
 //     );
 //   }
 // }
+
+class YouTubeContainerDesignNew extends StatelessWidget {
+  const YouTubeContainerDesignNew({
+    super.key,
+    required YoutubePlayerController controller,
+  }) : _controller = controller;
+
+  final YoutubePlayerController _controller;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        const DividerDefinition(),
+        Container(
+          margin: const EdgeInsets.only(top: 20.0),
+          padding: const EdgeInsets.all(8.0),
+          decoration: BoxDecoration(
+            // Add to the BoxDecoration of the outer Container:
+            boxShadow: [
+              BoxShadow(
+                color: Theme.of(context).primaryColor.withOpacity(0.06),
+                offset: const Offset(0, 4),
+                blurRadius: 8,
+              ),
+            ],
+            border: Border.all(
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
+              width: 1.0,
+            ),
+            borderRadius: BorderRadius.circular(
+                15.0), // Apply border radius to the container
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
+            child: YoutubePlayer(
+              controller: _controller,
+              aspectRatio: 16 / 9,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
 
 class VideoIconForTab extends StatelessWidget {
   const VideoIconForTab({

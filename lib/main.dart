@@ -48,7 +48,9 @@ class MyApp extends ConsumerStatefulWidget {
   const MyApp({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _MyAppState();
+  ConsumerState<ConsumerStatefulWidget> createState() {
+    return _MyAppState();
+  }
 }
 
 class _MyAppState extends ConsumerState<MyApp> {
@@ -59,7 +61,9 @@ class _MyAppState extends ConsumerState<MyApp> {
         .watch(authControllerProvider.notifier)
         .getUserData(data.uid)
         .first;
-    ref.read(userProvider.notifier).update((state) => userModel);
+    ref.read(userProvider.notifier).update((state) {
+      return userModel;
+    });
     setState(() {});
   }
 
@@ -101,7 +105,8 @@ class _MyAppState extends ConsumerState<MyApp> {
     // final themeMode = ref.watch(themeProvider);
 
     return ref.watch(authStateChangeProvider).when(
-          data: (data) => MaterialApp.router(
+          data: (data) {
+            return MaterialApp.router(
             debugShowCheckedModeBanner: false,
             title: 'Zeetionary App',
             // theme: ref.watch(themeNotifierProvider), // use toggle
@@ -120,9 +125,14 @@ class _MyAppState extends ConsumerState<MyApp> {
               },
             ),
             routeInformationParser: const RoutemasterParser(),
-          ),
-          error: (error, stackTrace) => ErrorText(error: error.toString()),
-          loading: () => const Loader(),
+          );
+          },
+          error: (error, stackTrace) {
+            return ErrorText(error: error.toString());
+          },
+          loading: () {
+            return const Loader();
+          },
         );
   }
 }

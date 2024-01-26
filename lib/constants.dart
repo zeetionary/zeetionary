@@ -335,24 +335,6 @@ class DividerSentences extends StatelessWidget {
   }
 }
 
-// new youtube package
-class YouTubeContainerDesignNew extends StatelessWidget {
-  const YouTubeContainerDesignNew({
-    super.key,
-    required YoutubePlayerController controller,
-  }) : _controller = controller;
-
-  final YoutubePlayerController _controller;
-
-  @override
-  Widget build(BuildContext context) {
-    return YoutubePlayer(
-      controller: _controller,
-      aspectRatio: 16 / 9,
-    );
-  }
-}
-
 class YouTubeContainerDesign extends ConsumerWidget {
   const YouTubeContainerDesign({
     super.key,

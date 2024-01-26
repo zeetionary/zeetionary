@@ -639,8 +639,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
-
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
@@ -658,62 +656,6 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdTwo = "myM5SY1mHoA";
-
-  final YoutubePlayerController _controllertwo = YoutubePlayerController(
-    initialVideoId: myVideoIdTwo,
-    flags: const YoutubePlayerFlags(
-      startAt: 1368, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdThree = "U_kx78rAlAk";
-
-  final YoutubePlayerController _controllerthree = YoutubePlayerController(
-    initialVideoId: myVideoIdThree,
-    flags: const YoutubePlayerFlags(
-      startAt: 562, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdFour = "Umf1U1IGB40";
-
-  final YoutubePlayerController _controllerfour = YoutubePlayerController(
-    initialVideoId: myVideoIdFour,
-    flags: const YoutubePlayerFlags(
-      startAt: 90, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  // static String myVideoIdFive = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  // final YoutubePlayerController _controllerfive = YoutubePlayerController(
-  //   initialVideoId: myVideoIdFive,
-  //   flags: const YoutubePlayerFlags(
-  //     startAt: 222222222222222, // DOPSUM: CHANGE IT
-  //     // endAt: 253, // DOPSUM: CHANGE IT
-  //     autoPlay: false,
-  //     enableCaption: true,
-  //     loop: true,
-  //     mute: false,
-  //   ),
-  // );
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -721,10 +663,6 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
         child: Column(
           children: [
             YouTubeContainerDesign(controller: _controller),
-            YouTubeContainerDesign(controller: _controllertwo),
-            YouTubeContainerDesign(controller: _controllerthree),
-            YouTubeContainerDesign(controller: _controllerfour),
-            // YouTubeContainerDesign(controller: _controllerfive),
           ],
         ),
       ),

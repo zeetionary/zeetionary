@@ -104,8 +104,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "beauty salon"),
+                            EntryTitle(word: "beauty salon"),
                           ],
                         ),
                         const Row(
@@ -823,6 +822,6 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+
 
 // end beauty salon// TODO Implement this library.

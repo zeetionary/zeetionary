@@ -597,7 +597,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
           child: YouTubeContainerDesign(controller: _controller)),
     );
   }
-  // morethan one video, only first autoplay
 
   // @override
   // Widget build(BuildContext context) {

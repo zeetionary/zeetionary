@@ -357,7 +357,6 @@ Usage: US (elsewhere: analogue)
 
 class YoutubeEmbeddedone extends StatelessWidget {
   static String myVideoId = "IgF3OX8nT0w";
-  static String myVideoIdTwo = "GVsUOuSjvcg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,30 +369,13 @@ class YoutubeEmbeddedone extends StatelessWidget {
     ),
   );
 
-  final YoutubePlayerController _controllertwo = YoutubePlayerController(
-    initialVideoId: myVideoIdTwo,
-    flags: const YoutubePlayerFlags(
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 94, // DOPSUM: CHANGE IT
-    ),
-  );
-
   YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            YouTubeContainerDesign(controller: _controller),
-            YouTubeContainerDesign(controller: _controllertwo),
-            // YouTubeContainerDesign(controller: _controllerthree),
-          ],
-        ),
+        child: YouTubeContainerDesign(controller: _controller),
       ),
     );
   }
@@ -672,7 +654,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
           child: YouTubeContainerDesign(controller: _controller)),
     );
   }
-  // morethan one video, only first autoplay
 
   // @override
   // Widget build(BuildContext context) {

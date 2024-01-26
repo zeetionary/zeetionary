@@ -265,7 +265,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 54, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -290,7 +289,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 595, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -315,7 +313,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 565, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -340,7 +337,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 249, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -365,7 +361,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 931, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -390,7 +385,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 1333, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 

@@ -419,7 +419,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 23, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -445,7 +444,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 148, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -471,7 +469,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 122, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -497,7 +494,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 13, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -523,7 +519,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 84, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -549,7 +544,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 39, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -575,7 +569,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 50, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -601,7 +594,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 11, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -627,7 +619,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 80, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -653,7 +644,6 @@ class YoutubeEmbeddedten extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 986, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -679,7 +669,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 620, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -705,7 +694,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -735,7 +723,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 
@@ -747,7 +735,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 
@@ -759,7 +747,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 

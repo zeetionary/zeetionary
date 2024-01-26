@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 349, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -426,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 1162, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -452,7 +452,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 606, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -478,7 +478,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 521, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 611, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -530,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 5357, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -556,7 +556,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 364, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -582,7 +582,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 569, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -608,7 +608,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 442, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -634,7 +634,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 742, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -660,7 +660,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 378, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -686,7 +686,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
       startAt: 1625, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+
       autoPlay: true,
       enableCaption: true,
       loop: true,
@@ -720,7 +720,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 
@@ -732,7 +732,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 
@@ -744,7 +744,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //       loop: true,
 //       mute: false,
 //       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
+//       
 //     ),
 //   );
 

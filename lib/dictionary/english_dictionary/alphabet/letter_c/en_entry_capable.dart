@@ -7,123 +7,126 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycameo extends StatelessWidget {
-// blank divider
-  EnglishEntrycameo({super.key});
-// blank divider
+class EnglishEntrycapable extends StatelessWidget {
+  // blank divider
+  EnglishEntrycapable({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcameo(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapable(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cameo"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos1(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables1(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He appears briefly towards the end of the film in a cameo role as a priest."); // DOPSUM: CHANGE TEXT
+        "You are capable of better work than this."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos2(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables2(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He's quite capable of lying to get out of trouble."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos3(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables3(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Employees who prove themselves to be capable will usually get promoted quite rapidly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos4(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables4(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Only the Democratic Party is capable of running the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos5(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables5(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos6(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables6(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos7(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables7(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos8(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables8(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos9(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables9(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos10(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables10(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos11(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables11(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos12(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables12(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcameos13(String languageCode) async {
-    // DOPSUM: CHANGE speakcameo
+  Future<void> speakcapables13(String languageCode) async {
+    // DOPSUM: CHANGE speakcapable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcameos1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcapables1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +149,22 @@ class EnglishEntrycameo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cameo"),
+                            EntryTitle(word: "capable"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkæmiəʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkeɪpəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcameo("en-GB"),
+                              onPressed: () => speakcapable("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkæmiəʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkeɪpəbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcameo("en-US"),
+                              onPressed: () => speakcapable("en-US"),
                             ),
                           ],
                         ),
@@ -207,25 +210,94 @@ class EnglishEntrycameo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نقێمی بە نەخش‌هەڵکەنراو، پارچە (نووسراوە، فیلم، شانو و هتد)
+کوردی: بەتوانا، توانا، توانادار، خورت، لێهاتوو، ژێهاتی، لێوەشاو، بەکارهاتوو، بەرژەوەند، شیاو، بەشیان
 
-١. (ناو) بەشێکی بچووکی فیلمێک یان شانۆیەک کە لەلایەن ئەکتەرێکی بەناوبانگەوە ڕۆڵی دەبیندرێت"""),
+١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He appears briefly towards the end of the film in a cameo role as a priest."),
+                                      "You are capable of better work than this."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک."),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cameo", follow LX strictly
+                                      "توانای کردنی کارێکی باشترت وەک لەمە هەیە."),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capable", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcameos1("en-GB"),
+                                    onPressed: () => speakcapables1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcameos1("en-US"),
+                                    onPressed: () => speakcapables1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He's quite capable of lying to get out of trouble."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "توانی باشی درۆکردنی هەیە بۆ دەرچوون لە کێشە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapables2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapables2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) هەبوونی توانای کردنی شتێک بە باشی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Employees who prove themselves to be capable will usually get promoted quite rapidly."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو کارمەندانەی کە دەیسەلمێنن کە لێوەشاوەن زوو پلەیان بەرزدەکرێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapables3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapables3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Only the Democratic Party is capable of running the country."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەنها پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapables4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapables4("en-US"),
                                   ),
                                 ],
                               ),
@@ -308,13 +380,20 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cameo (Derived forms: cameos)
-1. A small part in a film or play taken by a famous person
+- Adjective: capable 
+1. (usually followed by 'of') having capacity or ability
+"capable of winning"; "capable of hard work"; "capable of walking on two feet"
  
-2. A short literary description
+2. (followed by 'of') having the temperament or inclination for
+"no one believed her capable of murder"
  
-3. Engraving or carving in low relief on a stone (as in a brooch or ring)
-"an exquisite cameo"
+3. Possibly accepting or permitting (= open, subject)
+"a passage capable of misinterpretation";
+ 
+4. Having the requisite qualities for (= adequate to, equal to, up to)
+ 
+5. Having the skills and qualifications to do things well (= able)
+"a capable administrator"; "children as young as 14 can be extremely capable and dependable";
 """,
   );
 
@@ -347,8 +426,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lsFPbgK1v9I',
-    startSeconds: 304,
+    videoId: 'YZWTYutMqAE',
+    startSeconds: 124,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -372,8 +451,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Bl5630CeYFs',
-    startSeconds: 198,
+    videoId: 'DwUn9TMP5RE',
+    startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -397,8 +476,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'a9m3GD0DbPY',
-    startSeconds: 2251,
+    videoId: 'hFZFjoX2cGg',
+    startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -422,8 +501,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HGsjNOOaRXg',
-    startSeconds: 162,
+    videoId: 'hS2x1zl4rn0',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +526,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'waZyyWnNJ_Y',
-    startSeconds: 263,
+    videoId: 'tsxmyL7TUJg',
+    startSeconds: 1174,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +551,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tqX4jKktiS0',
-    startSeconds: 1181,
+    videoId: 'qUNYPkroz18',
+    startSeconds: 455,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +576,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2Ty5DSxOzLY',
-    startSeconds: 6,
+    videoId: 'U1KGRnWjllg',
+    startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +601,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0twDETh6QaI',
-    startSeconds: 61,
+    videoId: 'Vyb-sTrY_Y8',
+    startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -547,8 +626,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fXDJjS3fQPo',
-    startSeconds: 27,
+    videoId: 'AzeL_8bdrQA',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -572,133 +651,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mLwLV1W2H_c',
-    startSeconds: 517,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
+    videoId: '6Np4T4XTb0c',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

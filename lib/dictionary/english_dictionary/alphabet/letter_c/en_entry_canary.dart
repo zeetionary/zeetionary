@@ -350,7 +350,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Xadp_zx5B94?t=',
+    videoId: 'Xadp_zx5B94',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -375,7 +375,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xEUw8Nx5wvc?t=',
+    videoId: 'xEUw8Nx5wvc',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MWQKq4oUAUU?t=',
+    videoId: 'MWQKq4oUAUU',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ErkfcChIgT8?t=',
+    videoId: 'ErkfcChIgT8',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UqswCFhhPPg?t=',
+    videoId: 'UqswCFhhPPg',
     startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'I0J0WqssIqo?t=',
+    videoId: 'I0J0WqssIqo',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'F30R0tDIXP0?t=',
+    videoId: 'F30R0tDIXP0',
     startSeconds: 1529,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MKCznr1qAfE?t=',
+    videoId: 'MKCznr1qAfE',
     startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ii3lyM8fkl0?t=',
+    videoId: 'ii3lyM8fkl0',
     startSeconds: 3981,
     autoPlay: true,
     params: const YoutubePlayerParams(

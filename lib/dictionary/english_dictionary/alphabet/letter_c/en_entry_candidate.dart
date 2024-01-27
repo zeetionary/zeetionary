@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '9Jo5cSY9K-0?t=',
+    videoId: '9Jo5cSY9K-0',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UzzugWwv4-M?t=',
+    videoId: 'UzzugWwv4-M',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AAGIi62-sAU?t=',
+    videoId: 'AAGIi62-sAU',
     startSeconds: 1884,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'MzSktgpfD84?t=',
+    videoId: 'MzSktgpfD84',
     startSeconds: 1177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'S6yPZB9O2HU?t=',
+    videoId: 'S6yPZB9O2HU',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -701,7 +701,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'f98HtyjcWxE?t=',
+    videoId: 'f98HtyjcWxE',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -726,7 +726,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2KBcyW92JIQ?t=',
+    videoId: '2KBcyW92JIQ',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(

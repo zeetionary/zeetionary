@@ -408,7 +408,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CupbRr2m_sM"',
+    videoId: 'CupbRr2m_sM"',
     startSeconds: 693,
     autoPlay: true,
     params: const YoutubePlayerParams(

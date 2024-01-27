@@ -101,11 +101,17 @@ class EnglishEntryaback extends StatelessWidget {
 ١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was completely taken aback by his anger."),
-                              const ExampleSentenceKurdish(
-                                  text: "تووشی شۆک بوو بە توڕەییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was completely taken aback by his anger."),
+                                    ExampleSentenceKurdish(
+                                        text: "تووشی شۆک بوو بە توڕەییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -678,17 +678,15 @@ class ExampleSentenceEnglish extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 4.0),
-        child: Align(
-          alignment: Alignment.topLeft,
-          child: Text(
-            text,
-            style: TextStyle(fontSize: textSize),
-            textDirection: TextDirection.ltr,
-            textAlign: TextAlign.left,
-          ),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      child: Align(
+        alignment: Alignment.topLeft,
+        child: Text(
+          text,
+          style: TextStyle(fontSize: textSize),
+          textDirection: TextDirection.ltr,
+          textAlign: TextAlign.left,
         ),
       ),
     );
@@ -703,15 +701,13 @@ class ExampleSentenceKurdish extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
-    return Expanded(
-      child: Align(
-        alignment: Alignment.topLeft,
-        child: Text(
-          text,
-          style: TextStyle(fontSize: textSize),
-          textDirection: TextDirection.rtl,
-          textAlign: TextAlign.right,
-        ),
+    return Align(
+      alignment: Alignment.topRight,
+      child: Text(
+        text,
+        style: TextStyle(fontSize: textSize),
+        textDirection: TextDirection.rtl,
+        textAlign: TextAlign.right,
       ),
     );
   }
